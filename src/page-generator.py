@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 html = ''
-csv_file_name = 'goty-tracker-2022'
+csv_file_name = 'best-selling-psone-games'
 
 with open('../template/header.txt') as file:
     html += file.read()
