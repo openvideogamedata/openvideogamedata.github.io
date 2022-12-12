@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 
 html = ''
-csv_file_name = 'the-game-awards'
+csv_file_name = 'goty-tracker-2022'
 
 with open('../template/header.txt') as file:
     html += file.read()
@@ -14,7 +14,10 @@ with open('../data/' + csv_file_name + '.csv', newline='') as csvfile:
     for row in spamreader:
         html += '<tr>'
         for item in row:
-            html += '<td>' + item + '</td>'
+            if 'https' in item:
+                html += '<td><a href="'+ item +'">link</a>'
+            else:
+                html += '<td>' + item + '</td>'
 
         html += '</tr>'
     html += '</table>'
