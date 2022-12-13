@@ -27,8 +27,8 @@ python wikipedia-table-to-csv-file.py https://en.wikipedia.org/wiki/List_of_best
 
 Web Page Generate Example:
 - First parameter: Script to be executed
-- Second parameter: Name of the .csv file you want to generate
-- Third parameter: Title of the web page
+- Second parameter: Name of the .csv file you want to use as base for the web page
+- Third parameter: Title of the web page you want to generate
 ```bash
 python page-generator.py best-selling-psone-games 'Best Selling Playstation 1 Games'
 ```
