@@ -1,8 +1,15 @@
 from bs4 import BeautifulSoup
 import requests
 import csv
+import sys
 
-url = "https://en.wikipedia.org/wiki/List_of_best-selling_PlayStation_video_games"
+print('Params: ', sys.argv)
+
+# https://en.wikipedia.org/wiki/List_of_best-selling_PlayStation_video_games
+url = sys.argv[1]
+
+# best-selling-psone-games
+csv_file = sys.argv[2]
 
 response = requests.get(url)
 
@@ -10,7 +17,7 @@ soup = BeautifulSoup(response.content, "html.parser")
 
 table = soup.find("table", attrs={"class": "wikitable"})
 
-with open("../data/best-selling-psone-games.csv", "w", newline="") as csv_file:
+with open("../data/" + csv_file + ".csv", "w", newline="") as csv_file:
   writer = csv.writer(csv_file, delimiter=',')
   
   table_header = []

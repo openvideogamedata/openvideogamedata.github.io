@@ -16,3 +16,8 @@ Install [Python](https://www.python.org/) and [Pip](https://pypi.org/project/pip
 ```bash
 pip install -r requirements.txt
 ```
+
+Example:
+```bash
+python wikipedia-table-to-csv-file.py https://en.wikipedia.org/wiki/List_of_best-selling_PlayStation_video_games best-selling-psone-games
+```
