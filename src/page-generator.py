@@ -1,13 +1,16 @@
 import csv
 from datetime import datetime
 import os
+import sys
 
 html = ''
-csv_file_name = 'best-selling-psone-games'
+csv_file_name = sys.argv[1]
+page_header = sys.argv[2]
 
 with open('../template/header.txt') as file:
     html += file.read()
 
+html += '<h1>'+page_header+'</h1>'
 with open('../data/' + csv_file_name + '.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',')
     html += '<table>'

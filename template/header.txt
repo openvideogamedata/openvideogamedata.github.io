@@ -19,4 +19,4 @@
     <![endif]-->
   </head>
   <body>
-    <h1>The Game Awards - GOTY</h1>
+    
