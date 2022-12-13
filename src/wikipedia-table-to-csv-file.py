@@ -26,12 +26,24 @@ with open("../data/" + csv_file + ".csv", "w", newline="") as csv_file:
 
   writer.writerow(table_header)
 
+  rowspan_size = 0
+  rowspan_index = 0
+  rowspan_value = ""
   for row in table.find_all("tr"):
     cells = row.find_all("td")
+    if rowspan_size > 0:
+      cells.insert(rowspan_index, rowspan_value)
+      rowspan_size -= 1
     
     tds = []
     if (len(cells) > 0):
-      for cell in cells:
+      for index, cell in enumerate(cells):
+        if cell.has_attr('rowspan'):
+          rowspan_size = int(cell.get('rowspan'))-1
+          del cell['rowspan']
+          rowspan_index = index
+          rowspan_value = cell
+
         tds.append(cell.get_text().strip())
     
       writer.writerow(tds)
