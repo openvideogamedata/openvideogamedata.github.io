@@ -3,9 +3,13 @@ from datetime import datetime
 import os
 import sys
 
-html = ''
+if len(sys.argv) < 3:
+  print('two arguments are needed: [csv input name] [page title]')
+  exit()
+
 csv_file_name = sys.argv[1]
 page_header = sys.argv[2]
+html = ''
 
 with open('../template/header.txt') as file:
     html += file.read()
