@@ -34,13 +34,12 @@ def log_on_api(access_token):
     return access_token
 
 def get_game_cover_by_name(returned_token, game_name):
-    raw_data = f'fields name, cover.url, cover.image_id; search "{game_name}"; limit 1;'
+    raw_data = f'fields name, cover.url, cover.image_id; search "{game_name}"; where name~"{game_name}"; limit 1;'
     Headers = { 'Authorization' : 'Bearer ' + returned_token, 'Client-ID' : YOUR_CLIENT_ID }
     response = requests.post('https://api.igdb.com/v4/games', headers=Headers, data=raw_data)
 
     if response.status_code == 200:
         json_text = json.loads(response.text)
-
         if json_text:
             cover_id = json_text[0]['cover']['image_id']
             cover_url = f'https://images.igdb.com/igdb/image/upload/t_cover_big/{cover_id}.jpg'
