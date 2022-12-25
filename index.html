@@ -9,17 +9,115 @@
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
     <style>
+      body {
+        max-width: 900px;
+      }
       #blank_space {
         height: 2em;
       }
+      .game-card {
+        margin: 1.5em 0.5em 1em 0.5em;
+        display: inline-block;
+        min-width: 15em;
+      }
+      .game-card-title {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+      }
+      .game-card-cover {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .game-card-description {
+        margin-bottom: 0;
+        text-align: center;
+      }
     </style>
     <!-- as três linhas abaixo são uma correção para que elementos semânticos HTML5 funcionem em versões antigas do Internet Explorer-->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]> 264 x 352
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
   </head>
   <body>
     <h1>Open Video Game Data</h1>
+    <h2>🏆 Game Awards</h2>
+    <h3>The best games of 2022</h3>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co4jni.png" height="176" width="132">
+      <h5 class="game-card-title">Elden Ring</h5>
+      <p class="game-card-description">Won 9 awards</p>
+    </div>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co5s5v.png" height="176" width="132">
+      <h5 class="game-card-title">God of War: Ragnarok	</h5>
+      <p class="game-card-description">Won 2 awards</p>
+    </div>
+    <p>More info: <a href="pages/goty-tracker-2022.html">GOTY Tracker</a>, <a href="pages/the-game-awards.html">The Game Awards</a></p>
+    <h2>📈 Game Sales</h2>
+    <h3>Sony</h3>
+    <h4>Playstation 5 best-selling games</h4>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co2kj9.png" height="176" width="132">
+      <h5 class="game-card-title">Demon's Souls</h5>
+      <p class="game-card-description">Copies sold: 1.4 million</p>
+    </div>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co2str.png" height="176" width="132">
+      <h5 class="game-card-title">Ratchet & Clank: Rift Apart</h5>
+      <p class="game-card-description">Copies sold: 1.1 million</p>
+    </div>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co3wc1.png" height="176" width="132">
+      <h5 class="game-card-title">Returnal</h5>
+      <p class="game-card-description">Copies sold: 560 thousand</p>
+    </div>
+    <p>More info:
+      <a href="pages/best-selling-psone-games.html">Playstation 1</a>,
+      <a href="pages/best-selling-pstwo-games.html">Playstation 2</a>,
+      <a href="pages/best-selling-psthree-games.html">Playstation 3</a>,
+      <a href="pages/best-selling-psfour-games.html">Playstation 4</a>,
+      <a href="pages/best-selling-psfive-games.html">Playstation 5</a>,
+      <a href="pages/best-selling-psp-games.html">PSP</a>
+    </p>
+    <h3>Nintendo</h3>
+    <h4>Nintendo Switch best-selling games</h4>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co213p.png" height="176" width="132">
+      <h5 class="game-card-title">Mario Kart 8 Deluxe</h5>
+      <p class="game-card-description">Copies sold: 48.41 million</p>
+    </div>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co3wls.png" height="176" width="132">
+      <h5 class="game-card-title">Animal Crossing: New Horizons</h5>
+      <p class="game-card-description">Copies sold: 40.17 million</p>
+    </div>
+    <div class="game-card">
+      <img class="game-card-cover" src="/img/co2255.png" height="176" width="132">
+      <h5 class="game-card-title">Super Smash Bros. Ultimate</h5>
+      <p class="game-card-description">Copies sold: 29.53 million</p>
+    </div>
+    <p>More info: (working progress)</p>
+    <h3>Microsoft</h3>
+    <h4>Xbox Series best-selling games</h4>
+    <p>Working Progress</p>
+    <p>More info: 
+      <a href="pages/best-selling-xbox-games.html">Xbox</a>,
+      <a href="pages/best-selling-xbox360-games.html">Xbox 360</a>,
+      <a href="pages/best-selling-xbox-one-games.html">Xbox One</a>
+    </p>
+    <h3>General</h3>
+    <ul>
+      <li><a href="pages/best-selling-videogames.html">All Games</a></li>
+      <li><a href="pages/most-played-by-player-count.html">Most Played by Player Count</a></li>
+      <li><a href="pages/best-selling-consoles.html">Best selling consoles</a></li>
+    </ul>
+    <h2>📊 Review Aggregators</h2>
+    <ul>
+      <li>Metacrict (working progress)</li>
+      <li>Open Critic (working progress)</li>
+    </ul>
     <div id="blank_space"></div>
     <h2>About The Organization</h2>
     <p>Open Video Game Data is a non-profit organization created with the aim of democratizing access to information about the games industry in a totally open and free way.</p>
@@ -27,37 +125,7 @@
     <p>To achieve this goal, the organization works closely with the gaming community and companies, gathering and compiling data from sources that encourage it and making it available for free and accessible to all.</p>
     <p>Over time, one organization hopes to build a comprehensive and reliable database on the gaming industry, making it a valuable resource for everyone involved in the industry.</p>
     <div id="blank_space"></div>
-    <h2>Game Awards</h2>
-    <ul>
-      <li><a href="pages/goty-tracker-2022.html">GOTY Tracker</a></li>
-      <li><a href="pages/the-game-awards.html">The Game Awards</a></li>
-    </ul>
-    <h2>Game Sales</h2>
-    <h3>General</h3>
-    <ul>
-      <li><a href="pages/best-selling-videogames.html">All Games</a></li>
-      <li><a href="pages/most-played-by-player-count.html">Most Played by Player Count</a></li>
-      <li><a href="pages/best-selling-consoles.html">Best selling consoles</a></li>
-    </ul>
-    <h3>Sony</h3>
-    <ul>
-      <li><a href="pages/best-selling-psone-games.html">Playstation 1</a></li>
-      <li><a href="pages/best-selling-pstwo-games.html">Playstation 2</a></li>
-      <li><a href="pages/best-selling-psthree-games.html">Playstation 3</a></li>
-      <li><a href="pages/best-selling-psfour-games.html">Playstation 4</a></li>
-      <li><a href="pages/best-selling-psfive-games.html">Playstation 5</a></li>
-      <li><a href="pages/best-selling-psp-games.html">PSP</a></li>
-    </ul>
-    <h3>Microsoft</h3>
-    <ul>
-      <li><a href="pages/best-selling-xbox-games.html">Xbox</a></li>
-      <li><a href="pages/best-selling-xbox360-games.html">Xbox 360</a></li>
-      <li><a href="pages/best-selling-xbox-one-games.html">Xbox One</a></li>
-    </ul>
-    <h2>Review Aggregators</h2>
-    <p>TODO</p>
-    <div id="blank_space"></div>
-    <p>Created with love by <a href="https://github.com/open-video-game-data">OpenVideoGameData</a></p>
-    <p>Contributors: <a href="https://github.com/orgs/open-video-game-data/people">Collaborators</a></p>
+    <p>Created with love by <a href="https://github.com/openvideogamedata">OpenVideoGameData</a> - 
+      Contributors: <a href="https://github.com/orgs/openvideogamedata/people">Collaborators</a></p>
   </body>
 </html>
