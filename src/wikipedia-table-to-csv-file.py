@@ -3,12 +3,11 @@ import requests
 import csv
 import sys
 
-print('Params: ', sys.argv)
+if len(sys.argv) < 3:
+  print('two arguments are needed: [wikipedia url] [csv output name]')
+  exit()
 
-# https://en.wikipedia.org/wiki/List_of_best-selling_PlayStation_video_games
 url = sys.argv[1]
-
-# best-selling-psone-games
 csv_file = sys.argv[2]
 
 response = requests.get(url)
