@@ -16,7 +16,7 @@ soup = BeautifulSoup(response.content, "html.parser")
 
 table = soup.find("table", attrs={"class": "wikitable"})
 
-with open("../data/" + csv_file + ".csv", "w", newline="") as csv_file:
+with open("../data/" + csv_file + ".csv", "w", newline="", encoding="utf-8") as csv_file:
   writer = csv.writer(csv_file, delimiter=',')
   
   table_header = []
