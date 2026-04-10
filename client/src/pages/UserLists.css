@@ -1,0 +1,91 @@
+.user-lists-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 3rem 0 2.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  transition: color 0.15s;
+}
+.back-link:hover { color: var(--purple-light); }
+
+.user-lists-body {
+  padding: 2.5rem 1rem 5rem;
+}
+
+.user-lists-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.user-list-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.user-list-card:hover {
+  border-color: var(--purple-light);
+  transform: translateY(-2px);
+}
+
+.user-list-covers {
+  display: flex;
+  height: 100px;
+  overflow: hidden;
+  background: var(--surface-3);
+}
+
+.ul-cover {
+  flex: 1;
+  object-fit: cover;
+}
+
+.ul-cover-placeholder {
+  flex: 1;
+  background: var(--surface-3);
+}
+
+.user-list-info {
+  padding: 0.75rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.user-list-master {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user-list-count {
+  font-size: 0.75rem;
+  color: var(--cyan);
+}
+
+.user-list-date {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.empty-state {
+  color: var(--text-muted);
+  padding: 2rem 0;
+}

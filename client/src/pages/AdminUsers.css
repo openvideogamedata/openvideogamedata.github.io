@@ -1,0 +1,131 @@
+.admin-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 3rem 0 2.5rem;
+}
+
+.admin-breadcrumb {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #ef4444;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.admin-body {
+  padding: 2.5rem 1rem 5rem;
+}
+
+.admin-toolbar {
+  margin-bottom: 1.5rem;
+}
+
+.admin-search-form {
+  display: flex;
+  gap: 0.75rem;
+  max-width: 480px;
+}
+
+.admin-search-input {
+  flex: 1;
+  padding: 0.6rem 1rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: 0.875rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.admin-search-input:focus { border-color: var(--purple); }
+
+.admin-table {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.admin-table-head {
+  display: grid;
+  grid-template-columns: 1fr 120px 80px 60px 80px 80px;
+  gap: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--surface);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+}
+
+.admin-table-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 80px 60px 80px 80px;
+  gap: 0.75rem;
+  align-items: center;
+  padding: 0.75rem 1.25rem;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+}
+.admin-table-row:last-child { border-bottom: none; }
+
+.banned-row { opacity: 0.6; }
+
+.admin-user-name {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.admin-user-name:hover { color: var(--purple-light); }
+
+.admin-nick { font-size: 0.78rem; color: var(--text-muted); }
+.admin-role { font-size: 0.78rem; color: var(--cyan); }
+
+.status-active { color: #10b981; font-size: 0.78rem; }
+.status-banned { color: #ef4444; font-size: 0.78rem; }
+
+.btn-ban {
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid rgba(239,68,68,0.4);
+  color: #ef4444;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-ban:hover { background: rgba(239,68,68,0.1); }
+
+.btn-unban {
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid rgba(16,185,129,0.4);
+  color: #10b981;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.btn-unban:hover { background: rgba(16,185,129,0.1); }
+
+.btn-ban:disabled, .btn-unban:disabled { opacity: 0.5; cursor: not-allowed; }
+
+@media (max-width: 700px) {
+  .admin-table-head,
+  .admin-table-row {
+    grid-template-columns: 1fr 80px 60px 80px;
+  }
+  .admin-table-head span:nth-child(2),
+  .admin-table-head span:nth-child(3),
+  .admin-table-row .admin-nick,
+  .admin-table-row .admin-role { display: none; }
+}

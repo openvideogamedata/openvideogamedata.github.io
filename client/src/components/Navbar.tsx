@@ -1,16 +1,33 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
+import PixelArt from './PixelArt'
+import { useAuth } from '../context/AuthContext'
+import { login, logout } from '../api/auth'
 import './Navbar.css'
 
 export default function Navbar() {
   const [searchOpen, setSearchOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
+  const { user, loading } = useAuth()
 
   useEffect(() => {
     if (searchOpen) inputRef.current?.focus()
   }, [searchOpen])
+
+  // Close user menu on outside click
+  useEffect(() => {
+    function handleClick(e: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
+        setMenuOpen(false)
+      }
+    }
+    if (menuOpen) document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [menuOpen])
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault()
@@ -19,7 +36,6 @@ export default function Navbar() {
       setSearchOpen(false)
       setQuery('')
     }
-    // HashRouter: useSearchParams works with hash, but navigate handles it correctly
   }
 
   return (
@@ -55,15 +71,45 @@ export default function Navbar() {
               </button>
             </form>
           ) : (
-            <button
-              className="icon-btn"
-              onClick={() => setSearchOpen(true)}
-              aria-label="Open search"
-            >
+            <button className="icon-btn" onClick={() => setSearchOpen(true)} aria-label="Open search">
               <SearchIcon />
             </button>
           )}
-          <Link to="/login" className="btn-primary-sm">Sign in</Link>
+
+          {!loading && (
+            user ? (
+              <div className="user-menu-wrap" ref={menuRef}>
+                <button className="user-avatar-btn" onClick={() => setMenuOpen(v => !v)}>
+                  {user.userPicture
+                    ? <PixelArt matrix={user.userPicture} size={5} cellSize={4} className="nav-pixel-avatar" />
+                    : <span className="nav-avatar-placeholder">{user.nickname?.[0]?.toUpperCase()}</span>
+                  }
+                </button>
+                {menuOpen && (
+                  <div className="user-menu">
+                    <div className="user-menu-header">
+                      <span className="user-menu-name">{user.fullName}</span>
+                      <span className="user-menu-nick">@{user.nickname}</span>
+                    </div>
+                    <Link to={`/users/${user.nickname}`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Profile</Link>
+                    <Link to={`/users/${user.nickname}/trackers`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Trackers</Link>
+                    <Link to={`/users/${user.nickname}/lists`} className="user-menu-item" onClick={() => setMenuOpen(false)}>My Lists</Link>
+                    <Link to="/friends" className="user-menu-item" onClick={() => setMenuOpen(false)}>
+                      Friends
+                      {user.hasNotifications && <span className="menu-badge" />}
+                    </Link>
+                    <Link to="/notifications" className="user-menu-item" onClick={() => setMenuOpen(false)}>
+                      Notifications
+                      {user.hasNotifications && <span className="menu-badge" />}
+                    </Link>
+                    <button className="user-menu-item user-menu-logout" onClick={logout}>Sign out</button>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <button className="btn-primary-sm" onClick={() => login()}>Sign in</button>
+            )
+          )}
         </div>
       </div>
     </header>

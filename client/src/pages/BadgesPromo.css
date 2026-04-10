@@ -1,0 +1,159 @@
+.promo-hero {
+  background: radial-gradient(ellipse at 60% 0%, rgba(124,58,237,0.25) 0%, transparent 70%),
+              linear-gradient(180deg, #07070f 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 6rem 0 5rem;
+}
+
+.promo-hero-inner {
+  max-width: 640px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.promo-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--purple-light);
+  margin-bottom: 1rem;
+  padding: 0.3rem 0.9rem;
+  border: 1px solid rgba(124,58,237,0.3);
+  border-radius: 999px;
+  background: rgba(124,58,237,0.08);
+}
+
+.promo-title {
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 1.25rem;
+}
+
+.promo-accent { color: var(--purple-light); }
+
+.promo-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.promo-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.promo-btn {
+  padding: 0.7rem 1.75rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.btn-primary.promo-btn {
+  background: var(--purple);
+  color: #fff;
+}
+.btn-primary.promo-btn:hover { background: #6d28d9; box-shadow: 0 0 20px var(--purple-glow); }
+
+.btn-ghost.promo-btn {
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.btn-ghost.promo-btn:hover { border-color: var(--purple-light); color: var(--text); }
+
+/* Badges showcase */
+.promo-badges-section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.promo-section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.promo-badges-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.25rem;
+}
+
+.promo-badge-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1.25rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: border-color 0.2s, transform 0.2s;
+}
+.promo-badge-card:hover { border-color: var(--purple-light); transform: translateY(-2px); }
+
+.promo-badge-art {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-3);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.promo-badge-placeholder {
+  width: 70px;
+  height: 70px;
+  background: var(--surface-3);
+  border-radius: 10px;
+}
+
+.promo-badge-info { display: flex; flex-direction: column; gap: 0.3rem; }
+.promo-badge-name { font-size: 0.875rem; font-weight: 600; color: var(--text); }
+.promo-badge-desc { font-size: 0.75rem; color: var(--text-muted); line-height: 1.4; }
+
+/* How to earn */
+.promo-how { padding: 4rem 0 5rem; }
+
+.promo-steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.promo-step {
+  padding: 1.5rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+.promo-step-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+
+.promo-step-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.promo-step-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}

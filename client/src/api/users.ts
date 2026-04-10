@@ -39,6 +39,10 @@ export interface UserProfileDto {
   gamification: GamificationDto | null
 }
 
+export function getMe(): Promise<UserProfileDto> {
+  return api.get<UserProfileDto>('/api/users/me')
+}
+
 export function getTopContributors(): Promise<TopContributorDto[]> {
   return api.get<TopContributorDto[]>('/api/users/top-contributors')
 }

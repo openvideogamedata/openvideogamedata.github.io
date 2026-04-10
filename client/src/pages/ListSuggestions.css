@@ -1,0 +1,128 @@
+.suggestions-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 4rem 0 3rem;
+}
+
+.suggestions-body {
+  padding: 2.5rem 1rem 5rem;
+  max-width: 780px;
+}
+
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.suggestion-card {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  transition: border-color 0.15s;
+}
+
+.suggestion-card:hover { border-color: var(--border); }
+
+.suggestion-main {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.suggestion-votes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.vote-btn {
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+
+.vote-btn:hover { background: rgba(124, 58, 237, 0.15); color: var(--purple-light); }
+.vote-down:hover { background: rgba(239, 68, 68, 0.1); color: #ef4444; }
+
+.suggestion-content { flex: 1; min-width: 0; }
+
+.suggestion-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.suggestion-list-link {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--text);
+  text-decoration: none;
+}
+.suggestion-list-link:hover { color: var(--purple-light); }
+
+.suggestion-sep { color: var(--border); }
+
+.suggestion-source {
+  font-size: 0.8rem;
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.suggestion-games {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.suggestion-game-chip {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--text-muted);
+  transition: color 0.15s, border-color 0.15s;
+}
+.suggestion-game-chip:hover { color: var(--text); border-color: var(--purple-light); }
+
+.suggestion-more {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  padding: 0.2rem 0.5rem;
+}
+
+.suggestion-footer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.suggestion-user {
+  font-size: 0.75rem;
+  color: var(--purple-light);
+  text-decoration: none;
+}
+
+.suggestion-time {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.empty-state {
+  color: var(--text-muted);
+  padding: 2rem 0;
+}
