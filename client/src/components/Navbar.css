@@ -25,12 +25,6 @@
   flex-shrink: 0;
 }
 
-.logo-icon {
-  font-size: 1.4rem;
-  color: var(--purple-light);
-  line-height: 1;
-}
-
 .logo-text {
   color: var(--text);
 }

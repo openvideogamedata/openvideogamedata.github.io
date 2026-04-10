@@ -42,13 +42,13 @@ export default function Navbar() {
     <header className="navbar">
       <div className="container navbar-inner">
         <Link to="/" className="navbar-logo">
-          <span className="logo-icon">◈</span>
           <span className="logo-text">
             Open<span className="logo-accent">VGD</span>
           </span>
         </Link>
 
         <nav className="navbar-links">
+          <Link to="/lists" className="nav-link">Lists</Link>
           <Link to="/games" className="nav-link">Games</Link>
           <Link to="/badges" className="nav-link">Badges</Link>
           <Link to="/top-contributors" className="nav-link">Rankings</Link>

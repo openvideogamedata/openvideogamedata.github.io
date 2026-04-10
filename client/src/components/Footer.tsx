@@ -5,10 +5,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="container footer-inner">
-        <div className="footer-brand">
-          <span className="logo-icon">◈</span>
-          <span className="footer-name">Open Video Game Data</span>
-        </div>
         <nav className="footer-links">
           <Link to="/about">About</Link>
           <Link to="/privacy">Privacy</Link>
@@ -16,9 +12,6 @@ export default function Footer() {
             GitHub
           </a>
         </nav>
-        <p className="footer-copy">
-          Community-curated. Open data.
-        </p>
       </div>
     </footer>
   )

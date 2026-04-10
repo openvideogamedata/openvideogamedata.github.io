@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
 import Search from './pages/Search'
+import Lists from './pages/Lists'
 import Games from './pages/Games'
 import GameDetail from './pages/GameDetail'
 import Timeline from './pages/Timeline'
@@ -38,6 +39,7 @@ export default function App() {
             {/* Phase 1 — Public */}
             <Route path="/" element={<Home />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/lists" element={<Lists />} />
             <Route path="/games" element={<Games />} />
             <Route path="/games/:id" element={<GameDetail />} />
             <Route path="/timeline" element={<Timeline />} />

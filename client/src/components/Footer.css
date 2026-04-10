@@ -11,23 +11,6 @@
   flex-wrap: wrap;
 }
 
-.footer-brand {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-weight: 600;
-  font-size: 0.9rem;
-}
-
-.footer-brand .logo-icon {
-  font-size: 1.1rem;
-  color: var(--purple-light);
-}
-
-.footer-name {
-  color: var(--text-muted);
-}
-
 .footer-links {
   display: flex;
   gap: 20px;
@@ -44,8 +27,3 @@
   color: var(--purple-light);
 }
 
-.footer-copy {
-  font-size: 0.8rem;
-  color: var(--text-faint);
-  margin-left: auto;
-}
