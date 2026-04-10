@@ -28,7 +28,13 @@
 
 @media (max-width: 768px) {
   .games-body { grid-template-columns: 1fr; }
-  .games-filters { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .games-filters {
+    position: static;
+    top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
 
 /* Filters sidebar */

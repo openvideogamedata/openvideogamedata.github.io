@@ -74,7 +74,7 @@
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 180px;
+  width: min(280px, calc(100vw - 24px));
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -99,6 +99,55 @@
 .mobile-nav-link:hover {
   background: var(--surface-3);
   color: var(--text);
+}
+
+.mobile-search-form {
+  display: flex;
+  gap: 8px;
+  padding: 0.875rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.mobile-search-input {
+  min-width: 0;
+  flex: 1;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: var(--text);
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.mobile-search-input::placeholder {
+  color: var(--text-faint);
+}
+
+.mobile-search-btn,
+.mobile-nav-button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  background: var(--purple);
+  color: #fff;
+}
+
+.mobile-nav-divider {
+  height: 1px;
+  background: var(--border);
+}
+
+.mobile-nav-button {
+  width: calc(100% - 1.75rem);
+  margin: 0.875rem;
+}
+
+.mobile-nav-button-danger {
+  background: rgba(239,68,68,0.14);
+  color: #f87171;
 }
 
 .icon-btn {
@@ -270,7 +319,20 @@
 }
 
 @media (max-width: 640px) {
+  .navbar-inner {
+    gap: 12px;
+    justify-content: space-between;
+  }
+
   .navbar-links { display: none; }
   .mobile-nav-wrap { display: block; }
-  .navbar-search-input { width: 140px; }
+  .navbar-actions {
+    gap: 8px;
+  }
+  .navbar-search-form,
+  .icon-btn:not(.mobile-nav-toggle),
+  .user-menu-wrap,
+  .btn-primary-sm {
+    display: none;
+  }
 }

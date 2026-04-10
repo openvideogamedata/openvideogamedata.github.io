@@ -71,10 +71,60 @@ export default function Navbar() {
             </button>
             {mobileNavOpen && (
               <div className="mobile-nav-menu">
+                <form className="mobile-search-form" onSubmit={handleSearch}>
+                  <input
+                    className="mobile-search-input"
+                    value={query}
+                    onChange={e => setQuery(e.target.value)}
+                    placeholder="Search games, lists..."
+                  />
+                  <button type="submit" className="mobile-search-btn">Search</button>
+                </form>
                 <Link to="/lists" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Lists</Link>
                 <Link to="/games" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Games</Link>
                 <Link to="/badges" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Badges</Link>
                 <Link to="/top-contributors" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Rankings</Link>
+                {!loading && (
+                  user ? (
+                    <>
+                      <div className="mobile-nav-divider" />
+                      <Link to={`/users/${user.nickname}`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Profile</Link>
+                      <Link to={`/users/${user.nickname}/trackers`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Trackers</Link>
+                      <Link to={`/users/${user.nickname}/lists`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>My Lists</Link>
+                      <Link to="/timeline" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Timeline</Link>
+                      <Link to="/friends" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Friends</Link>
+                      <Link to="/notifications" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Notifications</Link>
+                      {isAdmin && (
+                        <>
+                          <Link to="/admin/users" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Users</Link>
+                          <Link to="/admin/lists/new" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: New List</Link>
+                        </>
+                      )}
+                      <button
+                        className="mobile-nav-button mobile-nav-button-danger"
+                        onClick={() => {
+                          setMobileNavOpen(false)
+                          logout()
+                        }}
+                      >
+                        Sign out
+                      </button>
+                    </>
+                  ) : (
+                    <>
+                      <div className="mobile-nav-divider" />
+                      <button
+                        className="mobile-nav-button"
+                        onClick={() => {
+                          setMobileNavOpen(false)
+                          login()
+                        }}
+                      >
+                        Sign in
+                      </button>
+                    </>
+                  )
+                )}
               </div>
             )}
           </div>
