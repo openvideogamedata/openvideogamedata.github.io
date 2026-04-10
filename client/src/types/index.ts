@@ -59,3 +59,60 @@ export interface TimelineGeneration {
   name: string
   lists: GameListCategory[]
 }
+
+// Home-specific types
+export interface HomeWinner {
+  gameId: number
+  gameTitle: string
+  coverImageUrl: string
+}
+
+export interface HomeList {
+  id: number
+  title: string
+  year: number | null
+  numberOfGames: number
+  numberOfSources: number
+  slug: string
+  topThreeWinners: HomeWinner[]
+}
+
+export enum ActivityType {
+  GameList = 0,
+  Tracker = 1,
+}
+
+export interface HomeUser {
+  fullName: string
+  userPicture: string[] | null
+}
+
+export interface HomeTracker {
+  status: TrackStatus
+}
+
+export interface HomeActivity {
+  activity: ActivityType
+  dateAdded: string
+  itemsTracked: number
+  userProfileUrl: string
+  gameListUrl: string
+  user: HomeUser | null
+  mostRecentTracker: HomeTracker | null
+  gameListName: string | null
+}
+
+export interface HomeResponse {
+  pinnedLists: HomeList[]
+  userActivity: HomeActivity[]
+  allTags: string[]
+  listsCategories: HomeList[]
+  pager: Pager
+  filters: {
+    page: number
+    pageSize: number
+    maxPages: number
+    searchedText: string
+    tags: string[]
+  }
+}

@@ -1,214 +1,307 @@
-import { useState, useEffect, useRef } from 'react'
-import { useNavigate, Link } from 'react-router-dom'
-import GameCard from '../components/GameCard'
-import { getGames } from '../api/games'
-import { getTimeline } from '../api/timeline'
-import type { GameSummary, TimelineGeneration } from '../types'
+import { useState, useEffect, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
+import ListCard from '../components/ListCard'
+import Paginator from '../components/Paginator'
+import { getHome, getLists } from '../api/home'
+import { timeAgo } from '../utils/time'
+import type { HomeList, HomeActivity, HomeResponse, Pager, ActivityType } from '../types'
 import './Home.css'
 
 export default function Home() {
-  const [query, setQuery] = useState('')
-  const [games, setGames] = useState<GameSummary[]>([])
-  const [timeline, setTimeline] = useState<TimelineGeneration[]>([])
+  const [data, setData] = useState<HomeResponse | null>(null)
   const [loading, setLoading] = useState(true)
+
+  // lists section state
+  const [lists, setLists] = useState<HomeList[]>([])
+  const [pager, setPager] = useState<Pager | null>(null)
+  const [activeTags, setActiveTags] = useState<string[]>(['all'])
+  const [search, setSearch] = useState('')
+  const [searchInput, setSearchInput] = useState('')
+  const [listsLoading, setListsLoading] = useState(false)
+
   const navigate = useNavigate()
-  const heroInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
-    Promise.all([
-      getGames({ pageSize: 18, order: 0 }).catch(() => ({ games: [] as GameSummary[], pager: null })),
-      getTimeline().catch(() => [] as TimelineGeneration[]),
-    ]).then(([gamesRes, timelineRes]) => {
-      setGames(gamesRes.games)
-      setTimeline(timelineRes)
-      setLoading(false)
-    })
+    getHome({ pageSize: 6 })
+      .then(res => {
+        setData(res)
+        setLists(res.listsCategories)
+        setPager(res.pager as Pager)
+        setLoading(false)
+      })
+      .catch(() => setLoading(false))
   }, [])
+
+  const fetchLists = useCallback((page: number, tags: string[], searchText: string) => {
+    setListsLoading(true)
+    getLists({
+      page,
+      pageSize: 6,
+      tags: tags.join(','),
+      search: searchText || undefined,
+    })
+      .then(res => {
+        setLists((res as { lists: HomeList[]; pager: Pager }).lists)
+        setPager((res as { lists: HomeList[]; pager: Pager }).pager)
+        setListsLoading(false)
+      })
+      .catch(() => setListsLoading(false))
+  }, [])
+
+  function toggleTag(tag: string) {
+    let next: string[]
+    if (tag === 'all') {
+      next = ['all']
+    } else {
+      const without = activeTags.filter(t => t !== 'all')
+      next = without.includes(tag)
+        ? without.filter(t => t !== tag)
+        : [...without, tag]
+      if (next.length === 0) next = ['all']
+    }
+    setActiveTags(next)
+    fetchLists(1, next, search)
+  }
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault()
-    if (query.trim()) {
-      navigate(`/search?q=${encodeURIComponent(query.trim())}`)
-    }
+    setSearch(searchInput)
+    fetchLists(1, activeTags, searchInput)
   }
 
-  const latestGeneration = timeline[timeline.length - 1]
+  function handlePageChange(page: number) {
+    fetchLists(page, activeTags, search)
+    document.getElementById('all-lists-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+
+  if (loading) return <HomeSkeletonLoader />
 
   return (
     <div className="home">
-      {/* ── Hero ─────────────────────────────────────────────── */}
-      <section className="hero">
-        <div className="hero-glow hero-glow-1" />
-        <div className="hero-glow hero-glow-2" />
-        <div className="container hero-content">
-          <div className="hero-badge">Community-curated database</div>
-          <h1 className="hero-title">
-            The open archive of
-            <br />
-            <span className="hero-title-accent">video game history</span>
-          </h1>
-          <p className="hero-subtitle">
-            Discover, track, and explore games across every generation.
-            <br />
-            Built by players, for players.
-          </p>
-
-          <form className="hero-search" onSubmit={handleSearch}>
-            <div className="hero-search-wrap">
-              <span className="hero-search-icon">
-                <SearchIcon />
-              </span>
-              <input
-                ref={heroInputRef}
-                className="hero-search-input"
-                placeholder="Search games, lists, or users…"
-                value={query}
-                onChange={e => setQuery(e.target.value)}
-                autoComplete="off"
-              />
-              {query && (
-                <button
-                  type="button"
-                  className="hero-search-clear"
-                  onClick={() => { setQuery(''); heroInputRef.current?.focus() }}
-                  aria-label="Clear"
-                >×</button>
-              )}
-            </div>
-            <button type="submit" className="hero-search-btn">Search</button>
-          </form>
-
-          <div className="hero-cta-links">
-            <Link to="/games" className="hero-link">Browse all games →</Link>
-            <Link to="/timeline" className="hero-link">Explore by generation →</Link>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Featured Games ────────────────────────────────────── */}
-      <section className="section">
+      {/* ── Header ───────────────────────────────────────────── */}
+      <section className="home-header">
         <div className="container">
-          <div className="section-header">
-            <div>
-              <h2 className="section-title">Top Cited Games</h2>
-              <p className="section-subtitle">Most referenced across community lists</p>
-            </div>
-            <Link to="/games" className="see-all-link">See all →</Link>
-          </div>
-
-          {loading ? (
-            <div className="games-grid">
-              {Array.from({ length: 18 }).map((_, i) => (
-                <div key={i} className="game-card-skeleton">
-                  <div className="skeleton cover-skeleton" />
-                  <div className="skeleton title-skeleton" />
-                  <div className="skeleton meta-skeleton" />
-                </div>
-              ))}
-            </div>
-          ) : games.length > 0 ? (
-            <div className="games-grid">
-              {games.map(game => (
-                <GameCard key={game.id} game={game} />
-              ))}
-            </div>
-          ) : (
-            <EmptyState
-              message="Could not load games"
-              hint="Check your connection or try again later"
-            />
-          )}
+          <h1 className="home-title"><strong>Open Video Game Data</strong></h1>
+          <p className="home-subtitle">
+            A community-curated database that aggregates rankings, tracks completions, and preserves video game history.
+          </p>
         </div>
       </section>
 
-      {/* ── Timeline Teaser ───────────────────────────────────── */}
-      {latestGeneration && (
-        <section className="section timeline-section">
+      {/* ── Trending / Pinned Lists ───────────────────────────── */}
+      {data && data.pinnedLists.length > 0 && (
+        <section className="section">
           <div className="container">
             <div className="section-header">
               <div>
-                <h2 className="section-title">Browse by Generation</h2>
-                <p className="section-subtitle">
-                  {timeline.length} console generations documented
-                </p>
+                <h2 className="section-title">Trending Lists</h2>
+                <p className="section-subtitle">Top community-curated rankings right now</p>
               </div>
-              <Link to="/timeline" className="see-all-link">Full timeline →</Link>
             </div>
-
-            <div className="generations-grid">
-              {timeline.slice(-6).reverse().map(gen => (
-                <Link
-                  key={gen.generation}
-                  to={`/timeline?gen=${gen.generation}`}
-                  className="generation-card"
-                >
-                  <div className="gen-number">Gen {gen.generation}</div>
-                  <div className="gen-name">{gen.name}</div>
-                  <div className="gen-lists">
-                    {gen.lists.length} {gen.lists.length === 1 ? 'list' : 'lists'}
-                  </div>
-                </Link>
+            <div className="lists-grid">
+              {data.pinnedLists.map(list => (
+                <ListCard key={list.id} list={list} />
               ))}
             </div>
           </div>
         </section>
       )}
 
-      {/* ── Features / About strip ─────────────────────────────── */}
-      <section className="section features-section">
-        <div className="container">
-          <div className="features-grid">
-            <Feature
-              icon="◈"
-              title="Aggregated rankings"
-              desc="We pull from hundreds of critic and community lists to build a consensus score for every game."
-            />
-            <Feature
-              icon="⊹"
-              title="Track your library"
-              desc="Log completed games, set statuses, write notes, and earn badges as you play."
-            />
-            <Feature
-              icon="⌾"
-              title="Explore every era"
-              desc="From Pong to the PS5 — browse games by console generation, year, or platform."
-            />
-            <Feature
-              icon="◎"
-              title="Open & community-driven"
-              desc="No ads, no paywall. Data contributed by players, maintained in the open."
-            />
+      {/* ── User Activity ─────────────────────────────────────── */}
+      {data && data.userActivity.length > 0 && (
+        <section className="section activity-section">
+          <div className="container">
+            <div className="section-header">
+              <div>
+                <h2 className="section-title">User Activity</h2>
+                <p className="section-subtitle">What the community has been up to</p>
+              </div>
+            </div>
+            <div className="activity-list">
+              {data.userActivity.map((item, i) => (
+                <ActivityItem key={i} item={item} />
+              ))}
+            </div>
+            <div className="activity-cta">
+              <button
+                className="btn-primary"
+                onClick={() => navigate('/users/lists/new')}
+              >
+                + Create your list
+              </button>
+            </div>
           </div>
+        </section>
+      )}
+
+      {/* ── All Game Lists ────────────────────────────────────── */}
+      <section className="section" id="all-lists-section">
+        <div className="container">
+          <div className="section-header">
+            <div>
+              <h2 className="section-title">All Game Lists</h2>
+              <p className="section-subtitle">Browse every ranking and curated list</p>
+            </div>
+          </div>
+
+          {/* Search */}
+          <form className="lists-search-form" onSubmit={handleSearch}>
+            <input
+              className="lists-search-input"
+              placeholder="Search lists…"
+              value={searchInput}
+              onChange={e => setSearchInput(e.target.value)}
+            />
+            <button type="submit" className="lists-search-btn">Search</button>
+          </form>
+
+          {/* Tag filters */}
+          {data && (
+            <div className="tag-filters">
+              {data.allTags.map(tag => (
+                <button
+                  key={tag}
+                  className={`tag-btn ${activeTags.includes(tag) ? 'active' : ''}`}
+                  onClick={() => toggleTag(tag)}
+                >
+                  {capitalize(tag)}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {/* Lists grid */}
+          {listsLoading ? (
+            <div className="lists-grid">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="list-card-skeleton">
+                  <div className="skeleton covers-skeleton" />
+                  <div className="skeleton title-skeleton" />
+                  <div className="skeleton meta-skeleton" />
+                </div>
+              ))}
+            </div>
+          ) : lists.length > 0 ? (
+            <div className="lists-grid mt-4">
+              {lists.map(list => (
+                <ListCard key={list.id} list={list} />
+              ))}
+            </div>
+          ) : (
+            <p className="no-results">No lists found.</p>
+          )}
+
+          {pager && (
+            <Paginator pager={pager} onPageChange={handlePageChange} />
+          )}
         </div>
       </section>
     </div>
   )
 }
 
-function Feature({ icon, title, desc }: { icon: string; title: string; desc: string }) {
+function ActivityItem({ item }: { item: HomeActivity }) {
+  const isListActivity = (item.activity as unknown as ActivityType) === 0
+  const avatar = item.user?.userPicture
+
   return (
-    <div className="feature-card">
-      <span className="feature-icon">{icon}</span>
-      <h3 className="feature-title">{title}</h3>
-      <p className="feature-desc">{desc}</p>
+    <div className="activity-item">
+      <div className="activity-avatar">
+        {avatar && avatar.length > 0
+          ? <PixelAvatar matrix={avatar} />
+          : <div className="avatar-placeholder" />
+        }
+      </div>
+      <div className="activity-body">
+        {isListActivity ? (
+          <p>
+            <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+            {' '}added the list{' '}
+            {item.gameListName && (
+              <a href={item.gameListUrl} className="activity-link">"{item.gameListName}"</a>
+            )}
+            {' '}<span className="activity-time">{timeAgo(item.dateAdded)}</span>
+          </p>
+        ) : (
+          <p>
+            <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+            {' '}tracked{' '}
+            <a href={`${item.userProfileUrl}/trackers?trackStatus=${item.mostRecentTracker?.status ?? 0}`} className="activity-link">
+              {item.itemsTracked} game{item.itemsTracked !== 1 ? 's' : ''}
+            </a>
+            {' '}<span className="activity-time">{timeAgo(item.dateAdded)}</span>
+          </p>
+        )}
+      </div>
     </div>
   )
 }
 
-function EmptyState({ message, hint }: { message: string; hint: string }) {
-  return (
-    <div className="empty-state">
-      <p className="empty-message">{message}</p>
-      <p className="empty-hint">{hint}</p>
-    </div>
-  )
-}
+function PixelAvatar({ matrix }: { matrix: string[] }) {
+  // matrix is an array of rows, each row is a string of color chars
+  const size = 5
+  const cellSize = 4
+  const canvasSize = size * cellSize
 
-function SearchIcon() {
   return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="11" cy="11" r="8" />
-      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+    <svg
+      width={canvasSize}
+      height={canvasSize}
+      viewBox={`0 0 ${canvasSize} ${canvasSize}`}
+      className="pixel-avatar"
+    >
+      {matrix.slice(0, size).map((row, y) =>
+        row.split('').slice(0, size).map((char, x) => (
+          <rect
+            key={`${x}-${y}`}
+            x={x * cellSize}
+            y={y * cellSize}
+            width={cellSize}
+            height={cellSize}
+            fill={charToColor(char)}
+          />
+        ))
+      )}
     </svg>
+  )
+}
+
+const COLOR_MAP: Record<string, string> = {
+  '0': '#7c3aed', '1': '#a78bfa', '2': '#06b6d4', '3': '#10b981',
+  '4': '#f59e0b', '5': '#ef4444', '6': '#e2e8f0', '7': '#1e1e38',
+  '8': '#6d28d9', '9': '#0e7490',
+}
+function charToColor(c: string): string {
+  return COLOR_MAP[c] ?? '#1e1e38'
+}
+
+function capitalize(s: string): string {
+  return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+function HomeSkeletonLoader() {
+  return (
+    <div className="home">
+      <section className="home-header">
+        <div className="container">
+          <div className="skeleton" style={{ height: 40, width: 320, marginBottom: 12 }} />
+          <div className="skeleton" style={{ height: 20, width: 480 }} />
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <div className="skeleton" style={{ height: 28, width: 200, marginBottom: 24 }} />
+          <div className="lists-grid">
+            {Array.from({ length: 6 }).map((_, i) => (
+              <div key={i} className="list-card-skeleton">
+                <div className="skeleton covers-skeleton" />
+                <div className="skeleton title-skeleton" />
+                <div className="skeleton meta-skeleton" />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </div>
   )
 }
