@@ -40,6 +40,15 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Callback([FromQuery] string? returnUrl = null, [FromQuery] string? remoteError = null)
     {
         var cleanUrl = CleanReturnUrl(returnUrl);
+
+        if (!string.IsNullOrEmpty(remoteError))
+        {
+            var reason = remoteError.Equals("access_denied", StringComparison.OrdinalIgnoreCase)
+                ? "access_denied"
+                : "provider_error";
+            return RedirectToAuthError(cleanUrl, reason);
+        }
+
         var identity = User.Identities.FirstOrDefault();
         var needsFill = false;
 
@@ -62,9 +71,13 @@ public class AuthController : ControllerBase
             }
         }
 
+        if (identity == null || !identity.IsAuthenticated)
+        {
+            return RedirectToAuthError(cleanUrl, "auth_failed");
+        }
+
         if (needsFill)
         {
-            // Redirect to fill page on the correct frontend (React or local)
             if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out var fillUri))
             {
                 var fillBase = $"{fillUri.Scheme}://{fillUri.Host}{(fillUri.IsDefaultPort ? "" : $":{fillUri.Port}")}{fillUri.AbsolutePath.TrimEnd('/')}";
@@ -77,6 +90,16 @@ public class AuthController : ControllerBase
             return Redirect(cleanUrl);
 
         return LocalRedirect(cleanUrl);
+    }
+
+    private IActionResult RedirectToAuthError(string cleanUrl, string reason)
+    {
+        if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out var baseUri))
+        {
+            var baseUrl = $"{baseUri.Scheme}://{baseUri.Host}{(baseUri.IsDefaultPort ? "" : $":{baseUri.Port}")}{baseUri.AbsolutePath.TrimEnd('/')}";
+            return Redirect($"{baseUrl}#/auth/error?reason={reason}");
+        }
+        return LocalRedirect($"/auth/error?reason={reason}");
     }
 
     [HttpGet("logout")]

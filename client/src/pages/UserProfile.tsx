@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import PixelArt from '../components/PixelArt'
 import PixelEditor from '../components/PixelEditor'
+import UserAvatar from '../components/UserAvatar'
 import { getUserProfile, sendFriendRequest, checkNicknameAvailability, updateNickname, updatePixelArt, deleteAccount } from '../api/users'
 import type { UserProfileDto, BadgeDto } from '../api/users'
 import { useAuth } from '../context/AuthContext'
@@ -146,8 +147,9 @@ export default function UserProfile() {
               </div>
             ) : (
               <div className="avatar-static-wrap">
-                <PixelArt
-                  matrix={profile.userPicture ?? generateDefaultPixelArt(profile.fullName || profile.nickname)}
+                <UserAvatar
+                  userPicture={profile.userPicture}
+                  name={profile.fullName || profile.nickname}
                   cellSize={14}
                   className="user-avatar"
                 />

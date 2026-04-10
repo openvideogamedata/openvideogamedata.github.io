@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import PixelArt from '../components/PixelArt'
+import UserAvatar from '../components/UserAvatar'
 import { getFriendsAndRequests, acceptRequest, declineRequest, removeFriend } from '../api/friends'
 import type { FriendsResponse, FriendDto, FriendRequestDto } from '../api/friends'
 import './Friends.css'
@@ -121,10 +121,7 @@ function FriendRow({ friend, onRemove }: { friend: FriendDto; onRemove: () => vo
     <div className="friend-row">
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
-          {u.userPicture
-            ? <PixelArt matrix={u.userPicture} cellSize={6} />
-            : <div className="avatar-ph" />
-          }
+          <UserAvatar userPicture={u.userPicture} name={u.fullName || u.nickname} cellSize={6} />
         </div>
         <div>
           <span className="friend-name">{u.fullName}</span>
@@ -146,10 +143,7 @@ function RequestRow({ request, onAccept, onDecline }: {
     <div className="friend-row">
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
-          {u.userPicture
-            ? <PixelArt matrix={u.userPicture} cellSize={6} />
-            : <div className="avatar-ph" />
-          }
+          <UserAvatar userPicture={u.userPicture} name={u.fullName || u.nickname} cellSize={6} />
         </div>
         <div>
           <span className="friend-name">{u.fullName}</span>
@@ -170,10 +164,7 @@ function SentRequestRow({ request, onCancel }: { request: FriendRequestDto; onCa
     <div className="friend-row">
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
-          {u.userPicture
-            ? <PixelArt matrix={u.userPicture} cellSize={6} />
-            : <div className="avatar-ph" />
-          }
+          <UserAvatar userPicture={u.userPicture} name={u.fullName || u.nickname} cellSize={6} />
         </div>
         <div>
           <span className="friend-name">{u.fullName}</span>

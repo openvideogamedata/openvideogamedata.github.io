@@ -1,13 +1,12 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Paginator from '../components/Paginator'
-import PixelArt from '../components/PixelArt'
+import UserAvatar from '../components/UserAvatar'
 import { getGame, getCitations, updateTracker, removeTrackerStatus } from '../api/games'
 import type { UpdateTrackerRequest } from '../api/games'
 import { useAuth } from '../context/AuthContext'
 import type { GameDetailResponse, CitationsResponse, Tracker, Pager } from '../types'
 import { TrackStatus } from '../types'
-import { generateDefaultPixelArt } from '../utils/pixelArt'
 import './GameDetail.css'
 
 const STATUS_BUTTONS = [
@@ -311,10 +310,7 @@ export default function GameDetail() {
                       .map((ft, i) => ft.user && (
                         <div key={i} className="friend-tracker-row">
                           <Link to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-avatar">
-                            <PixelArt
-                              matrix={ft.user.userPicture ?? generateDefaultPixelArt(ft.user.fullName || ft.user.nickname)}
-                              cellSize={3}
-                            />
+                            <UserAvatar userPicture={ft.user.userPicture} name={ft.user.fullName || ft.user.nickname} cellSize={3} />
                           </Link>
                           <div className="friend-tracker-content">
                             <Link to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-name">

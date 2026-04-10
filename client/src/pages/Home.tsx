@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useRef } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ListCard, { fromHomeList } from '../components/ListCard'
 import Paginator from '../components/Paginator'
-import PixelArt from '../components/PixelArt'
+import UserAvatar from '../components/UserAvatar'
 import { getPinnedLists, getTags, getLists, getUserActivity } from '../api/home'
 import { timeAgo } from '../utils/time'
 import { ActivityType, type HomeList, type HomeActivity, type Pager } from '../types'
@@ -233,10 +233,7 @@ function ActivityItem({ item }: { item: HomeActivity }) {
   return (
     <div className="activity-item">
       <div className="activity-avatar">
-        {avatar && avatar.length > 0
-          ? <PixelArt matrix={avatar} cellSize={4} className="pixel-avatar" />
-          : <div className="avatar-placeholder" />
-        }
+        <UserAvatar userPicture={avatar} name={item.user?.fullName ?? ''} cellSize={4} className="pixel-avatar" />
       </div>
       <div className="activity-body">
         {isListActivity ? (
