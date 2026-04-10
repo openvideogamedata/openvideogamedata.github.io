@@ -25,7 +25,7 @@ export default function PixelArt({ matrix, size = 5, cellSize = 4, className }: 
       className={className}
     >
       {matrix.slice(0, size).map((row, y) =>
-        row.split('').slice(0, size).map((char, x) => (
+        (row ?? '').split('').slice(0, size).map((char, x) => (
           <rect
             key={`${x}-${y}`}
             x={x * cellSize}

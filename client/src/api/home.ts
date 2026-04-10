@@ -1,5 +1,5 @@
 import { api } from './client'
-import type { HomeResponse, HomeList, HomeActivity, Pager } from '../types'
+import type { HomeList, HomeActivity, Pager } from '../types'
 
 export interface GetListsParams {
   page?: number
@@ -8,13 +8,12 @@ export interface GetListsParams {
   search?: string
 }
 
-export function getHome(params: GetListsParams = {}): Promise<HomeResponse> {
-  const qs = new URLSearchParams()
-  if (params.page) qs.set('page', String(params.page))
-  if (params.pageSize) qs.set('pageSize', String(params.pageSize))
-  if (params.tags) qs.set('tags', params.tags)
-  if (params.search) qs.set('search', params.search)
-  return api.get<HomeResponse>(`/api/home?${qs}`)
+export function getPinnedLists(): Promise<HomeList[]> {
+  return api.get<HomeList[]>('/api/home/pinned-lists')
+}
+
+export function getTags(): Promise<string[]> {
+  return api.get<string[]>('/api/home/tags')
 }
 
 export function getLists(params: GetListsParams = {}): Promise<{ lists: HomeList[]; pager: Pager }> {
