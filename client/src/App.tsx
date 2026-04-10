@@ -41,6 +41,7 @@ export default function App() {
             <Route path="/games/:id" element={<GameDetail />} />
             <Route path="/timeline" element={<Timeline />} />
             <Route path="/list/:slug" element={<ListDetail />} />
+            <Route path="/list/:slug/:mode" element={<ListDetail />} />
             <Route path="/source-lists/:id" element={<SourceListDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<Privacy />} />
