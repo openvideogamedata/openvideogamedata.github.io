@@ -36,6 +36,12 @@
 
 .mt-4 { margin-top: 20px; }
 
+.lists-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
 /* Skeleton */
 .list-card-skeleton { display: flex; flex-direction: column; gap: 10px; }
 .covers-skeleton { height: 140px; border-radius: var(--radius); }

@@ -42,9 +42,14 @@ export default function Home() {
           {pinnedLoading ? (
             <ListsSkeleton count={4} />
           ) : (
-            <div className="lists-grid">
-              {pinned.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
-            </div>
+            <>
+              <div className="lists-grid">
+                {pinned.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
+              </div>
+              <div className="lists-more">
+                <Link to="/lists" className="btn-primary">View more lists</Link>
+              </div>
+            </>
           )}
         </div>
       </section>
