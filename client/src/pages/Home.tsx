@@ -1,52 +1,64 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import ListCard, { fromHomeList } from '../components/ListCard'
 import Paginator from '../components/Paginator'
+import PixelArt from '../components/PixelArt'
 import { getHome, getLists } from '../api/home'
 import { timeAgo } from '../utils/time'
-import type { HomeList, HomeActivity, HomeResponse, Pager, ActivityType } from '../types'
+import type { HomeList, HomeActivity, HomeResponse, Pager } from '../types'
 import './Home.css'
 
 export default function Home() {
-  const [data, setData] = useState<HomeResponse | null>(null)
-  const [loading, setLoading] = useState(true)
+  // Above-fold: pinned lists + activity + tags
+  const [aboveFold, setAboveFold] = useState<HomeResponse | null>(null)
+  const [aboveLoading, setAboveLoading] = useState(true)
 
-  // lists section state
+  // Below-fold: all lists (lazy — only fires when scrolled near)
   const [lists, setLists] = useState<HomeList[]>([])
   const [pager, setPager] = useState<Pager | null>(null)
+  const [listsLoading, setListsLoading] = useState(false)
+  const [listsTriggered, setListsTriggered] = useState(false)
   const [activeTags, setActiveTags] = useState<string[]>(['all'])
   const [search, setSearch] = useState('')
   const [searchInput, setSearchInput] = useState('')
-  const [listsLoading, setListsLoading] = useState(false)
+  const allListsRef = useRef<HTMLElement>(null)
 
   const navigate = useNavigate()
 
+  // Phase 1: load above-fold — minimal pageSize so backend sends fewer list rows
   useEffect(() => {
-    getHome({ pageSize: 6 })
-      .then(res => {
-        setData(res)
-        setLists(res.listsCategories)
-        setPager(res.pager as Pager)
-        setLoading(false)
-      })
-      .catch(() => setLoading(false))
+    getHome({ pageSize: 4 })
+      .then(res => { setAboveFold(res); setAboveLoading(false) })
+      .catch(() => setAboveLoading(false))
   }, [])
+
+  // Phase 2: observe when all-lists section enters viewport, then trigger load
+  useEffect(() => {
+    const el = allListsRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setListsTriggered(true) },
+      { rootMargin: '400px' }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [aboveLoading]) // re-attach after above-fold renders
 
   const fetchLists = useCallback((page: number, tags: string[], searchText: string) => {
     setListsLoading(true)
-    getLists({
-      page,
-      pageSize: 6,
-      tags: tags.join(','),
-      search: searchText || undefined,
-    })
+    getLists({ page, pageSize: 6, tags: tags.join(','), search: searchText || undefined })
       .then(res => {
-        setLists((res as { lists: HomeList[]; pager: Pager }).lists)
-        setPager((res as { lists: HomeList[]; pager: Pager }).pager)
+        setLists(res.lists)
+        setPager(res.pager as Pager)
         setListsLoading(false)
       })
       .catch(() => setListsLoading(false))
   }, [])
+
+  // Phase 3: fire lists request when triggered
+  useEffect(() => {
+    if (listsTriggered) fetchLists(1, activeTags, search)
+  }, [listsTriggered]) // eslint-disable-line react-hooks/exhaustive-deps
 
   function toggleTag(tag: string) {
     let next: string[]
@@ -71,14 +83,12 @@ export default function Home() {
 
   function handlePageChange(page: number) {
     fetchLists(page, activeTags, search)
-    document.getElementById('all-lists-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    allListsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
-
-  if (loading) return <HomeSkeletonLoader />
 
   return (
     <div className="home">
-      {/* ── Header ───────────────────────────────────────────── */}
+      {/* ── Header — renders immediately ─────────────────────── */}
       <section className="home-header">
         <div className="container home-header-inner">
           <div className="home-header-text">
@@ -97,28 +107,30 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Trending / Pinned Lists ───────────────────────────── */}
-      {data && data.pinnedLists.length > 0 && (
-        <section className="section">
-          <div className="container">
-            <div className="section-header">
-              <div>
-                <div className="section-label">Trending <span className="section-label-line" /></div>
-                <h2 className="section-title">Top Ranked Lists</h2>
-                <p className="section-subtitle">The most referenced community rankings</p>
-              </div>
+      {/* ── Pinned Lists ──────────────────────────────────────── */}
+      <section className="section">
+        <div className="container">
+          <div className="section-header">
+            <div>
+              <div className="section-label">Trending <span className="section-label-line" /></div>
+              <h2 className="section-title">Top Ranked Lists</h2>
+              <p className="section-subtitle">The most referenced community rankings</p>
             </div>
+          </div>
+          {aboveLoading ? (
+            <PinnedSkeleton />
+          ) : aboveFold && aboveFold.pinnedLists.length > 0 ? (
             <div className="lists-grid">
-              {data.pinnedLists.map(list => (
+              {aboveFold.pinnedLists.map(list => (
                 <ListCard key={list.id} list={fromHomeList(list)} />
               ))}
             </div>
-          </div>
-        </section>
-      )}
+          ) : null}
+        </div>
+      </section>
 
-      {/* ── User Activity ─────────────────────────────────────── */}
-      {data && data.userActivity.length > 0 && (
+      {/* ── Activity Feed ─────────────────────────────────────── */}
+      {!aboveLoading && aboveFold && aboveFold.userActivity.length > 0 && (
         <section className="section activity-section">
           <div className="container">
             <div className="section-header">
@@ -129,7 +141,7 @@ export default function Home() {
               </div>
             </div>
             <div className="activity-grid">
-              {data.userActivity.map((item, i) => (
+              {aboveFold.userActivity.map((item, i) => (
                 <ActivityItem key={i} item={item} />
               ))}
             </div>
@@ -143,8 +155,8 @@ export default function Home() {
         </section>
       )}
 
-      {/* ── All Game Lists ────────────────────────────────────── */}
-      <section className="section" id="all-lists-section">
+      {/* ── All Game Lists — lazy ─────────────────────────────── */}
+      <section className="section" id="all-lists-section" ref={allListsRef}>
         <div className="container">
           <div className="section-header">
             <div>
@@ -154,33 +166,58 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="lists-toolbar">
-            <form className="lists-search-form" onSubmit={handleSearch}>
-              <input
-                className="lists-search-input"
-                placeholder="Search lists…"
-                value={searchInput}
-                onChange={e => setSearchInput(e.target.value)}
-              />
-              <button type="submit" className="lists-search-btn">Search</button>
-            </form>
-            {data && (
-              <div className="tag-filters">
-                {data.allTags.map(tag => (
-                  <button
-                    key={tag}
-                    className={`tag-btn ${activeTags.includes(tag) ? 'active' : ''}`}
-                    onClick={() => toggleTag(tag)}
-                  >
-                    {capitalize(tag)}
-                  </button>
-                ))}
+          {listsTriggered && (
+            <>
+              <div className="lists-toolbar">
+                <form className="lists-search-form" onSubmit={handleSearch}>
+                  <input
+                    className="lists-search-input"
+                    placeholder="Search lists…"
+                    value={searchInput}
+                    onChange={e => setSearchInput(e.target.value)}
+                  />
+                  <button type="submit" className="lists-search-btn">Search</button>
+                </form>
+                {aboveFold && (
+                  <div className="tag-filters">
+                    {aboveFold.allTags.map(tag => (
+                      <button
+                        key={tag}
+                        className={`tag-btn ${activeTags.includes(tag) ? 'active' : ''}`}
+                        onClick={() => toggleTag(tag)}
+                      >
+                        {capitalize(tag)}
+                      </button>
+                    ))}
+                  </div>
+                )}
               </div>
-            )}
-          </div>
 
-          {/* Lists grid */}
-          {listsLoading ? (
+              {listsLoading ? (
+                <div className="lists-grid">
+                  {Array.from({ length: 6 }).map((_, i) => (
+                    <div key={i} className="list-card-skeleton">
+                      <div className="skeleton covers-skeleton" />
+                      <div className="skeleton title-skeleton" />
+                      <div className="skeleton meta-skeleton" />
+                    </div>
+                  ))}
+                </div>
+              ) : lists.length > 0 ? (
+                <div className="lists-grid mt-4">
+                  {lists.map(list => (
+                    <ListCard key={list.id} list={fromHomeList(list)} />
+                  ))}
+                </div>
+              ) : (
+                <p className="no-results">No lists found.</p>
+              )}
+
+              {pager && <Paginator pager={pager} onPageChange={handlePageChange} />}
+            </>
+          )}
+
+          {!listsTriggered && (
             <div className="lists-grid">
               {Array.from({ length: 6 }).map((_, i) => (
                 <div key={i} className="list-card-skeleton">
@@ -190,18 +227,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          ) : lists.length > 0 ? (
-            <div className="lists-grid mt-4">
-              {lists.map(list => (
-                <ListCard key={list.id} list={fromHomeList(list)} />
-              ))}
-            </div>
-          ) : (
-            <p className="no-results">No lists found.</p>
-          )}
-
-          {pager && (
-            <Paginator pager={pager} onPageChange={handlePageChange} />
           )}
         </div>
       </section>
@@ -210,14 +235,14 @@ export default function Home() {
 }
 
 function ActivityItem({ item }: { item: HomeActivity }) {
-  const isListActivity = (item.activity as unknown as ActivityType) === 0
+  const isListActivity = (item.activity as unknown as number) === 0
   const avatar = item.user?.userPicture
 
   return (
     <div className="activity-item">
       <div className="activity-avatar">
         {avatar && avatar.length > 0
-          ? <PixelAvatar matrix={avatar} />
+          ? <PixelArt matrix={avatar} size={5} cellSize={4} className="pixel-avatar" />
           : <div className="avatar-placeholder" />
         }
       </div>
@@ -251,71 +276,20 @@ function ActivityItem({ item }: { item: HomeActivity }) {
   )
 }
 
-function PixelAvatar({ matrix }: { matrix: string[] }) {
-  // matrix is an array of rows, each row is a string of color chars
-  const size = 5
-  const cellSize = 4
-  const canvasSize = size * cellSize
-
+function PinnedSkeleton() {
   return (
-    <svg
-      width={canvasSize}
-      height={canvasSize}
-      viewBox={`0 0 ${canvasSize} ${canvasSize}`}
-      className="pixel-avatar"
-    >
-      {matrix.slice(0, size).map((row, y) =>
-        row.split('').slice(0, size).map((char, x) => (
-          <rect
-            key={`${x}-${y}`}
-            x={x * cellSize}
-            y={y * cellSize}
-            width={cellSize}
-            height={cellSize}
-            fill={charToColor(char)}
-          />
-        ))
-      )}
-    </svg>
+    <div className="lists-grid">
+      {Array.from({ length: 4 }).map((_, i) => (
+        <div key={i} className="list-card-skeleton">
+          <div className="skeleton covers-skeleton" />
+          <div className="skeleton title-skeleton" />
+          <div className="skeleton meta-skeleton" />
+        </div>
+      ))}
+    </div>
   )
-}
-
-const COLOR_MAP: Record<string, string> = {
-  '0': '#7c3aed', '1': '#a78bfa', '2': '#06b6d4', '3': '#10b981',
-  '4': '#f59e0b', '5': '#ef4444', '6': '#e2e8f0', '7': '#1e1e38',
-  '8': '#6d28d9', '9': '#0e7490',
-}
-function charToColor(c: string): string {
-  return COLOR_MAP[c] ?? '#1e1e38'
 }
 
 function capitalize(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1)
-}
-
-function HomeSkeletonLoader() {
-  return (
-    <div className="home">
-      <section className="home-header">
-        <div className="container">
-          <div className="skeleton" style={{ height: 40, width: 320, marginBottom: 12 }} />
-          <div className="skeleton" style={{ height: 20, width: 480 }} />
-        </div>
-      </section>
-      <section className="section">
-        <div className="container">
-          <div className="skeleton" style={{ height: 28, width: 200, marginBottom: 24 }} />
-          <div className="lists-grid">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="list-card-skeleton">
-                <div className="skeleton covers-skeleton" />
-                <div className="skeleton title-skeleton" />
-                <div className="skeleton meta-skeleton" />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-    </div>
-  )
 }
