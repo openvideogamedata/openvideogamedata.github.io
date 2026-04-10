@@ -127,6 +127,13 @@
   margin-top: 2px;
 }
 
+.tracker-game-status-date {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 1px;
+  opacity: 0.7;
+}
+
 /* ── Compare tab ── */
 .compare-section {
   margin-top: 1rem;

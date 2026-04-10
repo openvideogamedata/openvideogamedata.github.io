@@ -13,15 +13,29 @@ public class TrackersController : ControllerBase
     private readonly GameListRequestService _gameListRequestService;
     private readonly GameListService _gameListService;
     private readonly UserService _userService;
+    private readonly TrackerService _trackerService;
 
     public TrackersController(
         GameListRequestService gameListRequestService,
         GameListService gameListService,
-        UserService userService)
+        UserService userService,
+        TrackerService trackerService)
     {
         _gameListRequestService = gameListRequestService;
         _gameListService = gameListService;
         _userService = userService;
+        _trackerService = trackerService;
+    }
+
+    [HttpGet("/api/users/{nickname}/tracker-years")]
+    public IActionResult GetTrackerYears(string nickname, [FromQuery] int? trackStatus = null)
+    {
+        var user = _userService.GetByNickname(nickname);
+        if (user is null) return NotFound();
+
+        TrackStatus? status = trackStatus.HasValue ? (TrackStatus)trackStatus.Value : null;
+        var years = _trackerService.GetDistinctTrackerYears(user.Id, status);
+        return Ok(years);
     }
 
     [HttpGet("/api/users/{nickname}/tracker-stats")]

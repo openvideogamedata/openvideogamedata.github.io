@@ -50,7 +50,6 @@ export default function Navbar() {
 
         <nav className="navbar-links">
           <Link to="/games" className="nav-link">Games</Link>
-          <Link to="/timeline" className="nav-link">Timeline</Link>
           <Link to="/badges" className="nav-link">Badges</Link>
           <Link to="/top-contributors" className="nav-link">Rankings</Link>
         </nav>
@@ -94,6 +93,7 @@ export default function Navbar() {
                     <Link to={`/users/${user.nickname}`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Profile</Link>
                     <Link to={`/users/${user.nickname}/trackers`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Trackers</Link>
                     <Link to={`/users/${user.nickname}/lists`} className="user-menu-item" onClick={() => setMenuOpen(false)}>My Lists</Link>
+                    <Link to="/timeline" className="user-menu-item" onClick={() => setMenuOpen(false)}>Timeline</Link>
                     <Link to="/friends" className="user-menu-item" onClick={() => setMenuOpen(false)}>
                       Friends
                       {user.hasNotifications && <span className="menu-badge" />}

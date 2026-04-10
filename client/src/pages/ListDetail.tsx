@@ -275,8 +275,18 @@ export default function ListDetail() {
   )
 }
 
+const TRACKER_STATUS_META: Record<number, { label: string; color: string }> = {
+  1: { label: 'To Play',   color: '#7c3aed' },
+  2: { label: 'Playing',   color: '#06b6d4' },
+  3: { label: 'Beaten',    color: '#10b981' },
+  4: { label: 'Abandoned', color: '#ef4444' },
+  5: { label: 'Played',    color: '#f59e0b' },
+}
+
 function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
   const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `#${rank}`
+  const trackerMeta = winner.trackStatus !== 0 ? TRACKER_STATUS_META[winner.trackStatus] : null
+
   return (
     <Link to={`/games/${winner.gameId}`} className="winner-card">
       <div className="winner-position">{medal}</div>
@@ -285,6 +295,14 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
           <img src={winner.coverImageUrl} alt={winner.gameTitle} className="winner-cover" loading="lazy" />
         ) : (
           <div className="winner-cover winner-cover-placeholder" />
+        )}
+        {trackerMeta && (
+          <span
+            className="winner-tracker-badge"
+            style={{ background: trackerMeta.color }}
+          >
+            {trackerMeta.label}
+          </span>
         )}
       </div>
       <span className="winner-title">{winner.gameTitle}</span>

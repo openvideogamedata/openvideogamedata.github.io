@@ -52,13 +52,28 @@ public class TrackerService
         return tracker;
     }
 
-    public async Task<GameUserTracker?> GetByGameIdAndUserIdAsync(long userId, long gameId) 
+    public async Task<GameUserTracker?> GetByGameIdAndUserIdAsync(long userId, long gameId)
     {
         using var context = this._factory.CreateDbContext();
 
-        var tracker = await context.GameUserTrackers.FirstOrDefaultAsync(tracker => tracker.GameId == gameId 
+        var tracker = await context.GameUserTrackers.FirstOrDefaultAsync(tracker => tracker.GameId == gameId
                                                 && tracker.UserId == userId);
 
         return tracker;
+    }
+
+    public List<int> GetDistinctTrackerYears(long userId, TrackStatus? status)
+    {
+        using var context = this._factory.CreateDbContext();
+        var minDate = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
+        var query = context.GameUserTrackers
+            .Where(t => t.UserId == userId && t.StatusDate > minDate);
+        if (status.HasValue)
+            query = query.Where(t => t.Status == status.Value);
+        return query
+            .Select(t => t.StatusDate.Year)
+            .Distinct()
+            .OrderByDescending(y => y)
+            .ToList();
     }
 }
