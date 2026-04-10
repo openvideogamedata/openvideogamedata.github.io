@@ -77,7 +77,8 @@ public sealed record TopWinnerDto(
 public sealed record SourceListDto(
     string SourceName,
     string SourceUrl,
-    DateTime? SourceDateLastUpdated);
+    DateTime? SourceDateLastUpdated,
+    int? Year);
 
 public sealed record SourceDto(
     long Id,

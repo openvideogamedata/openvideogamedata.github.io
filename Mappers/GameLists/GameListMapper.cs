@@ -71,7 +71,8 @@ public static class GameListMapper
         return new SourceListDto(
             source.SourceName,
             source.SourceUrl,
-            source.SourceDateLastUpdated);
+            source.SourceDateLastUpdated,
+            source.Year);
     }
 
     public static ContributorDto ToContributorDto(Contributor contributor)

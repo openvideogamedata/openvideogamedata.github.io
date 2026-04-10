@@ -44,5 +44,5 @@ public class FinalGameList
     }
 }
 
-public record struct SourceList(string SourceName, string SourceUrl, DateTime? SourceDateLastUpdated);
+public record struct SourceList(string SourceName, string SourceUrl, DateTime? SourceDateLastUpdated, int? Year = null);
 public record Contributor(long UserContributedId, string FullName, string Nickname, int NumberOfContributions, int PorcentageOfContributions);

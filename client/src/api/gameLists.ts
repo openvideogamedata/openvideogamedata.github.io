@@ -28,6 +28,7 @@ export interface SourceListDto {
   sourceName: string
   sourceUrl: string
   sourceDateLastUpdated: string | null
+  year: number | null
 }
 
 export interface ContributorDto {

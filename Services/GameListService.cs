@@ -222,7 +222,7 @@ public class GameListService
 
         if (finalGameList != null) {
             similarLists = context.FinalGameLists.Where(list => list.Id != finalGameList.Id && list.Tags.Contains(finalGameList.Tags))
-                                                 .Select(item => new SourceList(item.Title, item.Slug, null))
+                                                 .Select(item => new SourceList(item.Title, item.Slug, null, item.Year))
                                                  .ToList();
 
             if (similarLists != null) {
@@ -252,11 +252,11 @@ public class GameListService
             .Include(item => item.GameList)
             .ThenInclude(gameList => gameList.Source)
             .Where(item => item.FinalGameListId == finalGameListId && !item.GameList.ByUser)
-            .Select(item => new SourceList(item.GameList.Source == null ? "" : item.GameList.Source.Name, item.GameList.SourceListUrl, item.GameList.DateLastUpdated))
+            .Select(item => new SourceList(item.GameList.Source == null ? "" : item.GameList.Source.Name, item.GameList.SourceListUrl, item.GameList.DateLastUpdated, null))
             .ToList();
 
         var allSources = sources.GroupBy(item => new Uri(item.SourceUrl).Host)
-                                .Select(item => new SourceList(item.First().SourceName, item.First().SourceUrl, item.First().SourceDateLastUpdated))
+                                .Select(item => new SourceList(item.First().SourceName, item.First().SourceUrl, item.First().SourceDateLastUpdated, item.First().Year))
                                 .ToList();
         
         return allSources;

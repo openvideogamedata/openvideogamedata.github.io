@@ -33,6 +33,7 @@ export default function ListDetail() {
   const [userListsPager, setUserListsPager] = useState<Pager | null>(null)
   const [userListsLoading, setUserListsLoading] = useState(false)
   const [userListsLoaded, setUserListsLoaded] = useState(false)
+  const [listsExpanded, setListsExpanded] = useState(false)
 
   useEffect(() => {
     if (!slug) return
@@ -65,6 +66,7 @@ export default function ListDetail() {
 
   function handleTabChange(tab: string) {
     setActiveTab(tab)
+    setListsExpanded(false)
     if (slug) {
       navigate(`/list/${slug}/${tab}`, { replace: true })
     }
@@ -200,8 +202,16 @@ export default function ListDetail() {
                 ? `Critic Lists (${data.sources.length})`
                 : `User Lists (${Math.round(numberOfUsersLists)})`}
             </h2>
+            <button
+              className="list-toggle-btn"
+              onClick={() => setListsExpanded(v => !v)}
+            >
+              {listsExpanded
+                ? `Hide ${activeTab === 'critics' ? 'Critic' : 'User'} Lists`
+                : `View ${activeTab === 'critics' ? 'Critic' : 'User'} Lists`}
+            </button>
 
-            {activeTab === 'critics' ? (
+            {listsExpanded && (activeTab === 'critics' ? (
               criticLoading ? <SourceListsSkeleton /> : (
                 <>
                   {criticLists.map(list => <SourceListRow key={list.id} list={list} />)}
@@ -222,7 +232,7 @@ export default function ListDetail() {
                   )}
                 </>
               )
-            )}
+            ))}
           </div>
 
           {/* Add list CTA */}
@@ -264,7 +274,7 @@ export default function ListDetail() {
               <h3 className="sidebar-title">Related Lists</h3>
               {fl.similarLists.map((s, i) => (
                 <Link key={i} to={`/list/${s.sourceUrl}`} className="similar-source">
-                  {s.sourceName} ↗
+                  {s.sourceName}{s.year ? ` ${s.year}` : ''}
                 </Link>
               ))}
             </div>
@@ -298,10 +308,12 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
         )}
         {trackerMeta && (
           <span
-            className="winner-tracker-badge"
+            className="winner-tracker-icon"
             style={{ background: trackerMeta.color }}
+            title={trackerMeta.label}
+            aria-label={trackerMeta.label}
           >
-            {trackerMeta.label}
+            <TrackerStatusIcon status={winner.trackStatus} />
           </span>
         )}
       </div>
@@ -312,6 +324,48 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
         <span className="winner-stat winner-score" title="Score based on position weight">score: {winner.score}</span>
       </div>
     </Link>
+  )
+}
+
+function TrackerStatusIcon({ status }: { status: number }) {
+  if (status === 1) {
+    return (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M8 3v5l3 2" />
+        <circle cx="8" cy="8" r="5" />
+      </svg>
+    )
+  }
+
+  if (status === 2) {
+    return (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M6 4.5L11 8L6 11.5Z" fill="currentColor" stroke="none" />
+      </svg>
+    )
+  }
+
+  if (status === 3) {
+    return (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M3.5 8.5L6.5 11.5L12.5 5.5" />
+      </svg>
+    )
+  }
+
+  if (status === 4) {
+    return (
+      <svg viewBox="0 0 16 16" aria-hidden="true">
+        <path d="M5 5L11 11M11 5L5 11" />
+      </svg>
+    )
+  }
+
+  return (
+    <svg viewBox="0 0 16 16" aria-hidden="true">
+      <path d="M4 8.5L6.5 11L12 5.5" />
+      <path d="M3.5 5.5L6 8" />
+    </svg>
   )
 }
 
@@ -347,7 +401,7 @@ function AllSourcesList({ sources }: { sources: SourceListDto[] }) {
 }
 
 function TrackerStatsBar({ stats }: { stats: TrackerStats }) {
-  const total = stats.toPlay + stats.playing + stats.played + stats.beated + stats.abandoned
+  const total = stats.toPlay + stats.playing + stats.played + stats.beated + stats.abandoned + stats.none
   if (total === 0) return null
 
   const items = [
@@ -356,6 +410,7 @@ function TrackerStatsBar({ stats }: { stats: TrackerStats }) {
     { label: 'Beaten', value: stats.beated, color: '#10b981' },
     { label: 'Played', value: stats.played, color: '#f59e0b' },
     { label: 'Abandoned', value: stats.abandoned, color: '#ef4444' },
+    { label: 'Not tracked', value: stats.none, color: '#4b5563' },
   ].filter(i => i.value > 0)
 
   return (
@@ -484,3 +539,5 @@ function SourceListsSkeleton() {
     </div>
   )
 }
+
+
