@@ -8,7 +8,9 @@ import './Navbar.css'
 export default function Navbar() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [desktopProfileOpen, setDesktopProfileOpen] = useState(false)
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
+  const [mobileProfileOpen, setMobileProfileOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
@@ -25,9 +27,11 @@ export default function Navbar() {
     function handleClick(e: MouseEvent) {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setMenuOpen(false)
+        setDesktopProfileOpen(false)
       }
       if (mobileNavRef.current && !mobileNavRef.current.contains(e.target as Node)) {
         setMobileNavOpen(false)
+        setMobileProfileOpen(false)
       }
     }
     if (menuOpen || mobileNavOpen) document.addEventListener('mousedown', handleClick)
@@ -63,7 +67,13 @@ export default function Navbar() {
           <div className="mobile-nav-wrap" ref={mobileNavRef}>
             <button
               className="icon-btn mobile-nav-toggle"
-              onClick={() => setMobileNavOpen(v => !v)}
+              onClick={() => {
+                setMobileNavOpen(v => {
+                  const next = !v
+                  if (!next) setMobileProfileOpen(false)
+                  return next
+                })
+              }}
               aria-label="Open navigation"
               aria-expanded={mobileNavOpen}
             >
@@ -78,22 +88,46 @@ export default function Navbar() {
                     onChange={e => setQuery(e.target.value)}
                     placeholder="Search games, lists..."
                   />
-                  <button type="submit" className="mobile-search-btn">Search</button>
+                  <button
+                    type="submit"
+                    className="mobile-search-btn"
+                    onClick={() => setMobileNavOpen(false)}
+                  >
+                    Search
+                  </button>
                 </form>
                 <Link to="/lists" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Lists</Link>
                 <Link to="/games" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Games</Link>
-                <Link to="/badges" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Badges</Link>
                 <Link to="/top-contributors" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Rankings</Link>
                 {!loading && (
                   user ? (
                     <>
                       <div className="mobile-nav-divider" />
-                      <Link to={`/users/${user.nickname}`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Profile</Link>
+                      <button
+                        className="mobile-nav-link mobile-nav-link-toggle"
+                        onClick={() => setMobileProfileOpen(v => !v)}
+                        aria-expanded={mobileProfileOpen}
+                      >
+                        <span>Profile</span>
+                        <span className={`mobile-nav-chevron ${mobileProfileOpen ? 'open' : ''}`}>⌄</span>
+                      </button>
+                      {mobileProfileOpen && (
+                        <div className="mobile-submenu">
+                          <Link to={`/users/${user.nickname}`} className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Overview</Link>
+                          <Link to="/badges" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Badges</Link>
+                          <Link to={`/users/${user.nickname}/lists`} className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>My Lists</Link>
+                          <Link to="/notifications" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>
+                            Notifications
+                            {user.hasNotifications && <span className="menu-badge" />}
+                          </Link>
+                          <Link to="/friends" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>
+                            Friends
+                            {user.hasNotifications && <span className="menu-badge" />}
+                          </Link>
+                        </div>
+                      )}
                       <Link to={`/users/${user.nickname}/trackers`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Trackers</Link>
-                      <Link to={`/users/${user.nickname}/lists`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>My Lists</Link>
                       <Link to="/timeline" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Timeline</Link>
-                      <Link to="/friends" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Friends</Link>
-                      <Link to="/notifications" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Notifications</Link>
                       {isAdmin && (
                         <>
                           <Link to="/admin/users" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Users</Link>
@@ -163,18 +197,31 @@ export default function Navbar() {
                       <span className="user-menu-name">{user.fullName}</span>
                       <span className="user-menu-nick">@{user.nickname}</span>
                     </div>
-                    <Link to={`/users/${user.nickname}`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Profile</Link>
+                    <button
+                      className="user-menu-item user-menu-toggle"
+                      onClick={() => setDesktopProfileOpen(v => !v)}
+                      aria-expanded={desktopProfileOpen}
+                    >
+                      <span>Profile</span>
+                      <span className={`user-menu-chevron ${desktopProfileOpen ? 'open' : ''}`}>⌄</span>
+                    </button>
+                    {desktopProfileOpen && (
+                      <div className="user-menu-submenu">
+                        <Link to={`/users/${user.nickname}`} className="user-menu-subitem" onClick={() => setMenuOpen(false)}>Overview</Link>
+                        <Link to="/badges" className="user-menu-subitem" onClick={() => setMenuOpen(false)}>Badges</Link>
+                        <Link to={`/users/${user.nickname}/lists`} className="user-menu-subitem" onClick={() => setMenuOpen(false)}>My Lists</Link>
+                        <Link to="/notifications" className="user-menu-subitem" onClick={() => setMenuOpen(false)}>
+                          Notifications
+                          {user.hasNotifications && <span className="menu-badge" />}
+                        </Link>
+                        <Link to="/friends" className="user-menu-subitem" onClick={() => setMenuOpen(false)}>
+                          Friends
+                          {user.hasNotifications && <span className="menu-badge" />}
+                        </Link>
+                      </div>
+                    )}
                     <Link to={`/users/${user.nickname}/trackers`} className="user-menu-item" onClick={() => setMenuOpen(false)}>Trackers</Link>
-                    <Link to={`/users/${user.nickname}/lists`} className="user-menu-item" onClick={() => setMenuOpen(false)}>My Lists</Link>
                     <Link to="/timeline" className="user-menu-item" onClick={() => setMenuOpen(false)}>Timeline</Link>
-                    <Link to="/friends" className="user-menu-item" onClick={() => setMenuOpen(false)}>
-                      Friends
-                      {user.hasNotifications && <span className="menu-badge" />}
-                    </Link>
-                    <Link to="/notifications" className="user-menu-item" onClick={() => setMenuOpen(false)}>
-                      Notifications
-                      {user.hasNotifications && <span className="menu-badge" />}
-                    </Link>
                     {isAdmin && (
                       <>
                         <Link to="/admin/users" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: Users</Link>
