@@ -1,6 +1,9 @@
-This favicon was generated using the following font:
+Open Video Game Data is a project for collecting and comparing ranked video game lists. The site brings lists from critics, publications, and players into one place so people can discover which games appear most often across different opinions and categories.
 
-- Font Title: ABeeZee
-- Font Author: Copyright 2011 The ABeeZee Project Authors (https://github.com/googlefonts/abeezee) with Reserved Font Name ABeeZee
-- Font Source: http://fonts.gstatic.com/s/abeezee/v22/esDR31xSG-6AGleN6tKukbcHCpE.ttf
-- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
+The project currently organizes 82 list categories and 558 collected source lists, covering at least 1,940 different games. These lists include year-based categories such as Best Games of 1995, genre categories such as Best Fighting Games of All Time, platform categories, and themed categories such as Best Indie Games of All Time.
+
+Each category combines several ranked lists to create a broader view of what different people and sources consider important. The goal is not to declare one final truth, but to make the comparison easier and more transparent.
+
+Visitors can search for games, explore category rankings, open the original source lists, see details about each game, and browse a video game history timeline. Logged-in users can also create their own lists, track the games they have played or want to play, compare progress with friends, earn badges, and receive notifications.
+
+Open Video Game Data is maintained by André N. Darcie and Diego Penha as a hobby project, with the goal of making video game list data easier to read, compare, and reuse.

@@ -33,3 +33,9 @@
   flex-direction: column;
   padding: 1rem 0;
 }
+
+.static-skeleton-line {
+  height: 16px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
