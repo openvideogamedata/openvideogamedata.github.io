@@ -8,9 +8,11 @@ import './Navbar.css'
 export default function Navbar() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
+  const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
+  const mobileNavRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
   const { user, loading, isAdmin } = useAuth()
 
@@ -24,10 +26,13 @@ export default function Navbar() {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setMenuOpen(false)
       }
+      if (mobileNavRef.current && !mobileNavRef.current.contains(e.target as Node)) {
+        setMobileNavOpen(false)
+      }
     }
-    if (menuOpen) document.addEventListener('mousedown', handleClick)
+    if (menuOpen || mobileNavOpen) document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
-  }, [menuOpen])
+  }, [menuOpen, mobileNavOpen])
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault()
@@ -55,6 +60,24 @@ export default function Navbar() {
         </nav>
 
         <div className="navbar-actions">
+          <div className="mobile-nav-wrap" ref={mobileNavRef}>
+            <button
+              className="icon-btn mobile-nav-toggle"
+              onClick={() => setMobileNavOpen(v => !v)}
+              aria-label="Open navigation"
+              aria-expanded={mobileNavOpen}
+            >
+              <MenuIcon />
+            </button>
+            {mobileNavOpen && (
+              <div className="mobile-nav-menu">
+                <Link to="/lists" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Lists</Link>
+                <Link to="/games" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Games</Link>
+                <Link to="/badges" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Badges</Link>
+                <Link to="/top-contributors" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Rankings</Link>
+              </div>
+            )}
+          </div>
           {searchOpen ? (
             <form className="navbar-search-form" onSubmit={handleSearch}>
               <input
@@ -127,6 +150,16 @@ function SearchIcon() {
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
       <circle cx="11" cy="11" r="8" />
       <line x1="21" y1="21" x2="16.65" y2="16.65" />
+    </svg>
+  )
+}
+
+function MenuIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+      <line x1="4" y1="7" x2="20" y2="7" />
+      <line x1="4" y1="12" x2="20" y2="12" />
+      <line x1="4" y1="17" x2="20" y2="17" />
     </svg>
   )
 }
