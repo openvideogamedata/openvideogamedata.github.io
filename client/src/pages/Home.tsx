@@ -80,11 +80,20 @@ export default function Home() {
     <div className="home">
       {/* ── Header ───────────────────────────────────────────── */}
       <section className="home-header">
-        <div className="container">
-          <h1 className="home-title"><strong>Open Video Game Data</strong></h1>
-          <p className="home-subtitle">
-            A community-curated database that aggregates rankings, tracks completions, and preserves video game history.
-          </p>
+        <div className="container home-header-inner">
+          <div className="home-header-text">
+            <div className="home-label">
+              <span className="home-label-dot" />
+              Community-curated database
+            </div>
+            <h1 className="home-title">
+              <span className="home-title-plain">Open Video </span>
+              <span className="home-title-accent">Game Data</span>
+            </h1>
+            <p className="home-subtitle">
+              Aggregated rankings, community lists, and a tracker for every game across every generation.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -94,8 +103,9 @@ export default function Home() {
           <div className="container">
             <div className="section-header">
               <div>
-                <h2 className="section-title">Trending Lists</h2>
-                <p className="section-subtitle">Top community-curated rankings right now</p>
+                <div className="section-label">Trending <span className="section-label-line" /></div>
+                <h2 className="section-title">Top Ranked Lists</h2>
+                <p className="section-subtitle">The most referenced community rankings</p>
               </div>
             </div>
             <div className="lists-grid">
@@ -113,22 +123,21 @@ export default function Home() {
           <div className="container">
             <div className="section-header">
               <div>
-                <h2 className="section-title">User Activity</h2>
-                <p className="section-subtitle">What the community has been up to</p>
+                <div className="section-label">Live feed <span className="section-label-line" /></div>
+                <h2 className="section-title">Community Activity</h2>
+                <p className="section-subtitle">What players have been doing lately</p>
               </div>
             </div>
-            <div className="activity-list">
+            <div className="activity-grid">
               {data.userActivity.map((item, i) => (
                 <ActivityItem key={i} item={item} />
               ))}
             </div>
             <div className="activity-cta">
-              <button
-                className="btn-primary"
-                onClick={() => navigate('/users/lists/new')}
-              >
+              <button className="btn-primary" onClick={() => navigate('/users/lists/new')}>
                 + Create your list
               </button>
+              <span className="activity-cta-hint">Join the community and start contributing</span>
             </div>
           </div>
         </section>
@@ -139,36 +148,36 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <div>
+              <div className="section-label">Browse <span className="section-label-line" /></div>
               <h2 className="section-title">All Game Lists</h2>
-              <p className="section-subtitle">Browse every ranking and curated list</p>
+              <p className="section-subtitle">Every ranking and curated list</p>
             </div>
           </div>
 
-          {/* Search */}
-          <form className="lists-search-form" onSubmit={handleSearch}>
-            <input
-              className="lists-search-input"
-              placeholder="Search lists…"
-              value={searchInput}
-              onChange={e => setSearchInput(e.target.value)}
-            />
-            <button type="submit" className="lists-search-btn">Search</button>
-          </form>
-
-          {/* Tag filters */}
-          {data && (
-            <div className="tag-filters">
-              {data.allTags.map(tag => (
-                <button
-                  key={tag}
-                  className={`tag-btn ${activeTags.includes(tag) ? 'active' : ''}`}
-                  onClick={() => toggleTag(tag)}
-                >
-                  {capitalize(tag)}
-                </button>
-              ))}
-            </div>
-          )}
+          <div className="lists-toolbar">
+            <form className="lists-search-form" onSubmit={handleSearch}>
+              <input
+                className="lists-search-input"
+                placeholder="Search lists…"
+                value={searchInput}
+                onChange={e => setSearchInput(e.target.value)}
+              />
+              <button type="submit" className="lists-search-btn">Search</button>
+            </form>
+            {data && (
+              <div className="tag-filters">
+                {data.allTags.map(tag => (
+                  <button
+                    key={tag}
+                    className={`tag-btn ${activeTags.includes(tag) ? 'active' : ''}`}
+                    onClick={() => toggleTag(tag)}
+                  >
+                    {capitalize(tag)}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
 
           {/* Lists grid */}
           {listsLoading ? (
@@ -214,23 +223,28 @@ function ActivityItem({ item }: { item: HomeActivity }) {
       </div>
       <div className="activity-body">
         {isListActivity ? (
-          <p>
-            <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
-            {' '}added the list{' '}
-            {item.gameListName && (
-              <a href={item.gameListUrl} className="activity-link">"{item.gameListName}"</a>
-            )}
-            {' '}<span className="activity-time">{timeAgo(item.dateAdded)}</span>
-          </p>
+          <>
+            <p>
+              <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+              {' '}added{' '}
+              {item.gameListName
+                ? <a href={item.gameListUrl} className="activity-link">"{item.gameListName}"</a>
+                : 'a list'
+              }
+            </p>
+            <span className="activity-time">{timeAgo(item.dateAdded)}</span>
+          </>
         ) : (
-          <p>
-            <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
-            {' '}tracked{' '}
-            <a href={`${item.userProfileUrl}/trackers?trackStatus=${item.mostRecentTracker?.status ?? 0}`} className="activity-link">
-              {item.itemsTracked} game{item.itemsTracked !== 1 ? 's' : ''}
-            </a>
-            {' '}<span className="activity-time">{timeAgo(item.dateAdded)}</span>
-          </p>
+          <>
+            <p>
+              <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+              {' '}tracked{' '}
+              <a href={`${item.userProfileUrl}/trackers?trackStatus=${item.mostRecentTracker?.status ?? 0}`} className="activity-link">
+                {item.itemsTracked} game{item.itemsTracked !== 1 ? 's' : ''}
+              </a>
+            </p>
+            <span className="activity-time">{timeAgo(item.dateAdded)}</span>
+          </>
         )}
       </div>
     </div>
