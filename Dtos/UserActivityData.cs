@@ -56,7 +56,7 @@ public class UserActivityData
     }
 
     private string GetGameListUrl(long gameListId) {
-        return $"/view-list/{gameListId}";
+        return $"/source-lists/{gameListId}";
     }
 }
 

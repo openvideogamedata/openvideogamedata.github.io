@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import ListCard, { fromHomeList } from '../components/ListCard'
 import Paginator from '../components/Paginator'
 import PixelArt from '../components/PixelArt'
 import { getPinnedLists, getTags, getLists, getUserActivity } from '../api/home'
 import { timeAgo } from '../utils/time'
-import type { HomeList, HomeActivity, Pager } from '../types'
+import { ActivityType, type HomeList, type HomeActivity, type Pager } from '../types'
 import './Home.css'
 
 export default function Home() {
@@ -153,7 +153,7 @@ export default function Home() {
               {activity.map((item, i) => <ActivityItem key={i} item={item} />)}
             </div>
             <div className="activity-cta">
-              <button className="btn-primary" onClick={() => navigate('/users/lists/new')}>
+              <button className="btn-primary" onClick={() => navigate('/lists/new')}>
                 + Create your list
               </button>
               <span className="activity-cta-hint">Join the community and start contributing</span>
@@ -224,8 +224,11 @@ export default function Home() {
 // ── Sub-componentes ──────────────────────────────────────────────
 
 function ActivityItem({ item }: { item: HomeActivity }) {
-  const isListActivity = (item.activity as unknown as number) === 0
+  const isListActivity = item.activity === ActivityType.GameList
   const avatar = item.user?.userPicture
+  const userPath = toAppPath(item.userProfileUrl)
+  const listPath = toAppPath(item.gameListUrl)
+  const trackerPath = `${userPath}/trackers?trackStatus=${item.mostRecentTracker?.status ?? 0}`
 
   return (
     <div className="activity-item">
@@ -239,10 +242,10 @@ function ActivityItem({ item }: { item: HomeActivity }) {
         {isListActivity ? (
           <>
             <p>
-              <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+              <Link to={userPath} className="activity-user">{item.user?.fullName}</Link>
               {' '}added{' '}
               {item.gameListName
-                ? <a href={item.gameListUrl} className="activity-link">"{item.gameListName}"</a>
+                ? <Link to={listPath} className="activity-link">"{item.gameListName}"</Link>
                 : 'a list'
               }
             </p>
@@ -251,14 +254,11 @@ function ActivityItem({ item }: { item: HomeActivity }) {
         ) : (
           <>
             <p>
-              <a href={item.userProfileUrl} className="activity-user">{item.user?.fullName}</a>
+              <Link to={userPath} className="activity-user">{item.user?.fullName}</Link>
               {' '}tracked{' '}
-              <a
-                href={`${item.userProfileUrl}/trackers?trackStatus=${item.mostRecentTracker?.status ?? 0}`}
-                className="activity-link"
-              >
+              <Link to={trackerPath} className="activity-link">
                 {item.itemsTracked} game{item.itemsTracked !== 1 ? 's' : ''}
-              </a>
+              </Link>
             </p>
             <span className="activity-time">{timeAgo(item.dateAdded)}</span>
           </>
@@ -284,4 +284,12 @@ function ListsSkeleton({ count }: { count: number }) {
 
 function capitalize(s: string): string {
   return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
+function toAppPath(url: string): string {
+  if (!url) return '/'
+  const path = url.startsWith('http') ? new URL(url).pathname : url
+  const sourceListMatch = path.match(/^\/view-list\/(\d+)$/)
+  if (sourceListMatch) return `/source-lists/${sourceListMatch[1]}`
+  return path.startsWith('/') ? path : `/${path}`
 }

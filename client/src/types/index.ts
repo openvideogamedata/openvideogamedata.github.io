@@ -175,8 +175,9 @@ export interface HomeList {
 }
 
 export enum ActivityType {
-  GameList = 0,
-  Tracker = 1,
+  None = 0,
+  GameList = 1,
+  Tracker = 2,
 }
 
 export interface HomeUser {
