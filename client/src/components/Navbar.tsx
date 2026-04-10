@@ -12,7 +12,7 @@ export default function Navbar() {
   const inputRef = useRef<HTMLInputElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
-  const { user, loading } = useAuth()
+  const { user, loading, isAdmin } = useAuth()
 
   useEffect(() => {
     if (searchOpen) inputRef.current?.focus()
@@ -102,6 +102,12 @@ export default function Navbar() {
                       Notifications
                       {user.hasNotifications && <span className="menu-badge" />}
                     </Link>
+                    {isAdmin && (
+                      <>
+                        <Link to="/admin/users" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: Users</Link>
+                        <Link to="/admin/lists/new" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: New List</Link>
+                      </>
+                    )}
                     <button className="user-menu-item user-menu-logout" onClick={logout}>Sign out</button>
                   </div>
                 )}

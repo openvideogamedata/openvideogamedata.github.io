@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import TabBar from '../components/TabBar'
 import Paginator from '../components/Paginator'
-import { getListBySlug, getCriticLists, getUserLists } from '../api/gameLists'
+import { getListBySlug, getCriticLists, getUserLists, updateAvgConsideration } from '../api/gameLists'
 import type {
   GameListDetailsResponse,
   TopWinnerDto,
@@ -12,12 +12,15 @@ import type {
   SourceListDto,
 } from '../api/gameLists'
 import type { Pager } from '../types'
+import { useAuth } from '../context/AuthContext'
 import './ListDetail.css'
 
 export default function ListDetail() {
   const { slug, mode } = useParams<{ slug: string; mode?: string }>()
   const navigate = useNavigate()
+  const { isAdmin } = useAuth()
   const [data, setData] = useState<GameListDetailsResponse | null>(null)
+  const [avgScore, setAvgScore] = useState(true)
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
 
@@ -40,6 +43,7 @@ export default function ListDetail() {
     ])
       .then(([detail, critics]) => {
         setData(detail)
+        setAvgScore(detail.finalGameList.consideredForAvgScore)
         setCriticLists(critics.lists)
         setCriticPager(critics.pager as Pager)
         setLoading(false)
@@ -122,7 +126,23 @@ export default function ListDetail() {
           <h1 className="page-title">{fl.fullName}</h1>
           <div className="list-detail-meta">
             {fl.year && <span className="meta-chip">{fl.year}</span>}
-            <span className="meta-chip">{fl.consideredForAvgScore ? 'Scored' : 'Unscored'}</span>
+            {isAdmin ? (
+              <label className="meta-chip meta-chip-toggle" title="Toggle avg score consideration">
+                <input
+                  type="checkbox"
+                  checked={avgScore}
+                  onChange={async e => {
+                    const val = e.target.checked
+                    setAvgScore(val)
+                    await updateAvgConsideration(fl.id, val).catch(() => setAvgScore(!val))
+                  }}
+                  style={{ marginRight: '0.35rem' }}
+                />
+                {avgScore ? 'Scored' : 'Unscored'}
+              </label>
+            ) : (
+              <span className="meta-chip">{avgScore ? 'Scored' : 'Unscored'}</span>
+            )}
             {fl.socialUrl && (
               <a href={fl.socialUrl} target="_blank" rel="noopener noreferrer" className="meta-chip meta-social">
                 {fl.socialComments > 0 ? `${fl.socialComments} comments ↗` : 'Discussion ↗'}

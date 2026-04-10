@@ -107,3 +107,7 @@ export function getCriticLists(slug: string, page = 1, pageSize = 3): Promise<Ga
 export function getUserLists(slug: string, page = 1, pageSize = 5): Promise<GameListCollectionResponse> {
   return api.get<GameListCollectionResponse>(`/api/game-lists/${slug}/user-lists?page=${page}&pageSize=${pageSize}`)
 }
+
+export function updateAvgConsideration(id: number, considered: boolean): Promise<void> {
+  return api.put<void>(`/api/game-lists/${id}/avg-consideration`, { consideredForAvgScore: considered })
+}

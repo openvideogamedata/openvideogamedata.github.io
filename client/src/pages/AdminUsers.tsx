@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import Paginator from '../components/Paginator'
 import { useAuth } from '../context/AuthContext'
 import { api } from '../api/client'
@@ -33,6 +33,8 @@ export default function AdminUsers() {
   const [searchInput, setSearchInput] = useState('')
   const [loading, setLoading] = useState(false)
   const [togglingId, setTogglingId] = useState<string | null>(null)
+  const [stats, setStats] = useState<{ totalGameLists: number; totalUsers: number } | null>(null)
+  const [regenerating, setRegenerating] = useState(false)
 
   const fetchUsers = useCallback((page: number, q: string) => {
     setLoading(true)
@@ -45,7 +47,11 @@ export default function AdminUsers() {
   }, [])
 
   useEffect(() => {
-    if (!authLoading && isAdmin) fetchUsers(1, '')
+    if (!authLoading && isAdmin) {
+      fetchUsers(1, '')
+      api.get<{ totalGameLists: number; totalUsers: number }>('/api/admin/stats')
+        .then(setStats).catch(() => {})
+    }
   }, [authLoading, isAdmin, fetchUsers])
 
   async function handleToggleBan(user: UserAdminDto) {
@@ -83,6 +89,23 @@ export default function AdminUsers() {
       </section>
 
       <div className="container admin-body">
+        {stats && (
+          <div className="admin-stats-row">
+            <span className="admin-stat-chip">{stats.totalGameLists} lists</span>
+            <span className="admin-stat-chip">{stats.totalUsers} users</span>
+            <button
+              className="admin-stat-chip admin-regen-btn"
+              disabled={regenerating}
+              onClick={async () => {
+                setRegenerating(true)
+                await api.post('/api/admin/top-winners/regenerate', {}).catch(() => {})
+                setRegenerating(false)
+              }}
+            >
+              {regenerating ? 'Regenerating…' : '↻ Regenerate Top Winners'}
+            </button>
+          </div>
+        )}
         <div className="admin-toolbar">
           <form className="admin-search-form" onSubmit={e => {
             e.preventDefault()
@@ -97,6 +120,7 @@ export default function AdminUsers() {
             />
             <button type="submit" className="btn-primary-sm">Search</button>
           </form>
+          <Link to="/admin/lists/new" className="btn-primary-sm">+ New Master List</Link>
         </div>
 
         {loading ? (

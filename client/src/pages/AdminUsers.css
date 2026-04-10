@@ -17,6 +17,32 @@
   padding: 2.5rem 1rem 5rem;
 }
 
+.admin-stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.admin-stat-chip {
+  display: inline-block;
+  padding: 0.35rem 0.875rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.admin-regen-btn {
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+  background: transparent;
+}
+.admin-regen-btn:hover:not(:disabled) { border-color: var(--purple-light); color: var(--text); }
+.admin-regen-btn:disabled { opacity: 0.6; cursor: default; }
+
 .admin-toolbar {
   margin-bottom: 1.5rem;
 }

@@ -107,3 +107,116 @@
 .locked .badge-name {
   color: var(--text-muted);
 }
+
+/* Inline pixel art edit button on badge card */
+.badge-art {
+  position: relative;
+}
+
+.badge-edit-art-btn {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.6rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.badge-card:hover .badge-edit-art-btn { opacity: 1; }
+
+.badge-art-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+.badge-art-editor-actions {
+  display: flex;
+  gap: 0.3rem;
+}
+
+/* Admin panel */
+.admin-badges-panel {
+  margin-top: 3rem;
+}
+
+.admin-badges-divider {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.admin-badges-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--purple-light);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.admin-badge-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  max-width: 480px;
+  margin-top: 1.25rem;
+}
+
+.admin-form-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: -0.25rem;
+}
+
+.admin-form-input {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 0.4rem 0.625rem;
+  font-size: 0.875rem;
+  width: 100%;
+  transition: border-color 0.15s;
+}
+.admin-form-input:focus { outline: none; border-color: var(--purple-light); }
+
+.admin-form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+
+.admin-search-row {
+  display: flex;
+  gap: 0.5rem;
+}
+.admin-search-row .admin-form-input { flex: 1; }
+
+.admin-found-id {
+  font-size: 0.75rem;
+  color: var(--cyan);
+}
+
+.admin-bind-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+.admin-form-error { color: #ef4444; font-size: 0.8rem; }
+.admin-form-message { color: #10b981; font-size: 0.8rem; }

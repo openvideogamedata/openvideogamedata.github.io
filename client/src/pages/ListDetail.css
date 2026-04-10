@@ -47,6 +47,15 @@
 }
 .meta-social:hover { opacity: 0.8; }
 
+.meta-chip-toggle {
+  cursor: pointer;
+  color: var(--purple-light);
+  border-color: rgba(124,58,237,0.4);
+  display: inline-flex;
+  align-items: center;
+}
+.meta-chip-toggle:hover { opacity: 0.85; }
+
 /* Layout */
 .list-detail-body {
   display: grid;

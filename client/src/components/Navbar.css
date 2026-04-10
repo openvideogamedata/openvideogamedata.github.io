@@ -223,6 +223,9 @@
 .user-menu-logout { color: #ef4444; }
 .user-menu-logout:hover { background: rgba(239,68,68,0.08); color: #ef4444; }
 
+.user-menu-admin { color: var(--purple-light); font-size: 0.8rem; }
+.user-menu-admin:hover { background: rgba(124,58,237,0.08); color: var(--purple-light); }
+
 .menu-badge {
   width: 7px;
   height: 7px;
