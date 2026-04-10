@@ -57,6 +57,39 @@ public class GamesController : ControllerBase
         });
     }
 
+    [HttpGet("/api/users/{nickname}/games")]
+    public IActionResult GetGamesByUser(
+        string nickname,
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 24,
+        [FromQuery] int maxPages = 5,
+        [FromQuery] string? title = null,
+        [FromQuery] int? trackStatus = null)
+    {
+        var user = _userService.GetByNickname(nickname);
+        if (user is null)
+        {
+            return NotFound();
+        }
+
+        var filters = BuildFilters(page, pageSize, maxPages, title, trackStatus, order: null, trackerYear: null);
+        var (games, pager) = _gameService.GetGames(
+            user.Id,
+            filters.Page,
+            filters.SearchedText,
+            filters.Status,
+            filters.Order,
+            onlyTracked: trackStatus.HasValue,
+            filters.PageSize,
+            filters.MaxPages);
+
+        return Ok(new
+        {
+            games = games.Select(GameMapper.ToSummaryDto).ToList(),
+            pager,
+        });
+    }
+
     [HttpGet("search")]
     public IActionResult SearchGames(
         [FromQuery] string? title = null,
