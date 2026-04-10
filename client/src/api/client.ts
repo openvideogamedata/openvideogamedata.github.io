@@ -11,6 +11,11 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
     throw new Error(`API error ${res.status}: ${res.statusText}`)
   }
 
+  const contentType = res.headers.get('content-type')
+  if (!contentType || res.status === 204 || res.status === 202) {
+    return undefined as unknown as T
+  }
+
   return res.json() as Promise<T>
 }
 

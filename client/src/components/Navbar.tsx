@@ -35,7 +35,8 @@ export default function Navbar() {
         <nav className="navbar-links">
           <Link to="/games" className="nav-link">Games</Link>
           <Link to="/timeline" className="nav-link">Timeline</Link>
-          <Link to="/search" className="nav-link">Search</Link>
+          <Link to="/badges" className="nav-link">Badges</Link>
+          <Link to="/top-contributors" className="nav-link">Rankings</Link>
         </nav>
 
         <div className="navbar-actions">

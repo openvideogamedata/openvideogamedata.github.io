@@ -1,0 +1,116 @@
+.top-contributors-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 4rem 0 3rem;
+}
+
+.top-contributors-body {
+  padding: 3rem 1rem 5rem;
+  max-width: 640px;
+}
+
+.contributors-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.contributors-head {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+}
+
+.contributor-row {
+  display: grid;
+  grid-template-columns: 48px 1fr auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.875rem 1.25rem;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--border);
+  transition: background 0.15s;
+}
+
+.contributor-row:last-child {
+  border-bottom: none;
+}
+
+.contributor-row:hover {
+  background: var(--surface-3);
+}
+
+.skeleton-row {
+  pointer-events: none;
+}
+
+.rank-badge {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.rank-1 { color: #f59e0b; }
+.rank-2 { color: #94a3b8; }
+.rank-3 { color: #cd7c3a; }
+
+.contributor-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.contributor-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background: var(--surface-3);
+  border-radius: 4px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.avatar-placeholder {
+  background: var(--surface-3);
+}
+
+.contributor-name {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.contributor-nick {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.contributor-count {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.empty-state {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 3rem 0;
+}

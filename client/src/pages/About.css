@@ -1,0 +1,35 @@
+.static-page-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 4rem 0 3rem;
+}
+
+.static-page-body {
+  padding: 3rem 1rem 5rem;
+  max-width: 720px;
+}
+
+.static-content {
+  color: var(--text-muted);
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.static-content p {
+  margin-bottom: 1.25rem;
+}
+
+.static-content h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text);
+  margin: 2.5rem 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.static-skeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
