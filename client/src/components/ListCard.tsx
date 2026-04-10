@@ -15,18 +15,21 @@ export default function ListCard({ list }: Props) {
   return (
     <div className="list-card">
       <Link to={`/list/${list.slug}`} className="list-card-covers">
-        {covers.map(w => (
-          <img
-            key={w.gameId}
-            src={w.coverImageUrl || FALLBACK}
-            alt={w.gameTitle}
-            className="list-cover-img"
-            loading="lazy"
-            onError={e => { (e.target as HTMLImageElement).src = FALLBACK }}
-          />
+        {covers.map((w, index) => (
+          <div key={w.gameId} className={`list-cover-slot list-cover-slot-${index + 1}`}>
+            <img
+              src={w.coverImageUrl || FALLBACK}
+              alt={w.gameTitle}
+              className="list-cover-img"
+              loading="lazy"
+              onError={e => { (e.target as HTMLImageElement).src = FALLBACK }}
+            />
+          </div>
         ))}
         {Array.from({ length: empty }).map((_, i) => (
-          <img key={`ph-${i}`} src={FALLBACK} alt="" className="list-cover-img" />
+          <div key={`ph-${i}`} className={`list-cover-slot list-cover-slot-${covers.length + i + 1}`}>
+            <img src={FALLBACK} alt="" className="list-cover-img" />
+          </div>
         ))}
       </Link>
       <div className="list-card-info">
