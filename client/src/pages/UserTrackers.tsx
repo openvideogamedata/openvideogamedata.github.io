@@ -76,6 +76,7 @@ export default function UserTrackers() {
   const [gamesLoading, setGamesLoading] = useState(false)
   const [trackerYear, setTrackerYear] = useState<number | null>(null)
   const [availableTrackerYears, setAvailableTrackerYears] = useState<number[] | null>(null)
+  const [availableTrackerYearsStatus, setAvailableTrackerYearsStatus] = useState<number | null>(null)
 
   // Compare tab state
   const [activeTab, setActiveTab] = useState<'trackers' | 'compare'>('trackers')
@@ -109,17 +110,21 @@ export default function UserTrackers() {
     if (activeStatus === null || !nickname) return
     if (shouldShowYearFilter(activeStatus)) {
       setAvailableTrackerYears(null)
+      setAvailableTrackerYearsStatus(null)
       api.get<number[]>(`/api/users/${encodeURIComponent(nickname)}/tracker-years?trackStatus=${activeStatus}`)
         .then(years => {
           setAvailableTrackerYears(years)
+          setAvailableTrackerYearsStatus(activeStatus)
           setTrackerYear(years.length > 0 ? years[0] : null)
         })
         .catch(() => {
           setAvailableTrackerYears([])
+          setAvailableTrackerYearsStatus(activeStatus)
           setTrackerYear(null)
         })
     } else {
       setAvailableTrackerYears([])
+      setAvailableTrackerYearsStatus(activeStatus)
       setTrackerYear(null)
     }
   }, [activeStatus, nickname]) // eslint-disable-line react-hooks/exhaustive-deps
@@ -127,9 +132,12 @@ export default function UserTrackers() {
   // Load games when status/year are ready
   useEffect(() => {
     if (activeStatus === null || !nickname) return
-    if (shouldShowYearFilter(activeStatus) && availableTrackerYears === null) return
+    if (
+      shouldShowYearFilter(activeStatus) &&
+      (availableTrackerYears === null || availableTrackerYearsStatus !== activeStatus)
+    ) return
     loadGames(activeStatus, 1)
-  }, [activeStatus, nickname, trackerYear, availableTrackerYears]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [activeStatus, nickname, trackerYear, availableTrackerYears, availableTrackerYearsStatus]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Load list options when switching to Compare tab
   useEffect(() => {
@@ -274,8 +282,12 @@ export default function UserTrackers() {
                         className={`tracker-pill ${active ? 'active' : ''}`}
                         style={active ? { background: meta.color, borderColor: meta.color } : { borderColor: `${meta.color}66` }}
                         onClick={() => {
-                          setActiveStatus(s.trackStatus)
                           setTrackerYear(null)
+                          setAvailableTrackerYears(null)
+                          setAvailableTrackerYearsStatus(null)
+                          setGames([])
+                          setGamesPager(null)
+                          setActiveStatus(s.trackStatus)
                         }}
                       >
                         <span className="tracker-pill-dot" style={{ background: meta.color }} />
