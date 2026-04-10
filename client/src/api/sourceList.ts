@@ -58,3 +58,7 @@ export interface SourceListResponse {
 export function getSourceList(id: number | string): Promise<SourceListResponse> {
   return api.get<SourceListResponse>(`/api/source-lists/${id}`)
 }
+
+export function deleteSourceList(id: number | string): Promise<void> {
+  return api.delete<void>(`/api/user-lists/${id}`)
+}

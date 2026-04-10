@@ -100,6 +100,34 @@
   max-width: 720px;
 }
 
+/* Toolbar */
+.source-list-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.875rem;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.toolbar-btn:hover { border-color: var(--purple-light); color: var(--text); }
+
+.toolbar-btn-danger { border-color: rgba(239,68,68,0.3); color: #ef4444; }
+.toolbar-btn-danger:hover { border-color: #ef4444; }
+
 .game-list-items {
   display: flex;
   flex-direction: column;

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
-import { useParams, Link } from 'react-router-dom'
-import { getSourceList } from '../api/sourceList'
+import { useParams, Link, useNavigate } from 'react-router-dom'
+import { getSourceList, deleteSourceList } from '../api/sourceList'
 import type { SourceListResponse, GameListItemDto } from '../api/sourceList'
+import { useAuth } from '../context/AuthContext'
 import './SourceListDetail.css'
 
 const IGDB_COVER_URL = (id: string, big = false) =>
@@ -13,11 +14,22 @@ function coverUrl(url: string | null): string | null {
   return IGDB_COVER_URL(url)
 }
 
+function medal(pos: number): string {
+  if (pos === 1) return '🥇'
+  if (pos === 2) return '🥈'
+  if (pos === 3) return '🥉'
+  return `${pos}.`
+}
+
 export default function SourceListDetail() {
   const { id } = useParams<{ id: string }>()
+  const navigate = useNavigate()
+  const { isAdmin } = useAuth()
   const [data, setData] = useState<SourceListResponse | null>(null)
   const [loading, setLoading] = useState(true)
   const [notFound, setNotFound] = useState(false)
+  const [copyDone, setCopyDone] = useState(false)
+  const [deleting, setDeleting] = useState(false)
 
   useEffect(() => {
     if (!id) return
@@ -40,6 +52,47 @@ export default function SourceListDetail() {
   const { list, creator, creatorNickname, friendComparison } = data
   const items = [...list.items].sort((a, b) => a.position - b.position)
   const masterList = list.finalGameList
+  const canEdit = data.canEdit || isAdmin
+
+  function buildClipboardText(): string {
+    let text = `🏆 ${masterList?.fullName ?? 'Game List'} by ${creator}\n\n`
+    items.forEach(item => {
+      text += `${medal(item.position)} ${item.gameTitle}\n`
+    })
+    text += `\nSource: ${window.location.href}`
+    return text
+  }
+
+  function handleCopy() {
+    navigator.clipboard.writeText(buildClipboardText())
+      .then(() => { setCopyDone(true); setTimeout(() => setCopyDone(false), 2000) })
+      .catch(() => {})
+  }
+
+  function handleDownloadCsv() {
+    const header = 'Position,Title\n'
+    const rows = items.map(i => `${i.position},"${i.gameTitle.replace(/"/g, '""')}"`).join('\n')
+    const blob = new Blob([header + rows], { type: 'text/csv;charset=utf-8;' })
+    const url = URL.createObjectURL(blob)
+    const a = document.createElement('a')
+    a.href = url
+    a.download = `${creator} - ${masterList?.fullName ?? 'list'}.csv`
+    a.click()
+    URL.revokeObjectURL(url)
+  }
+
+  async function handleDelete() {
+    if (!id) return
+    if (!window.confirm('Delete this list permanently?')) return
+    setDeleting(true)
+    try {
+      await deleteSourceList(id)
+      if (masterList?.slug) navigate(`/list/${masterList.slug}`)
+      else navigate(-1)
+    } catch {
+      setDeleting(false)
+    }
+  }
 
   return (
     <div className="source-list-page">
@@ -99,6 +152,25 @@ export default function SourceListDetail() {
       )}
 
       <div className="container source-list-body">
+        <div className="source-list-toolbar">
+          <button className="toolbar-btn" onClick={handleCopy}>
+            {copyDone ? '✓ Copied!' : '📋 Copy'}
+          </button>
+          <button className="toolbar-btn" onClick={handleDownloadCsv}>
+            ↓ CSV
+          </button>
+          {canEdit && (
+            <>
+              <Link to={`/lists/${list.id}/edit`} className="toolbar-btn">
+                ✏ Edit
+              </Link>
+              <button className="toolbar-btn toolbar-btn-danger" onClick={handleDelete} disabled={deleting}>
+                {deleting ? 'Deleting…' : '🗑 Delete'}
+              </button>
+            </>
+          )}
+        </div>
+
         <div className="game-list-items">
           {items.map(item => (
             <GameListItem

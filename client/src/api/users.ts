@@ -54,3 +54,19 @@ export function getUserProfile(nickname: string): Promise<UserProfileDto> {
 export function sendFriendRequest(nickname: string): Promise<void> {
   return api.post<void>(`/api/users/${encodeURIComponent(nickname)}/friend-requests`, {})
 }
+
+export function checkNicknameAvailability(nickname: string): Promise<{ available: boolean }> {
+  return api.get<{ available: boolean }>(`/api/users/nickname-availability?nickname=${encodeURIComponent(nickname)}`)
+}
+
+export function updateNickname(nickname: string): Promise<void> {
+  return api.put<void>('/api/users/me/nickname', { nickname })
+}
+
+export function updatePixelArt(matrix: string[]): Promise<void> {
+  return api.put<void>('/api/users/me/pixel-art', { matrix })
+}
+
+export function deleteAccount(): Promise<void> {
+  return api.delete<void>('/api/users/me')
+}

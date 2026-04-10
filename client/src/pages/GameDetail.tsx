@@ -1,23 +1,52 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Paginator from '../components/Paginator'
-import { getGame, getCitations } from '../api/games'
-import type { GameDetailResponse, CitationsResponse, Pager } from '../types'
+import PixelArt from '../components/PixelArt'
+import { getGame, getCitations, updateTracker, removeTrackerStatus } from '../api/games'
+import type { UpdateTrackerRequest } from '../api/games'
+import { useAuth } from '../context/AuthContext'
+import type { GameDetailResponse, CitationsResponse, Tracker, Pager } from '../types'
+import { TrackStatus } from '../types'
 import './GameDetail.css'
+
+const STATUS_BUTTONS = [
+  { status: TrackStatus.ToPlay,    label: 'To Play',   color: '#7c3aed' },
+  { status: TrackStatus.Playing,   label: 'Playing',   color: '#06b6d4' },
+  { status: TrackStatus.Played,    label: 'Played',    color: '#f59e0b' },
+  { status: TrackStatus.Beaten,    label: 'Beaten',    color: '#10b981' },
+  { status: TrackStatus.Abandoned, label: 'Abandoned', color: '#ef4444' },
+]
+
+function hasDate(tracker: Tracker): boolean {
+  if (!tracker.statusDate) return false
+  const d = new Date(tracker.statusDate)
+  return d.getFullYear() > 1
+}
 
 export default function GameDetail() {
   const { id } = useParams<{ id: string }>()
+  const { user } = useAuth()
   const [data, setData] = useState<GameDetailResponse | null>(null)
   const [citations, setCitations] = useState<CitationsResponse | null>(null)
   const [loading, setLoading] = useState(true)
   const [citLoading, setCitLoading] = useState(false)
   const [notFound, setNotFound] = useState(false)
 
+  // Tracker state
+  const [tracker, setTracker] = useState<Tracker | null>(null)
+  const [trackerLoading, setTrackerLoading] = useState(false)
+  const [noteValue, setNoteValue] = useState('')
+
   useEffect(() => {
     if (!id) return
     setLoading(true)
     getGame(Number(id))
-      .then(res => { setData(res); setLoading(false) })
+      .then(res => {
+        setData(res)
+        setTracker(res.tracker)
+        setNoteValue(res.tracker?.note ?? '')
+        setLoading(false)
+      })
       .catch(() => { setNotFound(true); setLoading(false) })
 
     getCitations(Number(id))
@@ -32,6 +61,105 @@ export default function GameDetail() {
       .catch(() => setCitLoading(false))
   }
 
+  async function handleStatusClick(status: TrackStatus) {
+    if (!id) return
+    setTrackerLoading(true)
+    try {
+      if (tracker?.status === status) {
+        // Toggle off — remove
+        const updated = await removeTrackerStatus(Number(id))
+        setTracker(updated)
+        setNoteValue(updated.note ?? '')
+      } else {
+        const req: UpdateTrackerRequest = {
+          status,
+          note: noteValue || null,
+          platinum: tracker?.platinum ?? false,
+          statusDate: tracker?.statusDate ?? null,
+        }
+        const updated = await updateTracker(Number(id), req)
+        setTracker(updated)
+        setNoteValue(updated.note ?? '')
+      }
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
+  async function handleNoteBlur() {
+    if (!id || !tracker || tracker.status === TrackStatus.None) return
+    setTrackerLoading(true)
+    try {
+      const updated = await updateTracker(Number(id), {
+        status: tracker.status,
+        note: noteValue || null,
+        platinum: tracker.platinum,
+        statusDate: tracker.statusDate,
+      })
+      setTracker(updated)
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
+  async function handlePlatinumToggle() {
+    if (!id || !tracker) return
+    setTrackerLoading(true)
+    try {
+      const updated = await updateTracker(Number(id), {
+        status: tracker.status,
+        note: noteValue || null,
+        platinum: !tracker.platinum,
+        statusDate: tracker.statusDate,
+      })
+      setTracker(updated)
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
+  async function handleAddDate() {
+    if (!id || !tracker) return
+    setTrackerLoading(true)
+    try {
+      const updated = await updateTracker(Number(id), {
+        status: tracker.status,
+        note: noteValue || null,
+        platinum: tracker.platinum,
+        statusDate: new Date().toISOString(),
+      })
+      setTracker(updated)
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
+  async function handleRemoveDate() {
+    if (!id || !tracker) return
+    setTrackerLoading(true)
+    try {
+      const updated = await updateTracker(Number(id), {
+        status: tracker.status,
+        note: noteValue || null,
+        platinum: tracker.platinum,
+        statusDate: null,
+      })
+      setTracker(updated)
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
+  async function handleDateChange(dateStr: string) {
+    if (!id || !tracker) return
+    setTrackerLoading(true)
+    try {
+      const updated = await updateTracker(Number(id), {
+        status: tracker.status,
+        note: noteValue || null,
+        platinum: tracker.platinum,
+        statusDate: dateStr ? new Date(dateStr).toISOString() : null,
+      })
+      setTracker(updated)
+    } catch { /* silent */ }
+    setTrackerLoading(false)
+  }
+
   if (loading) return <GameDetailSkeleton />
   if (notFound || !data) return (
     <div className="container" style={{ padding: '80px 0', textAlign: 'center' }}>
@@ -40,8 +168,9 @@ export default function GameDetail() {
     </div>
   )
 
-  const { game, citationsSummary } = data
+  const { game, citationsSummary, friendsTrackers } = data
   const score = game.score
+  const isTracked = tracker !== null && tracker.status !== TrackStatus.None
 
   return (
     <div className="game-detail-page">
@@ -88,12 +217,95 @@ export default function GameDetail() {
               </div>
             )}
 
-            {/* Tracker placeholder */}
-            <div className="tracker-placeholder">
-              <p className="tracker-placeholder-text">
-                <Link to="/login" className="tracker-login-link">Sign in</Link> to track this game
-              </p>
-            </div>
+            {/* Tracker */}
+            {user ? (
+              <div className={`tracker-section ${trackerLoading ? 'tracker-loading' : ''}`}>
+                <div className="tracker-buttons">
+                  {STATUS_BUTTONS.map(btn => {
+                    const active = tracker?.status === btn.status
+                    return (
+                      <button
+                        key={btn.status}
+                        className={`tracker-btn ${active ? 'active' : ''}`}
+                        style={active ? { background: btn.color, borderColor: btn.color } : { borderColor: `${btn.color}55` }}
+                        onClick={() => handleStatusClick(btn.status)}
+                        disabled={trackerLoading}
+                        title={active ? `Remove "${btn.label}"` : `Mark as "${btn.label}"`}
+                      >
+                        {btn.label}
+                      </button>
+                    )
+                  })}
+                </div>
+
+                {isTracked && (
+                  <div className="tracker-extras">
+                    {/* Date row */}
+                    <div className="tracker-date-row">
+                      {hasDate(tracker!) ? (
+                        <>
+                          <input
+                            type="date"
+                            className="tracker-date-input"
+                            value={tracker!.statusDate.slice(0, 10)}
+                            onChange={e => handleDateChange(e.target.value)}
+                            disabled={trackerLoading}
+                          />
+                          <button className="tracker-icon-btn" onClick={handleRemoveDate} disabled={trackerLoading} title="Remove date">✕</button>
+                        </>
+                      ) : (
+                        <button className="tracker-icon-btn" onClick={handleAddDate} disabled={trackerLoading} title="Add date">
+                          + Date
+                        </button>
+                      )}
+                      {tracker!.status === TrackStatus.Beaten && (
+                        <button
+                          className={`tracker-platinum-btn ${tracker!.platinum ? 'active' : ''}`}
+                          onClick={handlePlatinumToggle}
+                          disabled={trackerLoading}
+                          title="100% / Platinum"
+                        >
+                          🏆 100%
+                        </button>
+                      )}
+                    </div>
+
+                    {/* Notes */}
+                    <textarea
+                      className="tracker-note"
+                      maxLength={80}
+                      rows={2}
+                      placeholder="Add a note… (max 80 chars)"
+                      value={noteValue}
+                      onChange={e => setNoteValue(e.target.value)}
+                      onBlur={handleNoteBlur}
+                      disabled={trackerLoading}
+                    />
+                  </div>
+                )}
+
+                {/* Friends trackers */}
+                {friendsTrackers.length > 0 && (
+                  <div className="friends-trackers">
+                    {friendsTrackers.slice(0, 5).map((ft, i) => ft.user && (
+                      <Link key={i} to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-avatar" title={`${ft.user.nickname}${ft.tracker.note ? ': ' + ft.tracker.note : ''}`}>
+                        {ft.user.userPicture ? (
+                          <PixelArt matrix={ft.user.userPicture} cellSize={3} />
+                        ) : (
+                          <span className="friend-avatar-placeholder">{ft.user.fullName[0]}</span>
+                        )}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="tracker-placeholder">
+                <p className="tracker-placeholder-text">
+                  <Link to="/login" className="tracker-login-link">Sign in</Link> to track this game
+                </p>
+              </div>
+            )}
           </main>
         </div>
 
@@ -102,7 +314,7 @@ export default function GameDetail() {
           <section className="citations-section">
             <h2 className="citations-title">
               Lists this game appears in
-              <span className="citations-count">{citations.citations.length} entries</span>
+              <span className="citations-count">{citations.numberOfCategories} categories</span>
             </h2>
             <div className={`citations-list ${citLoading ? 'loading' : ''}`}>
               {citations.citations.map(c => (

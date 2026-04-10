@@ -1,0 +1,46 @@
+.pixel-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.pixel-editor-canvas {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  display: block;
+}
+
+.pixel-editor-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.palette-swatch {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: border-color 0.12s, transform 0.12s;
+  padding: 0;
+}
+
+.palette-swatch:hover {
+  transform: scale(1.15);
+}
+
+.palette-swatch.selected {
+  border-color: var(--purple-light);
+  transform: scale(1.15);
+}
+
+.palette-transparent {
+  background: var(--surface-3) !important;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

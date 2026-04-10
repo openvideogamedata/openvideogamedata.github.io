@@ -5,10 +5,13 @@ import { getListsByUser } from '../api/userLists'
 import type { SourceGameListDto } from '../api/gameLists'
 import type { Pager } from '../types'
 import { timeAgo } from '../utils/time'
+import { useAuth } from '../context/AuthContext'
 import './UserLists.css'
 
 export default function UserLists() {
   const { nickname } = useParams<{ nickname: string }>()
+  const { user } = useAuth()
+  const isOwn = !!user && user.nickname === nickname
   const [lists, setLists] = useState<SourceGameListDto[]>([])
   const [pager, setPager] = useState<Pager | null>(null)
   const [loading, setLoading] = useState(true)
@@ -38,7 +41,14 @@ export default function UserLists() {
       <section className="user-lists-header">
         <div className="container">
           <Link to={`/users/${nickname}`} className="back-link">← @{nickname}</Link>
-          <h1 className="page-title">Lists by {nickname}</h1>
+          <h1 className="page-title">
+            {isOwn ? 'My Lists' : `Lists by ${nickname}`}
+          </h1>
+          {isOwn && (
+            <Link to="/lists/new" className="btn-primary-sm" style={{ marginTop: '0.75rem', display: 'inline-block' }}>
+              + New list
+            </Link>
+          )}
         </div>
       </section>
 

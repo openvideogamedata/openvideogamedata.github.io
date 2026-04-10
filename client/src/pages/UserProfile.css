@@ -207,3 +207,110 @@
   font-size: 0.9rem;
   padding: 1rem 0;
 }
+
+/* Avatar editing */
+.avatar-static-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.avatar-edit-btn {
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.65rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 0.15s;
+}
+.avatar-edit-btn:hover { border-color: var(--purple-light); color: var(--text); }
+
+.avatar-editor-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.avatar-editor-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Nickname editing */
+.nick-edit-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.25rem;
+}
+
+.nick-input {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 0.35rem 0.625rem;
+  font-size: 0.9rem;
+  width: 160px;
+  transition: border-color 0.15s;
+}
+.nick-input:focus { outline: none; border-color: var(--purple-light); }
+
+.nick-status {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+.nick-ok  { color: #10b981; }
+.nick-err { color: #ef4444; }
+
+/* Rank stat as link */
+.stat-chip-link {
+  text-decoration: none;
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.stat-chip-link:hover { border-color: var(--purple-light); }
+
+/* Notifications button with dot */
+.notif-link {
+  position: relative;
+}
+
+.notif-dot {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ef4444;
+}
+
+/* Danger zone */
+.danger-zone {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
+.delete-account-btn {
+  background: none;
+  border: none;
+  color: var(--text-faint, var(--text-muted));
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+  opacity: 0.5;
+  transition: opacity 0.15s, color 0.15s;
+}
+.delete-account-btn:hover { opacity: 1; color: #ef4444; }

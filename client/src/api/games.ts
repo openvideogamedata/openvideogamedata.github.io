@@ -1,5 +1,5 @@
 import { api } from './client'
-import type { GamesResponse, GameDetailResponse, CitationsResponse } from '../types'
+import type { GamesResponse, GameDetailResponse, CitationsResponse, Tracker } from '../types'
 
 export interface GetGamesParams {
   page?: number
@@ -8,6 +8,13 @@ export interface GetGamesParams {
   order?: number
   trackStatus?: number
   onlyTracked?: boolean
+}
+
+export interface UpdateTrackerRequest {
+  status: number
+  note?: string | null
+  statusDate?: string | null
+  platinum?: boolean
 }
 
 export function getGames(params: GetGamesParams = {}): Promise<GamesResponse> {
@@ -27,4 +34,12 @@ export function getGame(id: number): Promise<GameDetailResponse> {
 
 export function getCitations(id: number, page = 1, pageSize = 10): Promise<CitationsResponse> {
   return api.get<CitationsResponse>(`/api/games/${id}/citations?page=${page}&pageSize=${pageSize}`)
+}
+
+export function updateTracker(gameId: number, data: UpdateTrackerRequest): Promise<Tracker> {
+  return api.put<Tracker>(`/api/games/${gameId}/tracker`, data)
+}
+
+export function removeTrackerStatus(gameId: number): Promise<Tracker> {
+  return api.delete<Tracker>(`/api/games/${gameId}/tracker`)
 }
