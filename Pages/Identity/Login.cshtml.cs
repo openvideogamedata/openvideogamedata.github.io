@@ -12,14 +12,22 @@ namespace community.Pages.Identity
     public sealed class LoginModel : PageModel
     {
         private readonly UserService _userService;
-        public LoginModel(UserService userService)
+        private readonly ILogger<LoginModel> _logger;
+
+        public LoginModel(UserService userService, ILogger<LoginModel> logger)
         {
             _userService = userService;
+            _logger = logger;
         }
 
         public IActionResult OnGetAsync(string returnUrl = null)
         {
             string provider = "Google";
+            _logger.LogInformation(
+                "Legacy Google login challenge started. ReturnUrl={ReturnUrl} RequestPath={RequestPath}",
+                DescribeReturnUrl(returnUrl),
+                Request.Path);
+
             // Request a redirect to the external login provider.
             var authenticationProperties = new AuthenticationProperties
             {
@@ -27,17 +35,44 @@ namespace community.Pages.Identity
                     pageHandler: "Callback",
                     values: new { returnUrl }),
             };
+
+            _logger.LogInformation(
+                "Legacy Google login challenge prepared. Callback={Callback}",
+                authenticationProperties.RedirectUri);
+
             return new ChallengeResult(provider, authenticationProperties);
         }
 
         public async Task<IActionResult> OnGetCallbackAsync(string returnUrl = null, string remoteError = null)
         {
+            _logger.LogInformation(
+                "Legacy Google login callback received. ReturnUrl={ReturnUrl} HasRemoteError={HasRemoteError} IsAuthenticated={IsAuthenticated}",
+                DescribeReturnUrl(returnUrl),
+                !string.IsNullOrEmpty(remoteError),
+                User.Identity?.IsAuthenticated ?? false);
+
+            if (!string.IsNullOrEmpty(remoteError))
+            {
+                _logger.LogWarning("Legacy Google login callback returned remote error. RemoteError={RemoteError}", remoteError);
+                return LocalRedirect("/");
+            }
+
             returnUrl = CleanReturnUrl(returnUrl);
             var LoggedUser = this.User.Identities.FirstOrDefault();
             var needsFill = false;
-            (LoggedUser, needsFill) = AsignCustomClaims(LoggedUser);
 
-            if (LoggedUser.IsAuthenticated)
+            if (LoggedUser != null)
+            {
+                _logger.LogInformation(
+                    "Legacy Google login identity found. AuthenticationType={AuthenticationType} IsAuthenticated={IsAuthenticated} ClaimTypes={ClaimTypes}",
+                    LoggedUser.AuthenticationType,
+                    LoggedUser.IsAuthenticated,
+                    string.Join(",", LoggedUser.Claims.Select(claim => claim.Type).Distinct()));
+
+                (LoggedUser, needsFill) = AsignCustomClaims(LoggedUser);
+            }
+
+            if (LoggedUser?.IsAuthenticated == true)
             {
                 var authProperties = new AuthenticationProperties
                 {
@@ -48,10 +83,25 @@ namespace community.Pages.Identity
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 new ClaimsPrincipal(LoggedUser),
                 authProperties);
+
+                _logger.LogInformation(
+                    "Legacy Google login cookie sign-in completed. NeedsFill={NeedsFill} Roles={Roles}",
+                    needsFill,
+                    string.Join(",", LoggedUser.Claims.Where(claim => claim.Type == ClaimTypes.Role).Select(claim => claim.Value)));
+            }
+            else
+            {
+                _logger.LogWarning("Legacy Google login callback failed because no authenticated identity was available.");
+                return LocalRedirect("/");
             }
 
             if (needsFill)
+            {
+                _logger.LogInformation("Legacy Google login requires user profile completion. Redirecting to fill page.");
                 return LocalRedirect("/users/fill");
+            }
+
+            _logger.LogInformation("Legacy Google login completed. Redirecting to {ReturnUrl}", DescribeReturnUrl(returnUrl));
             return LocalRedirect(returnUrl);
         }
         
@@ -60,18 +110,28 @@ namespace community.Pages.Identity
             try
             {
                 var nameIdClaim = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
-                Console.WriteLine($"AsignCustomClaims - nameIdClaim: {nameIdClaim}");
-                var dbUser = _userService.GetByNameIdentifier(nameIdClaim.Value);
+                if (nameIdClaim == null || string.IsNullOrWhiteSpace(nameIdClaim.Value))
+                {
+                    _logger.LogWarning("Legacy Google login custom claims skipped because NameIdentifier claim is missing.");
+                    return (User, false);
+                }
 
-                if (!string.IsNullOrEmpty(dbUser.Role))
+                var dbUser = _userService.GetByNameIdentifier(nameIdClaim.Value);
+                _logger.LogInformation(
+                    "Legacy Google login user lookup completed. UserFound={UserFound} HasRole={HasRole} NeedsFill={NeedsFill}",
+                    dbUser != null,
+                    !string.IsNullOrEmpty(dbUser?.Role),
+                    dbUser?.NicknameIsNameIdentifier() ?? false);
+
+                if (!string.IsNullOrEmpty(dbUser?.Role))
                     (User! as ClaimsIdentity).AddClaims(
                         new[] { new Claim(ClaimTypes.Role, dbUser.Role) });
 
-                return (User, dbUser.NicknameIsNameIdentifier());
+                return (User, dbUser?.NicknameIsNameIdentifier() ?? false);
             }
             catch(Exception e)
             {
-                Console.WriteLine($"[ERRO] - AsignCustomClaims - exception: {e}");
+                _logger.LogError(e, "Legacy Google login custom claims failed.");
             }
             return (User, false);
         }
@@ -91,9 +151,21 @@ namespace community.Pages.Identity
             }
             catch(Exception e)
             {
-                Console.WriteLine($"[ERRO] - CleanReturnUrl - {e}");
+                _logger.LogError(e, "Failed to clean legacy login return URL. ReturnUrl={ReturnUrl}", DescribeReturnUrl(returnUrl));
                 return Url.Content("~/");
             }
+        }
+
+        private static string DescribeReturnUrl(string returnUrl)
+        {
+            if (string.IsNullOrWhiteSpace(returnUrl))
+                return "(empty)";
+
+            if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var uri))
+                return $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}{uri.AbsolutePath}";
+
+            var queryStart = returnUrl.IndexOf('?');
+            return queryStart >= 0 ? returnUrl[..queryStart] : returnUrl;
         }
     }
 }

@@ -13,10 +13,12 @@ namespace community.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly UserService _userService;
+    private readonly ILogger<AuthController> _logger;
 
-    public AuthController(UserService userService)
+    public AuthController(UserService userService, ILogger<AuthController> logger)
     {
         _userService = userService;
+        _logger = logger;
     }
 
     [AllowAnonymous]
@@ -27,10 +29,19 @@ public class AuthController : ControllerBase
     )]
     public IActionResult Login([FromQuery] string? returnUrl = null)
     {
+        _logger.LogInformation(
+            "Google login challenge started. ReturnUrl={ReturnUrl} RequestPath={RequestPath}",
+            DescribeReturnUrl(returnUrl),
+            Request.Path);
+
         var authenticationProperties = new AuthenticationProperties
         {
             RedirectUri = Url.Action(nameof(Callback), values: new { returnUrl })
         };
+
+        _logger.LogInformation(
+            "Google login challenge prepared. Callback={Callback}",
+            authenticationProperties.RedirectUri);
 
         return new ChallengeResult("Google", authenticationProperties);
     }
@@ -40,12 +51,22 @@ public class AuthController : ControllerBase
     public async Task<IActionResult> Callback([FromQuery] string? returnUrl = null, [FromQuery] string? remoteError = null)
     {
         var cleanUrl = CleanReturnUrl(returnUrl);
+        _logger.LogInformation(
+            "Google login callback received. ReturnUrl={ReturnUrl} CleanReturnUrl={CleanReturnUrl} HasRemoteError={HasRemoteError} IsAuthenticated={IsAuthenticated}",
+            DescribeReturnUrl(returnUrl),
+            DescribeReturnUrl(cleanUrl),
+            !string.IsNullOrEmpty(remoteError),
+            User.Identity?.IsAuthenticated ?? false);
 
         if (!string.IsNullOrEmpty(remoteError))
         {
             var reason = remoteError.Equals("access_denied", StringComparison.OrdinalIgnoreCase)
                 ? "access_denied"
                 : "provider_error";
+            _logger.LogWarning(
+                "Google login callback returned remote error. Reason={Reason} RemoteError={RemoteError}",
+                reason,
+                remoteError);
             return RedirectToAuthError(cleanUrl, reason);
         }
 
@@ -54,6 +75,12 @@ public class AuthController : ControllerBase
 
         if (identity != null)
         {
+            _logger.LogInformation(
+                "Google login identity found. AuthenticationType={AuthenticationType} IsAuthenticated={IsAuthenticated} ClaimTypes={ClaimTypes}",
+                identity.AuthenticationType,
+                identity.IsAuthenticated,
+                string.Join(",", identity.Claims.Select(claim => claim.Type).Distinct()));
+
             (identity, needsFill) = AssignCustomClaims(identity);
 
             if (identity.IsAuthenticated)
@@ -68,16 +95,23 @@ public class AuthController : ControllerBase
                     CookieAuthenticationDefaults.AuthenticationScheme,
                     new ClaimsPrincipal(identity),
                     authProperties);
+
+                _logger.LogInformation(
+                    "Google login cookie sign-in completed. NeedsFill={NeedsFill} Roles={Roles}",
+                    needsFill,
+                    string.Join(",", identity.Claims.Where(claim => claim.Type == ClaimTypes.Role).Select(claim => claim.Value)));
             }
         }
 
         if (identity == null || !identity.IsAuthenticated)
         {
+            _logger.LogWarning("Google login callback failed because no authenticated identity was available.");
             return RedirectToAuthError(cleanUrl, "auth_failed");
         }
 
         if (needsFill)
         {
+            _logger.LogInformation("Google login requires user profile completion. Redirecting to fill page.");
             if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out var fillUri))
             {
                 var fillBase = $"{fillUri.Scheme}://{fillUri.Host}{(fillUri.IsDefaultPort ? "" : $":{fillUri.Port}")}{fillUri.AbsolutePath.TrimEnd('/')}";
@@ -87,13 +121,22 @@ public class AuthController : ControllerBase
         }
 
         if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out _))
+        {
+            _logger.LogInformation("Google login completed. Redirecting to absolute return URL {ReturnUrl}", DescribeReturnUrl(cleanUrl));
             return Redirect(cleanUrl);
+        }
 
+        _logger.LogInformation("Google login completed. Redirecting to local return URL {ReturnUrl}", DescribeReturnUrl(cleanUrl));
         return LocalRedirect(cleanUrl);
     }
 
     private IActionResult RedirectToAuthError(string cleanUrl, string reason)
     {
+        _logger.LogInformation(
+            "Redirecting to authentication error page. Reason={Reason} CleanReturnUrl={CleanReturnUrl}",
+            reason,
+            DescribeReturnUrl(cleanUrl));
+
         if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out var baseUri))
         {
             var baseUrl = $"{baseUri.Scheme}://{baseUri.Host}{(baseUri.IsDefaultPort ? "" : $":{baseUri.Port}")}{baseUri.AbsolutePath.TrimEnd('/')}";
@@ -105,6 +148,7 @@ public class AuthController : ControllerBase
     [HttpGet("logout")]
     public async Task<IActionResult> Logout([FromQuery] string? returnUrl = null)
     {
+        _logger.LogInformation("Logout requested. ReturnUrl={ReturnUrl}", DescribeReturnUrl(returnUrl));
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
         var cleanUrl = CleanReturnUrl(returnUrl);
         if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out _))
@@ -139,10 +183,17 @@ public class AuthController : ControllerBase
             var nameIdClaim = user.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier);
             if (nameIdClaim == null || string.IsNullOrWhiteSpace(nameIdClaim.Value))
             {
+                _logger.LogWarning("Google login custom claims skipped because NameIdentifier claim is missing.");
                 return (user, false);
             }
 
             var dbUser = _userService.GetByNameIdentifier(nameIdClaim.Value);
+            _logger.LogInformation(
+                "Google login user lookup completed. UserFound={UserFound} HasRole={HasRole} NeedsFill={NeedsFill}",
+                dbUser != null,
+                !string.IsNullOrEmpty(dbUser?.Role),
+                dbUser?.NicknameIsNameIdentifier() ?? false);
+
             if (dbUser != null && !string.IsNullOrEmpty(dbUser.Role))
             {
                 user.AddClaims(new[] { new Claim(ClaimTypes.Role, dbUser.Role) });
@@ -152,7 +203,7 @@ public class AuthController : ControllerBase
         }
         catch (Exception e)
         {
-            Console.WriteLine($"[ERRO] - AssignCustomClaims - exception: {e}");
+            _logger.LogError(e, "Google login custom claims failed.");
         }
 
         return (user, false);
@@ -188,8 +239,20 @@ public class AuthController : ControllerBase
         }
         catch (Exception e)
         {
-            Console.WriteLine($"[ERRO] - CleanReturnUrl - {e}");
+            _logger.LogError(e, "Failed to clean login return URL. ReturnUrl={ReturnUrl}", DescribeReturnUrl(returnUrl));
             return Url.Content("~/");
         }
+    }
+
+    private static string DescribeReturnUrl(string? returnUrl)
+    {
+        if (string.IsNullOrWhiteSpace(returnUrl))
+            return "(empty)";
+
+        if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var uri))
+            return $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}{uri.AbsolutePath}";
+
+        var queryStart = returnUrl.IndexOf('?');
+        return queryStart >= 0 ? returnUrl[..queryStart] : returnUrl;
     }
 }

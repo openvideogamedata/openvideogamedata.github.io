@@ -2,6 +2,7 @@ using community.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.OAuth;
 using community.Services;
 using community.Middlewares;
 
@@ -68,6 +69,51 @@ namespace community
                     googleOptions.ClientSecret = googleClientSecret ?? "";
                     googleOptions.ClaimActions.MapJsonKey("urn:google:profile", "link");
                     googleOptions.ClaimActions.MapJsonKey("urn:google:image", "picture");
+                    googleOptions.Events = new OAuthEvents
+                    {
+                        OnRedirectToAuthorizationEndpoint = context =>
+                        {
+                            var logger = context.HttpContext.RequestServices
+                                .GetRequiredService<ILoggerFactory>()
+                                .CreateLogger("GoogleAuth");
+
+                            logger.LogInformation(
+                                "Redirecting to Google authorization endpoint. Path={Path} ReturnUrl={ReturnUrl}",
+                                context.Request.Path,
+                                context.Properties?.RedirectUri);
+
+                            context.Response.Redirect(context.RedirectUri);
+                            return Task.CompletedTask;
+                        },
+                        OnCreatingTicket = context =>
+                        {
+                            var logger = context.HttpContext.RequestServices
+                                .GetRequiredService<ILoggerFactory>()
+                                .CreateLogger("GoogleAuth");
+
+                            logger.LogInformation(
+                                "Google ticket created. HasAccessToken={HasAccessToken} ClaimTypes={ClaimTypes}",
+                                !string.IsNullOrEmpty(context.AccessToken),
+                                string.Join(",", context.Principal?.Claims.Select(claim => claim.Type).Distinct() ?? Array.Empty<string>()));
+
+                            return Task.CompletedTask;
+                        },
+                        OnRemoteFailure = context =>
+                        {
+                            var logger = context.HttpContext.RequestServices
+                                .GetRequiredService<ILoggerFactory>()
+                                .CreateLogger("GoogleAuth");
+
+                            logger.LogWarning(
+                                context.Failure,
+                                "Google remote authentication failed. Error={Error} ErrorDescription={ErrorDescription} Path={Path}",
+                                context.Request.Query["error"].ToString(),
+                                context.Request.Query["error_description"].ToString(),
+                                context.Request.Path);
+
+                            return Task.CompletedTask;
+                        }
+                    };
                 });
 
             builder.Services.AddHttpContextAccessor();
