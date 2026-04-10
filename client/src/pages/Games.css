@@ -26,17 +26,6 @@
   align-items: start;
 }
 
-@media (max-width: 768px) {
-  .games-body { grid-template-columns: 1fr; }
-  .games-filters {
-    position: static;
-    top: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-}
-
 /* Filters sidebar */
 .games-filters {
   position: sticky;
@@ -44,6 +33,20 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .games-body {
+    grid-template-columns: 1fr;
+  }
+
+  .games-filters {
+    position: static;
+    top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
 
 .filter-search-form {
