@@ -6,6 +6,7 @@ import { useAuth } from '../context/AuthContext'
 import { login } from '../api/auth'
 import { api } from '../api/client'
 import type { Pager } from '../types'
+import { generateDefaultPixelArt } from '../utils/pixelArt'
 import './UsersSearch.css'
 
 interface UserSummaryDto {
@@ -93,10 +94,10 @@ export default function UsersSearch() {
               {users.map(u => (
                 <Link key={u.id} to={`/users/${u.nickname}`} className="user-row">
                   <div className="user-row-avatar">
-                    {u.userPicture
-                      ? <PixelArt matrix={u.userPicture} cellSize={6} />
-                      : <div className="avatar-ph" />
-                    }
+                    <PixelArt
+                      matrix={u.userPicture ?? generateDefaultPixelArt(u.fullName || u.nickname)}
+                      cellSize={6}
+                    />
                   </div>
                   <div className="user-row-info">
                     <span className="user-row-name">{u.fullName}</span>

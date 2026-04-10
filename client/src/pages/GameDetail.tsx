@@ -7,6 +7,7 @@ import type { UpdateTrackerRequest } from '../api/games'
 import { useAuth } from '../context/AuthContext'
 import type { GameDetailResponse, CitationsResponse, Tracker, Pager } from '../types'
 import { TrackStatus } from '../types'
+import { generateDefaultPixelArt } from '../utils/pixelArt'
 import './GameDetail.css'
 
 const STATUS_BUTTONS = [
@@ -25,7 +26,7 @@ function hasDate(tracker: Tracker): boolean {
 
 export default function GameDetail() {
   const { id } = useParams<{ id: string }>()
-  const { user } = useAuth()
+  const { user, loading: authLoading } = useAuth()
   const [data, setData] = useState<GameDetailResponse | null>(null)
   const [citations, setCitations] = useState<CitationsResponse | null>(null)
   const [loading, setLoading] = useState(true)
@@ -218,7 +219,11 @@ export default function GameDetail() {
             )}
 
             {/* Tracker */}
-            {user ? (
+            {authLoading ? (
+              <div className="tracker-placeholder">
+                <p className="tracker-placeholder-text">Loading tracker...</p>
+              </div>
+            ) : user ? (
               <div className={`tracker-section ${trackerLoading ? 'tracker-loading' : ''}`}>
                 <div className="tracker-buttons">
                   {STATUS_BUTTONS.map(btn => {
@@ -240,6 +245,17 @@ export default function GameDetail() {
 
                 {isTracked && (
                   <div className="tracker-extras">
+                    <div className="tracker-summary">
+                      <span className="tracker-summary-status">
+                        {formatTrackStatus(tracker!.status)}
+                      </span>
+                      {hasDate(tracker!) && (
+                        <span className="tracker-summary-date">
+                          {formatTrackerDate(tracker!.statusDate)}
+                        </span>
+                      )}
+                    </div>
+
                     {/* Date row */}
                     <div className="tracker-date-row">
                       {hasDate(tracker!) ? (
@@ -287,15 +303,33 @@ export default function GameDetail() {
                 {/* Friends trackers */}
                 {friendsTrackers.length > 0 && (
                   <div className="friends-trackers">
-                    {friendsTrackers.slice(0, 5).map((ft, i) => ft.user && (
-                      <Link key={i} to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-avatar" title={`${ft.user.nickname}${ft.tracker.note ? ': ' + ft.tracker.note : ''}`}>
-                        {ft.user.userPicture ? (
-                          <PixelArt matrix={ft.user.userPicture} cellSize={3} />
-                        ) : (
-                          <span className="friend-avatar-placeholder">{ft.user.fullName[0]}</span>
-                        )}
-                      </Link>
-                    ))}
+                    <h2 className="friends-trackers-title">Friends</h2>
+                    {friendsTrackers
+                      .filter(ft => ft.user)
+                      .sort((a, b) => (b.tracker.note?.length ?? 0) - (a.tracker.note?.length ?? 0))
+                      .slice(0, 5)
+                      .map((ft, i) => ft.user && (
+                        <div key={i} className="friend-tracker-row">
+                          <Link to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-avatar">
+                            <PixelArt
+                              matrix={ft.user.userPicture ?? generateDefaultPixelArt(ft.user.fullName || ft.user.nickname)}
+                              cellSize={3}
+                            />
+                          </Link>
+                          <div className="friend-tracker-content">
+                            <Link to={`/users/${ft.user.nickname}/trackers`} className="friend-tracker-name">
+                              {ft.user.fullName}
+                            </Link>
+                            <span className="friend-tracker-meta">
+                              {formatTrackStatus(ft.tracker.status)}
+                              {hasDate(ft.tracker) ? ` on ${formatTrackerDate(ft.tracker.statusDate)}` : ''}
+                            </span>
+                            {ft.tracker.note && (
+                              <p className="friend-tracker-note">{ft.tracker.note}</p>
+                            )}
+                          </div>
+                        </div>
+                      ))}
                   </div>
                 )}
               </div>
@@ -354,6 +388,25 @@ function scoreClass(score: number): string {
   if (score >= 70) return 'score-good'
   if (score >= 50) return 'score-ok'
   return 'score-low'
+}
+
+function formatTrackStatus(status: TrackStatus): string {
+  switch (status) {
+    case TrackStatus.ToPlay: return 'To Play'
+    case TrackStatus.Playing: return 'Playing'
+    case TrackStatus.Beaten: return 'Beaten'
+    case TrackStatus.Abandoned: return 'Abandoned'
+    case TrackStatus.Played: return 'Played'
+    default: return 'Not tracked'
+  }
+}
+
+function formatTrackerDate(date: string): string {
+  return new Date(date).toLocaleDateString('en', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
 }
 
 function GameDetailSkeleton() {

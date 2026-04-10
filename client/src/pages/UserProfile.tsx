@@ -5,6 +5,7 @@ import PixelEditor from '../components/PixelEditor'
 import { getUserProfile, sendFriendRequest, checkNicknameAvailability, updateNickname, updatePixelArt, deleteAccount } from '../api/users'
 import type { UserProfileDto, BadgeDto } from '../api/users'
 import { useAuth } from '../context/AuthContext'
+import { generateDefaultPixelArt } from '../utils/pixelArt'
 import './UserProfile.css'
 
 export default function UserProfile() {
@@ -79,9 +80,8 @@ export default function UserProfile() {
   }
 
   function startAvatarEdit() {
-    const size = 64
-    const filled = [...(profile?.userPicture ?? [])].concat(Array(size).fill(' ')).slice(0, size)
-    setDraftMatrix(filled)
+    const source = profile?.userPicture ?? generateDefaultPixelArt(profile?.fullName || profile?.nickname || '')
+    setDraftMatrix([...source])
     setEditingAvatar(true)
   }
 
@@ -146,11 +146,11 @@ export default function UserProfile() {
               </div>
             ) : (
               <div className="avatar-static-wrap">
-                {profile.userPicture ? (
-                  <PixelArt matrix={profile.userPicture} cellSize={14} className="user-avatar" />
-                ) : (
-                  <div className="user-avatar user-avatar-placeholder" />
-                )}
+                <PixelArt
+                  matrix={profile.userPicture ?? generateDefaultPixelArt(profile.fullName || profile.nickname)}
+                  cellSize={14}
+                  className="user-avatar"
+                />
                 {profile.isLoggedUser && (
                   <button className="avatar-edit-btn" onClick={startAvatarEdit} title="Edit avatar">✏</button>
                 )}

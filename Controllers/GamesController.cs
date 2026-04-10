@@ -64,7 +64,9 @@ public class GamesController : ControllerBase
         [FromQuery] int pageSize = 24,
         [FromQuery] int maxPages = 5,
         [FromQuery] string? title = null,
-        [FromQuery] int? trackStatus = null)
+        [FromQuery] int? trackStatus = null,
+        [FromQuery] int? order = null,
+        [FromQuery] int? trackerYear = null)
     {
         var user = _userService.GetByNickname(nickname);
         if (user is null)
@@ -72,7 +74,7 @@ public class GamesController : ControllerBase
             return NotFound();
         }
 
-        var filters = BuildFilters(page, pageSize, maxPages, title, trackStatus, order: null, trackerYear: null);
+        var filters = BuildFilters(page, pageSize, maxPages, title, trackStatus, order, trackerYear);
         var (games, pager) = _gameService.GetGames(
             user.Id,
             filters.Page,
@@ -81,7 +83,8 @@ public class GamesController : ControllerBase
             filters.Order,
             onlyTracked: trackStatus.HasValue,
             filters.PageSize,
-            filters.MaxPages);
+            filters.MaxPages,
+            filters.TrackerYear);
 
         return Ok(new
         {

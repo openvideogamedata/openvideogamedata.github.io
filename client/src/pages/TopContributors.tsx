@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import PixelArt from '../components/PixelArt'
 import { getTopContributors } from '../api/users'
 import type { TopContributorDto } from '../api/users'
+import { generateDefaultPixelArt } from '../utils/pixelArt'
 import './TopContributors.css'
 
 export default function TopContributors() {
@@ -42,13 +43,12 @@ export default function TopContributors() {
               <Link key={user.id} to={`/users/${user.nickname}`} className="contributor-row">
                 <span className={`rank-badge ${i < 3 ? `rank-${i + 1}` : ''}`}>{i + 1}</span>
                 <div className="contributor-info">
-                  {user.userPicture ? (
-                    <div className="contributor-avatar">
-                      <PixelArt matrix={user.userPicture} cellSize={6} />
-                    </div>
-                  ) : (
-                    <div className="contributor-avatar avatar-placeholder" />
-                  )}
+                  <div className="contributor-avatar">
+                    <PixelArt
+                      matrix={user.userPicture ?? generateDefaultPixelArt(user.fullName || user.nickname)}
+                      cellSize={6}
+                    />
+                  </div>
                   <div>
                     <span className="contributor-name">{user.fullName}</span>
                     <span className="contributor-nick">@{user.nickname}</span>

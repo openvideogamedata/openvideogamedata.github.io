@@ -6,10 +6,6 @@ export interface StaticPageDto {
   content: string
 }
 
-export function getAboutPage(): Promise<StaticPageDto> {
-  return api.get<StaticPageDto>('/api/pages/about')
-}
-
 export function getPrivacyPage(): Promise<StaticPageDto> {
   return api.get<StaticPageDto>('/api/pages/privacy')
 }

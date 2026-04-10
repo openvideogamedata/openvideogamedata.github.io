@@ -107,6 +107,7 @@ public class GameListRequestService
         using var context = this._factory.CreateDbContext();
 
         var gameList = await context.GameLists
+                                    .Include(gameList => gameList.FinalGameList)
                                     .Include(gameList => gameList.Items)
                                     .ThenInclude(item => item.Game)
                                     .FirstOrDefaultAsync(gameList => gameList.Id == gameListId);

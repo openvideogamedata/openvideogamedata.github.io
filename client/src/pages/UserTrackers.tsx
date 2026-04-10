@@ -6,6 +6,7 @@ import type { UserProfileDto } from '../api/users'
 import TabBar from '../components/TabBar'
 import Paginator from '../components/Paginator'
 import type { Pager } from '../types'
+import { GamesOrder, TrackStatus } from '../types'
 import './UserTrackers.css'
 
 interface TrackFilterDto {
@@ -68,6 +69,7 @@ export default function UserTrackers() {
   const [games, setGames] = useState<GameSummaryDto[]>([])
   const [gamesPager, setGamesPager] = useState<Pager | null>(null)
   const [gamesLoading, setGamesLoading] = useState(false)
+  const [trackerYear, setTrackerYear] = useState<number | null>(null)
 
   // Compare tab state
   const [activeTab, setActiveTab] = useState<'trackers' | 'compare'>('trackers')
@@ -100,7 +102,7 @@ export default function UserTrackers() {
   useEffect(() => {
     if (activeStatus === null || !nickname) return
     loadGames(activeStatus, 1)
-  }, [activeStatus, nickname]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [activeStatus, nickname, trackerYear]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Load list options when switching to Compare tab
   useEffect(() => {
@@ -113,8 +115,17 @@ export default function UserTrackers() {
   function loadGames(status: number, page: number) {
     if (!nickname) return
     setGamesLoading(true)
+    const qs = new URLSearchParams({
+      trackStatus: String(status),
+      page: String(page),
+      pageSize: '24',
+      order: String(GamesOrder.ByStatusDate),
+    })
+    if (shouldShowYearFilter(status) && trackerYear) {
+      qs.set('trackerYear', String(trackerYear))
+    }
     api.get<GamesResponse>(
-      `/api/users/${encodeURIComponent(nickname)}/games?trackStatus=${status}&page=${page}&pageSize=24`
+      `/api/users/${encodeURIComponent(nickname)}/games?${qs}`
     )
       .then(res => { setGames(res.games); setGamesPager(res.pager) })
       .catch(() => {})
@@ -166,6 +177,7 @@ export default function UserTrackers() {
   const total = stats.reduce((sum, s) => sum + s.trackStatusCount, 0)
   const visibleStats = stats.filter(s => s.trackStatus !== 0)
   const showCompareTabs = !!profile && !profile.isLoggedUser && profile.alreadyFriend
+  const trackerYearOptions = buildTrackerYearOptions()
 
   if (notFound) {
     return (
@@ -235,7 +247,10 @@ export default function UserTrackers() {
                         key={s.trackStatus}
                         className={`tracker-pill ${active ? 'active' : ''}`}
                         style={active ? { background: meta.color, borderColor: meta.color } : { borderColor: `${meta.color}66` }}
-                        onClick={() => setActiveStatus(s.trackStatus)}
+                        onClick={() => {
+                          setActiveStatus(s.trackStatus)
+                          setTrackerYear(null)
+                        }}
                       >
                         <span className="tracker-pill-dot" style={{ background: meta.color }} />
                         {meta.label}
@@ -244,6 +259,25 @@ export default function UserTrackers() {
                     )
                   })}
                 </div>
+
+                {activeStatus !== null && shouldShowYearFilter(activeStatus) && (
+                  <div className="tracker-toolbar">
+                    <label className="tracker-year-label" htmlFor="tracker-year">
+                      Games marked in
+                    </label>
+                    <select
+                      id="tracker-year"
+                      className="tracker-year-select"
+                      value={trackerYear ?? ''}
+                      onChange={e => setTrackerYear(e.target.value ? Number(e.target.value) : null)}
+                    >
+                      <option value="">Any year</option>
+                      {trackerYearOptions.map(year => (
+                        <option key={year} value={year}>{year}</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
 
                 {/* Games grid */}
                 {activeStatus !== null && (
@@ -355,6 +389,15 @@ function GameTrackerCard({ game }: { game: GameSummaryDto }) {
       {year && <span className="tracker-game-year">{year}</span>}
     </Link>
   )
+}
+
+function shouldShowYearFilter(status: number): boolean {
+  return status !== TrackStatus.ToPlay && status !== TrackStatus.Playing && status !== TrackStatus.None
+}
+
+function buildTrackerYearOptions(): number[] {
+  const currentYear = new Date().getFullYear()
+  return Array.from({ length: 30 }, (_, i) => currentYear - i)
 }
 
 function CompareStatsBlock({ label, stats, total }: { label: string; stats: TrackerStats; total: number }) {

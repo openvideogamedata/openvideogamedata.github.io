@@ -261,11 +261,11 @@ export default function ListDetail() {
 
           {fl.similarLists.length > 0 && (
             <div className="sidebar-card">
-              <h3 className="sidebar-title">Related Sources</h3>
+              <h3 className="sidebar-title">Related Lists</h3>
               {fl.similarLists.map((s, i) => (
-                <a key={i} href={s.sourceUrl} target="_blank" rel="noopener noreferrer" className="similar-source">
+                <Link key={i} to={`/list/${s.sourceUrl}`} className="similar-source">
                   {s.sourceName} ↗
-                </a>
+                </Link>
               ))}
             </div>
           )}

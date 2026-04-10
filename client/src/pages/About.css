@@ -27,15 +27,3 @@
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
 }
-
-.static-skeleton {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0;
-}
-
-.static-skeleton-line {
-  height: 16px;
-  margin-bottom: 12px;
-  border-radius: 4px;
-}

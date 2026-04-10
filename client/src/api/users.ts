@@ -64,7 +64,7 @@ export function updateNickname(nickname: string): Promise<void> {
 }
 
 export function updatePixelArt(matrix: string[]): Promise<void> {
-  return api.put<void>('/api/users/me/pixel-art', { matrix })
+  return api.put<void>('/api/users/me/pixel-art', { pixelArt: matrix })
 }
 
 export function deleteAccount(): Promise<void> {

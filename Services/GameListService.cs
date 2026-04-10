@@ -220,11 +220,11 @@ public class GameListService
         finalGameList = context.FinalGameLists.Include(finalGameList => finalGameList.GameLists)
                                                .FirstOrDefault(list => list.Slug == slug);
 
-        similarLists = context.FinalGameLists.Where(list => list.Tags.Contains(finalGameList.Tags))
-                                             .Select(item => new SourceList(item.Title, item.Slug, null))
-                                             .ToList();
-
         if (finalGameList != null) {
+            similarLists = context.FinalGameLists.Where(list => list.Id != finalGameList.Id && list.Tags.Contains(finalGameList.Tags))
+                                                 .Select(item => new SourceList(item.Title, item.Slug, null))
+                                                 .ToList();
+
             if (similarLists != null) {
                 finalGameList.SimilarLists = similarLists;
             }
