@@ -44,7 +44,7 @@ export default function TopContributors() {
                 <div className="contributor-info">
                   {user.userPicture ? (
                     <div className="contributor-avatar">
-                      <PixelArt matrix={user.userPicture} size={5} cellSize={6} />
+                      <PixelArt matrix={user.userPicture} cellSize={6} />
                     </div>
                   ) : (
                     <div className="contributor-avatar avatar-placeholder" />

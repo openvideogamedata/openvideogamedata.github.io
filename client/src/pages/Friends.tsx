@@ -122,7 +122,7 @@ function FriendRow({ friend, onRemove }: { friend: FriendDto; onRemove: () => vo
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
           {u.userPicture
-            ? <PixelArt matrix={u.userPicture} size={5} cellSize={6} />
+            ? <PixelArt matrix={u.userPicture} cellSize={6} />
             : <div className="avatar-ph" />
           }
         </div>
@@ -147,7 +147,7 @@ function RequestRow({ request, onAccept, onDecline }: {
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
           {u.userPicture
-            ? <PixelArt matrix={u.userPicture} size={5} cellSize={6} />
+            ? <PixelArt matrix={u.userPicture} cellSize={6} />
             : <div className="avatar-ph" />
           }
         </div>
@@ -171,7 +171,7 @@ function SentRequestRow({ request, onCancel }: { request: FriendRequestDto; onCa
       <Link to={`/users/${u.nickname}`} className="friend-info">
         <div className="friend-avatar">
           {u.userPicture
-            ? <PixelArt matrix={u.userPicture} size={5} cellSize={6} />
+            ? <PixelArt matrix={u.userPicture} cellSize={6} />
             : <div className="avatar-ph" />
           }
         </div>

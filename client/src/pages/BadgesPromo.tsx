@@ -74,7 +74,7 @@ function PromoBadge({ badge }: { badge: BadgeDto }) {
     <div className="promo-badge-card">
       <div className="promo-badge-art">
         {badge.pixelArt
-          ? <PixelArt matrix={badge.pixelArt} size={5} cellSize={14} />
+          ? <PixelArt matrix={badge.pixelArt} cellSize={8} />
           : <div className="promo-badge-placeholder" />
         }
       </div>

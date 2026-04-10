@@ -58,7 +58,7 @@ function BadgeCard({ badge, earned }: { badge: BadgeDto; earned: boolean }) {
     <div className={`badge-card ${earned ? 'earned' : 'locked'}`}>
       <div className="badge-art">
         {badge.pixelArt ? (
-          <PixelArt matrix={badge.pixelArt} size={5} cellSize={10} className={earned ? '' : 'badge-art-locked'} />
+          <PixelArt matrix={badge.pixelArt} cellSize={6} className={earned ? '' : 'badge-art-locked'} />
         ) : (
           <div className="badge-art-placeholder" />
         )}

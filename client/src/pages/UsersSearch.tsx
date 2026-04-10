@@ -94,7 +94,7 @@ export default function UsersSearch() {
                 <Link key={u.id} to={`/users/${u.nickname}`} className="user-row">
                   <div className="user-row-avatar">
                     {u.userPicture
-                      ? <PixelArt matrix={u.userPicture} size={5} cellSize={6} />
+                      ? <PixelArt matrix={u.userPicture} cellSize={6} />
                       : <div className="avatar-ph" />
                     }
                   </div>

@@ -54,7 +54,7 @@ export default function UserProfile() {
         <div className="container user-profile-hero-inner">
           <div className="user-avatar-wrap">
             {profile.userPicture ? (
-              <PixelArt matrix={profile.userPicture} size={5} cellSize={14} className="user-avatar" />
+              <PixelArt matrix={profile.userPicture} cellSize={14} className="user-avatar" />
             ) : (
               <div className="user-avatar user-avatar-placeholder" />
             )}
@@ -143,7 +143,7 @@ function BadgeTile({ badge }: { badge: BadgeDto }) {
     <div className="badge-tile" title={`${badge.name}: ${badge.description}`}>
       <div className="badge-tile-art">
         {badge.pixelArt ? (
-          <PixelArt matrix={badge.pixelArt} size={5} cellSize={8} />
+          <PixelArt matrix={badge.pixelArt} cellSize={8} />
         ) : (
           <div className="badge-tile-placeholder" />
         )}

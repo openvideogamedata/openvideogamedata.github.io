@@ -81,7 +81,7 @@ export default function Navbar() {
               <div className="user-menu-wrap" ref={menuRef}>
                 <button className="user-avatar-btn" onClick={() => setMenuOpen(v => !v)}>
                   {user.userPicture
-                    ? <PixelArt matrix={user.userPicture} size={5} cellSize={4} className="nav-pixel-avatar" />
+                    ? <PixelArt matrix={user.userPicture} cellSize={3} className="nav-pixel-avatar" />
                     : <span className="nav-avatar-placeholder">{user.nickname?.[0]?.toUpperCase()}</span>
                   }
                 </button>

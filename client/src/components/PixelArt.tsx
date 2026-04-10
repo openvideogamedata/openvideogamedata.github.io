@@ -1,41 +1,60 @@
+// Color codes match PixelEditor.razor's color palette
 const COLOR_MAP: Record<string, string> = {
-  '0': '#7c3aed', '1': '#a78bfa', '2': '#06b6d4', '3': '#10b981',
-  '4': '#f59e0b', '5': '#ef4444', '6': '#e2e8f0', '7': '#1e1e38',
-  '8': '#6d28d9', '9': '#0e7490',
-}
-
-function charToColor(c: string): string {
-  return COLOR_MAP[c] ?? '#1e1e38'
+  a: '#FCFCFC',
+  b: '#000000',
+  c: '#a80020',
+  d: '#ac7c00',
+  e: '#503000',
+  f: '#f87858',
+  g: '#f0d0b0',
+  h: '#f8d878',
+  i: '#00b800',
+  j: '#00a800',
+  k: '#00fcfc',
+  l: '#a4e4fc',
+  m: '#3cbcfc',
+  n: '#6844fc',
+  o: '#f8a4c0',
 }
 
 interface PixelArtProps {
+  // Flat array of 1-char color codes (e.g. 64 elements for an 8×8 grid)
   matrix: string[]
-  size?: number       // grid dimension (default 5)
-  cellSize?: number   // px per cell (default 4)
+  // Pixels per side — default: sqrt(matrix.length), assumed square
+  gridSize?: number
+  // CSS pixels per cell (default 4)
+  cellSize?: number
   className?: string
 }
 
-export default function PixelArt({ matrix, size = 5, cellSize = 4, className }: PixelArtProps) {
-  const canvasSize = size * cellSize
+export default function PixelArt({ matrix, gridSize, cellSize = 4, className }: PixelArtProps) {
+  const cols = gridSize ?? Math.round(Math.sqrt(matrix.length))
+  const rows = gridSize ?? Math.round(matrix.length / cols)
+  const w = cols * cellSize
+  const h = rows * cellSize
+
   return (
     <svg
-      width={canvasSize}
-      height={canvasSize}
-      viewBox={`0 0 ${canvasSize} ${canvasSize}`}
+      width={w}
+      height={h}
+      viewBox={`0 0 ${w} ${h}`}
       className={className}
+      style={{ display: 'block', imageRendering: 'pixelated' }}
     >
-      {matrix.slice(0, size).map((row, y) =>
-        (row ?? '').split('').slice(0, size).map((char, x) => (
+      {matrix.map((code, i) => {
+        const x = (i % cols) * cellSize
+        const y = Math.floor(i / cols) * cellSize
+        return (
           <rect
-            key={`${x}-${y}`}
-            x={x * cellSize}
-            y={y * cellSize}
+            key={i}
+            x={x}
+            y={y}
             width={cellSize}
             height={cellSize}
-            fill={charToColor(char)}
+            fill={COLOR_MAP[code] ?? '#000000'}
           />
-        ))
-      )}
+        )
+      })}
     </svg>
   )
 }

@@ -231,7 +231,7 @@ function ActivityItem({ item }: { item: HomeActivity }) {
     <div className="activity-item">
       <div className="activity-avatar">
         {avatar && avatar.length > 0
-          ? <PixelArt matrix={avatar} size={5} cellSize={4} className="pixel-avatar" />
+          ? <PixelArt matrix={avatar} cellSize={4} className="pixel-avatar" />
           : <div className="avatar-placeholder" />
         }
       </div>

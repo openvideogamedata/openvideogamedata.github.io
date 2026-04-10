@@ -39,7 +39,7 @@ public class AuthController : ControllerBase
     [HttpGet("callback")]
     public async Task<IActionResult> Callback([FromQuery] string? returnUrl = null, [FromQuery] string? remoteError = null)
     {
-        returnUrl = CleanReturnUrl(returnUrl);
+        var cleanUrl = CleanReturnUrl(returnUrl);
         var identity = User.Identities.FirstOrDefault();
         var needsFill = false;
 
@@ -64,17 +64,29 @@ public class AuthController : ControllerBase
 
         if (needsFill)
         {
+            // Redirect to fill page on the correct frontend (React or local)
+            if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out var fillUri))
+            {
+                var fillBase = $"{fillUri.Scheme}://{fillUri.Host}{(fillUri.IsDefaultPort ? "" : $":{fillUri.Port}")}{fillUri.AbsolutePath.TrimEnd('/')}";
+                return Redirect($"{fillBase}#/users/fill");
+            }
             return LocalRedirect("/users/fill");
         }
 
-        return LocalRedirect(returnUrl);
+        if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out _))
+            return Redirect(cleanUrl);
+
+        return LocalRedirect(cleanUrl);
     }
 
     [HttpGet("logout")]
     public async Task<IActionResult> Logout([FromQuery] string? returnUrl = null)
     {
         await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-        return LocalRedirect(CleanReturnUrl(returnUrl));
+        var cleanUrl = CleanReturnUrl(returnUrl);
+        if (Uri.TryCreate(cleanUrl, UriKind.Absolute, out _))
+            return Redirect(cleanUrl);
+        return LocalRedirect(cleanUrl);
     }
 
     [AllowAnonymous]
@@ -123,12 +135,28 @@ public class AuthController : ControllerBase
         return (user, false);
     }
 
+    private static readonly HashSet<string> AllowedReturnOrigins = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "https://openvideogamedata.github.io",
+        "https://localhost:5124",
+        "http://localhost:5173",
+        "https://localhost:5173",
+    };
+
     private string CleanReturnUrl(string? returnUrl)
     {
         try
         {
             if (!string.IsNullOrEmpty(returnUrl))
             {
+                // Allow absolute redirects back to trusted frontend origins
+                if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var uri))
+                {
+                    var origin = $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}";
+                    if (AllowedReturnOrigins.Contains(origin))
+                        return returnUrl;
+                }
+
                 var normalized = returnUrl[0] == '/' ? returnUrl : $"/{returnUrl}";
                 return Url.Content($"~{normalized}");
             }
