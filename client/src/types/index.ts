@@ -32,11 +32,17 @@ export interface Tracker {
 
 export enum TrackStatus {
   None = 0,
-  Completed = 1,
+  ToPlay = 1,
   Playing = 2,
-  Dropped = 3,
-  Wishlist = 4,
-  Backlog = 5,
+  Beaten = 3,
+  Abandoned = 4,
+  Played = 5,
+}
+
+export enum GamesOrder {
+  ByLists = 0,
+  ByAvgPosition = 1,
+  ByStatusDate = 2,
 }
 
 export interface GamesResponse {
@@ -56,8 +62,99 @@ export interface GameListCategory {
 
 export interface TimelineGeneration {
   generation: number
-  name: string
-  lists: GameListCategory[]
+  title: string
+  lists: GameListCategoryDto[]
+}
+
+export interface GameDetails {
+  id: number
+  title: string
+  firstReleaseDate: string
+  releaseYear: number
+  externalId: number
+  coverImageUrl: string
+  coverBigImageUrl: string
+  score: number
+}
+
+export interface Citation {
+  id: number
+  position: number
+  score: number
+  gameListId: number
+  sourceListUrl: string | null
+  sourceName: string | null
+  finalGameListId: number | null
+  finalGameListName: string | null
+  finalGameListSlug: string | null
+}
+
+export interface GameDetailResponse {
+  game: GameDetails
+  tracker: Tracker | null
+  friendsTrackers: { tracker: Tracker; user: { id: number; nickname: string; fullName: string; userPicture: string[] | null } | null }[]
+  citationsSummary: {
+    numberOfCategories: number
+    mostCitedCategory: string
+    mostCitedCategoryUrl: string
+  }
+}
+
+export interface CitationsResponse {
+  citations: Citation[]
+  pager: Pager
+  numberOfCategories: number
+  mostCitedCategory: string
+  mostCitedCategoryUrl: string
+}
+
+// Normalized type for ListCard — both HomeList and GameListCategoryDto map to this
+export interface ListCardData {
+  id: number
+  title: string
+  year: number | null
+  numberOfGames: number
+  numberOfSources: number
+  slug: string
+  topThreeWinners: { gameId: number; gameTitle: string; coverImageUrl: string }[]
+}
+
+// Search
+export interface UserSummary {
+  id: number
+  nickname: string
+  fullName: string
+  userPicture: string[] | null
+  contributions: number
+}
+
+export interface SearchResultSection<T> {
+  items: T[]
+  pager: Pager
+}
+
+export interface SearchResponse {
+  input: string
+  lists: SearchResultSection<GameListCategoryDto>
+  games: SearchResultSection<GameSummary>
+  users: SearchResultSection<UserSummary>
+}
+
+export interface GameListCategoryDto {
+  id: number
+  title: string
+  year: number | null
+  numberOfGames: number
+  numberOfSources: number
+  slug: string
+  pinned: boolean
+  topWinners: {
+    gameId: number
+    gameTitle: string
+    coverImageUrl: string
+    position: number
+    score: number
+  }[]
 }
 
 // Home-specific types

@@ -19,6 +19,7 @@ export default function Navbar() {
       setSearchOpen(false)
       setQuery('')
     }
+    // HashRouter: useSearchParams works with hash, but navigate handles it correctly
   }
 
   return (
@@ -33,8 +34,8 @@ export default function Navbar() {
 
         <nav className="navbar-links">
           <Link to="/games" className="nav-link">Games</Link>
-          <Link to="/lists" className="nav-link">Lists</Link>
           <Link to="/timeline" className="nav-link">Timeline</Link>
+          <Link to="/search" className="nav-link">Search</Link>
         </nav>
 
         <div className="navbar-actions">

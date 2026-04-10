@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import ListCard from '../components/ListCard'
+import ListCard, { fromHomeList } from '../components/ListCard'
 import Paginator from '../components/Paginator'
 import { getHome, getLists } from '../api/home'
 import { timeAgo } from '../utils/time'
@@ -110,7 +110,7 @@ export default function Home() {
             </div>
             <div className="lists-grid">
               {data.pinnedLists.map(list => (
-                <ListCard key={list.id} list={list} />
+                <ListCard key={list.id} list={fromHomeList(list)} />
               ))}
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function Home() {
           ) : lists.length > 0 ? (
             <div className="lists-grid mt-4">
               {lists.map(list => (
-                <ListCard key={list.id} list={list} />
+                <ListCard key={list.id} list={fromHomeList(list)} />
               ))}
             </div>
           ) : (
