@@ -1,0 +1,48 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 24px;
+  text-align: center;
+}
+
+.nf-code {
+  font-size: 6rem;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  background: linear-gradient(135deg, var(--purple-light), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  line-height: 1;
+  margin-bottom: 16px;
+}
+
+.nf-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.nf-message {
+  color: var(--text-muted);
+  margin-bottom: 32px;
+}
+
+.nf-btn {
+  display: inline-flex;
+  padding: 12px 28px;
+  background: var(--purple);
+  color: #fff;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background var(--transition), box-shadow var(--transition);
+}
+
+.nf-btn:hover {
+  background: #6d28d9;
+  box-shadow: 0 4px 24px var(--purple-glow);
+}
