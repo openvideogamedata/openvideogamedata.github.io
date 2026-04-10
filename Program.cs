@@ -34,11 +34,13 @@ namespace community
                     policy.WithOrigins(
                             "https://localhost:5124",
                             "https://openvideogamedata.herokuapp.com",
-                            "https://openvideogamedata.herokuapp.com",
                             "https://openvideogamedata.onrender.com",
                             "https://www.openvideogamedata.com",
-                            "https://openvideogamedata.com")
-                        .WithMethods("PUT", "DELETE", "GET", "POST");
+                            "https://openvideogamedata.com",
+                            "https://openvideogamedata.github.io")
+                        .WithMethods("PUT", "DELETE", "GET", "POST")
+                        .AllowAnyHeader()
+                        .AllowCredentials();
                 });
             });
 
