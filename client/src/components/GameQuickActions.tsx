@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { login } from '../api/auth'
 import { updateTracker, removeTrackerStatus } from '../api/games'
@@ -32,10 +32,12 @@ interface Props {
 
 export default function GameQuickActions({ game }: Props) {
   const { user, loading: authLoading } = useAuth()
+  const triggerRef = useRef<HTMLButtonElement | null>(null)
   const [open, setOpen] = useState(false)
   const [tracker, setTracker] = useState<QuickTracker | null>(game.tracker ?? null)
   const [noteValue, setNoteValue] = useState(game.tracker?.note ?? '')
   const [saving, setSaving] = useState(false)
+  const [panelStyle, setPanelStyle] = useState<React.CSSProperties>({})
 
   useEffect(() => {
     setTracker(game.tracker ?? null)
@@ -45,19 +47,52 @@ export default function GameQuickActions({ game }: Props) {
   useEffect(() => {
     if (!open) return
 
-    const previousOverflow = document.body.style.overflow
     const onKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         setOpen(false)
       }
     }
 
-    document.body.style.overflow = 'hidden'
+    const updatePosition = () => {
+      const trigger = triggerRef.current
+      if (!trigger) return
+
+      if (window.innerWidth <= 720) {
+        setPanelStyle({})
+        return
+      }
+
+      const rect = trigger.getBoundingClientRect()
+      const panelWidth = Math.min(420, Math.max(360, window.innerWidth - 32))
+      const gap = 14
+      const spaceOnRight = window.innerWidth - rect.right - 16
+      const placeRight = spaceOnRight >= panelWidth || rect.left < panelWidth
+      const left = placeRight
+        ? Math.min(rect.right + gap, window.innerWidth - panelWidth - 16)
+        : Math.max(16, rect.left - panelWidth - gap)
+      const top = Math.min(
+        Math.max(16, rect.top),
+        Math.max(16, window.innerHeight - 620)
+      )
+
+      setPanelStyle({
+        width: `${panelWidth}px`,
+        minWidth: `${panelWidth}px`,
+        maxWidth: `${panelWidth}px`,
+        top: `${top}px`,
+        left: `${left}px`,
+      })
+    }
+
+    updatePosition()
     window.addEventListener('keydown', onKeyDown)
+    window.addEventListener('resize', updatePosition)
+    window.addEventListener('scroll', updatePosition, true)
 
     return () => {
-      document.body.style.overflow = previousOverflow
       window.removeEventListener('keydown', onKeyDown)
+      window.removeEventListener('resize', updatePosition)
+      window.removeEventListener('scroll', updatePosition, true)
     }
   }, [open])
 
@@ -154,6 +189,7 @@ export default function GameQuickActions({ game }: Props) {
       <button
         type="button"
         className="game-quick-trigger"
+        ref={triggerRef}
         onClick={() => setOpen(true)}
         aria-haspopup="dialog"
         aria-expanded={open}
@@ -174,14 +210,6 @@ export default function GameQuickActions({ game }: Props) {
               {game.score}
             </div>
           )}
-          <div className="game-quick-trigger-pill">
-            Quick actions
-          </div>
-          {tracker && tracker.status !== TrackStatus.None && (
-            <div className="game-quick-status-chip" style={{ background: statusColor(tracker.status) }}>
-              {formatTrackStatus(tracker.status)}
-            </div>
-          )}
         </div>
       </button>
 
@@ -189,6 +217,7 @@ export default function GameQuickActions({ game }: Props) {
         <div className="game-quick-overlay" onClick={() => setOpen(false)}>
           <div
             className="game-quick-panel"
+            style={panelStyle}
             role="dialog"
             aria-modal="true"
             aria-label={`${game.title} quick actions`}
@@ -204,10 +233,9 @@ export default function GameQuickActions({ game }: Props) {
                 />
               </div>
               <div className="game-quick-title-wrap">
-                <p className="game-quick-kicker">Quick actions</p>
                 <h3 className="game-quick-title">{game.title}</h3>
                 <p className="game-quick-meta">
-                  <span>{game.releaseYear}</span>
+                  {game.releaseYear != null && <span>{game.releaseYear}</span>}
                   {isTracked && <span>{formatTrackStatus(tracker!.status)}</span>}
                 </p>
               </div>
@@ -351,8 +379,4 @@ function scoreClass(score: number): string {
   if (score >= 70) return 'score-good'
   if (score >= 50) return 'score-ok'
   return 'score-low'
-}
-
-function statusColor(status: TrackStatus): string {
-  return STATUS_BUTTONS.find(button => button.status === status)?.color ?? '#475569'
 }

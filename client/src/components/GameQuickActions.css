@@ -2,6 +2,7 @@
   display: block;
   width: 100%;
   text-align: left;
+  border-radius: var(--radius);
 }
 
 .game-quick-trigger:hover .game-card-cover,
@@ -19,49 +20,19 @@
   outline-offset: 2px;
 }
 
-.game-quick-trigger-pill,
-.game-quick-status-chip {
-  position: absolute;
-  left: 10px;
-  z-index: 2;
-  border-radius: 999px;
-  padding: 5px 10px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: #fff;
-  backdrop-filter: blur(10px);
-}
-
-.game-quick-trigger-pill {
-  top: 10px;
-  background: rgba(7, 7, 15, 0.72);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-}
-
-.game-quick-status-chip {
-  bottom: 10px;
-  max-width: calc(100% - 70px);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .game-quick-overlay {
   position: fixed;
   inset: 0;
   z-index: 70;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 24px;
-  background: rgba(3, 4, 12, 0.72);
-  backdrop-filter: blur(10px);
+  background: transparent;
 }
 
 .game-quick-panel {
-  width: min(100%, 560px);
-  max-height: min(90vh, 760px);
+  position: fixed;
+  width: 420px;
+  min-width: 420px;
+  max-width: 420px;
+  max-height: min(88vh, 720px);
   overflow: auto;
   border: 1px solid rgba(167, 139, 250, 0.18);
   border-radius: 24px;
@@ -114,15 +85,6 @@
 .game-quick-title-wrap {
   min-width: 0;
   flex: 1;
-}
-
-.game-quick-kicker {
-  margin-bottom: 2px;
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--purple-light);
 }
 
 .game-quick-title {
@@ -290,12 +252,18 @@
 
 @media (max-width: 720px) {
   .game-quick-overlay {
-    align-items: flex-end;
-    padding: 0;
+    background: rgba(3, 4, 12, 0.72);
+    backdrop-filter: blur(10px);
   }
 
   .game-quick-panel {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
     width: 100%;
+    min-width: 0;
+    max-width: none;
     max-height: min(88vh, 760px);
     border-right: none;
     border-bottom: none;
