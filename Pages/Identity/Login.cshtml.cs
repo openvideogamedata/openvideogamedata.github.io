@@ -11,6 +11,18 @@ namespace community.Pages.Identity
     [AllowAnonymous]
     public sealed class LoginModel : PageModel
     {
+        private static readonly HashSet<string> AllowedReturnOrigins = new(StringComparer.OrdinalIgnoreCase)
+        {
+            "http://openvideogamedata.com",
+            "http://www.openvideogamedata.com",
+            "https://openvideogamedata.com",
+            "https://www.openvideogamedata.com",
+            "https://openvideogamedata.github.io",
+            "https://localhost:5124",
+            "http://localhost:5173",
+            "https://localhost:5173",
+        };
+
         private readonly UserService _userService;
         private readonly ILogger<LoginModel> _logger;
 
@@ -98,10 +110,17 @@ namespace community.Pages.Identity
             if (needsFill)
             {
                 _logger.LogInformation("Legacy Google login requires user profile completion. Redirecting to fill page.");
+                if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var fillUri))
+                {
+                    var fillBase = $"{fillUri.Scheme}://{fillUri.Host}{(fillUri.IsDefaultPort ? "" : $":{fillUri.Port}")}{fillUri.AbsolutePath.TrimEnd('/')}";
+                    return Redirect($"{fillBase}#/users/fill");
+                }
                 return LocalRedirect("/users/fill");
             }
 
             _logger.LogInformation("Legacy Google login completed. Redirecting to {ReturnUrl}", DescribeReturnUrl(returnUrl));
+            if (Uri.TryCreate(returnUrl, UriKind.Absolute, out _))
+                return Redirect(returnUrl);
             return LocalRedirect(returnUrl);
         }
         
@@ -142,9 +161,15 @@ namespace community.Pages.Identity
             {
                 if (!string.IsNullOrEmpty(returnUrl))
                 {
-                    returnUrl = returnUrl[0] == '/' ? returnUrl : $"/{returnUrl}";
-                    returnUrl = Url.Content($"~{returnUrl}");
-                    return returnUrl;
+                    if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var uri))
+                    {
+                        var origin = $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}";
+                        if (AllowedReturnOrigins.Contains(origin))
+                            return returnUrl;
+                    }
+
+                    var normalized = returnUrl[0] == '/' ? returnUrl : $"/{returnUrl}";
+                    return Url.Content($"~{normalized}");
                 }
                 
                 return Url.Content("~/");

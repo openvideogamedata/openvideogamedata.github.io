@@ -211,6 +211,10 @@ public class AuthController : ControllerBase
 
     private static readonly HashSet<string> AllowedReturnOrigins = new(StringComparer.OrdinalIgnoreCase)
     {
+        "http://openvideogamedata.com",
+        "http://www.openvideogamedata.com",
+        "https://openvideogamedata.com",
+        "https://www.openvideogamedata.com",
         "https://openvideogamedata.github.io",
         "https://localhost:5124",
         "http://localhost:5173",
