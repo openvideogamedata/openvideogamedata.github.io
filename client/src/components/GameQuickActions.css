@@ -63,7 +63,7 @@
 .game-quick-overlay {
   position: fixed;
   inset: 0;
-  z-index: 70;
+  z-index: 2000;
   background: transparent;
   pointer-events: none;
 }
@@ -84,6 +84,7 @@
     0 28px 72px rgba(0, 0, 0, 0.48),
     0 0 0 1px rgba(255, 255, 255, 0.02) inset;
   pointer-events: auto;
+  overscroll-behavior: contain;
 }
 
 .game-quick-sheet-handle {
@@ -313,17 +314,14 @@
   }
 
   .game-quick-panel {
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    right: 12px;
+    bottom: 12px;
+    left: 12px;
+    width: calc(100vw - 24px);
     min-width: 0;
     max-width: none;
     max-height: min(88vh, 760px);
-    border-right: none;
-    border-bottom: none;
-    border-left: none;
-    border-radius: 22px 22px 0 0;
+    border-radius: 22px;
   }
 
   .game-quick-sheet-handle {
@@ -345,6 +343,19 @@
   .game-quick-date-controls {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .game-quick-row > * {
+    min-width: 0;
+  }
+
+  .game-quick-status-btn,
+  .game-quick-primary-btn,
+  .game-quick-secondary-btn,
+  .game-quick-link-btn,
+  .game-quick-date-input,
+  .game-quick-note {
+    width: 100%;
   }
 
   .game-quick-footer {

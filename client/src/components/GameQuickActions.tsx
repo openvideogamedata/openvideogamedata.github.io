@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import { login } from '../api/auth'
 import { removeTrackerStatus, updateTracker } from '../api/games'
@@ -13,6 +14,7 @@ const DESKTOP_MIN_WIDTH = 380
 const DESKTOP_MAX_WIDTH = 440
 const PANEL_GAP = 14
 const PANEL_VIEWPORT_MARGIN = 16
+const MOBILE_SHEET_MARGIN = 12
 
 const STATUS_OPTIONS = [
   { status: TrackStatus.ToPlay, label: 'To Play', color: '#7c3aed' },
@@ -47,7 +49,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
   const [tracker, setTracker] = useState<QuickTracker | null>(game.tracker ?? null)
   const [noteValue, setNoteValue] = useState(game.tracker?.note ?? '')
   const [saving, setSaving] = useState(false)
-  const [desktopPanelStyle, setDesktopPanelStyle] = useState<React.CSSProperties>({})
+  const [panelStyle, setPanelStyle] = useState<React.CSSProperties>({})
 
   useEffect(() => {
     setTracker(game.tracker ?? null)
@@ -85,15 +87,24 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
   useLayoutEffect(() => {
     if (!open) return
 
-    const updateDesktopPosition = () => {
-      if (window.innerWidth <= DESKTOP_BREAKPOINT) {
-        setDesktopPanelStyle({})
-        return
-      }
-
+    const updatePanelPosition = () => {
       const trigger = triggerRef.current
       const panel = panelRef.current
       if (!trigger || !panel) return
+
+      if (window.innerWidth <= DESKTOP_BREAKPOINT) {
+        setPanelStyle({
+          left: `${MOBILE_SHEET_MARGIN}px`,
+          right: `${MOBILE_SHEET_MARGIN}px`,
+          bottom: `${MOBILE_SHEET_MARGIN}px`,
+          width: `calc(100vw - ${MOBILE_SHEET_MARGIN * 2}px)`,
+          minWidth: '0',
+          maxWidth: 'none',
+          top: 'auto',
+          visibility: 'visible',
+        })
+        return
+      }
 
       const rect = trigger.getBoundingClientRect()
       const panelWidth = Math.min(
@@ -103,26 +114,39 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       const panelHeight = panel.offsetHeight || 520
 
       const spaceOnRight = window.innerWidth - rect.right - PANEL_VIEWPORT_MARGIN
-      const shouldOpenRight = spaceOnRight >= panelWidth || rect.left < panelWidth
-      const unconstrainedLeft = shouldOpenRight
+      const spaceOnLeft = rect.left - PANEL_VIEWPORT_MARGIN
+      const shouldOpenRight = spaceOnRight >= panelWidth || spaceOnRight >= spaceOnLeft
+      const preferredLeft = shouldOpenRight
         ? rect.right + PANEL_GAP
         : rect.left - panelWidth - PANEL_GAP
+      const top = clamp(
+        rect.top + Math.max(0, (rect.height - panelHeight) / 2),
+        PANEL_VIEWPORT_MARGIN,
+        Math.max(PANEL_VIEWPORT_MARGIN, window.innerHeight - panelHeight - PANEL_VIEWPORT_MARGIN)
+      )
 
-      setDesktopPanelStyle({
+      setPanelStyle({
         width: `${panelWidth}px`,
         minWidth: `${panelWidth}px`,
         maxWidth: `${panelWidth}px`,
-        left: `${clamp(unconstrainedLeft, PANEL_VIEWPORT_MARGIN, window.innerWidth - panelWidth - PANEL_VIEWPORT_MARGIN)}px`,
-        top: `${clamp(rect.top, PANEL_VIEWPORT_MARGIN, window.innerHeight - panelHeight - PANEL_VIEWPORT_MARGIN)}px`,
+        left: `${clamp(preferredLeft, PANEL_VIEWPORT_MARGIN, window.innerWidth - panelWidth - PANEL_VIEWPORT_MARGIN)}px`,
+        top: `${top}px`,
+        right: 'auto',
+        bottom: 'auto',
+        visibility: 'visible',
       })
     }
 
-    const frame = window.requestAnimationFrame(updateDesktopPosition)
-    window.addEventListener('resize', updateDesktopPosition)
+    setPanelStyle(previous => ({ ...previous, visibility: 'hidden' }))
+
+    const frame = window.requestAnimationFrame(updatePanelPosition)
+    window.addEventListener('resize', updatePanelPosition)
+    window.addEventListener('scroll', updatePanelPosition, true)
 
     return () => {
       window.cancelAnimationFrame(frame)
-      window.removeEventListener('resize', updateDesktopPosition)
+      window.removeEventListener('resize', updatePanelPosition)
+      window.removeEventListener('scroll', updatePanelPosition, true)
     }
   }, [open, tracker, noteValue, authLoading, saving])
 
@@ -227,7 +251,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
           aria-haspopup="dialog"
           aria-expanded={open}
           aria-label={`Open quick tracker menu for ${game.title}`}
-          onClick={() => setOpen(true)}
+          onClick={() => setOpen(current => !current)}
         >
           <div className="game-quick-media-shell">
             <img
@@ -248,12 +272,12 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
         </button>
       </div>
 
-      {open && (
-        <div className="game-quick-overlay">
+      {open && createPortal(
+        <div className="game-quick-overlay" aria-hidden="true">
           <div
             ref={panelRef}
             className="game-quick-panel"
-            style={desktopPanelStyle}
+            style={panelStyle}
             role="dialog"
             aria-modal="true"
             aria-label={`${game.title} quick tracker menu`}
@@ -419,7 +443,8 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
               </Link>
             </footer>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   )
