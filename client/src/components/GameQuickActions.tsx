@@ -45,6 +45,10 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
   const { user, loading: authLoading } = useAuth()
   const triggerRef = useRef<HTMLButtonElement | null>(null)
   const panelRef = useRef<HTMLDivElement | null>(null)
+  const closeButtonRef = useRef<HTMLButtonElement | null>(null)
+  const skipNextBlurRef = useRef(false)
+  const positionedRef = useRef(false)
+  const hasMountedRef = useRef(false)
 
   const [open, setOpen] = useState(false)
   const [tracker, setTracker] = useState<QuickTracker | null>(game.tracker ?? null)
@@ -85,8 +89,35 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
     }
   }, [open])
 
+  // Focus management: move focus into the dialog on open, return to trigger on close.
+  useEffect(() => {
+    if (!hasMountedRef.current) {
+      hasMountedRef.current = true
+      return
+    }
+    if (open) {
+      const id = requestAnimationFrame(() =>
+        requestAnimationFrame(() => closeButtonRef.current?.focus())
+      )
+      return () => cancelAnimationFrame(id)
+    }
+    triggerRef.current?.focus()
+  }, [open])
+
+  // Scroll lock: prevent background scroll while the bottom sheet is open on mobile.
+  useEffect(() => {
+    if (!open || window.innerWidth > DESKTOP_BREAKPOINT) return
+    document.body.style.overflow = 'hidden'
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [open])
+
   useLayoutEffect(() => {
-    if (!open) return
+    if (!open) {
+      positionedRef.current = false
+      return
+    }
 
     const updatePanelPosition = () => {
       const trigger = triggerRef.current
@@ -94,6 +125,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       if (!trigger || !panel) return
 
       if (window.innerWidth <= DESKTOP_BREAKPOINT) {
+        positionedRef.current = true
         setPanelStyle({
           left: `${MOBILE_SHEET_MARGIN}px`,
           right: `${MOBILE_SHEET_MARGIN}px`,
@@ -126,6 +158,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
         Math.max(PANEL_VIEWPORT_MARGIN, window.innerHeight - panelHeight - PANEL_VIEWPORT_MARGIN)
       )
 
+      positionedRef.current = true
       setPanelStyle({
         width: `${panelWidth}px`,
         minWidth: `${panelWidth}px`,
@@ -138,7 +171,12 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       })
     }
 
-    setPanelStyle(previous => ({ ...previous, visibility: 'hidden' }))
+    // Only hide before positioning on the very first open.
+    // Re-runs caused by content changes (tracker update, saving state) reposition
+    // without hiding, eliminating the flicker on every mutation.
+    if (!positionedRef.current) {
+      setPanelStyle(previous => ({ ...previous, visibility: 'hidden' }))
+    }
 
     const frame = window.requestAnimationFrame(updatePanelPosition)
     window.addEventListener('resize', updatePanelPosition)
@@ -149,11 +187,12 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       window.removeEventListener('resize', updatePanelPosition)
       window.removeEventListener('scroll', updatePanelPosition, true)
     }
-  }, [open, tracker, noteValue, authLoading, saving])
+  }, [open, tracker, authLoading, saving])
 
   const isTracked = tracker !== null && tracker.status !== TrackStatus.None
 
   async function runTrackerMutation(task: () => Promise<Tracker>) {
+    skipNextBlurRef.current = true
     setSaving(true)
     try {
       const next = toQuickTracker(await task())
@@ -201,7 +240,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
-      statusDate: dateValue ? new Date(dateValue).toISOString() : null,
+      statusDate: dateValue ? localDateToISOString(dateValue) : null,
     })
   }
 
@@ -239,6 +278,10 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
   }
 
   async function handleNoteBlur() {
+    if (skipNextBlurRef.current) {
+      skipNextBlurRef.current = false
+      return
+    }
     if (!tracker || tracker.status === TrackStatus.None) return
 
     await saveTracker({
@@ -281,7 +324,8 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       </div>
 
       {open && createPortal(
-        <div className="game-quick-overlay" aria-hidden="true">
+        <>
+          <div className="game-quick-overlay" aria-hidden="true" />
           <div
             ref={panelRef}
             className="game-quick-panel"
@@ -291,6 +335,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
             aria-label={`${game.title} quick tracker menu`}
             onClick={event => event.stopPropagation()}
           >
+            {saving && <div className="game-quick-saving-bar" role="status" aria-label="Saving…" />}
             <div className="game-quick-sheet-handle" />
 
             <header className="game-quick-header">
@@ -307,12 +352,15 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
               </div>
 
               <button
+                ref={closeButtonRef}
                 type="button"
                 className="game-quick-close"
                 onClick={() => setOpen(false)}
                 aria-label="Close quick tracker menu"
               >
-                x
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                  <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" />
+                </svg>
               </button>
             </header>
 
@@ -451,7 +499,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
               </Link>
             </footer>
           </div>
-        </div>,
+        </>,
         document.body
       )}
     </>
@@ -521,4 +569,11 @@ function fallbackCoverDataUrl(): string {
 
 function clamp(value: number, min: number, max: number): number {
   return Math.max(min, Math.min(max, value))
+}
+
+// Interprets a YYYY-MM-DD date input value as local midnight, not UTC midnight.
+// new Date('2024-01-15') → UTC 00:00 → shows as Jan 14 in UTC- timezones.
+function localDateToISOString(dateValue: string): string {
+  const [year, month, day] = dateValue.split('-').map(Number)
+  return new Date(year, month - 1, day).toISOString()
 }

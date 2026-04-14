@@ -85,6 +85,18 @@
     0 0 0 1px rgba(255, 255, 255, 0.02) inset;
   pointer-events: auto;
   overscroll-behavior: contain;
+  animation: game-quick-panel-in 0.18s ease-out both;
+}
+
+@keyframes game-quick-panel-in {
+  from {
+    opacity: 0;
+    transform: scale(0.97) translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .game-quick-sheet-handle {
@@ -311,6 +323,12 @@
     background: rgba(3, 4, 12, 0.72);
     backdrop-filter: blur(10px);
     pointer-events: auto;
+    animation: game-quick-overlay-in 0.2s ease both;
+  }
+
+  @keyframes game-quick-overlay-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
   }
 
   .game-quick-panel {
@@ -322,6 +340,20 @@
     max-width: none;
     max-height: min(88vh, 760px);
     border-radius: 22px;
+    animation-name: game-quick-panel-in-mobile;
+    animation-duration: 0.26s;
+    animation-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
+  }
+
+  @keyframes game-quick-panel-in-mobile {
+    from {
+      opacity: 0;
+      transform: translateY(32px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   .game-quick-sheet-handle {
@@ -365,4 +397,22 @@
   .game-quick-link-btn {
     width: 100%;
   }
+}
+
+.game-quick-saving-bar {
+  position: sticky;
+  top: 0;
+  height: 3px;
+  margin-bottom: -3px;
+  border-radius: 22px 22px 0 0;
+  background: linear-gradient(90deg, transparent 0%, #7c3aed 30%, #06b6d4 70%, transparent 100%);
+  background-size: 200% 100%;
+  animation: game-quick-sweep 1.4s linear infinite;
+  z-index: 1;
+  pointer-events: none;
+}
+
+@keyframes game-quick-sweep {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
 }
