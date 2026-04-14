@@ -2,24 +2,17 @@ import { useState, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import ListCard, { fromHomeList } from '../components/ListCard'
 import UserAvatar from '../components/UserAvatar'
-import { getPinnedLists, getUserActivity } from '../api/home'
+import { getUserActivity } from '../api/home'
+import { HOME_PINNED_LISTS } from '../data/homePinnedLists'
 import { timeAgo } from '../utils/time'
 import { ActivityType, type HomeList, type HomeActivity } from '../types'
 import './Home.css'
 
 export default function Home() {
-  const [pinned, setPinned] = useState<HomeList[]>([])
-  const [pinnedLoading, setPinnedLoading] = useState(true)
+  const [pinned] = useState<HomeList[]>(HOME_PINNED_LISTS)
   const [activity, setActivity] = useState<HomeActivity[]>([])
 
   const navigate = useNavigate()
-
-  useEffect(() => {
-    getPinnedLists()
-      .then(setPinned)
-      .catch(() => {})
-      .finally(() => setPinnedLoading(false))
-  }, [])
 
   useEffect(() => {
     const id = requestIdleCallback(
@@ -39,18 +32,14 @@ export default function Home() {
               <p className="section-subtitle">The most referenced community rankings</p>
             </div>
           </div>
-          {pinnedLoading ? (
-            <ListsSkeleton count={4} />
-          ) : (
-            <>
-              <div className="lists-grid">
-                {pinned.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
-              </div>
-              <div className="lists-more">
-                <Link to="/lists" className="btn-primary">View more lists</Link>
-              </div>
-            </>
-          )}
+          <>
+            <div className="lists-grid">
+              {pinned.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
+            </div>
+            <div className="lists-more">
+              <Link to="/lists" className="btn-primary">View more lists</Link>
+            </div>
+          </>
         </div>
       </section>
 
