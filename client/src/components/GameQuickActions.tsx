@@ -2,6 +2,7 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
 import { login } from '../api/auth'
+import { ApiError } from '../api/client'
 import { removeTrackerStatus, updateTracker } from '../api/games'
 import type { UpdateTrackerRequest } from '../api/games'
 import { useAuth } from '../context/AuthContext'
@@ -158,6 +159,13 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       const next = toQuickTracker(await task())
       setTracker(next)
       setNoteValue(next?.note ?? '')
+    } catch (error) {
+      if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
+        login(window.location.href)
+        return
+      }
+
+      throw error
     } finally {
       setSaving(false)
     }

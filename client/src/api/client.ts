@@ -1,5 +1,17 @@
 const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
 
+export class ApiError extends Error {
+  status: number
+  responseUrl: string
+
+  constructor(status: number, statusText: string, responseUrl: string) {
+    super(`API error ${status}: ${statusText}`)
+    this.name = 'ApiError'
+    this.status = status
+    this.responseUrl = responseUrl
+  }
+}
+
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
   const headers = new Headers(options?.headers)
   const hasBody = options?.body !== undefined
@@ -15,7 +27,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   })
 
   if (!res.ok) {
-    throw new Error(`API error ${res.status}: ${res.statusText}`)
+    throw new ApiError(res.status, res.statusText, res.url)
   }
 
   const contentType = res.headers.get('content-type')

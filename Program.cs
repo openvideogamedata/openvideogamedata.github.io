@@ -67,6 +67,31 @@ namespace community
                     options.Cookie.HttpOnly = true;
                     options.Cookie.SameSite = SameSiteMode.None;
                     options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+                    options.Events = new CookieAuthenticationEvents
+                    {
+                        OnRedirectToLogin = context =>
+                        {
+                            if (IsApiRequest(context.Request.Path))
+                            {
+                                context.Response.StatusCode = StatusCodes.Status401Unauthorized;
+                                return Task.CompletedTask;
+                            }
+
+                            context.Response.Redirect(context.RedirectUri);
+                            return Task.CompletedTask;
+                        },
+                        OnRedirectToAccessDenied = context =>
+                        {
+                            if (IsApiRequest(context.Request.Path))
+                            {
+                                context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                                return Task.CompletedTask;
+                            }
+
+                            context.Response.Redirect(context.RedirectUri);
+                            return Task.CompletedTask;
+                        }
+                    };
                 })
                 .AddGoogle(googleOptions =>
                 {
@@ -179,6 +204,11 @@ namespace community
             app.MapGet("/swagger", () => Results.Redirect("/swagger/index.html", permanent: false));
             app.MapBlazorHub();
             app.MapFallbackToPage("/_Host");
+        }
+
+        private static bool IsApiRequest(PathString path)
+        {
+            return path.StartsWithSegments("/api", StringComparison.OrdinalIgnoreCase);
         }
     }
 }
