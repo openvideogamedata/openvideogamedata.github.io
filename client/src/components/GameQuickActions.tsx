@@ -1,22 +1,29 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { login } from '../api/auth'
-import { updateTracker, removeTrackerStatus } from '../api/games'
+import { removeTrackerStatus, updateTracker } from '../api/games'
 import type { UpdateTrackerRequest } from '../api/games'
 import { useAuth } from '../context/AuthContext'
 import type { Tracker } from '../types'
 import { TrackStatus } from '../types'
 import './GameQuickActions.css'
 
-const STATUS_BUTTONS = [
+const DESKTOP_BREAKPOINT = 720
+const DESKTOP_MIN_WIDTH = 380
+const DESKTOP_MAX_WIDTH = 440
+const PANEL_GAP = 14
+const PANEL_VIEWPORT_MARGIN = 16
+
+const STATUS_OPTIONS = [
   { status: TrackStatus.ToPlay, label: 'To Play', color: '#7c3aed' },
   { status: TrackStatus.Playing, label: 'Playing', color: '#06b6d4' },
   { status: TrackStatus.Played, label: 'Played', color: '#f59e0b' },
   { status: TrackStatus.Beaten, label: 'Beaten', color: '#10b981' },
   { status: TrackStatus.Abandoned, label: 'Abandoned', color: '#ef4444' },
-]
+] as const
 
 type QuickTracker = Pick<Tracker, 'status' | 'statusDate' | 'note' | 'platinum'>
+type Appearance = 'card' | 'fill'
 
 interface Props {
   game: {
@@ -28,16 +35,19 @@ interface Props {
     score?: number | null
     tracker?: QuickTracker | null
   }
+  appearance?: Appearance
 }
 
-export default function GameQuickActions({ game }: Props) {
+export default function GameQuickActions({ game, appearance = 'card' }: Props) {
   const { user, loading: authLoading } = useAuth()
   const triggerRef = useRef<HTMLButtonElement | null>(null)
+  const panelRef = useRef<HTMLDivElement | null>(null)
+
   const [open, setOpen] = useState(false)
   const [tracker, setTracker] = useState<QuickTracker | null>(game.tracker ?? null)
   const [noteValue, setNoteValue] = useState(game.tracker?.note ?? '')
   const [saving, setSaving] = useState(false)
-  const [panelStyle, setPanelStyle] = useState<React.CSSProperties>({})
+  const [desktopPanelStyle, setDesktopPanelStyle] = useState<React.CSSProperties>({})
 
   useEffect(() => {
     setTracker(game.tracker ?? null)
@@ -53,100 +63,107 @@ export default function GameQuickActions({ game }: Props) {
       }
     }
 
-    const updatePosition = () => {
-      const trigger = triggerRef.current
-      if (!trigger) return
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [open])
 
-      if (window.innerWidth <= 720) {
-        setPanelStyle({})
+  useLayoutEffect(() => {
+    if (!open) return
+
+    const updateDesktopPosition = () => {
+      if (window.innerWidth <= DESKTOP_BREAKPOINT) {
+        setDesktopPanelStyle({})
         return
       }
 
-      const rect = trigger.getBoundingClientRect()
-      const panelWidth = Math.min(420, Math.max(360, window.innerWidth - 32))
-      const gap = 14
-      const spaceOnRight = window.innerWidth - rect.right - 16
-      const placeRight = spaceOnRight >= panelWidth || rect.left < panelWidth
-      const left = placeRight
-        ? Math.min(rect.right + gap, window.innerWidth - panelWidth - 16)
-        : Math.max(16, rect.left - panelWidth - gap)
-      const top = Math.min(
-        Math.max(16, rect.top),
-        Math.max(16, window.innerHeight - 620)
-      )
+      const trigger = triggerRef.current
+      const panel = panelRef.current
+      if (!trigger || !panel) return
 
-      setPanelStyle({
+      const rect = trigger.getBoundingClientRect()
+      const panelWidth = Math.min(
+        DESKTOP_MAX_WIDTH,
+        Math.max(DESKTOP_MIN_WIDTH, window.innerWidth - PANEL_VIEWPORT_MARGIN * 2)
+      )
+      const panelHeight = panel.offsetHeight || 520
+
+      const spaceOnRight = window.innerWidth - rect.right - PANEL_VIEWPORT_MARGIN
+      const shouldOpenRight = spaceOnRight >= panelWidth || rect.left < panelWidth
+      const unconstrainedLeft = shouldOpenRight
+        ? rect.right + PANEL_GAP
+        : rect.left - panelWidth - PANEL_GAP
+
+      setDesktopPanelStyle({
         width: `${panelWidth}px`,
         minWidth: `${panelWidth}px`,
         maxWidth: `${panelWidth}px`,
-        top: `${top}px`,
-        left: `${left}px`,
+        left: `${clamp(unconstrainedLeft, PANEL_VIEWPORT_MARGIN, window.innerWidth - panelWidth - PANEL_VIEWPORT_MARGIN)}px`,
+        top: `${clamp(rect.top, PANEL_VIEWPORT_MARGIN, window.innerHeight - panelHeight - PANEL_VIEWPORT_MARGIN)}px`,
       })
     }
 
-    updatePosition()
-    window.addEventListener('keydown', onKeyDown)
-    window.addEventListener('resize', updatePosition)
-    window.addEventListener('scroll', updatePosition, true)
+    const frame = window.requestAnimationFrame(updateDesktopPosition)
+    window.addEventListener('resize', updateDesktopPosition)
+    window.addEventListener('scroll', updateDesktopPosition, true)
 
     return () => {
-      window.removeEventListener('keydown', onKeyDown)
-      window.removeEventListener('resize', updatePosition)
-      window.removeEventListener('scroll', updatePosition, true)
+      window.cancelAnimationFrame(frame)
+      window.removeEventListener('resize', updateDesktopPosition)
+      window.removeEventListener('scroll', updateDesktopPosition, true)
     }
-  }, [open])
+  }, [open, tracker, noteValue, authLoading, saving])
 
   const isTracked = tracker !== null && tracker.status !== TrackStatus.None
 
-  async function persistTracker(request: UpdateTrackerRequest) {
+  async function runTrackerMutation(task: () => Promise<Tracker>) {
     setSaving(true)
     try {
-      const updated = await updateTracker(game.id, request)
-      setTracker(updated)
-      setNoteValue(updated.note ?? '')
+      const next = toQuickTracker(await task())
+      setTracker(next)
+      setNoteValue(next?.note ?? '')
     } finally {
       setSaving(false)
     }
   }
 
-  async function handleStatusClick(status: TrackStatus) {
+  async function saveTracker(request: UpdateTrackerRequest) {
+    await runTrackerMutation(() => updateTracker(game.id, request))
+  }
+
+  async function handleStatusChange(status: TrackStatus) {
     if (!user) {
-      login()
+      login(window.location.href)
       return
     }
 
-    setSaving(true)
-    try {
-      if (tracker?.status === status) {
-        const updated = await removeTrackerStatus(game.id)
-        setTracker(updated)
-        setNoteValue(updated.note ?? '')
-      } else {
-        await persistTracker({
-          status,
-          note: noteValue || null,
-          platinum: tracker?.platinum ?? false,
-          statusDate: tracker?.statusDate ?? null,
-        })
-      }
-    } finally {
-      setSaving(false)
+    if (tracker?.status === status) {
+      await runTrackerMutation(() => removeTrackerStatus(game.id))
+      return
     }
+
+    await saveTracker({
+      status,
+      note: noteValue || null,
+      platinum: tracker?.platinum ?? false,
+      statusDate: tracker?.statusDate ?? null,
+    })
   }
 
-  async function handleDateChange(dateStr: string) {
+  async function handleDateChange(dateValue: string) {
     if (!tracker) return
-    await persistTracker({
+
+    await saveTracker({
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
-      statusDate: dateStr ? new Date(dateStr).toISOString() : null,
+      statusDate: dateValue ? new Date(dateValue).toISOString() : null,
     })
   }
 
   async function handleAddDate() {
     if (!tracker) return
-    await persistTracker({
+
+    await saveTracker({
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
@@ -156,7 +173,8 @@ export default function GameQuickActions({ game }: Props) {
 
   async function handleRemoveDate() {
     if (!tracker) return
-    await persistTracker({
+
+    await saveTracker({
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
@@ -166,7 +184,8 @@ export default function GameQuickActions({ game }: Props) {
 
   async function handlePlatinumToggle() {
     if (!tracker) return
-    await persistTracker({
+
+    await saveTracker({
       status: tracker.status,
       note: noteValue || null,
       platinum: !tracker.platinum,
@@ -176,7 +195,8 @@ export default function GameQuickActions({ game }: Props) {
 
   async function handleNoteBlur() {
     if (!tracker || tracker.status === TrackStatus.None) return
-    await persistTracker({
+
+    await saveTracker({
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
@@ -186,103 +206,120 @@ export default function GameQuickActions({ game }: Props) {
 
   return (
     <>
-      <button
-        type="button"
-        className="game-quick-trigger"
-        ref={triggerRef}
-        onClick={() => setOpen(true)}
-        aria-haspopup="dialog"
-        aria-expanded={open}
-        aria-label={`Quick actions for ${game.title}`}
-      >
-        <div className="game-card-cover">
-          <img
-            src={game.coverBigImageUrl || game.coverImageUrl || ''}
-            alt={game.title}
-            loading="lazy"
-            onError={e => {
-              ;(e.target as HTMLImageElement).src =
-                `data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='280' viewBox='0 0 200 280'%3E%3Crect width='200' height='280' fill='%231e1e38'/%3E%3Ctext x='100' y='150' text-anchor='middle' fill='%23475569' font-size='14' font-family='sans-serif'%3ENo cover%3C/text%3E%3C/svg%3E`
-            }}
-          />
-          {(game.score ?? 0) > 0 && (
-            <div className={`game-score ${scoreClass(game.score ?? 0)}`}>
-              {game.score}
-            </div>
-          )}
-        </div>
-      </button>
+      <div className="game-quick-root" data-appearance={appearance}>
+        <button
+          ref={triggerRef}
+          type="button"
+          className="game-quick-trigger"
+          aria-haspopup="dialog"
+          aria-expanded={open}
+          aria-label={`Open quick tracker menu for ${game.title}`}
+          onClick={() => setOpen(true)}
+        >
+          <div className="game-quick-media-shell">
+            <img
+              src={game.coverBigImageUrl || game.coverImageUrl || fallbackCoverDataUrl()}
+              alt={game.title}
+              className="game-quick-media"
+              loading="lazy"
+              onError={event => {
+                ;(event.target as HTMLImageElement).src = fallbackCoverDataUrl()
+              }}
+            />
+            {(game.score ?? 0) > 0 && (
+              <div className={`game-score ${scoreClass(game.score ?? 0)}`}>
+                {game.score}
+              </div>
+            )}
+          </div>
+        </button>
+      </div>
 
       {open && (
         <div className="game-quick-overlay" onClick={() => setOpen(false)}>
           <div
+            ref={panelRef}
             className="game-quick-panel"
-            style={panelStyle}
+            style={desktopPanelStyle}
             role="dialog"
             aria-modal="true"
-            aria-label={`${game.title} quick actions`}
+            aria-label={`${game.title} quick tracker menu`}
             onClick={event => event.stopPropagation()}
           >
-            <div className="game-quick-handle" />
-            <div className="game-quick-header">
-              <div className="game-quick-cover-mini">
-                <img
-                  src={game.coverImageUrl || game.coverBigImageUrl || ''}
-                  alt={game.title}
-                  loading="lazy"
-                />
-              </div>
-              <div className="game-quick-title-wrap">
+            <div className="game-quick-sheet-handle" />
+
+            <header className="game-quick-header">
+              <div className="game-quick-header-copy">
+                <p className="game-quick-eyebrow">Quick tracker</p>
                 <h3 className="game-quick-title">{game.title}</h3>
-                <p className="game-quick-meta">
+                <div className="game-quick-meta">
                   {game.releaseYear != null && <span>{game.releaseYear}</span>}
                   {isTracked && <span>{formatTrackStatus(tracker!.status)}</span>}
-                </p>
+                  {isTracked && hasDate(tracker!) && (
+                    <span>{formatCompactDate(tracker!.statusDate)}</span>
+                  )}
+                </div>
               </div>
+
               <button
                 type="button"
                 className="game-quick-close"
                 onClick={() => setOpen(false)}
-                aria-label="Close quick actions"
+                aria-label="Close quick tracker menu"
               >
-                ×
+                x
               </button>
-            </div>
+            </header>
 
-            <div className="game-quick-section">
+            <section className="game-quick-section">
               <div className="game-quick-status-grid">
-                {STATUS_BUTTONS.map(button => {
-                  const active = tracker?.status === button.status
+                {STATUS_OPTIONS.map(option => {
+                  const active = tracker?.status === option.status
+
                   return (
                     <button
-                      key={button.status}
+                      key={option.status}
                       type="button"
                       className={`game-quick-status-btn ${active ? 'active' : ''}`}
-                      style={active ? { background: button.color, borderColor: button.color } : { borderColor: `${button.color}66` }}
-                      onClick={() => handleStatusClick(button.status)}
+                      style={active ? { background: option.color, borderColor: option.color } : { borderColor: `${option.color}55` }}
+                      onClick={() => handleStatusChange(option.status)}
                       disabled={authLoading || saving}
                     >
-                      {button.label}
+                      {option.label}
                     </button>
                   )
                 })}
               </div>
-            </div>
+            </section>
 
             {authLoading ? (
-              <p className="game-quick-empty">Loading your tracker...</p>
+              <section className="game-quick-section">
+                <p className="game-quick-hint">Loading your tracker...</p>
+              </section>
             ) : !user ? (
-              <div className="game-quick-empty-block">
-                <p className="game-quick-empty">Sign in to update your tracker without leaving this page.</p>
-                <button type="button" className="game-quick-primary-btn" onClick={() => login()}>
+              <section className="game-quick-section">
+                <p className="game-quick-hint">
+                  Sign in to update status, date and notes without leaving this list.
+                </p>
+                <button
+                  type="button"
+                  className="game-quick-primary-btn"
+                  onClick={() => login(window.location.href)}
+                >
                   Sign in with Google
                 </button>
-              </div>
+              </section>
             ) : isTracked ? (
               <>
-                <div className="game-quick-section">
-                  <div className="game-quick-date-row">
-                    <span className="game-quick-label">Date</span>
+                <section className="game-quick-section">
+                  <div className="game-quick-row">
+                    <div>
+                      <p className="game-quick-row-label">Date</p>
+                      <p className="game-quick-row-value">
+                        {hasDate(tracker!) ? formatLongDate(tracker!.statusDate) : 'No date set'}
+                      </p>
+                    </div>
+
                     {hasDate(tracker!) ? (
                       <div className="game-quick-date-controls">
                         <input
@@ -292,34 +329,50 @@ export default function GameQuickActions({ game }: Props) {
                           onChange={event => handleDateChange(event.target.value)}
                           disabled={saving}
                         />
-                        <button type="button" className="game-quick-inline-btn" onClick={handleRemoveDate} disabled={saving}>
+                        <button
+                          type="button"
+                          className="game-quick-secondary-btn"
+                          onClick={handleRemoveDate}
+                          disabled={saving}
+                        >
                           Remove
                         </button>
                       </div>
                     ) : (
-                      <button type="button" className="game-quick-inline-btn" onClick={handleAddDate} disabled={saving}>
+                      <button
+                        type="button"
+                        className="game-quick-secondary-btn"
+                        onClick={handleAddDate}
+                        disabled={saving}
+                      >
                         Add date
                       </button>
                     )}
                   </div>
 
                   {tracker!.status === TrackStatus.Beaten && (
-                    <div className="game-quick-date-row">
-                      <span className="game-quick-label">Completion</span>
+                    <div className="game-quick-row game-quick-row-stack">
+                      <div>
+                        <p className="game-quick-row-label">Completion</p>
+                        <p className="game-quick-row-value">
+                          {tracker!.platinum ? '100% complete' : 'Standard completion'}
+                        </p>
+                      </div>
+
                       <button
                         type="button"
-                        className={`game-quick-inline-btn ${tracker!.platinum ? 'active' : ''}`}
+                        className={`game-quick-secondary-btn ${tracker!.platinum ? 'active' : ''}`}
                         onClick={handlePlatinumToggle}
                         disabled={saving}
                       >
-                        {tracker!.platinum ? '100% complete' : 'Mark as 100%'}
+                        {tracker!.platinum ? 'Remove 100%' : 'Mark as 100%'}
                       </button>
                     </div>
                   )}
-                </div>
+                </section>
 
-                <div className="game-quick-section">
-                  <label className="game-quick-label" htmlFor={`game-quick-note-${game.id}`}>
+                <section className="game-quick-section">
+                  <label className="game-quick-field-label" htmlFor={`game-quick-note-${game.id}`}>
                     Note
                   </label>
                   <textarea
@@ -333,17 +386,25 @@ export default function GameQuickActions({ game }: Props) {
                     onBlur={handleNoteBlur}
                     disabled={saving}
                   />
-                </div>
+                </section>
               </>
             ) : (
-              <p className="game-quick-empty">Pick a status above to start tracking this game.</p>
+              <section className="game-quick-section">
+                <p className="game-quick-hint">
+                  Pick a status above to start tracking this game right away.
+                </p>
+              </section>
             )}
 
-            <div className="game-quick-footer">
-              <Link to={`/games/${game.id}`} className="game-quick-link-btn" onClick={() => setOpen(false)}>
+            <footer className="game-quick-footer">
+              <Link
+                to={`/games/${game.id}`}
+                className="game-quick-link-btn"
+                onClick={() => setOpen(false)}
+              >
                 Go to game page
               </Link>
-            </div>
+            </footer>
           </div>
         </div>
       )}
@@ -351,7 +412,18 @@ export default function GameQuickActions({ game }: Props) {
   )
 }
 
-function hasDate(tracker: QuickTracker | Tracker): boolean {
+function toQuickTracker(tracker: Tracker | null): QuickTracker | null {
+  if (!tracker) return null
+
+  return {
+    status: tracker.status,
+    statusDate: tracker.statusDate,
+    note: tracker.note,
+    platinum: tracker.platinum,
+  }
+}
+
+function hasDate(tracker: QuickTracker): boolean {
   if (!tracker.statusDate) return false
   const date = new Date(tracker.statusDate)
   return date.getFullYear() > 1
@@ -374,9 +446,33 @@ function formatTrackStatus(status: TrackStatus): string {
   }
 }
 
+function formatCompactDate(date: string): string {
+  return new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric',
+  })
+}
+
+function formatLongDate(date: string): string {
+  return new Date(date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
+
 function scoreClass(score: number): string {
   if (score >= 85) return 'score-great'
   if (score >= 70) return 'score-good'
   if (score >= 50) return 'score-ok'
   return 'score-low'
+}
+
+function fallbackCoverDataUrl(): string {
+  return "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='280' viewBox='0 0 200 280'%3E%3Crect width='200' height='280' fill='%231e1e38'/%3E%3Ctext x='100' y='150' text-anchor='middle' fill='%23475569' font-size='14' font-family='sans-serif'%3ENo cover%3C/text%3E%3C/svg%3E"
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, value))
 }

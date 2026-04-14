@@ -313,6 +313,7 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
               ? { status: winner.trackStatus, statusDate: '', note: null, platinum: false }
               : null,
           }}
+          appearance="fill"
         />
         {trackerMeta && (
           <span

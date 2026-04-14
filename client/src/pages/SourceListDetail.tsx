@@ -204,6 +204,7 @@ function GameListItem({ item, highlighted }: { item: GameListItemDto; highlighte
             score: null,
             tracker: null,
           }}
+          appearance="fill"
         />
       </div>
       <span className="item-title">{item.gameTitle}</span>

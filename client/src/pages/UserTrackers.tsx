@@ -439,6 +439,7 @@ function GameTrackerCard({ game }: { game: GameSummaryDto }) {
                 }
               : null,
           }}
+          appearance="fill"
         />
       </div>
       <Link to={`/games/${game.id}`} className="tracker-game-title">{game.title}</Link>

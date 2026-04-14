@@ -10,7 +10,7 @@ interface Props {
 export default function GameCard({ game }: Props) {
   return (
     <article className="game-card">
-      <GameQuickActions game={game} />
+      <GameQuickActions game={game} appearance="card" />
       <div className="game-card-info">
         <Link to={`/games/${game.id}`} className="game-title-link">
           <p className="game-title">{game.title}</p>
