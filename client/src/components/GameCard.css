@@ -2,17 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  border-radius: var(--radius);
-  overflow: hidden;
-  transition: transform var(--transition);
-}
-
-.game-card:hover {
-  transform: translateY(-4px);
-}
-
-.game-card:hover .game-card-cover {
-  box-shadow: 0 8px 32px rgba(124, 58, 237, 0.3);
 }
 
 .game-card-cover {
@@ -30,10 +19,6 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
-}
-
-.game-card:hover .game-card-cover img {
-  transform: scale(1.04);
 }
 
 .game-score {
@@ -69,6 +54,15 @@
 
 .game-card-info {
   padding: 0 2px;
+}
+
+.game-title-link:hover .game-title,
+.game-title-link:focus-visible .game-title {
+  color: var(--purple-light);
+}
+
+.game-title-link:focus-visible {
+  outline: none;
 }
 
 .game-title {
