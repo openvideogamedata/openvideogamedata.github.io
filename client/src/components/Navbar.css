@@ -110,29 +110,28 @@
   text-align: left;
 }
 
-.mobile-nav-chevron {
-  font-size: 1rem;
-  line-height: 1;
-  transition: transform 0.15s ease;
-}
-
-.mobile-nav-chevron.open {
-  transform: rotate(180deg);
-}
-
 .mobile-submenu {
   background: rgba(255,255,255,0.02);
   border-bottom: 1px solid var(--border);
+  border-left: 2px solid rgba(124, 58, 237, 0.35);
+  animation: submenu-in 0.15s ease both;
 }
 
 .mobile-submenu-link {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.7rem 1rem 0.7rem 1.5rem;
-  font-size: 0.85rem;
-  color: var(--text-faint);
+  padding: 0.7rem 1rem 0.7rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-subtle);
   transition: background 0.1s, color 0.1s;
+}
+
+.mobile-submenu-link:last-child {
+  border-bottom: none;
 }
 
 .mobile-submenu-link:hover {
@@ -299,10 +298,16 @@
   background: var(--surface-2);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  min-width: 200px;
+  min-width: 220px;
   z-index: 200;
-  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.03) inset;
   overflow: hidden;
+  animation: submenu-in 0.14s ease both;
+}
+
+@keyframes submenu-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .user-menu-header {
@@ -347,28 +352,35 @@
   width: 100%;
 }
 
-.user-menu-chevron {
-  font-size: 1rem;
-  line-height: 1;
-  transition: transform 0.15s ease;
+.user-menu-chevron,
+.mobile-nav-chevron {
+  display: flex;
+  align-items: center;
+  transition: transform 0.18s ease;
+  color: var(--text-muted);
 }
 
-.user-menu-chevron.open {
+.user-menu-chevron.open,
+.mobile-nav-chevron.open {
   transform: rotate(180deg);
 }
 
 .user-menu-submenu {
   background: rgba(255,255,255,0.02);
   border-bottom: 1px solid var(--border);
+  border-left: 2px solid rgba(124, 58, 237, 0.35);
+  animation: submenu-in 0.15s ease both;
 }
 
 .user-menu-subitem {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.6rem 1rem 0.6rem 1.5rem;
-  font-size: 0.82rem;
-  color: var(--text-faint);
+  padding: 0.6rem 1rem 0.6rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
   transition: background 0.1s, color 0.1s;
   border-bottom: 1px solid var(--border-subtle);
 }
