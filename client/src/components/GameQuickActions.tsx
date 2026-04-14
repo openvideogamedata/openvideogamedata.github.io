@@ -229,7 +229,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       status,
       note: noteValue || null,
       platinum: tracker?.platinum ?? false,
-      statusDate: tracker?.statusDate ?? null,
+      statusDate: tracker && hasDate(tracker) ? tracker.statusDate : null,
     })
   }
 
@@ -273,7 +273,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       status: tracker.status,
       note: noteValue || null,
       platinum: !tracker.platinum,
-      statusDate: tracker.statusDate,
+      statusDate: hasDate(tracker) ? tracker.statusDate : null,
     })
   }
 
@@ -288,7 +288,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       status: tracker.status,
       note: noteValue || null,
       platinum: tracker.platinum,
-      statusDate: tracker.statusDate,
+      statusDate: hasDate(tracker) ? tracker.statusDate : null,
     })
   }
 
