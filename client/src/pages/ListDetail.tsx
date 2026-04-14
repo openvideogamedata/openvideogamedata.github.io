@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link, useNavigate } from 'react-router-dom'
 import TabBar from '../components/TabBar'
 import Paginator from '../components/Paginator'
+import GameQuickActions from '../components/GameQuickActions'
 import { getListBySlug, getCriticLists, getUserLists, updateAvgConsideration } from '../api/gameLists'
 import type {
   GameListDetailsResponse,
@@ -298,14 +299,21 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
   const trackerMeta = winner.trackStatus !== 0 ? TRACKER_STATUS_META[winner.trackStatus] : null
 
   return (
-    <Link to={`/games/${winner.gameId}`} className="winner-card">
+    <article className="winner-card">
       <div className="winner-position">{medal}</div>
       <div className="winner-cover-wrap">
-        {winner.coverImageUrl ? (
-          <img src={winner.coverImageUrl} alt={winner.gameTitle} className="winner-cover" loading="lazy" />
-        ) : (
-          <div className="winner-cover winner-cover-placeholder" />
-        )}
+        <GameQuickActions
+          game={{
+            id: winner.gameId,
+            title: winner.gameTitle,
+            releaseYear: winner.releaseYear,
+            coverImageUrl: winner.coverImageUrl,
+            score: null,
+            tracker: winner.trackStatus !== 0
+              ? { status: winner.trackStatus, statusDate: '', note: null, platinum: false }
+              : null,
+          }}
+        />
         {trackerMeta && (
           <span
             className="winner-tracker-icon"
@@ -317,13 +325,13 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
           </span>
         )}
       </div>
-      <span className="winner-title">{winner.gameTitle}</span>
+      <Link to={`/games/${winner.gameId}`} className="winner-title">{winner.gameTitle}</Link>
       <span className="winner-year">{winner.releaseYear}</span>
       <div className="winner-stats">
         <span className="winner-stat" title="% of lists featuring this game">{winner.porcentageOfCitations}% lists</span>
         <span className="winner-stat winner-score" title="Score based on position weight">score: {winner.score}</span>
       </div>
-    </Link>
+    </article>
   )
 }
 

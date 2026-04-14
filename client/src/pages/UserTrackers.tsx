@@ -5,6 +5,7 @@ import { getUserProfile } from '../api/users'
 import type { UserProfileDto } from '../api/users'
 import TabBar from '../components/TabBar'
 import Paginator from '../components/Paginator'
+import GameQuickActions from '../components/GameQuickActions'
 import type { Pager } from '../types'
 import { GamesOrder, TrackStatus } from '../types'
 import './UserTrackers.css'
@@ -420,18 +421,30 @@ function GameTrackerCard({ game }: { game: GameSummaryDto }) {
     : null
 
   return (
-    <Link to={`/games/${game.id}`} className="tracker-game-card">
+    <article className="tracker-game-card">
       <div className="tracker-game-cover-wrap">
-        {cover ? (
-          <img src={cover} alt={game.title} className="tracker-game-cover" loading="lazy" />
-        ) : (
-          <div className="tracker-game-cover tracker-game-cover-ph" />
-        )}
+        <GameQuickActions
+          game={{
+            id: game.id,
+            title: game.title,
+            releaseYear: year,
+            coverImageUrl: cover,
+            score: null,
+            tracker: game.tracker
+              ? {
+                  status: game.tracker.status as TrackStatus,
+                  statusDate: game.tracker.statusDate,
+                  note: null,
+                  platinum: false,
+                }
+              : null,
+          }}
+        />
       </div>
-      <span className="tracker-game-title">{game.title}</span>
+      <Link to={`/games/${game.id}`} className="tracker-game-title">{game.title}</Link>
       {year && <span className="tracker-game-year">{year}</span>}
       {formattedStatusDate && <span className="tracker-game-status-date">{formattedStatusDate}</span>}
-    </Link>
+    </article>
   )
 }
 

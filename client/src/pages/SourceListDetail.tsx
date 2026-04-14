@@ -3,6 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import { getSourceList, deleteSourceList } from '../api/sourceList'
 import type { SourceListResponse, GameListItemDto } from '../api/sourceList'
 import { useAuth } from '../context/AuthContext'
+import GameQuickActions from '../components/GameQuickActions'
 import './SourceListDetail.css'
 
 const IGDB_COVER_URL = (id: string, big = false) =>
@@ -194,11 +195,17 @@ function GameListItem({ item, highlighted }: { item: GameListItemDto; highlighte
       className={`game-list-item ${highlighted ? 'highlighted' : ''}`}
     >
       <span className="item-position">{item.position}</span>
-      {cover ? (
-        <img src={cover} alt={item.gameTitle} className="item-cover" loading="lazy" />
-      ) : (
-        <div className="item-cover item-cover-placeholder" />
-      )}
+      <div onClick={event => event.preventDefault()}>
+        <GameQuickActions
+          game={{
+            id: item.gameId,
+            title: item.gameTitle,
+            coverImageUrl: cover,
+            score: null,
+            tracker: null,
+          }}
+        />
+      </div>
       <span className="item-title">{item.gameTitle}</span>
       {item.score > 0 && <span className="item-score">{item.score}</span>}
     </Link>

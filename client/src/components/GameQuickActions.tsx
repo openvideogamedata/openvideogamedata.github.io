@@ -4,7 +4,7 @@ import { login } from '../api/auth'
 import { updateTracker, removeTrackerStatus } from '../api/games'
 import type { UpdateTrackerRequest } from '../api/games'
 import { useAuth } from '../context/AuthContext'
-import type { GameSummary, Tracker } from '../types'
+import type { Tracker } from '../types'
 import { TrackStatus } from '../types'
 import './GameQuickActions.css'
 
@@ -16,19 +16,29 @@ const STATUS_BUTTONS = [
   { status: TrackStatus.Abandoned, label: 'Abandoned', color: '#ef4444' },
 ]
 
+type QuickTracker = Pick<Tracker, 'status' | 'statusDate' | 'note' | 'platinum'>
+
 interface Props {
-  game: GameSummary
+  game: {
+    id: number
+    title: string
+    releaseYear?: number | null
+    coverImageUrl: string | null
+    coverBigImageUrl?: string | null
+    score?: number | null
+    tracker?: QuickTracker | null
+  }
 }
 
 export default function GameQuickActions({ game }: Props) {
   const { user, loading: authLoading } = useAuth()
   const [open, setOpen] = useState(false)
-  const [tracker, setTracker] = useState<Tracker | null>(game.tracker)
+  const [tracker, setTracker] = useState<QuickTracker | null>(game.tracker ?? null)
   const [noteValue, setNoteValue] = useState(game.tracker?.note ?? '')
   const [saving, setSaving] = useState(false)
 
   useEffect(() => {
-    setTracker(game.tracker)
+    setTracker(game.tracker ?? null)
     setNoteValue(game.tracker?.note ?? '')
   }, [game.id, game.tracker])
 
@@ -151,7 +161,7 @@ export default function GameQuickActions({ game }: Props) {
       >
         <div className="game-card-cover">
           <img
-            src={game.coverBigImageUrl || game.coverImageUrl}
+            src={game.coverBigImageUrl || game.coverImageUrl || ''}
             alt={game.title}
             loading="lazy"
             onError={e => {
@@ -188,7 +198,7 @@ export default function GameQuickActions({ game }: Props) {
             <div className="game-quick-header">
               <div className="game-quick-cover-mini">
                 <img
-                  src={game.coverImageUrl || game.coverBigImageUrl}
+                  src={game.coverImageUrl || game.coverBigImageUrl || ''}
                   alt={game.title}
                   loading="lazy"
                 />
@@ -313,7 +323,7 @@ export default function GameQuickActions({ game }: Props) {
   )
 }
 
-function hasDate(tracker: Tracker): boolean {
+function hasDate(tracker: QuickTracker | Tracker): boolean {
   if (!tracker.statusDate) return false
   const date = new Date(tracker.statusDate)
   return date.getFullYear() > 1
