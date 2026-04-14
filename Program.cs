@@ -33,6 +33,9 @@ namespace community
                 options.AddDefaultPolicy(policy =>
                 {
                     policy.WithOrigins(
+                            "http://localhost:5124",
+                            "http://www.openvideogamedata.com",
+                            "http://openvideogamedata.com",
                             "https://localhost:5124",
                             "https://openvideogamedata.herokuapp.com",
                             "https://openvideogamedata.onrender.com",
