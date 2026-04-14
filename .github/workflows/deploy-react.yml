@@ -37,7 +37,7 @@ jobs:
         working-directory: client
         run: npm run build
         env:
-          VITE_API_BASE_URL: https://www.openvideogamedata.com
+          VITE_API_BASE_URL: https://openvideogamedata.onrender.com
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
