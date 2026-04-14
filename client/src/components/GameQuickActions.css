@@ -44,6 +44,12 @@
   transform: scale(1.04);
 }
 
+.game-quick-root[data-open='true'] .game-quick-media,
+.game-quick-root[data-open='true'] .game-quick-media-shell {
+  transform: none;
+  box-shadow: none;
+}
+
 .game-quick-root[data-appearance='card'] .game-quick-trigger:hover .game-quick-media-shell,
 .game-quick-root[data-appearance='card'] .game-quick-trigger:focus-visible .game-quick-media-shell {
   box-shadow: 0 8px 32px rgba(124, 58, 237, 0.3);
@@ -59,6 +65,7 @@
   inset: 0;
   z-index: 70;
   background: transparent;
+  pointer-events: none;
 }
 
 .game-quick-panel {
@@ -76,6 +83,7 @@
   box-shadow:
     0 28px 72px rgba(0, 0, 0, 0.48),
     0 0 0 1px rgba(255, 255, 255, 0.02) inset;
+  pointer-events: auto;
 }
 
 .game-quick-sheet-handle {
@@ -301,6 +309,7 @@
   .game-quick-overlay {
     background: rgba(3, 4, 12, 0.72);
     backdrop-filter: blur(10px);
+    pointer-events: auto;
   }
 
   .game-quick-panel {

@@ -63,8 +63,23 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       }
     }
 
+    const onPointerDown = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node | null
+      if (!target) return
+      if (panelRef.current?.contains(target)) return
+      if (triggerRef.current?.contains(target)) return
+      setOpen(false)
+    }
+
     window.addEventListener('keydown', onKeyDown)
-    return () => window.removeEventListener('keydown', onKeyDown)
+    document.addEventListener('mousedown', onPointerDown)
+    document.addEventListener('touchstart', onPointerDown)
+
+    return () => {
+      window.removeEventListener('keydown', onKeyDown)
+      document.removeEventListener('mousedown', onPointerDown)
+      document.removeEventListener('touchstart', onPointerDown)
+    }
   }, [open])
 
   useLayoutEffect(() => {
@@ -104,12 +119,10 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
 
     const frame = window.requestAnimationFrame(updateDesktopPosition)
     window.addEventListener('resize', updateDesktopPosition)
-    window.addEventListener('scroll', updateDesktopPosition, true)
 
     return () => {
       window.cancelAnimationFrame(frame)
       window.removeEventListener('resize', updateDesktopPosition)
-      window.removeEventListener('scroll', updateDesktopPosition, true)
     }
   }, [open, tracker, noteValue, authLoading, saving])
 
@@ -206,7 +219,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
 
   return (
     <>
-      <div className="game-quick-root" data-appearance={appearance}>
+      <div className="game-quick-root" data-appearance={appearance} data-open={open ? 'true' : 'false'}>
         <button
           ref={triggerRef}
           type="button"
@@ -236,7 +249,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       </div>
 
       {open && (
-        <div className="game-quick-overlay" onClick={() => setOpen(false)}>
+        <div className="game-quick-overlay">
           <div
             ref={panelRef}
             className="game-quick-panel"
