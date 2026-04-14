@@ -8,7 +8,7 @@ export default function Footer() {
         <nav className="footer-links">
           <Link to="/about">About</Link>
           <Link to="/privacy">Privacy</Link>
-          <a href="https://github.com/openvideogamedata/gamelist-aggregator" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/openvideogamedata/openvideogamedata.github.io" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </nav>
