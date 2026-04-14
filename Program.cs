@@ -39,7 +39,7 @@ namespace community
                             "https://www.openvideogamedata.com",
                             "https://openvideogamedata.com",
                             "https://openvideogamedata.github.io")
-                        .WithMethods("PUT", "DELETE", "GET", "POST")
+                        .WithMethods("OPTIONS", "PUT", "DELETE", "GET", "POST")
                         .AllowAnyHeader()
                         .AllowCredentials();
                 });
@@ -163,10 +163,10 @@ namespace community
                 options.RoutePrefix = "swagger";
             });
 
+            app.UseCors();
             app.UseCookiePolicy();
             app.UseAuthentication();
             app.UseAuthorization();
-            app.UseCors();
             app.UseMiddleware<UserInfoMiddleware>();
 
             app.MapControllers();

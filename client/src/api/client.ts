@@ -1,9 +1,16 @@
 const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
+  const headers = new Headers(options?.headers)
+  const hasBody = options?.body !== undefined
+
+  if (hasBody && !headers.has('Content-Type')) {
+    headers.set('Content-Type', 'application/json')
+  }
+
   const res = await fetch(`${BASE_URL}${path}`, {
     credentials: 'include',
-    headers: { 'Content-Type': 'application/json' },
+    headers,
     ...options,
   })
 
