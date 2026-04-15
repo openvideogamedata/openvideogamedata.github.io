@@ -81,6 +81,34 @@
   margin-bottom: 1rem;
 }
 
+.list-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 38px;
+  padding: 0.65rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-weight: 600;
+  transition: background var(--transition), color var(--transition), border-color var(--transition);
+}
+
+.toolbar-btn:hover {
+  background: var(--surface-3);
+  color: var(--text);
+  border-color: var(--purple-light);
+}
+
 .winners-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));

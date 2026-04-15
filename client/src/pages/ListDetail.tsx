@@ -35,6 +35,7 @@ export default function ListDetail() {
   const [userListsLoading, setUserListsLoading] = useState(false)
   const [userListsLoaded, setUserListsLoaded] = useState(false)
   const [listsExpanded, setListsExpanded] = useState(false)
+  const [copyDone, setCopyDone] = useState(false)
 
   useEffect(() => {
     if (!slug) return
@@ -114,8 +115,103 @@ export default function ListDetail() {
   const { finalGameList: fl, topWinnersByCritics, topWinnersByUsers,
     trackerStatsCritics, trackerStatsUsers, contributors, numberOfUsersLists } = data
 
+  const detail = data
   const winners = activeTab === 'critics' ? topWinnersByCritics : topWinnersByUsers
   const trackerStats = activeTab === 'critics' ? trackerStatsCritics : trackerStatsUsers
+
+  function formatSharePosition(position: number): string {
+    if (position === 1) return '1st'
+    if (position === 2) return '2nd'
+    if (position === 3) return '3rd'
+    return `${position}.`
+  }
+
+  function buildClipboardText(): string {
+    const lines: string[] = []
+    lines.push(`TOP ${fl.fullName}`)
+    lines.push('')
+
+    winners.forEach((winner, index) => {
+      lines.push(`${formatSharePosition(index + 1)} ${winner.gameTitle} (${winner.releaseYear})`)
+    })
+
+    lines.push('')
+
+    if (activeTab === 'critics') {
+      lines.push(
+        `Based on ${detail.sources.length} critic list${detail.sources.length !== 1 ? 's' : ''}: ${detail.sources.map(source => source.sourceName).join(', ')}`,
+      )
+    } else {
+      const totalUsers = Math.round(numberOfUsersLists)
+      lines.push(`Based on ${totalUsers} user list${totalUsers !== 1 ? 's' : ''}`)
+    }
+
+    lines.push('')
+    lines.push(`Source: ${window.location.origin}/list/${fl.slug}/${activeTab}`)
+    return lines.join('\n')
+  }
+
+  function downloadBlob(content: string, fileName: string, type: string) {
+    const blob = new Blob([content], { type })
+    const url = URL.createObjectURL(blob)
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.download = fileName
+    anchor.click()
+    URL.revokeObjectURL(url)
+  }
+
+  function handleCopy() {
+    navigator.clipboard.writeText(buildClipboardText())
+      .then(() => {
+        setCopyDone(true)
+        window.setTimeout(() => setCopyDone(false), 2000)
+      })
+      .catch(() => {})
+  }
+
+  function handleDownloadCsv() {
+    const header = 'Position,Title,Release Year,Citations,Percentage of Citations,Score\n'
+    const rows = winners.map((winner, index) =>
+      `${index + 1},"${winner.gameTitle.replace(/"/g, '""')}",${winner.releaseYear},${winner.citations},${winner.porcentageOfCitations},${winner.score}`,
+    ).join('\n')
+
+    downloadBlob(
+      header + rows,
+      `${sanitizeFileName(fl.fullName)}-${activeTab}.csv`,
+      'text/csv;charset=utf-8;',
+    )
+  }
+
+  function handleDownloadJson() {
+    const payload = {
+      list: {
+        id: fl.id,
+        slug: fl.slug,
+        fullName: fl.fullName,
+        title: fl.title,
+        year: fl.year,
+        tags: fl.tagList,
+        mode: activeTab,
+      },
+      summary: {
+        sourceCount: activeTab === 'critics' ? detail.sources.length : Math.round(numberOfUsersLists),
+        trackerStats,
+      },
+      sources: activeTab === 'critics' ? detail.sources : [],
+      winners: winners.map((winner, index) => ({
+        ...winner,
+        rank: index + 1,
+      })),
+    }
+
+    downloadBlob(
+      `${JSON.stringify(payload, null, 2)}\n`,
+      `${sanitizeFileName(fl.fullName)}-${activeTab}.json`,
+      'application/json;charset=utf-8;',
+    )
+  }
+
   return (
     <div className="list-detail-page">
       {/* Header */}
@@ -178,6 +274,17 @@ export default function ListDetail() {
               <h2 className="winners-title">
                 Top {winners.length} Games — by {activeTab === 'critics' ? `${data.sources.length} critic list${data.sources.length !== 1 ? 's' : ''}` : `${Math.round(numberOfUsersLists)} user list${numberOfUsersLists !== 1 ? 's' : ''}`}
               </h2>
+              <div className="list-toolbar">
+                <button className="toolbar-btn" onClick={handleCopy}>
+                  {copyDone ? 'Copied!' : 'Copy'}
+                </button>
+                <button className="toolbar-btn" onClick={handleDownloadCsv}>
+                  Download CSV
+                </button>
+                <button className="toolbar-btn" onClick={handleDownloadJson}>
+                  Download JSON
+                </button>
+              </div>
               <div className="winners-grid">
                 {winners.map((w, i) => (
                   <WinnerCard key={w.gameId} winner={w} rank={i + 1} />
@@ -299,8 +406,22 @@ const TRACKER_STATUS_META: Record<number, { label: string; color: string }> = {
   5: { label: 'Played',    color: '#f59e0b' },
 }
 
+function formatMedal(position: number): string {
+  if (position === 1) return '1st'
+  if (position === 2) return '2nd'
+  if (position === 3) return '3rd'
+  return `${position}.`
+}
+
+function sanitizeFileName(value: string): string {
+  return value
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '') || 'list'
+}
+
 function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
-  const medal = rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `#${rank}`
+  const medal = formatMedal(rank)
   const trackerMeta = winner.trackStatus !== 0 ? TRACKER_STATUS_META[winner.trackStatus] : null
 
   return (
