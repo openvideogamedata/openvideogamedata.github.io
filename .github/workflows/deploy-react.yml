@@ -5,10 +5,13 @@ on:
     branches: [main]
     paths:
       - "client/**"
+      - "ListSyncer/**"
       - ".github/workflows/deploy-react.yml"
+  schedule:
+    - cron: '0 4 * * 1'  # Every Monday at 04:00 UTC
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -17,8 +20,32 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 9.0.x
+
+      - name: Run ListSyncer
+        working-directory: ListSyncer
+        run: dotnet run --configuration Release
+
+      - name: Commit updated JSONs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add client/public/lists/
+          git diff --cached --quiet || git commit -m "chore: sync lists cache [skip ci]"
+          git push
+
   build:
     runs-on: ubuntu-latest
+    needs: sync
 
     steps:
       - uses: actions/checkout@v4
