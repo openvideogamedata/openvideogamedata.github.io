@@ -54,8 +54,11 @@ export default function UserListForm() {
           firstReleaseDate: null,
         })))
       } else if (slugParam) {
-        const match = opts.find(o => o.title.toLowerCase().includes(slugParam.toLowerCase()))
-        if (match) setSelectedTitle(match.title)
+        const match = opts.find(o => o.slug.toLowerCase() === slugParam.toLowerCase())
+        if (match) {
+          setSelectedTitle(match.title)
+          setSelectedListId(match.id)
+        }
       }
       setLoadingForm(false)
     }).catch(() => setLoadingForm(false))

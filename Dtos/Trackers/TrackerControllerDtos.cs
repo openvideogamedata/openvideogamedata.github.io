@@ -14,7 +14,8 @@ public sealed record TrackerComparisonResponse(
 
 public sealed record TrackerListOptionDto(
     long Id,
-    string Title);
+    string Title,
+    string Slug);
 
 public sealed record TrackerListYearOptionDto(
     long Id,

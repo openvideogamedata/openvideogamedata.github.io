@@ -56,8 +56,8 @@ public class TrackersController : ControllerBase
     public IActionResult GetListOptions()
     {
         return Ok(_gameListRequestService
-            .GetAllGameListForSelectField()
-            .Select(x => new TrackerListOptionDto(x.Key, x.Value))
+            .GetAllGameListWithSlugForSelectField()
+            .Select(x => new TrackerListOptionDto(x.Id, x.Title, x.Slug))
             .ToList());
     }
 

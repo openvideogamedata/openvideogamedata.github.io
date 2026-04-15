@@ -250,6 +250,19 @@ public class GameListRequestService
         return finalGameLists;
     }
 
+    public List<(long Id, string Title, string Slug)> GetAllGameListWithSlugForSelectField()
+    {
+        using var context = this._factory.CreateDbContext();
+
+        return context.FinalGameLists.AsNoTracking()
+                      .Select(list => new { list.Id, list.Title, list.Slug, list.Year })
+                      .OrderBy(list => list.Title)
+                      .ThenByDescending(list => list.Year)
+                      .AsEnumerable()
+                      .Select(list => (list.Id, list.Title, list.Slug))
+                      .ToList();
+    }
+
     public List<GameListRequest> GetAll()
     {
         using var context = this._factory.CreateDbContext();

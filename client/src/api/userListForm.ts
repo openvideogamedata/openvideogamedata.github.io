@@ -1,6 +1,10 @@
 import { api } from './client'
 
-export interface ListOptionDto { id: number; title: string }
+export interface ListOptionDto {
+  id: number
+  title: string
+  slug: string
+}
 export interface ListYearOptionDto { id: number; year: number | null }
 
 export interface GameSearchResult {
