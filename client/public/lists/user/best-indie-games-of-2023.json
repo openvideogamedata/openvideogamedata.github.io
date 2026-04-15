@@ -1,0 +1,54 @@
+{
+  "syncedAt": "2026-04-15T10:54:28.8243716Z",
+  "slug": "best-indie-games-of-2023",
+  "type": 2,
+  "totalItems": 1,
+  "data": [
+    {
+      "id": 870,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-11-11T01:46:31.043499Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 76,
+        "title": "Best Indie Games of",
+        "year": 2023,
+        "slug": "best-indie-games-of-2023",
+        "fullName": "Best Indie Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9318,
+          "position": 1,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9319,
+          "position": 2,
+          "gameTitle": "Viewfinder",
+          "gameId": 1591,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9320,
+          "position": 3,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

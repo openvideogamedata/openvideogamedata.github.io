@@ -1,0 +1,352 @@
+{
+  "syncedAt": "2026-04-15T10:53:54.1500189Z",
+  "slug": "best-games-of-2002",
+  "type": 1,
+  "totalItems": 4,
+  "data": [
+    {
+      "id": 515,
+      "byUser": false,
+      "sourceListUrl": "https://www.today.com/news/top-video-games-2002-wbna3079719",
+      "dateAdded": "2023-06-14T12:57:00.158503Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 219,
+        "name": "Today",
+        "hostUrl": "www.today.com"
+      },
+      "finalGameList": {
+        "id": 43,
+        "title": "Best Games of",
+        "year": 2002,
+        "slug": "best-games-of-2002",
+        "fullName": "Best Games of 2002"
+      },
+      "items": [
+        {
+          "id": 3703,
+          "position": 1,
+          "gameTitle": "Metroid Prime",
+          "gameId": 427,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3704,
+          "position": 2,
+          "gameTitle": "Super Mario Sunshine",
+          "gameId": 1094,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3705,
+          "position": 3,
+          "gameTitle": "MLB Slugfest 2003",
+          "gameId": 1095,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3706,
+          "position": 4,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 4",
+          "gameId": 1096,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3707,
+          "position": 5,
+          "gameTitle": "Mario Party 4",
+          "gameId": 1097,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 516,
+      "byUser": false,
+      "sourceListUrl": "https://player.me/best-games-of-2002/",
+      "dateAdded": "2023-06-14T12:57:00.944595Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 220,
+        "name": "Player",
+        "hostUrl": "player.me"
+      },
+      "finalGameList": {
+        "id": 43,
+        "title": "Best Games of",
+        "year": 2002,
+        "slug": "best-games-of-2002",
+        "fullName": "Best Games of 2002"
+      },
+      "items": [
+        {
+          "id": 3708,
+          "position": 1,
+          "gameTitle": "Metroid Prime",
+          "gameId": 427,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3709,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3710,
+          "position": 3,
+          "gameTitle": "Tom Clancy\u0027s Splinter Cell",
+          "gameId": 1092,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3711,
+          "position": 4,
+          "gameTitle": "The Elder Scrolls III: Morrowind",
+          "gameId": 800,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3712,
+          "position": 5,
+          "gameTitle": "Mafia",
+          "gameId": 1093,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 517,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/wikis/best-of-the-decade/2002_-_Games",
+      "dateAdded": "2023-06-14T13:03:26.349141Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 43,
+        "title": "Best Games of",
+        "year": 2002,
+        "slug": "best-games-of-2002",
+        "fullName": "Best Games of 2002"
+      },
+      "items": [
+        {
+          "id": 3713,
+          "position": 1,
+          "gameTitle": "Battlefield 1942",
+          "gameId": 1102,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3714,
+          "position": 2,
+          "gameTitle": "Metroid Prime",
+          "gameId": 427,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3715,
+          "position": 3,
+          "gameTitle": "Kingdom Hearts",
+          "gameId": 441,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3716,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3717,
+          "position": 5,
+          "gameTitle": "Eternal Darkness: Sanity\u0027s Requiem",
+          "gameId": 536,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3718,
+          "position": 6,
+          "gameTitle": "Tom Clancy\u0027s Splinter Cell",
+          "gameId": 1092,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3719,
+          "position": 7,
+          "gameTitle": "Warcraft III: Reign of Chaos",
+          "gameId": 1103,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3720,
+          "position": 8,
+          "gameTitle": "Virtua Fighter 4",
+          "gameId": 831,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3721,
+          "position": 9,
+          "gameTitle": "Animal Crossing",
+          "gameId": 541,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3722,
+          "position": 10,
+          "gameTitle": "Ratchet \u0026 Clank",
+          "gameId": 1104,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "byUser": false,
+      "sourceListUrl": "https://www.michigandaily.com/uncategorized/10-best-video-games-2002/",
+      "dateAdded": "2023-06-14T13:03:27.293723Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 221,
+        "name": "Michigandaily",
+        "hostUrl": "www.michigandaily.com"
+      },
+      "finalGameList": {
+        "id": 43,
+        "title": "Best Games of",
+        "year": 2002,
+        "slug": "best-games-of-2002",
+        "fullName": "Best Games of 2002"
+      },
+      "items": [
+        {
+          "id": 3723,
+          "position": 1,
+          "gameTitle": "Metroid Prime",
+          "gameId": 427,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3724,
+          "position": 2,
+          "gameTitle": "Animal Crossing",
+          "gameId": 541,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3725,
+          "position": 3,
+          "gameTitle": "NCAA Football 2003",
+          "gameId": 1098,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3726,
+          "position": 4,
+          "gameTitle": "Super Mario Sunshine",
+          "gameId": 1094,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3727,
+          "position": 5,
+          "gameTitle": "Metal Gear Solid 2: Substance",
+          "gameId": 469,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3728,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 1099,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3729,
+          "position": 7,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 4",
+          "gameId": 1096,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3730,
+          "position": 8,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3731,
+          "position": 9,
+          "gameTitle": "Castlevania: Harmony of Dissonance",
+          "gameId": 1100,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3732,
+          "position": 10,
+          "gameTitle": "NBA 2K3",
+          "gameId": 1101,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

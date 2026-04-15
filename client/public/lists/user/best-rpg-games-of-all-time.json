@@ -1,0 +1,70 @@
+{
+  "syncedAt": "2026-04-15T10:54:18.2972517Z",
+  "slug": "best-rpg-games-of-all-time",
+  "type": 2,
+  "totalItems": 1,
+  "data": [
+    {
+      "id": 857,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-10-17T04:54:49.135042Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 45,
+        "nickname": "drawzz",
+        "fullName": "drawzz"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 9122,
+          "position": 1,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9123,
+          "position": 2,
+          "gameTitle": "Warcraft III: Reign of Chaos",
+          "gameId": 1103,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9124,
+          "position": 3,
+          "gameTitle": "Priston Tale 2",
+          "gameId": 2008,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9125,
+          "position": 4,
+          "gameTitle": "Peggle: World of Warcraft Edition",
+          "gameId": 2009,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9126,
+          "position": 5,
+          "gameTitle": "Feudalism II",
+          "gameId": 2010,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    }
+  ]
+}

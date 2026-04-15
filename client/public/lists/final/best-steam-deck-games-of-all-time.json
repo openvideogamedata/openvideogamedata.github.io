@@ -1,0 +1,340 @@
+{
+  "syncedAt": "2026-04-15T11:35:31.4253268Z",
+  "slug": "best-steam-deck-games-of-all-time",
+  "type": 0,
+  "totalItems": 12,
+  "data": {
+    "finalGameList": {
+      "id": 54,
+      "title": "Best Steam Deck Games",
+      "year": null,
+      "slug": "best-steam-deck-games-of-all-time",
+      "fullName": "Best Steam Deck Games",
+      "socialUrl": "https://www.reddit.com/r/SteamDeck/comments/13sdwhf/best_steam_deck_games_of_all_time_based_on/",
+      "socialComments": 272,
+      "tags": "console, handheld, all time, valve",
+      "tagList": [
+        "console",
+        "handheld",
+        "all time",
+        "valve"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": []
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 252,
+        "gameTitle": "Vampire Survivors",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2021-12-17T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
+        "score": 74,
+        "position": 1,
+        "gameListId": 407,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 69,
+        "position": 5,
+        "gameListId": 416,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 386,
+        "gameTitle": "Stardew Valley",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 42,
+        "firstReleaseDate": "2016-02-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.jpg",
+        "score": 56,
+        "position": 5,
+        "gameListId": 406,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 51,
+        "position": 7,
+        "gameListId": 407,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 42,
+        "position": 3,
+        "gameListId": 410,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 325,
+        "gameTitle": "Portal 2",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-04-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
+        "score": 40,
+        "position": 1,
+        "gameListId": 415,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 145,
+        "gameTitle": "Hollow Knight",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 42,
+        "firstReleaseDate": "2017-02-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+        "score": 39,
+        "position": 5,
+        "gameListId": 407,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 345,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2018-04-20T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
+        "score": 36,
+        "position": 9,
+        "gameListId": 410,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 751,
+        "gameTitle": "Marvel\u0027s Spider-Man Remastered",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co52vm.jpg",
+        "score": 33,
+        "position": 13,
+        "gameListId": 410,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 736,
+        "gameTitle": "Cyberpunk 2077",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2020-12-09T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hk8.jpg",
+        "score": 31,
+        "position": 8,
+        "gameListId": 412,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 416,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 756,
+        "gameTitle": "Crisis Core: Final Fantasy VII - Reunion",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2022-12-13T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5afd.jpg",
+        "score": 25,
+        "position": 5,
+        "gameListId": 412,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 201,
+        "gameTitle": "Minecraft",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2011-11-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49x5.jpg",
+        "score": 25,
+        "position": 3,
+        "gameListId": 406,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 268,
+        "gameTitle": "Tunic",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2022-03-16T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.jpg",
+        "score": 24,
+        "position": 6,
+        "gameListId": 416,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 412,
+        "gameTitle": "Apex Legends",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2019-02-04T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wzo.jpg",
+        "score": 23,
+        "position": 2,
+        "gameListId": 406,
+        "finalGameListId": 54
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Steam250",
+        "sourceUrl": "https://steam250.com/steam_deck_verified",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Maketecheasier",
+        "sourceUrl": "https://www.maketecheasier.com/best-steam-deck-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Xda-developers",
+        "sourceUrl": "https://www.xda-developers.com/best-steam-deck-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Beebom",
+        "sourceUrl": "https://beebom.com/best-games-steam-deck/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Ggrecon",
+        "sourceUrl": "https://www.ggrecon.com/guides/best-steam-deck-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/the-10-best-steam-deck-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Stuff TV",
+        "sourceUrl": "https://www.stuff.tv/features/the-18-best-games-to-play-on-the-steam-deck-today/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-steam-deck-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "WhatIfGaming",
+        "sourceUrl": "https://whatifgaming.com/best-games-for-steam-deck/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Kotaku",
+        "sourceUrl": "https://kotaku.com/steam-deck-valve-best-games-to-play-verified-pc-gaming-1849371052",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Pcgamesn",
+        "sourceUrl": "https://www.pcgamesn.com/best-steam-deck-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Laptopmag",
+        "sourceUrl": "https://www.laptopmag.com/best-picks/best-steam-deck-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 158,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

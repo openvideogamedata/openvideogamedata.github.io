@@ -1,0 +1,482 @@
+{
+  "syncedAt": "2026-04-15T11:34:54.4709537Z",
+  "slug": "best-games-of-2011",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "finalGameList": {
+      "id": 34,
+      "title": "Best Games of",
+      "year": 2011,
+      "slug": "best-games-of-2011",
+      "fullName": "Best Games of 2011",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 325,
+        "gameTitle": "Portal 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-04-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
+        "score": 42,
+        "position": 3,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 327,
+        "gameTitle": "Batman: Arkham City",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-10-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voh.jpg",
+        "score": 36,
+        "position": 9,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 392,
+        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-11-10T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg",
+        "score": 36,
+        "position": 4,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 487,
+        "gameTitle": "Uncharted 3: Drake\u0027s Deception",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-11-01T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp8.jpg",
+        "score": 27,
+        "position": 12,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 440,
+        "gameTitle": "Dead Space 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-01-25T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xq.jpg",
+        "score": 26,
+        "position": 6,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 543,
+        "gameTitle": "The Legend of Zelda: Skyward Sword",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2011-11-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5wrj.jpg",
+        "score": 25,
+        "position": 3,
+        "gameListId": 603,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 1177,
+        "gameTitle": "Deus Ex: Human Revolution",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-08-23T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd2.jpg",
+        "score": 20,
+        "position": 11,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 1409,
+        "gameTitle": "Gears of War 3",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2011-09-20T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a21.jpg",
+        "score": 19,
+        "position": 7,
+        "gameListId": 603,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 26,
+        "gameTitle": "Dark Souls",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-09-22T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x78.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 201,
+        "gameTitle": "Minecraft",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-11-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49x5.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 708,
+        "gameTitle": "Terraria",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-05-16T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbo.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 1175,
+        "gameTitle": "Rayman Origins",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2011-11-15T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v7k.jpg",
+        "score": 10,
+        "position": 8,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 655,
+        "gameTitle": "Bastion",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-07-20T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qlj.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 536,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 1410,
+        "gameTitle": "Resistance 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-09-06T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b3y.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 603,
+        "finalGameListId": 34
+      },
+      {
+        "gameId": 1414,
+        "gameTitle": "Shadows of the Damned",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-06-21T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sua.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 604,
+        "finalGameListId": 34
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Techraptor",
+        "sourceUrl": "https://techraptor.net/gaming/features/best-games-2011",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Slantmagazine",
+        "sourceUrl": "https://www.slantmagazine.com/games/the-25-best-video-games-of-2011/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CNET",
+        "sourceUrl": "https://www.cnet.com/culture/the-10-best-games-of-2011/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 40,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

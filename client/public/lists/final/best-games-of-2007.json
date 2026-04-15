@@ -1,0 +1,494 @@
+{
+  "syncedAt": "2026-04-15T11:35:01.62377Z",
+  "slug": "best-games-of-2007",
+  "type": 0,
+  "totalItems": 5,
+  "data": {
+    "finalGameList": {
+      "id": 38,
+      "title": "Best Games of",
+      "year": 2007,
+      "slug": "best-games-of-2007",
+      "fullName": "Best Games of 2007",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 391,
+        "gameTitle": "BioShock",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2007-08-21T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mli.jpg",
+        "score": 66,
+        "position": 1,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 429,
+        "gameTitle": "Super Mario Galaxy",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2007-11-01T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ro.jpg",
+        "score": 62,
+        "position": 3,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 1140,
+        "gameTitle": "Mass Effect",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2007-11-20T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7o.jpg",
+        "score": 57,
+        "position": 5,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 508,
+        "gameTitle": "Portal",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2007-10-10T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7d.jpg",
+        "score": 44,
+        "position": 4,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 912,
+        "gameTitle": "Call of Duty 4: Modern Warfare",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2007-11-05T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2adb.jpg",
+        "score": 40,
+        "position": 2,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 803,
+        "gameTitle": "Halo 3",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2007-09-25T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xhc.jpg",
+        "score": 33,
+        "position": 6,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 2685,
+        "gameTitle": "Half-Life 2: Episode Two",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-10-09T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw2.jpg",
+        "score": 24,
+        "position": 7,
+        "gameListId": 1215,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 3085,
+        "gameTitle": "Persona 3",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2006-07-13T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5mo6.jpg",
+        "score": 24,
+        "position": 6,
+        "gameListId": 1214,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 503,
+        "gameTitle": "Ratchet \u0026 Clank Future: Tools of Destruction",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-10-23T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x4g.jpg",
+        "score": 22,
+        "position": 2,
+        "gameListId": 1214,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 442,
+        "gameTitle": "God of War II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-03-13T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dik.jpg",
+        "score": 17,
+        "position": 5,
+        "gameListId": 529,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 1145,
+        "gameTitle": "Rock Band",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-11-20T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20bb.jpg",
+        "score": 17,
+        "position": 5,
+        "gameListId": 1214,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 804,
+        "gameTitle": "The Orange Box",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-10-10T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yez.jpg",
+        "score": 17,
+        "position": 7,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 496,
+        "gameTitle": "Uncharted: Drake\u0027s Fortune",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2007-11-16T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp7.jpg",
+        "score": 16,
+        "position": 9,
+        "gameListId": 527,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 1144,
+        "gameTitle": "Crysis",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-11-13T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2on1.jpg",
+        "score": 15,
+        "position": 6,
+        "gameListId": 1215,
+        "finalGameListId": 38
+      },
+      {
+        "gameId": 3083,
+        "gameTitle": "The Witcher",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2007-10-26T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xrx.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1216,
+        "finalGameListId": 38
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Eurogamer",
+        "sourceUrl": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2007-article?page=5",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thetoptens",
+        "sourceUrl": "https://www.thetoptens.com/games/top-video-games-2007/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Poconorecord",
+        "sourceUrl": "https://www.poconorecord.com/story/entertainment/2007/12/21/best-video-games-2007/52699169007/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thetoplister",
+        "sourceUrl": "https://thetoplister.wordpress.com/2014/06/04/top-10-video-games-of-2007/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Xda-developers",
+        "sourceUrl": "https://www.xda-developers.com/2007-greatest-year-for-video-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 56,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

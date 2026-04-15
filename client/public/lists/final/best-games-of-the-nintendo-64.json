@@ -1,0 +1,400 @@
+{
+  "syncedAt": "2026-04-15T11:34:06.6140246Z",
+  "slug": "best-games-of-the-nintendo-64",
+  "type": 0,
+  "totalItems": 5,
+  "data": {
+    "finalGameList": {
+      "id": 9,
+      "title": "Best Games of the Nintendo 64",
+      "year": null,
+      "slug": "best-games-of-the-nintendo-64",
+      "fullName": "Best Games of the Nintendo 64",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "console, nintendo",
+      "tagList": [
+        "console",
+        "nintendo"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the Wii U",
+          "sourceUrl": "best-games-of-the-wii-u",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy",
+          "sourceUrl": "best-games-of-the-game-boy",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Wii",
+          "sourceUrl": "best-games-of-the-wii",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the GameCube",
+          "sourceUrl": "best-games-of-the-gamecube",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the NES",
+          "sourceUrl": "best-games-of-the-nes",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Nintendo Switch",
+          "sourceUrl": "best-games-of-the-nintendo-switch",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the SNES",
+          "sourceUrl": "best-games-of-the-snes",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Game Boy Advance",
+          "sourceUrl": "best-games-of-the-game-boy-advance",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy Color",
+          "sourceUrl": "best-games-of-the-game-boy-color",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo 3DS",
+          "sourceUrl": "best-games-of-the-nintendo-3ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo DS",
+          "sourceUrl": "best-games-of-the-nintendo-ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 27,
+        "gameTitle": "The Legend of Zelda: Ocarina of Time",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-11-21T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.jpg",
+        "score": 60,
+        "position": 1,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 30,
+        "gameTitle": "Super Mario 64",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1996-06-23T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21mm.jpg",
+        "score": 50,
+        "position": 5,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 168,
+        "gameTitle": "Banjo-Kazooie",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-06-29T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zsj.jpg",
+        "score": 41,
+        "position": 7,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 171,
+        "gameTitle": "Paper Mario",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2000-08-11T00:00:00Z",
+        "releaseYear": 2000,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qda.jpg",
+        "score": 39,
+        "position": 6,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 167,
+        "gameTitle": "The Legend of Zelda: Majora\u0027s Mask",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2000-04-27T00:00:00Z",
+        "releaseYear": 2000,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pah.jpg",
+        "score": 39,
+        "position": 4,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 218,
+        "gameTitle": "Perfect Dark",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2000-08-01T00:00:00Z",
+        "releaseYear": 2000,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ui8.jpg",
+        "score": 37,
+        "position": 2,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 170,
+        "gameTitle": "Star Fox 64",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "1997-04-27T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e4k.jpg",
+        "score": 32,
+        "position": 4,
+        "gameListId": 283,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 227,
+        "gameTitle": "007 GoldenEye",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "1995-12-31T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yk.jpg",
+        "score": 27,
+        "position": 3,
+        "gameListId": 283,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 226,
+        "gameTitle": "Super Smash Bros.",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "1999-01-21T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tso.jpg",
+        "score": 25,
+        "position": 6,
+        "gameListId": 283,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 172,
+        "gameTitle": "Wave Race 64",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1996-09-27T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2602.jpg",
+        "score": 15,
+        "position": 8,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 219,
+        "gameTitle": "GoldenEye 007",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "1997-08-23T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62k0.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 220,
+        "gameTitle": "Conker\u0027s Bad Fur Day",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2001-03-05T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uq6.jpg",
+        "score": 12,
+        "position": 9,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 178,
+        "gameTitle": "F-Zero X",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1998-07-14T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53i2.jpg",
+        "score": 11,
+        "position": 11,
+        "gameListId": 283,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 175,
+        "gameTitle": "Mario Golf",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1999-06-11T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uk5.jpg",
+        "score": 9,
+        "position": 11,
+        "gameListId": 282,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 230,
+        "gameTitle": "Mario Kart 64",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "1996-12-14T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67hm.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 283,
+        "finalGameListId": 9
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 27,
+        "gameTitle": "The Legend of Zelda: Ocarina of Time",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-11-21T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 592,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 30,
+        "gameTitle": "Super Mario 64",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1996-06-23T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21mm.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 592,
+        "finalGameListId": 9
+      },
+      {
+        "gameId": 230,
+        "gameTitle": "Mario Kart 64",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1996-12-14T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67hm.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 592,
+        "finalGameListId": 9
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 3
+    },
+    "sources": [
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/games/score/metascore/all/n64/filtered",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-n64-games-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nintendo Life",
+        "sourceUrl": "https://www.nintendolife.com/guides/50-best-nintendo-64-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/best-n64-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 1,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 60,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

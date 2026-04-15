@@ -1,0 +1,637 @@
+{
+  "syncedAt": "2026-04-15T11:34:37.9333361Z",
+  "slug": "best-games-of-2020",
+  "type": 0,
+  "totalItems": 4,
+  "data": {
+    "finalGameList": {
+      "id": 25,
+      "title": "Best Games of",
+      "year": 2020,
+      "slug": "best-games-of-2020",
+      "fullName": "Best Games of 2020",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 157,
+        "gameTitle": "Marvel\u0027s Spider-Man: Miles Morales",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dwe.jpg",
+        "score": 36,
+        "position": 6,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 11,
+        "gameTitle": "The Last of Us Part II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-06-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.jpg",
+        "score": 29,
+        "position": 1,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 92,
+        "gameTitle": "Animal Crossing: New Horizons",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-03-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.jpg",
+        "score": 28,
+        "position": 2,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 38,
+        "gameTitle": "Half-Life: Alyx",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-03-23T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tq3.jpg",
+        "score": 24,
+        "position": 7,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 409,
+        "gameTitle": "Final Fantasy VII Remake",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-04-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qxr.jpg",
+        "score": 23,
+        "position": 4,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 604,
+        "gameTitle": "Assassin\u0027s Creed Valhalla",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-11-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+        "score": 19,
+        "position": 10,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 353,
+        "gameTitle": "Ghost of Tsushima",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-07-17T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2crj.jpg",
+        "score": 19,
+        "position": 7,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 962,
+        "gameTitle": "Crusader Kings III",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-09-01T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3i.jpg",
+        "score": 16,
+        "position": 8,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 356,
+        "gameTitle": "Demon\u0027s Souls",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kj9.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 208,
+        "gameTitle": "Microsoft Flight Simulator",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2020-08-17T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2dqk.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 418,
+        "gameTitle": "Doom Eternal",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-03-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.jpg",
+        "score": 12,
+        "position": 11,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 108,
+        "gameTitle": "Persona 5 Royal",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2019-10-31T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nic.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 595,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 405,
+        "gameTitle": "Kentucky Route Zero",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2013-01-07T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3240.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 510,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 1383,
+        "gameTitle": "Call of Duty: Warzone",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2020-03-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20o8.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 596,
+        "finalGameListId": 25
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 38,
+        "gameTitle": "Half-Life: Alyx",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-03-23T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tq3.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 11,
+        "gameTitle": "The Last of Us Part II",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-06-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 2848,
+        "gameTitle": "Animal Well",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-05-09T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hdh.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 1591,
+        "gameTitle": "Viewfinder",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-07-18T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m9m.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 2815,
+        "gameTitle": "Neva",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-10-15T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8x5c.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 272,
+        "gameTitle": "Stray",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2022-07-19T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tt2.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 1438,
+        "gameTitle": "Super Mario Bros. Wonder",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-10-20T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nnl.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 20,
+        "gameTitle": "Hogwarts Legacy",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-02-10T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gn3.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 2004,
+        "gameTitle": "Cocoon",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-09-29T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v2z.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      },
+      {
+        "gameId": 363,
+        "gameTitle": "It Takes Two",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2021-03-25T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t97.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 1203,
+        "finalGameListId": 25
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 11
+    },
+    "sources": [
+      {
+        "sourceName": "Polygon",
+        "sourceUrl": "https://www.polygon.com/2020/12/14/22166004/best-games-2020-ps4-xbox-one-switch-pc-series-x",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-games-2020/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Empireonline",
+        "sourceUrl": "https://www.empireonline.com/gaming/features/best-video-games-2020/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 1,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 45,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

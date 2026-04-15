@@ -1,0 +1,154 @@
+{
+  "syncedAt": "2026-04-15T10:54:37.7617983Z",
+  "slug": "best-games-of-the-ps-vita",
+  "type": 1,
+  "totalItems": 1,
+  "data": [
+    {
+      "id": 1025,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-ps-vita-games/",
+      "dateAdded": "2024-05-01T04:00:26.067408Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 88,
+        "title": "Best Games of The PS Vita",
+        "year": null,
+        "slug": "best-games-of-the-ps-vita",
+        "fullName": "Best Games of The PS Vita"
+      },
+      "items": [
+        {
+          "id": 10720,
+          "position": 1,
+          "gameTitle": "Gravity Rush",
+          "gameId": 2281,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10721,
+          "position": 2,
+          "gameTitle": "Persona 4 Golden",
+          "gameId": 733,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10722,
+          "position": 3,
+          "gameTitle": "Tearaway",
+          "gameId": 2282,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10723,
+          "position": 4,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10724,
+          "position": 5,
+          "gameTitle": "TxK",
+          "gameId": 2283,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10725,
+          "position": 6,
+          "gameTitle": "Severed",
+          "gameId": 1232,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10726,
+          "position": 7,
+          "gameTitle": "Dragon\u0027s Crown",
+          "gameId": 2284,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10727,
+          "position": 8,
+          "gameTitle": "Danganronpa: Trigger Happy Havoc",
+          "gameId": 2285,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10728,
+          "position": 9,
+          "gameTitle": "Spelunky",
+          "gameId": 631,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10729,
+          "position": 10,
+          "gameTitle": "Uncharted: Golden Abyss",
+          "gameId": 2286,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10730,
+          "position": 11,
+          "gameTitle": "Guacamelee!",
+          "gameId": 1407,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10731,
+          "position": 12,
+          "gameTitle": "Odin Sphere: Leifthrasir",
+          "gameId": 2287,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10732,
+          "position": 13,
+          "gameTitle": "Velocity 2X",
+          "gameId": 2288,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10733,
+          "position": 14,
+          "gameTitle": "Ys: Memories of Celceta",
+          "gameId": 2289,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10734,
+          "position": 15,
+          "gameTitle": "Zero Escape: Virtue\u0027s Last Reward",
+          "gameId": 1187,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

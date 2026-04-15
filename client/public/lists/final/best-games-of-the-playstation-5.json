@@ -1,0 +1,587 @@
+{
+  "syncedAt": "2026-04-15T11:34:34.0335176Z",
+  "slug": "best-games-of-the-playstation-5",
+  "type": 0,
+  "totalItems": 14,
+  "data": {
+    "finalGameList": {
+      "id": 23,
+      "title": "Best Games of the Playstation 5",
+      "year": null,
+      "slug": "best-games-of-the-playstation-5",
+      "fullName": "Best Games of the Playstation 5",
+      "socialUrl": "https://www.reddit.com/r/PS5/comments/151zuvl/best_playstation_5_games_of_all_time_based_on/",
+      "socialComments": 0,
+      "tags": "console, playstation",
+      "tagList": [
+        "console",
+        "playstation"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": true,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the PlayStation 1",
+          "sourceUrl": "best-games-of-the-playstation-1",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the PlayStation 2",
+          "sourceUrl": "best-games-of-the-playstation-2",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the PlayStation 3",
+          "sourceUrl": "best-games-of-the-playstation-3",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the PlayStation 4",
+          "sourceUrl": "best-games-of-the-playstation-4",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the PSP",
+          "sourceUrl": "best-games-of-the-psp",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The PS Vita",
+          "sourceUrl": "best-games-of-the-ps-vita",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 91,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 138,
+        "position": 2,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 143,
+        "gameTitle": "God of War Ragnar\u00F6k",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2022-11-09T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.jpg",
+        "score": 119,
+        "position": 1,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 2352,
+        "gameTitle": "Astro Bot",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 64,
+        "firstReleaseDate": "2024-09-06T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.jpg",
+        "score": 85,
+        "position": 3,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 991,
+        "gameTitle": "Marvel\u0027s Spider-Man 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vrx.jpg",
+        "score": 75,
+        "position": 4,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 1001,
+        "gameTitle": "Final Fantasy VII Rebirth",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vp0.jpg",
+        "score": 71,
+        "position": 8,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 989,
+        "gameTitle": "Baldur\u0027s Gate 3",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2020-10-06T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
+        "score": 69,
+        "position": 2,
+        "gameListId": 460,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 162,
+        "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2021-06-11T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2str.jpg",
+        "score": 48,
+        "position": 4,
+        "gameListId": 461,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 998,
+        "gameTitle": "Alan Wake II",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2023-10-17T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jar.jpg",
+        "score": 46,
+        "position": 14,
+        "gameListId": 304,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 164,
+        "gameTitle": "Returnal",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2021-04-30T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wc1.jpg",
+        "score": 45,
+        "position": 7,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 17,
+        "gameTitle": "Horizon Forbidden West",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2022-02-18T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gvu.jpg",
+        "score": 42,
+        "position": 5,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 356,
+        "gameTitle": "Demon\u0027s Souls",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 64,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kj9.jpg",
+        "score": 38,
+        "position": 15,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 36,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 38,
+        "position": 8,
+        "gameListId": 460,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 212,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2023-03-24T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg4.jpg",
+        "score": 37,
+        "position": 10,
+        "gameListId": 460,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 108,
+        "gameTitle": "Persona 5 Royal",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 27,
+        "firstReleaseDate": "2019-10-31T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nic.jpg",
+        "score": 36,
+        "position": 5,
+        "gameListId": 304,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 156,
+        "gameTitle": "Astro\u0027s Playroom",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 36,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gw7.jpg",
+        "score": 30,
+        "position": 14,
+        "gameListId": 958,
+        "finalGameListId": 23
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 163,
+        "gameTitle": "The Last of Us Part I",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2022-09-01T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xex.jpg",
+        "score": 34,
+        "position": 2,
+        "gameListId": 625,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 2452,
+        "gameTitle": "Death Stranding 2: On The Beach",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7p8z.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 998,
+        "gameTitle": "Alan Wake II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2023-10-17T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jar.jpg",
+        "score": 28,
+        "position": 2,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 2486,
+        "gameTitle": "Ghost of Yotei",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8urc.jpg",
+        "score": 26,
+        "position": 3,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 1001,
+        "gameTitle": "Final Fantasy VII Rebirth",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vp0.jpg",
+        "score": 24,
+        "position": 4,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 143,
+        "gameTitle": "God of War Ragnar\u00F6k",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2022-11-09T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.jpg",
+        "score": 24,
+        "position": 2,
+        "gameListId": 479,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 2352,
+        "gameTitle": "Astro Bot",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2024-09-06T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.jpg",
+        "score": 22,
+        "position": 5,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 156,
+        "gameTitle": "Astro\u0027s Playroom",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-11-12T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gw7.jpg",
+        "score": 20,
+        "position": 3,
+        "gameListId": 479,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 162,
+        "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2021-06-11T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2str.jpg",
+        "score": 20,
+        "position": 8,
+        "gameListId": 625,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 3027,
+        "gameTitle": "Sword of the Sea",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2025-08-19T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xx2.jpg",
+        "score": 18,
+        "position": 7,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 360,
+        "gameTitle": "Forza Horizon 5",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2021-11-09T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ofx.jpg",
+        "score": 16,
+        "position": 8,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 479,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 987,
+        "gameTitle": "Final Fantasy XVI",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2023-06-22T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w3k.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 625,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 991,
+        "gameTitle": "Marvel\u0027s Spider-Man 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vrx.jpg",
+        "score": 14,
+        "position": 9,
+        "gameListId": 1204,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 1449,
+        "gameTitle": "Resident Evil 4: Deluxe Edition",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2023-03-24T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bnx.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 625,
+        "finalGameListId": 23
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "sources": [
+      {
+        "sourceName": "Techradar",
+        "sourceUrl": "https://www.techradar.com/best/best-ps5-games",
+        "sourceDateLastUpdated": "2025-04-23T16:11:43.064364Z",
+        "year": null
+      },
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/games/score/metascore/all/ps5/filtered",
+        "sourceDateLastUpdated": "2025-04-23T16:16:29.057454Z",
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/the-best-ps5-games",
+        "sourceDateLastUpdated": "2025-04-23T19:08:53.478392Z",
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-ps5-games/",
+        "sourceDateLastUpdated": "2025-04-23T19:18:18.246848Z",
+        "year": null
+      },
+      {
+        "sourceName": "SensCritique",
+        "sourceUrl": "https://www.senscritique.com/top/resultats/les_meilleurs_jeux_de_la_play_station_5_ps5/2870682",
+        "sourceDateLastUpdated": "2025-04-23T19:22:45.851817Z",
+        "year": null
+      },
+      {
+        "sourceName": "Paste Magazine",
+        "sourceUrl": "https://www.pastemagazine.com/games/playstation/best-playstation-5-games",
+        "sourceDateLastUpdated": "2025-04-23T19:28:14.032152Z",
+        "year": null
+      },
+      {
+        "sourceName": "Tom\u0027s Guide",
+        "sourceUrl": "https://www.tomsguide.com/best-picks/the-best-ps5-games",
+        "sourceDateLastUpdated": "2025-04-23T19:34:16.104427Z",
+        "year": null
+      },
+      {
+        "sourceName": "Pushsquare",
+        "sourceUrl": "https://www.pushsquare.com/guides/best-ps5-games",
+        "sourceDateLastUpdated": "2025-04-23T19:39:58.87435Z",
+        "year": null
+      },
+      {
+        "sourceName": "Vandal",
+        "sourceUrl": "https://vandal.elespanol.com/reportaje/los-mejores-juegos-para-ps5-top-20",
+        "sourceDateLastUpdated": "2025-04-23T19:46:38.554496Z",
+        "year": null
+      },
+      {
+        "sourceName": "Thegamer",
+        "sourceUrl": "https://www.thegamer.com/playstation-ps5-best-games-of-all-time-ranked/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Truetrophies",
+        "sourceUrl": "https://www.truetrophies.com/n21952/best-ps5-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 3,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 135,
+        "porcentageOfContributions": 82
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 18
+      }
+    ]
+  }
+}

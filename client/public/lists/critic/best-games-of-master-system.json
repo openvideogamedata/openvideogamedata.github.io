@@ -1,0 +1,300 @@
+{
+  "syncedAt": "2026-04-15T10:54:08.2519567Z",
+  "slug": "best-games-of-master-system",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 477,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-master-system-games/",
+      "dateAdded": "2023-05-31T17:01:56.19406Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 57,
+        "title": "Best Games of Master System",
+        "year": null,
+        "slug": "best-games-of-master-system",
+        "fullName": "Best Games of Master System"
+      },
+      "items": [
+        {
+          "id": 2821,
+          "position": 1,
+          "gameTitle": "Psycho Fox",
+          "gameId": 937,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2822,
+          "position": 2,
+          "gameTitle": "Sonic the Hedgehog 2",
+          "gameId": 846,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2823,
+          "position": 3,
+          "gameTitle": "Fantasy Zone II: The Tears of Opa-Opa",
+          "gameId": 938,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2824,
+          "position": 4,
+          "gameTitle": "Golden Axe Warrior",
+          "gameId": 939,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2825,
+          "position": 5,
+          "gameTitle": "Kenseiden",
+          "gameId": 940,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2826,
+          "position": 6,
+          "gameTitle": "Alex Kidd in Miracle World",
+          "gameId": 930,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2827,
+          "position": 7,
+          "gameTitle": "Road Rash",
+          "gameId": 941,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2828,
+          "position": 8,
+          "gameTitle": "Sonic the Hedgehog Chaos",
+          "gameId": 943,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2829,
+          "position": 9,
+          "gameTitle": "Land of Illusion Starring Mickey Mouse",
+          "gameId": 944,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2830,
+          "position": 10,
+          "gameTitle": "Asterix",
+          "gameId": 945,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2831,
+          "position": 11,
+          "gameTitle": "Space Harrier 3-D",
+          "gameId": 946,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2832,
+          "position": 12,
+          "gameTitle": "The Lucky Dime Caper starring Donald Duck",
+          "gameId": 947,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2833,
+          "position": 13,
+          "gameTitle": "Master of Darkness",
+          "gameId": 948,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2834,
+          "position": 14,
+          "gameTitle": "After Burner",
+          "gameId": 949,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2835,
+          "position": 15,
+          "gameTitle": "Golvellius: Valley of Doom",
+          "gameId": 950,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1027,
+      "byUser": false,
+      "sourceListUrl": "https://gamerant.com/sega-master-system-best-games/",
+      "dateAdded": "2024-05-01T14:35:17.339932Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 218,
+        "name": "Gamerant",
+        "hostUrl": "gamerant.com"
+      },
+      "finalGameList": {
+        "id": 57,
+        "title": "Best Games of Master System",
+        "year": null,
+        "slug": "best-games-of-master-system",
+        "fullName": "Best Games of Master System"
+      },
+      "items": [
+        {
+          "id": 10750,
+          "position": 1,
+          "gameTitle": "Phantasy Star",
+          "gameId": 2301,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10751,
+          "position": 2,
+          "gameTitle": "Sonic the Hedgehog",
+          "gameId": 2302,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10752,
+          "position": 3,
+          "gameTitle": "Asterix",
+          "gameId": 2303,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10753,
+          "position": 4,
+          "gameTitle": "The Lucky Dime Caper Starring Donald Duck",
+          "gameId": 947,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10754,
+          "position": 5,
+          "gameTitle": "Land of Illusion Starring Mickey Mouse",
+          "gameId": 944,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10755,
+          "position": 6,
+          "gameTitle": "Psycho Fox",
+          "gameId": 937,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10756,
+          "position": 7,
+          "gameTitle": "Alex Kidd in Miracle World",
+          "gameId": 930,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10757,
+          "position": 8,
+          "gameTitle": "Prince of Persia",
+          "gameId": 2304,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10758,
+          "position": 9,
+          "gameTitle": "Road Rash",
+          "gameId": 941,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10759,
+          "position": 10,
+          "gameTitle": "Operation Wolf",
+          "gameId": 2305,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10760,
+          "position": 11,
+          "gameTitle": "Golden Axe Warrior",
+          "gameId": 939,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10761,
+          "position": 12,
+          "gameTitle": "Do! Run Run",
+          "gameId": 2306,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10762,
+          "position": 13,
+          "gameTitle": "Shinobi",
+          "gameId": 931,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10763,
+          "position": 14,
+          "gameTitle": "R-Type I",
+          "gameId": 2307,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10764,
+          "position": 15,
+          "gameTitle": "Alien Syndrome",
+          "gameId": 2308,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "syncedAt": "2026-04-15T11:35:37.6742433Z",
+  "slug": "best-games-of-master-system",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "finalGameList": {
+      "id": 57,
+      "title": "Best Games of Master System",
+      "year": null,
+      "slug": "best-games-of-master-system",
+      "fullName": "Best Games of Master System",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "console, sega",
+      "tagList": [
+        "console",
+        "sega"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the Dreamcast",
+          "sourceUrl": "best-games-of-the-dreamcast",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Mega Drive",
+          "sourceUrl": "best-games-of-the-mega-drive",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 937,
+        "gameTitle": "Psycho Fox",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1989-08-01T00:00:00Z",
+        "releaseYear": 1989,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3k59.jpg",
+        "score": 25,
+        "position": 1,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 930,
+        "gameTitle": "Alex Kidd in Miracle World",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1986-11-01T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fm.jpg",
+        "score": 19,
+        "position": 6,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 945,
+        "gameTitle": "Asterix",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1993-12-31T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20g5.jpg",
+        "score": 19,
+        "position": 10,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 944,
+        "gameTitle": "Land of Illusion Starring Mickey Mouse",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1993-12-31T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zmt.jpg",
+        "score": 18,
+        "position": 9,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 939,
+        "gameTitle": "Golden Axe Warrior",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-07-01T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b8f.jpg",
+        "score": 17,
+        "position": 4,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 941,
+        "gameTitle": "Road Rash",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-09-30T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p41.jpg",
+        "score": 16,
+        "position": 7,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 2301,
+        "gameTitle": "Phantasy Star",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1987-12-20T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b8l.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1027,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 2302,
+        "gameTitle": "Sonic the Hedgehog",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1991-12-31T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tpg.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1027,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 846,
+        "gameTitle": "Sonic the Hedgehog 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1992-10-16T00:00:00Z",
+        "releaseYear": 1992,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zus.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 938,
+        "gameTitle": "Fantasy Zone II: The Tears of Opa-Opa",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2008-09-11T00:00:00Z",
+        "releaseYear": 2008,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4sot.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 947,
+        "gameTitle": "The Lucky Dime Caper Starring Donald Duck",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1991-12-20T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kh5.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1027,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 940,
+        "gameTitle": "Kenseiden",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1988-06-02T00:00:00Z",
+        "releaseYear": 1988,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/zq6aqhmduwzco7s7btih.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 2304,
+        "gameTitle": "Prince of Persia",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1990-07-01T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ped.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 1027,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 943,
+        "gameTitle": "Sonic the Hedgehog Chaos",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-10-25T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kly.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 2305,
+        "gameTitle": "Operation Wolf",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1987-11-01T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ihu.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 1027,
+        "finalGameListId": 57
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 931,
+        "gameTitle": "Shinobi",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1990-12-01T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4p4l.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 478,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 951,
+        "gameTitle": "California Games",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1987-07-01T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f19.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 478,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 952,
+        "gameTitle": "OutRun 3-D",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1988-12-31T00:00:00Z",
+        "releaseYear": 1988,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/i4roxso60svfyz1wvg9y.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 478,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 930,
+        "gameTitle": "Alex Kidd in Miracle World",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1986-11-01T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fm.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 478,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 935,
+        "gameTitle": "Golden Axe",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1989-12-31T00:00:00Z",
+        "releaseYear": 1989,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co658e.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 478,
+        "finalGameListId": 57
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 5
+    },
+    "sources": [
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-master-system-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/sega-master-system-best-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 1,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}
