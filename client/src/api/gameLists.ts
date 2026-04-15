@@ -1,5 +1,5 @@
 import { api } from './client'
-import { getCriticListsFromCache, getUserListsFromCache } from './localCache'
+import { getCriticListsFromCache, getUserListsFromCache, getListBySlugFromCache } from './localCache'
 
 export interface TrackerStats {
   toPlay: number
@@ -98,7 +98,9 @@ export interface GameListCollectionResponse {
   }
 }
 
-export function getListBySlug(slug: string): Promise<GameListDetailsResponse> {
+export async function getListBySlug(slug: string): Promise<GameListDetailsResponse> {
+  const cached = await getListBySlugFromCache(slug)
+  if (cached) return cached
   return api.get<GameListDetailsResponse>(`/api/game-lists/${slug}`)
 }
 

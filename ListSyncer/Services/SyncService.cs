@@ -42,45 +42,50 @@ public sealed class SyncService
 
     // ── Final list ────────────────────────────────────────────────────────────
 
-    private Task SyncFinalAsync(GameListCategoryDto category)
+    private async Task SyncFinalAsync(GameListCategoryDto category)
     {
         var slug = category.Slug;
+        var existing = _cache.Read<GameListDetailsResponse>(CacheType.Final, slug);
 
-        if (!_cache.Exists(CacheType.Final, slug))
+        // Re-fetch if: file missing, old format (no FinalGameList), or source count changed
+        bool needsFetch = existing is null
+            || existing.Data?.FinalGameList is null
+            || existing.TotalItems != category.NumberOfSources;
+
+        if (!needsFetch)
         {
-            _cache.Write(new CacheFile<GameListCategoryDto>
-            {
-                SyncedAt = DateTime.UtcNow,
-                Slug = slug,
-                Type = CacheType.Final,
-                TotalItems = category.NumberOfSources,
-                Data = category
-            });
+            Log("FINAL", slug, "OK");
+            _skipped++;
+            return;
+        }
+
+        var details = await _api.GetListBySlugAsync(slug);
+        if (details is null)
+        {
+            Log("FINAL", slug, "ERRO (sem resposta da API)");
+            return;
+        }
+
+        bool isUpdate = existing?.Data?.FinalGameList is not null;
+        _cache.Write(new CacheFile<GameListDetailsResponse>
+        {
+            SyncedAt = DateTime.UtcNow,
+            Slug = slug,
+            Type = CacheType.Final,
+            TotalItems = category.NumberOfSources,
+            Data = details
+        });
+
+        if (isUpdate)
+        {
+            Log("FINAL", slug, $"ATUALIZADO ({existing!.TotalItems} → {category.NumberOfSources} fontes)");
+            _updated++;
+        }
+        else
+        {
             Log("FINAL", slug, "CRIADO");
             _created++;
-            return Task.CompletedTask;
         }
-
-        // Compare NumberOfSources (count of sublists) — reliable signal for "new list added"
-        var existing = _cache.Read<GameListCategoryDto>(CacheType.Final, slug);
-        if (existing?.TotalItems != category.NumberOfSources)
-        {
-            _cache.Write(new CacheFile<GameListCategoryDto>
-            {
-                SyncedAt = DateTime.UtcNow,
-                Slug = slug,
-                Type = CacheType.Final,
-                TotalItems = category.NumberOfSources,
-                Data = category
-            });
-            Log("FINAL", slug, $"ATUALIZADO ({existing?.TotalItems} → {category.NumberOfSources} fontes)");
-            _updated++;
-            return Task.CompletedTask;
-        }
-
-        Log("FINAL", slug, "OK");
-        _skipped++;
-        return Task.CompletedTask;
     }
 
     // ── Critic / User lists ───────────────────────────────────────────────────

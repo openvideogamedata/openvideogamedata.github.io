@@ -47,6 +47,20 @@ public sealed class ApiClient
         return all;
     }
 
+    /// <summary>Fetches the full detail response for a single list slug.</summary>
+    public async Task<GameListDetailsResponse?> GetListBySlugAsync(string slug)
+    {
+        try
+        {
+            return await _http.GetFromJsonAsync<GameListDetailsResponse>(
+                $"api/game-lists/{slug}", JsonOpts);
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
     /// <summary>
     /// Returns the total number of lists for a slug from the API.
     /// Uses Pager.TotalItems which is a COUNT(*) on the DB — reliable regardless of ordering.

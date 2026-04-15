@@ -1,6 +1,6 @@
 import { api } from './client'
 import type { HomeList, HomeActivity, Pager } from '../types'
-import { getListsFromCache, getTagsFromCache } from './localCache'
+import { getListsFromCache, getTagsFromCache, warmUpApi } from './localCache'
 
 export interface GetListsParams {
   page?: number
@@ -27,7 +27,10 @@ export async function getLists(params: GetListsParams = {}): Promise<{ lists: Ho
     tags,
     search: params.search ?? '',
   })
-  if (cached) return cached
+  if (cached) {
+    warmUpApi(import.meta.env.VITE_API_BASE_URL as string)
+    return cached
+  }
 
   const qs = new URLSearchParams()
   if (params.page) qs.set('page', String(params.page))

@@ -35,6 +35,33 @@ public sealed record GameListDto(
     object? FinalGameList,
     List<object> Items);
 
+// ── /api/game-lists/{slug} ────────────────────────────────────────────────────
+// Fields we don't compute locally are kept as object — JSON passes through as-is.
+
+public sealed record GameListDetailsResponse(
+    FinalGameListDetailsDto FinalGameList,
+    List<object> TopWinnersByCritics,
+    object? TrackerStatsCritics,
+    List<object> TopWinnersByUsers,
+    object? TrackerStatsUsers,
+    List<object> Sources,
+    double NumberOfUsersLists,
+    List<object> Contributors);
+
+public sealed record FinalGameListDetailsDto(
+    long Id,
+    string Title,
+    int? Year,
+    string Slug,
+    string FullName,
+    string? SocialUrl,
+    int SocialComments,
+    string Tags,
+    List<string> TagList,
+    bool ConsideredForAvgScore,
+    bool Pinned,
+    List<object> SimilarLists);
+
 // ── Shared ───────────────────────────────────────────────────────────────────
 
 public sealed record PagerDto(
