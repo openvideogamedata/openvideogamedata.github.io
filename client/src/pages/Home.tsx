@@ -15,11 +15,17 @@ export default function Home() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    const id = requestIdleCallback(
-      () => { getUserActivity().then(setActivity).catch(() => {}) },
-      { timeout: 5000 }
-    )
-    return () => cancelIdleCallback(id)
+    const loadActivity = () => {
+      getUserActivity().then(setActivity).catch(() => {})
+    }
+
+    if (typeof window.requestIdleCallback === 'function') {
+      const id = window.requestIdleCallback(loadActivity, { timeout: 5000 })
+      return () => window.cancelIdleCallback?.(id)
+    }
+
+    const timeoutId = window.setTimeout(loadActivity, 1)
+    return () => window.clearTimeout(timeoutId)
   }, [])
 
   return (
