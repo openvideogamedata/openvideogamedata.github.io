@@ -316,6 +316,8 @@ public class GameListRequestService
         var item = await context.GameListRequests.Include(x => x.UsersLiked)
                                                  .Include(x => x.UsersDisliked)
                                                  .Include(x => x.GameRequests)
+                                                 .Include(x => x.FinalGameList)
+                                                 .Include(x => x.UserPosted)
                                                  .FirstOrDefaultAsync(x => x.Id == id);
         return item;
     }

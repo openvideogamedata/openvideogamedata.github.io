@@ -116,7 +116,18 @@ public class ListSuggestionsController : ControllerBase
         }
 
         var response = await _itemService.ApproveGameList(request);
-        return response.Success ? Ok(response) : BadRequest(response);
+        if (!response.Success)
+            return BadRequest(response);
+
+        await _gameListRequestService.UpdateVisibility(id, false);
+
+        if (request.UserPosted is not null && request.FinalGameList is not null)
+        {
+            var message = $"Your submission for the list '{request.FinalGameList.GetFullName()}' has been approved!";
+            await _userService.SendNotification(message, request.UserPosted.Id);
+        }
+
+        return Ok(response);
     }
 
     [Authorize(Roles = "admin")]
