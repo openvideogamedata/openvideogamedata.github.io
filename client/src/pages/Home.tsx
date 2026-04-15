@@ -3,16 +3,39 @@ import { Link, useNavigate } from 'react-router-dom'
 import ListCard, { fromHomeList } from '../components/ListCard'
 import UserAvatar from '../components/UserAvatar'
 import { getUserActivity } from '../api/home'
-import { HOME_PINNED_LISTS } from '../data/homePinnedLists'
 import { timeAgo } from '../utils/time'
 import { ActivityType, type HomeList, type HomeActivity } from '../types'
 import './Home.css'
 
 export default function Home() {
-  const [pinned] = useState<HomeList[]>(HOME_PINNED_LISTS)
+  const [pinned, setPinned] = useState<HomeList[]>([])
   const [activity, setActivity] = useState<HomeActivity[]>([])
 
   const navigate = useNavigate()
+
+  useEffect(() => {
+    fetch('/lists/index.json')
+      .then(r => r.json())
+      .then((payload: { data: any[] }) => {
+        const lists = payload.data
+          .filter(l => l.pinned)
+          .map(l => ({
+            id: l.id,
+            title: l.title,
+            year: l.year,
+            numberOfGames: l.numberOfGames,
+            numberOfSources: l.numberOfSources,
+            slug: l.slug,
+            topThreeWinners: (l.topWinners ?? []).slice(0, 4).map((w: any) => ({
+              gameId: w.gameId,
+              gameTitle: w.gameTitle,
+              coverImageUrl: w.coverImageUrl,
+            })),
+          }))
+        setPinned(lists)
+      })
+      .catch(() => {})
+  }, [])
 
   useEffect(() => {
     const loadActivity = () => {
