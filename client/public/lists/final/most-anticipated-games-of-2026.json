@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-15T15:54:38.2676401Z",
+  "syncedAt": "2026-04-15T19:59:50.4281867Z",
   "slug": "most-anticipated-games-of-2026",
   "type": 0,
-  "totalItems": 0,
+  "totalItems": 5,
   "data": {
     "finalGameList": {
       "id": 103,
@@ -219,21 +219,162 @@
           "year": 2023
         },
         {
-          "sourceName": "Most Anticipated Games of ",
+          "sourceName": "Most Anticipated Games of",
           "sourceUrl": "most-anticipated-games-of-2025",
           "sourceDateLastUpdated": null,
           "year": 2025
         }
       ]
     },
-    "topWinnersByCritics": [],
+    "topWinnersByCritics": [
+      {
+        "gameId": 3104,
+        "gameTitle": "Control Resonant",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-06-30T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0fw.jpg",
+        "score": 75,
+        "position": 1,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 1525,
+        "gameTitle": "Fable",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e0b.jpg",
+        "score": 70,
+        "position": 2,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3105,
+        "gameTitle": "The Blood of Dawnwalker",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ym.jpg",
+        "score": 65,
+        "position": 3,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3106,
+        "gameTitle": "Marvel 1943: Rise of Hydra",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1rh.jpg",
+        "score": 60,
+        "position": 4,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 1521,
+        "gameTitle": "Marvel\u0027s Wolverine",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3swe.jpg",
+        "score": 55,
+        "position": 5,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3107,
+        "gameTitle": "Gears of War: E-Day",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bor.jpg",
+        "score": 50,
+        "position": 6,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3108,
+        "gameTitle": "Lost Hellden",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ryd.jpg",
+        "score": 45,
+        "position": 7,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3109,
+        "gameTitle": "Acts of Blood",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "2026-09-30T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8dw1.jpg",
+        "score": 40,
+        "position": 8,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3110,
+        "gameTitle": "Chronicles: Medieval",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xh3.jpg",
+        "score": 35,
+        "position": 9,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3111,
+        "gameTitle": "Atomic Heart II",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 500,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgn.jpg",
+        "score": 30,
+        "position": 10,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      }
+    ],
     "trackerStatsCritics": {
       "toPlay": 0,
       "playing": 0,
       "played": 0,
       "beated": 0,
       "abandoned": 0,
-      "none": 0
+      "none": 10
     },
     "topWinnersByUsers": [],
     "trackerStatsUsers": {
@@ -244,8 +385,23 @@
       "abandoned": 0,
       "none": 0
     },
-    "sources": [],
+    "sources": [
+      {
+        "sourceName": "Dualshockers",
+        "sourceUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
     "numberOfUsersLists": 0,
-    "contributors": []
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 50,
+        "porcentageOfContributions": 100
+      }
+    ]
   }
 }

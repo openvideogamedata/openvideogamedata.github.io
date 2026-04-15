@@ -1,7 +1,538 @@
 {
-  "syncedAt": "2026-04-15T15:54:38.7088553Z",
+  "syncedAt": "2026-04-15T19:59:51.682478Z",
   "slug": "most-anticipated-games-of-2026",
   "type": 1,
-  "totalItems": 0,
-  "data": []
+  "totalItems": 5,
+  "data": [
+    {
+      "id": 1224,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+      "dateAdded": "2026-04-15T19:40:15.565616Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12462,
+          "position": 1,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12463,
+          "position": 2,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12464,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12465,
+          "position": 4,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12466,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12467,
+          "position": 6,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12468,
+          "position": 7,
+          "gameTitle": "Lost Hellden",
+          "gameId": 3108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12469,
+          "position": 8,
+          "gameTitle": "Acts of Blood",
+          "gameId": 3109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12470,
+          "position": 9,
+          "gameTitle": "Chronicles: Medieval",
+          "gameId": 3110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12471,
+          "position": 10,
+          "gameTitle": "Atomic Heart II",
+          "gameId": 3111,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1225,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+      "dateAdded": "2026-04-15T19:40:38.15875Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12472,
+          "position": 1,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12473,
+          "position": 2,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12474,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12475,
+          "position": 4,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12476,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12477,
+          "position": 6,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12478,
+          "position": 7,
+          "gameTitle": "Lost Hellden",
+          "gameId": 3108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12479,
+          "position": 8,
+          "gameTitle": "Acts of Blood",
+          "gameId": 3109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12480,
+          "position": 9,
+          "gameTitle": "Chronicles: Medieval",
+          "gameId": 3110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12481,
+          "position": 10,
+          "gameTitle": "Atomic Heart II",
+          "gameId": 3111,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1226,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+      "dateAdded": "2026-04-15T19:40:47.949569Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12482,
+          "position": 1,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12483,
+          "position": 2,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12484,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12485,
+          "position": 4,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12486,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12487,
+          "position": 6,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12488,
+          "position": 7,
+          "gameTitle": "Lost Hellden",
+          "gameId": 3108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12489,
+          "position": 8,
+          "gameTitle": "Acts of Blood",
+          "gameId": 3109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12490,
+          "position": 9,
+          "gameTitle": "Chronicles: Medieval",
+          "gameId": 3110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12491,
+          "position": 10,
+          "gameTitle": "Atomic Heart II",
+          "gameId": 3111,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1227,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+      "dateAdded": "2026-04-15T19:49:34.41455Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12492,
+          "position": 1,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12493,
+          "position": 2,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12494,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12495,
+          "position": 4,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12496,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12497,
+          "position": 6,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12498,
+          "position": 7,
+          "gameTitle": "Lost Hellden",
+          "gameId": 3108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12499,
+          "position": 8,
+          "gameTitle": "Acts of Blood",
+          "gameId": 3109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12500,
+          "position": 9,
+          "gameTitle": "Chronicles: Medieval",
+          "gameId": 3110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12501,
+          "position": 10,
+          "gameTitle": "Atomic Heart II",
+          "gameId": 3111,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1228,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/?utm_source=chatgpt.com",
+      "dateAdded": "2026-04-15T19:51:07.494685Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12502,
+          "position": 1,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12503,
+          "position": 2,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12504,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12505,
+          "position": 4,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12506,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12507,
+          "position": 6,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12508,
+          "position": 7,
+          "gameTitle": "Lost Hellden",
+          "gameId": 3108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12509,
+          "position": 8,
+          "gameTitle": "Acts of Blood",
+          "gameId": 3109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12510,
+          "position": 9,
+          "gameTitle": "Chronicles: Medieval",
+          "gameId": 3110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12511,
+          "position": 10,
+          "gameTitle": "Atomic Heart II",
+          "gameId": 3111,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
 }
