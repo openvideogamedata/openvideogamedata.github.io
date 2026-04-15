@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-15T20:27:20.4287965Z",
+  "syncedAt": "2026-04-15T20:49:30.5900881Z",
   "slug": "most-anticipated-games-of-2026",
   "type": 0,
-  "totalItems": 1,
+  "totalItems": 2,
   "data": {
     "finalGameList": {
       "id": 103,
@@ -228,11 +228,39 @@
     },
     "topWinnersByCritics": [
       {
+        "gameId": 1525,
+        "gameTitle": "Fable",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e0b.jpg",
+        "score": 24,
+        "position": 2,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3105,
+        "gameTitle": "The Blood of Dawnwalker",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ym.jpg",
+        "score": 19,
+        "position": 3,
+        "gameListId": 1224,
+        "finalGameListId": 103
+      },
+      {
         "gameId": 3104,
         "gameTitle": "Control Resonant",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "2026-06-30T00:00:00Z",
         "releaseYear": 2026,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob0fw.jpg",
@@ -242,31 +270,45 @@
         "finalGameListId": 103
       },
       {
-        "gameId": 1525,
-        "gameTitle": "Fable",
+        "gameId": 2074,
+        "gameTitle": "Grand Theft Auto VI",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
-        "firstReleaseDate": "1970-01-01T00:00:00Z",
-        "releaseYear": 1970,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e0b.jpg",
-        "score": 14,
-        "position": 2,
-        "gameListId": 1224,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gdk.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1229,
         "finalGameListId": 103
       },
       {
-        "gameId": 3105,
-        "gameTitle": "The Blood of Dawnwalker",
+        "gameId": 3112,
+        "gameTitle": "Forza Horizon 6",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
-        "firstReleaseDate": "2026-12-31T00:00:00Z",
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2026-05-19T00:00:00Z",
         "releaseYear": 2026,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob7ym.jpg",
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobc5n.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1229,
+        "finalGameListId": 103
+      },
+      {
+        "gameId": 3113,
+        "gameTitle": "LEGO Batman: Legacy of the Dark Knight",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2026-05-22T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab09.jpg",
         "score": 13,
         "position": 3,
-        "gameListId": 1224,
+        "gameListId": 1229,
         "finalGameListId": 103
       },
       {
@@ -274,7 +316,7 @@
         "gameTitle": "Marvel 1943: Rise of Hydra",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "2026-12-31T00:00:00Z",
         "releaseYear": 2026,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa1rh.jpg",
@@ -284,11 +326,25 @@
         "finalGameListId": 103
       },
       {
+        "gameId": 3114,
+        "gameTitle": "Subnautica 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8yd0.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1229,
+        "finalGameListId": 103
+      },
+      {
         "gameId": 1521,
         "gameTitle": "Marvel\u0027s Wolverine",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "1970-01-01T00:00:00Z",
         "releaseYear": 1970,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3swe.jpg",
@@ -298,11 +354,25 @@
         "finalGameListId": 103
       },
       {
+        "gameId": 3115,
+        "gameTitle": "Paralives",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa4iq.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 1229,
+        "finalGameListId": 103
+      },
+      {
         "gameId": 3107,
         "gameTitle": "Gears of War: E-Day",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "2026-12-31T00:00:00Z",
         "releaseYear": 2026,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8bor.jpg",
@@ -316,7 +386,7 @@
         "gameTitle": "Lost Hellden",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "2026-12-31T00:00:00Z",
         "releaseYear": 2026,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ryd.jpg",
@@ -326,11 +396,25 @@
         "finalGameListId": 103
       },
       {
+        "gameId": 3116,
+        "gameTitle": "Solarpunk",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2026-06-08T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jem.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1229,
+        "finalGameListId": 103
+      },
+      {
         "gameId": 3109,
         "gameTitle": "Acts of Blood",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
+        "porcentageOfCitations": 50,
         "firstReleaseDate": "2026-09-30T00:00:00Z",
         "releaseYear": 2026,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8dw1.jpg",
@@ -340,31 +424,17 @@
         "finalGameListId": 103
       },
       {
-        "gameId": 3110,
-        "gameTitle": "Chronicles: Medieval",
+        "gameId": 3117,
+        "gameTitle": "Outbound",
         "trackStatus": 0,
         "citations": 1,
-        "porcentageOfCitations": 100,
-        "firstReleaseDate": "1970-01-01T00:00:00Z",
-        "releaseYear": 1970,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xh3.jpg",
-        "score": 7,
-        "position": 9,
-        "gameListId": 1224,
-        "finalGameListId": 103
-      },
-      {
-        "gameId": 3111,
-        "gameTitle": "Atomic Heart II",
-        "trackStatus": 0,
-        "citations": 1,
-        "porcentageOfCitations": 100,
-        "firstReleaseDate": "1970-01-01T00:00:00Z",
-        "releaseYear": 1970,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xgn.jpg",
-        "score": 6,
-        "position": 10,
-        "gameListId": 1224,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2026-05-14T00:00:00Z",
+        "releaseYear": 2026,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7rfx.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 1229,
         "finalGameListId": 103
       }
     ],
@@ -374,7 +444,7 @@
       "played": 0,
       "beated": 0,
       "abandoned": 0,
-      "none": 10
+      "none": 15
     },
     "topWinnersByUsers": [],
     "trackerStatsUsers": {
@@ -391,6 +461,12 @@
         "sourceUrl": "https://www.dualshockers.com/major-2026-games-that-could-launch-sooner-than-anyone-thinks/",
         "sourceDateLastUpdated": null,
         "year": null
+      },
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/most-anticipated-open-world-games-coming-2026-ranked/?utm_source=chatgpt.com",
+        "sourceDateLastUpdated": null,
+        "year": null
       }
     ],
     "numberOfUsersLists": 0,
@@ -399,7 +475,7 @@
         "userContributedId": 1,
         "fullName": "darcie",
         "nickname": "darcie",
-        "numberOfContributions": 10,
+        "numberOfContributions": 20,
         "porcentageOfContributions": 100
       }
     ]
