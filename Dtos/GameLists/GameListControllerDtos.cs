@@ -26,6 +26,7 @@ public sealed record FinalGameListDetailsDto(
     List<string> TagList,
     bool ConsideredForAvgScore,
     bool Pinned,
+    int PinnedPriority,
     List<SourceListDto> SimilarLists);
 
 public sealed record GameListDetailsResponse(

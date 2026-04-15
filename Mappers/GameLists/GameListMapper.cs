@@ -33,6 +33,7 @@ public static class GameListMapper
             SplitTags(list.Tags),
             list.ConsideredForAvgScore,
             list.Pinned,
+            list.PinnedPriority,
             list.SimilarLists?.Select(ToSourceListDto).ToList() ?? new List<SourceListDto>());
     }
 

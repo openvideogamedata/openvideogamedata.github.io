@@ -65,6 +65,43 @@ public class GameListService
         }
     }
 
+    public async Task<ResponseToPage> UpdateFinalGameListAsync(long id, UpdateFinalGameListDto request)
+    {
+        if (request == null)
+            return new ResponseToPage(false, "Dados invalidos.");
+
+        if (string.IsNullOrWhiteSpace(request.Title))
+            return new ResponseToPage(false, "Informe o titulo da lista.");
+
+        if (string.IsNullOrWhiteSpace(request.Tags))
+            return new ResponseToPage(false, "Informe pelo menos uma tag.");
+
+        try
+        {
+            using var context = this._factory.CreateDbContext();
+            var list = await context.FinalGameLists.FirstOrDefaultAsync(x => x.Id == id);
+            if (list is null)
+                return new ResponseToPage(false, "Lista nao encontrada.");
+
+            list.Title = request.Title.Trim();
+            list.Year = request.Year;
+            list.SocialUrl = request.SocialUrl?.Trim() ?? list.SocialUrl;
+            list.Tags = request.Tags.Trim();
+            list.ConsideredForAvgScore = request.ConsideredForAvgScore;
+            list.Pinned = request.Pinned;
+            list.PinnedPriority = request.Pinned ? Math.Max(0, request.PinnedPriority) : 0;
+            list.SetSocialComments(Math.Max(0, request.SocialComments));
+
+            await context.SaveChangesAsync();
+            return new ResponseToPage(true, "Lista mestra atualizada com sucesso.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"[ERRO] - UpdateFinalGameListAsync - {ex.Message}", ex);
+            return new ResponseToPage(false, "Nao foi possivel atualizar a lista mestra.");
+        }
+    }
+
     public List<FinalGameList>  GetAllPinnedLists(long userId)
     {
         using var context = this._factory.CreateDbContext();

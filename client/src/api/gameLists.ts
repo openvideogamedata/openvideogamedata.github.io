@@ -52,6 +52,7 @@ export interface FinalGameListDetailsDto {
   tagList: string[]
   consideredForAvgScore: boolean
   pinned: boolean
+  pinnedPriority: number
   similarLists: SourceListDto[]
 }
 
@@ -104,6 +105,10 @@ export async function getListBySlug(slug: string): Promise<GameListDetailsRespon
   return api.get<GameListDetailsResponse>(`/api/game-lists/${slug}`)
 }
 
+export function getListBySlugLive(slug: string): Promise<GameListDetailsResponse> {
+  return api.get<GameListDetailsResponse>(`/api/game-lists/${slug}`)
+}
+
 export async function getCriticLists(slug: string, page = 1, pageSize = 3): Promise<GameListCollectionResponse> {
   const cached = await getCriticListsFromCache(slug, page, pageSize)
   if (cached) return cached
@@ -114,6 +119,21 @@ export async function getUserLists(slug: string, page = 1, pageSize = 5): Promis
   const cached = await getUserListsFromCache(slug, page, pageSize)
   if (cached) return cached
   return api.get<GameListCollectionResponse>(`/api/game-lists/${slug}/user-lists?page=${page}&pageSize=${pageSize}`)
+}
+
+export interface UpdateMasterListRequest {
+  title: string
+  year: number | null
+  socialUrl: string
+  tags: string
+  consideredForAvgScore: boolean
+  pinned: boolean
+  pinnedPriority: number
+  socialComments: number
+}
+
+export function updateMasterList(id: number, body: UpdateMasterListRequest): Promise<void> {
+  return api.put<void>(`/api/game-lists/${id}`, body)
 }
 
 export function updateAvgConsideration(id: number, considered: boolean): Promise<void> {

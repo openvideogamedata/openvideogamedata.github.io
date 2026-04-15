@@ -156,6 +156,17 @@ public class GameListsController : ControllerBase
     }
 
     [Authorize(Roles = "admin")]
+    [HttpPut("{id:long}")]
+    public async Task<IActionResult> UpdateFinalGameList(long id, [FromBody] UpdateFinalGameListDto request)
+    {
+        var result = await _gameListService.UpdateFinalGameListAsync(id, request);
+        if (!result.Success)
+            return BadRequest(result);
+
+        return Ok(result);
+    }
+
+    [Authorize(Roles = "admin")]
     [HttpPut("{id:long}/avg-consideration")]
     public IActionResult UpdateAvgConsideration(long id, [FromBody] UpdateAvgConsiderationRequest request)
     {

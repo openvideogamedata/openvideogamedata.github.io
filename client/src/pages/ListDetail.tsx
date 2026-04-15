@@ -129,6 +129,11 @@ export default function ListDetail() {
           <h1 className="page-title">{fl.fullName}</h1>
           <div className="list-detail-meta">
             {fl.year && <span className="meta-chip">{fl.year}</span>}
+            {isAdmin && (
+              <Link to={`/admin/lists/${fl.slug}/edit`} className="meta-chip meta-chip-toggle">
+                Edit
+              </Link>
+            )}
             {isAdmin ? (
               <label className="meta-chip meta-chip-toggle" title="Toggle avg score consideration">
                 <input
