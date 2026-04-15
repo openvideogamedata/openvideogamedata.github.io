@@ -1,0 +1,107 @@
+.list-suggestion-page {
+  padding-bottom: 4rem;
+}
+
+.list-suggestion-header {
+  padding: 2.5rem 0 1rem;
+}
+
+.list-suggestion-body {
+  max-width: 920px;
+}
+
+.list-suggestion-form {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.form-section {
+  background: #fff;
+  border: 1px solid #d9dfe8;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 10px 30px rgba(19, 33, 68, 0.05);
+}
+
+.form-input {
+  width: 100%;
+  border: 1px solid #c5cfdd;
+  border-radius: 10px;
+  padding: 0.8rem 0.95rem;
+  font: inherit;
+}
+
+.validation-banner {
+  margin-top: 0.85rem;
+  border-radius: 10px;
+  padding: 0.8rem 0.95rem;
+}
+
+.validation-banner span {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 0.35rem;
+}
+
+.validation-banner p {
+  margin: 0;
+}
+
+.validation-banner.success {
+  background: #ecfdf3;
+  color: #166534;
+  border: 1px solid #a7f3d0;
+}
+
+.validation-banner.warning {
+  background: #fff7ed;
+  color: #9a3412;
+  border: 1px solid #fdba74;
+}
+
+.rules-card ul {
+  margin: 0.75rem 0;
+  padding-left: 1.25rem;
+}
+
+.helper-text {
+  margin: 0 0 0.35rem;
+  color: #31415d;
+}
+
+.helper-text-muted {
+  color: #627089;
+  font-size: 0.95rem;
+}
+
+.game-result-empty {
+  padding: 0.9rem 1rem;
+  color: #627089;
+}
+
+.list-suggestion-gate {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.gate-card {
+  background: #fff;
+  border: 1px solid #d9dfe8;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(19, 33, 68, 0.06);
+}
+
+@media (max-width: 720px) {
+  .list-suggestion-header {
+    padding-top: 1.5rem;
+  }
+
+  .form-section {
+    padding: 0.9rem;
+  }
+}

@@ -19,6 +19,7 @@ import UserTrackers from './pages/UserTrackers'
 import Friends from './pages/Friends'
 import Notifications from './pages/Notifications'
 import ListSuggestions from './pages/ListSuggestions'
+import ListSuggestionForm from './pages/ListSuggestionForm'
 import FillUserInfo from './pages/FillUserInfo'
 import BadgesPromo from './pages/BadgesPromo'
 import UsersSearch from './pages/UsersSearch'
@@ -64,6 +65,7 @@ export default function App() {
             <Route path="/friends" element={<Friends />} />
             <Route path="/notifications" element={<Notifications />} />
             <Route path="/list-suggestions" element={<ListSuggestions />} />
+            <Route path="/new-list/:slug" element={<ListSuggestionForm />} />
             <Route path="/users/fill" element={<FillUserInfo />} />
             <Route path="/lists/new" element={<UserListForm />} />
             <Route path="/lists/:id/edit" element={<UserListForm />} />

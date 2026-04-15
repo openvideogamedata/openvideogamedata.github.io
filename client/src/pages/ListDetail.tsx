@@ -350,9 +350,15 @@ export default function ListDetail() {
 
           {/* Add list CTA */}
           <div className="list-actions">
-            <Link to={`/lists/new?slug=${fl.slug}`} className="btn-primary-sm">
-              + Add your list
-            </Link>
+            {activeTab === 'critics' ? (
+              <Link to={`/new-list/${fl.slug}`} className="btn-primary-sm">
+                + Add source list
+              </Link>
+            ) : (
+              <Link to={`/lists/new?slug=${fl.slug}`} className="btn-primary-sm">
+                + Add your list
+              </Link>
+            )}
           </div>
         </div>
 

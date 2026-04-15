@@ -26,6 +26,22 @@ export interface GameListRequestDto {
   games: GameRequestDto[]
 }
 
+export interface ValidateSourceUrlResponse {
+  success: boolean
+  reason: string
+}
+
+export interface CreateListSuggestionInput {
+  sourceListUrl: string
+  finalGameListId: number
+  games: {
+    position: number
+    gameTitle: string
+    gameId: number
+    firstReleaseDate: string | null
+  }[]
+}
+
 export interface ListSuggestionsResponse {
   requests: GameListRequestDto[]
   pager: Pager
@@ -39,6 +55,14 @@ export function getListSuggestions(
   const qs = new URLSearchParams({ page: String(page), pageSize: String(pageSize) })
   if (slug) qs.set('slug', slug)
   return api.get<ListSuggestionsResponse>(`/api/list-suggestions?${qs}`)
+}
+
+export function validateSourceUrl(url: string): Promise<ValidateSourceUrlResponse> {
+  return api.get<ValidateSourceUrlResponse>(`/api/list-suggestions/validate-source?url=${encodeURIComponent(url)}`)
+}
+
+export function createListSuggestion(body: CreateListSuggestionInput): Promise<{ success: boolean; reason?: string }> {
+  return api.post<{ success: boolean; reason?: string }>('/api/list-suggestions', body)
 }
 
 export function likeRequest(id: number): Promise<void> {
