@@ -2,6 +2,7 @@ using community.Data;
 using community.Dtos.Games;
 using community.Mappers.Games;
 using community.Services;
+using community.Utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,15 +13,18 @@ namespace community.Controllers;
 public class GamesController : ControllerBase
 {
     private readonly GameService _gameService;
+    private readonly IgdbSearchService _igdbSearchService;
     private readonly TrackerService _trackerService;
     private readonly UserService _userService;
 
     public GamesController(
         GameService gameService,
+        IgdbSearchService igdbSearchService,
         TrackerService trackerService,
         UserService userService)
     {
         _gameService = gameService;
+        _igdbSearchService = igdbSearchService;
         _trackerService = trackerService;
         _userService = userService;
     }
@@ -94,26 +98,38 @@ public class GamesController : ControllerBase
     }
 
     [HttpGet("search")]
-    public IActionResult SearchGames(
+    public async Task<IActionResult> SearchGames(
         [FromQuery] string? title = null,
+        [FromQuery] string? slug = null,
         [FromQuery] int page = 1,
-        [FromQuery] int pageSize = 10,
+        [FromQuery] int pageSize = 15,
         [FromQuery] int maxPages = 5)
     {
-        var user = _userService.GetLoggedUser();
-        var (games, pager) = _gameService.GetGames(
-            user?.Id ?? 0,
-            page,
-            title ?? "",
-            pageSize: pageSize,
-            maxPages: maxPages);
+        var games = await _igdbSearchService.SearchGamesAsync(title ?? "", pageSize, slug);
 
         return Ok(new
         {
-            games = games.Select(GameMapper.ToSummaryDto).ToList(),
-            pager,
+            games,
+            pager = new Pager(games.Count, page, pageSize, maxPages),
             search = title ?? ""
         });
+    }
+
+    [HttpPost("materialize-search-result")]
+    public IActionResult MaterializeSearchResult([FromBody] MaterializeGameRequest request)
+    {
+        var gameId = _gameService.Create(new GetGameApiReturn
+        {
+            Id = (int)request.ExternalId,
+            Name = request.Title,
+            FirstReleaseDate = request.FirstReleaseDate,
+            Cover = new Cover
+            {
+                ImageId = request.ExternalCoverImageId ?? ""
+            }
+        });
+
+        return Ok(new { id = gameId });
     }
 
     [HttpGet("{id:long}")]

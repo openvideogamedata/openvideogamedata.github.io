@@ -20,6 +20,21 @@ public sealed record GameSummaryDto(
     int? Score,
     TrackerDto? Tracker);
 
+public sealed record GameSearchResultDto(
+    long? Id,
+    long ExternalId,
+    string Title,
+    int ReleaseYear,
+    string CoverImageUrl,
+    string? ExternalCoverImageId,
+    long FirstReleaseDate);
+
+public sealed record MaterializeGameRequest(
+    long ExternalId,
+    string Title,
+    long FirstReleaseDate,
+    string? ExternalCoverImageId);
+
 public sealed record GameDetailsDto(
     long Id,
     string Title,

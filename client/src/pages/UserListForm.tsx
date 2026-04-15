@@ -3,7 +3,7 @@ import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { login } from '../api/auth'
 import {
-  getListOptions, getListYearOptions, searchGames,
+  getListOptions, getListYearOptions, searchGames, materializeGameSearchResult, getApiErrorMessage,
   getUserListById, createUserList, updateUserList, deleteUserList,
 } from '../api/userListForm'
 import type { ListOptionDto, ListYearOptionDto, GameItemInput, GameSearchResult } from '../api/userListForm'
@@ -29,6 +29,7 @@ export default function UserListForm() {
   const [gameResults, setGameResults] = useState<GameSearchResult[]>([])
   const [searchOpen, setSearchOpen] = useState(false)
   const searchDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const searchRequestId = useRef(0)
 
   // UI state
   const [loadingForm, setLoadingForm] = useState(true)
@@ -79,18 +80,22 @@ export default function UserListForm() {
     if (searchDebounce.current) clearTimeout(searchDebounce.current)
     if (!gameQuery.trim()) { setGameResults([]); return }
     searchDebounce.current = setTimeout(() => {
-      searchGames(gameQuery)
-        .then(res => setGameResults(res.games))
+      const requestId = ++searchRequestId.current
+      searchGames(gameQuery, slugParam || undefined)
+        .then(res => {
+          if (requestId === searchRequestId.current) setGameResults(res.games)
+        })
         .catch(() => {})
     }, 350)
     return () => { if (searchDebounce.current) clearTimeout(searchDebounce.current) }
   }, [gameQuery])
 
-  function addGame(game: GameSearchResult) {
-    if (games.find(g => g.gameId === game.id)) return
+  async function addGame(game: GameSearchResult) {
+    const gameId = game.id ?? await materializeGameSearchResult(game)
+    if (games.find(g => g.gameId === gameId)) return
     setGames(prev => [
       ...prev,
-      { position: prev.length + 1, gameTitle: game.title, gameId: game.id, firstReleaseDate: null },
+      { position: prev.length + 1, gameTitle: game.title, gameId: gameId, firstReleaseDate: null },
     ])
     setGameQuery('')
     setGameResults([])
@@ -126,8 +131,8 @@ export default function UserListForm() {
         await createUserList({ finalGameListId: selectedListId, games })
       }
       navigate(user ? `/users/${user.nickname}/lists` : '/')
-    } catch {
-      setError('Could not save the list. Please try again.')
+    } catch (err) {
+      setError(getApiErrorMessage(err, 'Could not save the list. Please try again.'))
       setSaving(false)
     }
   }
@@ -182,7 +187,7 @@ export default function UserListForm() {
               value={selectedTitle}
               onChange={e => { setSelectedTitle(e.target.value); setSelectedListId(null) }}
             >
-              <option value="">— Select a list —</option>
+              <option value="">Select a list</option>
               {uniqueTitles.map(t => <option key={t} value={t}>{t}</option>)}
             </select>
           </div>
@@ -212,7 +217,7 @@ export default function UserListForm() {
             <div className="game-search-wrap">
               <input
                 className="game-search-input"
-                placeholder="Search a game to add…"
+                placeholder="Search a game to add..."
                 value={gameQuery}
                 onChange={e => { setGameQuery(e.target.value); setSearchOpen(true) }}
                 onFocus={() => setSearchOpen(true)}
@@ -221,7 +226,7 @@ export default function UserListForm() {
                 <div className="game-results">
                   {gameResults.map(g => (
                     <button
-                      key={g.id}
+                      key={g.externalId}
                       type="button"
                       className="game-result-item"
                       onClick={() => addGame(g)}

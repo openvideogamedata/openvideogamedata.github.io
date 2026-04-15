@@ -84,6 +84,7 @@ namespace community
             builder.Services.AddSingleton<ItemService>();
             builder.Services.AddSingleton<GameListService>();
             builder.Services.AddSingleton<TrackerService>();
+            builder.Services.AddSingleton<IgdbSearchService>();
 
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(options =>

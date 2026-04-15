@@ -1,4 +1,4 @@
-import { api } from './client'
+import { api, getApiErrorMessage } from './client'
 
 export interface ListOptionDto {
   id: number
@@ -8,10 +8,13 @@ export interface ListOptionDto {
 export interface ListYearOptionDto { id: number; year: number | null }
 
 export interface GameSearchResult {
-  id: number
+  id: number | null
+  externalId: number
   title: string
   releaseYear: number
   coverImageUrl: string
+  externalCoverImageId?: string | null
+  firstReleaseDate: number
 }
 
 export interface GameItemInput {
@@ -34,11 +37,25 @@ export function getListYearOptions(title: string): Promise<ListYearOptionDto[]> 
   return api.get<ListYearOptionDto[]>(`/api/trackers/list-year-options?title=${encodeURIComponent(title)}`)
 }
 
-export function searchGames(q: string): Promise<{ games: GameSearchResult[] }> {
+export function searchGames(q: string, slug?: string): Promise<{ games: GameSearchResult[] }> {
+  const qs = new URLSearchParams({ title: q, pageSize: '15' })
+  if (slug) qs.set('slug', slug)
   return api.get<{ games: GameSearchResult[] }>(
-    `/api/games/search?title=${encodeURIComponent(q)}&pageSize=10`,
+    `/api/games/search?${qs.toString()}`,
   )
 }
+
+export async function materializeGameSearchResult(game: GameSearchResult): Promise<number> {
+  const response = await api.post<{ id: number }>('/api/games/materialize-search-result', {
+    externalId: game.externalId,
+    title: game.title,
+    firstReleaseDate: game.firstReleaseDate,
+    externalCoverImageId: game.externalCoverImageId ?? null,
+  })
+  return response.id
+}
+
+export { getApiErrorMessage }
 
 export function getUserListById(id: number) {
   return api.get<{

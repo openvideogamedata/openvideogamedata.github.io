@@ -159,32 +159,38 @@ public class GameService
         try
         {
             var listSlug = listSugestionUrl.Split('/').Last();
-            var idsLong = ids.Select(x => long.Parse(x.ToString()));
-
-            using var context = this._factory.CreateDbContext();
-
-            var finalGameListId = await context.FinalGameLists
-                .Where(x => x.Slug == listSlug)
-                .Select(x => x.Id)
-                .FirstOrDefaultAsync();
-
-            if (finalGameListId != 0)
-            {
-                var gamesExternalIds = await context.Games
-                    .Where(x => idsLong.Contains(x.ExternalId))
-                    .Where(x => x.Items.Any(x => x.FinalGameListId == finalGameListId))
-                    .Select(x => x.ExternalId)
-                    .ToListAsync();
-
-                return gamesExternalIds.Select(x => int.Parse(x.ToString())).ToList();
-            }
-            return new List<int>();
+            return await GetMostPickedGamesFromSlug(listSlug, ids);
         }
         catch(Exception e)
         {
             Console.WriteLine($"[ERRO] - GetMostPickedGamesFromList - {e.Message}", e);
             return new List<int>();
         }
+    }
+
+    public async Task<IList<int>> GetMostPickedGamesFromSlug(string slug, IList<int> ids)
+    {
+        var idsLong = ids.Select(x => long.Parse(x.ToString()));
+
+        using var context = this._factory.CreateDbContext();
+
+        var finalGameListId = await context.FinalGameLists
+            .Where(x => x.Slug == slug)
+            .Select(x => x.Id)
+            .FirstOrDefaultAsync();
+
+        if (finalGameListId == 0)
+        {
+            return new List<int>();
+        }
+
+        var gamesExternalIds = await context.Games
+            .Where(x => idsLong.Contains(x.ExternalId))
+            .Where(x => x.Items.Any(x => x.FinalGameListId == finalGameListId))
+            .Select(x => x.ExternalId)
+            .ToListAsync();
+
+        return gamesExternalIds.Select(x => int.Parse(x.ToString())).ToList();
     }
 
     public long Create(GetGameApiReturn game)
@@ -214,5 +220,14 @@ public class GameService
         Console.WriteLine("GameService - Jogo criado pois ele não existia na base de dados");
 
         return item.Id;
+    }
+
+    public long? GetLocalGameIdByExternalId(long externalId)
+    {
+        using var context = this._factory.CreateDbContext();
+        return context.Games
+            .Where(x => x.ExternalId == externalId)
+            .Select(x => (long?)x.Id)
+            .FirstOrDefault();
     }
 }

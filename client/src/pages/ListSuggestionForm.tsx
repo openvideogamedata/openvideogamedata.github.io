@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { login } from '../api/auth'
 import { getListBySlug } from '../api/gameLists'
 import { createListSuggestion, validateSourceUrl } from '../api/listSuggestions'
-import { searchGames } from '../api/userListForm'
+import { getApiErrorMessage, materializeGameSearchResult, searchGames } from '../api/userListForm'
 import { useAuth } from '../context/AuthContext'
 import type { GameItemInput, GameSearchResult } from '../api/userListForm'
 import './ListSuggestionForm.css'
@@ -35,6 +35,8 @@ export default function ListSuggestionForm() {
 
   const validationDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
   const searchDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const validationRequestId = useRef(0)
+  const searchRequestId = useRef(0)
 
   useEffect(() => {
     if (!slug) {
@@ -70,16 +72,21 @@ export default function ListSuggestionForm() {
 
     setValidatingUrl(true)
     validationDebounce.current = setTimeout(() => {
+      const requestId = ++validationRequestId.current
       validateSourceUrl(nextUrl)
         .then((res) => {
+          if (requestId !== validationRequestId.current) return
           setValidationMessage(res.reason)
           setListIsValid(res.success)
         })
         .catch(() => {
+          if (requestId !== validationRequestId.current) return
           setValidationMessage('Could not validate this URL right now.')
           setListIsValid(false)
         })
-        .finally(() => setValidatingUrl(false))
+        .finally(() => {
+          if (requestId === validationRequestId.current) setValidatingUrl(false)
+        })
     }, 350)
 
     return () => {
@@ -97,10 +104,17 @@ export default function ListSuggestionForm() {
 
     setSearchingGame(true)
     searchDebounce.current = setTimeout(() => {
-      searchGames(gameQuery)
-        .then((res) => setGameResults(res.games))
-        .catch(() => setGameResults([]))
-        .finally(() => setSearchingGame(false))
+      const requestId = ++searchRequestId.current
+      searchGames(gameQuery, slug)
+        .then((res) => {
+          if (requestId === searchRequestId.current) setGameResults(res.games)
+        })
+        .catch(() => {
+          if (requestId === searchRequestId.current) setGameResults([])
+        })
+        .finally(() => {
+          if (requestId === searchRequestId.current) setSearchingGame(false)
+        })
     }, 350)
 
     return () => {
@@ -108,15 +122,17 @@ export default function ListSuggestionForm() {
     }
   }, [gameQuery])
 
-  function addGame(game: GameSearchResult) {
-    if (games.find((g) => g.gameId === game.id) || games.length >= MAX_GAMES) return
+  async function addGame(game: GameSearchResult) {
+    if (games.length >= MAX_GAMES) return
+    const gameId = game.id ?? await materializeGameSearchResult(game)
+    if (games.find((g) => g.gameId === gameId)) return
 
     setGames((prev) => [
       ...prev,
       {
         position: prev.length + 1,
         gameTitle: game.title,
-        gameId: game.id,
+        gameId: gameId,
         firstReleaseDate: null,
       },
     ])
@@ -159,8 +175,8 @@ export default function ListSuggestionForm() {
         })),
       })
       navigate('/list-suggestions')
-    } catch {
-      setError('Could not submit the list suggestion. Please try again.')
+    } catch (err) {
+      setError(getApiErrorMessage(err, 'Could not submit the list suggestion. Please try again.'))
       setSaving(false)
     }
   }
@@ -257,7 +273,7 @@ export default function ListSuggestionForm() {
                     {searchingGame && <div className="game-result-empty">Searching...</div>}
                     {!searchingGame && gameResults.map((g) => (
                       <button
-                        key={g.id}
+                        key={g.externalId}
                         type="button"
                         className="game-result-item"
                         onClick={() => addGame(g)}
