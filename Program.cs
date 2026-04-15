@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authentication.OAuth;
 using community.Services;
 using community.Middlewares;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace community
 {
@@ -184,6 +185,13 @@ namespace community
             {
                 options.EnableAnnotations();
             });
+
+            builder.Services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+                options.KnownNetworks.Clear();
+                options.KnownProxies.Clear();
+            });
         }
 
         private static void Configure(WebApplication app)
@@ -194,19 +202,18 @@ namespace community
                 .AddSupportedUICultures(supportedCultures);
 
             app.UseRequestLocalization(localizationOptions);
-            app.UseHttpsRedirection();
+            app.UseForwardedHeaders();
+
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseHttpsRedirection();
+            }
 
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
                 app.UseHsts();
             }
-
-            app.Use((context, next) =>
-            {
-                context.Request.Scheme = "https";
-                return next(context);
-            });
 
             app.UseStaticFiles();
             app.UseRouting();
