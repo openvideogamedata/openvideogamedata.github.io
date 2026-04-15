@@ -9,7 +9,8 @@ var host = Host.CreateDefaultBuilder(args)
     .ConfigureAppConfiguration(cfg =>
     {
         cfg.SetBasePath(AppContext.BaseDirectory);
-        cfg.AddJsonFile("appsettings.json", optional: false, reloadOnChange: false);
+        cfg.AddJsonFile("appsettings.json", optional: true, reloadOnChange: false);
+        cfg.AddJsonFile(Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json"), optional: true, reloadOnChange: false);
     })
     .ConfigureServices((ctx, services) =>
     {
@@ -18,6 +19,8 @@ var host = Host.CreateDefaultBuilder(args)
         services.AddHttpClient<ApiClient>((sp, client) =>
         {
             var settings = sp.GetRequiredService<IOptions<AppSettings>>().Value;
+            if (string.IsNullOrWhiteSpace(settings.Api.BaseUrl))
+                throw new InvalidOperationException("Api.BaseUrl não configurado. Verifique o appsettings.json.");
             client.BaseAddress = new Uri(settings.Api.BaseUrl.TrimEnd('/') + "/");
         });
 

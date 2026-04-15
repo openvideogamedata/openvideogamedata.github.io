@@ -8,7 +8,7 @@ public sealed class AppSettings
 
 public sealed class ApiSettings
 {
-    public string BaseUrl { get; set; } = "";
+    public string BaseUrl { get; set; } = "https://localhost:5124";
     public int PageSize { get; set; } = 50;
 }
 
