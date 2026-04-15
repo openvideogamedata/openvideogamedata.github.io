@@ -1,10 +1,12 @@
 using community.Data;
+using community.Dtos;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.OAuth;
 using community.Services;
 using community.Middlewares;
+using Microsoft.AspNetCore.Mvc;
 
 namespace community
 {
@@ -53,6 +55,28 @@ namespace community
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddControllers();
+            builder.Services.Configure<ApiBehaviorOptions>(options =>
+            {
+                options.InvalidModelStateResponseFactory = context =>
+                {
+                    var errors = context.ModelState
+                        .Values
+                        .SelectMany(entry => entry.Errors)
+                        .Select(error => string.IsNullOrWhiteSpace(error.ErrorMessage)
+                            ? error.Exception?.Message
+                            : error.ErrorMessage)
+                        .Where(message => !string.IsNullOrWhiteSpace(message))
+                        .Cast<string>()
+                        .Distinct()
+                        .ToList();
+
+                    var reason = errors.Count > 0
+                        ? string.Join(" ", errors)
+                        : "The submitted data is invalid.";
+
+                    return new BadRequestObjectResult(new ResponseToPage(false, reason));
+                };
+            });
             builder.Services.AddSingleton<GameService>();
             builder.Services.AddSingleton<UserService>();
             builder.Services.AddSingleton<GameListRequestService>();
