@@ -51,9 +51,11 @@ export function getListSuggestions(
   page = 1,
   pageSize = 10,
   slug?: string,
+  mine = false,
 ): Promise<ListSuggestionsResponse> {
   const qs = new URLSearchParams({ page: String(page), pageSize: String(pageSize) })
   if (slug) qs.set('slug', slug)
+  if (mine) qs.set('mine', 'true')
   return api.get<ListSuggestionsResponse>(`/api/list-suggestions?${qs}`)
 }
 
