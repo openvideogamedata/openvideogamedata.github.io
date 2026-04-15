@@ -48,3 +48,15 @@ export function likeRequest(id: number): Promise<void> {
 export function dislikeRequest(id: number): Promise<void> {
   return api.post<void>(`/api/list-suggestions/${id}/dislike`, {})
 }
+
+export function approveRequest(id: number): Promise<{ success: boolean; message: string }> {
+  return api.post(`/api/list-suggestions/${id}/approve`, {})
+}
+
+export function updateVisibility(id: number, visible: boolean): Promise<void> {
+  return api.put<void>(`/api/list-suggestions/${id}/visibility`, { visible })
+}
+
+export function deleteRequest(id: number): Promise<void> {
+  return api.delete<void>(`/api/list-suggestions/${id}`)
+}

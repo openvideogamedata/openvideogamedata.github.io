@@ -26,6 +26,7 @@ import UserListForm from './pages/UserListForm'
 import AdminUsers from './pages/AdminUsers'
 import AdminNewMasterList from './pages/AdminNewMasterList'
 import AdminEditMasterList from './pages/AdminEditMasterList'
+import AdminListSuggestions from './pages/AdminListSuggestions'
 import AuthError from './pages/AuthError'
 import NotFound from './pages/NotFound'
 import './App.css'
@@ -71,6 +72,7 @@ export default function App() {
             <Route path="/admin/users" element={<AdminUsers />} />
             <Route path="/admin/lists/new" element={<AdminNewMasterList />} />
             <Route path="/admin/lists/:slug/edit" element={<AdminEditMasterList />} />
+            <Route path="/admin/list-suggestions" element={<AdminListSuggestions />} />
 
             <Route path="/auth/error" element={<AuthError />} />
             <Route path="*" element={<NotFound />} />

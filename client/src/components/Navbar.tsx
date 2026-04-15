@@ -132,6 +132,7 @@ export default function Navbar() {
                         <>
                           <Link to="/admin/users" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Users</Link>
                           <Link to="/admin/lists/new" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: New List</Link>
+                          <Link to="/admin/list-suggestions" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Suggestions</Link>
                         </>
                       )}
                       <button
@@ -226,6 +227,7 @@ export default function Navbar() {
                       <>
                         <Link to="/admin/users" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: Users</Link>
                         <Link to="/admin/lists/new" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: New List</Link>
+                        <Link to="/admin/list-suggestions" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: Suggestions</Link>
                       </>
                     )}
                     <button className="user-menu-item user-menu-logout" onClick={logout}>Sign out</button>
