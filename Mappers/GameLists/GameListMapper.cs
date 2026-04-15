@@ -15,6 +15,7 @@ public static class GameListMapper
             list.NumberOfSources,
             list.Slug,
             list.Pinned,
+            SplitTags(list.Tags),
             list.TopThreeWinners.Select(ToTopWinnerDto).ToList());
     }
 

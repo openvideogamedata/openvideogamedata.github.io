@@ -11,6 +11,7 @@ public sealed record GameListCategoryDto(
     int NumberOfSources,
     string Slug,
     bool Pinned,
+    List<string> TagList,
     List<TopWinnerDto> TopWinners);
 
 public sealed record FinalGameListDetailsDto(

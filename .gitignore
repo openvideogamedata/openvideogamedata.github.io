@@ -34,3 +34,6 @@ msbuild.wrn
 .vs/
 
 appsettings.Development.json
+
+# ListSyncer — generated JSON cache (run ListSyncer locally to populate)
+client/public/lists/

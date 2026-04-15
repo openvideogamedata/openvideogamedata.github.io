@@ -1,4 +1,5 @@
 import { api } from './client'
+import { getCriticListsFromCache, getUserListsFromCache } from './localCache'
 
 export interface TrackerStats {
   toPlay: number
@@ -101,11 +102,15 @@ export function getListBySlug(slug: string): Promise<GameListDetailsResponse> {
   return api.get<GameListDetailsResponse>(`/api/game-lists/${slug}`)
 }
 
-export function getCriticLists(slug: string, page = 1, pageSize = 3): Promise<GameListCollectionResponse> {
+export async function getCriticLists(slug: string, page = 1, pageSize = 3): Promise<GameListCollectionResponse> {
+  const cached = await getCriticListsFromCache(slug, page, pageSize)
+  if (cached) return cached
   return api.get<GameListCollectionResponse>(`/api/game-lists/${slug}/critic-lists?page=${page}&pageSize=${pageSize}`)
 }
 
-export function getUserLists(slug: string, page = 1, pageSize = 5): Promise<GameListCollectionResponse> {
+export async function getUserLists(slug: string, page = 1, pageSize = 5): Promise<GameListCollectionResponse> {
+  const cached = await getUserListsFromCache(slug, page, pageSize)
+  if (cached) return cached
   return api.get<GameListCollectionResponse>(`/api/game-lists/${slug}/user-lists?page=${page}&pageSize=${pageSize}`)
 }
 

@@ -1,5 +1,6 @@
 import { api } from './client'
 import type { HomeList, HomeActivity, Pager } from '../types'
+import { getListsFromCache, getTagsFromCache } from './localCache'
 
 export interface GetListsParams {
   page?: number
@@ -12,11 +13,22 @@ export function getPinnedLists(): Promise<HomeList[]> {
   return api.get<HomeList[]>('/api/home/pinned-lists')
 }
 
-export function getTags(): Promise<string[]> {
+export async function getTags(): Promise<string[]> {
+  const cached = await getTagsFromCache()
+  if (cached) return cached
   return api.get<string[]>('/api/home/tags')
 }
 
-export function getLists(params: GetListsParams = {}): Promise<{ lists: HomeList[]; pager: Pager }> {
+export async function getLists(params: GetListsParams = {}): Promise<{ lists: HomeList[]; pager: Pager }> {
+  const tags = params.tags ? params.tags.split(',').map(t => t.trim()) : ['all']
+  const cached = await getListsFromCache({
+    page: params.page ?? 1,
+    pageSize: params.pageSize ?? 6,
+    tags,
+    search: params.search ?? '',
+  })
+  if (cached) return cached
+
   const qs = new URLSearchParams()
   if (params.page) qs.set('page', String(params.page))
   qs.set('pageSize', String(params.pageSize ?? 6))

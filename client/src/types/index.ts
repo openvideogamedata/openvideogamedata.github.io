@@ -148,6 +148,7 @@ export interface GameListCategoryDto {
   numberOfSources: number
   slug: string
   pinned: boolean
+  tagList: string[]
   topWinners: {
     gameId: number
     gameTitle: string
