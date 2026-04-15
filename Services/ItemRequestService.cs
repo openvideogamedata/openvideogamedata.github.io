@@ -276,7 +276,14 @@ public class GameListRequestService
     public (List<GameListRequest>, Pager) GetAllPaged(bool myRequestsOnly = false, string? userNameId = null, int currentPage = 1, int pageSize = 10, int maxPages = 5, string? slug = null)
     {
         using var context = this._factory.CreateDbContext();
-        var totalItems = context.GameListRequests.Where(x => !x.Hidden).Count();
+
+        var countQuery = context.GameListRequests.Where(x => !x.Hidden).AsQueryable();
+        if (slug != null)
+            countQuery = countQuery.Where(x => x.FinalGameList.Slug == slug);
+        if (myRequestsOnly && userNameId != null)
+            countQuery = countQuery.Where(x => x.UserPosted.NameIdentifier == userNameId);
+        var totalItems = countQuery.Count();
+
         var pager = new Pager(totalItems, currentPage, pageSize, maxPages);
 
         var query = context.GameListRequests.Include(x => x.UsersLiked)
@@ -291,11 +298,11 @@ public class GameListRequestService
         if (slug != null)
             query = query.Where(item => item.FinalGameList.Slug == slug);
 
-        query = query.Skip((pager.CurrentPage - 1) * pager.PageSize)
-                     .Take(pager.PageSize);
-
         if (myRequestsOnly && userNameId != null)
             query = query.Where(item => item.UserPosted.NameIdentifier == userNameId);
+
+        query = query.Skip((pager.CurrentPage - 1) * pager.PageSize)
+                     .Take(pager.PageSize);
 
         var listItems = totalItems == 0 ? new List<GameListRequest>() : query.ToList();
 
@@ -308,6 +315,7 @@ public class GameListRequestService
 
         var item = await context.GameListRequests.Include(x => x.UsersLiked)
                                                  .Include(x => x.UsersDisliked)
+                                                 .Include(x => x.GameRequests)
                                                  .FirstOrDefaultAsync(x => x.Id == id);
         return item;
     }

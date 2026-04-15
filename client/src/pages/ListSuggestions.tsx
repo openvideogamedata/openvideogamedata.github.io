@@ -148,11 +148,13 @@ function SuggestionCard({ item, voting, deleting, showDelete, onLike, onDislike,
         <div className="suggestion-content">
           <div className="suggestion-meta">
             {item.finalGameList && (
-              <Link to={`/list/${item.finalGameList.slug}`} className="suggestion-list-link">
-                {item.finalGameList.fullName}
-              </Link>
+              <>
+                <Link to={`/list/${item.finalGameList.slug}`} className="suggestion-list-link">
+                  {item.finalGameList.fullName}
+                </Link>
+                <span className="suggestion-sep">·</span>
+              </>
             )}
-            <span className="suggestion-sep">·</span>
             <a href={item.sourceListUrl} target="_blank" rel="noopener noreferrer" className="suggestion-source">
               {item.sourceName} ↗
             </a>
