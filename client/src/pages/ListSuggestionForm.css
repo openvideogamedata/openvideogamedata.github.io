@@ -3,10 +3,13 @@
 }
 
 .list-suggestion-header {
+  background: linear-gradient(135deg, var(--surface) 0%, #0f0f1f 100%);
+  border-bottom: 1px solid var(--border);
   padding: 2.5rem 0 1rem;
 }
 
 .list-suggestion-body {
+  padding: 2.5rem 1rem 5rem;
   max-width: 920px;
 }
 
@@ -15,20 +18,33 @@
   gap: 1.25rem;
 }
 
-.form-section {
-  background: #fff;
-  border: 1px solid #d9dfe8;
-  border-radius: 14px;
+.list-suggestion-page .form-section {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
   padding: 1rem;
-  box-shadow: 0 10px 30px rgba(19, 33, 68, 0.05);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
 
-.form-input {
+.list-suggestion-page .form-label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.list-suggestion-page .form-input {
   width: 100%;
-  border: 1px solid #c5cfdd;
-  border-radius: 10px;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
   padding: 0.8rem 0.95rem;
   font: inherit;
+  color: var(--text);
+}
+
+.list-suggestion-page .form-input:focus {
+  outline: none;
+  border-color: var(--purple);
 }
 
 .validation-banner {
@@ -51,15 +67,15 @@
 }
 
 .validation-banner.success {
-  background: #ecfdf3;
-  color: #166534;
-  border: 1px solid #a7f3d0;
+  background: rgba(16, 185, 129, 0.12);
+  color: #b7f7dd;
+  border: 1px solid rgba(16, 185, 129, 0.3);
 }
 
 .validation-banner.warning {
-  background: #fff7ed;
-  color: #9a3412;
-  border: 1px solid #fdba74;
+  background: rgba(245, 158, 11, 0.12);
+  color: #fcdba4;
+  border: 1px solid rgba(245, 158, 11, 0.3);
 }
 
 .rules-card ul {
@@ -67,19 +83,24 @@
   padding-left: 1.25rem;
 }
 
+.rules-card p,
+.rules-card li {
+  color: var(--text-muted);
+}
+
 .helper-text {
   margin: 0 0 0.35rem;
-  color: #31415d;
+  color: var(--text);
 }
 
 .helper-text-muted {
-  color: #627089;
+  color: var(--text-muted);
   font-size: 0.95rem;
 }
 
 .game-result-empty {
   padding: 0.9rem 1rem;
-  color: #627089;
+  color: var(--text-muted);
 }
 
 .list-suggestion-gate {
@@ -89,11 +110,58 @@
 }
 
 .gate-card {
-  background: #fff;
-  border: 1px solid #d9dfe8;
-  border-radius: 16px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
   padding: 2rem;
-  box-shadow: 0 10px 30px rgba(19, 33, 68, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.gate-card p {
+  color: var(--text-muted);
+}
+
+.list-suggestion-page .form-error {
+  font-size: 0.85rem;
+  color: #ef4444;
+  padding: 0.625rem 0.875rem;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.2);
+  border-radius: 6px;
+}
+
+.list-suggestion-page .form-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.list-suggestion-page .form-submit {
+  padding: 0.7rem 2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: var(--purple);
+  color: #fff;
+  border: none;
+  transition: background 0.15s;
+}
+
+.list-suggestion-page .form-submit:hover:not(:disabled) {
+  background: #6d28d9;
+}
+
+.list-suggestion-page .form-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.rules-card a {
+  color: var(--cyan-light);
+}
+
+.rules-card a:hover {
+  color: var(--cyan);
 }
 
 @media (max-width: 720px) {
@@ -101,7 +169,7 @@
     padding-top: 1.5rem;
   }
 
-  .form-section {
+  .list-suggestion-page .form-section {
     padding: 0.9rem;
   }
 }
