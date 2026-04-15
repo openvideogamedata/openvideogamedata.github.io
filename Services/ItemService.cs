@@ -15,6 +15,9 @@ public class ItemService
     {
         using var context = this._factory.CreateDbContext();
 
+        if (context.GameLists.Any(gl => gl.SourceListUrl == gameListRequest.SourceListUrl))
+            return new ResponseToPage(false, "This list has already been approved.");
+
         var source = context.Sources.FirstOrDefault(source => source.HostUrl == gameListRequest.HostUrl);
 
         if (source == null) {

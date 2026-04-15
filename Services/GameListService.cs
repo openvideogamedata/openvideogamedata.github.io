@@ -135,7 +135,7 @@ public class GameListService
 
         foreach (var pinnedList in pinnedLists) {
             var allSources = GetAllSourceFromList(context, pinnedList.Id);
-            double totalNumberOfSources = allSources.Count();
+            double totalNumberOfSources = context.GameLists.Count(gl => gl.FinalGameListId == pinnedList.Id && !gl.ByUser);
             var topWinners = GetTopWinners(context, onlyTheFirstThreeGames, pinnedList.Id, totalNumberOfSources, userId);
             pinnedList.TopThreeWinners.AddRange(topWinners);
         }
@@ -230,7 +230,7 @@ public class GameListService
 
             foreach (var list in lists) {
                 var allSources = GetAllSourceFromList(context, list.Id);
-                double totalNumberOfSources = allSources.Count();
+                double totalNumberOfSources = context.GameLists.Count(gl => gl.FinalGameListId == list.Id && !gl.ByUser);
                 var topWinners = GetTopWinners(context, ammountToShow, list.Id, totalNumberOfSources, userId);
                 list.TopThreeWinners.AddRange(topWinners);
             }
@@ -275,7 +275,7 @@ public class GameListService
             }
 
             allSources = GetAllSourceFromList(context, finalGameList.Id);
-            double totalNumberOfSources = allSources.Count();
+            double totalNumberOfSources = context.GameLists.Count(gl => gl.FinalGameListId == finalGameList.Id && !gl.ByUser);
             topWinnersByCritic = GetTopWinners(context, _numberOfGamesOnTopWinners, finalGameList.Id, totalNumberOfSources, userId);
 
             totalNumberOfUsers = GetNumberOfUsersFromList(context, finalGameList.Id);
