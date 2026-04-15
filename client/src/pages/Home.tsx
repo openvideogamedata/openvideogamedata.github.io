@@ -14,11 +14,10 @@ export default function Home() {
   const navigate = useNavigate()
 
   useEffect(() => {
-    fetch('/lists/index.json')
+    fetch('/lists/pinned.json')
       .then(r => r.json())
       .then((payload: { data: any[] }) => {
         const lists = payload.data
-          .filter(l => l.pinned)
           .map(l => ({
             id: l.id,
             title: l.title,

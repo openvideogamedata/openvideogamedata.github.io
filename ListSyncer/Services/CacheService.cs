@@ -59,5 +59,13 @@ public sealed class CacheService
         };
         var path = Path.Combine(_root, "index.json");
         File.WriteAllText(path, JsonSerializer.Serialize(payload, WriteOpts));
+
+        var pinnedPayload = new
+        {
+            syncedAt = DateTime.UtcNow,
+            data = categories.Where(c => c.Pinned).ToList()
+        };
+        var pinnedPath = Path.Combine(_root, "pinned.json");
+        File.WriteAllText(pinnedPath, JsonSerializer.Serialize(pinnedPayload, WriteOpts));
     }
 }

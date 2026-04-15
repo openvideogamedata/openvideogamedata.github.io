@@ -35,6 +35,7 @@ public sealed class SyncService
 
         _cache.WriteIndex(categories);
         Log("INDEX", "index.json", $"GRAVADO ({categories.Count} listas)");
+        Log("INDEX", "pinned.json", $"GRAVADO ({categories.Count(c => c.Pinned)} listas pinadas)");
 
         Console.WriteLine();
         Console.WriteLine($"Concluído: {_created} criado(s) | {_updated} atualizado(s) | {_skipped} ignorado(s)");
