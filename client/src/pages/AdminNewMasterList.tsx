@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { api } from '../api/client'
+import { api, getApiErrorMessage } from '../api/client'
 import './AdminNewMasterList.css'
 
 interface CreateListRequest {
@@ -73,8 +73,8 @@ export default function AdminNewMasterList() {
       }
       await api.post('/api/game-lists', body)
       navigate('/admin/users')
-    } catch {
-      setError('Could not create the list. Please check your input and try again.')
+    } catch (error) {
+      setError(getApiErrorMessage(error, 'Could not create the list. Please check your input and try again.'))
       setSaving(false)
     }
   }

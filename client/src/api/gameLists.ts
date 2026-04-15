@@ -124,7 +124,7 @@ export async function getUserLists(slug: string, page = 1, pageSize = 5): Promis
 export interface UpdateMasterListRequest {
   title: string
   year: number | null
-  socialUrl: string
+  socialUrl: string | null
   tags: string
   consideredForAvgScore: boolean
   pinned: boolean

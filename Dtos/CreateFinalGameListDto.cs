@@ -24,7 +24,6 @@ public class UpdateFinalGameListDto
     [Required(ErrorMessage = "Informe o titulo.")]
     public string? Title { get; set; }
     public int? Year { get; set; }
-    [Url(ErrorMessage = "Informe uma URL valida.")]
     public string? SocialUrl { get; set; }
     [Required(ErrorMessage = "Informe ao menos uma tag.")]
     public string? Tags { get; set; }

@@ -3,12 +3,14 @@ const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
 export class ApiError extends Error {
   status: number
   responseUrl: string
+  detail: string | null
 
-  constructor(status: number, statusText: string, responseUrl: string) {
-    super(`API error ${status}: ${statusText}`)
+  constructor(status: number, statusText: string, responseUrl: string, detail: string | null = null) {
+    super(detail || `API error ${status}: ${statusText}`)
     this.name = 'ApiError'
     this.status = status
     this.responseUrl = responseUrl
+    this.detail = detail
   }
 }
 
@@ -27,7 +29,12 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   })
 
   if (!res.ok) {
-    throw new ApiError(res.status, res.statusText, res.url)
+    throw new ApiError(
+      res.status,
+      res.statusText,
+      res.url,
+      await extractErrorDetail(res),
+    )
   }
 
   const contentType = res.headers.get('content-type')
@@ -36,6 +43,72 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   }
 
   return res.json() as Promise<T>
+}
+
+async function extractErrorDetail(res: Response): Promise<string | null> {
+  const contentType = res.headers.get('content-type') || ''
+
+  try {
+    if (contentType.includes('application/json')) {
+      const body = await res.json() as {
+        reason?: unknown
+        Reason?: unknown
+        message?: unknown
+        Message?: unknown
+        title?: unknown
+        errors?: Record<string, unknown>
+      }
+
+      const directMessage = firstString(
+        body.reason,
+        body.Reason,
+        body.message,
+        body.Message,
+        body.title,
+      )
+
+      if (directMessage) {
+        return directMessage
+      }
+
+      if (body.errors && typeof body.errors === 'object') {
+        const validationMessages = Object.values(body.errors)
+          .flatMap(value => Array.isArray(value) ? value : [value])
+          .filter((value): value is string => typeof value === 'string' && value.trim().length > 0)
+
+        if (validationMessages.length > 0) {
+          return validationMessages.join(' ')
+        }
+      }
+    }
+
+    const text = (await res.text()).trim()
+    return text || null
+  } catch {
+    return null
+  }
+}
+
+function firstString(...values: unknown[]): string | null {
+  for (const value of values) {
+    if (typeof value === 'string' && value.trim().length > 0) {
+      return value
+    }
+  }
+
+  return null
+}
+
+export function getApiErrorMessage(error: unknown, fallback: string): string {
+  if (error instanceof ApiError && error.detail) {
+    return error.detail
+  }
+
+  if (error instanceof Error && error.message) {
+    return error.message
+  }
+
+  return fallback
 }
 
 export const api = {

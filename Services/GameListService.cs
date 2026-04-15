@@ -76,6 +76,12 @@ public class GameListService
         if (string.IsNullOrWhiteSpace(request.Tags))
             return new ResponseToPage(false, "Informe pelo menos uma tag.");
 
+        if (!string.IsNullOrWhiteSpace(request.SocialUrl)
+            && !Uri.TryCreate(request.SocialUrl.Trim(), UriKind.Absolute, out _))
+        {
+            return new ResponseToPage(false, "Informe uma URL valida.");
+        }
+
         try
         {
             using var context = this._factory.CreateDbContext();
@@ -85,7 +91,9 @@ public class GameListService
 
             list.Title = request.Title.Trim();
             list.Year = request.Year;
-            list.SocialUrl = request.SocialUrl?.Trim() ?? list.SocialUrl;
+            list.SocialUrl = string.IsNullOrWhiteSpace(request.SocialUrl)
+                ? null
+                : request.SocialUrl.Trim();
             list.Tags = request.Tags.Trim();
             list.ConsideredForAvgScore = request.ConsideredForAvgScore;
             list.Pinned = request.Pinned;

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { getApiErrorMessage } from '../api/client'
 import { getListBySlugLive, updateMasterList } from '../api/gameLists'
 import './AdminNewMasterList.css'
 
@@ -66,7 +67,7 @@ export default function AdminEditMasterList() {
       await updateMasterList(listId, {
         title: title.trim(),
         year: year ? Number(year) : null,
-        socialUrl: socialUrl.trim(),
+        socialUrl: socialUrl.trim() || null,
         tags: tags.join(','),
         consideredForAvgScore,
         pinned,
@@ -74,8 +75,8 @@ export default function AdminEditMasterList() {
         socialComments,
       })
       navigate(`/list/${slug}`)
-    } catch {
-      setError('Could not save changes. Please try again.')
+    } catch (error) {
+      setError(getApiErrorMessage(error, 'Could not save changes. Please try again.'))
       setSaving(false)
     }
   }
