@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:41.5605909Z",
+  "slug": "best-games-of-2024",
+  "type": 0,
+  "totalItems": 8,
+  "data": {
+    "id": 80,
+    "title": "Best Games of",
+    "year": 2024,
+    "numberOfGames": 30,
+    "numberOfSources": 8,
+    "slug": "best-games-of-2024",
+    "pinned": true,
+    "topWinners": [
+      {
+        "gameId": 2352,
+        "gameTitle": "Astro Bot",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-09-06T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.jpg",
+        "score": 115,
+        "position": 2,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2202,
+        "gameTitle": "Metaphor: ReFantazio",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 88,
+        "firstReleaseDate": "2024-12-31T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7hkn.jpg",
+        "score": 80,
+        "position": 10,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 1001,
+        "gameTitle": "Final Fantasy VII Rebirth",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vp0.jpg",
+        "score": 75,
+        "position": 7,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2196,
+        "gameTitle": "Helldivers 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-02-08T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co741o.jpg",
+        "score": 73,
+        "position": 3,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      }
+    ]
+  }
+}

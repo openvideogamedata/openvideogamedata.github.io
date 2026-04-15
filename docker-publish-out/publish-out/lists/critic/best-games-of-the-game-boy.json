@@ -1,0 +1,658 @@
+{
+  "syncedAt": "2026-04-15T10:45:33.6721107Z",
+  "slug": "best-games-of-the-game-boy",
+  "type": 1,
+  "totalItems": 5,
+  "data": [
+    {
+      "id": 698,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendolife.com/guides/50-best-game-boy-games-of-all-time",
+      "dateAdded": "2023-08-07T20:01:25.839815Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 130,
+        "name": "Nintendo Life",
+        "hostUrl": "www.nintendolife.com"
+      },
+      "finalGameList": {
+        "id": 69,
+        "title": "Best Games of The Game Boy",
+        "year": null,
+        "slug": "best-games-of-the-game-boy",
+        "fullName": "Best Games of The Game Boy"
+      },
+      "items": [
+        {
+          "id": 6785,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 385,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6786,
+          "position": 2,
+          "gameTitle": "Tetris",
+          "gameId": 1592,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6787,
+          "position": 3,
+          "gameTitle": "Donkey Kong",
+          "gameId": 1593,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6788,
+          "position": 4,
+          "gameTitle": "Wario Land: Super Mario Land 3",
+          "gameId": 1594,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6789,
+          "position": 5,
+          "gameTitle": "Pok\u00E9mon Yellow Version: Special Pikachu Edition",
+          "gameId": 1496,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6790,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6791,
+          "position": 7,
+          "gameTitle": "Wario Land II",
+          "gameId": 1595,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6792,
+          "position": 8,
+          "gameTitle": "Super Mario Land 2: 6 Golden Coins",
+          "gameId": 1596,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6793,
+          "position": 9,
+          "gameTitle": "Final Fantasy Adventure",
+          "gameId": 1597,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6794,
+          "position": 10,
+          "gameTitle": "Castlevania II: Belmont\u0027s Revenge",
+          "gameId": 1598,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6795,
+          "position": 11,
+          "gameTitle": "Mario\u0027s Picross",
+          "gameId": 1599,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6796,
+          "position": 12,
+          "gameTitle": "Disney\u0027s DuckTales",
+          "gameId": 677,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6797,
+          "position": 13,
+          "gameTitle": "Donkey Kong Land 2",
+          "gameId": 1600,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6798,
+          "position": 14,
+          "gameTitle": "Kirby\u0027s Dream Land 2",
+          "gameId": 1601,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6799,
+          "position": 15,
+          "gameTitle": "Disney\u0027s DuckTales 2",
+          "gameId": 1602,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 702,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-game-boy-games",
+      "dateAdded": "2023-08-08T02:00:15.790383Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 69,
+        "title": "Best Games of The Game Boy",
+        "year": null,
+        "slug": "best-games-of-the-game-boy",
+        "fullName": "Best Games of The Game Boy"
+      },
+      "items": [
+        {
+          "id": 6845,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon Yellow Version: Special Pikachu Edition",
+          "gameId": 1496,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6846,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 385,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6847,
+          "position": 3,
+          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6848,
+          "position": 4,
+          "gameTitle": "Metroid II: Return of Samus",
+          "gameId": 1644,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6849,
+          "position": 5,
+          "gameTitle": "Tetris",
+          "gameId": 1641,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6850,
+          "position": 6,
+          "gameTitle": "Super Mario Land 2: 6 Golden Coins",
+          "gameId": 1596,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6851,
+          "position": 7,
+          "gameTitle": "Dr. Mario",
+          "gameId": 1645,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6852,
+          "position": 8,
+          "gameTitle": "Super Mario Land",
+          "gameId": 1646,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6853,
+          "position": 9,
+          "gameTitle": "Wario Land: Super Mario Land 3",
+          "gameId": 1594,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6854,
+          "position": 10,
+          "gameTitle": "Wario Land II",
+          "gameId": 1595,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6855,
+          "position": 11,
+          "gameTitle": "Kirby\u0027s Dream Land 2",
+          "gameId": 1601,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6856,
+          "position": 12,
+          "gameTitle": "Donkey Kong Land 2",
+          "gameId": 1600,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6857,
+          "position": 13,
+          "gameTitle": "Kirby\u0027s Dream Land",
+          "gameId": 1643,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6858,
+          "position": 14,
+          "gameTitle": "Final Fantasy Legend III",
+          "gameId": 1647,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6859,
+          "position": 15,
+          "gameTitle": "Donkey Kong",
+          "gameId": 1593,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 703,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-gameboy-games/",
+      "dateAdded": "2023-08-08T02:00:16.71553Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 69,
+        "title": "Best Games of The Game Boy",
+        "year": null,
+        "slug": "best-games-of-the-game-boy",
+        "fullName": "Best Games of The Game Boy"
+      },
+      "items": [
+        {
+          "id": 6860,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6861,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 385,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6862,
+          "position": 3,
+          "gameTitle": "Super Mario Land 2: 6 Golden Coins",
+          "gameId": 1596,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6863,
+          "position": 4,
+          "gameTitle": "Tetris",
+          "gameId": 1641,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6864,
+          "position": 5,
+          "gameTitle": "Pok\u00E9mon Yellow Version: Special Pikachu Edition",
+          "gameId": 1496,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6865,
+          "position": 6,
+          "gameTitle": "Super Mario Land",
+          "gameId": 1646,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6866,
+          "position": 7,
+          "gameTitle": "Metroid II: Return of Samus",
+          "gameId": 1644,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6867,
+          "position": 8,
+          "gameTitle": "Donkey Kong",
+          "gameId": 1593,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6868,
+          "position": 9,
+          "gameTitle": "Turok: Battle of the Bionosaurs",
+          "gameId": 1648,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6869,
+          "position": 10,
+          "gameTitle": "Kirby\u0027s Dream Land",
+          "gameId": 1643,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6870,
+          "position": 11,
+          "gameTitle": "Killer Instinct",
+          "gameId": 1649,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6871,
+          "position": 12,
+          "gameTitle": "Game Boy Camera",
+          "gameId": 1640,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6872,
+          "position": 13,
+          "gameTitle": "Final Fantasy Adventure",
+          "gameId": 1597,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6873,
+          "position": 14,
+          "gameTitle": "Wario Land: Super Mario Land 3",
+          "gameId": 1594,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6874,
+          "position": 15,
+          "gameTitle": "Dr. Mario",
+          "gameId": 1645,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "byUser": false,
+      "sourceListUrl": "https://www.cbr.com/best-original-game-boy-games/",
+      "dateAdded": "2023-08-08T02:02:04.076313Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 179,
+        "name": "CBR",
+        "hostUrl": "www.cbr.com"
+      },
+      "finalGameList": {
+        "id": 69,
+        "title": "Best Games of The Game Boy",
+        "year": null,
+        "slug": "best-games-of-the-game-boy",
+        "fullName": "Best Games of The Game Boy"
+      },
+      "items": [
+        {
+          "id": 6875,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 385,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6876,
+          "position": 2,
+          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6877,
+          "position": 3,
+          "gameTitle": "Super Mario Land 2: 6 Golden Coins",
+          "gameId": 1596,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6878,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Yellow Version: Special Pikachu Edition",
+          "gameId": 1496,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6879,
+          "position": 5,
+          "gameTitle": "Wario Land II",
+          "gameId": 1595,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6880,
+          "position": 6,
+          "gameTitle": "Final Fantasy Adventure",
+          "gameId": 1597,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6881,
+          "position": 7,
+          "gameTitle": "Castlevania II: Belmont\u0027s Revenge",
+          "gameId": 1598,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6882,
+          "position": 8,
+          "gameTitle": "Donkey Kong Land",
+          "gameId": 1650,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6883,
+          "position": 9,
+          "gameTitle": "Metroid II: Return of Samus",
+          "gameId": 1644,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6884,
+          "position": 10,
+          "gameTitle": "Kirby\u0027s Dream Land 2",
+          "gameId": 1601,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 705,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-game-boy-games-all-time/",
+      "dateAdded": "2023-08-08T02:03:59.518535Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 69,
+        "title": "Best Games of The Game Boy",
+        "year": null,
+        "slug": "best-games-of-the-game-boy",
+        "fullName": "Best Games of The Game Boy"
+      },
+      "items": [
+        {
+          "id": 6885,
+          "position": 1,
+          "gameTitle": "Tetris",
+          "gameId": 1641,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6886,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 385,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6887,
+          "position": 3,
+          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6888,
+          "position": 4,
+          "gameTitle": "Super Mario Land 2: 6 Golden Coins",
+          "gameId": 1596,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6889,
+          "position": 5,
+          "gameTitle": "Final Fantasy Adventure",
+          "gameId": 1597,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6890,
+          "position": 6,
+          "gameTitle": "Contra III: The Alien Wars",
+          "gameId": 1651,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6891,
+          "position": 7,
+          "gameTitle": "Harvest Moon GB",
+          "gameId": 1652,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6892,
+          "position": 8,
+          "gameTitle": "Mole Mania",
+          "gameId": 1653,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6893,
+          "position": 9,
+          "gameTitle": "Metroid II: Return of Samus",
+          "gameId": 1644,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6894,
+          "position": 10,
+          "gameTitle": "R-Type",
+          "gameId": 1654,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

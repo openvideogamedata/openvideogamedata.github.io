@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:05.9858044Z",
+  "slug": "best-games-of-2002",
+  "type": 0,
+  "totalItems": 4,
+  "data": {
+    "id": 43,
+    "title": "Best Games of",
+    "year": 2002,
+    "numberOfGames": 21,
+    "numberOfSources": 4,
+    "slug": "best-games-of-2002",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 427,
+        "gameTitle": "Metroid Prime",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2002-11-17T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.jpg",
+        "score": 59,
+        "position": 1,
+        "gameListId": 516,
+        "finalGameListId": 43
+      },
+      {
+        "gameId": 308,
+        "gameTitle": "Grand Theft Auto: Vice City",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2002-10-27T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbb.jpg",
+        "score": 34,
+        "position": 2,
+        "gameListId": 516,
+        "finalGameListId": 43
+      },
+      {
+        "gameId": 1094,
+        "gameTitle": "Super Mario Sunshine",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2002-07-19T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rh.jpg",
+        "score": 26,
+        "position": 4,
+        "gameListId": 518,
+        "finalGameListId": 43
+      },
+      {
+        "gameId": 1092,
+        "gameTitle": "Tom Clancy\u0027s Splinter Cell",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2002-11-12T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ysy.jpg",
+        "score": 23,
+        "position": 3,
+        "gameListId": 516,
+        "finalGameListId": 43
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:39.7580923Z",
+  "slug": "best-games-of-the-xbox-one",
+  "type": 0,
+  "totalItems": 1,
+  "data": {
+    "id": 17,
+    "title": "Best Games of the Xbox One",
+    "year": null,
+    "numberOfGames": 15,
+    "numberOfSources": 1,
+    "slug": "best-games-of-the-xbox-one",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 604,
+        "gameTitle": "Assassin\u0027s Creed Valhalla",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-11-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 453,
+        "finalGameListId": 17
+      }
+    ]
+  }
+}

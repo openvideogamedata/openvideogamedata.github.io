@@ -1,0 +1,336 @@
+{
+  "syncedAt": "2026-04-15T11:36:06.8183745Z",
+  "slug": "best-games-of-the-game-boy-advance",
+  "type": 0,
+  "totalItems": 6,
+  "data": {
+    "finalGameList": {
+      "id": 72,
+      "title": "Best Games of the Game Boy Advance",
+      "year": null,
+      "slug": "best-games-of-the-game-boy-advance",
+      "fullName": "Best Games of the Game Boy Advance",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, console, nintendo, handheld",
+      "tagList": [
+        "all time",
+        "console",
+        "nintendo",
+        "handheld"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of The Game Boy",
+          "sourceUrl": "best-games-of-the-game-boy",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy Color",
+          "sourceUrl": "best-games-of-the-game-boy-color",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo 3DS",
+          "sourceUrl": "best-games-of-the-nintendo-3ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo DS",
+          "sourceUrl": "best-games-of-the-nintendo-ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1694,
+        "gameTitle": "Metroid Fusion",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2002-11-17T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w49.jpg",
+        "score": 64,
+        "position": 1,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1113,
+        "gameTitle": "The Legend of Zelda: The Minish Cap",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2004-11-04T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsk.jpg",
+        "score": 58,
+        "position": 10,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1636,
+        "gameTitle": "Mario \u0026 Luigi: Superstar Saga",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2003-11-17T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rg.jpg",
+        "score": 52,
+        "position": 12,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1417,
+        "gameTitle": "Castlevania: Aria of Sorrow",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2003-05-06T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nh5.jpg",
+        "score": 46,
+        "position": 2,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1629,
+        "gameTitle": "Advance Wars",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2001-09-10T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25mi.jpg",
+        "score": 43,
+        "position": 4,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1697,
+        "gameTitle": "Mario Kart: Super Circuit",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2001-07-21T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co214v.jpg",
+        "score": 38,
+        "position": 9,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1634,
+        "gameTitle": "Pok\u00E9mon Box: Ruby \u0026 Sapphire",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2003-05-30T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sh1.jpg",
+        "score": 38,
+        "position": 10,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1416,
+        "gameTitle": "WarioWare, Inc.: Mega Microgames!",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2003-03-21T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wpz.jpg",
+        "score": 35,
+        "position": 7,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1631,
+        "gameTitle": "Yoshi\u0027s Island: Super Mario Advance 3",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2002-09-24T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ac4.jpg",
+        "score": 31,
+        "position": 7,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1695,
+        "gameTitle": "Fire Emblem: The Blazing Blade",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2003-04-25T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p7c.jpg",
+        "score": 30,
+        "position": 2,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1633,
+        "gameTitle": "Metroid: Zero Mission",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2004-02-09T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vci.jpg",
+        "score": 25,
+        "position": 9,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1628,
+        "gameTitle": "The Legend of Zelda: A Link to the Past \u0026 Four Swords",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2002-12-02T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nsh.jpg",
+        "score": 25,
+        "position": 3,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1632,
+        "gameTitle": "Final Fantasy VI Advance",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2006-11-30T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2yh2.jpg",
+        "score": 21,
+        "position": 8,
+        "gameListId": 701,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1585,
+        "gameTitle": "Golden Sun",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2001-08-01T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uca.jpg",
+        "score": 18,
+        "position": 4,
+        "gameListId": 730,
+        "finalGameListId": 72
+      },
+      {
+        "gameId": 1701,
+        "gameTitle": "Pok\u00E9mon Emerald Version",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2004-09-16T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zhr.jpg",
+        "score": 18,
+        "position": 9,
+        "gameListId": 732,
+        "finalGameListId": 72
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/best-game-boy-advance-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CBR",
+        "sourceUrl": "https://www.cbr.com/best-game-boy-advance-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-gba-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nintendo Life",
+        "sourceUrl": "https://www.nintendolife.com/guides/50-best-game-boy-advance-gba-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-gameboy-advance-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-game-boy-advance-games-gba/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 70,
+        "porcentageOfContributions": 82
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 18
+      }
+    ]
+  }
+}

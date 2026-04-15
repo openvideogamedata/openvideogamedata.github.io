@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:52.3057318Z",
+  "slug": "best-games-of-2016",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 29,
+    "title": "Best Games of",
+    "year": 2016,
+    "numberOfGames": 25,
+    "numberOfSources": 3,
+    "slug": "best-games-of-2016",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 355,
+        "gameTitle": "Uncharted 4: A Thief\u0027s End",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-05-10T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7h.jpg",
+        "score": 44,
+        "position": 1,
+        "gameListId": 549,
+        "finalGameListId": 29
+      },
+      {
+        "gameId": 404,
+        "gameTitle": "Overwatch",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-05-24T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg",
+        "score": 42,
+        "position": 2,
+        "gameListId": 549,
+        "finalGameListId": 29
+      },
+      {
+        "gameId": 1228,
+        "gameTitle": "Titanfall 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-10-28T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/fhbeilnghyhhmjqhinqa.jpg",
+        "score": 38,
+        "position": 5,
+        "gameListId": 549,
+        "finalGameListId": 29
+      },
+      {
+        "gameId": 529,
+        "gameTitle": "Dark Souls III",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-03-24T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vcf.jpg",
+        "score": 31,
+        "position": 4,
+        "gameListId": 549,
+        "finalGameListId": 29
+      }
+    ]
+  }
+}

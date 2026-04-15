@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:43.5894354Z",
+  "slug": "best-games-of-meta-quest-3",
+  "type": 0,
+  "totalItems": 9,
+  "data": {
+    "id": 82,
+    "title": "Best Games of Meta Quest 3",
+    "year": null,
+    "numberOfGames": 45,
+    "numberOfSources": 9,
+    "slug": "best-games-of-meta-quest-3",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 2108,
+        "gameTitle": "Asgard\u2019s Wrath II",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2023-12-15T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7kft.jpg",
+        "score": 74,
+        "position": 1,
+        "gameListId": 959,
+        "finalGameListId": 82
+      },
+      {
+        "gameId": 33,
+        "gameTitle": "Beat Saber",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2019-05-21T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ux.jpg",
+        "score": 52,
+        "position": 2,
+        "gameListId": 959,
+        "finalGameListId": 82
+      },
+      {
+        "gameId": 2119,
+        "gameTitle": "Dungeons of Eternity",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2023-10-05T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6knd.jpg",
+        "score": 47,
+        "position": 5,
+        "gameListId": 959,
+        "finalGameListId": 82
+      },
+      {
+        "gameId": 50,
+        "gameTitle": "The Walking Dead: Saints \u0026 Sinners",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2020-01-23T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tgc.jpg",
+        "score": 43,
+        "position": 11,
+        "gameListId": 959,
+        "finalGameListId": 82
+      }
+    ]
+  }
+}

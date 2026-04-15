@@ -1,0 +1,406 @@
+{
+  "syncedAt": "2026-04-15T10:53:45.3678747Z",
+  "slug": "best-games-of-2011",
+  "type": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 536,
+      "byUser": false,
+      "sourceListUrl": "https://techraptor.net/gaming/features/best-games-2011",
+      "dateAdded": "2023-06-15T01:43:27.301708Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 225,
+        "name": "Techraptor",
+        "hostUrl": "techraptor.net"
+      },
+      "finalGameList": {
+        "id": 34,
+        "title": "Best Games of",
+        "year": 2011,
+        "slug": "best-games-of-2011",
+        "fullName": "Best Games of 2011"
+      },
+      "items": [
+        {
+          "id": 3930,
+          "position": 1,
+          "gameTitle": "Dark Souls",
+          "gameId": 26,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3931,
+          "position": 2,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3932,
+          "position": 3,
+          "gameTitle": "Portal 2",
+          "gameId": 325,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3933,
+          "position": 4,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3934,
+          "position": 5,
+          "gameTitle": "Terraria",
+          "gameId": 708,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3935,
+          "position": 6,
+          "gameTitle": "Dead Space 2",
+          "gameId": 440,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3936,
+          "position": 7,
+          "gameTitle": "Bastion",
+          "gameId": 655,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3937,
+          "position": 8,
+          "gameTitle": "Rayman Origins",
+          "gameId": 1175,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3938,
+          "position": 9,
+          "gameTitle": "Batman: Arkham City",
+          "gameId": 327,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3939,
+          "position": 10,
+          "gameTitle": "The Witcher 2: Assassins of Kings",
+          "gameId": 1176,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3940,
+          "position": 11,
+          "gameTitle": "Deus Ex: Human Revolution",
+          "gameId": 1177,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3941,
+          "position": 12,
+          "gameTitle": "Uncharted 3: Drake\u0027s Deception",
+          "gameId": 487,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3942,
+          "position": 13,
+          "gameTitle": "LittleBigPlanet 2",
+          "gameId": 326,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3943,
+          "position": 14,
+          "gameTitle": "Saints Row: The Third",
+          "gameId": 1178,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3944,
+          "position": 15,
+          "gameTitle": "To the Moon",
+          "gameId": 653,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 603,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/games/the-25-best-video-games-of-2011/",
+      "dateAdded": "2023-07-01T14:53:19.627682Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 34,
+        "title": "Best Games of",
+        "year": 2011,
+        "slug": "best-games-of-2011",
+        "fullName": "Best Games of 2011"
+      },
+      "items": [
+        {
+          "id": 4931,
+          "position": 1,
+          "gameTitle": "Portal 2",
+          "gameId": 325,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4932,
+          "position": 2,
+          "gameTitle": "Batman: Arkham City",
+          "gameId": 327,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4933,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Skyward Sword",
+          "gameId": 543,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4934,
+          "position": 4,
+          "gameTitle": "Uncharted 3: Drake\u0027s Deception",
+          "gameId": 487,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4935,
+          "position": 5,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4936,
+          "position": 6,
+          "gameTitle": "Dead Space 2",
+          "gameId": 440,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4937,
+          "position": 7,
+          "gameTitle": "Gears of War 3",
+          "gameId": 1409,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4938,
+          "position": 8,
+          "gameTitle": "Resistance 3",
+          "gameId": 1410,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4939,
+          "position": 9,
+          "gameTitle": "Child of Eden",
+          "gameId": 1411,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4940,
+          "position": 10,
+          "gameTitle": "Deus Ex: Human Revolution",
+          "gameId": 1177,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4941,
+          "position": 11,
+          "gameTitle": "Dance Central 2",
+          "gameId": 1412,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4942,
+          "position": 12,
+          "gameTitle": "Saints Row: The Third",
+          "gameId": 1178,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4943,
+          "position": 13,
+          "gameTitle": "Pok\u00E9mon Black",
+          "gameId": 1413,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4944,
+          "position": 14,
+          "gameTitle": "Rayman Origins",
+          "gameId": 1175,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4945,
+          "position": 15,
+          "gameTitle": "Mortal Kombat",
+          "gameId": 495,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 604,
+      "byUser": false,
+      "sourceListUrl": "https://www.cnet.com/culture/the-10-best-games-of-2011/",
+      "dateAdded": "2023-07-01T14:56:53.715053Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 31,
+        "name": "CNET",
+        "hostUrl": "www.cnet.com"
+      },
+      "finalGameList": {
+        "id": 34,
+        "title": "Best Games of",
+        "year": 2011,
+        "slug": "best-games-of-2011",
+        "fullName": "Best Games of 2011"
+      },
+      "items": [
+        {
+          "id": 4946,
+          "position": 1,
+          "gameTitle": "Batman: Arkham City",
+          "gameId": 327,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4947,
+          "position": 2,
+          "gameTitle": "Portal 2",
+          "gameId": 325,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4948,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4949,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Skyward Sword",
+          "gameId": 543,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4950,
+          "position": 5,
+          "gameTitle": "Uncharted 3: Drake\u0027s Deception",
+          "gameId": 487,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4951,
+          "position": 6,
+          "gameTitle": "Gears of War 3",
+          "gameId": 1409,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4952,
+          "position": 7,
+          "gameTitle": "Deus Ex: Human Revolution",
+          "gameId": 1177,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4953,
+          "position": 8,
+          "gameTitle": "Shadows of the Damned",
+          "gameId": 1414,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4954,
+          "position": 9,
+          "gameTitle": "L.A. Noire",
+          "gameId": 1415,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4955,
+          "position": 10,
+          "gameTitle": "Dead Space 2",
+          "gameId": 440,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

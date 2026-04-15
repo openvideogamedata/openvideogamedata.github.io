@@ -1,0 +1,300 @@
+{
+  "syncedAt": "2026-04-15T10:54:10.3886332Z",
+  "slug": "best-games-of-the-psvr-2",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 483,
+      "byUser": false,
+      "sourceListUrl": "https://www.pushsquare.com/guides/best-psvr2-games",
+      "dateAdded": "2023-06-02T12:37:24.832382Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 164,
+        "name": "Pushsquare",
+        "hostUrl": "www.pushsquare.com"
+      },
+      "finalGameList": {
+        "id": 59,
+        "title": "Best Games of the PSVR 2",
+        "year": null,
+        "slug": "best-games-of-the-psvr-2",
+        "fullName": "Best Games of the PSVR 2"
+      },
+      "items": [
+        {
+          "id": 8436,
+          "position": 1,
+          "gameTitle": "The Walking Dead: Saints \u0026 Sinners",
+          "gameId": 50,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8437,
+          "position": 2,
+          "gameTitle": "Gran Turismo 7",
+          "gameId": 359,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8438,
+          "position": 3,
+          "gameTitle": "Pistol Whip",
+          "gameId": 67,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8439,
+          "position": 4,
+          "gameTitle": "Resident Evil Village",
+          "gameId": 127,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8440,
+          "position": 5,
+          "gameTitle": "Moss: Book II",
+          "gameId": 43,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8441,
+          "position": 6,
+          "gameTitle": "Synth Riders: Remastered Edition",
+          "gameId": 969,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8442,
+          "position": 7,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8443,
+          "position": 8,
+          "gameTitle": "Moss",
+          "gameId": 42,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8444,
+          "position": 9,
+          "gameTitle": "Pavlov VR",
+          "gameId": 44,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8445,
+          "position": 10,
+          "gameTitle": "Horizon Call of the Mountain",
+          "gameId": 210,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8446,
+          "position": 11,
+          "gameTitle": "Demeo",
+          "gameId": 35,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8447,
+          "position": 12,
+          "gameTitle": "Rez Infinite",
+          "gameId": 48,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8448,
+          "position": 13,
+          "gameTitle": "The Light Brigade",
+          "gameId": 970,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8449,
+          "position": 14,
+          "gameTitle": "Star Wars: Tales from the Galaxy\u0027s Edge",
+          "gameId": 973,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8450,
+          "position": 15,
+          "gameTitle": "Song in the Smoke",
+          "gameId": 977,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 484,
+      "byUser": false,
+      "sourceListUrl": "https://www.creativebloq.com/buying-guides/psvr-2-games",
+      "dateAdded": "2023-06-02T12:44:01.543364Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 200,
+        "name": "Creativebloq",
+        "hostUrl": "www.creativebloq.com"
+      },
+      "finalGameList": {
+        "id": 59,
+        "title": "Best Games of the PSVR 2",
+        "year": null,
+        "slug": "best-games-of-the-psvr-2",
+        "fullName": "Best Games of the PSVR 2"
+      },
+      "items": [
+        {
+          "id": 2904,
+          "position": 1,
+          "gameTitle": "Horizon Call of the Mountain",
+          "gameId": 210,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2905,
+          "position": 2,
+          "gameTitle": "The Dark Pictures: Switchback VR",
+          "gameId": 972,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2906,
+          "position": 3,
+          "gameTitle": "Star Wars: Tales from the Galaxy\u0027s Edge",
+          "gameId": 973,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2907,
+          "position": 4,
+          "gameTitle": "Gran Turismo 7",
+          "gameId": 359,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2908,
+          "position": 5,
+          "gameTitle": "Resident Evil Village",
+          "gameId": 127,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2909,
+          "position": 6,
+          "gameTitle": "No Man\u0027s Sky",
+          "gameId": 65,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2910,
+          "position": 7,
+          "gameTitle": "Kayak VR: Mirage",
+          "gameId": 974,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2911,
+          "position": 8,
+          "gameTitle": "Before Your Eyes",
+          "gameId": 975,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2912,
+          "position": 9,
+          "gameTitle": "The Walking Dead: Saints \u0026 Sinners - Ch 2: Retribution",
+          "gameId": 976,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2913,
+          "position": 10,
+          "gameTitle": "Moss: Book II",
+          "gameId": 43,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2914,
+          "position": 11,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2915,
+          "position": 12,
+          "gameTitle": "Song in the Smoke",
+          "gameId": 977,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2916,
+          "position": 13,
+          "gameTitle": "Creed: Rise to Glory - Championship Edition",
+          "gameId": 978,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2917,
+          "position": 14,
+          "gameTitle": "Jurassic World Aftermath Collection",
+          "gameId": 979,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2918,
+          "position": 15,
+          "gameTitle": "Cosmonious High",
+          "gameId": 971,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

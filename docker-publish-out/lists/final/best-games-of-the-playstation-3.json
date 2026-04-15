@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:37.4135557Z",
+  "slug": "best-games-of-the-playstation-3",
+  "type": 0,
+  "totalItems": 16,
+  "data": {
+    "id": 15,
+    "title": "Best Games of the PlayStation 3",
+    "year": null,
+    "numberOfGames": 55,
+    "numberOfSources": 16,
+    "slug": "best-games-of-the-playstation-3",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 320,
+        "gameTitle": "The Last of Us",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 92,
+        "firstReleaseDate": "2013-06-14T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg",
+        "score": 170,
+        "position": 1,
+        "gameListId": 300,
+        "finalGameListId": 15
+      },
+      {
+        "gameId": 321,
+        "gameTitle": "Uncharted 2: Among Thieves",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2009-10-13T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg",
+        "score": 142,
+        "position": 2,
+        "gameListId": 300,
+        "finalGameListId": 15
+      },
+      {
+        "gameId": 322,
+        "gameTitle": "Red Dead Redemption",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2010-05-18T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcv.jpg",
+        "score": 113,
+        "position": 3,
+        "gameListId": 300,
+        "finalGameListId": 15
+      },
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 109,
+        "position": 5,
+        "gameListId": 300,
+        "finalGameListId": 15
+      }
+    ]
+  }
+}

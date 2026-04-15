@@ -1,0 +1,132 @@
+{
+  "syncedAt": "2026-04-15T10:53:16.788611Z",
+  "slug": "best-games-of-the-mega-drive",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 463,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-30T13:39:54.758606Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 3103,
+          "position": 1,
+          "gameTitle": "Shadow Dancer: The Secret of Shinobi",
+          "gameId": 861,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3104,
+          "position": 2,
+          "gameTitle": "Taz-Mania",
+          "gameId": 12,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3105,
+          "position": 3,
+          "gameTitle": "Top Gear 2",
+          "gameId": 862,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3106,
+          "position": 4,
+          "gameTitle": "Jurassic Park",
+          "gameId": 863,
+          "coverImageUrl": null,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": 464,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-30T14:06:22.174776Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 3171,
+          "position": 1,
+          "gameTitle": "Sonic the Hedgehog 2",
+          "gameId": 846,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3172,
+          "position": 2,
+          "gameTitle": "Golden Axe",
+          "gameId": 864,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3173,
+          "position": 3,
+          "gameTitle": "Streets of Rage 2",
+          "gameId": 851,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3174,
+          "position": 4,
+          "gameTitle": "Disney\u0027s Aladdin",
+          "gameId": 865,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3175,
+          "position": 5,
+          "gameTitle": "Sonic the Hedgehog",
+          "gameId": 866,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3176,
+          "position": 6,
+          "gameTitle": "Mortal Kombat II",
+          "gameId": 836,
+          "coverImageUrl": null,
+          "score": 10
+        }
+      ]
+    }
+  ]
+}

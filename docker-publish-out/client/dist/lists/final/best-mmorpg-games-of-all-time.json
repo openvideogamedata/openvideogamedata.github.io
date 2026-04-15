@@ -1,0 +1,387 @@
+{
+  "syncedAt": "2026-04-15T11:35:49.2147143Z",
+  "slug": "best-mmorpg-games-of-all-time",
+  "type": 0,
+  "totalItems": 10,
+  "data": {
+    "finalGameList": {
+      "id": 63,
+      "title": "Best MMORPG Games of All Time",
+      "year": null,
+      "slug": "best-mmorpg-games-of-all-time",
+      "fullName": "Best MMORPG Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Grand Strategy Games of All Time",
+          "sourceUrl": "best-grand-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RTS Games of All Time",
+          "sourceUrl": "best-real-time-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Walking Simulator Games of All Time",
+          "sourceUrl": "best-walking-simulator-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Open-World Games of All Time",
+          "sourceUrl": "best-open-world-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Action/Adventure Games of All Time",
+          "sourceUrl": "best-action-adventure-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 514,
+        "gameTitle": "World of Warcraft",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2004-11-23T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7z.jpg",
+        "score": 130,
+        "position": 2,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2231,
+        "gameTitle": "The Elder Scrolls Online",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2014-04-04T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybf.jpg",
+        "score": 87,
+        "position": 3,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 963,
+        "gameTitle": "Final Fantasy XIV Online",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2010-09-30T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1trg.jpg",
+        "score": 84,
+        "position": 1,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2234,
+        "gameTitle": "Guild Wars 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2012-08-18T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54tr.jpg",
+        "score": 76,
+        "position": 6,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2233,
+        "gameTitle": "Eve Online",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 70,
+        "firstReleaseDate": "2003-05-06T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7avk.jpg",
+        "score": 67,
+        "position": 5,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 1035,
+        "gameTitle": "RuneScape",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2001-01-04T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4wo6.jpg",
+        "score": 65,
+        "position": 4,
+        "gameListId": 1009,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2238,
+        "gameTitle": "Star Wars: The Old Republic",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2011-12-20T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20xa.jpg",
+        "score": 49,
+        "position": 6,
+        "gameListId": 1009,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2239,
+        "gameTitle": "The Lord of the Rings Online",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2007-04-24T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rub.jpg",
+        "score": 38,
+        "position": 9,
+        "gameListId": 1009,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2256,
+        "gameTitle": "DC Universe Online",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2011-01-11T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u18.jpg",
+        "score": 31,
+        "position": 9,
+        "gameListId": 1012,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2235,
+        "gameTitle": "Black Desert",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2015-12-31T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6f1i.jpg",
+        "score": 30,
+        "position": 8,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2265,
+        "gameTitle": "Neverwinter",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2013-06-20T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2qty.jpg",
+        "score": 29,
+        "position": 4,
+        "gameListId": 1015,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2236,
+        "gameTitle": "Lost Ark",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2018-12-04T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4w4j.jpg",
+        "score": 27,
+        "position": 9,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 1896,
+        "gameTitle": "World of Warcraft: Wrath of the Lich King",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2008-11-13T00:00:00Z",
+        "releaseYear": 2008,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xv9.jpg",
+        "score": 26,
+        "position": 3,
+        "gameListId": 1010,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 1902,
+        "gameTitle": "World of Warcraft: The Burning Crusade",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2007-01-15T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xw6.jpg",
+        "score": 24,
+        "position": 4,
+        "gameListId": 1010,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2254,
+        "gameTitle": "Tera",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2011-01-25T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6g4n.jpg",
+        "score": 21,
+        "position": 15,
+        "gameListId": 1011,
+        "finalGameListId": 63
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-mmorpg/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Rockpapershotgun",
+        "sourceUrl": "https://www.rockpapershotgun.com/best-mmos-mmorpgs",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/game/all/mmorpg/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thegamer",
+        "sourceUrl": "https://www.thegamer.com/best-mmorpgs-ever-wow-runescape/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/top-10-mmorpgs",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Insider-gaming",
+        "sourceUrl": "https://insider-gaming.com/5-best-mmorpgs-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Ranker",
+        "sourceUrl": "https://www.ranker.com/list/all-mmorpgs-list/reference",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "One37pm",
+        "sourceUrl": "https://www.one37pm.com/gaming/best-mmorpg-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Beebom",
+        "sourceUrl": "https://beebom.com/15-best-mmorpgs/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nerdmuch",
+        "sourceUrl": "https://www.nerdmuch.com/games/best-mmos/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 125,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

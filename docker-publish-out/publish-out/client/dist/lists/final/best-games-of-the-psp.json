@@ -1,0 +1,312 @@
+{
+  "syncedAt": "2026-04-15T11:36:05.0205712Z",
+  "slug": "best-games-of-the-psp",
+  "type": 0,
+  "totalItems": 5,
+  "data": {
+    "finalGameList": {
+      "id": 71,
+      "title": "Best Games of the PSP",
+      "year": null,
+      "slug": "best-games-of-the-psp",
+      "fullName": "Best Games of the PSP",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, console, playstation, handheld",
+      "tagList": [
+        "all time",
+        "console",
+        "playstation",
+        "handheld"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of The PS Vita",
+          "sourceUrl": "best-games-of-the-ps-vita",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1615,
+        "gameTitle": "Metal Gear Solid: Peace Walker",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2010-04-29T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ejw.jpg",
+        "score": 70,
+        "position": 1,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1616,
+        "gameTitle": "God of War: Ghost of Sparta",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2010-11-02T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dio.jpg",
+        "score": 56,
+        "position": 8,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1624,
+        "gameTitle": "Final Fantasy Tactics: The War of the Lions",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2007-05-08T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pn8.jpg",
+        "score": 43,
+        "position": 2,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 745,
+        "gameTitle": "Persona 3 Portable",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2009-11-01T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1z.jpg",
+        "score": 32,
+        "position": 4,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1677,
+        "gameTitle": "Kingdom Hearts Birth by Sleep",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2010-01-09T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ych.jpg",
+        "score": 31,
+        "position": 7,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1619,
+        "gameTitle": "Grand Theft Auto: Vice City Stories",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2006-10-31T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lc8.jpg",
+        "score": 30,
+        "position": 6,
+        "gameListId": 700,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1676,
+        "gameTitle": "Monster Hunter Freedom Unite",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2008-03-27T00:00:00Z",
+        "releaseYear": 2008,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hcz.jpg",
+        "score": 27,
+        "position": 3,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1620,
+        "gameTitle": "Crisis Core: Final Fantasy VII",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2007-09-13T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1trb.jpg",
+        "score": 26,
+        "position": 6,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1617,
+        "gameTitle": "Daxter",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-03-14T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pn3.jpg",
+        "score": 26,
+        "position": 10,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1124,
+        "gameTitle": "Lumines",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2004-12-12T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53gv.jpg",
+        "score": 23,
+        "position": 5,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1626,
+        "gameTitle": "LocoRoco 2",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2008-11-21T00:00:00Z",
+        "releaseYear": 2008,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nfu.jpg",
+        "score": 21,
+        "position": 13,
+        "gameListId": 700,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1115,
+        "gameTitle": "Grand Theft Auto: Liberty City Stories",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2005-10-25T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbg.jpg",
+        "score": 18,
+        "position": 9,
+        "gameListId": 711,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1623,
+        "gameTitle": "Castlevania: The Dracula X Chronicles",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-10-23T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pn1.jpg",
+        "score": 17,
+        "position": 5,
+        "gameListId": 712,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1614,
+        "gameTitle": "Lumines: Puzzle Fusion",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2007-11-28T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1we1.jpg",
+        "score": 16,
+        "position": 1,
+        "gameListId": 700,
+        "finalGameListId": 71
+      },
+      {
+        "gameId": 1625,
+        "gameTitle": "Valkyria Chronicles 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2010-01-21T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zm.jpg",
+        "score": 16,
+        "position": 12,
+        "gameListId": 700,
+        "finalGameListId": 71
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/the-10-best-psp-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-psp-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-psp-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gaming Gorilla",
+        "sourceUrl": "https://gaminggorilla.com/best-psp-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-psp-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 55,
+        "porcentageOfContributions": 79
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 21
+      }
+    ]
+  }
+}

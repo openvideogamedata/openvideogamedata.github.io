@@ -1,0 +1,1174 @@
+{
+  "syncedAt": "2026-04-15T10:54:02.0224222Z",
+  "slug": "best-games-of-2022",
+  "type": 1,
+  "totalItems": 11,
+  "data": [
+    {
+      "id": 286,
+      "byUser": false,
+      "sourceListUrl": "https://www.polygon.com/what-to-play/22956981/best-games-2022-list",
+      "dateAdded": "2023-04-01T20:58:43.300544Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 133,
+        "name": "Polygon",
+        "hostUrl": "www.polygon.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 624,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 623,
+          "position": 2,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 622,
+          "position": 3,
+          "gameTitle": "The Case of the Golden Idol",
+          "gameId": 251,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 621,
+          "position": 4,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 620,
+          "position": 5,
+          "gameTitle": "Fortnite",
+          "gameId": 253,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 619,
+          "position": 6,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 618,
+          "position": 7,
+          "gameTitle": "Marvel Snap",
+          "gameId": 255,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 617,
+          "position": 8,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 616,
+          "position": 9,
+          "gameTitle": "PowerWash Simulator",
+          "gameId": 258,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 615,
+          "position": 10,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 614,
+          "position": 11,
+          "gameTitle": "Strange Horticulture",
+          "gameId": 259,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 613,
+          "position": 12,
+          "gameTitle": "Signalis",
+          "gameId": 260,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 612,
+          "position": 13,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 611,
+          "position": 14,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 610,
+          "position": 15,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 288,
+      "byUser": false,
+      "sourceListUrl": "https://www.theguardian.com/culture/2022/dec/21/the-20-best-video-games-of-2022",
+      "dateAdded": "2023-04-01T23:41:43.842067Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 145,
+        "name": "The Guardian",
+        "hostUrl": "www.theguardian.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 640,
+          "position": 1,
+          "gameTitle": "Wordle",
+          "gameId": 270,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 641,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 642,
+          "position": 3,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 643,
+          "position": 4,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 644,
+          "position": 5,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 645,
+          "position": 6,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 646,
+          "position": 7,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 647,
+          "position": 8,
+          "gameTitle": "Cult of the Lamb",
+          "gameId": 273,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 648,
+          "position": 9,
+          "gameTitle": "The Case of the Golden Idol",
+          "gameId": 251,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 649,
+          "position": 10,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 650,
+          "position": 11,
+          "gameTitle": "Nintendo Switch Sports",
+          "gameId": 275,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 651,
+          "position": 12,
+          "gameTitle": "Total War: Warhammer III",
+          "gameId": 276,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 652,
+          "position": 13,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 653,
+          "position": 14,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 654,
+          "position": 15,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/the-best-games-of-2022",
+      "dateAdded": "2023-04-01T23:45:30.453595Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 655,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 656,
+          "position": 2,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 657,
+          "position": 3,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 658,
+          "position": 4,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 659,
+          "position": 5,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 660,
+          "position": 6,
+          "gameTitle": "Rollerdrome",
+          "gameId": 277,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 661,
+          "position": 7,
+          "gameTitle": "Mothmen 1966",
+          "gameId": 278,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 662,
+          "position": 8,
+          "gameTitle": "Roadwarden",
+          "gameId": 279,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 663,
+          "position": 9,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 664,
+          "position": 10,
+          "gameTitle": "Signalis",
+          "gameId": 260,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 665,
+          "position": 11,
+          "gameTitle": "OlliOlli World",
+          "gameId": 280,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 666,
+          "position": 12,
+          "gameTitle": "Saturnalia",
+          "gameId": 281,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 667,
+          "position": 13,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 668,
+          "position": 14,
+          "gameTitle": "The Excavation of Hob\u0027s Barrow",
+          "gameId": 282,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 669,
+          "position": 15,
+          "gameTitle": "Strange Horticulture",
+          "gameId": 259,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 290,
+      "byUser": false,
+      "sourceListUrl": "https://kotaku.com/goty-best-games-2022-elden-ring-god-war-ragnarok-marvel-1849934499",
+      "dateAdded": "2023-04-01T23:47:58.870702Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 147,
+        "name": "Kotaku",
+        "hostUrl": "kotaku.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 670,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 671,
+          "position": 2,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 672,
+          "position": 3,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 673,
+          "position": 4,
+          "gameTitle": "Marvel Snap",
+          "gameId": 255,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 674,
+          "position": 5,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 675,
+          "position": 6,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 676,
+          "position": 7,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 677,
+          "position": 8,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 678,
+          "position": 9,
+          "gameTitle": "Signalis",
+          "gameId": 260,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 679,
+          "position": 10,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 291,
+      "byUser": false,
+      "sourceListUrl": "https://areajugones.sport.es/videojuegos/god-of-war-ragnarok-se-lleva-el-goty-2022-en-los-premios-titanium-de-la-big-conference/",
+      "dateAdded": "2023-04-02T00:26:50.658371Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 148,
+        "name": "Areajugones",
+        "hostUrl": "areajugones.sport.es"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 680,
+          "position": 1,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 15
+        }
+      ]
+    },
+    {
+      "id": 292,
+      "byUser": false,
+      "sourceListUrl": "https://entertainment.ie/gaming/best-games-of-2022-547491/",
+      "dateAdded": "2023-04-02T00:46:11.218158Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 149,
+        "name": "Entertainment",
+        "hostUrl": "entertainment.ie"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 681,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 682,
+          "position": 2,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 683,
+          "position": 3,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 684,
+          "position": 4,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 685,
+          "position": 5,
+          "gameTitle": "Cult of the Lamb",
+          "gameId": 273,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 686,
+          "position": 6,
+          "gameTitle": "The Quarry",
+          "gameId": 283,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 687,
+          "position": 7,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 688,
+          "position": 8,
+          "gameTitle": "Sifu",
+          "gameId": 284,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 689,
+          "position": 9,
+          "gameTitle": "Weird West",
+          "gameId": 285,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 690,
+          "position": 10,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 293,
+      "byUser": false,
+      "sourceListUrl": "https://www.xataka.com/seleccion/ganadores-premios-xataka-orange-2022-oferta-black-friday",
+      "dateAdded": "2023-04-02T00:46:48.063491Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 150,
+        "name": "Xataka",
+        "hostUrl": "www.xataka.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 691,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 692,
+          "position": 2,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 14
+        }
+      ]
+    },
+    {
+      "id": 294,
+      "byUser": false,
+      "sourceListUrl": "https://www.pocket-lint.com/gadgets/news/144227-pocket-lint-gadget-awards-date-details-tickets-voting/",
+      "dateAdded": "2023-04-02T00:47:17.714552Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 151,
+        "name": "Pocket-lint",
+        "hostUrl": "www.pocket-lint.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 693,
+          "position": 1,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 694,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "byUser": false,
+      "sourceListUrl": "https://www.digitaltrends.com/gaming/best-video-games-2022-top-10/",
+      "dateAdded": "2023-04-02T00:48:40.125378Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 152,
+        "name": "Digitaltrends",
+        "hostUrl": "www.digitaltrends.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 695,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 696,
+          "position": 2,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 697,
+          "position": 3,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 698,
+          "position": 4,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 699,
+          "position": 5,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 700,
+          "position": 6,
+          "gameTitle": "The Stanley Parable: Ultra Deluxe",
+          "gameId": 286,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 701,
+          "position": 7,
+          "gameTitle": "Marvel Snap",
+          "gameId": 255,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 702,
+          "position": 8,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 703,
+          "position": 9,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 704,
+          "position": 10,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 296,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/features/the-25-best-video-games-of-2022/",
+      "dateAdded": "2023-04-02T00:50:08.83343Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 719,
+          "position": 1,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 718,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 717,
+          "position": 3,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 716,
+          "position": 4,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 715,
+          "position": 5,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 714,
+          "position": 6,
+          "gameTitle": "Patrick\u0027s Parabox",
+          "gameId": 287,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 713,
+          "position": 7,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 712,
+          "position": 8,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 711,
+          "position": 9,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 710,
+          "position": 10,
+          "gameTitle": "Betrayal At Club Low",
+          "gameId": 288,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 709,
+          "position": 11,
+          "gameTitle": "Wayward Strand",
+          "gameId": 289,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 708,
+          "position": 12,
+          "gameTitle": "Signalis",
+          "gameId": 260,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 707,
+          "position": 13,
+          "gameTitle": "Faith: The Unholy Trinity",
+          "gameId": 290,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 706,
+          "position": 14,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 705,
+          "position": 15,
+          "gameTitle": "Teenage Mutant Ninja Turtles: Shredder\u0027s Revenge",
+          "gameId": 291,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 297,
+      "byUser": false,
+      "sourceListUrl": "https://www.nme.com/features/gaming-features/the-20-best-games-of-2022-3360445",
+      "dateAdded": "2023-04-02T00:54:41.698341Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 154,
+        "name": "Nme",
+        "hostUrl": "www.nme.com"
+      },
+      "finalGameList": {
+        "id": 51,
+        "title": "Best Games of",
+        "year": 2022,
+        "slug": "best-games-of-2022",
+        "fullName": "Best Games of 2022"
+      },
+      "items": [
+        {
+          "id": 734,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 733,
+          "position": 2,
+          "gameTitle": "Total War: Warhammer III",
+          "gameId": 276,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 732,
+          "position": 3,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 731,
+          "position": 4,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 730,
+          "position": 5,
+          "gameTitle": "Call of Duty: Modern Warfare 2",
+          "gameId": 292,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 729,
+          "position": 6,
+          "gameTitle": "Marvel Snap",
+          "gameId": 255,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 728,
+          "position": 7,
+          "gameTitle": "Sniper Elite 5",
+          "gameId": 293,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 727,
+          "position": 8,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 726,
+          "position": 9,
+          "gameTitle": "Sifu",
+          "gameId": 284,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 725,
+          "position": 10,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 724,
+          "position": 11,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 723,
+          "position": 12,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 722,
+          "position": 13,
+          "gameTitle": "As Dusk Falls",
+          "gameId": 294,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 721,
+          "position": 14,
+          "gameTitle": "Hardspace: Shipbreaker",
+          "gameId": 295,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 720,
+          "position": 15,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

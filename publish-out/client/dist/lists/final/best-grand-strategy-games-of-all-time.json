@@ -1,0 +1,363 @@
+{
+  "syncedAt": "2026-04-15T11:35:56.7786071Z",
+  "slug": "best-grand-strategy-games-of-all-time",
+  "type": 0,
+  "totalItems": 6,
+  "data": {
+    "finalGameList": {
+      "id": 67,
+      "title": "Best Grand Strategy Games of All Time",
+      "year": null,
+      "slug": "best-grand-strategy-games-of-all-time",
+      "fullName": "Best Grand Strategy Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RTS Games of All Time",
+          "sourceUrl": "best-real-time-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Walking Simulator Games of All Time",
+          "sourceUrl": "best-walking-simulator-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Open-World Games of All Time",
+          "sourceUrl": "best-open-world-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Action/Adventure Games of All Time",
+          "sourceUrl": "best-action-adventure-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best MMORPG Games of All Time",
+          "sourceUrl": "best-mmorpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1538,
+        "gameTitle": "Europa Universalis IV",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-08-13T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rby.jpg",
+        "score": 82,
+        "position": 3,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 962,
+        "gameTitle": "Crusader Kings III",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-09-01T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g3i.jpg",
+        "score": 80,
+        "position": 1,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1540,
+        "gameTitle": "Stellaris",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-05-09T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r75.jpg",
+        "score": 70,
+        "position": 5,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1541,
+        "gameTitle": "Hearts of Iron IV",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-06-06T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1j86.jpg",
+        "score": 59,
+        "position": 6,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1539,
+        "gameTitle": "Total War: Warhammer II",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2017-09-28T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co23go.jpg",
+        "score": 39,
+        "position": 4,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1549,
+        "gameTitle": "Victoria II",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2010-08-13T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zs1.jpg",
+        "score": 32,
+        "position": 13,
+        "gameListId": 664,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1299,
+        "gameTitle": "Sid Meier\u0027s Civilization VI",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2016-10-20T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5r54.jpg",
+        "score": 27,
+        "position": 2,
+        "gameListId": 663,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 276,
+        "gameTitle": "Total War: Warhammer III",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2022-02-17T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rze.jpg",
+        "score": 27,
+        "position": 1,
+        "gameListId": 665,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1543,
+        "gameTitle": "Total War: Shogun 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2011-03-15T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rpy.jpg",
+        "score": 25,
+        "position": 1,
+        "gameListId": 664,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1556,
+        "gameTitle": "Imperator: Rome",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2019-04-25T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22lq.jpg",
+        "score": 20,
+        "position": 3,
+        "gameListId": 666,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1553,
+        "gameTitle": "Field of Glory: Empires",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2019-07-11T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q54.jpg",
+        "score": 16,
+        "position": 9,
+        "gameListId": 665,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1555,
+        "gameTitle": "Age of History II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2018-11-21T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xud.jpg",
+        "score": 14,
+        "position": 8,
+        "gameListId": 665,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1544,
+        "gameTitle": "Total War: Rome II",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2013-09-03T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qs5.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 664,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1557,
+        "gameTitle": "Terra Invicta",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2022-09-26T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wxb.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 666,
+        "finalGameListId": 67
+      },
+      {
+        "gameId": 1051,
+        "gameTitle": "Total War: Three Kingdoms",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 17,
+        "firstReleaseDate": "2019-05-23T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rdc.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 668,
+        "finalGameListId": 67
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/best-grand-strategy-games-ever-made/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CBR",
+        "sourceUrl": "https://www.cbr.com/best-grand-strategy-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Dualshockers",
+        "sourceUrl": "https://www.dualshockers.com/best-grand-strategy-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Wargamer",
+        "sourceUrl": "https://www.wargamer.com/best-grand-strategy-games-pc",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-grand-strategy-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Bosslevelgamer",
+        "sourceUrl": "https://bosslevelgamer.com/best-grand-strategy-games-that-can-fulfill-your-world-domination-fantasies-1991",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 66,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

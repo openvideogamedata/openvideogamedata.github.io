@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:28.4981679Z",
+  "slug": "best-games-of-the-game-boy-color",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 65,
+    "title": "Best Games of The Game Boy Color",
+    "year": null,
+    "numberOfGames": 24,
+    "numberOfSources": 3,
+    "slug": "best-games-of-the-game-boy-color",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1430,
+        "gameTitle": "The Legend of Zelda: Oracle of Ages",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2001-02-27T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2tw1.jpg",
+        "score": 43,
+        "position": 2,
+        "gameListId": 1024,
+        "finalGameListId": 65
+      },
+      {
+        "gameId": 1509,
+        "gameTitle": "Pok\u00E9mon Gold Version",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1999-11-21T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pia.jpg",
+        "score": 34,
+        "position": 4,
+        "gameListId": 1024,
+        "finalGameListId": 65
+      },
+      {
+        "gameId": 2271,
+        "gameTitle": "The Legend of Zelda: Link\u0027s Awakening DX",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "1998-12-12T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4o47.jpg",
+        "score": 27,
+        "position": 1,
+        "gameListId": 1024,
+        "finalGameListId": 65
+      },
+      {
+        "gameId": 2274,
+        "gameTitle": "Wario Land 3",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2000-03-21T00:00:00Z",
+        "releaseYear": 2000,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qgc.jpg",
+        "score": 25,
+        "position": 6,
+        "gameListId": 1024,
+        "finalGameListId": 65
+      }
+    ]
+  }
+}

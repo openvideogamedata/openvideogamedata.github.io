@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:26.7007788Z",
+  "slug": "best-mmorpg-games-of-all-time",
+  "type": 0,
+  "totalItems": 10,
+  "data": {
+    "id": 63,
+    "title": "Best MMORPG Games of All Time",
+    "year": null,
+    "numberOfGames": 51,
+    "numberOfSources": 10,
+    "slug": "best-mmorpg-games-of-all-time",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 514,
+        "gameTitle": "World of Warcraft",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2004-11-23T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7z.jpg",
+        "score": 130,
+        "position": 2,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2231,
+        "gameTitle": "The Elder Scrolls Online",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2014-04-04T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybf.jpg",
+        "score": 87,
+        "position": 3,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 963,
+        "gameTitle": "Final Fantasy XIV Online",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2010-09-30T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1trg.jpg",
+        "score": 84,
+        "position": 1,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      },
+      {
+        "gameId": 2234,
+        "gameTitle": "Guild Wars 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2012-08-18T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54tr.jpg",
+        "score": 76,
+        "position": 6,
+        "gameListId": 1008,
+        "finalGameListId": 63
+      }
+    ]
+  }
+}

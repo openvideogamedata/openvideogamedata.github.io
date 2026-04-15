@@ -1,0 +1,640 @@
+{
+  "syncedAt": "2026-04-15T11:36:08.7697675Z",
+  "slug": "best-open-world-games-of-all-time",
+  "type": 0,
+  "totalItems": 18,
+  "data": {
+    "finalGameList": {
+      "id": 73,
+      "title": "Best Open-World Games of All Time",
+      "year": null,
+      "slug": "best-open-world-games-of-all-time",
+      "fullName": "Best Open-World Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Grand Strategy Games of All Time",
+          "sourceUrl": "best-grand-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RTS Games of All Time",
+          "sourceUrl": "best-real-time-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Walking Simulator Games of All Time",
+          "sourceUrl": "best-walking-simulator-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Action/Adventure Games of All Time",
+          "sourceUrl": "best-action-adventure-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best MMORPG Games of All Time",
+          "sourceUrl": "best-mmorpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 16,
+        "porcentageOfCitations": 94,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 177,
+        "position": 7,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 23,
+        "gameTitle": "The Legend of Zelda: Breath of the Wild",
+        "trackStatus": 0,
+        "citations": 15,
+        "porcentageOfCitations": 88,
+        "firstReleaseDate": "2017-03-03T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+        "score": 168,
+        "position": 6,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 13,
+        "porcentageOfCitations": 76,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 160,
+        "position": 5,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 71,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 149,
+        "position": 3,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 13,
+        "porcentageOfCitations": 76,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 145,
+        "position": 1,
+        "gameListId": 714,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 392,
+        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 65,
+        "firstReleaseDate": "2011-11-10T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg",
+        "score": 116,
+        "position": 1,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 331,
+        "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2015-09-01T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg",
+        "score": 77,
+        "position": 10,
+        "gameListId": 714,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 349,
+        "gameTitle": "Marvel\u0027s Spider-Man",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 59,
+        "firstReleaseDate": "2018-09-07T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg",
+        "score": 71,
+        "position": 12,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 66,
+        "position": 4,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 201,
+        "gameTitle": "Minecraft",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 41,
+        "firstReleaseDate": "2011-11-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49x5.jpg",
+        "score": 57,
+        "position": 2,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 484,
+        "gameTitle": "Fallout: New Vegas",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "2010-10-19T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1u60.jpg",
+        "score": 52,
+        "position": 6,
+        "gameListId": 714,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 322,
+        "gameTitle": "Red Dead Redemption",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 24,
+        "firstReleaseDate": "2010-05-18T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcv.jpg",
+        "score": 52,
+        "position": 6,
+        "gameListId": 718,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 327,
+        "gameTitle": "Batman: Arkham City",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "2011-10-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voh.jpg",
+        "score": 48,
+        "position": 11,
+        "gameListId": 714,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1401,
+        "gameTitle": "Assassin\u0027s Creed IV Black Flag",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 35,
+        "firstReleaseDate": "2013-10-29T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4qfn.jpg",
+        "score": 43,
+        "position": 9,
+        "gameListId": 713,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 17,
+        "gameTitle": "Horizon Forbidden West",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "2022-02-18T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gvu.jpg",
+        "score": 42,
+        "position": 6,
+        "gameListId": 715,
+        "finalGameListId": 73
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 306,
+        "gameTitle": "Shadow of the Colossus",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2005-10-18T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ozz.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 411,
+        "gameTitle": "Yakuza 0",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2015-03-12T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co252x.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1841,
+        "gameTitle": "Outward: Definitive Edition",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2022-05-17T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rn0.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1470,
+        "gameTitle": "Yakuza Kiwami",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-01-21T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pbc.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1849,
+        "gameTitle": "Yakuza 5 Remastered",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-06-20T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s11.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1842,
+        "gameTitle": "Yakuza 6: The Song of Life",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-12-08T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co492w.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1845,
+        "gameTitle": "Yakuza Kiwami 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-12-07T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22ss.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1848,
+        "gameTitle": "Yakuza 4 Remastered",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-01-17T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s10.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1847,
+        "gameTitle": "Yakuza 3 Remastered",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-08-09T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26ar.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1853,
+        "gameTitle": "Lost Judgment: Digital Ultimate Edition",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2021-09-21T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3x7k.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 2072,
+        "gameTitle": "Like a Dragon Gaiden: The Man Who Erased His Name",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-11-09T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ln4.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1850,
+        "gameTitle": "Like a Dragon: Ishin!",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-02-21T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59yh.jpg",
+        "score": 4,
+        "position": 12,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 758,
+        "gameTitle": "Judgment",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-12-13T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rqt.jpg",
+        "score": 3,
+        "position": 13,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 1129,
+        "gameTitle": "The Elder Scrolls IV: Oblivion",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-03-20T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tc8.jpg",
+        "score": 2,
+        "position": 14,
+        "gameListId": 786,
+        "finalGameListId": 73
+      },
+      {
+        "gameId": 2073,
+        "gameTitle": "Yakuza: Dead Souls",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-06-09T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xqj.jpg",
+        "score": 1,
+        "position": 15,
+        "gameListId": 786,
+        "finalGameListId": 73
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "sources": [
+      {
+        "sourceName": "Highgroundgaming",
+        "sourceUrl": "https://www.highgroundgaming.com/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Denofgeek",
+        "sourceUrl": "https://www.denofgeek.com/games/best-open-world-games-ever/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Rockpapershotgun",
+        "sourceUrl": "https://www.rockpapershotgun.com/the-best-open-world-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/best-open-world-games-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/the-10-best-open-world-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CBR",
+        "sourceUrl": "https://www.cbr.com/beautiful-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gameranx",
+        "sourceUrl": "https://gameranx.com/features/id/6335/article/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "History-computer",
+        "sourceUrl": "https://history-computer.com/the-8-absolute-best-open-world-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Destructoid",
+        "sourceUrl": "https://www.destructoid.com/best-open-world-games-out-right-now-ranked/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Fictionhorizon",
+        "sourceUrl": "https://fictionhorizon.com/50-best-open-world-games-of-all-time-2021-updated/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Watchmojo",
+        "sourceUrl": "https://www.watchmojo.com/articles/top-20-open-world-video-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Whatculture",
+        "sourceUrl": "https://whatculture.com/gaming/10-greatest-open-world-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Tom\u0027s Guide",
+        "sourceUrl": "https://www.tomsguide.com/best-picks/best-open-world-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thetoptens",
+        "sourceUrl": "https://www.thetoptens.com/games/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gaming",
+        "sourceUrl": "https://gaming.myotakuworld.com/list/best-open-world-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 1,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 223,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:38.3631942Z",
+  "slug": "best-real-time-strategy-games-of-all-time",
+  "type": 0,
+  "totalItems": 19,
+  "data": {
+    "id": 74,
+    "title": "Best RTS Games of All Time",
+    "year": null,
+    "numberOfGames": 95,
+    "numberOfSources": 19,
+    "slug": "best-real-time-strategy-games-of-all-time",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1173,
+        "gameTitle": "StarCraft II: Wings of Liberty",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2010-07-27T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jpg",
+        "score": 122,
+        "position": 4,
+        "gameListId": 759,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1130,
+        "gameTitle": "Company of Heroes",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 58,
+        "firstReleaseDate": "2006-09-12T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ht7.jpg",
+        "score": 116,
+        "position": 3,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1103,
+        "gameTitle": "Warcraft III: Reign of Chaos",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2002-07-03T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xuq.jpg",
+        "score": 111,
+        "position": 5,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1079,
+        "gameTitle": "Age of Empires II: The Age of Kings",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 47,
+        "firstReleaseDate": "1999-09-30T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55xo.jpg",
+        "score": 98,
+        "position": 12,
+        "gameListId": 759,
+        "finalGameListId": 74
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:29.7480361Z",
+  "slug": "best-rpg-games-of-all-time",
+  "type": 0,
+  "totalItems": 14,
+  "data": {
+    "id": 66,
+    "title": "Best RPG Games of All Time",
+    "year": null,
+    "numberOfGames": 68,
+    "numberOfSources": 14,
+    "slug": "best-rpg-games-of-all-time",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 519,
+        "gameTitle": "Chrono Trigger",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 69,
+        "firstReleaseDate": "1995-03-11T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg",
+        "score": 115,
+        "position": 1,
+        "gameListId": 644,
+        "finalGameListId": 66
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 109,
+        "position": 10,
+        "gameListId": 644,
+        "finalGameListId": 66
+      },
+      {
+        "gameId": 392,
+        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "2011-11-10T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg",
+        "score": 88,
+        "position": 13,
+        "gameListId": 649,
+        "finalGameListId": 66
+      },
+      {
+        "gameId": 334,
+        "gameTitle": "Mass Effect 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "2010-01-26T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jpg",
+        "score": 77,
+        "position": 11,
+        "gameListId": 644,
+        "finalGameListId": 66
+      }
+    ]
+  }
+}

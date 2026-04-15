@@ -1,0 +1,552 @@
+{
+  "syncedAt": "2026-04-15T10:44:29.4791138Z",
+  "slug": "best-games-of-the-mega-drive",
+  "type": 1,
+  "totalItems": 4,
+  "data": [
+    {
+      "id": 462,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-sega-mega-drive-games/",
+      "dateAdded": "2023-05-30T13:35:40.740143Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 2674,
+          "position": 1,
+          "gameTitle": "Sonic the Hedgehog 2",
+          "gameId": 846,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2675,
+          "position": 2,
+          "gameTitle": "Rocket Knight Adventures",
+          "gameId": 847,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2676,
+          "position": 3,
+          "gameTitle": "Combat Cars",
+          "gameId": 848,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2677,
+          "position": 4,
+          "gameTitle": "James Pond 2: Codename - RoboCod",
+          "gameId": 849,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2678,
+          "position": 5,
+          "gameTitle": "QuackShot: Starring Donald Duck",
+          "gameId": 850,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2679,
+          "position": 6,
+          "gameTitle": "Streets of Rage 2",
+          "gameId": 851,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2680,
+          "position": 7,
+          "gameTitle": "Comix Zone",
+          "gameId": 852,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2681,
+          "position": 8,
+          "gameTitle": "Shinobi III: Return of the Ninja Master",
+          "gameId": 853,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2682,
+          "position": 9,
+          "gameTitle": "WWF Raw",
+          "gameId": 854,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2683,
+          "position": 10,
+          "gameTitle": "Probotector",
+          "gameId": 855,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2684,
+          "position": 11,
+          "gameTitle": "Taz in Escape From Mars",
+          "gameId": 856,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2685,
+          "position": 12,
+          "gameTitle": "Mega Bomberman",
+          "gameId": 857,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2686,
+          "position": 13,
+          "gameTitle": "Sonic the Hedgehog 3",
+          "gameId": 858,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2687,
+          "position": 14,
+          "gameTitle": "Earthworm Jim 2",
+          "gameId": 859,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2688,
+          "position": 15,
+          "gameTitle": "ToeJam \u0026 Earl",
+          "gameId": 860,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1028,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-sega-genesis-games-ever-all-time/",
+      "dateAdded": "2024-05-01T14:38:53.328624Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 10765,
+          "position": 1,
+          "gameTitle": "Sonic the Hedgehog 3 \u0026 Knuckles",
+          "gameId": 2309,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10766,
+          "position": 2,
+          "gameTitle": "Phantasy Star IV: The End of the Millennium",
+          "gameId": 2310,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10767,
+          "position": 3,
+          "gameTitle": "Gunstar Heroes",
+          "gameId": 2311,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10768,
+          "position": 4,
+          "gameTitle": "Monster World IV",
+          "gameId": 2312,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10769,
+          "position": 5,
+          "gameTitle": "Sonic the Hedgehog 2",
+          "gameId": 846,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10770,
+          "position": 6,
+          "gameTitle": "Shinobi III: Return of the Ninja Master",
+          "gameId": 853,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10771,
+          "position": 7,
+          "gameTitle": "Beyond Oasis",
+          "gameId": 2313,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10772,
+          "position": 8,
+          "gameTitle": "Castlevania: Bloodlines",
+          "gameId": 2314,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10773,
+          "position": 9,
+          "gameTitle": "Streets of Rage 2",
+          "gameId": 851,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10774,
+          "position": 10,
+          "gameTitle": "ToeJam \u0026 Earl",
+          "gameId": 860,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10775,
+          "position": 11,
+          "gameTitle": "Contra: Hard Corps",
+          "gameId": 2315,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10776,
+          "position": 12,
+          "gameTitle": "Mortal Kombat II",
+          "gameId": 836,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10777,
+          "position": 13,
+          "gameTitle": "NHL \u002794",
+          "gameId": 2316,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10778,
+          "position": 14,
+          "gameTitle": "Dr. Robotnik\u0027s Mean Bean Machine",
+          "gameId": 2317,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10779,
+          "position": 15,
+          "gameTitle": "Vectorman",
+          "gameId": 1269,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1221,
+      "byUser": false,
+      "sourceListUrl": "https://www.retrogamesnow.co.uk/top-10-sega-megadrive-genesis-games/",
+      "dateAdded": "2025-11-19T20:25:09.614825Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 463,
+        "name": "Retrogamesnow",
+        "hostUrl": "www.retrogamesnow.co.uk"
+      },
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 12407,
+          "position": 1,
+          "gameTitle": "Sonic the Hedgehog 2",
+          "gameId": 846,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12408,
+          "position": 2,
+          "gameTitle": "Streets of Rage 2",
+          "gameId": 851,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12409,
+          "position": 3,
+          "gameTitle": "Phantasy Star IV: The End of the Millennium",
+          "gameId": 2310,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12410,
+          "position": 4,
+          "gameTitle": "Gunstar Heroes",
+          "gameId": 2311,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12411,
+          "position": 5,
+          "gameTitle": "Street Fighter II",
+          "gameId": 425,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12412,
+          "position": 6,
+          "gameTitle": "Rocket Knight Adventures",
+          "gameId": 847,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12413,
+          "position": 7,
+          "gameTitle": "The Revenge of Shinobi",
+          "gameId": 3054,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12414,
+          "position": 8,
+          "gameTitle": "Strider",
+          "gameId": 3055,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12415,
+          "position": 9,
+          "gameTitle": "Golden Axe II",
+          "gameId": 3056,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12416,
+          "position": 10,
+          "gameTitle": "Aero Blasters",
+          "gameId": 3057,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1222,
+      "byUser": false,
+      "sourceListUrl": "https://retro-sanctuary.com/Top-100-Megadrive-Games-Page-4.html",
+      "dateAdded": "2025-11-19T20:25:11.500579Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 159,
+        "name": "Retro-sanctuary",
+        "hostUrl": "retro-sanctuary.com"
+      },
+      "finalGameList": {
+        "id": 7,
+        "title": "Best Games of the Mega Drive",
+        "year": null,
+        "slug": "best-games-of-the-mega-drive",
+        "fullName": "Best Games of the Mega Drive"
+      },
+      "items": [
+        {
+          "id": 12417,
+          "position": 1,
+          "gameTitle": "Sonic the Hedgehog 3",
+          "gameId": 858,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12418,
+          "position": 2,
+          "gameTitle": "Phantasy Star IV: The End of the Millennium",
+          "gameId": 2310,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12419,
+          "position": 3,
+          "gameTitle": "Gunstar Heroes",
+          "gameId": 2311,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12420,
+          "position": 4,
+          "gameTitle": "Street Fighter II: Champion Edition",
+          "gameId": 3048,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12421,
+          "position": 5,
+          "gameTitle": "Landstalker",
+          "gameId": 3049,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12422,
+          "position": 6,
+          "gameTitle": "Thunder Force IV",
+          "gameId": 3050,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12423,
+          "position": 7,
+          "gameTitle": "Ristar",
+          "gameId": 1196,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12424,
+          "position": 8,
+          "gameTitle": "Shining Force II",
+          "gameId": 3051,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12425,
+          "position": 9,
+          "gameTitle": "Herzog Zwei",
+          "gameId": 3052,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12426,
+          "position": 10,
+          "gameTitle": "Contra: Hard Corps",
+          "gameId": 2315,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12427,
+          "position": 11,
+          "gameTitle": "Monster World IV",
+          "gameId": 2312,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12428,
+          "position": 12,
+          "gameTitle": "Beyond Oasis",
+          "gameId": 2313,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12429,
+          "position": 13,
+          "gameTitle": "Streets of Rage 2",
+          "gameId": 851,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12430,
+          "position": 14,
+          "gameTitle": "Dune II: The Building of a Dynasty",
+          "gameId": 1813,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12431,
+          "position": 15,
+          "gameTitle": "YuYu Hakusho",
+          "gameId": 3053,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

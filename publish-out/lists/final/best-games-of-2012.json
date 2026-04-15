@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:56.3312645Z",
+  "slug": "best-games-of-2012",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 33,
+    "title": "Best Games of",
+    "year": 2012,
+    "numberOfGames": 17,
+    "numberOfSources": 2,
+    "slug": "best-games-of-2012",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 437,
+        "gameTitle": "The Walking Dead: Season One",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-04-24T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2j1g.jpg",
+        "score": 27,
+        "position": 2,
+        "gameListId": 537,
+        "finalGameListId": 33
+      },
+      {
+        "gameId": 868,
+        "gameTitle": "Far Cry 3",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-11-28T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.jpg",
+        "score": 24,
+        "position": 3,
+        "gameListId": 537,
+        "finalGameListId": 33
+      },
+      {
+        "gameId": 332,
+        "gameTitle": "Journey",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-03-13T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8q.jpg",
+        "score": 24,
+        "position": 6,
+        "gameListId": 537,
+        "finalGameListId": 33
+      },
+      {
+        "gameId": 1180,
+        "gameTitle": "Mass Effect 3",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-03-06T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7q.jpg",
+        "score": 21,
+        "position": 5,
+        "gameListId": 537,
+        "finalGameListId": 33
+      }
+    ]
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "syncedAt": "2026-04-15T10:44:26.2638972Z",
+  "slug": "best-games-of-the-atari",
+  "type": 1,
+  "totalItems": 4,
+  "data": [
+    {
+      "id": 473,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-atari-2600-games/",
+      "dateAdded": "2023-05-31T14:33:07.477365Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 4,
+        "title": "Best Games of the Atari",
+        "year": null,
+        "slug": "best-games-of-the-atari",
+        "fullName": "Best Games of the Atari"
+      },
+      "items": [
+        {
+          "id": 2776,
+          "position": 1,
+          "gameTitle": "Pitfall!",
+          "gameId": 809,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2777,
+          "position": 2,
+          "gameTitle": "Donkey Kong",
+          "gameId": 898,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2778,
+          "position": 3,
+          "gameTitle": "Ms. Pac-Man",
+          "gameId": 511,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2779,
+          "position": 4,
+          "gameTitle": "Space Invaders",
+          "gameId": 899,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2780,
+          "position": 5,
+          "gameTitle": "Mario Bros.",
+          "gameId": 900,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2781,
+          "position": 6,
+          "gameTitle": "Jungle Hunt",
+          "gameId": 901,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2782,
+          "position": 7,
+          "gameTitle": "Q*bert",
+          "gameId": 902,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2783,
+          "position": 8,
+          "gameTitle": "Frogger",
+          "gameId": 903,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2784,
+          "position": 9,
+          "gameTitle": "River Raid",
+          "gameId": 904,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2785,
+          "position": 10,
+          "gameTitle": "Dig Dug",
+          "gameId": 905,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2786,
+          "position": 11,
+          "gameTitle": "Haunted House",
+          "gameId": 906,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2787,
+          "position": 12,
+          "gameTitle": "Crystal Castles",
+          "gameId": 907,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2788,
+          "position": 13,
+          "gameTitle": "Pole Position",
+          "gameId": 908,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2789,
+          "position": 14,
+          "gameTitle": "Asteroids",
+          "gameId": 909,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2790,
+          "position": 15,
+          "gameTitle": "Combat",
+          "gameId": 910,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 584,
+      "byUser": false,
+      "sourceListUrl": "https://ew.com/article/2013/01/25/the-10-best-atari-games/",
+      "dateAdded": "2023-06-24T15:39:20.311611Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 242,
+        "name": "Ew",
+        "hostUrl": "ew.com"
+      },
+      "finalGameList": {
+        "id": 4,
+        "title": "Best Games of the Atari",
+        "year": null,
+        "slug": "best-games-of-the-atari",
+        "fullName": "Best Games of the Atari"
+      },
+      "items": [
+        {
+          "id": 4641,
+          "position": 1,
+          "gameTitle": "Pong",
+          "gameId": 234,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4632,
+          "position": 2,
+          "gameTitle": "Adventure",
+          "gameId": 1360,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4633,
+          "position": 3,
+          "gameTitle": "Space Invaders",
+          "gameId": 899,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4634,
+          "position": 4,
+          "gameTitle": "Asteroids",
+          "gameId": 909,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4635,
+          "position": 5,
+          "gameTitle": "Ms. Pac-Man",
+          "gameId": 511,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4636,
+          "position": 6,
+          "gameTitle": "Pitfall!",
+          "gameId": 809,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4637,
+          "position": 7,
+          "gameTitle": "Frogger",
+          "gameId": 920,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4638,
+          "position": 8,
+          "gameTitle": "Q*bert",
+          "gameId": 902,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4639,
+          "position": 9,
+          "gameTitle": "Joust",
+          "gameId": 1361,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4640,
+          "position": 10,
+          "gameTitle": "Pole Position",
+          "gameId": 908,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1029,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-atari-2600-games-all-time/",
+      "dateAdded": "2024-05-03T02:58:52.388075Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 4,
+        "title": "Best Games of the Atari",
+        "year": null,
+        "slug": "best-games-of-the-atari",
+        "fullName": "Best Games of the Atari"
+      },
+      "items": [
+        {
+          "id": 10780,
+          "position": 1,
+          "gameTitle": "Pitfall!",
+          "gameId": 809,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10781,
+          "position": 2,
+          "gameTitle": "Missile Command",
+          "gameId": 2339,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10782,
+          "position": 3,
+          "gameTitle": "Super Breakout",
+          "gameId": 2338,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10783,
+          "position": 4,
+          "gameTitle": "Adventure",
+          "gameId": 2329,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10784,
+          "position": 5,
+          "gameTitle": "Combat",
+          "gameId": 910,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10785,
+          "position": 6,
+          "gameTitle": "Space Invaders",
+          "gameId": 2341,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10786,
+          "position": 7,
+          "gameTitle": "Dig Dug",
+          "gameId": 905,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10787,
+          "position": 8,
+          "gameTitle": "Pole Position",
+          "gameId": 908,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10788,
+          "position": 9,
+          "gameTitle": "Frogger",
+          "gameId": 920,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10789,
+          "position": 10,
+          "gameTitle": "Warlords",
+          "gameId": 2342,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10790,
+          "position": 11,
+          "gameTitle": "Pong",
+          "gameId": 234,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10791,
+          "position": 12,
+          "gameTitle": "Q*bert",
+          "gameId": 902,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10792,
+          "position": 13,
+          "gameTitle": "Ms. Pac-Man",
+          "gameId": 2343,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10793,
+          "position": 14,
+          "gameTitle": "Centipede",
+          "gameId": 2344,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10794,
+          "position": 15,
+          "gameTitle": "Yars\u0027 Revenge",
+          "gameId": 928,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1030,
+      "byUser": false,
+      "sourceListUrl": "https://opcfg.kontek.net/archive/atarifavs1.html",
+      "dateAdded": "2024-05-03T02:58:53.862476Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 392,
+        "name": "Opcfg",
+        "hostUrl": "opcfg.kontek.net"
+      },
+      "finalGameList": {
+        "id": 4,
+        "title": "Best Games of the Atari",
+        "year": null,
+        "slug": "best-games-of-the-atari",
+        "fullName": "Best Games of the Atari"
+      },
+      "items": [
+        {
+          "id": 10795,
+          "position": 1,
+          "gameTitle": "Pitfall II: The Lost Caverns",
+          "gameId": 2325,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10796,
+          "position": 2,
+          "gameTitle": "Yars\u0027 Revenge",
+          "gameId": 928,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10797,
+          "position": 3,
+          "gameTitle": "Star Wars: The Empire Strikes Back",
+          "gameId": 2326,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10798,
+          "position": 4,
+          "gameTitle": "Tutankham",
+          "gameId": 2327,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10799,
+          "position": 5,
+          "gameTitle": "Laser Gates",
+          "gameId": 2328,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10800,
+          "position": 6,
+          "gameTitle": "Adventure",
+          "gameId": 2329,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10801,
+          "position": 7,
+          "gameTitle": "Mountain King",
+          "gameId": 2330,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10802,
+          "position": 8,
+          "gameTitle": "Riddle of the Sphinx",
+          "gameId": 2331,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10803,
+          "position": 9,
+          "gameTitle": "Snoopy and the Red Baron",
+          "gameId": 2332,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10804,
+          "position": 10,
+          "gameTitle": "Haunted House",
+          "gameId": 2333,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10805,
+          "position": 11,
+          "gameTitle": "Cosmic Ark",
+          "gameId": 2334,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10806,
+          "position": 12,
+          "gameTitle": "Pitfall!",
+          "gameId": 809,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10807,
+          "position": 13,
+          "gameTitle": "H.E.R.O.",
+          "gameId": 2335,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10808,
+          "position": 14,
+          "gameTitle": "Star Wars: Return of the Jedi - Death Star Battle",
+          "gameId": 2336,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10809,
+          "position": 15,
+          "gameTitle": "Megamania",
+          "gameId": 927,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

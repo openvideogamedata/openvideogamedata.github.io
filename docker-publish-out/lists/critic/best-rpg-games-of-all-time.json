@@ -1,0 +1,1834 @@
+{
+  "syncedAt": "2026-04-15T10:45:30.4735399Z",
+  "slug": "best-rpg-games-of-all-time",
+  "type": 1,
+  "totalItems": 13,
+  "data": [
+    {
+      "id": 644,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/lists/top-100-rpgs/",
+      "dateAdded": "2023-07-23T17:53:26.655435Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5752,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5753,
+          "position": 2,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5754,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5755,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Yellow",
+          "gameId": 1496,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5756,
+          "position": 5,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5757,
+          "position": 6,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5758,
+          "position": 7,
+          "gameTitle": "Secret of Mana",
+          "gameId": 571,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5759,
+          "position": 8,
+          "gameTitle": "Diablo II",
+          "gameId": 1087,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5760,
+          "position": 9,
+          "gameTitle": "Vagrant Story",
+          "gameId": 267,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5761,
+          "position": 10,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5762,
+          "position": 11,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5763,
+          "position": 12,
+          "gameTitle": "Dark Souls",
+          "gameId": 26,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5764,
+          "position": 13,
+          "gameTitle": "Persona 4 Golden",
+          "gameId": 733,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5765,
+          "position": 14,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5766,
+          "position": 15,
+          "gameTitle": "Fallout 2",
+          "gameId": 1497,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 645,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/games/genre/metascore/role-playing/all?view=detailed",
+      "dateAdded": "2023-07-23T17:57:13.273742Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 8152,
+          "position": 1,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8153,
+          "position": 2,
+          "gameTitle": "Disco Elysium: The Final Cut",
+          "gameId": 431,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8154,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8155,
+          "position": 4,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8156,
+          "position": 5,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8157,
+          "position": 6,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8158,
+          "position": 7,
+          "gameTitle": "The World Ends with You: Solo Remix for iPad",
+          "gameId": 1498,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8159,
+          "position": 8,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8160,
+          "position": 9,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8161,
+          "position": 10,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8162,
+          "position": 11,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8163,
+          "position": 12,
+          "gameTitle": "Legend of Grimrock",
+          "gameId": 1499,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8164,
+          "position": 13,
+          "gameTitle": "Chrono Cross",
+          "gameId": 383,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8165,
+          "position": 14,
+          "gameTitle": "The Elder Scrolls IV: Oblivion",
+          "gameId": 1129,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8166,
+          "position": 15,
+          "gameTitle": "The Witcher 3: Wild Hunt - Complete Edition",
+          "gameId": 843,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 646,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-rpgs-ever-console-pc/",
+      "dateAdded": "2023-07-23T17:59:06.922669Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5782,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5783,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5784,
+          "position": 3,
+          "gameTitle": "Diablo II",
+          "gameId": 1087,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5785,
+          "position": 4,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5786,
+          "position": 5,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5787,
+          "position": 6,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5788,
+          "position": 7,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5789,
+          "position": 8,
+          "gameTitle": "The Elder Scrolls III: Morrowind",
+          "gameId": 800,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5790,
+          "position": 9,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5791,
+          "position": 10,
+          "gameTitle": "Dark Souls",
+          "gameId": 26,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5792,
+          "position": 11,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5793,
+          "position": 12,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5794,
+          "position": 13,
+          "gameTitle": "Suikoden II",
+          "gameId": 340,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5795,
+          "position": 14,
+          "gameTitle": "Deus Ex",
+          "gameId": 1086,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5796,
+          "position": 15,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 647,
+      "byUser": false,
+      "sourceListUrl": "https://gg.deals/blog/top-rpg-games-of-all-time-ranked/",
+      "dateAdded": "2023-07-23T18:02:16.84943Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 252,
+        "name": "Gg",
+        "hostUrl": "gg.deals"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5797,
+          "position": 1,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5798,
+          "position": 2,
+          "gameTitle": "Yakuza: Like a Dragon",
+          "gameId": 614,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5799,
+          "position": 3,
+          "gameTitle": "Vampire: The Masquerade - Bloodlines",
+          "gameId": 1500,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5800,
+          "position": 4,
+          "gameTitle": "Baldur\u0027s Gate: Enhanced Edition",
+          "gameId": 1501,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5801,
+          "position": 5,
+          "gameTitle": "Planescape: Torment - Enhanced Edition",
+          "gameId": 1502,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5802,
+          "position": 6,
+          "gameTitle": "System Shock 2",
+          "gameId": 1084,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5803,
+          "position": 7,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5804,
+          "position": 8,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5805,
+          "position": 9,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5806,
+          "position": 10,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5807,
+          "position": 11,
+          "gameTitle": "Fable Anniversary",
+          "gameId": 752,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5808,
+          "position": 12,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5809,
+          "position": 13,
+          "gameTitle": "Dragon Age: Origins",
+          "gameId": 1161,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5810,
+          "position": 14,
+          "gameTitle": "The Elder Scrolls V: Skyrim - Anniversary Edition",
+          "gameId": 1503,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5811,
+          "position": 15,
+          "gameTitle": "Final Fantasy VII Remake Intergrade",
+          "gameId": 357,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 648,
+      "byUser": false,
+      "sourceListUrl": "https://www.svg.com/927424/the-50-best-rpgs-of-all-time-ranked/",
+      "dateAdded": "2023-07-23T18:06:30.464597Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 174,
+        "name": "Svg",
+        "hostUrl": "www.svg.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 8137,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8138,
+          "position": 2,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8139,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8140,
+          "position": 4,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8141,
+          "position": 5,
+          "gameTitle": "NieR RepliCant",
+          "gameId": 1504,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8142,
+          "position": 6,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8143,
+          "position": 7,
+          "gameTitle": "Dragon Age: Origins",
+          "gameId": 1161,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8144,
+          "position": 8,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8145,
+          "position": 9,
+          "gameTitle": "Paper Mario: The Thousand-Year Door",
+          "gameId": 531,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8146,
+          "position": 10,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8147,
+          "position": 11,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8148,
+          "position": 12,
+          "gameTitle": "Deus Ex",
+          "gameId": 1086,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8149,
+          "position": 13,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8150,
+          "position": 14,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8151,
+          "position": 15,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 649,
+      "byUser": false,
+      "sourceListUrl": "https://www.thegamer.com/best-rpg-video-games/",
+      "dateAdded": "2023-07-23T18:10:14.934718Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 193,
+        "name": "Thegamer",
+        "hostUrl": "www.thegamer.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5827,
+          "position": 1,
+          "gameTitle": "NieR: Automata",
+          "gameId": 398,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5828,
+          "position": 2,
+          "gameTitle": "Persona 4 Golden",
+          "gameId": 733,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5829,
+          "position": 3,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5830,
+          "position": 4,
+          "gameTitle": "Dragon Age: Inquisition",
+          "gameId": 1263,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5831,
+          "position": 5,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5832,
+          "position": 6,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5833,
+          "position": 7,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5834,
+          "position": 8,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5835,
+          "position": 9,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5836,
+          "position": 10,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5837,
+          "position": 11,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5838,
+          "position": 12,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5839,
+          "position": 13,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5840,
+          "position": 14,
+          "gameTitle": "Dark Souls",
+          "gameId": 26,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 650,
+      "byUser": false,
+      "sourceListUrl": "https://history-computer.com/the-7-absolute-best-rpgs-games-of-all-time/",
+      "dateAdded": "2023-07-23T18:11:22.710334Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 253,
+        "name": "History-computer",
+        "hostUrl": "history-computer.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5841,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5842,
+          "position": 2,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5843,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5844,
+          "position": 4,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5845,
+          "position": 5,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5846,
+          "position": 6,
+          "gameTitle": "Chrono Cross",
+          "gameId": 383,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5847,
+          "position": 7,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 651,
+      "byUser": false,
+      "sourceListUrl": "https://www.gameinformer.com/b/features/archive/2018/01/01/the-top-100-rpgs-of-all-time.aspx",
+      "dateAdded": "2023-07-23T18:13:23.476261Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 254,
+        "name": "Gameinformer",
+        "hostUrl": "www.gameinformer.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5848,
+          "position": 1,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5849,
+          "position": 2,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5850,
+          "position": 3,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5851,
+          "position": 4,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5852,
+          "position": 5,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5853,
+          "position": 6,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5854,
+          "position": 7,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5855,
+          "position": 8,
+          "gameTitle": "Diablo II",
+          "gameId": 1087,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5856,
+          "position": 9,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5857,
+          "position": 10,
+          "gameTitle": "Final Fantasy Tactics",
+          "gameId": 342,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5858,
+          "position": 11,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5859,
+          "position": 12,
+          "gameTitle": "Fallout 3",
+          "gameId": 483,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5860,
+          "position": 13,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5861,
+          "position": 14,
+          "gameTitle": "Deus Ex",
+          "gameId": 1086,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5862,
+          "position": 15,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 652,
+      "byUser": false,
+      "sourceListUrl": "https://www.ggrecon.com/guides/best-rpgs-role-playing-games/",
+      "dateAdded": "2023-07-23T18:16:30.225326Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 210,
+        "name": "Ggrecon",
+        "hostUrl": "www.ggrecon.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5863,
+          "position": 1,
+          "gameTitle": "Disco Elysium: The Final Cut",
+          "gameId": 431,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5864,
+          "position": 2,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5865,
+          "position": 3,
+          "gameTitle": "Star Wars: Knights of the Old Republic II - The Sith Lords",
+          "gameId": 1506,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5866,
+          "position": 4,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5867,
+          "position": 5,
+          "gameTitle": "Fallout",
+          "gameId": 1064,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5868,
+          "position": 6,
+          "gameTitle": "Vampire: The Masquerade - Bloodlines",
+          "gameId": 1500,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5869,
+          "position": 7,
+          "gameTitle": "Deus Ex",
+          "gameId": 1086,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5870,
+          "position": 8,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5871,
+          "position": 9,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5872,
+          "position": 10,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5873,
+          "position": 11,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5874,
+          "position": 12,
+          "gameTitle": "Diablo II",
+          "gameId": 1087,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5875,
+          "position": 13,
+          "gameTitle": "Dark Souls",
+          "gameId": 26,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5876,
+          "position": 14,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5877,
+          "position": 15,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-rpg-games/",
+      "dateAdded": "2023-07-23T18:19:09.227513Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5878,
+          "position": 1,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5879,
+          "position": 2,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5880,
+          "position": 3,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5881,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5882,
+          "position": 5,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5883,
+          "position": 6,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5884,
+          "position": 7,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5885,
+          "position": 8,
+          "gameTitle": "Assassin\u0027s Creed Odyssey",
+          "gameId": 415,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5886,
+          "position": 9,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5887,
+          "position": 10,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5888,
+          "position": 11,
+          "gameTitle": "Dragon Age: Inquisition",
+          "gameId": 1263,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5889,
+          "position": 12,
+          "gameTitle": "Dragon Quest XI: Echoes of an Elusive Age",
+          "gameId": 414,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5890,
+          "position": 13,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5891,
+          "position": 14,
+          "gameTitle": "Diablo III",
+          "gameId": 966,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5892,
+          "position": 15,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 654,
+      "byUser": false,
+      "sourceListUrl": "https://www.vg247.com/the-top-25-rpgs-of-all-time-1-chrono-trigger",
+      "dateAdded": "2023-07-23T18:21:33.284325Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 255,
+        "name": "Vg247",
+        "hostUrl": "www.vg247.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5893,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5894,
+          "position": 2,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5895,
+          "position": 3,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5896,
+          "position": 4,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5897,
+          "position": 5,
+          "gameTitle": "Suikoden II",
+          "gameId": 340,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5898,
+          "position": 6,
+          "gameTitle": "Ultima VII: The Black Gate",
+          "gameId": 1507,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5899,
+          "position": 7,
+          "gameTitle": "Fallout",
+          "gameId": 1064,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5900,
+          "position": 8,
+          "gameTitle": "Quest for Glory V: Dragon Fire",
+          "gameId": 1508,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5901,
+          "position": 9,
+          "gameTitle": "Persona 4",
+          "gameId": 445,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5902,
+          "position": 10,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5903,
+          "position": 11,
+          "gameTitle": "The Elder Scrolls III: Morrowind",
+          "gameId": 800,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5904,
+          "position": 12,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5905,
+          "position": 13,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5906,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon Gold",
+          "gameId": 1509,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5907,
+          "position": 15,
+          "gameTitle": "Mass Effect",
+          "gameId": 1140,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 655,
+      "byUser": false,
+      "sourceListUrl": "https://www.thetoptens.com/games/best-rpg-video-game/",
+      "dateAdded": "2023-07-23T18:23:52.492347Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 181,
+        "name": "Thetoptens",
+        "hostUrl": "www.thetoptens.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5908,
+          "position": 1,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5909,
+          "position": 2,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5910,
+          "position": 3,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5911,
+          "position": 4,
+          "gameTitle": "The Elder Scrolls IV: Oblivion",
+          "gameId": 1129,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5912,
+          "position": 5,
+          "gameTitle": "Fallout 3",
+          "gameId": 483,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5913,
+          "position": 6,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5914,
+          "position": 7,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5915,
+          "position": 8,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5916,
+          "position": 9,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5917,
+          "position": 10,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5918,
+          "position": 11,
+          "gameTitle": "Mass Effect 2",
+          "gameId": 334,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5919,
+          "position": 12,
+          "gameTitle": "Dragon Age: Origins",
+          "gameId": 1161,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5920,
+          "position": 13,
+          "gameTitle": "Paper Mario: The Thousand-Year Door",
+          "gameId": 531,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5921,
+          "position": 14,
+          "gameTitle": "Mass Effect",
+          "gameId": 1140,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5922,
+          "position": 15,
+          "gameTitle": "Kingdom Hearts II",
+          "gameId": 449,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 656,
+      "byUser": false,
+      "sourceListUrl": "https://blog.offgamers.com/blog/15-best-rpg-games-of-all-time/",
+      "dateAdded": "2023-07-23T18:25:54.330591Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 256,
+        "name": "Blog",
+        "hostUrl": "blog.offgamers.com"
+      },
+      "finalGameList": {
+        "id": 66,
+        "title": "Best RPG Games of All Time",
+        "year": null,
+        "slug": "best-rpg-games-of-all-time",
+        "fullName": "Best RPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 5923,
+          "position": 1,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5924,
+          "position": 2,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5925,
+          "position": 3,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5926,
+          "position": 4,
+          "gameTitle": "Disco Elysium: The Final Cut",
+          "gameId": 431,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5927,
+          "position": 5,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5928,
+          "position": 6,
+          "gameTitle": "Path of Exile",
+          "gameId": 1510,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5929,
+          "position": 7,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5930,
+          "position": 8,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5931,
+          "position": 9,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5932,
+          "position": 10,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5933,
+          "position": 11,
+          "gameTitle": "Diablo II",
+          "gameId": 1087,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5934,
+          "position": 12,
+          "gameTitle": "Fallout: New Vegas",
+          "gameId": 484,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5935,
+          "position": 13,
+          "gameTitle": "Planescape: Torment",
+          "gameId": 734,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5936,
+          "position": 14,
+          "gameTitle": "Baldur\u0027s Gate II: Shadows of Amn",
+          "gameId": 1089,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5937,
+          "position": 15,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

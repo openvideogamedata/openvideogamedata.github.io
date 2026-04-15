@@ -1,0 +1,2542 @@
+{
+  "syncedAt": "2026-04-15T10:54:04.258629Z",
+  "slug": "best-indie-games-of-all-time",
+  "type": 1,
+  "totalItems": 19,
+  "data": [
+    {
+      "id": 373,
+      "byUser": false,
+      "sourceListUrl": "https://www.thegamer.com/best-indie-games-of-all-time/",
+      "dateAdded": "2023-05-06T15:06:20.470802Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 193,
+        "name": "Thegamer",
+        "hostUrl": "www.thegamer.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1797,
+          "position": 1,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1798,
+          "position": 2,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1799,
+          "position": 3,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1800,
+          "position": 4,
+          "gameTitle": "Spelunky",
+          "gameId": 631,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1801,
+          "position": 5,
+          "gameTitle": "Darkest Dungeon",
+          "gameId": 632,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1802,
+          "position": 6,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1803,
+          "position": 7,
+          "gameTitle": "Crypt of the NecroDancer",
+          "gameId": 633,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1804,
+          "position": 8,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1805,
+          "position": 9,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1806,
+          "position": 10,
+          "gameTitle": "Enter the Gungeon",
+          "gameId": 623,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1807,
+          "position": 11,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1808,
+          "position": 12,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1809,
+          "position": 13,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1810,
+          "position": 14,
+          "gameTitle": "Cave Story",
+          "gameId": 636,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1811,
+          "position": 15,
+          "gameTitle": "A Night in the Woods",
+          "gameId": 637,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 374,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/playlist/rchnemesis/lists/top-100-indie-games",
+      "dateAdded": "2023-05-06T16:50:05.513176Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1812,
+          "position": 1,
+          "gameTitle": "Return of the Obra Dinn",
+          "gameId": 189,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1813,
+          "position": 2,
+          "gameTitle": "Outer Wilds",
+          "gameId": 370,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1814,
+          "position": 3,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1815,
+          "position": 4,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1816,
+          "position": 5,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1817,
+          "position": 6,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1818,
+          "position": 7,
+          "gameTitle": "Furi",
+          "gameId": 638,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1819,
+          "position": 8,
+          "gameTitle": "The Case of the Golden Idol",
+          "gameId": 251,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1820,
+          "position": 9,
+          "gameTitle": "SteamWorld Dig 2",
+          "gameId": 639,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1821,
+          "position": 10,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1822,
+          "position": 11,
+          "gameTitle": "Spiritfarer",
+          "gameId": 640,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1823,
+          "position": 12,
+          "gameTitle": "Gorogoa",
+          "gameId": 641,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1824,
+          "position": 13,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1825,
+          "position": 14,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1826,
+          "position": 15,
+          "gameTitle": "Ikaruga",
+          "gameId": 642,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 375,
+      "byUser": false,
+      "sourceListUrl": "https://www.indiegamewebsite.com/2019/12/24/the-100-best-indie-games-of-all-time/",
+      "dateAdded": "2023-05-06T16:54:53.354694Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 194,
+        "name": "Indiegamewebsite",
+        "hostUrl": "www.indiegamewebsite.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1827,
+          "position": 1,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1828,
+          "position": 2,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1829,
+          "position": 3,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1830,
+          "position": 4,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1831,
+          "position": 5,
+          "gameTitle": "Spelunky",
+          "gameId": 631,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1832,
+          "position": 6,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1833,
+          "position": 7,
+          "gameTitle": "Fez",
+          "gameId": 644,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1834,
+          "position": 8,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1835,
+          "position": 9,
+          "gameTitle": "Dear Esther",
+          "gameId": 646,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1836,
+          "position": 10,
+          "gameTitle": "Super Meat Boy",
+          "gameId": 647,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1837,
+          "position": 11,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1838,
+          "position": 12,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1839,
+          "position": 13,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1840,
+          "position": 14,
+          "gameTitle": "Kentucky Route Zero",
+          "gameId": 405,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1841,
+          "position": 15,
+          "gameTitle": "Night in the Woods",
+          "gameId": 649,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 376,
+      "byUser": false,
+      "sourceListUrl": "https://culturedvultures.com/best-indie-games-all-time/",
+      "dateAdded": "2023-05-06T17:01:30.518177Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 158,
+        "name": "Culturedvultures",
+        "hostUrl": "culturedvultures.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1842,
+          "position": 1,
+          "gameTitle": "The Binding of Isaac: Rebirth",
+          "gameId": 650,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1843,
+          "position": 2,
+          "gameTitle": "Furi",
+          "gameId": 638,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1844,
+          "position": 3,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1845,
+          "position": 4,
+          "gameTitle": "SuperHot",
+          "gameId": 651,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1846,
+          "position": 5,
+          "gameTitle": "Rise \u0026 Shine",
+          "gameId": 652,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1847,
+          "position": 6,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1848,
+          "position": 7,
+          "gameTitle": "To the Moon",
+          "gameId": 653,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1849,
+          "position": 8,
+          "gameTitle": "Rogue Legacy",
+          "gameId": 621,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1850,
+          "position": 9,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1851,
+          "position": 10,
+          "gameTitle": "Nidhogg",
+          "gameId": 654,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1852,
+          "position": 11,
+          "gameTitle": "Super Meat Boy",
+          "gameId": 647,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1853,
+          "position": 12,
+          "gameTitle": "Bastion",
+          "gameId": 655,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1854,
+          "position": 13,
+          "gameTitle": "This War of Mine",
+          "gameId": 656,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1855,
+          "position": 14,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1856,
+          "position": 15,
+          "gameTitle": "Enter the Gungeon",
+          "gameId": 623,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 377,
+      "byUser": false,
+      "sourceListUrl": "https://professionalmoron.com/2022/05/15/the-best-indie-games-of-all-time/",
+      "dateAdded": "2023-05-06T17:07:38.1848Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 195,
+        "name": "Professionalmoron",
+        "hostUrl": "professionalmoron.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1857,
+          "position": 1,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1858,
+          "position": 2,
+          "gameTitle": "Ori and the Blind Forest",
+          "gameId": 657,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1859,
+          "position": 3,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1860,
+          "position": 4,
+          "gameTitle": "Shovel Knight",
+          "gameId": 528,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1861,
+          "position": 5,
+          "gameTitle": "Dead Cells",
+          "gameId": 619,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1862,
+          "position": 6,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1863,
+          "position": 7,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1864,
+          "position": 8,
+          "gameTitle": "Runner2: Future Legend of Rhythm Alien",
+          "gameId": 658,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1865,
+          "position": 9,
+          "gameTitle": "Thumper",
+          "gameId": 181,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1866,
+          "position": 10,
+          "gameTitle": "FAR: Changing Tides",
+          "gameId": 659,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1867,
+          "position": 11,
+          "gameTitle": "FAR: Lone Sails",
+          "gameId": 660,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1868,
+          "position": 12,
+          "gameTitle": "Dusk",
+          "gameId": 661,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1869,
+          "position": 13,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1870,
+          "position": 14,
+          "gameTitle": "Teslagrad",
+          "gameId": 662,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1871,
+          "position": 15,
+          "gameTitle": "Owlboy",
+          "gameId": 663,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 378,
+      "byUser": false,
+      "sourceListUrl": "https://gametaco.net/best-indie-games/",
+      "dateAdded": "2023-05-06T17:15:17.97543Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 196,
+        "name": "Gametaco",
+        "hostUrl": "gametaco.net"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 1872,
+          "position": 1,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1873,
+          "position": 2,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1874,
+          "position": 3,
+          "gameTitle": "Shovel Knight",
+          "gameId": 528,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1875,
+          "position": 4,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1876,
+          "position": 5,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1877,
+          "position": 6,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1878,
+          "position": 7,
+          "gameTitle": "Thumper",
+          "gameId": 181,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1879,
+          "position": 8,
+          "gameTitle": "FAR: Lone Sails",
+          "gameId": 660,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1880,
+          "position": 9,
+          "gameTitle": "World of Goo",
+          "gameId": 664,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1881,
+          "position": 10,
+          "gameTitle": "Spiritfarer",
+          "gameId": 640,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1882,
+          "position": 11,
+          "gameTitle": "Gris",
+          "gameId": 665,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1883,
+          "position": 12,
+          "gameTitle": "ElecHead",
+          "gameId": 666,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1884,
+          "position": 13,
+          "gameTitle": "Broforce",
+          "gameId": 667,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1885,
+          "position": 14,
+          "gameTitle": "Boomerang X",
+          "gameId": 668,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1886,
+          "position": 15,
+          "gameTitle": "RiME",
+          "gameId": 669,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 777,
+      "byUser": false,
+      "sourceListUrl": "https://theglobalgaming.com/gaming/best-indie-games",
+      "dateAdded": "2023-08-11T02:08:30.036228Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 285,
+        "name": "Theglobalgaming",
+        "hostUrl": "theglobalgaming.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7797,
+          "position": 1,
+          "gameTitle": "The Binding of Isaac",
+          "gameId": 617,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7798,
+          "position": 2,
+          "gameTitle": "Valheim",
+          "gameId": 742,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7799,
+          "position": 3,
+          "gameTitle": "Spelunky Classic",
+          "gameId": 1819,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7800,
+          "position": 4,
+          "gameTitle": "Among Us",
+          "gameId": 762,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7801,
+          "position": 5,
+          "gameTitle": "Into the Breach",
+          "gameId": 622,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7802,
+          "position": 6,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7803,
+          "position": 7,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7804,
+          "position": 8,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7805,
+          "position": 9,
+          "gameTitle": "Rocket League",
+          "gameId": 1037,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7806,
+          "position": 10,
+          "gameTitle": "Kerbal Space Program",
+          "gameId": 1243,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7807,
+          "position": 11,
+          "gameTitle": "Subnautica",
+          "gameId": 82,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7808,
+          "position": 12,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7809,
+          "position": 13,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7810,
+          "position": 14,
+          "gameTitle": "SuperHot",
+          "gameId": 651,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7796,
+          "position": 15,
+          "gameTitle": "Broken Age",
+          "gameId": 1820,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 778,
+      "byUser": false,
+      "sourceListUrl": "https://www.thelostgamer.com/best-indie-games/",
+      "dateAdded": "2023-08-11T02:08:31.648428Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 286,
+        "name": "Thelostgamer",
+        "hostUrl": "www.thelostgamer.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7811,
+          "position": 1,
+          "gameTitle": "The Binding of Isaac: Rebirth",
+          "gameId": 650,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7825,
+          "position": 2,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7824,
+          "position": 3,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7823,
+          "position": 4,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7822,
+          "position": 5,
+          "gameTitle": "Crypt of the NecroDancer",
+          "gameId": 633,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7821,
+          "position": 6,
+          "gameTitle": "Dead Cells",
+          "gameId": 619,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7820,
+          "position": 7,
+          "gameTitle": "Devil Daggers",
+          "gameId": 1821,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7819,
+          "position": 8,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7818,
+          "position": 9,
+          "gameTitle": "Fez",
+          "gameId": 644,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7817,
+          "position": 10,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7816,
+          "position": 11,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7815,
+          "position": 12,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7814,
+          "position": 13,
+          "gameTitle": "Hyper Light Drifter",
+          "gameId": 1235,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7813,
+          "position": 14,
+          "gameTitle": "Outlast",
+          "gameId": 1822,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7812,
+          "position": 15,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 779,
+      "byUser": false,
+      "sourceListUrl": "https://indiegamecloud.com/top100/",
+      "dateAdded": "2023-08-11T02:10:01.592742Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 287,
+        "name": "Indiegamecloud",
+        "hostUrl": "indiegamecloud.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7835,
+          "position": 1,
+          "gameTitle": "The Binding of Isaac",
+          "gameId": 617,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7834,
+          "position": 2,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7833,
+          "position": 3,
+          "gameTitle": "Super Meat Boy",
+          "gameId": 647,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7832,
+          "position": 4,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7831,
+          "position": 5,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7830,
+          "position": 6,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7829,
+          "position": 7,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7828,
+          "position": 8,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7827,
+          "position": 9,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7826,
+          "position": 10,
+          "gameTitle": "Rocket League",
+          "gameId": 1037,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7840,
+          "position": 11,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7839,
+          "position": 12,
+          "gameTitle": "Furi",
+          "gameId": 638,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7838,
+          "position": 13,
+          "gameTitle": "Terraria",
+          "gameId": 708,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7837,
+          "position": 14,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7836,
+          "position": 15,
+          "gameTitle": "Don\u0027t Starve",
+          "gameId": 1823,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 780,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/most-influential-indie-games/",
+      "dateAdded": "2023-08-11T02:11:31.970397Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7850,
+          "position": 1,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7849,
+          "position": 2,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7848,
+          "position": 3,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7847,
+          "position": 4,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7846,
+          "position": 5,
+          "gameTitle": "Amnesia: The Dark Descent",
+          "gameId": 1010,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7845,
+          "position": 6,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7844,
+          "position": 7,
+          "gameTitle": "The Binding of Isaac",
+          "gameId": 617,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7843,
+          "position": 8,
+          "gameTitle": "Shovel Knight",
+          "gameId": 528,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7842,
+          "position": 9,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7841,
+          "position": 10,
+          "gameTitle": "Cave Story",
+          "gameId": 636,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 781,
+      "byUser": false,
+      "sourceListUrl": "https://twinfinite.net/gallery/top-25-best-indie-games-of-all-time-ranked-great-ground-breaking/",
+      "dateAdded": "2023-08-11T02:14:20.091263Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 288,
+        "name": "Twinfinite",
+        "hostUrl": "twinfinite.net"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7860,
+          "position": 1,
+          "gameTitle": "Divinity: Original Sin II",
+          "gameId": 705,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7859,
+          "position": 2,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7858,
+          "position": 3,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7857,
+          "position": 4,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7856,
+          "position": 5,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7855,
+          "position": 6,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7854,
+          "position": 7,
+          "gameTitle": "The Witness",
+          "gameId": 1234,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7853,
+          "position": 8,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7852,
+          "position": 9,
+          "gameTitle": "What Remains of Edith Finch",
+          "gameId": 397,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7851,
+          "position": 10,
+          "gameTitle": "Shovel Knight",
+          "gameId": 528,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7865,
+          "position": 11,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7864,
+          "position": 12,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7863,
+          "position": 13,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7862,
+          "position": 14,
+          "gameTitle": "Darkest Dungeon",
+          "gameId": 632,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7861,
+          "position": 15,
+          "gameTitle": "Dead Cells",
+          "gameId": 619,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 782,
+      "byUser": false,
+      "sourceListUrl": "https://fungies.io/2023/04/24/best-indie-games-list-of-30-amazing-titles-ever-made/",
+      "dateAdded": "2023-08-11T02:26:32.416545Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 289,
+        "name": "Fungies",
+        "hostUrl": "fungies.io"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7875,
+          "position": 1,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7874,
+          "position": 2,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7873,
+          "position": 3,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7872,
+          "position": 4,
+          "gameTitle": "Fez",
+          "gameId": 644,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7871,
+          "position": 5,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7870,
+          "position": 6,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7869,
+          "position": 7,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7868,
+          "position": 8,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7867,
+          "position": 9,
+          "gameTitle": "Shovel Knight",
+          "gameId": 528,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7866,
+          "position": 10,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7880,
+          "position": 11,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7879,
+          "position": 12,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7878,
+          "position": 13,
+          "gameTitle": "A Night in the Woods",
+          "gameId": 637,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7877,
+          "position": 14,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7876,
+          "position": 15,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 783,
+      "byUser": false,
+      "sourceListUrl": "https://cibersistemas.pt/games/jogos-indie/",
+      "dateAdded": "2023-08-11T02:32:12.855835Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 290,
+        "name": "Cibersistemas",
+        "hostUrl": "cibersistemas.pt"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7890,
+          "position": 1,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7889,
+          "position": 2,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7888,
+          "position": 3,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7887,
+          "position": 4,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7886,
+          "position": 5,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7885,
+          "position": 6,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7884,
+          "position": 7,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7883,
+          "position": 8,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7882,
+          "position": 9,
+          "gameTitle": "Among Us",
+          "gameId": 762,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7881,
+          "position": 10,
+          "gameTitle": "Overcooked!",
+          "gameId": 1824,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7891,
+          "position": 11,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": 784,
+      "byUser": false,
+      "sourceListUrl": "https://canaltech.com.br/games/melhores-jogos-indie-167222/",
+      "dateAdded": "2023-08-11T02:36:40.881556Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 161,
+        "name": "Canaltech",
+        "hostUrl": "canaltech.com.br"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 7900,
+          "position": 1,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7899,
+          "position": 2,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7898,
+          "position": 3,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7897,
+          "position": 4,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7901,
+          "position": 5,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7896,
+          "position": 6,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7895,
+          "position": 7,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7894,
+          "position": 8,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7893,
+          "position": 9,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7892,
+          "position": 10,
+          "gameTitle": "Moonlighter",
+          "gameId": 1825,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "byUser": false,
+      "sourceListUrl": "https://topmovies.com.br/jogos-indie-mais-populares/",
+      "dateAdded": "2023-09-11T21:46:33.750916Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 296,
+        "name": "Topmovies",
+        "hostUrl": "topmovies.com.br"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 8667,
+          "position": 1,
+          "gameTitle": "It Takes Two",
+          "gameId": 363,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8666,
+          "position": 2,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8665,
+          "position": 3,
+          "gameTitle": "The Forest",
+          "gameId": 204,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8664,
+          "position": 4,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8663,
+          "position": 5,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 867,
+      "byUser": false,
+      "sourceListUrl": "https://www.digio.com.br/blog/games/confira-os-14-melhores-jogos-indie/",
+      "dateAdded": "2023-11-11T01:45:25.282098Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 303,
+        "name": "Digio",
+        "hostUrl": "www.digio.com.br"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 9274,
+          "position": 1,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9275,
+          "position": 2,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9276,
+          "position": 3,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9277,
+          "position": 4,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9278,
+          "position": 5,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9279,
+          "position": 6,
+          "gameTitle": "Don\u0027t Starve",
+          "gameId": 1823,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9280,
+          "position": 7,
+          "gameTitle": "Valheim",
+          "gameId": 742,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9281,
+          "position": 8,
+          "gameTitle": "Subnautica",
+          "gameId": 82,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9282,
+          "position": 9,
+          "gameTitle": "Project Zomboid",
+          "gameId": 743,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9283,
+          "position": 10,
+          "gameTitle": "Terraria",
+          "gameId": 708,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9284,
+          "position": 11,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9285,
+          "position": 12,
+          "gameTitle": "The Forest",
+          "gameId": 204,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9286,
+          "position": 13,
+          "gameTitle": "The Binding of Isaac",
+          "gameId": 617,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9287,
+          "position": 14,
+          "gameTitle": "This War of Mine",
+          "gameId": 656,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 868,
+      "byUser": false,
+      "sourceListUrl": "https://artcetera.art/games/melhores-jogos-indie-da-historia/",
+      "dateAdded": "2023-11-11T01:45:26.242107Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 304,
+        "name": "Artcetera",
+        "hostUrl": "artcetera.art"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 9288,
+          "position": 1,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9289,
+          "position": 2,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9290,
+          "position": 3,
+          "gameTitle": "Return of the Obra Dinn",
+          "gameId": 189,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9291,
+          "position": 4,
+          "gameTitle": "Outer Wilds",
+          "gameId": 370,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9292,
+          "position": 5,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9293,
+          "position": 6,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9294,
+          "position": 7,
+          "gameTitle": "The Case of the Golden Idol",
+          "gameId": 251,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9295,
+          "position": 8,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9296,
+          "position": 9,
+          "gameTitle": "Furi",
+          "gameId": 638,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9297,
+          "position": 10,
+          "gameTitle": "SteamWorld Dig 2",
+          "gameId": 639,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9298,
+          "position": 11,
+          "gameTitle": "Spiritfarer",
+          "gameId": 640,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9299,
+          "position": 12,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9300,
+          "position": 13,
+          "gameTitle": "Terraria",
+          "gameId": 708,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9301,
+          "position": 14,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9302,
+          "position": 15,
+          "gameTitle": "Inscryption",
+          "gameId": 1041,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 869,
+      "byUser": false,
+      "sourceListUrl": "https://www.ligadosgames.com/melhores-jogos-indie/",
+      "dateAdded": "2023-11-11T01:45:27.037918Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 144,
+        "name": "Liga dos Games",
+        "hostUrl": "www.ligadosgames.com"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 9303,
+          "position": 1,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9304,
+          "position": 2,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9305,
+          "position": 3,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9306,
+          "position": 4,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9307,
+          "position": 5,
+          "gameTitle": "Spelunky Classic",
+          "gameId": 1819,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9308,
+          "position": 6,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9309,
+          "position": 7,
+          "gameTitle": "Fez",
+          "gameId": 644,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9310,
+          "position": 8,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9311,
+          "position": 9,
+          "gameTitle": "Dear Esther",
+          "gameId": 646,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9312,
+          "position": 10,
+          "gameTitle": "Super Meat Boy",
+          "gameId": 647,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9313,
+          "position": 11,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9314,
+          "position": 12,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9315,
+          "position": 13,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9316,
+          "position": 14,
+          "gameTitle": "Kentucky Route Zero",
+          "gameId": 405,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9317,
+          "position": 15,
+          "gameTitle": "Night in the Woods",
+          "gameId": 649,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 871,
+      "byUser": false,
+      "sourceListUrl": "https://newone.games/10-top-indie-games/",
+      "dateAdded": "2023-11-15T13:31:22.879732Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 305,
+        "name": "Newone",
+        "hostUrl": "newone.games"
+      },
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 9321,
+          "position": 1,
+          "gameTitle": "Among Us",
+          "gameId": 762,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9322,
+          "position": 2,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9323,
+          "position": 3,
+          "gameTitle": "Fall Guys",
+          "gameId": 1384,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9324,
+          "position": 4,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9325,
+          "position": 5,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9326,
+          "position": 6,
+          "gameTitle": "Limbo",
+          "gameId": 635,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9327,
+          "position": 7,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9328,
+          "position": 8,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9329,
+          "position": 9,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9330,
+          "position": 10,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

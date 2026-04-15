@@ -1,0 +1,1158 @@
+{
+  "syncedAt": "2026-04-15T10:54:11.4611406Z",
+  "slug": "most-anticipated-games-of-2023",
+  "type": 1,
+  "totalItems": 11,
+  "data": [
+    {
+      "id": 491,
+      "byUser": false,
+      "sourceListUrl": "https://www.stuff.tv/features/most-anticipated-games/",
+      "dateAdded": "2023-06-05T16:34:43.169347Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 93,
+        "name": "Stuff TV",
+        "hostUrl": "www.stuff.tv"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 3357,
+          "position": 1,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3358,
+          "position": 2,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3359,
+          "position": 3,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3360,
+          "position": 4,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3361,
+          "position": 5,
+          "gameTitle": "Hollow Knight: Silksong",
+          "gameId": 988,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3362,
+          "position": 6,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3363,
+          "position": 7,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3364,
+          "position": 8,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3365,
+          "position": 9,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3366,
+          "position": 10,
+          "gameTitle": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "gameId": 993,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3367,
+          "position": 11,
+          "gameTitle": "Metal Gear Solid Delta: Snake Eater",
+          "gameId": 1007,
+          "coverImageUrl": null,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": 492,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/playlist/igneditorial/lists/2023s-most-wanted-games",
+      "dateAdded": "2023-06-05T16:39:05.127085Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 3368,
+          "position": 1,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3369,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3370,
+          "position": 3,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3371,
+          "position": 4,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3372,
+          "position": 5,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3373,
+          "position": 6,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3374,
+          "position": 7,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3375,
+          "position": 8,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3376,
+          "position": 9,
+          "gameTitle": "Assassin\u0027s Creed Mirage",
+          "gameId": 994,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3377,
+          "position": 10,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3378,
+          "position": 11,
+          "gameTitle": "Suicide Squad: Kill the Justice League",
+          "gameId": 995,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3379,
+          "position": 12,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3380,
+          "position": 13,
+          "gameTitle": "Hades II",
+          "gameId": 1008,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3381,
+          "position": 14,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3382,
+          "position": 15,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 575,
+      "byUser": false,
+      "sourceListUrl": "https://www.cbr.com/most-anticipated-games-of-2023/",
+      "dateAdded": "2023-06-20T12:58:50.005319Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 179,
+        "name": "CBR",
+        "hostUrl": "www.cbr.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 4539,
+          "position": 1,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4540,
+          "position": 2,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4541,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4542,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4543,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4544,
+          "position": 6,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4545,
+          "position": 7,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 576,
+      "byUser": false,
+      "sourceListUrl": "https://www.inverse.com/gaming/2023-video-game-release-dates-botw-2-starfield",
+      "dateAdded": "2023-06-20T13:01:56.230477Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 238,
+        "name": "Inverse",
+        "hostUrl": "www.inverse.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 4546,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4547,
+          "position": 2,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4548,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4549,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": 577,
+      "byUser": false,
+      "sourceListUrl": "https://en.as.com/meristation/2022/12/29/news/1672348615_069117.html",
+      "dateAdded": "2023-06-20T13:04:30.72367Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 239,
+        "name": "as",
+        "hostUrl": "en.as.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 4550,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4551,
+          "position": 2,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4552,
+          "position": 3,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4553,
+          "position": 4,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4554,
+          "position": 5,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4555,
+          "position": 6,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4556,
+          "position": 7,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4557,
+          "position": 8,
+          "gameTitle": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "gameId": 993,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4558,
+          "position": 9,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4559,
+          "position": 10,
+          "gameTitle": "Hades II",
+          "gameId": 1008,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 578,
+      "byUser": false,
+      "sourceListUrl": "https://www.glitched.online/top-25-most-anticipated-video-games-of-2023/",
+      "dateAdded": "2023-06-20T13:06:11.039445Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 240,
+        "name": "Glitched",
+        "hostUrl": "www.glitched.online"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 4560,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4561,
+          "position": 2,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4562,
+          "position": 3,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4563,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4564,
+          "position": 5,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4565,
+          "position": 6,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4566,
+          "position": 7,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4567,
+          "position": 8,
+          "gameTitle": "Pragmata",
+          "gameId": 1352,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4568,
+          "position": 9,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4569,
+          "position": 10,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4570,
+          "position": 11,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4571,
+          "position": 12,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4572,
+          "position": 13,
+          "gameTitle": "Forspoken",
+          "gameId": 1351,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4573,
+          "position": 14,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "byUser": false,
+      "sourceListUrl": "https://www.essentiallysports.com/esports-news-top-10-biggest-and-the-most-anticipated-games-of-2023",
+      "dateAdded": "2023-07-10T21:29:48.274406Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 249,
+        "name": "Essentiallysports",
+        "hostUrl": "www.essentiallysports.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 5220,
+          "position": 1,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5221,
+          "position": 2,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5222,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5223,
+          "position": 4,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5224,
+          "position": 5,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5225,
+          "position": 6,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5226,
+          "position": 7,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5227,
+          "position": 8,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5228,
+          "position": 9,
+          "gameTitle": "Stellar Blade",
+          "gameId": 1443,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5229,
+          "position": 10,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 622,
+      "byUser": false,
+      "sourceListUrl": "https://fantasywarden.com/games/fantasy-wardens-10-most-anticipated-games-of-2023",
+      "dateAdded": "2023-07-10T22:09:53.510084Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 250,
+        "name": "Fantasywarden",
+        "hostUrl": "fantasywarden.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 5230,
+          "position": 1,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5231,
+          "position": 2,
+          "gameTitle": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "gameId": 993,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5232,
+          "position": 3,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5233,
+          "position": 4,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5234,
+          "position": 5,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5235,
+          "position": 6,
+          "gameTitle": "Tempest Rising",
+          "gameId": 1446,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5236,
+          "position": 7,
+          "gameTitle": "Company of Heroes 3",
+          "gameId": 1447,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5237,
+          "position": 8,
+          "gameTitle": "Stormgate",
+          "gameId": 1448,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5238,
+          "position": 9,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5239,
+          "position": 10,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 623,
+      "byUser": false,
+      "sourceListUrl": "https://apptrigger.com/2023/07/06/most-exciting-video-game-releases-q3-2023/",
+      "dateAdded": "2023-07-10T22:09:54.33136Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 251,
+        "name": "Apptrigger",
+        "hostUrl": "apptrigger.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 5240,
+          "position": 1,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5241,
+          "position": 2,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5242,
+          "position": 3,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5243,
+          "position": 4,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5244,
+          "position": 5,
+          "gameTitle": "Payday 3",
+          "gameId": 1444,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5245,
+          "position": 6,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5246,
+          "position": 7,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 686,
+      "byUser": false,
+      "sourceListUrl": "https://thenerdstash.com/10-most-anticipated-games-coming-out-in-2023/",
+      "dateAdded": "2023-07-31T01:17:23.538563Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 269,
+        "name": "Thenerdstash",
+        "hostUrl": "thenerdstash.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 6606,
+          "position": 1,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6607,
+          "position": 2,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6608,
+          "position": 3,
+          "gameTitle": "Suicide Squad: Kill the Justice League",
+          "gameId": 995,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6609,
+          "position": 4,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6610,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6611,
+          "position": 6,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6612,
+          "position": 7,
+          "gameTitle": "The Wolf Among Us 2",
+          "gameId": 1583,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6613,
+          "position": 8,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6614,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6615,
+          "position": 10,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 687,
+      "byUser": false,
+      "sourceListUrl": "https://www.essentiallysports.com/esports-news-top-10-biggest-and-the-most-anticipated-games-of-2023/",
+      "dateAdded": "2023-07-31T01:17:26.277032Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 249,
+        "name": "Essentiallysports",
+        "hostUrl": "www.essentiallysports.com"
+      },
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 6616,
+          "position": 1,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6617,
+          "position": 2,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6618,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6619,
+          "position": 4,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6620,
+          "position": 5,
+          "gameTitle": "Wo Long: Fallen Dynasty",
+          "gameId": 996,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6621,
+          "position": 6,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6622,
+          "position": 7,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6623,
+          "position": 8,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6624,
+          "position": 9,
+          "gameTitle": "Stellar Blade",
+          "gameId": 1443,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6625,
+          "position": 10,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

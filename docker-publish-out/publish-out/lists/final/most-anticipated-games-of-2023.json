@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:23.2712729Z",
+  "slug": "most-anticipated-games-of-2023",
+  "type": 0,
+  "totalItems": 14,
+  "data": {
+    "id": 60,
+    "title": "Most Anticipated Games of",
+    "year": 2023,
+    "numberOfGames": 33,
+    "numberOfSources": 14,
+    "slug": "most-anticipated-games-of-2023",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 985,
+        "gameTitle": "Starfield",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2023-09-06T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vv.jpg",
+        "score": 118,
+        "position": 1,
+        "gameListId": 491,
+        "finalGameListId": 60
+      },
+      {
+        "gameId": 987,
+        "gameTitle": "Final Fantasy XVI",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2023-06-22T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w3k.jpg",
+        "score": 107,
+        "position": 4,
+        "gameListId": 491,
+        "finalGameListId": 60
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 106,
+        "position": 2,
+        "gameListId": 492,
+        "finalGameListId": 60
+      },
+      {
+        "gameId": 212,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2023-03-24T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg4.jpg",
+        "score": 99,
+        "position": 7,
+        "gameListId": 492,
+        "finalGameListId": 60
+      }
+    ]
+  }
+}

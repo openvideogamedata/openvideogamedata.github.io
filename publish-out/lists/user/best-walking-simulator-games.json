@@ -1,0 +1,204 @@
+{
+  "syncedAt": "2026-04-15T10:45:45.8491654Z",
+  "slug": "best-walking-simulator-games",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 1005,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2024-04-03T01:46:53.544217Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 83,
+        "title": "Best Walking Simulator Games of All Time",
+        "year": null,
+        "slug": "best-walking-simulator-games",
+        "fullName": "Best Walking Simulator Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10372,
+          "position": 1,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10373,
+          "position": 2,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10374,
+          "position": 3,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10375,
+          "position": 4,
+          "gameTitle": "Hellblade: Senua\u0027s Sacrifice",
+          "gameId": 1574,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10376,
+          "position": 5,
+          "gameTitle": "Viewfinder",
+          "gameId": 1591,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10377,
+          "position": 6,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10378,
+          "position": 7,
+          "gameTitle": "Return of the Obra Dinn",
+          "gameId": 189,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 1007,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2024-04-04T03:26:40.702708Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 83,
+        "title": "Best Walking Simulator Games of All Time",
+        "year": null,
+        "slug": "best-walking-simulator-games",
+        "fullName": "Best Walking Simulator Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10398,
+          "position": 1,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10399,
+          "position": 2,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10400,
+          "position": 3,
+          "gameTitle": "Amnesia: The Dark Descent",
+          "gameId": 1010,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10401,
+          "position": 4,
+          "gameTitle": "The Vanishing of Ethan Carter",
+          "gameId": 1264,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10402,
+          "position": 5,
+          "gameTitle": "What Remains of Edith Finch",
+          "gameId": 397,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10403,
+          "position": 6,
+          "gameTitle": "Before Your Eyes",
+          "gameId": 975,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10404,
+          "position": 7,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10405,
+          "position": 8,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10406,
+          "position": 9,
+          "gameTitle": "Dear Esther",
+          "gameId": 646,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10407,
+          "position": 10,
+          "gameTitle": "The Unfinished Swan",
+          "gameId": 2142,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10408,
+          "position": 11,
+          "gameTitle": "Yume Nikki",
+          "gameId": 2144,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10409,
+          "position": 12,
+          "gameTitle": "The Beginner\u0027s Guide",
+          "gameId": 2230,
+          "coverImageUrl": null,
+          "score": 4
+        }
+      ]
+    }
+  ]
+}

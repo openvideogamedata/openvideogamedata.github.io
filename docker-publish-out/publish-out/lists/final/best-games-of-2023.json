@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:25.4507751Z",
+  "slug": "best-games-of-2023",
+  "type": 0,
+  "totalItems": 29,
+  "data": {
+    "id": 62,
+    "title": "Best Games of",
+    "year": 2023,
+    "numberOfGames": 66,
+    "numberOfSources": 29,
+    "slug": "best-games-of-2023",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 989,
+        "gameTitle": "Baldur\u0027s Gate 3",
+        "trackStatus": 0,
+        "citations": 26,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-10-06T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
+        "score": 373,
+        "position": 2,
+        "gameListId": 858,
+        "finalGameListId": 62
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 27,
+        "porcentageOfCitations": 104,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 371,
+        "position": 1,
+        "gameListId": 858,
+        "finalGameListId": 62
+      },
+      {
+        "gameId": 998,
+        "gameTitle": "Alan Wake II",
+        "trackStatus": 0,
+        "citations": 22,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2023-10-17T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jar.jpg",
+        "score": 290,
+        "position": 4,
+        "gameListId": 864,
+        "finalGameListId": 62
+      },
+      {
+        "gameId": 212,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 25,
+        "porcentageOfCitations": 96,
+        "firstReleaseDate": "2023-03-24T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg4.jpg",
+        "score": 224,
+        "position": 6,
+        "gameListId": 858,
+        "finalGameListId": 62
+      }
+    ]
+  }
+}

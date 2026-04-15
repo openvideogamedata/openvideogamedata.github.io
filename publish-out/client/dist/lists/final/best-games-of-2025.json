@@ -1,0 +1,284 @@
+{
+  "syncedAt": "2026-04-15T11:36:34.5890451Z",
+  "slug": "best-games-of-2025",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "finalGameList": {
+      "id": 102,
+      "title": "Best Games of",
+      "year": 2025,
+      "slug": "best-games-of-2025",
+      "fullName": "Best Games of 2025",
+      "socialUrl": "https://www.openvideogamedata.com/list/best-games-of-all-time",
+      "socialComments": 0,
+      "tags": "all_time",
+      "tagList": [
+        "all_time"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": true,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of All Time",
+          "sourceUrl": "best-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 2985,
+        "gameTitle": "Clair Obscur: Expedition 33",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-04-24T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9gam.jpg",
+        "score": 29,
+        "position": 1,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3029,
+        "gameTitle": "Donkey Kong Bananza",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-07-17T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa082.jpg",
+        "score": 27,
+        "position": 2,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3031,
+        "gameTitle": "Split Fiction",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-03-06T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gf.jpg",
+        "score": 22,
+        "position": 5,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 1008,
+        "gameTitle": "Hades II",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5va1.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1208,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 988,
+        "gameTitle": "Hollow Knight: Silksong",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vtl.jpg",
+        "score": 14,
+        "position": 14,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3030,
+        "gameTitle": "Deltarune",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-06-04T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9m71.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 2887,
+        "gameTitle": "Dying Light: The Beast",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-09-30T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8pey.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 2884,
+        "gameTitle": "Monster Hunter Wilds",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-02-28T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co904o.jpg",
+        "score": 11,
+        "position": 11,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 2201,
+        "gameTitle": "Lost Records: Bloom \u0026 Rage",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2024-12-31T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ha2.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3038,
+        "gameTitle": "Trails in the Sky 1st Chapter",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-09-19T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co96kj.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 1208,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 2452,
+        "gameTitle": "Death Stranding 2: On The Beach",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7p8z.jpg",
+        "score": 9,
+        "position": 15,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3039,
+        "gameTitle": "Shujinkou",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-02-13T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co99fe.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1208,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3032,
+        "gameTitle": "Two Point Museum",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-03-04T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9t39.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3033,
+        "gameTitle": "Monster Train 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-05-21T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4k.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      },
+      {
+        "gameId": 3034,
+        "gameTitle": "Mario Kart World",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2025-06-05T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9m78.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 1207,
+        "finalGameListId": 102
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-games-2025/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Opencritic",
+        "sourceUrl": "https://opencritic.com/browse/all/2025",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

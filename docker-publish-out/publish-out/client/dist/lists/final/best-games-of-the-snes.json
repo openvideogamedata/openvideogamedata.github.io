@@ -1,0 +1,581 @@
+{
+  "syncedAt": "2026-04-15T11:34:00.8244934Z",
+  "slug": "best-games-of-the-snes",
+  "type": 0,
+  "totalItems": 7,
+  "data": {
+    "finalGameList": {
+      "id": 6,
+      "title": "Best Games of the SNES",
+      "year": null,
+      "slug": "best-games-of-the-snes",
+      "fullName": "Best Games of the SNES",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "console, nintendo",
+      "tagList": [
+        "console",
+        "nintendo"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the Wii U",
+          "sourceUrl": "best-games-of-the-wii-u",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy",
+          "sourceUrl": "best-games-of-the-game-boy",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Wii",
+          "sourceUrl": "best-games-of-the-wii",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the GameCube",
+          "sourceUrl": "best-games-of-the-gamecube",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Nintendo 64",
+          "sourceUrl": "best-games-of-the-nintendo-64",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the NES",
+          "sourceUrl": "best-games-of-the-nes",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Nintendo Switch",
+          "sourceUrl": "best-games-of-the-nintendo-switch",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Game Boy Advance",
+          "sourceUrl": "best-games-of-the-game-boy-advance",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy Color",
+          "sourceUrl": "best-games-of-the-game-boy-color",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo 3DS",
+          "sourceUrl": "best-games-of-the-nintendo-3ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo DS",
+          "sourceUrl": "best-games-of-the-nintendo-ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 372,
+        "gameTitle": "The Legend of Zelda: A Link to the Past",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-11-21T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.jpg",
+        "score": 71,
+        "position": 1,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 373,
+        "gameTitle": "Super Metroid",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1994-03-19T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5osy.jpg",
+        "score": 66,
+        "position": 3,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 371,
+        "gameTitle": "Super Mario World",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1990-11-21T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65za.jpg",
+        "score": 60,
+        "position": 5,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 519,
+        "gameTitle": "Chrono Trigger",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1995-03-11T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg",
+        "score": 59,
+        "position": 2,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 568,
+        "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1995-08-05T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kn9.jpg",
+        "score": 48,
+        "position": 7,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 686,
+        "gameTitle": "Donkey Kong Country",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1994-11-18T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29n6.jpg",
+        "score": 29,
+        "position": 13,
+        "gameListId": 381,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 512,
+        "gameTitle": "Super Mario Kart",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1992-08-27T00:00:00Z",
+        "releaseYear": 1992,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21w8.jpg",
+        "score": 28,
+        "position": 8,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 682,
+        "gameTitle": "Final Fantasy III",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1990-04-27T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2127.jpg",
+        "score": 27,
+        "position": 5,
+        "gameListId": 381,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 425,
+        "gameTitle": "Street Fighter II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "1991-02-01T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55et.jpg",
+        "score": 22,
+        "position": 5,
+        "gameListId": 1209,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 573,
+        "gameTitle": "EarthBound",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1994-08-27T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3shr.jpg",
+        "score": 19,
+        "position": 13,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 688,
+        "gameTitle": "Super Castlevania IV",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "1991-10-31T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20dc.jpg",
+        "score": 18,
+        "position": 15,
+        "gameListId": 381,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 570,
+        "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1996-03-09T00:00:00Z",
+        "releaseYear": 1996,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5r6p.jpg",
+        "score": 18,
+        "position": 10,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 569,
+        "gameTitle": "Star Fox",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "1993-02-21T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6air.jpg",
+        "score": 17,
+        "position": 9,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 572,
+        "gameTitle": "Mega Man X",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "1993-12-17T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tu2.jpg",
+        "score": 16,
+        "position": 12,
+        "gameListId": 364,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 683,
+        "gameTitle": "Super Mario All-Stars",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "1993-07-14T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ap.jpg",
+        "score": 15,
+        "position": 8,
+        "gameListId": 381,
+        "finalGameListId": 6
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 372,
+        "gameTitle": "The Legend of Zelda: A Link to the Past",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-11-21T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vzn.jpg",
+        "score": 27,
+        "position": 1,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1529,
+        "gameTitle": "Super Mario World",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-12-31T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65za.jpg",
+        "score": 26,
+        "position": 5,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 686,
+        "gameTitle": "Donkey Kong Country",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1994-11-18T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29n6.jpg",
+        "score": 19,
+        "position": 10,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1532,
+        "gameTitle": "SimCity",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1991-04-26T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vwv.jpg",
+        "score": 17,
+        "position": 9,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 519,
+        "gameTitle": "Chrono Trigger",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1995-03-11T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 467,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1526,
+        "gameTitle": "Rock n\u0027 Roll Racing",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-06-04T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3o1q.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 569,
+        "gameTitle": "Star Fox",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-02-21T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6air.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1528,
+        "gameTitle": "International Superstar Soccer Deluxe",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1995-09-22T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vl4.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 876,
+        "gameTitle": "Super Bomberman",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-04-28T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69t1.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 467,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 737,
+        "gameTitle": "Mortal Kombat",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-09-09T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69x7.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 512,
+        "gameTitle": "Super Mario Kart",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1992-08-27T00:00:00Z",
+        "releaseYear": 1992,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21w8.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 572,
+        "gameTitle": "Mega Man X",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-12-17T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tu2.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1531,
+        "gameTitle": "F-Zero",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1990-11-21T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ufz.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 688,
+        "gameTitle": "Super Castlevania IV",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1991-10-31T00:00:00Z",
+        "releaseYear": 1991,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20dc.jpg",
+        "score": 4,
+        "position": 12,
+        "gameListId": 661,
+        "finalGameListId": 6
+      },
+      {
+        "gameId": 1530,
+        "gameTitle": "Desert Strike: Return to the Gulf",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1993-12-31T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lde.jpg",
+        "score": 3,
+        "position": 13,
+        "gameListId": 661,
+        "finalGameListId": 6
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "sources": [
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/lists/top-100-snes-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nintendo Life",
+        "sourceUrl": "https://www.nintendolife.com/guides/50-best-super-nintendo-snes-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-snes-games-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-snes-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Xda-developers",
+        "sourceUrl": "https://www.xda-developers.com/these-are-the-11-best-snes-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 2,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 58,
+        "porcentageOfContributions": 79
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 21
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:20.0862562Z",
+  "slug": "best-games-of-master-system",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 57,
+    "title": "Best Games of Master System",
+    "year": null,
+    "numberOfGames": 24,
+    "numberOfSources": 3,
+    "slug": "best-games-of-master-system",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 937,
+        "gameTitle": "Psycho Fox",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1989-08-01T00:00:00Z",
+        "releaseYear": 1989,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3k59.jpg",
+        "score": 25,
+        "position": 1,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 930,
+        "gameTitle": "Alex Kidd in Miracle World",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1986-11-01T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20fm.jpg",
+        "score": 19,
+        "position": 6,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 945,
+        "gameTitle": "Asterix",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1993-12-31T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20g5.jpg",
+        "score": 19,
+        "position": 10,
+        "gameListId": 477,
+        "finalGameListId": 57
+      },
+      {
+        "gameId": 944,
+        "gameTitle": "Land of Illusion Starring Mickey Mouse",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1993-12-31T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zmt.jpg",
+        "score": 18,
+        "position": 9,
+        "gameListId": 477,
+        "finalGameListId": 57
+      }
+    ]
+  }
+}

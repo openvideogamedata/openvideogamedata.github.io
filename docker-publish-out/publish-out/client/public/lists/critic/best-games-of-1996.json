@@ -1,0 +1,684 @@
+{
+  "syncedAt": "2026-04-15T10:53:59.9817869Z",
+  "slug": "best-games-of-1996",
+  "type": 1,
+  "totalItems": 6,
+  "data": [
+    {
+      "id": 543,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendoblast.com.br/2021/05/1996-ano-importante-games-top-1.html",
+      "dateAdded": "2023-06-15T18:11:36.488984Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 228,
+        "name": "Nintendo Blast",
+        "hostUrl": "www.nintendoblast.com.br"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 3990,
+          "position": 1,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3991,
+          "position": 2,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3992,
+          "position": 3,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3993,
+          "position": 4,
+          "gameTitle": "Tomb Raider",
+          "gameId": 265,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3994,
+          "position": 5,
+          "gameTitle": "Diablo",
+          "gameId": 1200,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3995,
+          "position": 6,
+          "gameTitle": "Crash Bandicoot",
+          "gameId": 24,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3996,
+          "position": 7,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3997,
+          "position": 8,
+          "gameTitle": "Donkey Kong Country 3: Dixie Kong\u0027s Double Trouble!",
+          "gameId": 1201,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3998,
+          "position": 9,
+          "gameTitle": "Metal Slug",
+          "gameId": 1202,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3999,
+          "position": 10,
+          "gameTitle": "Nights Into Dreams...",
+          "gameId": 1203,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 544,
+      "byUser": false,
+      "sourceListUrl": "https://www.imdb.com/search/title/?title_type=video_game\u0026release_date=1996-01-01,1996-12-31",
+      "dateAdded": "2023-06-15T18:14:59.603116Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 222,
+        "name": "IMDb",
+        "hostUrl": "www.imdb.com"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 4000,
+          "position": 1,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4001,
+          "position": 2,
+          "gameTitle": "Diablo",
+          "gameId": 1200,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4002,
+          "position": 3,
+          "gameTitle": "Twisted Metal 2",
+          "gameId": 1204,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4003,
+          "position": 4,
+          "gameTitle": "Duke Nukem 3D",
+          "gameId": 1205,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4004,
+          "position": 5,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4005,
+          "position": 6,
+          "gameTitle": "Harvester",
+          "gameId": 1206,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4006,
+          "position": 7,
+          "gameTitle": "Crash Bandicoot",
+          "gameId": 24,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4007,
+          "position": 8,
+          "gameTitle": "Tomb Raider",
+          "gameId": 265,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4008,
+          "position": 9,
+          "gameTitle": "Lunacy",
+          "gameId": 1207,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4009,
+          "position": 10,
+          "gameTitle": "The Elder Scrolls II: Daggerfall",
+          "gameId": 1208,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4010,
+          "position": 11,
+          "gameTitle": "The Vampire Diaries",
+          "gameId": 1209,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4011,
+          "position": 12,
+          "gameTitle": "Ripper",
+          "gameId": 1210,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4012,
+          "position": 13,
+          "gameTitle": "Steven Spielberg\u0027s Director\u0027s Chair",
+          "gameId": 1211,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4013,
+          "position": 14,
+          "gameTitle": "Muppet Treasure Island",
+          "gameId": 1212,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4014,
+          "position": 15,
+          "gameTitle": "Command \u0026 Conquer: Red Alert",
+          "gameId": 1213,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 588,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/games/score/metascore/year/all/filtered?year_selected=1996",
+      "dateAdded": "2023-06-24T18:24:56.628872Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 4683,
+          "position": 1,
+          "gameTitle": "Sid Meier\u0027s Civilization II",
+          "gameId": 25,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4684,
+          "position": 2,
+          "gameTitle": "Quake",
+          "gameId": 1368,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4685,
+          "position": 3,
+          "gameTitle": "Diablo",
+          "gameId": 1200,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4686,
+          "position": 4,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4687,
+          "position": 5,
+          "gameTitle": "Wipeout XL",
+          "gameId": 263,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4688,
+          "position": 6,
+          "gameTitle": "Wave Race 64",
+          "gameId": 172,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4689,
+          "position": 7,
+          "gameTitle": "Tomb Raider",
+          "gameId": 265,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4690,
+          "position": 8,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4691,
+          "position": 9,
+          "gameTitle": "Command \u0026 Conquer: Red Alert",
+          "gameId": 1213,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4692,
+          "position": 10,
+          "gameTitle": "Tekken 2",
+          "gameId": 1370,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4693,
+          "position": 11,
+          "gameTitle": "Duke Nukem 3D",
+          "gameId": 1205,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4694,
+          "position": 12,
+          "gameTitle": "Master of Orion II: Battle at Antares",
+          "gameId": 1371,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4695,
+          "position": 13,
+          "gameTitle": "Super Puzzle Fighter II Turbo",
+          "gameId": 1372,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4696,
+          "position": 14,
+          "gameTitle": "Pilotwings 64",
+          "gameId": 233,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4697,
+          "position": 15,
+          "gameTitle": "Time Commando",
+          "gameId": 1373,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 589,
+      "byUser": false,
+      "sourceListUrl": "https://www.retrorefurbs.com/the-top-10-biggest-games-of-1996/",
+      "dateAdded": "2023-06-24T18:24:57.562521Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 243,
+        "name": "Retro Refurbs",
+        "hostUrl": "www.retrorefurbs.com"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 4698,
+          "position": 1,
+          "gameTitle": "Sid Meier\u0027s Civilization II",
+          "gameId": 25,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4699,
+          "position": 2,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4700,
+          "position": 3,
+          "gameTitle": "Nights Into Dreams...",
+          "gameId": 1203,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4701,
+          "position": 4,
+          "gameTitle": "Phantasmagoria",
+          "gameId": 1367,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4702,
+          "position": 5,
+          "gameTitle": "Quake",
+          "gameId": 1368,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4703,
+          "position": 6,
+          "gameTitle": "Metal Slug",
+          "gameId": 1202,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4704,
+          "position": 7,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4705,
+          "position": 8,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4706,
+          "position": 9,
+          "gameTitle": "Tetris Attack",
+          "gameId": 1369,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4707,
+          "position": 10,
+          "gameTitle": "Duke Nukem 3D",
+          "gameId": 1205,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 590,
+      "byUser": false,
+      "sourceListUrl": "https://blog.krusher.net/2016/12/los-mejores-juegos-de-1996/",
+      "dateAdded": "2023-06-24T18:29:27.834838Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 244,
+        "name": "Krusher Blog",
+        "hostUrl": "blog.krusher.net"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 4708,
+          "position": 1,
+          "gameTitle": "Quake",
+          "gameId": 1368,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4709,
+          "position": 2,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4710,
+          "position": 3,
+          "gameTitle": "The Neverhood",
+          "gameId": 1374,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4711,
+          "position": 4,
+          "gameTitle": "Sid Meier\u0027s Civilization II",
+          "gameId": 25,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4712,
+          "position": 5,
+          "gameTitle": "Metal Slug",
+          "gameId": 1202,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 591,
+      "byUser": false,
+      "sourceListUrl": "https://jogoveio.com.br/10-melhores-jogos-lancados-em-1996/",
+      "dateAdded": "2023-06-24T18:31:19.873108Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 245,
+        "name": "Jogoveio",
+        "hostUrl": "jogoveio.com.br"
+      },
+      "finalGameList": {
+        "id": 49,
+        "title": "Best Games of",
+        "year": 1996,
+        "slug": "best-games-of-1996",
+        "fullName": "Best Games of 1996"
+      },
+      "items": [
+        {
+          "id": 4713,
+          "position": 1,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4714,
+          "position": 2,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4715,
+          "position": 3,
+          "gameTitle": "Crash Bandicoot",
+          "gameId": 24,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4716,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Red",
+          "gameId": 513,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4717,
+          "position": 5,
+          "gameTitle": "Duke Nukem 3D",
+          "gameId": 1205,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4718,
+          "position": 6,
+          "gameTitle": "Nights Into Dreams...",
+          "gameId": 1203,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4719,
+          "position": 7,
+          "gameTitle": "Donkey Kong Country 3: Dixie Kong\u0027s Double Trouble!",
+          "gameId": 1201,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4720,
+          "position": 8,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4721,
+          "position": 9,
+          "gameTitle": "Mortal Kombat Trilogy",
+          "gameId": 828,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4722,
+          "position": 10,
+          "gameTitle": "Tomb Raider",
+          "gameId": 265,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

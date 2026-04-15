@@ -1,0 +1,506 @@
+{
+  "syncedAt": "2026-04-15T11:35:23.3319155Z",
+  "slug": "best-games-of-1995",
+  "type": 0,
+  "totalItems": 7,
+  "data": {
+    "finalGameList": {
+      "id": 50,
+      "title": "Best Games of",
+      "year": 1995,
+      "slug": "best-games-of-1995",
+      "fullName": "Best Games of 1995",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 519,
+        "gameTitle": "Chrono Trigger",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 86,
+        "firstReleaseDate": "1995-03-11T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg",
+        "score": 85,
+        "position": 6,
+        "gameListId": 541,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 568,
+        "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 71,
+        "firstReleaseDate": "1995-08-05T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kn9.jpg",
+        "score": 68,
+        "position": 1,
+        "gameListId": 541,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 684,
+        "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 71,
+        "firstReleaseDate": "1995-11-21T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co217m.jpg",
+        "score": 65,
+        "position": 2,
+        "gameListId": 541,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1195,
+        "gameTitle": "Panzer Dragoon",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 43,
+        "firstReleaseDate": "1995-03-10T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2icg.jpg",
+        "score": 35,
+        "position": 4,
+        "gameListId": 542,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1196,
+        "gameTitle": "Ristar",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 43,
+        "firstReleaseDate": "1995-02-16T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zr0.jpg",
+        "score": 25,
+        "position": 5,
+        "gameListId": 542,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1267,
+        "gameTitle": "Sega Rally Championship",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "1994-10-11T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f9a.jpg",
+        "score": 23,
+        "position": 4,
+        "gameListId": 557,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 573,
+        "gameTitle": "EarthBound",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "1994-08-27T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3shr.jpg",
+        "score": 19,
+        "position": 3,
+        "gameListId": 542,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1992,
+        "gameTitle": "Marvel Super Heroes",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "1995-10-24T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2s53.jpg",
+        "score": 19,
+        "position": 6,
+        "gameListId": 853,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1983,
+        "gameTitle": "Virtua Fighter 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1994-11-01T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zx.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 852,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1984,
+        "gameTitle": "Ridge Racer Revolution",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1995-12-03T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53f9.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 852,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1353,
+        "gameTitle": "The Beast Within: A Gabriel Knight Mystery",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1995-06-30T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pkk.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 579,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1189,
+        "gameTitle": "Marathon 2: Durandal",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1995-11-24T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5u0z.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 541,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1193,
+        "gameTitle": "Mega Man X3",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 29,
+        "firstReleaseDate": "1995-11-30T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55pa.jpg",
+        "score": 13,
+        "position": 8,
+        "gameListId": 541,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1985,
+        "gameTitle": "Tekken",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1994-12-09T00:00:00Z",
+        "releaseYear": 1994,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3aps.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 852,
+        "finalGameListId": 50
+      },
+      {
+        "gameId": 1354,
+        "gameTitle": "Terranigma",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 14,
+        "firstReleaseDate": "1995-10-11T00:00:00Z",
+        "releaseYear": 1995,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26g4.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 579,
+        "finalGameListId": 50
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Trettleman",
+        "sourceUrl": "https://trettleman.medium.com/the-9-best-games-of-the-year-1995-c8a0400115c8",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Videochums",
+        "sourceUrl": "https://videochums.com/top10/games-of-1995",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Mediavida",
+        "sourceUrl": "https://www.mediavida.com/foro/juegos/top-mejores-juegos-ano-1995-395271",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IMDb",
+        "sourceUrl": "https://www.imdb.com/search/title/?title_type=video_game\u0026year=1995-01-01,1995-12-31\u0026sort=user_rating,desc",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Wikipedia (en)",
+        "sourceUrl": "https://en.wikipedia.org/wiki/1995_in_video_games#Famitsu_Platinum_Hall_of_Fame",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamefaqs",
+        "sourceUrl": "https://gamefaqs.gamespot.com/top10/616-the-top-10-games-of-1995",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Notadogame",
+        "sourceUrl": "https://notadogame.com/ranking/games/1995",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 66,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

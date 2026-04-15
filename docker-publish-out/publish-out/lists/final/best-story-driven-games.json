@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:31.968197Z",
+  "slug": "best-story-driven-games",
+  "type": 0,
+  "totalItems": 23,
+  "data": {
+    "id": 68,
+    "title": "Best Narrative Games of All Time",
+    "year": null,
+    "numberOfGames": 108,
+    "numberOfSources": 23,
+    "slug": "best-story-driven-games",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 320,
+        "gameTitle": "The Last of Us",
+        "trackStatus": 0,
+        "citations": 17,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2013-06-14T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg",
+        "score": 196,
+        "position": 10,
+        "gameListId": 690,
+        "finalGameListId": 68
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 105,
+        "position": 4,
+        "gameListId": 669,
+        "finalGameListId": 68
+      },
+      {
+        "gameId": 311,
+        "gameTitle": "Silent Hill 2",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 55,
+        "firstReleaseDate": "2001-09-24T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyg.jpg",
+        "score": 101,
+        "position": 9,
+        "gameListId": 690,
+        "finalGameListId": 68
+      },
+      {
+        "gameId": 345,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 45,
+        "firstReleaseDate": "2018-04-20T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
+        "score": 97,
+        "position": 8,
+        "gameListId": 670,
+        "finalGameListId": 68
+      }
+    ]
+  }
+}

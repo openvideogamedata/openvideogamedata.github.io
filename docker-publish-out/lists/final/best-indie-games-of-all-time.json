@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:16.0645407Z",
+  "slug": "best-indie-games-of-all-time",
+  "type": 0,
+  "totalItems": 22,
+  "data": {
+    "id": 53,
+    "title": "Best Indie Games of All Time",
+    "year": null,
+    "numberOfGames": 89,
+    "numberOfSources": 22,
+    "slug": "best-indie-games-of-all-time",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 413,
+        "gameTitle": "Undertale",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2015-09-15T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2855.jpg",
+        "score": 111,
+        "position": 6,
+        "gameListId": 373,
+        "finalGameListId": 53
+      },
+      {
+        "gameId": 386,
+        "gameTitle": "Stardew Valley",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 63,
+        "firstReleaseDate": "2016-02-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.jpg",
+        "score": 109,
+        "position": 12,
+        "gameListId": 373,
+        "finalGameListId": 53
+      },
+      {
+        "gameId": 145,
+        "gameTitle": "Hollow Knight",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 63,
+        "firstReleaseDate": "2017-02-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+        "score": 107,
+        "position": 11,
+        "gameListId": 373,
+        "finalGameListId": 53
+      },
+      {
+        "gameId": 635,
+        "gameTitle": "Limbo",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 47,
+        "firstReleaseDate": "2010-07-21T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.jpg",
+        "score": 106,
+        "position": 9,
+        "gameListId": 373,
+        "finalGameListId": 53
+      }
+    ]
+  }
+}

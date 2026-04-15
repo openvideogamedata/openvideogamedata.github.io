@@ -1,0 +1,3718 @@
+{
+  "syncedAt": "2026-04-15T10:44:43.6524443Z",
+  "slug": "best-games-of-the-nintendo-switch",
+  "type": 1,
+  "totalItems": 27,
+  "data": [
+    {
+      "id": 310,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-switch-games/",
+      "dateAdded": "2023-04-04T17:48:30.591871Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 6766,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6767,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6768,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6769,
+          "position": 4,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6770,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6771,
+          "position": 6,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6772,
+          "position": 7,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6773,
+          "position": 8,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6774,
+          "position": 9,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6775,
+          "position": 10,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6776,
+          "position": 11,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6777,
+          "position": 12,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6778,
+          "position": 13,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 103,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6779,
+          "position": 14,
+          "gameTitle": "Paper Mario: The Origami King",
+          "gameId": 99,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6780,
+          "position": 15,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 367,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far",
+      "dateAdded": "2023-04-26T20:45:41.077412Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 130,
+        "name": "Nintendo Life",
+        "hostUrl": "www.nintendolife.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 3297,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3298,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3299,
+          "position": 3,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3300,
+          "position": 4,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3301,
+          "position": 5,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3302,
+          "position": 6,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3303,
+          "position": 7,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3304,
+          "position": 8,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3305,
+          "position": 9,
+          "gameTitle": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+          "gameId": 589,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3306,
+          "position": 10,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3307,
+          "position": 11,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3308,
+          "position": 12,
+          "gameTitle": "Xenoblade Chronicles: Definitive Edition",
+          "gameId": 590,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3309,
+          "position": 13,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3310,
+          "position": 14,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3311,
+          "position": 15,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 368,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-nintendo-switch-games-2",
+      "dateAdded": "2023-04-26T20:47:39.528874Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 6736,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6737,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6738,
+          "position": 3,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6739,
+          "position": 4,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6740,
+          "position": 5,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6741,
+          "position": 6,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6742,
+          "position": 7,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6743,
+          "position": 8,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6744,
+          "position": 9,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6745,
+          "position": 10,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6746,
+          "position": 11,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 103,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6747,
+          "position": 12,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6748,
+          "position": 13,
+          "gameTitle": "Octopath Traveler II",
+          "gameId": 701,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6749,
+          "position": 14,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6750,
+          "position": 15,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 369,
+      "byUser": false,
+      "sourceListUrl": "https://www.tomsguide.com/round-up/best-nintendo-switch-games",
+      "dateAdded": "2023-05-03T00:10:17.433939Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 102,
+        "name": "Tom\u0027s Guide",
+        "hostUrl": "www.tomsguide.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 1744,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1737,
+          "position": 2,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1738,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1739,
+          "position": 4,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1740,
+          "position": 5,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1741,
+          "position": 6,
+          "gameTitle": "Bowser\u0027s Fury",
+          "gameId": 599,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1742,
+          "position": 7,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1743,
+          "position": 8,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1745,
+          "position": 9,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1746,
+          "position": 10,
+          "gameTitle": "Splatoon 2",
+          "gameId": 102,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1747,
+          "position": 11,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1748,
+          "position": 12,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1749,
+          "position": 13,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1750,
+          "position": 14,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1751,
+          "position": 15,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 370,
+      "byUser": false,
+      "sourceListUrl": "https://www.pastemagazine.com/games/nintendo-switch/the-15-best-nintendo-switch-games",
+      "dateAdded": "2023-05-03T00:13:35.552548Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 127,
+        "name": "Paste Magazine",
+        "hostUrl": "www.pastemagazine.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 3312,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3313,
+          "position": 2,
+          "gameTitle": "Thumper",
+          "gameId": 181,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3314,
+          "position": 3,
+          "gameTitle": "Kentucky Route Zero",
+          "gameId": 405,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3315,
+          "position": 4,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3316,
+          "position": 5,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3317,
+          "position": 6,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3318,
+          "position": 7,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3319,
+          "position": 8,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3320,
+          "position": 9,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3321,
+          "position": 10,
+          "gameTitle": "Live A Live",
+          "gameId": 188,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3322,
+          "position": 11,
+          "gameTitle": "Return of the Obra Dinn",
+          "gameId": 189,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3323,
+          "position": 12,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3324,
+          "position": 13,
+          "gameTitle": "Spelunky 2",
+          "gameId": 601,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3325,
+          "position": 14,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3326,
+          "position": 15,
+          "gameTitle": "Nier: Automata - The End of Yorha Edition",
+          "gameId": 1004,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 371,
+      "byUser": false,
+      "sourceListUrl": "https://www.pockettactics.com/best-switch-games",
+      "dateAdded": "2023-05-03T00:16:28.032511Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 192,
+        "name": "Pockettactics",
+        "hostUrl": "www.pockettactics.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 3327,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3328,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3329,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3330,
+          "position": 4,
+          "gameTitle": "Astral Chain",
+          "gameId": 602,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3331,
+          "position": 5,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3332,
+          "position": 6,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3333,
+          "position": 7,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3334,
+          "position": 8,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3335,
+          "position": 9,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3336,
+          "position": 10,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3337,
+          "position": 11,
+          "gameTitle": "Super Mario Maker 2",
+          "gameId": 603,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3338,
+          "position": 12,
+          "gameTitle": "Xenoblade Chronicles: Definitive Edition",
+          "gameId": 590,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3339,
+          "position": 13,
+          "gameTitle": "Bayonetta 2",
+          "gameId": 577,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3340,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3341,
+          "position": 15,
+          "gameTitle": "Live A Live",
+          "gameId": 187,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 383,
+      "byUser": false,
+      "sourceListUrl": "https://www.news.com.au/best-of/electronics/home-entertainment/best-nintendo-switch-games/news-story/112e1d7351316dcadfc14e2bc2620b78",
+      "dateAdded": "2023-05-15T13:23:39.920207Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 198,
+        "name": "News AU",
+        "hostUrl": "www.news.com.au"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 1946,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1942,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1956,
+          "position": 3,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1955,
+          "position": 4,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1954,
+          "position": 5,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1953,
+          "position": 6,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1952,
+          "position": 7,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1951,
+          "position": 8,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1950,
+          "position": 9,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1949,
+          "position": 10,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1948,
+          "position": 11,
+          "gameTitle": "Portal",
+          "gameId": 508,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1947,
+          "position": 12,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1945,
+          "position": 13,
+          "gameTitle": "Bayonetta 2",
+          "gameId": 577,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1944,
+          "position": 14,
+          "gameTitle": "Into the Breach",
+          "gameId": 622,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1943,
+          "position": 15,
+          "gameTitle": "Dead Cells",
+          "gameId": 619,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 384,
+      "byUser": false,
+      "sourceListUrl": "https://www.stuff.tv/features/best-nintendo-switch-games/",
+      "dateAdded": "2023-05-15T13:29:38.627082Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 93,
+        "name": "Stuff TV",
+        "hostUrl": "www.stuff.tv"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 6751,
+          "position": 1,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6752,
+          "position": 2,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6753,
+          "position": 3,
+          "gameTitle": "Theatrhythm: Final Bar Line",
+          "gameId": 689,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6754,
+          "position": 4,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6755,
+          "position": 5,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6756,
+          "position": 6,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6757,
+          "position": 7,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 103,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6758,
+          "position": 8,
+          "gameTitle": "Bowser\u0027s Fury",
+          "gameId": 599,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6759,
+          "position": 9,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6760,
+          "position": 10,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6761,
+          "position": 11,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6762,
+          "position": 12,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6763,
+          "position": 13,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6764,
+          "position": 14,
+          "gameTitle": "A Short Hike",
+          "gameId": 691,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6765,
+          "position": 15,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 385,
+      "byUser": false,
+      "sourceListUrl": "https://www.pocket-lint.com/best-nintendo-switch-games/",
+      "dateAdded": "2023-05-15T13:37:50.058953Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 151,
+        "name": "Pocket-lint",
+        "hostUrl": "www.pocket-lint.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 1973,
+          "position": 1,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1972,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1981,
+          "position": 3,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1980,
+          "position": 4,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1979,
+          "position": 5,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1978,
+          "position": 6,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1977,
+          "position": 7,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1976,
+          "position": 8,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1975,
+          "position": 9,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1974,
+          "position": 10,
+          "gameTitle": "Pok\u00E9mon Scarlet",
+          "gameId": 692,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 386,
+      "byUser": false,
+      "sourceListUrl": "https://www.switchscores.com/top-rated/all-time",
+      "dateAdded": "2023-05-15T13:41:08.722173Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 199,
+        "name": "Switchscores",
+        "hostUrl": "www.switchscores.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 1986,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1982,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1996,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1995,
+          "position": 4,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1994,
+          "position": 5,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1993,
+          "position": 6,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1992,
+          "position": 7,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1991,
+          "position": 8,
+          "gameTitle": "Dragon Quest XI: Echoes of an Elusive Age",
+          "gameId": 414,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1990,
+          "position": 9,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1989,
+          "position": 10,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1988,
+          "position": 11,
+          "gameTitle": "Dusk",
+          "gameId": 661,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1987,
+          "position": 12,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1985,
+          "position": 13,
+          "gameTitle": "Love 3",
+          "gameId": 693,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1984,
+          "position": 14,
+          "gameTitle": "Kentucky Route Zero",
+          "gameId": 405,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1983,
+          "position": 15,
+          "gameTitle": "Portal",
+          "gameId": 508,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 387,
+      "byUser": false,
+      "sourceListUrl": "https://www.creativebloq.com/buying-guides/best-nintendo-switch-games",
+      "dateAdded": "2023-05-15T13:49:45.8127Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 200,
+        "name": "Creativebloq",
+        "hostUrl": "www.creativebloq.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8103,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8104,
+          "position": 2,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8105,
+          "position": 3,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8106,
+          "position": 4,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8107,
+          "position": 5,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8108,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8109,
+          "position": 7,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8110,
+          "position": 8,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8111,
+          "position": 9,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8112,
+          "position": 10,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8113,
+          "position": 11,
+          "gameTitle": "Yoshi\u0027s Crafted World",
+          "gameId": 1860,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8114,
+          "position": 12,
+          "gameTitle": "Pikmin 3 Deluxe",
+          "gameId": 1861,
+          "coverImageUrl": null,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 388,
+      "byUser": false,
+      "sourceListUrl": "https://edition.cnn.com/cnn-underscored/electronics/best-nintendo-switch-games",
+      "dateAdded": "2023-05-15T13:55:04.769696Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 201,
+        "name": "Edition",
+        "hostUrl": "edition.cnn.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 3342,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3343,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3344,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3345,
+          "position": 4,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3346,
+          "position": 5,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3347,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3348,
+          "position": 7,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3349,
+          "position": 8,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3350,
+          "position": 9,
+          "gameTitle": "Bowser\u0027s Fury",
+          "gameId": 599,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3351,
+          "position": 10,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3352,
+          "position": 11,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3353,
+          "position": 12,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3354,
+          "position": 13,
+          "gameTitle": "Fire Emblem Engage",
+          "gameId": 698,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3355,
+          "position": 14,
+          "gameTitle": "Cruis\u0027n Blast",
+          "gameId": 1006,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3356,
+          "position": 15,
+          "gameTitle": "No More Heroes III",
+          "gameId": 700,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 389,
+      "byUser": false,
+      "sourceListUrl": "https://gaminggorilla.com/best-nintendo-switch-games/",
+      "dateAdded": "2023-05-15T13:57:19.50492Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 156,
+        "name": "Gaming Gorilla",
+        "hostUrl": "gaminggorilla.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2031,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2027,
+          "position": 2,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2041,
+          "position": 3,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2040,
+          "position": 4,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2039,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2038,
+          "position": 6,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2037,
+          "position": 7,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2036,
+          "position": 8,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2035,
+          "position": 9,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2034,
+          "position": 10,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2033,
+          "position": 11,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2032,
+          "position": 12,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2030,
+          "position": 13,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2029,
+          "position": 14,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2028,
+          "position": 15,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 390,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamebyte.com/10-best-nintendo-switch-games/",
+      "dateAdded": "2023-05-15T14:08:52.912374Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 202,
+        "name": "Gamebyte",
+        "hostUrl": "www.gamebyte.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2042,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2043,
+          "position": 2,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2044,
+          "position": 3,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2045,
+          "position": 4,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2046,
+          "position": 5,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2047,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2048,
+          "position": 7,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2049,
+          "position": 8,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2050,
+          "position": 9,
+          "gameTitle": "Octopath Traveler",
+          "gameId": 704,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2051,
+          "position": 10,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "byUser": false,
+      "sourceListUrl": "https://www.laptopmag.com/best-picks/best-nintendo-switch-games",
+      "dateAdded": "2023-05-15T14:08:53.705375Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 203,
+        "name": "Laptopmag",
+        "hostUrl": "www.laptopmag.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2052,
+          "position": 1,
+          "gameTitle": "Octopath Traveler II",
+          "gameId": 701,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2053,
+          "position": 2,
+          "gameTitle": "Live A Live",
+          "gameId": 188,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2054,
+          "position": 3,
+          "gameTitle": "Pok\u00E9mon Scarlet",
+          "gameId": 692,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2055,
+          "position": 4,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2056,
+          "position": 5,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2057,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2058,
+          "position": 7,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2059,
+          "position": 8,
+          "gameTitle": "New Pok\u00E9mon Snap",
+          "gameId": 702,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2060,
+          "position": 9,
+          "gameTitle": "Mario Strikers: Battle League",
+          "gameId": 703,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2061,
+          "position": 10,
+          "gameTitle": "Neon White",
+          "gameId": 261,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 392,
+      "byUser": false,
+      "sourceListUrl": "https://www.theloadout.com/nintendo-switch/best-games",
+      "dateAdded": "2023-05-15T14:10:53.909839Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 204,
+        "name": "Theloadout",
+        "hostUrl": "www.theloadout.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 7902,
+          "position": 1,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7903,
+          "position": 2,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7904,
+          "position": 3,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7905,
+          "position": 4,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7906,
+          "position": 5,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7907,
+          "position": 6,
+          "gameTitle": "Into the Breach",
+          "gameId": 622,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7908,
+          "position": 7,
+          "gameTitle": "Divinity: Original Sin II",
+          "gameId": 705,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7909,
+          "position": 8,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7910,
+          "position": 9,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7911,
+          "position": 10,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7912,
+          "position": 11,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7913,
+          "position": 12,
+          "gameTitle": "LEGO Star Wars: The Skywalker Saga",
+          "gameId": 680,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7914,
+          "position": 13,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7915,
+          "position": 14,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 393,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-nintendo-switch-games/",
+      "dateAdded": "2023-05-15T14:14:25.862294Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2079,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2075,
+          "position": 2,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2089,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2088,
+          "position": 4,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2087,
+          "position": 5,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2086,
+          "position": 6,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2085,
+          "position": 7,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2084,
+          "position": 8,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2083,
+          "position": 9,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2082,
+          "position": 10,
+          "gameTitle": "The Elder Scrolls V: Skyrim",
+          "gameId": 392,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2081,
+          "position": 11,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2080,
+          "position": 12,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2078,
+          "position": 13,
+          "gameTitle": "Super Mario 3D World",
+          "gameId": 585,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2077,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon Sword",
+          "gameId": 707,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2076,
+          "position": 15,
+          "gameTitle": "Super Mario Maker 2",
+          "gameId": 603,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 404,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/games/score/metascore/all/switch/filtered",
+      "dateAdded": "2023-05-25T12:27:14.438267Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2228,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2229,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2230,
+          "position": 3,
+          "gameTitle": "Portal: Companion Collection",
+          "gameId": 724,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2231,
+          "position": 4,
+          "gameTitle": "The House in Fata Morgana: Dreams of the Revenants Edition",
+          "gameId": 725,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2232,
+          "position": 5,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2233,
+          "position": 6,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2234,
+          "position": 7,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2235,
+          "position": 8,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2236,
+          "position": 9,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2237,
+          "position": 10,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2238,
+          "position": 11,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2239,
+          "position": 12,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2240,
+          "position": 13,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2241,
+          "position": 14,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2242,
+          "position": 15,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 405,
+      "byUser": false,
+      "sourceListUrl": "https://opencritic.com/browse/switch",
+      "dateAdded": "2023-05-25T12:30:28.782175Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 128,
+        "name": "Opencritic",
+        "hostUrl": "opencritic.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8115,
+          "position": 1,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8116,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8117,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8118,
+          "position": 4,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8119,
+          "position": 5,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8120,
+          "position": 6,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8121,
+          "position": 7,
+          "gameTitle": "Dead Cells: The Queen \u0026 the Sea",
+          "gameId": 727,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8122,
+          "position": 8,
+          "gameTitle": "Portal: Companion Collection",
+          "gameId": 724,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8123,
+          "position": 9,
+          "gameTitle": "Resident Evil 2",
+          "gameId": 354,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8124,
+          "position": 10,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8125,
+          "position": 11,
+          "gameTitle": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+          "gameId": 589,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8126,
+          "position": 12,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8127,
+          "position": 13,
+          "gameTitle": "Tents and Trees",
+          "gameId": 728,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8128,
+          "position": 14,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8129,
+          "position": 15,
+          "gameTitle": "Divinity: Original Sin II - Definitive Edition",
+          "gameId": 726,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 561,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.de/nintendo-switch-die-besten-spiele",
+      "dateAdded": "2023-06-18T23:33:15.739038Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 231,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.de"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 4254,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4255,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4256,
+          "position": 3,
+          "gameTitle": "Tetris 99",
+          "gameId": 158,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4257,
+          "position": 4,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4258,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4259,
+          "position": 6,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4260,
+          "position": 7,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4261,
+          "position": 8,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4262,
+          "position": 9,
+          "gameTitle": "Super Mario Maker 2",
+          "gameId": 603,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4263,
+          "position": 10,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4264,
+          "position": 11,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4265,
+          "position": 12,
+          "gameTitle": "Dead Cells",
+          "gameId": 619,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4266,
+          "position": 13,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4267,
+          "position": 14,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4268,
+          "position": 15,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 562,
+      "byUser": false,
+      "sourceListUrl": "https://www.techstage.de/bestenliste/top-10-die-besten-spiele-fuer-nintendo-switch/8lysqf9",
+      "dateAdded": "2023-06-18T23:33:17.576632Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 232,
+        "name": "Techstage",
+        "hostUrl": "www.techstage.de"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 4269,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4270,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4271,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4272,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4273,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4274,
+          "position": 6,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4275,
+          "position": 7,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4276,
+          "position": 8,
+          "gameTitle": "Fire Emblem Engage",
+          "gameId": 698,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4277,
+          "position": 9,
+          "gameTitle": "Mario Party Superstars",
+          "gameId": 100,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4278,
+          "position": 10,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 563,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamestar.de/artikel/beste-spiele-nintendo-switch-2023,3393370.html",
+      "dateAdded": "2023-06-18T23:33:18.760314Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 233,
+        "name": "Gamestar",
+        "hostUrl": "www.gamestar.de"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 4279,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4280,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4281,
+          "position": 3,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4282,
+          "position": 4,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4283,
+          "position": 5,
+          "gameTitle": "Into the Breach",
+          "gameId": 622,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4284,
+          "position": 6,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4285,
+          "position": 7,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4286,
+          "position": 8,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4287,
+          "position": 9,
+          "gameTitle": "Dragon Quest XI: Echoes of an Elusive Age",
+          "gameId": 414,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4288,
+          "position": 10,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4289,
+          "position": 11,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4290,
+          "position": 12,
+          "gameTitle": "Super Mario 3D World \u002B Bowser\u0027s Fury",
+          "gameId": 1293,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4291,
+          "position": 13,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4292,
+          "position": 14,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4293,
+          "position": 15,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "byUser": false,
+      "sourceListUrl": "https://www.thegamer.com/nintendo-switch-best-games-of-all-time-ranked",
+      "dateAdded": "2023-09-15T17:44:00.561221Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 193,
+        "name": "Thegamer",
+        "hostUrl": "www.thegamer.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8668,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8669,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8670,
+          "position": 3,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8671,
+          "position": 4,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8672,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8673,
+          "position": 6,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8674,
+          "position": 7,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8675,
+          "position": 8,
+          "gameTitle": "Monster Hunter Rise",
+          "gameId": 591,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8676,
+          "position": 9,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8677,
+          "position": 10,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8678,
+          "position": 11,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8679,
+          "position": 12,
+          "gameTitle": "Bowser\u0027s Fury",
+          "gameId": 599,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8680,
+          "position": 13,
+          "gameTitle": "Pok\u00E9mon: Let\u0027s Go, Pikachu!",
+          "gameId": 1909,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8681,
+          "position": 14,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8682,
+          "position": 15,
+          "gameTitle": "Xenoblade Chronicles: Definitive Edition",
+          "gameId": 590,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 806,
+      "byUser": false,
+      "sourceListUrl": "https://whatoplay.com/switch/best/",
+      "dateAdded": "2023-09-15T17:47:57.087802Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 155,
+        "name": "Whatoplay",
+        "hostUrl": "whatoplay.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8683,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8684,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8685,
+          "position": 3,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8686,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8687,
+          "position": 5,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8688,
+          "position": 6,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8689,
+          "position": 7,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8690,
+          "position": 8,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8691,
+          "position": 9,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8692,
+          "position": 10,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8693,
+          "position": 11,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8694,
+          "position": 12,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8695,
+          "position": 13,
+          "gameTitle": "Bowser\u0027s Fury",
+          "gameId": 599,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8696,
+          "position": 14,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8697,
+          "position": 15,
+          "gameTitle": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+          "gameId": 589,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "byUser": false,
+      "sourceListUrl": "https://www.inverse.com/gaming/nintendo-switch-best-games",
+      "dateAdded": "2023-09-15T17:50:22.10991Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 238,
+        "name": "Inverse",
+        "hostUrl": "www.inverse.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8698,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8699,
+          "position": 2,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8700,
+          "position": 3,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8701,
+          "position": 4,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8702,
+          "position": 5,
+          "gameTitle": "Mario \u002B Rabbids Sparks of Hope",
+          "gameId": 262,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8703,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8704,
+          "position": 7,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8705,
+          "position": 8,
+          "gameTitle": "Golf Story",
+          "gameId": 1910,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8706,
+          "position": 9,
+          "gameTitle": "Bayonetta 3",
+          "gameId": 274,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8707,
+          "position": 10,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 838,
+      "byUser": false,
+      "sourceListUrl": "https://www.one37pm.com/gaming/best-nintendo-switch-games",
+      "dateAdded": "2023-09-18T01:25:19.251746Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 172,
+        "name": "One37pm",
+        "hostUrl": "www.one37pm.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8734,
+          "position": 1,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8735,
+          "position": 2,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8736,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8737,
+          "position": 4,
+          "gameTitle": "Animal Crossing: New Horizons",
+          "gameId": 92,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8738,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8739,
+          "position": 6,
+          "gameTitle": "Super Mario 3D All-Stars",
+          "gameId": 1942,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8740,
+          "position": 7,
+          "gameTitle": "Pok\u00E9mon Sword",
+          "gameId": 707,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8741,
+          "position": 8,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8742,
+          "position": 9,
+          "gameTitle": "Bayonetta 2",
+          "gameId": 577,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8743,
+          "position": 10,
+          "gameTitle": "Dark Souls: Remastered",
+          "gameId": 741,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8744,
+          "position": 11,
+          "gameTitle": "Tetris 99",
+          "gameId": 158,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8745,
+          "position": 12,
+          "gameTitle": "Xenoblade Chronicles 2",
+          "gameId": 1943,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8746,
+          "position": 13,
+          "gameTitle": "Ring Fit Adventure",
+          "gameId": 1944,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8747,
+          "position": 14,
+          "gameTitle": "Diablo III: Eternal Collection",
+          "gameId": 1945,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8748,
+          "position": 15,
+          "gameTitle": "No More Heroes",
+          "gameId": 1946,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 839,
+      "byUser": false,
+      "sourceListUrl": "https://history-computer.com/reddits-best-switch-games/",
+      "dateAdded": "2023-09-18T01:29:05.972887Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 253,
+        "name": "History-computer",
+        "hostUrl": "history-computer.com"
+      },
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 8749,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8750,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8751,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8752,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 103,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8753,
+          "position": 5,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8754,
+          "position": 6,
+          "gameTitle": "Dragon Quest XI: Echoes of an Elusive Age",
+          "gameId": 414,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8755,
+          "position": 7,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8756,
+          "position": 8,
+          "gameTitle": "Dark Souls: Remastered",
+          "gameId": 741,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8757,
+          "position": 9,
+          "gameTitle": "Xenoblade Chronicles: Definitive Edition",
+          "gameId": 590,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8758,
+          "position": 10,
+          "gameTitle": "Kirby and the Forgotten Land",
+          "gameId": 269,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 8759,
+          "position": 11,
+          "gameTitle": "Metroid Dread",
+          "gameId": 93,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 8760,
+          "position": 12,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 8761,
+          "position": 13,
+          "gameTitle": "Astral Chain",
+          "gameId": 602,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 8762,
+          "position": 14,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 8763,
+          "position": 15,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

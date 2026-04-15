@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:46.224189Z",
+  "slug": "best-games-of-the-playstation-5",
+  "type": 0,
+  "totalItems": 14,
+  "data": {
+    "id": 23,
+    "title": "Best Games of the Playstation 5",
+    "year": null,
+    "numberOfGames": 61,
+    "numberOfSources": 14,
+    "slug": "best-games-of-the-playstation-5",
+    "pinned": true,
+    "topWinners": [
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 91,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 138,
+        "position": 2,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 143,
+        "gameTitle": "God of War Ragnar\u00F6k",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2022-11-09T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5s5v.jpg",
+        "score": 119,
+        "position": 1,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 2352,
+        "gameTitle": "Astro Bot",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 64,
+        "firstReleaseDate": "2024-09-06T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.jpg",
+        "score": 85,
+        "position": 3,
+        "gameListId": 958,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 991,
+        "gameTitle": "Marvel\u0027s Spider-Man 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vrx.jpg",
+        "score": 75,
+        "position": 4,
+        "gameListId": 958,
+        "finalGameListId": 23
+      }
+    ]
+  }
+}

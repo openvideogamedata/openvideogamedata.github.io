@@ -1,0 +1,3646 @@
+{
+  "syncedAt": "2026-04-15T10:45:26.1944083Z",
+  "slug": "best-games-of-2023",
+  "type": 1,
+  "totalItems": 27,
+  "data": [
+    {
+      "id": 858,
+      "byUser": false,
+      "sourceListUrl": "https://www.gameinformer.com/topreviews2023",
+      "dateAdded": "2023-11-08T03:10:02.077879Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 254,
+        "name": "Gameinformer",
+        "hostUrl": "www.gameinformer.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9149,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9150,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9151,
+          "position": 3,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9152,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9153,
+          "position": 5,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9154,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9155,
+          "position": 7,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9156,
+          "position": 8,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9157,
+          "position": 9,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9158,
+          "position": 10,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9159,
+          "position": 11,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9160,
+          "position": 12,
+          "gameTitle": "Fire Emblem Engage",
+          "gameId": 698,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9161,
+          "position": 13,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9162,
+          "position": 14,
+          "gameTitle": "Jusant",
+          "gameId": 2029,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9163,
+          "position": 15,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 859,
+      "byUser": false,
+      "sourceListUrl": "https://www.gq-magazine.co.uk/culture/gallery/best-games-2023",
+      "dateAdded": "2023-11-08T03:10:03.215001Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 207,
+        "name": "Gq-magazine",
+        "hostUrl": "www.gq-magazine.co.uk"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9164,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9165,
+          "position": 2,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9166,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9167,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9168,
+          "position": 5,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9169,
+          "position": 6,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9170,
+          "position": 7,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9171,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9172,
+          "position": 9,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9173,
+          "position": 10,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9174,
+          "position": 11,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9175,
+          "position": 12,
+          "gameTitle": "Shadow Gambit: The Cursed Crew",
+          "gameId": 2028,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9176,
+          "position": 13,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9177,
+          "position": 14,
+          "gameTitle": "Horizon Call of the Mountain",
+          "gameId": 210,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9178,
+          "position": 15,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 860,
+      "byUser": false,
+      "sourceListUrl": "https://www.inverse.com/gaming/best-video-games-2023",
+      "dateAdded": "2023-11-08T03:10:04.024122Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 238,
+        "name": "Inverse",
+        "hostUrl": "www.inverse.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9179,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9180,
+          "position": 2,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9181,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9182,
+          "position": 4,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9183,
+          "position": 5,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9184,
+          "position": 6,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9185,
+          "position": 7,
+          "gameTitle": "He Fucked the Girl Out of Me",
+          "gameId": 2025,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9186,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9187,
+          "position": 9,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9188,
+          "position": 10,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9189,
+          "position": 11,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9190,
+          "position": 12,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9191,
+          "position": 13,
+          "gameTitle": "Paranormasight: The Seven Mysteries of Honjo",
+          "gameId": 2026,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9192,
+          "position": 14,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9193,
+          "position": 15,
+          "gameTitle": "Bayonetta Origins: Cereza and the Lost Demon",
+          "gameId": 2027,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 861,
+      "byUser": false,
+      "sourceListUrl": "https://opencritic.com/browse/all/2023",
+      "dateAdded": "2023-11-08T03:10:04.834563Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 128,
+        "name": "Opencritic",
+        "hostUrl": "opencritic.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9194,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9195,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9196,
+          "position": 3,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9197,
+          "position": 4,
+          "gameTitle": "Videoverse",
+          "gameId": 2019,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9198,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9199,
+          "position": 6,
+          "gameTitle": "Tents and Trees",
+          "gameId": 728,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9200,
+          "position": 7,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9201,
+          "position": 8,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9202,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9203,
+          "position": 10,
+          "gameTitle": "8-Bit Adventures 2",
+          "gameId": 2020,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9204,
+          "position": 11,
+          "gameTitle": "Turbo Overkill",
+          "gameId": 2021,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9205,
+          "position": 12,
+          "gameTitle": "Slay the Princess",
+          "gameId": 2022,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9206,
+          "position": 13,
+          "gameTitle": "Xenoblade Chronicles 3: Future Redeemed",
+          "gameId": 2023,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9207,
+          "position": 14,
+          "gameTitle": "Jack Jeanne",
+          "gameId": 2024,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9208,
+          "position": 15,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/game/all/all/current-year/",
+      "dateAdded": "2023-11-09T01:30:28.148537Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9487,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9488,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9489,
+          "position": 3,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9490,
+          "position": 4,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9491,
+          "position": 5,
+          "gameTitle": "The Witcher 3: Wild Hunt - Complete Edition",
+          "gameId": 843,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9492,
+          "position": 6,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9493,
+          "position": 7,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9494,
+          "position": 8,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9495,
+          "position": 9,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9496,
+          "position": 10,
+          "gameTitle": "Xenoblade Chronicles 3 \u002B Xenoblade Chronicles 3 Expansion Pass",
+          "gameId": 2071,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9497,
+          "position": 11,
+          "gameTitle": "Turbo Overkill",
+          "gameId": 2021,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9498,
+          "position": 12,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9499,
+          "position": 13,
+          "gameTitle": "Slay the Princess",
+          "gameId": 2022,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9500,
+          "position": 14,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9501,
+          "position": 15,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 864,
+      "byUser": false,
+      "sourceListUrl": "https://www.imdb.com/search/title/?title_type=video_game\u0026release_date=2023-01-01,2023-12-31\u0026sort=user_rating,desc",
+      "dateAdded": "2023-11-09T01:37:51.940027Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 222,
+        "name": "IMDb",
+        "hostUrl": "www.imdb.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9239,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9240,
+          "position": 2,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9241,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9242,
+          "position": 4,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9243,
+          "position": 5,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9244,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9245,
+          "position": 7,
+          "gameTitle": "Cuttlefish",
+          "gameId": 2034,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9246,
+          "position": 8,
+          "gameTitle": "Class of \u002709: The Re-Up",
+          "gameId": 2035,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9247,
+          "position": 9,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9248,
+          "position": 10,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9249,
+          "position": 11,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9250,
+          "position": 12,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9251,
+          "position": 13,
+          "gameTitle": "Resident Evil 4: Separate Ways",
+          "gameId": 2036,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9252,
+          "position": 14,
+          "gameTitle": "The 7th Guest VR",
+          "gameId": 2037,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9253,
+          "position": 15,
+          "gameTitle": "Metroid Prime Remastered",
+          "gameId": 107,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 872,
+      "byUser": false,
+      "sourceListUrl": "https://time.com/6340124/best-video-games-2023/",
+      "dateAdded": "2023-11-30T19:59:49.697398Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 132,
+        "name": "Time",
+        "hostUrl": "time.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9357,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9358,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9359,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9360,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9361,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9356,
+          "position": 6,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9362,
+          "position": 7,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9363,
+          "position": 8,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9364,
+          "position": 9,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9365,
+          "position": 10,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 873,
+      "byUser": false,
+      "sourceListUrl": "https://whatculture.com/amp/gaming/20-best-video-games-of-2023-ranked",
+      "dateAdded": "2023-12-03T15:54:30.185703Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 266,
+        "name": "Whatculture",
+        "hostUrl": "whatculture.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9366,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9367,
+          "position": 2,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9368,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9369,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9370,
+          "position": 5,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9371,
+          "position": 6,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9372,
+          "position": 7,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9373,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9374,
+          "position": 9,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9375,
+          "position": 10,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9376,
+          "position": 11,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9377,
+          "position": 12,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9378,
+          "position": 13,
+          "gameTitle": "Gravity Circuit",
+          "gameId": 2065,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9379,
+          "position": 14,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9380,
+          "position": 15,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "byUser": false,
+      "sourceListUrl": "https://www.pastemagazine.com/games/best-games/the-best-games-of-2023",
+      "dateAdded": "2023-12-05T02:50:25.168156Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 127,
+        "name": "Paste Magazine",
+        "hostUrl": "www.pastemagazine.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9387,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9388,
+          "position": 2,
+          "gameTitle": "El Paso, Elsewhere",
+          "gameId": 2040,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9389,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9390,
+          "position": 4,
+          "gameTitle": "Thirsty Suitors",
+          "gameId": 2066,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9391,
+          "position": 5,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9392,
+          "position": 6,
+          "gameTitle": "Venba",
+          "gameId": 2045,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9393,
+          "position": 7,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9394,
+          "position": 8,
+          "gameTitle": "The Banished Vault",
+          "gameId": 2043,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9395,
+          "position": 9,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9396,
+          "position": 10,
+          "gameTitle": "Saltsea Chronicles",
+          "gameId": 2067,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9397,
+          "position": 11,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9398,
+          "position": 12,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9399,
+          "position": 13,
+          "gameTitle": "Pizza Tower",
+          "gameId": 738,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9400,
+          "position": 14,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9401,
+          "position": 15,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 875,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/features/the-25-best-video-games-of-2023/",
+      "dateAdded": "2023-12-05T02:50:26.622593Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9402,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9403,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9404,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9405,
+          "position": 4,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9406,
+          "position": 5,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9407,
+          "position": 6,
+          "gameTitle": "Humanity",
+          "gameId": 2030,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9408,
+          "position": 7,
+          "gameTitle": "A Space for the Unbound",
+          "gameId": 2041,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9409,
+          "position": 8,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9410,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9411,
+          "position": 10,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9412,
+          "position": 11,
+          "gameTitle": "Jusant",
+          "gameId": 2029,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9413,
+          "position": 12,
+          "gameTitle": "Octopath Traveler II",
+          "gameId": 701,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9414,
+          "position": 13,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9415,
+          "position": 14,
+          "gameTitle": "El Paso, Elsewhere",
+          "gameId": 2040,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9416,
+          "position": 15,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 876,
+      "byUser": false,
+      "sourceListUrl": "https://www.dexerto.com/gaming/best-games-of-2023-2410804/",
+      "dateAdded": "2023-12-05T16:56:59.613397Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 175,
+        "name": "Dexerto",
+        "hostUrl": "www.dexerto.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9417,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9418,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9419,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9420,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9421,
+          "position": 5,
+          "gameTitle": "Octopath Traveler II",
+          "gameId": 701,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9422,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9423,
+          "position": 7,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9424,
+          "position": 8,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9425,
+          "position": 9,
+          "gameTitle": "Assassin\u0027s Creed Mirage",
+          "gameId": 994,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9426,
+          "position": 10,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 877,
+      "byUser": false,
+      "sourceListUrl": "https://www.nme.com/en_au/features/gaming-features/best-games-2023-switch-xbox-playstation-pc-3553559",
+      "dateAdded": "2023-12-05T16:57:00.601668Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 154,
+        "name": "Nme",
+        "hostUrl": "www.nme.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9427,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9428,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9429,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9430,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9431,
+          "position": 5,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9432,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9433,
+          "position": 7,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9434,
+          "position": 8,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9435,
+          "position": 9,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9436,
+          "position": 10,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9437,
+          "position": 11,
+          "gameTitle": "Venba",
+          "gameId": 2045,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9438,
+          "position": 12,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9439,
+          "position": 13,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9440,
+          "position": 14,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9441,
+          "position": 15,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 878,
+      "byUser": false,
+      "sourceListUrl": "https://www.polygon.com/23648669/best-video-games-2023",
+      "dateAdded": "2023-12-05T16:57:02.154645Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 133,
+        "name": "Polygon",
+        "hostUrl": "www.polygon.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9442,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9443,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9444,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9445,
+          "position": 4,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9446,
+          "position": 5,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9447,
+          "position": 6,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9448,
+          "position": 7,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9449,
+          "position": 8,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9450,
+          "position": 9,
+          "gameTitle": "Jusant",
+          "gameId": 2029,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9451,
+          "position": 10,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9452,
+          "position": 11,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9453,
+          "position": 12,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9454,
+          "position": 13,
+          "gameTitle": "Octopath Traveler II",
+          "gameId": 701,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9455,
+          "position": 14,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9456,
+          "position": 15,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "byUser": false,
+      "sourceListUrl": "https://www.vulture.com/article/best-video-games-2023.html",
+      "dateAdded": "2023-12-06T02:28:20.483668Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 306,
+        "name": "Vulture",
+        "hostUrl": "www.vulture.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9457,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9458,
+          "position": 2,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9459,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9460,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9461,
+          "position": 5,
+          "gameTitle": "System Shock",
+          "gameId": 2031,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9462,
+          "position": 6,
+          "gameTitle": "Pizza Tower",
+          "gameId": 738,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9463,
+          "position": 7,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9464,
+          "position": 8,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9465,
+          "position": 9,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9466,
+          "position": 10,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 880,
+      "byUser": false,
+      "sourceListUrl": "https://www.theringer.com/video-games/2023/12/7/23992057/best-video-games-2023-top-10-pc-playstation-switch-xbox",
+      "dateAdded": "2023-12-09T03:05:53.855307Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 307,
+        "name": "Theringer",
+        "hostUrl": "www.theringer.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9467,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9468,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9469,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9470,
+          "position": 4,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9471,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9472,
+          "position": 6,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9473,
+          "position": 7,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9474,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9475,
+          "position": 9,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9476,
+          "position": 10,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 881,
+      "byUser": false,
+      "sourceListUrl": "https://www.washingtonpost.com/entertainment/video-games/2023/12/08/best-video-games-2023/",
+      "dateAdded": "2023-12-09T03:05:54.905649Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 308,
+        "name": "Washingtonpost",
+        "hostUrl": "www.washingtonpost.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9477,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9478,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9479,
+          "position": 3,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9480,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9481,
+          "position": 5,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9482,
+          "position": 6,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9483,
+          "position": 7,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9484,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9485,
+          "position": 9,
+          "gameTitle": "Bomb Rush Cyberfunk",
+          "gameId": 2070,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9486,
+          "position": 10,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 882,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-games-2023/",
+      "dateAdded": "2023-12-14T13:13:52.738525Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9502,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9503,
+          "position": 2,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9504,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9505,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9506,
+          "position": 5,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9507,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9508,
+          "position": 7,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9509,
+          "position": 8,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9510,
+          "position": 9,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9511,
+          "position": 10,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9512,
+          "position": 11,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9513,
+          "position": 12,
+          "gameTitle": "The Cosmic Wheel Sisterhood",
+          "gameId": 2047,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9514,
+          "position": 13,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9515,
+          "position": 14,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9516,
+          "position": 15,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "byUser": false,
+      "sourceListUrl": "https://www.rollingstone.com/culture/culture-lists/best-video-games-2023-1234923415/",
+      "dateAdded": "2023-12-14T13:13:53.96934Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 309,
+        "name": "Rollingstone",
+        "hostUrl": "www.rollingstone.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9517,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9518,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9519,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9520,
+          "position": 4,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9521,
+          "position": 5,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9522,
+          "position": 6,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9523,
+          "position": 7,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9524,
+          "position": 8,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9525,
+          "position": 9,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9526,
+          "position": 10,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9527,
+          "position": 11,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9528,
+          "position": 12,
+          "gameTitle": "Venba",
+          "gameId": 2045,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9529,
+          "position": 13,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9530,
+          "position": 14,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9531,
+          "position": 15,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 917,
+      "byUser": false,
+      "sourceListUrl": "https://www.theguardian.com/culture/2023/dec/18/the-20-best-video-games-of-2023",
+      "dateAdded": "2024-01-13T00:01:25.805807Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 145,
+        "name": "The Guardian",
+        "hostUrl": "www.theguardian.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9595,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9596,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9597,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9598,
+          "position": 4,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9599,
+          "position": 5,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9600,
+          "position": 6,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9601,
+          "position": 7,
+          "gameTitle": "A Space for the Unbound",
+          "gameId": 2041,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9602,
+          "position": 8,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9603,
+          "position": 9,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9604,
+          "position": 10,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9605,
+          "position": 11,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9606,
+          "position": 12,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9607,
+          "position": 13,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9608,
+          "position": 14,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9609,
+          "position": 15,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 918,
+      "byUser": false,
+      "sourceListUrl": "https://kotaku.com/goty-best-games-2023-totk-baldurs-gate-3-alan-wake-2-1851109182",
+      "dateAdded": "2024-01-13T00:01:27.518197Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 147,
+        "name": "Kotaku",
+        "hostUrl": "kotaku.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9610,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9611,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9612,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9613,
+          "position": 4,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9614,
+          "position": 5,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9615,
+          "position": 6,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9616,
+          "position": 7,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9617,
+          "position": 8,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9618,
+          "position": 9,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9619,
+          "position": 10,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9620,
+          "position": 11,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9621,
+          "position": 12,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 919,
+      "byUser": false,
+      "sourceListUrl": "https://www.empireonline.com/gaming/features/best-games-2023/",
+      "dateAdded": "2024-01-13T00:03:07.649973Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 246,
+        "name": "Empireonline",
+        "hostUrl": "www.empireonline.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9622,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9623,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9624,
+          "position": 3,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9625,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9626,
+          "position": 5,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9627,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9628,
+          "position": 7,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9629,
+          "position": 8,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9630,
+          "position": 9,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9631,
+          "position": 10,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9632,
+          "position": 11,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9633,
+          "position": 12,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9634,
+          "position": 13,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9635,
+          "position": 14,
+          "gameTitle": "Fire Emblem Engage",
+          "gameId": 698,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9636,
+          "position": 15,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 920,
+      "byUser": false,
+      "sourceListUrl": "https://www.gameinformer.com/2023/12/19/game-informers-top-10-games-of-2023",
+      "dateAdded": "2024-01-13T00:06:17.048314Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 254,
+        "name": "Gameinformer",
+        "hostUrl": "www.gameinformer.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9637,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9638,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9639,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9640,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9641,
+          "position": 5,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9642,
+          "position": 6,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9643,
+          "position": 7,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9644,
+          "position": 8,
+          "gameTitle": "Jusant",
+          "gameId": 2029,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9645,
+          "position": 9,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9646,
+          "position": 10,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "byUser": false,
+      "sourceListUrl": "https://www.gq.com/story/the-fifteen-best-video-games-of-2023",
+      "dateAdded": "2024-01-13T00:08:58.02519Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 342,
+        "name": "Gq",
+        "hostUrl": "www.gq.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9647,
+          "position": 1,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9648,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9649,
+          "position": 3,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9650,
+          "position": 4,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9651,
+          "position": 5,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9652,
+          "position": 6,
+          "gameTitle": "Horizon Call of the Mountain",
+          "gameId": 210,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9653,
+          "position": 7,
+          "gameTitle": "Paranormasight: The Seven Mysteries of Honjo",
+          "gameId": 2026,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9654,
+          "position": 8,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9655,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9656,
+          "position": 10,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9657,
+          "position": 11,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9658,
+          "position": 12,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9659,
+          "position": 13,
+          "gameTitle": "El Paso, Elsewhere",
+          "gameId": 2040,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9660,
+          "position": 14,
+          "gameTitle": "The Cosmic Wheel Sisterhood",
+          "gameId": 2047,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9661,
+          "position": 15,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 922,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-games-of-2023/",
+      "dateAdded": "2024-01-13T00:13:32.886872Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9662,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9663,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9664,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9665,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9666,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9667,
+          "position": 6,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9668,
+          "position": 7,
+          "gameTitle": "Cyberpunk 2077: Phantom Liberty",
+          "gameId": 2003,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9669,
+          "position": 8,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9670,
+          "position": 9,
+          "gameTitle": "Dave the Diver",
+          "gameId": 2018,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9671,
+          "position": 10,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9672,
+          "position": 11,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9673,
+          "position": 12,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9674,
+          "position": 13,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9675,
+          "position": 14,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9676,
+          "position": 15,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 923,
+      "byUser": false,
+      "sourceListUrl": "https://gamerant.com/top-best-video-game-2023/",
+      "dateAdded": "2024-01-13T00:15:00.197207Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 218,
+        "name": "Gamerant",
+        "hostUrl": "gamerant.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9677,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9678,
+          "position": 2,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9679,
+          "position": 3,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9680,
+          "position": 4,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9681,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9682,
+          "position": 6,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9683,
+          "position": 7,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9684,
+          "position": 8,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9685,
+          "position": 9,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9686,
+          "position": 10,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 955,
+      "byUser": false,
+      "sourceListUrl": "https://www.rgj.com/story/life/2023/12/29/the-best-video-games-of-2023-game-of-the-year-goty-and-top-30-technobubble-gaming/72059796007/",
+      "dateAdded": "2024-01-24T23:27:58.883224Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 375,
+        "name": "Rgj",
+        "hostUrl": "www.rgj.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9695,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9696,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9697,
+          "position": 3,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9698,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9699,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9700,
+          "position": 6,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9701,
+          "position": 7,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9702,
+          "position": 8,
+          "gameTitle": "Star Ocean: The Second Story R",
+          "gameId": 2110,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9703,
+          "position": 9,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9704,
+          "position": 10,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9705,
+          "position": 11,
+          "gameTitle": "Armored Core VI: Fires of Rubicon",
+          "gameId": 999,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9706,
+          "position": 12,
+          "gameTitle": "Ys VIII: Lacrimosa of Dana - Deluxe Edition",
+          "gameId": 2113,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9707,
+          "position": 13,
+          "gameTitle": "Bayonetta Origins: Cereza and the Lost Demon",
+          "gameId": 2027,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9708,
+          "position": 14,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9709,
+          "position": 15,
+          "gameTitle": "Atelier Ryza 3: Alchemist of the End \u0026 the Secret Key",
+          "gameId": 2112,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 956,
+      "byUser": false,
+      "sourceListUrl": "https://www.digitalspy.com/tech/g46154192/best-games-of-2023/",
+      "dateAdded": "2024-01-24T23:31:32.195955Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 223,
+        "name": "Digitalspy",
+        "hostUrl": "www.digitalspy.com"
+      },
+      "finalGameList": {
+        "id": 62,
+        "title": "Best Games of",
+        "year": 2023,
+        "slug": "best-games-of-2023",
+        "fullName": "Best Games of 2023"
+      },
+      "items": [
+        {
+          "id": 9710,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate 3",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9711,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9712,
+          "position": 3,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9713,
+          "position": 4,
+          "gameTitle": "The Talos Principle II",
+          "gameId": 2114,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9714,
+          "position": 5,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9715,
+          "position": 6,
+          "gameTitle": "The Cosmic Wheel Sisterhood",
+          "gameId": 2047,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9716,
+          "position": 7,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9717,
+          "position": 8,
+          "gameTitle": "Remnant II",
+          "gameId": 2115,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9718,
+          "position": 9,
+          "gameTitle": "Theatrhythm Final Bar Line",
+          "gameId": 689,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9719,
+          "position": 10,
+          "gameTitle": "Dredge",
+          "gameId": 706,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9720,
+          "position": 11,
+          "gameTitle": "Sea of Stars",
+          "gameId": 1908,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9721,
+          "position": 12,
+          "gameTitle": "Paranormasight: The Seven Mysteries of Honjo",
+          "gameId": 2026,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9722,
+          "position": 13,
+          "gameTitle": "Venba",
+          "gameId": 2045,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9723,
+          "position": 14,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9724,
+          "position": 15,
+          "gameTitle": "Robocop: Rogue City",
+          "gameId": 2116,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

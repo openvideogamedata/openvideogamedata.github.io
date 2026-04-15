@@ -1,0 +1,266 @@
+{
+  "syncedAt": "2026-04-15T10:45:17.149665Z",
+  "slug": "best-indie-games-of-all-time",
+  "type": 2,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 443,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-27T22:32:17.904381Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 25,
+        "nickname": "117245273411238217497",
+        "fullName": "Renowned Stealthy Gladiator"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 2482,
+          "position": 1,
+          "gameTitle": "The Last of Us",
+          "gameId": 320,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2483,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2484,
+          "position": 3,
+          "gameTitle": "Metal Gear Solid 2: Substance",
+          "gameId": 469,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2485,
+          "position": 4,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2486,
+          "position": 5,
+          "gameTitle": "Half-Life 2",
+          "gameId": 160,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 446,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-28T19:05:01.21447Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 3083,
+          "position": 1,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3084,
+          "position": 2,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3085,
+          "position": 3,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3086,
+          "position": 4,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3087,
+          "position": 5,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 572,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-19T13:40:57.486064Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 53,
+        "title": "Best Indie Games of All Time",
+        "year": null,
+        "slug": "best-indie-games-of-all-time",
+        "fullName": "Best Indie Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10346,
+          "position": 1,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10347,
+          "position": 2,
+          "gameTitle": "Braid",
+          "gameId": 630,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10348,
+          "position": 3,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10349,
+          "position": 4,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10350,
+          "position": 5,
+          "gameTitle": "Journey",
+          "gameId": 332,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10351,
+          "position": 6,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10352,
+          "position": 7,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10353,
+          "position": 8,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10354,
+          "position": 9,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10355,
+          "position": 10,
+          "gameTitle": "Runescape Classic",
+          "gameId": 1341,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10356,
+          "position": 11,
+          "gameTitle": "A Short Hike",
+          "gameId": 691,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10357,
+          "position": 12,
+          "gameTitle": "Terraria",
+          "gameId": 708,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10358,
+          "position": 13,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10359,
+          "position": 14,
+          "gameTitle": "Among Us",
+          "gameId": 762,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:45.8499926Z",
+  "slug": "best-survival-horror-games",
+  "type": 0,
+  "totalItems": 12,
+  "data": {
+    "id": 84,
+    "title": "Best Survival Horror Games of All Time",
+    "year": null,
+    "numberOfGames": 67,
+    "numberOfSources": 12,
+    "slug": "best-survival-horror-games",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 354,
+        "gameTitle": "Resident Evil 2",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 92,
+        "firstReleaseDate": "2019-01-25T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg",
+        "score": 126,
+        "position": 5,
+        "gameListId": 976,
+        "finalGameListId": 84
+      },
+      {
+        "gameId": 311,
+        "gameTitle": "Silent Hill 2",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 83,
+        "firstReleaseDate": "2001-09-24T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vyg.jpg",
+        "score": 102,
+        "position": 6,
+        "gameListId": 976,
+        "finalGameListId": 84
+      },
+      {
+        "gameId": 212,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2023-03-24T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg4.jpg",
+        "score": 87,
+        "position": 2,
+        "gameListId": 976,
+        "finalGameListId": 84
+      },
+      {
+        "gameId": 1257,
+        "gameTitle": "Alien: Isolation",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2014-10-06T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vzu.jpg",
+        "score": 64,
+        "position": 14,
+        "gameListId": 976,
+        "finalGameListId": 84
+      }
+    ]
+  }
+}

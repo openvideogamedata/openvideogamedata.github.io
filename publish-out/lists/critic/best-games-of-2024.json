@@ -1,0 +1,1096 @@
+{
+  "syncedAt": "2026-04-15T10:45:42.2138212Z",
+  "slug": "best-games-of-2024",
+  "type": 1,
+  "totalItems": 8,
+  "data": [
+    {
+      "id": 1099,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/the-50-best-games-of-2024-ranked",
+      "dateAdded": "2025-01-16T21:29:18.634209Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11146,
+          "position": 1,
+          "gameTitle": "Indiana Jones and the Great Circle",
+          "gameId": 2198,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11147,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11148,
+          "position": 3,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11149,
+          "position": 4,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11150,
+          "position": 5,
+          "gameTitle": "Animal Well",
+          "gameId": 2848,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11151,
+          "position": 6,
+          "gameTitle": "Dragon Age: The Veilguard",
+          "gameId": 2229,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11152,
+          "position": 7,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11153,
+          "position": 8,
+          "gameTitle": "Mouthwashing",
+          "gameId": 2849,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11154,
+          "position": 9,
+          "gameTitle": "Thank Goodness You\u2019re Here!",
+          "gameId": 2850,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11155,
+          "position": 10,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11156,
+          "position": 11,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11157,
+          "position": 12,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11158,
+          "position": 13,
+          "gameTitle": "The Legend of Zelda: Echoes of Wisdom",
+          "gameId": 2851,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11159,
+          "position": 14,
+          "gameTitle": "UFO 50",
+          "gameId": 2852,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11160,
+          "position": 15,
+          "gameTitle": "Lorelei and the Laser Eyes",
+          "gameId": 2853,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1100,
+      "byUser": false,
+      "sourceListUrl": "https://www.polygon.com/what-to-play/24078256/best-video-games-2024",
+      "dateAdded": "2025-01-16T21:39:50.496418Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 133,
+        "name": "Polygon",
+        "hostUrl": "www.polygon.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11161,
+          "position": 1,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11162,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11163,
+          "position": 3,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11164,
+          "position": 4,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11165,
+          "position": 5,
+          "gameTitle": "Tactical Breach Wizards",
+          "gameId": 2854,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11166,
+          "position": 6,
+          "gameTitle": "Animal Well",
+          "gameId": 2848,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11167,
+          "position": 7,
+          "gameTitle": "UFO 50",
+          "gameId": 2852,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11168,
+          "position": 8,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11169,
+          "position": 9,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11170,
+          "position": 10,
+          "gameTitle": "The Rise of the Golden Idol",
+          "gameId": 2855,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11171,
+          "position": 11,
+          "gameTitle": "Elden Ring: Shadow of the Erdtree",
+          "gameId": 2225,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11172,
+          "position": 12,
+          "gameTitle": "Prince of Persia: The Lost Crown",
+          "gameId": 2210,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11173,
+          "position": 13,
+          "gameTitle": "Hades II",
+          "gameId": 1008,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11174,
+          "position": 14,
+          "gameTitle": "Lorelei and the Laser Eyes",
+          "gameId": 2853,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11175,
+          "position": 15,
+          "gameTitle": "Fields of Mistria",
+          "gameId": 2856,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1168,
+      "byUser": false,
+      "sourceListUrl": "https://www.empireonline.com/gaming/features/best-games-2024/",
+      "dateAdded": "2025-01-17T20:08:17.584851Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 246,
+        "name": "Empireonline",
+        "hostUrl": "www.empireonline.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11218,
+          "position": 1,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11219,
+          "position": 2,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11220,
+          "position": 3,
+          "gameTitle": "Elden Ring: Shadow of the Erdtree",
+          "gameId": 2225,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11221,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11222,
+          "position": 5,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11223,
+          "position": 6,
+          "gameTitle": "Indiana Jones and the Great Circle",
+          "gameId": 2198,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11224,
+          "position": 7,
+          "gameTitle": "Dragon Age: The Veilguard",
+          "gameId": 2229,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11225,
+          "position": 8,
+          "gameTitle": "Thank Goodness You\u2019re Here!",
+          "gameId": 2850,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11226,
+          "position": 9,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11227,
+          "position": 10,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11228,
+          "position": 11,
+          "gameTitle": "Like a Dragon: Infinite Wealth Special Trial Version",
+          "gameId": 2929,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11229,
+          "position": 12,
+          "gameTitle": "Tekken 8",
+          "gameId": 1520,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11230,
+          "position": 13,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11231,
+          "position": 14,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11232,
+          "position": 15,
+          "gameTitle": "Unicorn Overlord",
+          "gameId": 2212,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1169,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-games-2024-ranked/",
+      "dateAdded": "2025-01-17T20:08:18.141959Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11233,
+          "position": 1,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11234,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11235,
+          "position": 3,
+          "gameTitle": "Elden Ring: Shadow of the Erdtree",
+          "gameId": 2225,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11236,
+          "position": 4,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11237,
+          "position": 5,
+          "gameTitle": "Indiana Jones and the Great Circle",
+          "gameId": 2198,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11238,
+          "position": 6,
+          "gameTitle": "UFO 50",
+          "gameId": 2852,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11239,
+          "position": 7,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11240,
+          "position": 8,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11241,
+          "position": 9,
+          "gameTitle": "The Legend of Zelda: Echoes of Wisdom",
+          "gameId": 2851,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11242,
+          "position": 10,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11243,
+          "position": 11,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11244,
+          "position": 12,
+          "gameTitle": "Tekken 8",
+          "gameId": 1520,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11245,
+          "position": 13,
+          "gameTitle": "Prince of Persia: The Lost Crown",
+          "gameId": 2210,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11246,
+          "position": 14,
+          "gameTitle": "Like a Dragon: Infinite Wealth Special Trial Version",
+          "gameId": 2929,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11247,
+          "position": 15,
+          "gameTitle": "Thank Goodness You\u2019re Here!",
+          "gameId": 2850,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1170,
+      "byUser": false,
+      "sourceListUrl": "https://time.com/7199868/best-video-games-2024/",
+      "dateAdded": "2025-01-17T20:08:18.882956Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 132,
+        "name": "Time",
+        "hostUrl": "time.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11248,
+          "position": 1,
+          "gameTitle": "Dragon Age: The Veilguard",
+          "gameId": 2229,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11249,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11250,
+          "position": 3,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11251,
+          "position": 4,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11252,
+          "position": 5,
+          "gameTitle": "Neva",
+          "gameId": 2815,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11253,
+          "position": 6,
+          "gameTitle": "Alan Wake II: The Lake House",
+          "gameId": 2926,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11254,
+          "position": 7,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11255,
+          "position": 8,
+          "gameTitle": "Star Wars Outlaws: Gold Edition",
+          "gameId": 2927,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11256,
+          "position": 9,
+          "gameTitle": "LEGO Horizon Adventures",
+          "gameId": 2928,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11257,
+          "position": 10,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1171,
+      "byUser": false,
+      "sourceListUrl": "https://gamerant.com/top-best-video-game-2024/",
+      "dateAdded": "2025-01-17T20:08:19.580232Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 218,
+        "name": "Gamerant",
+        "hostUrl": "gamerant.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11258,
+          "position": 1,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11259,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11260,
+          "position": 3,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11261,
+          "position": 4,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11262,
+          "position": 5,
+          "gameTitle": "Dragon Age: The Veilguard",
+          "gameId": 2229,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11263,
+          "position": 6,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11264,
+          "position": 7,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11265,
+          "position": 8,
+          "gameTitle": "Like a Dragon: Infinite Wealth",
+          "gameId": 2199,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11266,
+          "position": 9,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11267,
+          "position": 10,
+          "gameTitle": "The Legend of Zelda: Echoes of Wisdom",
+          "gameId": 2851,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1172,
+      "byUser": false,
+      "sourceListUrl": "https://www.theguardian.com/games/2024/dec/19/the-20-best-video-games-of-2024",
+      "dateAdded": "2025-01-17T20:08:20.240859Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 145,
+        "name": "The Guardian",
+        "hostUrl": "www.theguardian.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 11268,
+          "position": 1,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11269,
+          "position": 2,
+          "gameTitle": "Elden Ring: Shadow of the Erdtree",
+          "gameId": 2225,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11270,
+          "position": 3,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11271,
+          "position": 4,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11272,
+          "position": 5,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11273,
+          "position": 6,
+          "gameTitle": "Neva",
+          "gameId": 2815,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11274,
+          "position": 7,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11275,
+          "position": 8,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11276,
+          "position": 9,
+          "gameTitle": "UFO 50",
+          "gameId": 2852,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11277,
+          "position": 10,
+          "gameTitle": "Indiana Jones and the Great Circle",
+          "gameId": 2198,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11278,
+          "position": 11,
+          "gameTitle": "Animal Well",
+          "gameId": 2848,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11279,
+          "position": 12,
+          "gameTitle": "Lorelei and the Laser Eyes",
+          "gameId": 2853,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11280,
+          "position": 13,
+          "gameTitle": "Tekken 8",
+          "gameId": 1520,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11281,
+          "position": 14,
+          "gameTitle": "Tactical Breach Wizards",
+          "gameId": 2854,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11282,
+          "position": 15,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1223,
+      "byUser": false,
+      "sourceListUrl": "https://geekybrummie.com/gaming/top-50-most-notable-games-of-2024/",
+      "dateAdded": "2025-11-19T20:26:19.301748Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 464,
+        "name": "Geekybrummie",
+        "hostUrl": "geekybrummie.com"
+      },
+      "finalGameList": {
+        "id": 80,
+        "title": "Best Games of",
+        "year": 2024,
+        "slug": "best-games-of-2024",
+        "fullName": "Best Games of 2024"
+      },
+      "items": [
+        {
+          "id": 12432,
+          "position": 1,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12433,
+          "position": 2,
+          "gameTitle": "Balatro",
+          "gameId": 2140,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12434,
+          "position": 3,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12435,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12436,
+          "position": 5,
+          "gameTitle": "Helldivers 2",
+          "gameId": 2196,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12437,
+          "position": 6,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12438,
+          "position": 7,
+          "gameTitle": "Like a Dragon: Infinite Wealth",
+          "gameId": 2199,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12439,
+          "position": 8,
+          "gameTitle": "Animal Well",
+          "gameId": 2848,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12440,
+          "position": 9,
+          "gameTitle": "Prince of Persia: The Lost Crown",
+          "gameId": 2210,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12441,
+          "position": 10,
+          "gameTitle": "UFO 50",
+          "gameId": 2852,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12442,
+          "position": 11,
+          "gameTitle": "Dragon Age: The Veilguard",
+          "gameId": 2229,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12443,
+          "position": 12,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12444,
+          "position": 13,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12445,
+          "position": 14,
+          "gameTitle": "Tekken 8",
+          "gameId": 1520,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12446,
+          "position": 15,
+          "gameTitle": "The Legend of Zelda: Echoes of Wisdom",
+          "gameId": 2851,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

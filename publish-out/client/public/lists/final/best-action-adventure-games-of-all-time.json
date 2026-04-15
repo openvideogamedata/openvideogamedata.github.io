@@ -1,0 +1,357 @@
+{
+  "syncedAt": "2026-04-15T11:36:26.7337093Z",
+  "slug": "best-action-adventure-games-of-all-time",
+  "type": 0,
+  "totalItems": 5,
+  "data": {
+    "finalGameList": {
+      "id": 85,
+      "title": "Best Action/Adventure Games of All Time",
+      "year": null,
+      "slug": "best-action-adventure-games-of-all-time",
+      "fullName": "Best Action/Adventure Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Grand Strategy Games of All Time",
+          "sourceUrl": "best-grand-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RTS Games of All Time",
+          "sourceUrl": "best-real-time-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Walking Simulator Games of All Time",
+          "sourceUrl": "best-walking-simulator-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Open-World Games of All Time",
+          "sourceUrl": "best-open-world-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best MMORPG Games of All Time",
+          "sourceUrl": "best-mmorpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 314,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2005-03-22T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg",
+        "score": 35,
+        "position": 9,
+        "gameListId": 988,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 32,
+        "position": 6,
+        "gameListId": 989,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 355,
+        "gameTitle": "Uncharted 4: A Thief\u0027s End",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2016-05-10T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7h.jpg",
+        "score": 29,
+        "position": 2,
+        "gameListId": 989,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 24,
+        "position": 7,
+        "gameListId": 989,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 1406,
+        "gameTitle": "Tomb Raider",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2013-03-04T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbu.jpg",
+        "score": 22,
+        "position": 8,
+        "gameListId": 988,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 19,
+        "position": 1,
+        "gameListId": 989,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 1156,
+        "gameTitle": "Batman: Arkham Asylum",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2009-08-25T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voj.jpg",
+        "score": 18,
+        "position": 3,
+        "gameListId": 988,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 353,
+        "gameTitle": "Ghost of Tsushima",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2020-07-17T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2crj.jpg",
+        "score": 16,
+        "position": 7,
+        "gameListId": 991,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 309,
+        "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2001-11-13T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5e1c.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 990,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 27,
+        "gameTitle": "The Legend of Zelda: Ocarina of Time",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "1998-11-21T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnx.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 988,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 992,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 17,
+        "gameTitle": "Horizon Forbidden West",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2022-02-18T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gvu.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 991,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 2191,
+        "gameTitle": "Ninja Gaiden Black",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2005-09-20T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co41ls.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 990,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 306,
+        "gameTitle": "Shadow of the Colossus",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2005-10-18T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ozz.jpg",
+        "score": 14,
+        "position": 15,
+        "gameListId": 988,
+        "finalGameListId": 85
+      },
+      {
+        "gameId": 321,
+        "gameTitle": "Uncharted 2: Among Thieves",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2009-10-13T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 988,
+        "finalGameListId": 85
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Ranker",
+        "sourceUrl": "https://www.ranker.com/list/all-action-adventures-list/ranker-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Filmora",
+        "sourceUrl": "https://filmora.wondershare.com/game-recording/top-best-action-adventure-games.html",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/game/all/action-adventure/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gameranx",
+        "sourceUrl": "https://gameranx.com/features/id/295221/article/35-best-action-adventure-games-with-incredible-worlds/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Plarium",
+        "sourceUrl": "https://plarium.com/en/blog/action-adventure-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 67,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

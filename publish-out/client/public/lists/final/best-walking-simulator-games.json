@@ -1,0 +1,605 @@
+{
+  "syncedAt": "2026-04-15T11:36:22.9199826Z",
+  "slug": "best-walking-simulator-games",
+  "type": 0,
+  "totalItems": 13,
+  "data": {
+    "finalGameList": {
+      "id": 83,
+      "title": "Best Walking Simulator Games of All Time",
+      "year": null,
+      "slug": "best-walking-simulator-games",
+      "fullName": "Best Walking Simulator Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Grand Strategy Games of All Time",
+          "sourceUrl": "best-grand-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RTS Games of All Time",
+          "sourceUrl": "best-real-time-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Open-World Games of All Time",
+          "sourceUrl": "best-open-world-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Action/Adventure Games of All Time",
+          "sourceUrl": "best-action-adventure-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best MMORPG Games of All Time",
+          "sourceUrl": "best-mmorpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 397,
+        "gameTitle": "What Remains of Edith Finch",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 90,
+        "firstReleaseDate": "2017-04-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbj.jpg",
+        "score": 126,
+        "position": 2,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 648,
+        "gameTitle": "Firewatch",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-02-09T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.jpg",
+        "score": 103,
+        "position": 10,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 643,
+        "gameTitle": "The Stanley Parable",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2013-10-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.jpg",
+        "score": 100,
+        "position": 3,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1264,
+        "gameTitle": "The Vanishing of Ethan Carter",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2014-09-25T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7q.jpg",
+        "score": 97,
+        "position": 9,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 785,
+        "gameTitle": "Gone Home",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 70,
+        "firstReleaseDate": "2013-08-15T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qwhxxrcxzw7inwfrfkbq.jpg",
+        "score": 82,
+        "position": 4,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 332,
+        "gameTitle": "Journey",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 70,
+        "firstReleaseDate": "2012-03-13T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8q.jpg",
+        "score": 74,
+        "position": 1,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1255,
+        "gameTitle": "Everybody\u0027s Gone to the Rapture",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2015-08-11T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3way.jpg",
+        "score": 46,
+        "position": 13,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 646,
+        "gameTitle": "Dear Esther",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2012-02-14T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eez.jpg",
+        "score": 42,
+        "position": 7,
+        "gameListId": 969,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 769,
+        "gameTitle": "Soma",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2015-09-21T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a20.jpg",
+        "score": 36,
+        "position": 7,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 399,
+        "gameTitle": "Death Stranding",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2019-11-08T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vq8.jpg",
+        "score": 29,
+        "position": 8,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2146,
+        "gameTitle": "Abzu",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2016-08-02T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28sy.jpg",
+        "score": 23,
+        "position": 9,
+        "gameListId": 971,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2141,
+        "gameTitle": "Proteus",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2013-01-30T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65k6.jpg",
+        "score": 21,
+        "position": 11,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2145,
+        "gameTitle": "Virginia",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2016-09-22T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uug.jpg",
+        "score": 20,
+        "position": 7,
+        "gameListId": 970,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1236,
+        "gameTitle": "That Dragon, Cancer",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2016-01-11T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1lls.jpg",
+        "score": 19,
+        "position": 14,
+        "gameListId": 968,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1951,
+        "gameTitle": "Oxenfree",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2016-01-14T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlq.jpg",
+        "score": 18,
+        "position": 11,
+        "gameListId": 974,
+        "finalGameListId": 83
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 332,
+        "gameTitle": "Journey",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-03-13T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8q.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 785,
+        "gameTitle": "Gone Home",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-08-15T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qwhxxrcxzw7inwfrfkbq.jpg",
+        "score": 27,
+        "position": 3,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 648,
+        "gameTitle": "Firewatch",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-02-09T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1m35.jpg",
+        "score": 23,
+        "position": 2,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 643,
+        "gameTitle": "The Stanley Parable",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-10-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rc9.jpg",
+        "score": 18,
+        "position": 6,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1010,
+        "gameTitle": "Amnesia: The Dark Descent",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2010-09-08T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qq5.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1574,
+        "gameTitle": "Hellblade: Senua\u0027s Sacrifice",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2017-08-07T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2l7l.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1264,
+        "gameTitle": "The Vanishing of Ethan Carter",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2014-09-25T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7q.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 1591,
+        "gameTitle": "Viewfinder",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2023-07-18T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m9m.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 397,
+        "gameTitle": "What Remains of Edith Finch",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2017-04-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbj.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 975,
+        "gameTitle": "Before Your Eyes",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2021-04-08T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x7h.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 189,
+        "gameTitle": "Return of the Obra Dinn",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2018-10-18T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27j9.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1005,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 646,
+        "gameTitle": "Dear Esther",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2012-02-14T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eez.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2142,
+        "gameTitle": "The Unfinished Swan",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2012-10-23T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3sp2.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2144,
+        "gameTitle": "Yume Nikki",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2004-06-26T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2if6.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      },
+      {
+        "gameId": 2230,
+        "gameTitle": "The Beginner\u0027s Guide",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2015-10-01T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2rz1.jpg",
+        "score": 4,
+        "position": 12,
+        "gameListId": 1007,
+        "finalGameListId": 83
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "sources": [
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/best-walking-simulators/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thegamer",
+        "sourceUrl": "https://www.thegamer.com/best-walking-simulator-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Dualshockers",
+        "sourceUrl": "https://www.dualshockers.com/best-walking-sims/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Ranker",
+        "sourceUrl": "https://www.ranker.com/list/best-walking-simulators/jason-robbins",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Moregameslike",
+        "sourceUrl": "https://www.moregameslike.com/best-walking-simulator-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "50gameslike",
+        "sourceUrl": "https://www.50gameslike.com/best-games-by-type/walking-simulator",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Beanstalk",
+        "sourceUrl": "https://beanstalk.io/best-walking-simulator-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Culturedvultures",
+        "sourceUrl": "https://culturedvultures.com/best-walking-simulator-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Tecmundo",
+        "sourceUrl": "https://www.tecmundo.com.br/voxel/267872-walking-simulator-veja-7-melhores-jogos-genero.htm",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Upthrust",
+        "sourceUrl": "https://upthrust.co/2019/07/top-10-walking-simulators",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 2,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 67,
+        "porcentageOfContributions": 52
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 63,
+        "porcentageOfContributions": 48
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "syncedAt": "2026-04-15T10:45:02.7865145Z",
+  "slug": "best-games-of-2006",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 525,
+      "byUser": false,
+      "sourceListUrl": "https://www.imdb.com/list/ls069335134/",
+      "dateAdded": "2023-06-14T13:54:25.656059Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 222,
+        "name": "IMDb",
+        "hostUrl": "www.imdb.com"
+      },
+      "finalGameList": {
+        "id": 39,
+        "title": "Best Games of",
+        "year": 2006,
+        "slug": "best-games-of-2006",
+        "fullName": "Best Games of 2006"
+      },
+      "items": [
+        {
+          "id": 3798,
+          "position": 1,
+          "gameTitle": "The Elder Scrolls IV: Oblivion",
+          "gameId": 1129,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3799,
+          "position": 2,
+          "gameTitle": "Bully",
+          "gameId": 315,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3800,
+          "position": 3,
+          "gameTitle": "Half-Life 2: Episode One",
+          "gameId": 1133,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3801,
+          "position": 4,
+          "gameTitle": "Gears of War",
+          "gameId": 1128,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3802,
+          "position": 5,
+          "gameTitle": "Hitman: Blood Money",
+          "gameId": 1137,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3803,
+          "position": 6,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3804,
+          "position": 7,
+          "gameTitle": "Company of Heroes",
+          "gameId": 1130,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3805,
+          "position": 8,
+          "gameTitle": "Metal Gear Solid: Portable Ops",
+          "gameId": 1138,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3806,
+          "position": 9,
+          "gameTitle": "Resistance: Fall of Man",
+          "gameId": 1139,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3807,
+          "position": 10,
+          "gameTitle": "Dead Rising",
+          "gameId": 1131,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 526,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2006-article?page=5",
+      "dateAdded": "2023-06-14T13:54:26.379378Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 39,
+        "title": "Best Games of",
+        "year": 2006,
+        "slug": "best-games-of-2006",
+        "fullName": "Best Games of 2006"
+      },
+      "items": [
+        {
+          "id": 3808,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Twilight Princess",
+          "gameId": 535,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3809,
+          "position": 2,
+          "gameTitle": "Gears of War",
+          "gameId": 1128,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3810,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls IV: Oblivion",
+          "gameId": 1129,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3811,
+          "position": 4,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3812,
+          "position": 5,
+          "gameTitle": "Wii Sports",
+          "gameId": 423,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3813,
+          "position": 6,
+          "gameTitle": "Company of Heroes",
+          "gameId": 1130,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3814,
+          "position": 7,
+          "gameTitle": "Dead Rising",
+          "gameId": 1131,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3815,
+          "position": 8,
+          "gameTitle": "Winning Eleven: Pro Evolution Soccer 2007",
+          "gameId": 1132,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3816,
+          "position": 9,
+          "gameTitle": "Half-Life 2: Episode One",
+          "gameId": 1133,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3817,
+          "position": 10,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3818,
+          "position": 11,
+          "gameTitle": "Viva Pi\u00F1ata",
+          "gameId": 1135,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3819,
+          "position": 12,
+          "gameTitle": "Guitar Hero",
+          "gameId": 1126,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3820,
+          "position": 13,
+          "gameTitle": "Tom Clancy\u0027s Rainbow Six: Vegas",
+          "gameId": 1136,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3821,
+          "position": 14,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3822,
+          "position": 15,
+          "gameTitle": "Dragon Quest VIII: Journey of the Cursed King",
+          "gameId": 470,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

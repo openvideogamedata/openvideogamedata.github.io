@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:49.9762124Z",
+  "slug": "best-games-of-the-ps-vita",
+  "type": 0,
+  "totalItems": 1,
+  "data": {
+    "id": 88,
+    "title": "Best Games of The PS Vita",
+    "year": null,
+    "numberOfGames": 15,
+    "numberOfSources": 1,
+    "slug": "best-games-of-the-ps-vita",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 2281,
+        "gameTitle": "Gravity Rush",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-02-09T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5tgy.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 733,
+        "gameTitle": "Persona 4 Golden",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-06-15T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1x.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2282,
+        "gameTitle": "Tearaway",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-11-20T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h0d.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 634,
+        "gameTitle": "Hotline Miami",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-10-23T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      }
+    ]
+  }
+}

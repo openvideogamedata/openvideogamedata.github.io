@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:39.4720554Z",
+  "slug": "best-indie-games-of-the-nintendo-switch",
+  "type": 0,
+  "totalItems": 11,
+  "data": {
+    "id": 75,
+    "title": "Best Indie Games of the Nintendo Switch",
+    "year": null,
+    "numberOfGames": 76,
+    "numberOfSources": 11,
+    "slug": "best-indie-games-of-the-nintendo-switch",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 145,
+        "gameTitle": "Hollow Knight",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 91,
+        "firstReleaseDate": "2017-02-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+        "score": 108,
+        "position": 1,
+        "gameListId": 840,
+        "finalGameListId": 75
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 104,
+        "position": 6,
+        "gameListId": 841,
+        "finalGameListId": 75
+      },
+      {
+        "gameId": 600,
+        "gameTitle": "Cuphead",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2017-09-29T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jpg",
+        "score": 70,
+        "position": 4,
+        "gameListId": 840,
+        "finalGameListId": 75
+      },
+      {
+        "gameId": 386,
+        "gameTitle": "Stardew Valley",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2016-02-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.jpg",
+        "score": 69,
+        "position": 10,
+        "gameListId": 841,
+        "finalGameListId": 75
+      }
+    ]
+  }
+}

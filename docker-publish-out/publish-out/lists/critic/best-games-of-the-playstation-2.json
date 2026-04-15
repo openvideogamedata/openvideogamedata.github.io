@@ -1,0 +1,1720 @@
+{
+  "syncedAt": "2026-04-15T10:44:33.9638933Z",
+  "slug": "best-games-of-the-playstation-2",
+  "type": 1,
+  "totalItems": 12,
+  "data": [
+    {
+      "id": 299,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-ps2-games",
+      "dateAdded": "2023-04-03T15:01:44.862878Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 764,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 763,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 762,
+          "position": 3,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 761,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 307,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 760,
+          "position": 5,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 759,
+          "position": 6,
+          "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+          "gameId": 309,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 758,
+          "position": 7,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 757,
+          "position": 8,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 756,
+          "position": 9,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 755,
+          "position": 10,
+          "gameTitle": "God of War",
+          "gameId": 314,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 754,
+          "position": 11,
+          "gameTitle": "Bully",
+          "gameId": 315,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 753,
+          "position": 12,
+          "gameTitle": "Jak II",
+          "gameId": 316,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 752,
+          "position": 13,
+          "gameTitle": "Katamari Damacy",
+          "gameId": 317,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 751,
+          "position": 14,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening",
+          "gameId": 318,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 750,
+          "position": 15,
+          "gameTitle": "Psychonauts",
+          "gameId": 319,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 328,
+      "byUser": false,
+      "sourceListUrl": "https://www.complex.com/pop-culture/the-50-best-ps2-games-ever",
+      "dateAdded": "2023-04-17T11:43:03.806717Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 170,
+        "name": "Complex",
+        "hostUrl": "www.complex.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1148,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1149,
+          "position": 2,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1150,
+          "position": 3,
+          "gameTitle": "Kingdom Hearts",
+          "gameId": 441,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1151,
+          "position": 4,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1152,
+          "position": 5,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1153,
+          "position": 6,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1154,
+          "position": 7,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1155,
+          "position": 8,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1156,
+          "position": 9,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1157,
+          "position": 10,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1158,
+          "position": 11,
+          "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+          "gameId": 309,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1159,
+          "position": 12,
+          "gameTitle": "Ratchet \u0026 Clank: Up Your Arsenal",
+          "gameId": 444,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1160,
+          "position": 13,
+          "gameTitle": "Persona 4",
+          "gameId": 445,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1161,
+          "position": 14,
+          "gameTitle": "ESPN NFL 2K5",
+          "gameId": 446,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1162,
+          "position": 15,
+          "gameTitle": "Grand Theft Auto III",
+          "gameId": 433,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 329,
+      "byUser": false,
+      "sourceListUrl": "https://gaminggorilla.com/best-ps2-games/",
+      "dateAdded": "2023-04-17T11:46:37.937494Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 156,
+        "name": "Gaming Gorilla",
+        "hostUrl": "gaminggorilla.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1163,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1164,
+          "position": 2,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1165,
+          "position": 3,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening",
+          "gameId": 318,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1166,
+          "position": 4,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1167,
+          "position": 5,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1168,
+          "position": 6,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1169,
+          "position": 7,
+          "gameTitle": "Star Wars: Battlefront II",
+          "gameId": 447,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1170,
+          "position": 8,
+          "gameTitle": "Burnout 3: Takedown",
+          "gameId": 448,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1171,
+          "position": 9,
+          "gameTitle": "Kingdom Hearts II",
+          "gameId": 449,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1172,
+          "position": 10,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1173,
+          "position": 11,
+          "gameTitle": "Ratchet \u0026 Clank: Up Your Arsenal",
+          "gameId": 444,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1174,
+          "position": 12,
+          "gameTitle": "Sly 2: Band of Thieves",
+          "gameId": 450,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1175,
+          "position": 13,
+          "gameTitle": "TimeSplitters: Future Perfect",
+          "gameId": 451,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1176,
+          "position": 14,
+          "gameTitle": "Bully",
+          "gameId": 315,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1177,
+          "position": 15,
+          "gameTitle": "Need for Speed: Most Wanted",
+          "gameId": 452,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 330,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-ps2-games-all-time/",
+      "dateAdded": "2023-04-17T11:49:54.791984Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1178,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1179,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1180,
+          "position": 3,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1181,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1182,
+          "position": 5,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 310,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1183,
+          "position": 6,
+          "gameTitle": "God of War",
+          "gameId": 314,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1184,
+          "position": 7,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1185,
+          "position": 8,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1186,
+          "position": 9,
+          "gameTitle": "Devil May Cry",
+          "gameId": 453,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1187,
+          "position": 10,
+          "gameTitle": "Burnout 3: Takedown",
+          "gameId": 448,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1188,
+          "position": 11,
+          "gameTitle": "Beyond Good \u0026 Evil",
+          "gameId": 454,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1189,
+          "position": 12,
+          "gameTitle": "Jak and Daxter: The Precursor Legacy",
+          "gameId": 455,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1190,
+          "position": 13,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1191,
+          "position": 14,
+          "gameTitle": "Amplitude",
+          "gameId": 456,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1192,
+          "position": 15,
+          "gameTitle": "SSX Tricky",
+          "gameId": 457,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 331,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-ps2-games/",
+      "dateAdded": "2023-04-17T11:58:25.106487Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1193,
+          "position": 1,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1194,
+          "position": 2,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1195,
+          "position": 3,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1196,
+          "position": 4,
+          "gameTitle": "Ratchet \u0026 Clank: Up Your Arsenal",
+          "gameId": 444,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1197,
+          "position": 5,
+          "gameTitle": "Jak and Daxter: The Precursor Legacy",
+          "gameId": 455,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1198,
+          "position": 6,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1199,
+          "position": 7,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1200,
+          "position": 8,
+          "gameTitle": "Dark Cloud 2",
+          "gameId": 458,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1201,
+          "position": 9,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1202,
+          "position": 10,
+          "gameTitle": "Virtua Fighter 4: Evolution",
+          "gameId": 459,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1203,
+          "position": 11,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1204,
+          "position": 12,
+          "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+          "gameId": 309,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1205,
+          "position": 13,
+          "gameTitle": "TimeSplitters 2",
+          "gameId": 460,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1206,
+          "position": 14,
+          "gameTitle": "Sly 2: Band of Thieves",
+          "gameId": 450,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1207,
+          "position": 15,
+          "gameTitle": "Def Jam: Fight for NY",
+          "gameId": 461,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 332,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-playstation-2-games/",
+      "dateAdded": "2023-04-17T12:01:26.239339Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1208,
+          "position": 1,
+          "gameTitle": "Persona 4",
+          "gameId": 445,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1209,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1210,
+          "position": 3,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1211,
+          "position": 4,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1212,
+          "position": 5,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1213,
+          "position": 6,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1214,
+          "position": 7,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1215,
+          "position": 8,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1216,
+          "position": 9,
+          "gameTitle": "Kingdom Hearts II",
+          "gameId": 449,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1217,
+          "position": 10,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1218,
+          "position": 11,
+          "gameTitle": "Katamari Damacy",
+          "gameId": 317,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1219,
+          "position": 12,
+          "gameTitle": "Tony Hawk\u0027s Underground",
+          "gameId": 462,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1220,
+          "position": 13,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1221,
+          "position": 14,
+          "gameTitle": "Burnout 3: Takedown",
+          "gameId": 448,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1222,
+          "position": 15,
+          "gameTitle": "Guitar Hero II",
+          "gameId": 463,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 333,
+      "byUser": false,
+      "sourceListUrl": "https://www.one37pm.com/gaming/best-ps2-games-of-all-time",
+      "dateAdded": "2023-04-17T12:09:29.294878Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 172,
+        "name": "One37pm",
+        "hostUrl": "www.one37pm.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1223,
+          "position": 1,
+          "gameTitle": "God of War",
+          "gameId": 314,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1224,
+          "position": 2,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1225,
+          "position": 3,
+          "gameTitle": "SOCOM II: U.S. Navy SEALs",
+          "gameId": 464,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1226,
+          "position": 4,
+          "gameTitle": "Gran Turismo 3: A-Spec",
+          "gameId": 465,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1227,
+          "position": 5,
+          "gameTitle": "Jak and Daxter: The Precursor Legacy",
+          "gameId": 455,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1228,
+          "position": 6,
+          "gameTitle": "Jak II",
+          "gameId": 316,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1229,
+          "position": 7,
+          "gameTitle": "Devil May Cry",
+          "gameId": 453,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1230,
+          "position": 8,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening - Special Edition",
+          "gameId": 466,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1231,
+          "position": 9,
+          "gameTitle": "Virtua Fighter 4: Evolution",
+          "gameId": 459,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1232,
+          "position": 10,
+          "gameTitle": "Tekken 5",
+          "gameId": 467,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1233,
+          "position": 11,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1234,
+          "position": 12,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1235,
+          "position": 13,
+          "gameTitle": "Twisted Metal: Black",
+          "gameId": 468,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1236,
+          "position": 14,
+          "gameTitle": "Sly 2: Band of Thieves",
+          "gameId": 450,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1237,
+          "position": 15,
+          "gameTitle": "Metal Gear Solid 2: Substance",
+          "gameId": 469,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 334,
+      "byUser": false,
+      "sourceListUrl": "https://exputer.com/guides/best-ps2-games/",
+      "dateAdded": "2023-04-17T12:14:48.668487Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 173,
+        "name": "Exputer",
+        "hostUrl": "exputer.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1238,
+          "position": 1,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1239,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1240,
+          "position": 3,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1241,
+          "position": 4,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1242,
+          "position": 5,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1243,
+          "position": 6,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1244,
+          "position": 7,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1245,
+          "position": 8,
+          "gameTitle": "Burnout 3: Takedown",
+          "gameId": 448,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1246,
+          "position": 9,
+          "gameTitle": "Ratchet \u0026 Clank: Up Your Arsenal",
+          "gameId": 444,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1247,
+          "position": 10,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1248,
+          "position": 11,
+          "gameTitle": "Katamari Damacy",
+          "gameId": 317,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1249,
+          "position": 12,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening",
+          "gameId": 318,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1250,
+          "position": 13,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1251,
+          "position": 14,
+          "gameTitle": "Persona 4",
+          "gameId": 445,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1252,
+          "position": 15,
+          "gameTitle": "Dragon Quest VIII: Journey of the Cursed King",
+          "gameId": 470,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 335,
+      "byUser": false,
+      "sourceListUrl": "https://www.svg.com/950552/the-66-best-ps2-games-of-all-time/",
+      "dateAdded": "2023-04-17T12:17:08.104865Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 174,
+        "name": "Svg",
+        "hostUrl": "www.svg.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1253,
+          "position": 1,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1254,
+          "position": 2,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1255,
+          "position": 3,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1256,
+          "position": 4,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1257,
+          "position": 5,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 310,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1258,
+          "position": 6,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1259,
+          "position": 7,
+          "gameTitle": "Prince of Persia: The Sands of Time",
+          "gameId": 471,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1260,
+          "position": 8,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening",
+          "gameId": 318,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1261,
+          "position": 9,
+          "gameTitle": "Beyond Good \u0026 Evil",
+          "gameId": 454,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1262,
+          "position": 10,
+          "gameTitle": "Ico",
+          "gameId": 443,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1263,
+          "position": 11,
+          "gameTitle": "Kingdom Hearts II",
+          "gameId": 449,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1264,
+          "position": 12,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1265,
+          "position": 13,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1266,
+          "position": 14,
+          "gameTitle": "Rock Band 2",
+          "gameId": 472,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1267,
+          "position": 15,
+          "gameTitle": "Gran Turismo 4",
+          "gameId": 473,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 336,
+      "byUser": false,
+      "sourceListUrl": "https://www.dexerto.com/opinion/best-playstation-2-games-1868192/",
+      "dateAdded": "2023-04-17T12:19:55.851385Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 175,
+        "name": "Dexerto",
+        "hostUrl": "www.dexerto.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1268,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1269,
+          "position": 2,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1270,
+          "position": 3,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1271,
+          "position": 4,
+          "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+          "gameId": 309,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1272,
+          "position": 5,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1273,
+          "position": 6,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1274,
+          "position": 7,
+          "gameTitle": "TimeSplitters 2",
+          "gameId": 460,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1275,
+          "position": 8,
+          "gameTitle": "Burnout 3: Takedown",
+          "gameId": 448,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1276,
+          "position": 9,
+          "gameTitle": "SSX Tricky",
+          "gameId": 457,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1277,
+          "position": 10,
+          "gameTitle": "Devil May Cry",
+          "gameId": 453,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1278,
+          "position": 11,
+          "gameTitle": "Grand Theft Auto: Vice City",
+          "gameId": 308,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1279,
+          "position": 12,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1280,
+          "position": 13,
+          "gameTitle": "Ratchet \u0026 Clank: Up Your Arsenal",
+          "gameId": 444,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1281,
+          "position": 14,
+          "gameTitle": "Kingdom Hearts",
+          "gameId": 441,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1282,
+          "position": 15,
+          "gameTitle": "Tony Hawk\u0027s Underground",
+          "gameId": 462,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 337,
+      "byUser": false,
+      "sourceListUrl": "https://www.destructoid.com/10-most-iconic-playstation-2-games-ranked/",
+      "dateAdded": "2023-04-17T12:21:59.694107Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 176,
+        "name": "Destructoid",
+        "hostUrl": "www.destructoid.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1283,
+          "position": 1,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1284,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1285,
+          "position": 3,
+          "gameTitle": "Bully",
+          "gameId": 315,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1286,
+          "position": 4,
+          "gameTitle": "Star Wars: Battlefront II",
+          "gameId": 447,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1287,
+          "position": 5,
+          "gameTitle": "God of War",
+          "gameId": 314,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1288,
+          "position": 6,
+          "gameTitle": "Need for Speed: Hot Pursuit 2",
+          "gameId": 474,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1289,
+          "position": 7,
+          "gameTitle": "Gauntlet Dark Legacy",
+          "gameId": 475,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1290,
+          "position": 8,
+          "gameTitle": "Spider-Man 2",
+          "gameId": 476,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1291,
+          "position": 9,
+          "gameTitle": "Prince of Persia: The Sands of Time",
+          "gameId": 471,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1292,
+          "position": 10,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 3",
+          "gameId": 432,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 338,
+      "byUser": false,
+      "sourceListUrl": "https://culturedvultures.com/best-ps2-games/",
+      "dateAdded": "2023-04-17T12:24:10.804731Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 158,
+        "name": "Culturedvultures",
+        "hostUrl": "culturedvultures.com"
+      },
+      "finalGameList": {
+        "id": 11,
+        "title": "Best Games of the PlayStation 2",
+        "year": null,
+        "slug": "best-games-of-the-playstation-2",
+        "fullName": "Best Games of the PlayStation 2"
+      },
+      "items": [
+        {
+          "id": 1293,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: San Andreas",
+          "gameId": 304,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1294,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1295,
+          "position": 3,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1296,
+          "position": 4,
+          "gameTitle": "God of War II",
+          "gameId": 442,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1297,
+          "position": 5,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1298,
+          "position": 6,
+          "gameTitle": "Final Fantasy X",
+          "gameId": 312,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1299,
+          "position": 7,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 426,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1300,
+          "position": 8,
+          "gameTitle": "Devil May Cry 3: Dante\u0027s Awakening",
+          "gameId": 318,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1301,
+          "position": 9,
+          "gameTitle": "Kingdom Hearts II",
+          "gameId": 449,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1302,
+          "position": 10,
+          "gameTitle": "\u014Ckami",
+          "gameId": 313,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1303,
+          "position": 11,
+          "gameTitle": "TimeSplitters: Future Perfect",
+          "gameId": 451,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1304,
+          "position": 12,
+          "gameTitle": "Tekken 5",
+          "gameId": 467,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1305,
+          "position": 13,
+          "gameTitle": "Prince of Persia: The Sands of Time",
+          "gameId": 471,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1306,
+          "position": 14,
+          "gameTitle": "Jak and Daxter: The Precursor Legacy",
+          "gameId": 455,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1307,
+          "position": 15,
+          "gameTitle": "Tom Clancy\u0027s Splinter Cell: Chaos Theory",
+          "gameId": 477,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

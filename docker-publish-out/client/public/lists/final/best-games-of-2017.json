@@ -1,0 +1,476 @@
+{
+  "syncedAt": "2026-04-15T11:34:43.5247179Z",
+  "slug": "best-games-of-2017",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "finalGameList": {
+      "id": 28,
+      "title": "Best Games of",
+      "year": 2017,
+      "slug": "best-games-of-2017",
+      "fullName": "Best Games of 2017",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 23,
+        "gameTitle": "The Legend of Zelda: Breath of the Wild",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-03-03T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 90,
+        "gameTitle": "Super Mario Odyssey",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-10-27T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg",
+        "score": 25,
+        "position": 3,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 348,
+        "gameTitle": "Horizon Zero Dawn",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-02-28T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg",
+        "score": 22,
+        "position": 8,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 47,
+        "gameTitle": "Resident Evil 7: Biohazard",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-01-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co545w.jpg",
+        "score": 21,
+        "position": 5,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1036,
+        "gameTitle": "PUBG: Battlegrounds",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-12-20T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4c1x.jpg",
+        "score": 18,
+        "position": 2,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1225,
+        "gameTitle": "Assassin\u0027s Creed Origins",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-10-26T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbe.jpg",
+        "score": 14,
+        "position": 15,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1220,
+        "gameTitle": "Prey",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-05-04T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/pzgwdpvoww1nrlkv7d5x.jpg",
+        "score": 14,
+        "position": 7,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 397,
+        "gameTitle": "What Remains of Edith Finch",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-04-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbj.jpg",
+        "score": 14,
+        "position": 13,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1222,
+        "gameTitle": "Wolfenstein II: The New Colossus",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-10-26T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21c5.jpg",
+        "score": 14,
+        "position": 10,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1224,
+        "gameTitle": "Destiny 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-09-06T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67qb.jpg",
+        "score": 13,
+        "position": 12,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 398,
+        "gameTitle": "NieR: Automata",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-02-23T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.jpg",
+        "score": 13,
+        "position": 4,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 330,
+        "gameTitle": "Persona 5",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2016-09-15T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r76.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 600,
+        "gameTitle": "Cuphead",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2017-09-29T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jpg",
+        "score": 9,
+        "position": 14,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 1221,
+        "gameTitle": "Everything",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2017-03-21T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24rj.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 547,
+        "finalGameListId": 28
+      },
+      {
+        "gameId": 351,
+        "gameTitle": "Uncharted: The Lost Legacy",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2017-08-22T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tp9.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 548,
+        "finalGameListId": 28
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Polygon",
+        "sourceUrl": "https://www.polygon.com/2017-best-games/2017/12/18/16781674/best-video-games-2017-top-50-mario-pubg-zelda",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-games-2017/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

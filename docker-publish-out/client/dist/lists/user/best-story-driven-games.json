@@ -1,0 +1,252 @@
+{
+  "syncedAt": "2026-04-15T10:54:20.5218015Z",
+  "slug": "best-story-driven-games",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 695,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-08-01T14:38:05.511232Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 68,
+        "title": "Best Narrative Games of All Time",
+        "year": null,
+        "slug": "best-story-driven-games",
+        "fullName": "Best Narrative Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10440,
+          "position": 1,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10441,
+          "position": 2,
+          "gameTitle": "The Last of Us Part II",
+          "gameId": 11,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10442,
+          "position": 3,
+          "gameTitle": "Metal Gear Solid 2: Sons of Liberty",
+          "gameId": 309,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10443,
+          "position": 4,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10444,
+          "position": 5,
+          "gameTitle": "Before Your Eyes",
+          "gameId": 975,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10445,
+          "position": 6,
+          "gameTitle": "What Remains of Edith Finch",
+          "gameId": 397,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10446,
+          "position": 7,
+          "gameTitle": "Life is Strange",
+          "gameId": 1573,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10447,
+          "position": 8,
+          "gameTitle": "The Last of Us",
+          "gameId": 320,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10448,
+          "position": 9,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10449,
+          "position": 10,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10450,
+          "position": 11,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10451,
+          "position": 12,
+          "gameTitle": "Metal Gear Solid 4: Guns of the Patriots",
+          "gameId": 335,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10452,
+          "position": 13,
+          "gameTitle": "BioShock",
+          "gameId": 391,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10453,
+          "position": 14,
+          "gameTitle": "The Vanishing of Ethan Carter",
+          "gameId": 1264,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10454,
+          "position": 15,
+          "gameTitle": "To the Moon",
+          "gameId": 653,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 787,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-08-18T20:07:04.693456Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 53,
+        "nickname": "108010017125330593198",
+        "fullName": "Daring Majestic Phantom"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 68,
+        "title": "Best Narrative Games of All Time",
+        "year": null,
+        "slug": "best-story-driven-games",
+        "fullName": "Best Narrative Games of All Time"
+      },
+      "items": [
+        {
+          "id": 8032,
+          "position": 1,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 311,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8033,
+          "position": 2,
+          "gameTitle": "NieR: Automata",
+          "gameId": 398,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8034,
+          "position": 3,
+          "gameTitle": "Yakuza 0",
+          "gameId": 411,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8035,
+          "position": 4,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 306,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8036,
+          "position": 5,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8037,
+          "position": 6,
+          "gameTitle": "Deadly Premonition",
+          "gameId": 1464,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8038,
+          "position": 7,
+          "gameTitle": "Metal Gear Solid 3: Snake Eater",
+          "gameId": 305,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8039,
+          "position": 8,
+          "gameTitle": "Spec Ops: The Line",
+          "gameId": 1468,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8040,
+          "position": 9,
+          "gameTitle": "BioShock Infinite",
+          "gameId": 333,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 8041,
+          "position": 10,
+          "gameTitle": "What Remains of Edith Finch",
+          "gameId": 397,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

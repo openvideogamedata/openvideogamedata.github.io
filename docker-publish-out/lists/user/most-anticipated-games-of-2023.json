@@ -1,0 +1,282 @@
+{
+  "syncedAt": "2026-04-15T10:45:24.392675Z",
+  "slug": "most-anticipated-games-of-2023",
+  "type": 2,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 493,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-05T16:42:58.185351Z",
+      "dateLastUpdated": "2025-10-20T12:44:51.322217Z",
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 12214,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12215,
+          "position": 2,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12216,
+          "position": 3,
+          "gameTitle": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "gameId": 993,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12217,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12218,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12219,
+          "position": 6,
+          "gameTitle": "Mario Bros.",
+          "gameId": 3047,
+          "coverImageUrl": null,
+          "score": 10
+        }
+      ]
+    },
+    {
+      "id": 581,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-20T13:48:56.509131Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 4602,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4603,
+          "position": 2,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4604,
+          "position": 3,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4605,
+          "position": 4,
+          "gameTitle": "Hollow Knight: Silksong",
+          "gameId": 988,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4606,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 639,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-07-20T13:06:42.643476Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 52,
+        "nickname": "110420072979302621163",
+        "fullName": "Furious Specter"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 60,
+        "title": "Most Anticipated Games of",
+        "year": 2023,
+        "slug": "most-anticipated-games-of-2023",
+        "fullName": "Most Anticipated Games of 2023"
+      },
+      "items": [
+        {
+          "id": 5603,
+          "position": 1,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5604,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5605,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5606,
+          "position": 4,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5607,
+          "position": 5,
+          "gameTitle": "Super Mario RPG",
+          "gameId": 1478,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5608,
+          "position": 6,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5609,
+          "position": 7,
+          "gameTitle": "Lies of P",
+          "gameId": 990,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5610,
+          "position": 8,
+          "gameTitle": "Dead Island 2",
+          "gameId": 1479,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5611,
+          "position": 9,
+          "gameTitle": "Mortal Kombat 1",
+          "gameId": 992,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5612,
+          "position": 10,
+          "gameTitle": "Street Fighter 6",
+          "gameId": 844,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5613,
+          "position": 11,
+          "gameTitle": "Diablo IV",
+          "gameId": 986,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5614,
+          "position": 12,
+          "gameTitle": "Forspoken",
+          "gameId": 1351,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5615,
+          "position": 13,
+          "gameTitle": "Starfield",
+          "gameId": 985,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5616,
+          "position": 14,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5617,
+          "position": 15,
+          "gameTitle": "Assassin\u0027s Creed Mirage",
+          "gameId": 994,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

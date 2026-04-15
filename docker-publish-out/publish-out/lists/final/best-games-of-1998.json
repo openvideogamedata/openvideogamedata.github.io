@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:09.8713172Z",
+  "slug": "best-games-of-1998",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 47,
+    "title": "Best Games of",
+    "year": 1998,
+    "numberOfGames": 21,
+    "numberOfSources": 2,
+    "slug": "best-games-of-1998",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1066,
+        "gameTitle": "Grim Fandango",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-10-28T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25r3.jpg",
+        "score": 27,
+        "position": 2,
+        "gameListId": 508,
+        "finalGameListId": 47
+      },
+      {
+        "gameId": 1065,
+        "gameTitle": "Half-Life",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-11-19T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnt.jpg",
+        "score": 27,
+        "position": 1,
+        "gameListId": 508,
+        "finalGameListId": 47
+      },
+      {
+        "gameId": 1068,
+        "gameTitle": "Panzer Dragoon Saga",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1998-01-29T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2icd.jpg",
+        "score": 27,
+        "position": 4,
+        "gameListId": 508,
+        "finalGameListId": 47
+      },
+      {
+        "gameId": 237,
+        "gameTitle": "Metal Gear Solid",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "1998-09-03T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55sj.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1212,
+        "finalGameListId": 47
+      }
+    ]
+  }
+}

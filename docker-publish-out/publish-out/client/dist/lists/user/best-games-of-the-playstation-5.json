@@ -1,0 +1,386 @@
+{
+  "syncedAt": "2026-04-15T10:53:34.4801376Z",
+  "slug": "best-games-of-the-playstation-5",
+  "type": 2,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 479,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-31T17:48:37.22051Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 2841,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2842,
+          "position": 2,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2843,
+          "position": 3,
+          "gameTitle": "Astro\u0027s Playroom",
+          "gameId": 156,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2844,
+          "position": 4,
+          "gameTitle": "Dirt Rally 2.0",
+          "gameId": 36,
+          "coverImageUrl": null,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": 625,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-07-19T22:00:01.270873Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 52,
+        "nickname": "110420072979302621163",
+        "fullName": "Furious Specter"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 5387,
+          "position": 1,
+          "gameTitle": "Final Fantasy XVI",
+          "gameId": 987,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5388,
+          "position": 2,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5389,
+          "position": 3,
+          "gameTitle": "Resident Evil 4: Deluxe Edition",
+          "gameId": 1449,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5390,
+          "position": 4,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 1\u002B2: Digital Deluxe Edition",
+          "gameId": 1450,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5391,
+          "position": 5,
+          "gameTitle": "Gran Turismo 7",
+          "gameId": 359,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5392,
+          "position": 6,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5393,
+          "position": 7,
+          "gameTitle": "Marvel\u0027s Spider-Man: Miles Morales",
+          "gameId": 157,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5394,
+          "position": 8,
+          "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+          "gameId": 162,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5395,
+          "position": 9,
+          "gameTitle": "Astro\u0027s Playroom",
+          "gameId": 156,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5396,
+          "position": 10,
+          "gameTitle": "Sackboy: A Big Adventure",
+          "gameId": 166,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5397,
+          "position": 11,
+          "gameTitle": "Returnal",
+          "gameId": 164,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5398,
+          "position": 12,
+          "gameTitle": "Demon\u0027s Souls",
+          "gameId": 356,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5399,
+          "position": 13,
+          "gameTitle": "Crash Bandicoot 4: It\u0027s About Time",
+          "gameId": 1452,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5400,
+          "position": 14,
+          "gameTitle": "FIFA 23",
+          "gameId": 1451,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5401,
+          "position": 15,
+          "gameTitle": "Deathloop",
+          "gameId": 161,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1204,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2025-05-28T23:44:30.55578Z",
+      "dateLastUpdated": "2025-10-20T00:42:42.245968Z",
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12148,
+          "position": 1,
+          "gameTitle": "Death Stranding 2: On The Beach",
+          "gameId": 2452,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12158,
+          "position": 1,
+          "gameTitle": "Death Stranding 2: On The Beach",
+          "gameId": 2452,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12149,
+          "position": 2,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12159,
+          "position": 2,
+          "gameTitle": "Alan Wake II",
+          "gameId": 998,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12150,
+          "position": 3,
+          "gameTitle": "Ghost of Yotei",
+          "gameId": 2486,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12160,
+          "position": 3,
+          "gameTitle": "Ghost of Yotei",
+          "gameId": 2486,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12151,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12161,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12152,
+          "position": 5,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12162,
+          "position": 5,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12153,
+          "position": 6,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12163,
+          "position": 6,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12154,
+          "position": 7,
+          "gameTitle": "Sword of the Sea",
+          "gameId": 3027,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12164,
+          "position": 7,
+          "gameTitle": "Sword of the Sea",
+          "gameId": 3027,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12155,
+          "position": 8,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12165,
+          "position": 8,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12156,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12166,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12157,
+          "position": 10,
+          "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+          "gameId": 162,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12167,
+          "position": 10,
+          "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+          "gameId": 162,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

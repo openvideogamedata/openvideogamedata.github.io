@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:49.4312329Z",
+  "slug": "best-games-of-2019",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 26,
+    "title": "Best Games of",
+    "year": 2019,
+    "numberOfGames": 23,
+    "numberOfSources": 2,
+    "slug": "best-games-of-2019",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 350,
+        "gameTitle": "Control",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-08-27T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evj.jpg",
+        "score": 29,
+        "position": 1,
+        "gameListId": 505,
+        "finalGameListId": 26
+      },
+      {
+        "gameId": 403,
+        "gameTitle": "The Outer Worlds",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-10-25T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eew.jpg",
+        "score": 23,
+        "position": 2,
+        "gameListId": 505,
+        "finalGameListId": 26
+      },
+      {
+        "gameId": 370,
+        "gameTitle": "Outer Wilds",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-05-28T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg",
+        "score": 20,
+        "position": 11,
+        "gameListId": 505,
+        "finalGameListId": 26
+      },
+      {
+        "gameId": 354,
+        "gameTitle": "Resident Evil 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-01-25T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg",
+        "score": 20,
+        "position": 3,
+        "gameListId": 505,
+        "finalGameListId": 26
+      }
+    ]
+  }
+}

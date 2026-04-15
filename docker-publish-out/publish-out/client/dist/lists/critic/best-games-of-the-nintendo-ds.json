@@ -1,0 +1,1826 @@
+{
+  "syncedAt": "2026-04-15T10:54:22.1216294Z",
+  "slug": "best-games-of-the-nintendo-ds",
+  "type": 1,
+  "totalItems": 13,
+  "data": [
+    {
+      "id": 699,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-ds-games/",
+      "dateAdded": "2023-08-07T20:10:02.125984Z",
+      "dateLastUpdated": "2024-10-03T23:52:39.642715Z",
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11066,
+          "position": 1,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11067,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11068,
+          "position": 3,
+          "gameTitle": "Osu! Tatakae! Ouendan",
+          "gameId": 1603,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11069,
+          "position": 4,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11070,
+          "position": 5,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11071,
+          "position": 6,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11072,
+          "position": 7,
+          "gameTitle": "Bangai-O Spirits",
+          "gameId": 1606,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11073,
+          "position": 8,
+          "gameTitle": "Ghost Trick: Phantom Detective",
+          "gameId": 1607,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11074,
+          "position": 9,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11075,
+          "position": 10,
+          "gameTitle": "Professor Layton and the Unwound Future",
+          "gameId": 1609,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11076,
+          "position": 11,
+          "gameTitle": "Kirby: Canvas Curse",
+          "gameId": 1610,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11077,
+          "position": 12,
+          "gameTitle": "Phoenix Wright: Ace Attorney",
+          "gameId": 1611,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11078,
+          "position": 13,
+          "gameTitle": "Tetris DS",
+          "gameId": 1612,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11079,
+          "position": 14,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11080,
+          "position": 15,
+          "gameTitle": "Pok\u00E9mon Black Version",
+          "gameId": 1413,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 706,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-nintendo-ds-games",
+      "dateAdded": "2023-08-08T02:08:36.868216Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 6895,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon Diamond Version",
+          "gameId": 1655,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6896,
+          "position": 2,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6897,
+          "position": 3,
+          "gameTitle": "Mario \u0026 Luigi: Partners in Time",
+          "gameId": 192,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6898,
+          "position": 4,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6899,
+          "position": 5,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6900,
+          "position": 6,
+          "gameTitle": "Professor Layton and the Last Specter",
+          "gameId": 1656,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6901,
+          "position": 7,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6902,
+          "position": 8,
+          "gameTitle": "Animal Crossing: Wild World",
+          "gameId": 1118,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6903,
+          "position": 9,
+          "gameTitle": "Elite Beat Agents",
+          "gameId": 1658,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6904,
+          "position": 10,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6905,
+          "position": 11,
+          "gameTitle": "Castlevania: Order of Ecclesia",
+          "gameId": 1659,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6906,
+          "position": 12,
+          "gameTitle": "Pok\u00E9mon Conquest",
+          "gameId": 1660,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6907,
+          "position": 13,
+          "gameTitle": "Professor Layton and the Curious Village",
+          "gameId": 1155,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6908,
+          "position": 14,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6909,
+          "position": 15,
+          "gameTitle": "Fire Emblem: Shadow Dragon",
+          "gameId": 1661,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendolife.com/guides/50-best-nintendo-ds-games-of-all-time",
+      "dateAdded": "2023-08-08T02:11:27.939167Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 130,
+        "name": "Nintendo Life",
+        "hostUrl": "www.nintendolife.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 6910,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6911,
+          "position": 2,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6912,
+          "position": 3,
+          "gameTitle": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+          "gameId": 1662,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6913,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Platinum Version",
+          "gameId": 1663,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6914,
+          "position": 5,
+          "gameTitle": "Kirby Super Star Ultra",
+          "gameId": 1664,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6915,
+          "position": 6,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6916,
+          "position": 7,
+          "gameTitle": "Pok\u00E9mon Mystery Dungeon: Explorers of Sky",
+          "gameId": 1665,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6917,
+          "position": 8,
+          "gameTitle": "Dragon Quest V: Hand of the Heavenly Bride",
+          "gameId": 1666,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6918,
+          "position": 9,
+          "gameTitle": "Professor Layton and the Unwound Future",
+          "gameId": 1609,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6919,
+          "position": 10,
+          "gameTitle": "Phoenix Wright: Ace Attorney",
+          "gameId": 1611,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6920,
+          "position": 11,
+          "gameTitle": "Pok\u00E9mon Black Version 2",
+          "gameId": 1667,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6921,
+          "position": 12,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6922,
+          "position": 13,
+          "gameTitle": "Castlevania: Order of Ecclesia",
+          "gameId": 1659,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6923,
+          "position": 14,
+          "gameTitle": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+          "gameId": 1668,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6924,
+          "position": 15,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 708,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-nintendo-ds-games/",
+      "dateAdded": "2023-08-08T02:18:51.983159Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 6925,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6926,
+          "position": 2,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6927,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6928,
+          "position": 4,
+          "gameTitle": "Super Mario 64 DS",
+          "gameId": 1669,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6929,
+          "position": 5,
+          "gameTitle": "Solatorobo: Red the Hunter",
+          "gameId": 1670,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6930,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Spirit Tracks",
+          "gameId": 1671,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6931,
+          "position": 7,
+          "gameTitle": "Mario \u0026 Luigi: Partners in Time",
+          "gameId": 192,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6932,
+          "position": 8,
+          "gameTitle": "Metroid Prime Hunters",
+          "gameId": 1672,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6933,
+          "position": 9,
+          "gameTitle": "Pok\u00E9mon Black Version",
+          "gameId": 1413,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6934,
+          "position": 10,
+          "gameTitle": "Animal Crossing: Wild World",
+          "gameId": 1118,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6935,
+          "position": 11,
+          "gameTitle": "Professor Layton and the Curious Village",
+          "gameId": 1155,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6936,
+          "position": 12,
+          "gameTitle": "WarioWare: Touched!",
+          "gameId": 1673,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6937,
+          "position": 13,
+          "gameTitle": "Pok\u00E9mon Platinum Version",
+          "gameId": 1663,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6938,
+          "position": 14,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6939,
+          "position": 15,
+          "gameTitle": "Nintendogs: Labrador \u0026 Friends",
+          "gameId": 1674,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 709,
+      "byUser": false,
+      "sourceListUrl": "https://www.denofgeek.com/games/best-nintendo-ds-games-ever/",
+      "dateAdded": "2023-08-08T02:23:14.205906Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 171,
+        "name": "Denofgeek",
+        "hostUrl": "www.denofgeek.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 6940,
+          "position": 1,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6941,
+          "position": 2,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6942,
+          "position": 3,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6943,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6944,
+          "position": 5,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6945,
+          "position": 6,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6946,
+          "position": 7,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6947,
+          "position": 8,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6948,
+          "position": 9,
+          "gameTitle": "Phoenix Wright: Ace Attorney",
+          "gameId": 1611,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6949,
+          "position": 10,
+          "gameTitle": "Professor Layton and the Curious Village",
+          "gameId": 1155,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6950,
+          "position": 11,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6951,
+          "position": 12,
+          "gameTitle": "WarioWare: Touched!",
+          "gameId": 1673,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6952,
+          "position": 13,
+          "gameTitle": "Kirby: Canvas Curse",
+          "gameId": 1610,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6953,
+          "position": 14,
+          "gameTitle": "The Legend of Zelda: Spirit Tracks",
+          "gameId": 1671,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6954,
+          "position": 15,
+          "gameTitle": "Radiant Historia",
+          "gameId": 1675,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "byUser": false,
+      "sourceListUrl": "https://www.cbr.com/nintendo-ds-best-games/",
+      "dateAdded": "2023-08-08T02:24:42.32542Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 179,
+        "name": "CBR",
+        "hostUrl": "www.cbr.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 6955,
+          "position": 1,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6956,
+          "position": 2,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6957,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6958,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6959,
+          "position": 5,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6960,
+          "position": 6,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6961,
+          "position": 7,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6962,
+          "position": 8,
+          "gameTitle": "Super Mario 64 DS",
+          "gameId": 1669,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6963,
+          "position": 9,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6964,
+          "position": 10,
+          "gameTitle": "Animal Crossing: Wild World",
+          "gameId": 1118,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1031,
+      "byUser": false,
+      "sourceListUrl": "https://www.destructoid.com/best-classic-nintendo-ds-games-of-all-time-ranked/",
+      "dateAdded": "2024-06-04T18:21:28.974818Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 176,
+        "name": "Destructoid",
+        "hostUrl": "www.destructoid.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 10810,
+          "position": 1,
+          "gameTitle": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+          "gameId": 1668,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10811,
+          "position": 2,
+          "gameTitle": "Dragon Quest IX: Sentinels of the Starry Skies",
+          "gameId": 2346,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10812,
+          "position": 3,
+          "gameTitle": "Tetris DS",
+          "gameId": 1612,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10813,
+          "position": 4,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10814,
+          "position": 5,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10815,
+          "position": 6,
+          "gameTitle": "Elite Beat Agents",
+          "gameId": 1658,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10816,
+          "position": 7,
+          "gameTitle": "Professor Layton and the Unwound Future",
+          "gameId": 1609,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10817,
+          "position": 8,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10818,
+          "position": 9,
+          "gameTitle": "Meteos",
+          "gameId": 2347,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10819,
+          "position": 10,
+          "gameTitle": "Nintendogs: Labrador \u0026 Friends",
+          "gameId": 1674,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10820,
+          "position": 11,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10821,
+          "position": 12,
+          "gameTitle": "Phoenix Wright: Ace Attorney - Trials and Tribulations",
+          "gameId": 1662,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10822,
+          "position": 13,
+          "gameTitle": "Shin Megami Tensei: Devil Survivor",
+          "gameId": 2348,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10823,
+          "position": 14,
+          "gameTitle": "Henry Hatsworth in the Puzzling Adventure",
+          "gameId": 2349,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10824,
+          "position": 15,
+          "gameTitle": "WarioWare D.I.Y.",
+          "gameId": 2350,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1033,
+      "byUser": false,
+      "sourceListUrl": "https://beebom.com/best-nintendo-ds-games/",
+      "dateAdded": "2024-10-03T23:47:55.354049Z",
+      "dateLastUpdated": "2024-10-03T23:53:19.652457Z",
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 209,
+        "name": "Beebom",
+        "hostUrl": "beebom.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11081,
+          "position": 1,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11082,
+          "position": 2,
+          "gameTitle": "Phoenix Wright: Ace Attorney",
+          "gameId": 1611,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11083,
+          "position": 3,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11084,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11085,
+          "position": 5,
+          "gameTitle": "Nintendogs: Best Friends",
+          "gameId": 2518,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11086,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11087,
+          "position": 7,
+          "gameTitle": "Hotel Dusk: Room 215",
+          "gameId": 2519,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11088,
+          "position": 8,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11089,
+          "position": 9,
+          "gameTitle": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+          "gameId": 1668,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11090,
+          "position": 10,
+          "gameTitle": "Trauma Center: Under the Knife",
+          "gameId": 2520,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11091,
+          "position": 11,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11092,
+          "position": 12,
+          "gameTitle": "Elite Beat Agents",
+          "gameId": 1658,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11093,
+          "position": 13,
+          "gameTitle": "Professor Layton and the Curious Village",
+          "gameId": 1155,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11094,
+          "position": 14,
+          "gameTitle": "Flower, Sun, and Rain",
+          "gameId": 2521,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11095,
+          "position": 15,
+          "gameTitle": "Dementium: The Ward",
+          "gameId": 2522,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1034,
+      "byUser": false,
+      "sourceListUrl": "https://tiermaker.com/categories/video-games/nintendo-ds-games-100-636750",
+      "dateAdded": "2024-10-03T23:47:56.574805Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 393,
+        "name": "Tiermaker",
+        "hostUrl": "tiermaker.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 10996,
+          "position": 1,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10997,
+          "position": 2,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10998,
+          "position": 3,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10999,
+          "position": 4,
+          "gameTitle": "Pok\u00E9mon Black Version",
+          "gameId": 1413,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11000,
+          "position": 5,
+          "gameTitle": "Super Mario 64 DS",
+          "gameId": 1669,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11001,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11002,
+          "position": 7,
+          "gameTitle": "Mario \u0026 Luigi: Partners in Time",
+          "gameId": 192,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11003,
+          "position": 8,
+          "gameTitle": "Pok\u00E9mon Platinum Version",
+          "gameId": 1663,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11004,
+          "position": 9,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11005,
+          "position": 10,
+          "gameTitle": "Nintendogs: Labrador \u0026 Friends",
+          "gameId": 1674,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11006,
+          "position": 11,
+          "gameTitle": "Kirby Super Star Ultra",
+          "gameId": 1664,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11007,
+          "position": 12,
+          "gameTitle": "The Legend of Zelda: Spirit Tracks",
+          "gameId": 1671,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11008,
+          "position": 13,
+          "gameTitle": "Super Princess Peach",
+          "gameId": 2523,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11009,
+          "position": 14,
+          "gameTitle": "Animal Crossing: Wild World",
+          "gameId": 1118,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11010,
+          "position": 15,
+          "gameTitle": "Pok\u00E9mon Diamond Version",
+          "gameId": 1655,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1035,
+      "byUser": false,
+      "sourceListUrl": "https://www.watchmojo.com/articles/top-10-nintendo-ds-games",
+      "dateAdded": "2024-10-03T23:47:57.320991Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 241,
+        "name": "Watchmojo",
+        "hostUrl": "www.watchmojo.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11011,
+          "position": 1,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11012,
+          "position": 2,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11013,
+          "position": 3,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11014,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11015,
+          "position": 5,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11016,
+          "position": 6,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11017,
+          "position": 7,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11018,
+          "position": 8,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11019,
+          "position": 9,
+          "gameTitle": "Elite Beat Agents",
+          "gameId": 1658,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11020,
+          "position": 10,
+          "gameTitle": "Professor Layton and the Unwound Future",
+          "gameId": 1609,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1036,
+      "byUser": false,
+      "sourceListUrl": "https://screenrant.com/nintendo-ds-dual-screen-video-games-ranked-pokemon-final-fantasy/",
+      "dateAdded": "2024-10-03T23:47:57.961435Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 205,
+        "name": "Screenrant",
+        "hostUrl": "screenrant.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11021,
+          "position": 1,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11022,
+          "position": 2,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11023,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11024,
+          "position": 4,
+          "gameTitle": "Picross 3D",
+          "gameId": 2524,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11025,
+          "position": 5,
+          "gameTitle": "Zero Escape: Nine Hours, Nine Persons, Nine Doors",
+          "gameId": 1668,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11026,
+          "position": 6,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11027,
+          "position": 7,
+          "gameTitle": "Phoenix Wright: Ace Attorney",
+          "gameId": 1611,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11028,
+          "position": 8,
+          "gameTitle": "Animal Crossing: Wild World",
+          "gameId": 1118,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11029,
+          "position": 9,
+          "gameTitle": "Kirby Mass Attack",
+          "gameId": 2525,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11030,
+          "position": 10,
+          "gameTitle": "Shin Megami Tensei: Strange Journey",
+          "gameId": 2526,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11031,
+          "position": 11,
+          "gameTitle": "Puzzle Quest: Challenge of the Warlords",
+          "gameId": 2527,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11032,
+          "position": 12,
+          "gameTitle": "Dragon Quest V: Hand of the Heavenly Bride",
+          "gameId": 1666,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11033,
+          "position": 13,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11034,
+          "position": 14,
+          "gameTitle": "Final Fantasy Tactics A2: Grimoire of the Rift",
+          "gameId": 2528,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11035,
+          "position": 15,
+          "gameTitle": "Contra 4",
+          "gameId": 2529,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1037,
+      "byUser": false,
+      "sourceListUrl": "https://www.one37pm.com/gaming/best-ds-games",
+      "dateAdded": "2024-10-03T23:47:58.695559Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 172,
+        "name": "One37pm",
+        "hostUrl": "www.one37pm.com"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11036,
+          "position": 1,
+          "gameTitle": "Super Mario 64 DS",
+          "gameId": 1669,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11037,
+          "position": 2,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11038,
+          "position": 3,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11039,
+          "position": 4,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11040,
+          "position": 5,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11041,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Spirit Tracks",
+          "gameId": 1671,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11042,
+          "position": 7,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11043,
+          "position": 8,
+          "gameTitle": "Pok\u00E9mon Black Version",
+          "gameId": 1413,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11044,
+          "position": 9,
+          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameId": 510,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11045,
+          "position": 10,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11046,
+          "position": 11,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11047,
+          "position": 12,
+          "gameTitle": "Kirby: Canvas Curse",
+          "gameId": 1610,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11048,
+          "position": 13,
+          "gameTitle": "Mario \u0026 Luigi: Partners in Time",
+          "gameId": 192,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11049,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon Conquest",
+          "gameId": 1660,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11050,
+          "position": 15,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1038,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.pt/melhores-jogos-nintendo-ds",
+      "dateAdded": "2024-10-03T23:47:59.605288Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 394,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.pt"
+      },
+      "finalGameList": {
+        "id": 70,
+        "title": "Best Games of The Nintendo DS",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-ds",
+        "fullName": "Best Games of The Nintendo DS"
+      },
+      "items": [
+        {
+          "id": 11051,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11052,
+          "position": 2,
+          "gameTitle": "Flipnote Studio",
+          "gameId": 2530,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11053,
+          "position": 3,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 1613,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11054,
+          "position": 4,
+          "gameTitle": "Mario Kart DS",
+          "gameId": 1120,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11055,
+          "position": 5,
+          "gameTitle": "Mario \u0026 Luigi: Bowser\u0027s Inside Story",
+          "gameId": 1605,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11056,
+          "position": 6,
+          "gameTitle": "The Legend of Zelda: Phantom Hourglass",
+          "gameId": 1142,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11057,
+          "position": 7,
+          "gameTitle": "Advance Wars: Dual Strike",
+          "gameId": 1604,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11058,
+          "position": 8,
+          "gameTitle": "Castlevania: Dawn of Sorrow",
+          "gameId": 1608,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11059,
+          "position": 9,
+          "gameTitle": "New Super Mario Bros.",
+          "gameId": 1134,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11060,
+          "position": 10,
+          "gameTitle": "Meteos",
+          "gameId": 2347,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11061,
+          "position": 11,
+          "gameTitle": "The World Ends with You",
+          "gameId": 1657,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11062,
+          "position": 12,
+          "gameTitle": "Pok\u00E9mon White Version",
+          "gameId": 2531,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11063,
+          "position": 13,
+          "gameTitle": "Dragon Quest IX: Sentinels of the Starry Skies",
+          "gameId": 2346,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11064,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon SoulSilver Version",
+          "gameId": 2532,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11065,
+          "position": 15,
+          "gameTitle": "Elite Beat Agents",
+          "gameId": 1658,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

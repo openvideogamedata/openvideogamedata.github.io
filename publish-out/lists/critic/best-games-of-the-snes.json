@@ -1,0 +1,722 @@
+{
+  "syncedAt": "2026-04-15T10:44:28.4116111Z",
+  "slug": "best-games-of-the-snes",
+  "type": 1,
+  "totalItems": 5,
+  "data": [
+    {
+      "id": 364,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/lists/top-100-snes-games",
+      "dateAdded": "2023-04-19T20:00:07.838297Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 6,
+        "title": "Best Games of the SNES",
+        "year": null,
+        "slug": "best-games-of-the-snes",
+        "fullName": "Best Games of the SNES"
+      },
+      "items": [
+        {
+          "id": 1662,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 372,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1663,
+          "position": 2,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1664,
+          "position": 3,
+          "gameTitle": "Super Metroid",
+          "gameId": 373,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1665,
+          "position": 4,
+          "gameTitle": "Final Fantasy VI",
+          "gameId": 515,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1666,
+          "position": 5,
+          "gameTitle": "Super Mario World",
+          "gameId": 371,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1667,
+          "position": 6,
+          "gameTitle": "Street Fighter II Turbo",
+          "gameId": 567,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1668,
+          "position": 7,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1669,
+          "position": 8,
+          "gameTitle": "Super Mario Kart",
+          "gameId": 512,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1670,
+          "position": 9,
+          "gameTitle": "Star Fox",
+          "gameId": 569,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1671,
+          "position": 10,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1672,
+          "position": 11,
+          "gameTitle": "Secret of Mana",
+          "gameId": 571,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1673,
+          "position": 12,
+          "gameTitle": "Mega Man X",
+          "gameId": 572,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1674,
+          "position": 13,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1675,
+          "position": 14,
+          "gameTitle": "Final Fantasy IV",
+          "gameId": 574,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1676,
+          "position": 15,
+          "gameTitle": "Tetris",
+          "gameId": 28,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 381,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendolife.com/guides/50-best-super-nintendo-snes-games-of-all-time",
+      "dateAdded": "2023-05-11T20:44:05.807187Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 130,
+        "name": "Nintendo Life",
+        "hostUrl": "www.nintendolife.com"
+      },
+      "finalGameList": {
+        "id": 6,
+        "title": "Best Games of the SNES",
+        "year": null,
+        "slug": "best-games-of-the-snes",
+        "fullName": "Best Games of the SNES"
+      },
+      "items": [
+        {
+          "id": 1926,
+          "position": 1,
+          "gameTitle": "Super Mario World",
+          "gameId": 371,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 1925,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 372,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 1924,
+          "position": 3,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 1923,
+          "position": 4,
+          "gameTitle": "Super Metroid",
+          "gameId": 373,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 1922,
+          "position": 5,
+          "gameTitle": "Final Fantasy III",
+          "gameId": 682,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 1921,
+          "position": 6,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 1920,
+          "position": 7,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 1919,
+          "position": 8,
+          "gameTitle": "Super Mario All-Stars",
+          "gameId": 683,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 1918,
+          "position": 9,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 1917,
+          "position": 10,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 1916,
+          "position": 11,
+          "gameTitle": "Teenage Mutant Ninja Turtles IV: Turtles in Time",
+          "gameId": 685,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 1915,
+          "position": 12,
+          "gameTitle": "Mega Man X",
+          "gameId": 572,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 1914,
+          "position": 13,
+          "gameTitle": "Donkey Kong Country",
+          "gameId": 686,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 1913,
+          "position": 14,
+          "gameTitle": "Street Fighter II Turbo: Hyper Fighting",
+          "gameId": 687,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 1912,
+          "position": 15,
+          "gameTitle": "Super Castlevania IV",
+          "gameId": 688,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1209,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-snes-games-all-time/",
+      "dateAdded": "2025-11-19T20:14:51.05444Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 6,
+        "title": "Best Games of the SNES",
+        "year": null,
+        "slug": "best-games-of-the-snes",
+        "fullName": "Best Games of the SNES"
+      },
+      "items": [
+        {
+          "id": 12250,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 372,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12251,
+          "position": 2,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12252,
+          "position": 3,
+          "gameTitle": "Super Metroid",
+          "gameId": 373,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12253,
+          "position": 4,
+          "gameTitle": "Super Mario World",
+          "gameId": 371,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12254,
+          "position": 5,
+          "gameTitle": "Street Fighter II",
+          "gameId": 425,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12255,
+          "position": 6,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12256,
+          "position": 7,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12257,
+          "position": 8,
+          "gameTitle": "Super Mario Kart",
+          "gameId": 512,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12258,
+          "position": 9,
+          "gameTitle": "Final Fantasy III",
+          "gameId": 682,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12259,
+          "position": 10,
+          "gameTitle": "Secret of Mana",
+          "gameId": 571,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12260,
+          "position": 11,
+          "gameTitle": "Super Castlevania IV",
+          "gameId": 688,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12261,
+          "position": 12,
+          "gameTitle": "Tetris Attack",
+          "gameId": 1369,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12262,
+          "position": 13,
+          "gameTitle": "Super Mario RPG: Legend of the Seven Stars",
+          "gameId": 570,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12263,
+          "position": 14,
+          "gameTitle": "Super Punch-Out!!",
+          "gameId": 3060,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12264,
+          "position": 15,
+          "gameTitle": "Mega Man X",
+          "gameId": 572,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1210,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-snes-games/",
+      "dateAdded": "2025-11-19T20:14:53.695885Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 6,
+        "title": "Best Games of the SNES",
+        "year": null,
+        "slug": "best-games-of-the-snes",
+        "fullName": "Best Games of the SNES"
+      },
+      "items": [
+        {
+          "id": 12265,
+          "position": 1,
+          "gameTitle": "Donkey Kong Country",
+          "gameId": 686,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12266,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 372,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12267,
+          "position": 3,
+          "gameTitle": "Super Metroid",
+          "gameId": 373,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12268,
+          "position": 4,
+          "gameTitle": "Super Mario Kart",
+          "gameId": 512,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12269,
+          "position": 5,
+          "gameTitle": "Street Fighter II",
+          "gameId": 425,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12270,
+          "position": 6,
+          "gameTitle": "Star Fox",
+          "gameId": 569,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12271,
+          "position": 7,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12272,
+          "position": 8,
+          "gameTitle": "Super Mario World",
+          "gameId": 371,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12273,
+          "position": 9,
+          "gameTitle": "Super Mario All-Stars",
+          "gameId": 683,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12274,
+          "position": 10,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12275,
+          "position": 11,
+          "gameTitle": "F-Zero",
+          "gameId": 1531,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12276,
+          "position": 12,
+          "gameTitle": "Super Castlevania IV",
+          "gameId": 688,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12277,
+          "position": 13,
+          "gameTitle": "Mortal Kombat 3",
+          "gameId": 2001,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12278,
+          "position": 14,
+          "gameTitle": "Super Star Wars",
+          "gameId": 3058,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12279,
+          "position": 15,
+          "gameTitle": "Mario Paint",
+          "gameId": 3059,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1211,
+      "byUser": false,
+      "sourceListUrl": "https://www.xda-developers.com/these-are-the-11-best-snes-games-of-all-time/",
+      "dateAdded": "2025-11-19T20:15:07.206907Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 208,
+        "name": "Xda-developers",
+        "hostUrl": "www.xda-developers.com"
+      },
+      "finalGameList": {
+        "id": 6,
+        "title": "Best Games of the SNES",
+        "year": null,
+        "slug": "best-games-of-the-snes",
+        "fullName": "Best Games of the SNES"
+      },
+      "items": [
+        {
+          "id": 12280,
+          "position": 1,
+          "gameTitle": "Super Metroid",
+          "gameId": 373,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12281,
+          "position": 2,
+          "gameTitle": "Super Mario World",
+          "gameId": 371,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12282,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: A Link to the Past",
+          "gameId": 372,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12283,
+          "position": 4,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12284,
+          "position": 5,
+          "gameTitle": "Donkey Kong Country",
+          "gameId": 686,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12285,
+          "position": 6,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12286,
+          "position": 7,
+          "gameTitle": "Final Fantasy III",
+          "gameId": 682,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12287,
+          "position": 8,
+          "gameTitle": "Super Castlevania IV",
+          "gameId": 688,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12288,
+          "position": 9,
+          "gameTitle": "Mega Man X",
+          "gameId": 572,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12289,
+          "position": 10,
+          "gameTitle": "Contra III: The Alien Wars",
+          "gameId": 1651,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12290,
+          "position": 11,
+          "gameTitle": "NBA Jam Tournament Edition",
+          "gameId": 3061,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12291,
+          "position": 12,
+          "gameTitle": "Batman Returns",
+          "gameId": 3062,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12292,
+          "position": 13,
+          "gameTitle": "Zombies Ate My Neighbors",
+          "gameId": 1534,
+          "coverImageUrl": null,
+          "score": 3
+        }
+      ]
+    }
+  ]
+}

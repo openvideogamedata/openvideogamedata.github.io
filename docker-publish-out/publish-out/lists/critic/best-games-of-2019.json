@@ -1,0 +1,300 @@
+{
+  "syncedAt": "2026-04-15T10:44:49.9799157Z",
+  "slug": "best-games-of-2019",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 505,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-games-2019/",
+      "dateAdded": "2023-06-13T02:41:20.447431Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 26,
+        "title": "Best Games of",
+        "year": 2019,
+        "slug": "best-games-of-2019",
+        "fullName": "Best Games of 2019"
+      },
+      "items": [
+        {
+          "id": 3551,
+          "position": 1,
+          "gameTitle": "Control",
+          "gameId": 350,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3552,
+          "position": 2,
+          "gameTitle": "The Outer Worlds",
+          "gameId": 403,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3553,
+          "position": 3,
+          "gameTitle": "Resident Evil 2",
+          "gameId": 354,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3554,
+          "position": 4,
+          "gameTitle": "Star Wars Jedi: Fallen Order",
+          "gameId": 608,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3555,
+          "position": 5,
+          "gameTitle": "Apex Legends",
+          "gameId": 412,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3556,
+          "position": 6,
+          "gameTitle": "Call of Duty: Modern Warfare",
+          "gameId": 1052,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3557,
+          "position": 7,
+          "gameTitle": "Untitled Goose Game",
+          "gameId": 1053,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3558,
+          "position": 8,
+          "gameTitle": "Disco Elysium",
+          "gameId": 185,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3559,
+          "position": 9,
+          "gameTitle": "Sayonara Wild Hearts",
+          "gameId": 754,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3560,
+          "position": 10,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3561,
+          "position": 11,
+          "gameTitle": "Outer Wilds",
+          "gameId": 370,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3562,
+          "position": 12,
+          "gameTitle": "Pok\u00E9mon Sword \u0026 Pok\u00E9mon Shield Double Pack",
+          "gameId": 1054,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3563,
+          "position": 13,
+          "gameTitle": "Days Gone",
+          "gameId": 1055,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3564,
+          "position": 14,
+          "gameTitle": "The Legend of Zelda: Link\u0027s Awakening",
+          "gameId": 103,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3565,
+          "position": 15,
+          "gameTitle": "Telling Lies",
+          "gameId": 1056,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 506,
+      "byUser": false,
+      "sourceListUrl": "https://www.polygon.com/best-games/2019/12/13/21002670/best-games-2019-ps4-pc-xbox-one-nintendo-switch-ios",
+      "dateAdded": "2023-06-13T02:41:21.460113Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 133,
+        "name": "Polygon",
+        "hostUrl": "www.polygon.com"
+      },
+      "finalGameList": {
+        "id": 26,
+        "title": "Best Games of",
+        "year": 2019,
+        "slug": "best-games-of-2019",
+        "fullName": "Best Games of 2019"
+      },
+      "items": [
+        {
+          "id": 3566,
+          "position": 1,
+          "gameTitle": "Outer Wilds",
+          "gameId": 370,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3567,
+          "position": 2,
+          "gameTitle": "Control",
+          "gameId": 350,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3568,
+          "position": 3,
+          "gameTitle": "Devotion",
+          "gameId": 1048,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3569,
+          "position": 4,
+          "gameTitle": "Baba is You",
+          "gameId": 1049,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3570,
+          "position": 5,
+          "gameTitle": "Sekiro: Shadows Die Twice",
+          "gameId": 417,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3571,
+          "position": 6,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3572,
+          "position": 7,
+          "gameTitle": "The Outer Worlds",
+          "gameId": 403,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3573,
+          "position": 8,
+          "gameTitle": "Death Stranding",
+          "gameId": 399,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3574,
+          "position": 9,
+          "gameTitle": "Resident Evil 2",
+          "gameId": 354,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3575,
+          "position": 10,
+          "gameTitle": "A Short Hike",
+          "gameId": 691,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3576,
+          "position": 11,
+          "gameTitle": "Sayonara Wild Hearts",
+          "gameId": 754,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3577,
+          "position": 12,
+          "gameTitle": "Apex Legends",
+          "gameId": 412,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3578,
+          "position": 13,
+          "gameTitle": "Fire Emblem: Three Houses",
+          "gameId": 97,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3579,
+          "position": 14,
+          "gameTitle": "Teamfight Tactics",
+          "gameId": 1050,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3580,
+          "position": 15,
+          "gameTitle": "Total War: Three Kingdoms",
+          "gameId": 1051,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

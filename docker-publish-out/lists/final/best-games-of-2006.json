@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:02.2192412Z",
+  "slug": "best-games-of-2006",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 39,
+    "title": "Best Games of",
+    "year": 2006,
+    "numberOfGames": 19,
+    "numberOfSources": 2,
+    "slug": "best-games-of-2006",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1129,
+        "gameTitle": "The Elder Scrolls IV: Oblivion",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-03-20T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tc8.jpg",
+        "score": 28,
+        "position": 1,
+        "gameListId": 525,
+        "finalGameListId": 39
+      },
+      {
+        "gameId": 1128,
+        "gameTitle": "Gears of War",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-11-07T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28gi.jpg",
+        "score": 26,
+        "position": 4,
+        "gameListId": 525,
+        "finalGameListId": 39
+      },
+      {
+        "gameId": 1133,
+        "gameTitle": "Half-Life 2: Episode One",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-06-01T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mw3.jpg",
+        "score": 20,
+        "position": 3,
+        "gameListId": 525,
+        "finalGameListId": 39
+      },
+      {
+        "gameId": 1130,
+        "gameTitle": "Company of Heroes",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2006-09-12T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ht7.jpg",
+        "score": 19,
+        "position": 7,
+        "gameListId": 525,
+        "finalGameListId": 39
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:10.7889974Z",
+  "slug": "best-games-of-1997",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 48,
+    "title": "Best Games of",
+    "year": 1997,
+    "numberOfGames": 27,
+    "numberOfSources": 3,
+    "slug": "best-games-of-1997",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 219,
+        "gameTitle": "GoldenEye 007",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1997-08-23T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62k0.jpg",
+        "score": 43,
+        "position": 2,
+        "gameListId": 509,
+        "finalGameListId": 48
+      },
+      {
+        "gameId": 247,
+        "gameTitle": "Final Fantasy VII",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1997-01-31T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kx2.jpg",
+        "score": 39,
+        "position": 1,
+        "gameListId": 509,
+        "finalGameListId": 48
+      },
+      {
+        "gameId": 238,
+        "gameTitle": "Castlevania: Symphony of the Night",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "1997-03-20T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53m8.jpg",
+        "score": 27,
+        "position": 3,
+        "gameListId": 509,
+        "finalGameListId": 48
+      },
+      {
+        "gameId": 1064,
+        "gameTitle": "Fallout",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "1997-09-30T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ybn.jpg",
+        "score": 20,
+        "position": 5,
+        "gameListId": 509,
+        "finalGameListId": 48
+      }
+    ]
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "syncedAt": "2026-04-15T11:34:58.0725467Z",
+  "slug": "best-games-of-2009",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "finalGameList": {
+      "id": 36,
+      "title": "Best Games of",
+      "year": 2009,
+      "slug": "best-games-of-2009",
+      "fullName": "Best Games of 2009",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1156,
+        "gameTitle": "Batman: Arkham Asylum",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2009-08-25T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1voj.jpg",
+        "score": 26,
+        "position": 4,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 500,
+        "gameTitle": "Assassin\u0027s Creed II",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2009-11-17T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.jpg",
+        "score": 25,
+        "position": 2,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 321,
+        "gameTitle": "Uncharted 2: Among Thieves",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2009-10-13T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg",
+        "score": 25,
+        "position": 6,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 764,
+        "gameTitle": "Left 4 Dead 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2009-11-17T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y2f.jpg",
+        "score": 23,
+        "position": 1,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 292,
+        "gameTitle": "Call of Duty: Modern Warfare 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-11-10T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3cwt.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 533,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 546,
+        "gameTitle": "New Super Mario Bros. Wii",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-11-12T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tj.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1161,
+        "gameTitle": "Dragon Age: Origins",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-11-03T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 533,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1157,
+        "gameTitle": "Punch-Out!!",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-05-18T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f72.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1162,
+        "gameTitle": "Borderlands",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-10-20T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tx.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 533,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1163,
+        "gameTitle": "Demon\u0027s Souls",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-02-05T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27sk.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 533,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1158,
+        "gameTitle": "Rhythm Heaven",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2008-07-31T00:00:00Z",
+        "releaseYear": 2008,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e11.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 435,
+        "gameTitle": "Grand Theft Auto: Chinatown Wars",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-03-17T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lba.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1159,
+        "gameTitle": "The Beatles: Rock Band",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-09-09T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wqo.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 532,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1164,
+        "gameTitle": "Trials HD",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-08-12T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co50mi.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 533,
+        "finalGameListId": 36
+      },
+      {
+        "gameId": 1165,
+        "gameTitle": "Forza Motorsport 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2009-10-22T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39yg.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 533,
+        "finalGameListId": 36
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Wired",
+        "sourceUrl": "https://www.wired.com/2009/12/top-10-games-of-2009/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Eurogamer",
+        "sourceUrl": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2009-article?page=6",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 25,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

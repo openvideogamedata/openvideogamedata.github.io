@@ -1,0 +1,1268 @@
+{
+  "syncedAt": "2026-04-15T10:45:27.2637848Z",
+  "slug": "best-mmorpg-games-of-all-time",
+  "type": 1,
+  "totalItems": 10,
+  "data": [
+    {
+      "id": 1008,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-mmorpg/",
+      "dateAdded": "2024-04-10T13:05:31.252492Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10455,
+          "position": 1,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10456,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10457,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10458,
+          "position": 4,
+          "gameTitle": "Old School RuneScape",
+          "gameId": 2232,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10459,
+          "position": 5,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10460,
+          "position": 6,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10461,
+          "position": 7,
+          "gameTitle": "Star Wars: Knights of the Old Republic",
+          "gameId": 790,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10462,
+          "position": 8,
+          "gameTitle": "Black Desert",
+          "gameId": 2235,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10463,
+          "position": 9,
+          "gameTitle": "Lost Ark",
+          "gameId": 2236,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10464,
+          "position": 10,
+          "gameTitle": "Fallout 76",
+          "gameId": 2237,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1009,
+      "byUser": false,
+      "sourceListUrl": "https://www.rockpapershotgun.com/best-mmos-mmorpgs",
+      "dateAdded": "2024-04-10T13:08:27.472347Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 276,
+        "name": "Rockpapershotgun",
+        "hostUrl": "www.rockpapershotgun.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10465,
+          "position": 1,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10466,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10467,
+          "position": 3,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10468,
+          "position": 4,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10469,
+          "position": 5,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10470,
+          "position": 6,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10471,
+          "position": 7,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10472,
+          "position": 8,
+          "gameTitle": "Black Desert",
+          "gameId": 2235,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10473,
+          "position": 9,
+          "gameTitle": "The Lord of the Rings Online",
+          "gameId": 2239,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10474,
+          "position": 10,
+          "gameTitle": "Destiny 2",
+          "gameId": 1224,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1010,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/game/all/mmorpg/",
+      "dateAdded": "2024-04-10T13:12:48.895676Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10475,
+          "position": 1,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10476,
+          "position": 2,
+          "gameTitle": "Final Fantasy XIV: Endwalker",
+          "gameId": 845,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10477,
+          "position": 3,
+          "gameTitle": "World of Warcraft: Wrath of the Lich King",
+          "gameId": 1896,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10478,
+          "position": 4,
+          "gameTitle": "World of Warcraft: The Burning Crusade",
+          "gameId": 1902,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10479,
+          "position": 5,
+          "gameTitle": "Final Fantasy XIV: Shadowbringers",
+          "gameId": 2240,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10480,
+          "position": 6,
+          "gameTitle": "World of Warcraft: Cataclysm",
+          "gameId": 2241,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10481,
+          "position": 7,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10482,
+          "position": 8,
+          "gameTitle": "World of Warcraft: Legion",
+          "gameId": 1899,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10483,
+          "position": 9,
+          "gameTitle": "Dark Age of Camelot",
+          "gameId": 2242,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10484,
+          "position": 10,
+          "gameTitle": "Final Fantasy XIV: Stormblood",
+          "gameId": 2243,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10485,
+          "position": 11,
+          "gameTitle": "World of Warcraft: Warlords of Draenor",
+          "gameId": 1898,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10486,
+          "position": 12,
+          "gameTitle": "EverQuest: Omens of War",
+          "gameId": 2244,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10487,
+          "position": 13,
+          "gameTitle": "EverQuest: The Ruins of Kunark",
+          "gameId": 2245,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10488,
+          "position": 14,
+          "gameTitle": "The Lord of the Rings Online: Shadows of Angmar",
+          "gameId": 2246,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10489,
+          "position": 15,
+          "gameTitle": "Warhammer Online: Age of Reckoning",
+          "gameId": 2247,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1011,
+      "byUser": false,
+      "sourceListUrl": "https://www.thegamer.com/best-mmorpgs-ever-wow-runescape/",
+      "dateAdded": "2024-04-10T13:18:37.024782Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 193,
+        "name": "Thegamer",
+        "hostUrl": "www.thegamer.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10490,
+          "position": 1,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10491,
+          "position": 2,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10492,
+          "position": 3,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10493,
+          "position": 4,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10494,
+          "position": 5,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10495,
+          "position": 6,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10496,
+          "position": 7,
+          "gameTitle": "The Lord of the Rings Online",
+          "gameId": 2239,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10497,
+          "position": 8,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10498,
+          "position": 9,
+          "gameTitle": "Rift",
+          "gameId": 2249,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10499,
+          "position": 10,
+          "gameTitle": "EverQuest",
+          "gameId": 2250,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10500,
+          "position": 11,
+          "gameTitle": "Star Trek Online",
+          "gameId": 2251,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10501,
+          "position": 12,
+          "gameTitle": "Black Desert",
+          "gameId": 2235,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10502,
+          "position": 13,
+          "gameTitle": "PlanetSide 2",
+          "gameId": 2252,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10503,
+          "position": 14,
+          "gameTitle": "Trove",
+          "gameId": 2253,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10504,
+          "position": 15,
+          "gameTitle": "Tera",
+          "gameId": 2254,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1012,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/top-10-mmorpgs",
+      "dateAdded": "2024-04-10T13:21:13.526259Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10505,
+          "position": 1,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 2248,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10506,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10507,
+          "position": 3,
+          "gameTitle": "Phantasy Star Online 2",
+          "gameId": 2255,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10508,
+          "position": 4,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10509,
+          "position": 5,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10510,
+          "position": 6,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10511,
+          "position": 7,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10512,
+          "position": 8,
+          "gameTitle": "Tera",
+          "gameId": 2254,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10513,
+          "position": 9,
+          "gameTitle": "DC Universe Online",
+          "gameId": 2256,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10514,
+          "position": 10,
+          "gameTitle": "Final Fantasy XI Online",
+          "gameId": 2257,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "byUser": false,
+      "sourceListUrl": "https://insider-gaming.com/5-best-mmorpgs-of-all-time/",
+      "dateAdded": "2024-04-10T13:23:53.845858Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 384,
+        "name": "Insider-gaming",
+        "hostUrl": "insider-gaming.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10515,
+          "position": 1,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10516,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10517,
+          "position": 3,
+          "gameTitle": "New World",
+          "gameId": 2258,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10518,
+          "position": 4,
+          "gameTitle": "Lost Ark",
+          "gameId": 2236,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10519,
+          "position": 5,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 1014,
+      "byUser": false,
+      "sourceListUrl": "https://www.ranker.com/list/all-mmorpgs-list/reference",
+      "dateAdded": "2024-04-10T13:26:15.047227Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 262,
+        "name": "Ranker",
+        "hostUrl": "www.ranker.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10520,
+          "position": 1,
+          "gameTitle": "City of Heroes: Going Rogue",
+          "gameId": 2259,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10521,
+          "position": 2,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10522,
+          "position": 3,
+          "gameTitle": "World of Warcraft: Wrath of the Lich King",
+          "gameId": 1896,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10523,
+          "position": 4,
+          "gameTitle": "World of Warcraft: The Burning Crusade",
+          "gameId": 1902,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10524,
+          "position": 5,
+          "gameTitle": "City of Heroes",
+          "gameId": 2260,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10525,
+          "position": 6,
+          "gameTitle": "City of Villains",
+          "gameId": 2261,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10526,
+          "position": 7,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10527,
+          "position": 8,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10528,
+          "position": 9,
+          "gameTitle": "World of Warcraft: Cataclysm",
+          "gameId": 2241,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10529,
+          "position": 10,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10530,
+          "position": 11,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10531,
+          "position": 12,
+          "gameTitle": "World of Warcraft: Mists of Pandaria",
+          "gameId": 1897,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10532,
+          "position": 13,
+          "gameTitle": "Asheron\u0027s Call",
+          "gameId": 2262,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10533,
+          "position": 14,
+          "gameTitle": "EverQuest",
+          "gameId": 2250,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10534,
+          "position": 15,
+          "gameTitle": "Pirate101",
+          "gameId": 2263,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1015,
+      "byUser": false,
+      "sourceListUrl": "https://www.one37pm.com/gaming/best-mmorpg-games",
+      "dateAdded": "2024-04-10T13:29:21.676825Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 172,
+        "name": "One37pm",
+        "hostUrl": "www.one37pm.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10535,
+          "position": 1,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10536,
+          "position": 2,
+          "gameTitle": "World of Warcraft Classic",
+          "gameId": 2264,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10537,
+          "position": 3,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10538,
+          "position": 4,
+          "gameTitle": "Neverwinter",
+          "gameId": 2265,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10539,
+          "position": 5,
+          "gameTitle": "Star Trek Online",
+          "gameId": 2251,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10540,
+          "position": 6,
+          "gameTitle": "DC Universe Online",
+          "gameId": 2256,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10541,
+          "position": 7,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10542,
+          "position": 8,
+          "gameTitle": "Lost Ark",
+          "gameId": 2236,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10543,
+          "position": 9,
+          "gameTitle": "Black Desert",
+          "gameId": 2235,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10544,
+          "position": 10,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10545,
+          "position": 11,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10546,
+          "position": 12,
+          "gameTitle": "Destiny 2",
+          "gameId": 1224,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10547,
+          "position": 13,
+          "gameTitle": "Trove",
+          "gameId": 2253,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10548,
+          "position": 14,
+          "gameTitle": "Albion Online",
+          "gameId": 1482,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10549,
+          "position": 15,
+          "gameTitle": "The Lord of the Rings Online",
+          "gameId": 2239,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1016,
+      "byUser": false,
+      "sourceListUrl": "https://beebom.com/15-best-mmorpgs/",
+      "dateAdded": "2024-04-10T13:32:13.167012Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 209,
+        "name": "Beebom",
+        "hostUrl": "beebom.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10550,
+          "position": 1,
+          "gameTitle": "World of Warcraft",
+          "gameId": 514,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10551,
+          "position": 2,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10552,
+          "position": 3,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10553,
+          "position": 4,
+          "gameTitle": "MapleStory 2",
+          "gameId": 2266,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10554,
+          "position": 5,
+          "gameTitle": "The Lord of the Rings Online",
+          "gameId": 2239,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10555,
+          "position": 6,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10556,
+          "position": 7,
+          "gameTitle": "Rift",
+          "gameId": 2249,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10557,
+          "position": 8,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10558,
+          "position": 9,
+          "gameTitle": "DC Universe Online",
+          "gameId": 2256,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10559,
+          "position": 10,
+          "gameTitle": "Dungeons \u0026 Dragons Online",
+          "gameId": 2267,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10560,
+          "position": 11,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 963,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10561,
+          "position": 12,
+          "gameTitle": "Neverwinter",
+          "gameId": 2265,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10562,
+          "position": 13,
+          "gameTitle": "Black Desert",
+          "gameId": 2235,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10563,
+          "position": 14,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10564,
+          "position": 15,
+          "gameTitle": "Star Trek Online",
+          "gameId": 2251,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1017,
+      "byUser": false,
+      "sourceListUrl": "https://www.nerdmuch.com/games/best-mmos/",
+      "dateAdded": "2024-04-10T13:33:52.491355Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 390,
+        "name": "Nerdmuch",
+        "hostUrl": "www.nerdmuch.com"
+      },
+      "finalGameList": {
+        "id": 63,
+        "title": "Best MMORPG Games of All Time",
+        "year": null,
+        "slug": "best-mmorpg-games-of-all-time",
+        "fullName": "Best MMORPG Games of All Time"
+      },
+      "items": [
+        {
+          "id": 10565,
+          "position": 1,
+          "gameTitle": "Eve Online",
+          "gameId": 2233,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10566,
+          "position": 2,
+          "gameTitle": "Final Fantasy XI Online",
+          "gameId": 2257,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10567,
+          "position": 3,
+          "gameTitle": "Neverwinter",
+          "gameId": 2265,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10568,
+          "position": 4,
+          "gameTitle": "Tera",
+          "gameId": 2254,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10569,
+          "position": 5,
+          "gameTitle": "RuneScape",
+          "gameId": 1035,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10570,
+          "position": 6,
+          "gameTitle": "The Lord of the Rings Online",
+          "gameId": 2239,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10571,
+          "position": 7,
+          "gameTitle": "Phantasy Star Online",
+          "gameId": 892,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 10572,
+          "position": 8,
+          "gameTitle": "City of Heroes",
+          "gameId": 2260,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 10573,
+          "position": 9,
+          "gameTitle": "DC Universe Online",
+          "gameId": 2256,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 10574,
+          "position": 10,
+          "gameTitle": "WildStar",
+          "gameId": 2268,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 10575,
+          "position": 11,
+          "gameTitle": "EverQuest",
+          "gameId": 2250,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 10576,
+          "position": 12,
+          "gameTitle": "Guild Wars 2",
+          "gameId": 2234,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 10577,
+          "position": 13,
+          "gameTitle": "Star Wars: The Old Republic",
+          "gameId": 2238,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 10578,
+          "position": 14,
+          "gameTitle": "Final Fantasy XIV Online",
+          "gameId": 2248,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 10579,
+          "position": 15,
+          "gameTitle": "The Elder Scrolls Online",
+          "gameId": 2231,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

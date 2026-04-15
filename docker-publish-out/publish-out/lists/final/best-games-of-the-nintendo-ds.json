@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:34.085468Z",
+  "slug": "best-games-of-the-nintendo-ds",
+  "type": 0,
+  "totalItems": 13,
+  "data": {
+    "id": 70,
+    "title": "Best Games of The Nintendo DS",
+    "year": null,
+    "numberOfGames": 61,
+    "numberOfSources": 13,
+    "slug": "best-games-of-the-nintendo-ds",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1120,
+        "gameTitle": "Mario Kart DS",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 77,
+        "firstReleaseDate": "2005-11-14T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co214h.jpg",
+        "score": 122,
+        "position": 2,
+        "gameListId": 708,
+        "finalGameListId": 70
+      },
+      {
+        "gameId": 510,
+        "gameTitle": "Pok\u00E9mon HeartGold Version",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 69,
+        "firstReleaseDate": "2009-09-12T00:00:00Z",
+        "releaseYear": 2009,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1z57.jpg",
+        "score": 102,
+        "position": 1,
+        "gameListId": 708,
+        "finalGameListId": 70
+      },
+      {
+        "gameId": 1657,
+        "gameTitle": "The World Ends with You",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 85,
+        "firstReleaseDate": "2007-07-26T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n67.jpg",
+        "score": 99,
+        "position": 11,
+        "gameListId": 709,
+        "finalGameListId": 70
+      },
+      {
+        "gameId": 1134,
+        "gameTitle": "New Super Mario Bros.",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "2006-05-15T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21rm.jpg",
+        "score": 97,
+        "position": 2,
+        "gameListId": 709,
+        "finalGameListId": 70
+      }
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:36.4090761Z",
+  "slug": "best-games-of-the-xbox-360",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 14,
+    "title": "Best Games of the Xbox 360",
+    "year": null,
+    "numberOfGames": 27,
+    "numberOfSources": 3,
+    "slug": "best-games-of-the-xbox-360",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 39,
+        "position": 2,
+        "gameListId": 452,
+        "finalGameListId": 14
+      },
+      {
+        "gameId": 391,
+        "gameTitle": "BioShock",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2007-08-21T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mli.jpg",
+        "score": 31,
+        "position": 10,
+        "gameListId": 452,
+        "finalGameListId": 14
+      },
+      {
+        "gameId": 392,
+        "gameTitle": "The Elder Scrolls V: Skyrim",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-11-10T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnw.jpg",
+        "score": 31,
+        "position": 6,
+        "gameListId": 452,
+        "finalGameListId": 14
+      },
+      {
+        "gameId": 334,
+        "gameTitle": "Mass Effect 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2010-01-26T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ac.jpg",
+        "score": 28,
+        "position": 2,
+        "gameListId": 692,
+        "finalGameListId": 14
+      }
+    ]
+  }
+}

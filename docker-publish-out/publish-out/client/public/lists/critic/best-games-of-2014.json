@@ -1,0 +1,300 @@
+{
+  "syncedAt": "2026-04-15T10:53:42.0769261Z",
+  "slug": "best-games-of-2014",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 555,
+      "byUser": false,
+      "sourceListUrl": "https://www.theguardian.com/technology/2014/dec/15/the-best-video-games-of-2014",
+      "dateAdded": "2023-06-16T01:27:32.038682Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 145,
+        "name": "The Guardian",
+        "hostUrl": "www.theguardian.com"
+      },
+      "finalGameList": {
+        "id": 31,
+        "title": "Best Games of",
+        "year": 2014,
+        "slug": "best-games-of-2014",
+        "fullName": "Best Games of 2014"
+      },
+      "items": [
+        {
+          "id": 4155,
+          "position": 1,
+          "gameTitle": "Mario Kart 8",
+          "gameId": 576,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4156,
+          "position": 2,
+          "gameTitle": "Bayonetta 2",
+          "gameId": 577,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4157,
+          "position": 3,
+          "gameTitle": "Destiny",
+          "gameId": 1256,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4158,
+          "position": 4,
+          "gameTitle": "Alien: Isolation",
+          "gameId": 1257,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4159,
+          "position": 5,
+          "gameTitle": "Forza Horizon 2",
+          "gameId": 1258,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4160,
+          "position": 6,
+          "gameTitle": "Middle-earth: Shadow of Mordor",
+          "gameId": 1259,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4161,
+          "position": 7,
+          "gameTitle": "This War of Mine",
+          "gameId": 656,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4162,
+          "position": 8,
+          "gameTitle": "Super Smash Bros. for Wii U",
+          "gameId": 580,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4163,
+          "position": 9,
+          "gameTitle": "Far Cry 4",
+          "gameId": 874,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4164,
+          "position": 10,
+          "gameTitle": "Dark Souls II",
+          "gameId": 1261,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4165,
+          "position": 11,
+          "gameTitle": "Never Alone",
+          "gameId": 1262,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4166,
+          "position": 12,
+          "gameTitle": "South Park: The Stick of Truth",
+          "gameId": 740,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4167,
+          "position": 13,
+          "gameTitle": "Wolfenstein: The New Order",
+          "gameId": 439,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4168,
+          "position": 14,
+          "gameTitle": "Dragon Age: Inquisition",
+          "gameId": 1263,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4169,
+          "position": 15,
+          "gameTitle": "The Vanishing of Ethan Carter",
+          "gameId": 1264,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 556,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/readers-top-50-games-of-2014",
+      "dateAdded": "2023-06-16T01:29:12.6401Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 31,
+        "title": "Best Games of",
+        "year": 2014,
+        "slug": "best-games-of-2014",
+        "fullName": "Best Games of 2014"
+      },
+      "items": [
+        {
+          "id": 4170,
+          "position": 1,
+          "gameTitle": "Mario Kart 8",
+          "gameId": 576,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4171,
+          "position": 2,
+          "gameTitle": "Dragon Age: Inquisition",
+          "gameId": 1263,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4172,
+          "position": 3,
+          "gameTitle": "Alien: Isolation",
+          "gameId": 1257,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4173,
+          "position": 4,
+          "gameTitle": "Middle-earth: Shadow of Mordor",
+          "gameId": 1259,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4174,
+          "position": 5,
+          "gameTitle": "Dark Souls II",
+          "gameId": 1261,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4175,
+          "position": 6,
+          "gameTitle": "The Last of Us Remastered",
+          "gameId": 410,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4176,
+          "position": 7,
+          "gameTitle": "Bayonetta 2",
+          "gameId": 577,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4177,
+          "position": 8,
+          "gameTitle": "Destiny",
+          "gameId": 1256,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4178,
+          "position": 9,
+          "gameTitle": "Grand Theft Auto V",
+          "gameId": 323,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4179,
+          "position": 10,
+          "gameTitle": "Wolfenstein: The New Order",
+          "gameId": 439,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4180,
+          "position": 11,
+          "gameTitle": "South Park: The Stick of Truth",
+          "gameId": 740,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4181,
+          "position": 12,
+          "gameTitle": "Diablo III: Reaper of Souls",
+          "gameId": 1265,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4182,
+          "position": 13,
+          "gameTitle": "Super Smash Bros. for Wii U",
+          "gameId": 580,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4183,
+          "position": 14,
+          "gameTitle": "Far Cry 4",
+          "gameId": 874,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4184,
+          "position": 15,
+          "gameTitle": "Driveclub",
+          "gameId": 1266,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

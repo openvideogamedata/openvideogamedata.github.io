@@ -1,0 +1,406 @@
+{
+  "syncedAt": "2026-04-15T10:44:44.1453391Z",
+  "slug": "best-games-of-the-nintendo-switch",
+  "type": 2,
+  "totalItems": 5,
+  "data": [
+    {
+      "id": 445,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-28T01:11:36.76213Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 29,
+        "nickname": "114083146445642863449",
+        "fullName": "Vigilant Wise Hero"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 2497,
+          "position": 1,
+          "gameTitle": "Stardew Valley",
+          "gameId": 386,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2498,
+          "position": 2,
+          "gameTitle": "Minecraft",
+          "gameId": 201,
+          "coverImageUrl": null,
+          "score": 14
+        }
+      ]
+    },
+    {
+      "id": 496,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-07T17:01:42.041001Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 36,
+        "nickname": "103220085718247502246",
+        "fullName": "Zealous Ethereal Journey"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 3469,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3470,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3471,
+          "position": 3,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3472,
+          "position": 4,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3473,
+          "position": 5,
+          "gameTitle": "Splatoon 2",
+          "gameId": 102,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    },
+    {
+      "id": 560,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-18T23:02:54.461929Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 9331,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9332,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9333,
+          "position": 3,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9334,
+          "position": 4,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9335,
+          "position": 5,
+          "gameTitle": "Hollow Knight",
+          "gameId": 145,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9336,
+          "position": 6,
+          "gameTitle": "The Talos Principle",
+          "gameId": 1251,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9337,
+          "position": 7,
+          "gameTitle": "Hotline Miami",
+          "gameId": 634,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9338,
+          "position": 8,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9339,
+          "position": 9,
+          "gameTitle": "Red Dead Redemption",
+          "gameId": 322,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9340,
+          "position": 10,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9341,
+          "position": 11,
+          "gameTitle": "Luigi\u0027s Mansion 3",
+          "gameId": 94,
+          "coverImageUrl": null,
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": 626,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-07-19T22:03:59.999362Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 52,
+        "nickname": "110420072979302621163",
+        "fullName": "Furious Specter"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 5402,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5403,
+          "position": 2,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5404,
+          "position": 3,
+          "gameTitle": "New Super Mario Bros. U Deluxe",
+          "gameId": 1454,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5405,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 12
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-09-04T15:50:40.892236Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 20,
+        "title": "Best Games of the Nintendo Switch",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-switch",
+        "fullName": "Best Games of the Nintendo Switch"
+      },
+      "items": [
+        {
+          "id": 9342,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9343,
+          "position": 2,
+          "gameTitle": "Super Mario Odyssey",
+          "gameId": 90,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9344,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "gameId": 23,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9345,
+          "position": 4,
+          "gameTitle": "Pikmin 4",
+          "gameId": 1445,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9346,
+          "position": 5,
+          "gameTitle": "Mario Kart 8 Deluxe",
+          "gameId": 96,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9347,
+          "position": 6,
+          "gameTitle": "Super Smash Bros. Ultimate",
+          "gameId": 91,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9348,
+          "position": 7,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9349,
+          "position": 8,
+          "gameTitle": "Xenoblade Chronicles 3",
+          "gameId": 89,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9350,
+          "position": 9,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9351,
+          "position": 10,
+          "gameTitle": "Portal: Companion Collection",
+          "gameId": 724,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9352,
+          "position": 11,
+          "gameTitle": "Pok\u00E9mon Legends: Arceus",
+          "gameId": 110,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9353,
+          "position": 12,
+          "gameTitle": "Splatoon 3",
+          "gameId": 109,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9354,
+          "position": 13,
+          "gameTitle": "BioShock Remastered",
+          "gameId": 1947,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9355,
+          "position": 14,
+          "gameTitle": "Celeste",
+          "gameId": 144,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    }
+  ]
+}

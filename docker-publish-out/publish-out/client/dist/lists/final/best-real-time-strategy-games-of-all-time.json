@@ -1,0 +1,441 @@
+{
+  "syncedAt": "2026-04-15T11:36:10.7926508Z",
+  "slug": "best-real-time-strategy-games-of-all-time",
+  "type": 0,
+  "totalItems": 19,
+  "data": {
+    "finalGameList": {
+      "id": 74,
+      "title": "Best RTS Games of All Time",
+      "year": null,
+      "slug": "best-real-time-strategy-games-of-all-time",
+      "fullName": "Best RTS Games of All Time",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, genre",
+      "tagList": [
+        "all time",
+        "genre"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Grand Strategy Games of All Time",
+          "sourceUrl": "best-grand-strategy-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Narrative Games of All Time",
+          "sourceUrl": "best-story-driven-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best RPG Games of All Time",
+          "sourceUrl": "best-rpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Walking Simulator Games of All Time",
+          "sourceUrl": "best-walking-simulator-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Open-World Games of All Time",
+          "sourceUrl": "best-open-world-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Survival Horror Games of All Time",
+          "sourceUrl": "best-survival-horror-games",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Fighting Games of All Time",
+          "sourceUrl": "best-fighting-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Action/Adventure Games of All Time",
+          "sourceUrl": "best-action-adventure-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best MMORPG Games of All Time",
+          "sourceUrl": "best-mmorpg-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Indie Games of All Time",
+          "sourceUrl": "best-indie-games-of-all-time",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1173,
+        "gameTitle": "StarCraft II: Wings of Liberty",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2010-07-27T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnn.jpg",
+        "score": 122,
+        "position": 4,
+        "gameListId": 759,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1130,
+        "gameTitle": "Company of Heroes",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 58,
+        "firstReleaseDate": "2006-09-12T00:00:00Z",
+        "releaseYear": 2006,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ht7.jpg",
+        "score": 116,
+        "position": 3,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1103,
+        "gameTitle": "Warcraft III: Reign of Chaos",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 53,
+        "firstReleaseDate": "2002-07-03T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xuq.jpg",
+        "score": 111,
+        "position": 5,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1079,
+        "gameTitle": "Age of Empires II: The Age of Kings",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 47,
+        "firstReleaseDate": "1999-09-30T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55xo.jpg",
+        "score": 98,
+        "position": 12,
+        "gameListId": 759,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1387,
+        "gameTitle": "Total Annihilation",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 32,
+        "firstReleaseDate": "1997-09-30T00:00:00Z",
+        "releaseYear": 1997,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4l7r.jpg",
+        "score": 68,
+        "position": 4,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1750,
+        "gameTitle": "Homeworld",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 47,
+        "firstReleaseDate": "1999-09-28T00:00:00Z",
+        "releaseYear": 1999,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29ly.jpg",
+        "score": 66,
+        "position": 8,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 516,
+        "gameTitle": "StarCraft",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 26,
+        "firstReleaseDate": "1998-03-31T00:00:00Z",
+        "releaseYear": 1998,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7n.jpg",
+        "score": 66,
+        "position": 2,
+        "gameListId": 760,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1780,
+        "gameTitle": "Age of Empires IV",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 26,
+        "firstReleaseDate": "2021-10-28T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39tg.jpg",
+        "score": 63,
+        "position": 5,
+        "gameListId": 765,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1762,
+        "gameTitle": "Supreme Commander",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 37,
+        "firstReleaseDate": "2007-02-16T00:00:00Z",
+        "releaseYear": 2007,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jpd.jpg",
+        "score": 47,
+        "position": 15,
+        "gameListId": 760,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1747,
+        "gameTitle": "Age of Empires II: Definitive Edition",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 16,
+        "firstReleaseDate": "2019-11-14T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n24.jpg",
+        "score": 42,
+        "position": 2,
+        "gameListId": 758,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 961,
+        "gameTitle": "XCOM 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 16,
+        "firstReleaseDate": "2016-02-04T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mvj.jpg",
+        "score": 39,
+        "position": 4,
+        "gameListId": 761,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1764,
+        "gameTitle": "Command \u0026 Conquer: Red Alert 2",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 26,
+        "firstReleaseDate": "2000-10-25T00:00:00Z",
+        "releaseYear": 2000,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2345.jpg",
+        "score": 38,
+        "position": 6,
+        "gameListId": 762,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1778,
+        "gameTitle": "Company of Heroes 2",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 16,
+        "firstReleaseDate": "2013-06-25T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1my1.jpg",
+        "score": 38,
+        "position": 3,
+        "gameListId": 765,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1110,
+        "gameTitle": "Rome: Total War",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 21,
+        "firstReleaseDate": "2004-09-22T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zt9.jpg",
+        "score": 38,
+        "position": 11,
+        "gameListId": 759,
+        "finalGameListId": 74
+      },
+      {
+        "gameId": 1540,
+        "gameTitle": "Stellaris",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 21,
+        "firstReleaseDate": "2016-05-09T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r75.jpg",
+        "score": 37,
+        "position": 8,
+        "gameListId": 761,
+        "finalGameListId": 74
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "FTW USA Today",
+        "sourceUrl": "https://ftw.usatoday.com/lists/best-rts-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/games/genre/metascore/real-time/all?view=detailed",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gameranx",
+        "sourceUrl": "https://gameranx.com/features/id/11469/article/top-20-best-rts-of-all-time-click-click-die/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Rockpapershotgun",
+        "sourceUrl": "https://www.rockpapershotgun.com/these-are-your-50-favourite-strategy-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrokingpin",
+        "sourceUrl": "https://www.retrokingpin.com/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thetoptens",
+        "sourceUrl": "https://www.thetoptens.com/games/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "History-computer",
+        "sourceUrl": "https://history-computer.com/the-7-absolute-best-real-time-strategy-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "News AU",
+        "sourceUrl": "https://www.news.com.au/technology/gaming/the-best-realtime-strategy-games-of-all-time/news-story/1e4a4b8860fba117bb1efa794614be0a",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Chillopedia",
+        "sourceUrl": "https://chillopedia.com/20-best-real-time-strategy-games-of-all-time/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Levvvel",
+        "sourceUrl": "https://levvvel.com/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Highgroundgaming",
+        "sourceUrl": "https://www.highgroundgaming.com/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gaming",
+        "sourceUrl": "https://www.gaming.net/best-rts-games-in-2023/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CBR",
+        "sourceUrl": "https://www.cbr.com/best-real-time-strategy-games-ranked/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Mobipicker",
+        "sourceUrl": "https://www.mobipicker.com/best-real-time-strategy-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Ordinarygaming",
+        "sourceUrl": "https://www.ordinarygaming.com/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nme",
+        "sourceUrl": "https://www.nme.com/en_au/features/gaming-features/best-strategy-games-3211078",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thegamer",
+        "sourceUrl": "https://www.thegamer.com/real-time-strategy-rts-games-best-story/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamepro",
+        "sourceUrl": "https://www.gamepro.com.au/games/best-rts-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 228,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

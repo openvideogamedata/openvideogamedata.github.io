@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:42.6257189Z",
+  "slug": "most-anticipated-games-of-2025",
+  "type": 0,
+  "totalItems": 4,
+  "data": {
+    "id": 81,
+    "title": "Most Anticipated Games of ",
+    "year": 2025,
+    "numberOfGames": 20,
+    "numberOfSources": 4,
+    "slug": "most-anticipated-games-of-2025",
+    "pinned": true,
+    "topWinners": [
+      {
+        "gameId": 2074,
+        "gameTitle": "Grand Theft Auto VI",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7gdk.jpg",
+        "score": 60,
+        "position": 1,
+        "gameListId": 1132,
+        "finalGameListId": 81
+      },
+      {
+        "gameId": 2486,
+        "gameTitle": "Ghost of Yotei",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8urc.jpg",
+        "score": 38,
+        "position": 2,
+        "gameListId": 1132,
+        "finalGameListId": 81
+      },
+      {
+        "gameId": 2452,
+        "gameTitle": "Death Stranding 2: On The Beach",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7p8z.jpg",
+        "score": 36,
+        "position": 6,
+        "gameListId": 1132,
+        "finalGameListId": 81
+      },
+      {
+        "gameId": 2886,
+        "gameTitle": "Metroid Prime 4: Beyond",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "2025-12-31T00:00:00Z",
+        "releaseYear": 2025,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d8c.jpg",
+        "score": 34,
+        "position": 9,
+        "gameListId": 1132,
+        "finalGameListId": 81
+      }
+    ]
+  }
+}

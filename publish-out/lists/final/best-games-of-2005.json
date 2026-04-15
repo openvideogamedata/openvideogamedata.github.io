@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:03.195908Z",
+  "slug": "best-games-of-2005",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "id": 40,
+    "title": "Best Games of",
+    "year": 2005,
+    "numberOfGames": 25,
+    "numberOfSources": 3,
+    "slug": "best-games-of-2005",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 426,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2005-01-11T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wk8.jpg",
+        "score": 44,
+        "position": 1,
+        "gameListId": 522,
+        "finalGameListId": 40
+      },
+      {
+        "gameId": 306,
+        "gameTitle": "Shadow of the Colossus",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2005-10-18T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ozz.jpg",
+        "score": 40,
+        "position": 2,
+        "gameListId": 522,
+        "finalGameListId": 40
+      },
+      {
+        "gameId": 314,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2005-03-22T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg",
+        "score": 35,
+        "position": 7,
+        "gameListId": 522,
+        "finalGameListId": 40
+      },
+      {
+        "gameId": 1120,
+        "gameTitle": "Mario Kart DS",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2005-11-14T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co214h.jpg",
+        "score": 22,
+        "position": 3,
+        "gameListId": 523,
+        "finalGameListId": 40
+      }
+    ]
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "syncedAt": "2026-04-15T10:44:31.7559658Z",
+  "slug": "best-games-of-the-nintendo-64",
+  "type": 1,
+  "totalItems": 4,
+  "data": [
+    {
+      "id": 282,
+      "byUser": false,
+      "sourceListUrl": "https://www.metacritic.com/browse/games/score/metascore/all/n64/filtered",
+      "dateAdded": "2023-03-29T23:36:21.647791Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 141,
+        "name": "Metacritic",
+        "hostUrl": "www.metacritic.com"
+      },
+      "finalGameList": {
+        "id": 9,
+        "title": "Best Games of the Nintendo 64",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-64",
+        "fullName": "Best Games of the Nintendo 64"
+      },
+      "items": [
+        {
+          "id": 564,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Ocarina of Time",
+          "gameId": 27,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 563,
+          "position": 2,
+          "gameTitle": "Perfect Dark",
+          "gameId": 218,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 562,
+          "position": 3,
+          "gameTitle": "GoldenEye 007",
+          "gameId": 219,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 561,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: Majora\u0027s Mask",
+          "gameId": 167,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 560,
+          "position": 5,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 559,
+          "position": 6,
+          "gameTitle": "Paper Mario",
+          "gameId": 171,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 558,
+          "position": 7,
+          "gameTitle": "Banjo-Kazooie",
+          "gameId": 168,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 557,
+          "position": 8,
+          "gameTitle": "Wave Race 64",
+          "gameId": 172,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 556,
+          "position": 9,
+          "gameTitle": "Conker\u0027s Bad Fur Day",
+          "gameId": 220,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 555,
+          "position": 10,
+          "gameTitle": "Mario Tennis",
+          "gameId": 221,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 554,
+          "position": 11,
+          "gameTitle": "Mario Golf",
+          "gameId": 175,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 553,
+          "position": 12,
+          "gameTitle": "Rayman 2: The Great Escape",
+          "gameId": 222,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 552,
+          "position": 13,
+          "gameTitle": "Donkey Kong 64",
+          "gameId": 223,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 551,
+          "position": 14,
+          "gameTitle": "Blast Corps",
+          "gameId": 224,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 550,
+          "position": 15,
+          "gameTitle": "Banjo-Tooie",
+          "gameId": 225,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 283,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-n64-games-all-time/",
+      "dateAdded": "2023-03-30T02:24:20.402022Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 9,
+        "title": "Best Games of the Nintendo 64",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-64",
+        "fullName": "Best Games of the Nintendo 64"
+      },
+      "items": [
+        {
+          "id": 579,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Ocarina of Time",
+          "gameId": 27,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 578,
+          "position": 2,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 577,
+          "position": 3,
+          "gameTitle": "007 GoldenEye",
+          "gameId": 227,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 576,
+          "position": 4,
+          "gameTitle": "Star Fox 64",
+          "gameId": 170,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 575,
+          "position": 5,
+          "gameTitle": "Paper Mario",
+          "gameId": 171,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 574,
+          "position": 6,
+          "gameTitle": "Super Smash Bros.",
+          "gameId": 226,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 573,
+          "position": 7,
+          "gameTitle": "Mario Kart 64",
+          "gameId": 230,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 572,
+          "position": 8,
+          "gameTitle": "Banjo-Kazooie",
+          "gameId": 168,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 571,
+          "position": 9,
+          "gameTitle": "International Superstar Soccer \u002798",
+          "gameId": 231,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 570,
+          "position": 10,
+          "gameTitle": "Doom 64",
+          "gameId": 232,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 569,
+          "position": 11,
+          "gameTitle": "F-Zero X",
+          "gameId": 178,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 568,
+          "position": 12,
+          "gameTitle": "Perfect Dark",
+          "gameId": 218,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 567,
+          "position": 13,
+          "gameTitle": "Pilotwings 64",
+          "gameId": 233,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 566,
+          "position": 14,
+          "gameTitle": "Conker\u0027s Bad Fur Day",
+          "gameId": 220,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 565,
+          "position": 15,
+          "gameTitle": "Blast Corps",
+          "gameId": 224,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 284,
+      "byUser": false,
+      "sourceListUrl": "https://www.nintendolife.com/guides/50-best-nintendo-64-games-of-all-time",
+      "dateAdded": "2023-03-30T02:24:21.242481Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 130,
+        "name": "Nintendo Life",
+        "hostUrl": "www.nintendolife.com"
+      },
+      "finalGameList": {
+        "id": 9,
+        "title": "Best Games of the Nintendo 64",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-64",
+        "fullName": "Best Games of the Nintendo 64"
+      },
+      "items": [
+        {
+          "id": 594,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Ocarina of Time",
+          "gameId": 27,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 593,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Majora\u0027s Mask",
+          "gameId": 167,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 592,
+          "position": 3,
+          "gameTitle": "007 GoldenEye",
+          "gameId": 227,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 591,
+          "position": 4,
+          "gameTitle": "Banjo-Kazooie",
+          "gameId": 168,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 580,
+          "position": 5,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 589,
+          "position": 6,
+          "gameTitle": "Star Fox 64",
+          "gameId": 170,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 588,
+          "position": 7,
+          "gameTitle": "Paper Mario",
+          "gameId": 171,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 587,
+          "position": 8,
+          "gameTitle": "Perfect Dark",
+          "gameId": 218,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 586,
+          "position": 9,
+          "gameTitle": "Super Smash Bros.",
+          "gameId": 226,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 585,
+          "position": 10,
+          "gameTitle": "F-Zero X",
+          "gameId": 178,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 584,
+          "position": 11,
+          "gameTitle": "Banjo-Tooie",
+          "gameId": 225,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 583,
+          "position": 12,
+          "gameTitle": "Diddy Kong Racing",
+          "gameId": 228,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 582,
+          "position": 13,
+          "gameTitle": "Conker\u0027s Bad Fur Day",
+          "gameId": 220,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 581,
+          "position": 14,
+          "gameTitle": "Mario Party 2",
+          "gameId": 229,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 590,
+          "position": 15,
+          "gameTitle": "Star Wars: Rogue Squadron",
+          "gameId": 173,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 285,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-n64-games",
+      "dateAdded": "2023-03-30T02:24:21.842145Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 9,
+        "title": "Best Games of the Nintendo 64",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-64",
+        "fullName": "Best Games of the Nintendo 64"
+      },
+      "items": [
+        {
+          "id": 609,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Ocarina of Time",
+          "gameId": 27,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 608,
+          "position": 2,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 607,
+          "position": 3,
+          "gameTitle": "The Legend of Zelda: Majora\u0027s Mask",
+          "gameId": 167,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 606,
+          "position": 4,
+          "gameTitle": "Banjo-Kazooie",
+          "gameId": 168,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 605,
+          "position": 5,
+          "gameTitle": "Perfect Dark",
+          "gameId": 218,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 604,
+          "position": 6,
+          "gameTitle": "Star Fox 64",
+          "gameId": 170,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 603,
+          "position": 7,
+          "gameTitle": "Paper Mario",
+          "gameId": 171,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 602,
+          "position": 8,
+          "gameTitle": "Super Smash Bros.",
+          "gameId": 226,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 601,
+          "position": 9,
+          "gameTitle": "Wave Race 64",
+          "gameId": 172,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 600,
+          "position": 10,
+          "gameTitle": "Star Wars: Rogue Squadron",
+          "gameId": 173,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 599,
+          "position": 11,
+          "gameTitle": "Pok\u00E9mon Puzzle League",
+          "gameId": 174,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 598,
+          "position": 12,
+          "gameTitle": "Mario Golf",
+          "gameId": 175,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 597,
+          "position": 13,
+          "gameTitle": "Ogre Battle 64: Person of Lordly Caliber",
+          "gameId": 176,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 596,
+          "position": 14,
+          "gameTitle": "Mario Party 3",
+          "gameId": 177,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 595,
+          "position": 15,
+          "gameTitle": "007 GoldenEye",
+          "gameId": 227,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

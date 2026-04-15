@@ -1,0 +1,1080 @@
+{
+  "syncedAt": "2026-04-15T10:53:32.8311434Z",
+  "slug": "best-games-of-the-xbox-series-xs",
+  "type": 1,
+  "totalItems": 8,
+  "data": [
+    {
+      "id": 305,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/best-xbox-series-x-games",
+      "dateAdded": "2023-04-03T20:57:14.758988Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 835,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 836,
+          "position": 2,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 837,
+          "position": 3,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 838,
+          "position": 4,
+          "gameTitle": "Psychonauts 2",
+          "gameId": 362,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 839,
+          "position": 5,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 840,
+          "position": 6,
+          "gameTitle": "It Takes Two",
+          "gameId": 363,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 841,
+          "position": 7,
+          "gameTitle": "Microsoft Flight Simulator",
+          "gameId": 208,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 842,
+          "position": 8,
+          "gameTitle": "Marvel\u0027s Guardians of the Galaxy",
+          "gameId": 364,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 843,
+          "position": 9,
+          "gameTitle": "Gears 5",
+          "gameId": 365,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 844,
+          "position": 10,
+          "gameTitle": "Sea of Thieves",
+          "gameId": 366,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 845,
+          "position": 11,
+          "gameTitle": "Hitman 3",
+          "gameId": 135,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 846,
+          "position": 12,
+          "gameTitle": "Mass Effect Legendary Edition",
+          "gameId": 367,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 847,
+          "position": 13,
+          "gameTitle": "Halo: The Master Chief Collection",
+          "gameId": 368,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 848,
+          "position": 14,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 849,
+          "position": 15,
+          "gameTitle": "Outer Wilds",
+          "gameId": 370,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 395,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-xbox-series-x-games/",
+      "dateAdded": "2023-05-20T15:29:27.946444Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2105,
+          "position": 1,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2106,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2107,
+          "position": 3,
+          "gameTitle": "Psychonauts 2",
+          "gameId": 362,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2108,
+          "position": 4,
+          "gameTitle": "Deathloop",
+          "gameId": 161,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2109,
+          "position": 5,
+          "gameTitle": "Sea of Thieves",
+          "gameId": 366,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2110,
+          "position": 6,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2111,
+          "position": 7,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2112,
+          "position": 8,
+          "gameTitle": "Hitman 3",
+          "gameId": 135,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2113,
+          "position": 9,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2114,
+          "position": 10,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2115,
+          "position": 11,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2116,
+          "position": 12,
+          "gameTitle": "Grounded",
+          "gameId": 710,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2117,
+          "position": 13,
+          "gameTitle": "High on Life",
+          "gameId": 711,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2118,
+          "position": 14,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2119,
+          "position": 15,
+          "gameTitle": "Mass Effect Legendary Edition",
+          "gameId": 367,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 396,
+      "byUser": false,
+      "sourceListUrl": "https://www.tomsguide.com/best-picks/best-xbox-series-x-games",
+      "dateAdded": "2023-05-20T15:32:07.135907Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 102,
+        "name": "Tom\u0027s Guide",
+        "hostUrl": "www.tomsguide.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2120,
+          "position": 1,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2121,
+          "position": 2,
+          "gameTitle": "Assassin\u0027s Creed Valhalla",
+          "gameId": 604,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2122,
+          "position": 3,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2123,
+          "position": 4,
+          "gameTitle": "Gears 5",
+          "gameId": 365,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2124,
+          "position": 5,
+          "gameTitle": "Sea of Thieves",
+          "gameId": 366,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2125,
+          "position": 6,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2126,
+          "position": 7,
+          "gameTitle": "Resident Evil Village",
+          "gameId": 127,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2127,
+          "position": 8,
+          "gameTitle": "Hitman 3",
+          "gameId": 135,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2128,
+          "position": 9,
+          "gameTitle": "Microsoft Flight Simulator",
+          "gameId": 208,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2129,
+          "position": 10,
+          "gameTitle": "Star Wars: Squadrons",
+          "gameId": 137,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2130,
+          "position": 11,
+          "gameTitle": "Destiny 2: Beyond Light",
+          "gameId": 712,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2131,
+          "position": 12,
+          "gameTitle": "Alan Wake Remastered",
+          "gameId": 713,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2132,
+          "position": 13,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2133,
+          "position": 14,
+          "gameTitle": "Red Dead Redemption 2",
+          "gameId": 352,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2134,
+          "position": 15,
+          "gameTitle": "Deathloop",
+          "gameId": 161,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "byUser": false,
+      "sourceListUrl": "https://screenrant.com/best-xbox-series-x-games/",
+      "dateAdded": "2023-05-20T15:37:26.581169Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 205,
+        "name": "Screenrant",
+        "hostUrl": "screenrant.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2135,
+          "position": 1,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2136,
+          "position": 2,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2137,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Guardians of the Galaxy",
+          "gameId": 364,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2138,
+          "position": 4,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2139,
+          "position": 5,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2140,
+          "position": 6,
+          "gameTitle": "Mortal Kombat 11: Ultimate",
+          "gameId": 714,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2141,
+          "position": 7,
+          "gameTitle": "LEGO Star Wars: The Skywalker Saga",
+          "gameId": 680,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2142,
+          "position": 8,
+          "gameTitle": "Hitman 3",
+          "gameId": 135,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2143,
+          "position": 9,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2144,
+          "position": 10,
+          "gameTitle": "Resident Evil Village: Gold Edition",
+          "gameId": 715,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 398,
+      "byUser": false,
+      "sourceListUrl": "https://www.pastemagazine.com/games/xbox/best-xbox-series-xs-games",
+      "dateAdded": "2023-05-20T15:40:55.972357Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 127,
+        "name": "Paste Magazine",
+        "hostUrl": "www.pastemagazine.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2145,
+          "position": 1,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2146,
+          "position": 2,
+          "gameTitle": "Norco",
+          "gameId": 155,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2147,
+          "position": 3,
+          "gameTitle": "Control: Ultimate Edition",
+          "gameId": 358,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2148,
+          "position": 4,
+          "gameTitle": "Psychonauts 2",
+          "gameId": 362,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2149,
+          "position": 5,
+          "gameTitle": "A Plague Tale: Innocence",
+          "gameId": 406,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2150,
+          "position": 6,
+          "gameTitle": "Citizen Sleeper",
+          "gameId": 250,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2151,
+          "position": 7,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2152,
+          "position": 8,
+          "gameTitle": "Disco Elysium: The Final Cut",
+          "gameId": 431,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2153,
+          "position": 9,
+          "gameTitle": "Immortality",
+          "gameId": 271,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2154,
+          "position": 10,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2155,
+          "position": 11,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2156,
+          "position": 12,
+          "gameTitle": "Death\u0027s Door",
+          "gameId": 598,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2157,
+          "position": 13,
+          "gameTitle": "Hitman Trilogy",
+          "gameId": 716,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2158,
+          "position": 14,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2159,
+          "position": 15,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 1\u002B2",
+          "gameId": 717,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "byUser": false,
+      "sourceListUrl": "https://gaminggorilla.com/best-xbox-series-x-exclusive-games/",
+      "dateAdded": "2023-05-20T15:47:05.335514Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 156,
+        "name": "Gaming Gorilla",
+        "hostUrl": "gaminggorilla.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2160,
+          "position": 1,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2161,
+          "position": 2,
+          "gameTitle": "Gears 5",
+          "gameId": 365,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2162,
+          "position": 3,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2163,
+          "position": 4,
+          "gameTitle": "Sea of Thieves: Season 5",
+          "gameId": 718,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2164,
+          "position": 5,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2165,
+          "position": 6,
+          "gameTitle": "Gears Tactics",
+          "gameId": 719,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2166,
+          "position": 7,
+          "gameTitle": "Microsoft Flight Simulator",
+          "gameId": 208,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2167,
+          "position": 8,
+          "gameTitle": "Sunset Overdrive",
+          "gameId": 720,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2168,
+          "position": 9,
+          "gameTitle": "Vampire Survivors",
+          "gameId": 252,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2169,
+          "position": 10,
+          "gameTitle": "As Dusk Falls",
+          "gameId": 294,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 400,
+      "byUser": false,
+      "sourceListUrl": "https://www.theloadout.com/best-xbox-series-x-games",
+      "dateAdded": "2023-05-20T15:50:40.020918Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 204,
+        "name": "Theloadout",
+        "hostUrl": "www.theloadout.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2170,
+          "position": 1,
+          "gameTitle": "Assassin\u0027s Creed Valhalla",
+          "gameId": 604,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2171,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2172,
+          "position": 3,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2173,
+          "position": 4,
+          "gameTitle": "Gears 5",
+          "gameId": 365,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2174,
+          "position": 5,
+          "gameTitle": "Microsoft Flight Simulator",
+          "gameId": 208,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2175,
+          "position": 6,
+          "gameTitle": "High on Life",
+          "gameId": 711,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2176,
+          "position": 7,
+          "gameTitle": "Hitman 3",
+          "gameId": 135,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2177,
+          "position": 8,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2178,
+          "position": 9,
+          "gameTitle": "Psychonauts 2",
+          "gameId": 362,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2179,
+          "position": 10,
+          "gameTitle": "Sea of Thieves",
+          "gameId": 366,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2180,
+          "position": 11,
+          "gameTitle": "Star Wars Jedi: Survivor",
+          "gameId": 721,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2181,
+          "position": 12,
+          "gameTitle": "Tetris Effect: Connected",
+          "gameId": 70,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2182,
+          "position": 13,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 3
+        }
+      ]
+    },
+    {
+      "id": 401,
+      "byUser": false,
+      "sourceListUrl": "https://www.theshortcut.com/p/best-xbox-series-x-games",
+      "dateAdded": "2023-05-20T15:52:49.077615Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 206,
+        "name": "Theshortcut",
+        "hostUrl": "www.theshortcut.com"
+      },
+      "finalGameList": {
+        "id": 22,
+        "title": "Best Games of the Xbox Series X/S",
+        "year": null,
+        "slug": "best-games-of-the-xbox-series-xs",
+        "fullName": "Best Games of the Xbox Series X/S"
+      },
+      "items": [
+        {
+          "id": 2183,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 2184,
+          "position": 2,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 2185,
+          "position": 3,
+          "gameTitle": "Sea of Thieves",
+          "gameId": 366,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 2186,
+          "position": 4,
+          "gameTitle": "Resident Evil Village",
+          "gameId": 127,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 2187,
+          "position": 5,
+          "gameTitle": "Tunic",
+          "gameId": 268,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 2188,
+          "position": 6,
+          "gameTitle": "Pentiment",
+          "gameId": 254,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 2189,
+          "position": 7,
+          "gameTitle": "The Forgotten City",
+          "gameId": 723,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 2190,
+          "position": 8,
+          "gameTitle": "Halo Infinite",
+          "gameId": 361,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 2191,
+          "position": 9,
+          "gameTitle": "Gears Tactics",
+          "gameId": 719,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 2192,
+          "position": 10,
+          "gameTitle": "Psychonauts 2",
+          "gameId": 362,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 2193,
+          "position": 11,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 2194,
+          "position": 12,
+          "gameTitle": "Hi-Fi Rush",
+          "gameId": 722,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 2195,
+          "position": 13,
+          "gameTitle": "Halo: The Master Chief Collection",
+          "gameId": 368,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 2196,
+          "position": 14,
+          "gameTitle": "Cuphead",
+          "gameId": 600,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 2197,
+          "position": 15,
+          "gameTitle": "Ori and the Will of the Wisps",
+          "gameId": 369,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

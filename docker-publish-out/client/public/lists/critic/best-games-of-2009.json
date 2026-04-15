@@ -1,0 +1,260 @@
+{
+  "syncedAt": "2026-04-15T10:53:47.352551Z",
+  "slug": "best-games-of-2009",
+  "type": 1,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 532,
+      "byUser": false,
+      "sourceListUrl": "https://www.wired.com/2009/12/top-10-games-of-2009/",
+      "dateAdded": "2023-06-14T14:31:12.655756Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 224,
+        "name": "Wired",
+        "hostUrl": "www.wired.com"
+      },
+      "finalGameList": {
+        "id": 36,
+        "title": "Best Games of",
+        "year": 2009,
+        "slug": "best-games-of-2009",
+        "fullName": "Best Games of 2009"
+      },
+      "items": [
+        {
+          "id": 3881,
+          "position": 1,
+          "gameTitle": "Left 4 Dead 2",
+          "gameId": 764,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3882,
+          "position": 2,
+          "gameTitle": "Assassin\u0027s Creed II",
+          "gameId": 500,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3883,
+          "position": 3,
+          "gameTitle": "New Super Mario Bros. Wii",
+          "gameId": 546,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3884,
+          "position": 4,
+          "gameTitle": "Batman: Arkham Asylum",
+          "gameId": 1156,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3885,
+          "position": 5,
+          "gameTitle": "Punch-Out!!",
+          "gameId": 1157,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3886,
+          "position": 6,
+          "gameTitle": "Uncharted 2: Among Thieves",
+          "gameId": 321,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3887,
+          "position": 7,
+          "gameTitle": "Rhythm Heaven",
+          "gameId": 1158,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3888,
+          "position": 8,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3889,
+          "position": 9,
+          "gameTitle": "The Beatles: Rock Band",
+          "gameId": 1159,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3880,
+          "position": 10,
+          "gameTitle": "Flower",
+          "gameId": 1160,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 533,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2009-article?page=6",
+      "dateAdded": "2023-06-14T14:35:02.712583Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 36,
+        "title": "Best Games of",
+        "year": 2009,
+        "slug": "best-games-of-2009",
+        "fullName": "Best Games of 2009"
+      },
+      "items": [
+        {
+          "id": 3890,
+          "position": 1,
+          "gameTitle": "Uncharted 2: Among Thieves",
+          "gameId": 321,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3891,
+          "position": 2,
+          "gameTitle": "Batman: Arkham Asylum",
+          "gameId": 1156,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3892,
+          "position": 3,
+          "gameTitle": "Call of Duty: Modern Warfare 2",
+          "gameId": 292,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3893,
+          "position": 4,
+          "gameTitle": "Dragon Age: Origins",
+          "gameId": 1161,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3894,
+          "position": 5,
+          "gameTitle": "Assassin\u0027s Creed II",
+          "gameId": 500,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3895,
+          "position": 6,
+          "gameTitle": "Borderlands",
+          "gameId": 1162,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3896,
+          "position": 7,
+          "gameTitle": "Demon\u0027s Souls",
+          "gameId": 1163,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3897,
+          "position": 8,
+          "gameTitle": "Left 4 Dead 2",
+          "gameId": 764,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3898,
+          "position": 9,
+          "gameTitle": "Trials HD",
+          "gameId": 1164,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3899,
+          "position": 10,
+          "gameTitle": "Forza Motorsport 3",
+          "gameId": 1165,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3900,
+          "position": 11,
+          "gameTitle": "Killzone 2",
+          "gameId": 502,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3901,
+          "position": 12,
+          "gameTitle": "FIFA Soccer 10",
+          "gameId": 1166,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3902,
+          "position": 13,
+          "gameTitle": "Street Fighter IV",
+          "gameId": 830,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3903,
+          "position": 14,
+          "gameTitle": "Halo 3: ODST",
+          "gameId": 1167,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3904,
+          "position": 15,
+          "gameTitle": "Fallout 3: Game of the Year Edition",
+          "gameId": 1168,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

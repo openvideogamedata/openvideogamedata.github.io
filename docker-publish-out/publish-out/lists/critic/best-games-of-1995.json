@@ -1,0 +1,718 @@
+{
+  "syncedAt": "2026-04-15T10:45:13.308588Z",
+  "slug": "best-games-of-1995",
+  "type": 1,
+  "totalItems": 7,
+  "data": [
+    {
+      "id": 541,
+      "byUser": false,
+      "sourceListUrl": "https://trettleman.medium.com/the-9-best-games-of-the-year-1995-c8a0400115c8",
+      "dateAdded": "2023-06-15T18:06:10.542276Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 226,
+        "name": "Trettleman",
+        "hostUrl": "trettleman.medium.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 3971,
+          "position": 1,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3972,
+          "position": 2,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3973,
+          "position": 3,
+          "gameTitle": "Marathon 2: Durandal",
+          "gameId": 1189,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3974,
+          "position": 4,
+          "gameTitle": "Dragon Quest VI: Maboroshi no Daichi",
+          "gameId": 1190,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3975,
+          "position": 5,
+          "gameTitle": "Suikoden",
+          "gameId": 1191,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3976,
+          "position": 6,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3977,
+          "position": 7,
+          "gameTitle": "Mega Man 7",
+          "gameId": 1192,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3978,
+          "position": 8,
+          "gameTitle": "Mega Man X3",
+          "gameId": 1193,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3979,
+          "position": 9,
+          "gameTitle": "Star Wars: Dark Forces",
+          "gameId": 1194,
+          "coverImageUrl": null,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": 542,
+      "byUser": false,
+      "sourceListUrl": "https://videochums.com/top10/games-of-1995",
+      "dateAdded": "2023-06-15T18:07:17.674685Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 227,
+        "name": "Videochums",
+        "hostUrl": "videochums.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 3980,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3981,
+          "position": 2,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3982,
+          "position": 3,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3983,
+          "position": 4,
+          "gameTitle": "Panzer Dragoon",
+          "gameId": 1195,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3984,
+          "position": 5,
+          "gameTitle": "Ristar",
+          "gameId": 1196,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3985,
+          "position": 6,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3986,
+          "position": 7,
+          "gameTitle": "Rayman",
+          "gameId": 1197,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3987,
+          "position": 8,
+          "gameTitle": "Wipeout",
+          "gameId": 1198,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3988,
+          "position": 9,
+          "gameTitle": "Comix Zone",
+          "gameId": 852,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3989,
+          "position": 10,
+          "gameTitle": "Breath of Fire II",
+          "gameId": 1199,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 557,
+      "byUser": false,
+      "sourceListUrl": "https://www.mediavida.com/foro/juegos/top-mejores-juegos-ano-1995-395271",
+      "dateAdded": "2023-06-16T01:32:44.003637Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 230,
+        "name": "Mediavida",
+        "hostUrl": "www.mediavida.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 4185,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4186,
+          "position": 2,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4187,
+          "position": 3,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4188,
+          "position": 4,
+          "gameTitle": "Sega Rally Championship",
+          "gameId": 1267,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4189,
+          "position": 5,
+          "gameTitle": "Destruction Derby",
+          "gameId": 1268,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4190,
+          "position": 6,
+          "gameTitle": "Panzer Dragoon",
+          "gameId": 1195,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4191,
+          "position": 7,
+          "gameTitle": "Vectorman",
+          "gameId": 1269,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4192,
+          "position": 8,
+          "gameTitle": "Ristar",
+          "gameId": 1196,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4193,
+          "position": 9,
+          "gameTitle": "Warhawk",
+          "gameId": 1270,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4194,
+          "position": 10,
+          "gameTitle": "EarthBound",
+          "gameId": 573,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 579,
+      "byUser": false,
+      "sourceListUrl": "https://www.imdb.com/search/title/?title_type=video_game\u0026year=1995-01-01,1995-12-31\u0026sort=user_rating,desc",
+      "dateAdded": "2023-06-20T13:25:50.146489Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 222,
+        "name": "IMDb",
+        "hostUrl": "www.imdb.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 4574,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4575,
+          "position": 2,
+          "gameTitle": "The Beast Within: A Gabriel Knight Mystery",
+          "gameId": 1353,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4576,
+          "position": 3,
+          "gameTitle": "Terranigma",
+          "gameId": 1354,
+          "coverImageUrl": null,
+          "score": 13
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "byUser": false,
+      "sourceListUrl": "https://en.wikipedia.org/wiki/1995_in_video_games#Famitsu_Platinum_Hall_of_Fame",
+      "dateAdded": "2023-09-26T22:42:24.713551Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 140,
+        "name": "Wikipedia (en)",
+        "hostUrl": "en.wikipedia.org"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 8982,
+          "position": 1,
+          "gameTitle": "Virtua Fighter 2",
+          "gameId": 1983,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8983,
+          "position": 2,
+          "gameTitle": "Ridge Racer Revolution",
+          "gameId": 1984,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8984,
+          "position": 3,
+          "gameTitle": "Tekken",
+          "gameId": 1985,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8985,
+          "position": 4,
+          "gameTitle": "Fushigi no Dungeon 2: Fuurai no Shiren",
+          "gameId": 1986,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8986,
+          "position": 5,
+          "gameTitle": "Sega Rally Championship",
+          "gameId": 1267,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8987,
+          "position": 6,
+          "gameTitle": "Virtua Fighter Remix",
+          "gameId": 1987,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8988,
+          "position": 7,
+          "gameTitle": "King\u0027s Field II",
+          "gameId": 1988,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8989,
+          "position": 8,
+          "gameTitle": "Boxer\u0027s Road",
+          "gameId": 1989,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8990,
+          "position": 9,
+          "gameTitle": "Shin Megami Tensei: Devil Summoner",
+          "gameId": 1990,
+          "coverImageUrl": null,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "byUser": false,
+      "sourceListUrl": "https://gamefaqs.gamespot.com/top10/616-the-top-10-games-of-1995",
+      "dateAdded": "2023-09-26T22:42:25.65545Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 300,
+        "name": "Gamefaqs",
+        "hostUrl": "gamefaqs.gamespot.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 8991,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 8992,
+          "position": 2,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 8993,
+          "position": 3,
+          "gameTitle": "Panzer Dragoon",
+          "gameId": 1195,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 8994,
+          "position": 4,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 8995,
+          "position": 5,
+          "gameTitle": "Far East of Eden: Kabuki Klash",
+          "gameId": 1991,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 8996,
+          "position": 6,
+          "gameTitle": "Marvel Super Heroes",
+          "gameId": 1992,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 8997,
+          "position": 7,
+          "gameTitle": "Shinobi Legions",
+          "gameId": 1993,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 8998,
+          "position": 8,
+          "gameTitle": "Metamoqester",
+          "gameId": 1994,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 8999,
+          "position": 9,
+          "gameTitle": "Trials of Mana",
+          "gameId": 1995,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9000,
+          "position": 10,
+          "gameTitle": "Lufia II: Rise of the Sinistrals",
+          "gameId": 1996,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "byUser": false,
+      "sourceListUrl": "https://notadogame.com/ranking/games/1995",
+      "dateAdded": "2023-09-26T22:42:31.175313Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 301,
+        "name": "Notadogame",
+        "hostUrl": "notadogame.com"
+      },
+      "finalGameList": {
+        "id": 50,
+        "title": "Best Games of",
+        "year": 1995,
+        "slug": "best-games-of-1995",
+        "fullName": "Best Games of 1995"
+      },
+      "items": [
+        {
+          "id": 9001,
+          "position": 1,
+          "gameTitle": "Chrono Trigger",
+          "gameId": 519,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9002,
+          "position": 2,
+          "gameTitle": "Donkey Kong Country 2: Diddy\u0027s Kong Quest",
+          "gameId": 684,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9003,
+          "position": 3,
+          "gameTitle": "Super Mario World 2: Yoshi\u0027s Island",
+          "gameId": 568,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9004,
+          "position": 4,
+          "gameTitle": "International Superstar Soccer Deluxe",
+          "gameId": 1528,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9005,
+          "position": 5,
+          "gameTitle": "Kirby Super Star",
+          "gameId": 1997,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9006,
+          "position": 6,
+          "gameTitle": "Ultimate Mortal Kombat 3",
+          "gameId": 837,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9007,
+          "position": 7,
+          "gameTitle": "Marvel Super Heroes",
+          "gameId": 1992,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9008,
+          "position": 8,
+          "gameTitle": "Soul Blade",
+          "gameId": 1998,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9009,
+          "position": 9,
+          "gameTitle": "Mighty Morphin Power Rangers: The Movie",
+          "gameId": 1999,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9010,
+          "position": 10,
+          "gameTitle": "Ristar",
+          "gameId": 1196,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9011,
+          "position": 11,
+          "gameTitle": "Mega Man X3",
+          "gameId": 1193,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9012,
+          "position": 12,
+          "gameTitle": "Top Gear 3000",
+          "gameId": 2000,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9013,
+          "position": 13,
+          "gameTitle": "Mega Man 7",
+          "gameId": 1192,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9014,
+          "position": 14,
+          "gameTitle": "Mortal Kombat 3",
+          "gameId": 2001,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9015,
+          "position": 15,
+          "gameTitle": "Castlevania: Dracula X",
+          "gameId": 2002,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

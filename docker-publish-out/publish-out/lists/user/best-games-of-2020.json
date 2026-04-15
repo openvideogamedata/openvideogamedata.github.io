@@ -1,0 +1,118 @@
+{
+  "syncedAt": "2026-04-15T10:44:49.4305664Z",
+  "slug": "best-games-of-2020",
+  "type": 2,
+  "totalItems": 1,
+  "data": [
+    {
+      "id": 1203,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2025-05-22T20:04:16.696418Z",
+      "dateLastUpdated": "2025-05-23T13:12:39.824468Z",
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 25,
+        "title": "Best Games of",
+        "year": 2020,
+        "slug": "best-games-of-2020",
+        "fullName": "Best Games of 2020"
+      },
+      "items": [
+        {
+          "id": 11829,
+          "position": 1,
+          "gameTitle": "Half-Life: Alyx",
+          "gameId": 38,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11830,
+          "position": 2,
+          "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+          "gameId": 21,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11831,
+          "position": 3,
+          "gameTitle": "The Last of Us Part II",
+          "gameId": 11,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11832,
+          "position": 4,
+          "gameTitle": "Animal Well",
+          "gameId": 2848,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11833,
+          "position": 5,
+          "gameTitle": "Viewfinder",
+          "gameId": 1591,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11834,
+          "position": 6,
+          "gameTitle": "Neva",
+          "gameId": 2815,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11835,
+          "position": 7,
+          "gameTitle": "Stray",
+          "gameId": 272,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11836,
+          "position": 8,
+          "gameTitle": "Super Mario Bros. Wonder",
+          "gameId": 1438,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11837,
+          "position": 9,
+          "gameTitle": "Hogwarts Legacy",
+          "gameId": 20,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11838,
+          "position": 10,
+          "gameTitle": "Cocoon",
+          "gameId": 2004,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11839,
+          "position": 11,
+          "gameTitle": "It Takes Two",
+          "gameId": 363,
+          "coverImageUrl": null,
+          "score": 5
+        }
+      ]
+    }
+  ]
+}

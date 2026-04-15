@@ -1,0 +1,692 @@
+{
+  "syncedAt": "2026-04-15T10:54:18.8794016Z",
+  "slug": "best-grand-strategy-games-of-all-time",
+  "type": 1,
+  "totalItems": 6,
+  "data": [
+    {
+      "id": 663,
+      "byUser": false,
+      "sourceListUrl": "https://gamerant.com/best-grand-strategy-games-ever-made/",
+      "dateAdded": "2023-07-30T19:06:25.205208Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 218,
+        "name": "Gamerant",
+        "hostUrl": "gamerant.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6325,
+          "position": 1,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6326,
+          "position": 2,
+          "gameTitle": "Sid Meier\u0027s Civilization VI",
+          "gameId": 1299,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6327,
+          "position": 3,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6328,
+          "position": 4,
+          "gameTitle": "Total War: Warhammer II",
+          "gameId": 1539,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6329,
+          "position": 5,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6330,
+          "position": 6,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6331,
+          "position": 7,
+          "gameTitle": "Victoria 3",
+          "gameId": 1542,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 664,
+      "byUser": false,
+      "sourceListUrl": "https://www.cbr.com/best-grand-strategy-games-of-all-time/",
+      "dateAdded": "2023-07-30T19:09:37.439384Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 179,
+        "name": "CBR",
+        "hostUrl": "www.cbr.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6332,
+          "position": 1,
+          "gameTitle": "Total War: Shogun 2",
+          "gameId": 1543,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6333,
+          "position": 2,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6334,
+          "position": 3,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6335,
+          "position": 4,
+          "gameTitle": "Total War: Warhammer II",
+          "gameId": 1539,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6336,
+          "position": 5,
+          "gameTitle": "Total War: Rome II",
+          "gameId": 1544,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6337,
+          "position": 6,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6338,
+          "position": 7,
+          "gameTitle": "Endless Space 2",
+          "gameId": 1545,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6339,
+          "position": 8,
+          "gameTitle": "Medieval II: Total War",
+          "gameId": 1546,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6340,
+          "position": 9,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6341,
+          "position": 10,
+          "gameTitle": "AI War: Fleet Command",
+          "gameId": 1547,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6342,
+          "position": 11,
+          "gameTitle": "Crusader Kings II",
+          "gameId": 1548,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6343,
+          "position": 12,
+          "gameTitle": "Sid Meier\u0027s Civilization V",
+          "gameId": 1363,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6344,
+          "position": 13,
+          "gameTitle": "Victoria II",
+          "gameId": 1549,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6345,
+          "position": 14,
+          "gameTitle": "Total War: Attila",
+          "gameId": 1550,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6346,
+          "position": 15,
+          "gameTitle": "Dominions 5: Warriors of the Faith",
+          "gameId": 1551,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 665,
+      "byUser": false,
+      "sourceListUrl": "https://www.dualshockers.com/best-grand-strategy-games/",
+      "dateAdded": "2023-07-30T19:11:21.889493Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 180,
+        "name": "Dualshockers",
+        "hostUrl": "www.dualshockers.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6347,
+          "position": 1,
+          "gameTitle": "Total War: Warhammer III",
+          "gameId": 276,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6348,
+          "position": 2,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6349,
+          "position": 3,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6350,
+          "position": 4,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6351,
+          "position": 5,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6352,
+          "position": 6,
+          "gameTitle": "Panzer Corps 2",
+          "gameId": 1554,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6353,
+          "position": 7,
+          "gameTitle": "Victoria II",
+          "gameId": 1549,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6354,
+          "position": 8,
+          "gameTitle": "Age of History II",
+          "gameId": 1555,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6355,
+          "position": 9,
+          "gameTitle": "Field of Glory: Empires",
+          "gameId": 1553,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6356,
+          "position": 10,
+          "gameTitle": "Conflict of Nations: World War 3",
+          "gameId": 1552,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 666,
+      "byUser": false,
+      "sourceListUrl": "https://www.wargamer.com/best-grand-strategy-games-pc",
+      "dateAdded": "2023-07-30T19:13:01.576348Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 257,
+        "name": "Wargamer",
+        "hostUrl": "www.wargamer.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6365,
+          "position": 1,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6357,
+          "position": 2,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6358,
+          "position": 3,
+          "gameTitle": "Imperator: Rome",
+          "gameId": 1556,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6359,
+          "position": 4,
+          "gameTitle": "Total War: Warhammer III",
+          "gameId": 276,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6360,
+          "position": 5,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6361,
+          "position": 6,
+          "gameTitle": "Terra Invicta",
+          "gameId": 1557,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6362,
+          "position": 7,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6363,
+          "position": 8,
+          "gameTitle": "Dominions 5: Warriors of the Faith",
+          "gameId": 1551,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6364,
+          "position": 9,
+          "gameTitle": "Knights of Honor II: Sovereign",
+          "gameId": 1558,
+          "coverImageUrl": null,
+          "score": 7
+        }
+      ]
+    },
+    {
+      "id": 667,
+      "byUser": false,
+      "sourceListUrl": "https://culturedvultures.com/best-grand-strategy-games/",
+      "dateAdded": "2023-07-30T19:15:42.98501Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 158,
+        "name": "Culturedvultures",
+        "hostUrl": "culturedvultures.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6366,
+          "position": 1,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6367,
+          "position": 2,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6368,
+          "position": 3,
+          "gameTitle": "Sid Meier\u0027s Civilization VI",
+          "gameId": 1299,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6369,
+          "position": 4,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6370,
+          "position": 5,
+          "gameTitle": "Victoria II",
+          "gameId": 1549,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6371,
+          "position": 6,
+          "gameTitle": "Total War: Shogun 2",
+          "gameId": 1543,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6372,
+          "position": 7,
+          "gameTitle": "Field of Glory: Empires",
+          "gameId": 1553,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6373,
+          "position": 8,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6374,
+          "position": 9,
+          "gameTitle": "Age of Wonders: Planetfall",
+          "gameId": 1559,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6375,
+          "position": 10,
+          "gameTitle": "Endless Legend",
+          "gameId": 1560,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6376,
+          "position": 11,
+          "gameTitle": "Sword of the Stars",
+          "gameId": 1561,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6377,
+          "position": 12,
+          "gameTitle": "Sid Meier\u0027s Alpha Centauri",
+          "gameId": 1562,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6378,
+          "position": 13,
+          "gameTitle": "Knights of Honor",
+          "gameId": 1563,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6379,
+          "position": 14,
+          "gameTitle": "Star Ruler 2",
+          "gameId": 1564,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6380,
+          "position": 15,
+          "gameTitle": "Dominions 5: Warriors of the Faith",
+          "gameId": 1551,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 668,
+      "byUser": false,
+      "sourceListUrl": "https://bosslevelgamer.com/best-grand-strategy-games-that-can-fulfill-your-world-domination-fantasies-1991",
+      "dateAdded": "2023-07-30T19:17:43.20727Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 258,
+        "name": "Bosslevelgamer",
+        "hostUrl": "bosslevelgamer.com"
+      },
+      "finalGameList": {
+        "id": 67,
+        "title": "Best Grand Strategy Games of All Time",
+        "year": null,
+        "slug": "best-grand-strategy-games-of-all-time",
+        "fullName": "Best Grand Strategy Games of All Time"
+      },
+      "items": [
+        {
+          "id": 6381,
+          "position": 1,
+          "gameTitle": "Total War: Warhammer II",
+          "gameId": 1539,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6382,
+          "position": 2,
+          "gameTitle": "Europa Universalis IV",
+          "gameId": 1538,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6383,
+          "position": 3,
+          "gameTitle": "Crusader Kings III",
+          "gameId": 962,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6384,
+          "position": 4,
+          "gameTitle": "Stellaris",
+          "gameId": 1540,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6385,
+          "position": 5,
+          "gameTitle": "Hearts of Iron IV",
+          "gameId": 1541,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6386,
+          "position": 6,
+          "gameTitle": "Total War: Three Kingdoms",
+          "gameId": 1051,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6387,
+          "position": 7,
+          "gameTitle": "Victoria II",
+          "gameId": 1549,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6388,
+          "position": 8,
+          "gameTitle": "Hegemony III: Clash of the Ancients",
+          "gameId": 1565,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6389,
+          "position": 9,
+          "gameTitle": "Imperator: Rome",
+          "gameId": 1556,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6390,
+          "position": 10,
+          "gameTitle": "Age of History II",
+          "gameId": 1555,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

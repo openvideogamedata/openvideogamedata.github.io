@@ -1,0 +1,519 @@
+{
+  "syncedAt": "2026-04-15T11:36:16.5570087Z",
+  "slug": "best-games-of-2024",
+  "type": 0,
+  "totalItems": 8,
+  "data": {
+    "finalGameList": {
+      "id": 80,
+      "title": "Best Games of",
+      "year": 2024,
+      "slug": "best-games-of-2024",
+      "fullName": "Best Games of 2024",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": true,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2003",
+          "sourceDateLastUpdated": null,
+          "year": 2003
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 2352,
+        "gameTitle": "Astro Bot",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-09-06T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8hl0.jpg",
+        "score": 115,
+        "position": 2,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2202,
+        "gameTitle": "Metaphor: ReFantazio",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 88,
+        "firstReleaseDate": "2024-12-31T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7hkn.jpg",
+        "score": 80,
+        "position": 10,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 1001,
+        "gameTitle": "Final Fantasy VII Rebirth",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vp0.jpg",
+        "score": 75,
+        "position": 7,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2196,
+        "gameTitle": "Helldivers 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2024-02-08T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co741o.jpg",
+        "score": 73,
+        "position": 3,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2140,
+        "gameTitle": "Balatro",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 88,
+        "firstReleaseDate": "2024-02-20T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co752b.jpg",
+        "score": 72,
+        "position": 12,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 1441,
+        "gameTitle": "Silent Hill 2",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5l7s.jpg",
+        "score": 61,
+        "position": 4,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2229,
+        "gameTitle": "Dragon Age: The Veilguard",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5rwk.jpg",
+        "score": 50,
+        "position": 6,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 1524,
+        "gameTitle": "Dragon\u0027s Dogma II",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 75,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vr8.jpg",
+        "score": 45,
+        "position": 11,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2225,
+        "gameTitle": "Elden Ring: Shadow of the Erdtree",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2024-06-21T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7sly.jpg",
+        "score": 45,
+        "position": 11,
+        "gameListId": 1100,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2198,
+        "gameTitle": "Indiana Jones and the Great Circle",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2024-12-31T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7nbc.jpg",
+        "score": 42,
+        "position": 1,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2222,
+        "gameTitle": "Black Myth: Wukong",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "2024-08-20T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pnk.jpg",
+        "score": 35,
+        "position": 14,
+        "gameListId": 1168,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2848,
+        "gameTitle": "Animal Well",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2024-05-09T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4hdh.jpg",
+        "score": 34,
+        "position": 5,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2852,
+        "gameTitle": "UFO 50",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 62,
+        "firstReleaseDate": "2024-09-18T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co24v0.jpg",
+        "score": 34,
+        "position": 14,
+        "gameListId": 1099,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2815,
+        "gameTitle": "Neva",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2024-10-15T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8x5c.jpg",
+        "score": 21,
+        "position": 5,
+        "gameListId": 1170,
+        "finalGameListId": 80
+      },
+      {
+        "gameId": 2199,
+        "gameTitle": "Like a Dragon: Infinite Wealth",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2024-01-26T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co73u4.jpg",
+        "score": 17,
+        "position": 8,
+        "gameListId": 1171,
+        "finalGameListId": 80
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Eurogamer",
+        "sourceUrl": "https://www.eurogamer.net/the-50-best-games-of-2024-ranked",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Polygon",
+        "sourceUrl": "https://www.polygon.com/what-to-play/24078256/best-video-games-2024",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Empireonline",
+        "sourceUrl": "https://www.empireonline.com/gaming/features/best-games-2024/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Denofgeek",
+        "sourceUrl": "https://www.denofgeek.com/games/best-games-2024-ranked/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Time",
+        "sourceUrl": "https://time.com/7199868/best-video-games-2024/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamerant",
+        "sourceUrl": "https://gamerant.com/top-best-video-game-2024/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "The Guardian",
+        "sourceUrl": "https://www.theguardian.com/games/2024/dec/19/the-20-best-video-games-of-2024",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Geekybrummie",
+        "sourceUrl": "https://geekybrummie.com/gaming/top-50-most-notable-games-of-2024/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 80,
+        "porcentageOfContributions": 73
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 27
+      }
+    ]
+  }
+}

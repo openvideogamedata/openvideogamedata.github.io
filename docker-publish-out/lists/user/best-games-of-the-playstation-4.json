@@ -1,0 +1,228 @@
+{
+  "syncedAt": "2026-04-15T10:44:41.9040884Z",
+  "slug": "best-games-of-the-playstation-4",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 627,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-07-19T22:08:11.865934Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 52,
+        "nickname": "110420072979302621163",
+        "fullName": "Furious Specter"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 18,
+        "title": "Best Games of the PlayStation 4",
+        "year": null,
+        "slug": "best-games-of-the-playstation-4",
+        "fullName": "Best Games of the PlayStation 4"
+      },
+      "items": [
+        {
+          "id": 5406,
+          "position": 1,
+          "gameTitle": "Red Dead Redemption 2",
+          "gameId": 352,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5407,
+          "position": 2,
+          "gameTitle": "Marvel\u0027s Spider-Man",
+          "gameId": 349,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5408,
+          "position": 3,
+          "gameTitle": "Resident Evil 2",
+          "gameId": 354,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5409,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Remake",
+          "gameId": 409,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5410,
+          "position": 5,
+          "gameTitle": "God of War",
+          "gameId": 345,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5411,
+          "position": 6,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 1\u002B2",
+          "gameId": 717,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5412,
+          "position": 7,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 785,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-08-18T19:43:32.633255Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 53,
+        "nickname": "108010017125330593198",
+        "fullName": "Daring Majestic Phantom"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 18,
+        "title": "Best Games of the PlayStation 4",
+        "year": null,
+        "slug": "best-games-of-the-playstation-4",
+        "fullName": "Best Games of the PlayStation 4"
+      },
+      "items": [
+        {
+          "id": 9563,
+          "position": 1,
+          "gameTitle": "Nier: Automata - Game of the Yorha Edition",
+          "gameId": 1837,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 9564,
+          "position": 2,
+          "gameTitle": "Yakuza 0",
+          "gameId": 411,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 9565,
+          "position": 3,
+          "gameTitle": "Shadow of the Colossus",
+          "gameId": 1469,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 9566,
+          "position": 4,
+          "gameTitle": "Yakuza Kiwami",
+          "gameId": 1470,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 9567,
+          "position": 5,
+          "gameTitle": "Yakuza 6: The Song of Life",
+          "gameId": 1842,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 9568,
+          "position": 6,
+          "gameTitle": "Outward: Definitive Edition",
+          "gameId": 1841,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 9569,
+          "position": 7,
+          "gameTitle": "Sekiro: Shadows Die Twice",
+          "gameId": 417,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 9570,
+          "position": 8,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 9571,
+          "position": 9,
+          "gameTitle": "Lost Judgment: Digital Deluxe Edition",
+          "gameId": 1840,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 9572,
+          "position": 10,
+          "gameTitle": "Yakuza Kiwami 2",
+          "gameId": 1845,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 9573,
+          "position": 11,
+          "gameTitle": "Death Stranding",
+          "gameId": 399,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 9574,
+          "position": 12,
+          "gameTitle": "Salt and Sanctuary",
+          "gameId": 1843,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 9575,
+          "position": 13,
+          "gameTitle": "Trek to Yomi",
+          "gameId": 1844,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 9576,
+          "position": 14,
+          "gameTitle": "Warframe",
+          "gameId": 1838,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 9577,
+          "position": 15,
+          "gameTitle": "Dark Souls III",
+          "gameId": 529,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

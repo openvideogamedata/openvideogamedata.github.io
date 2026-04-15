@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:34.454866Z",
+  "slug": "best-games-of-the-gamecube",
+  "type": 0,
+  "totalItems": 11,
+  "data": {
+    "id": 12,
+    "title": "Best Games of the GameCube",
+    "year": null,
+    "numberOfGames": 43,
+    "numberOfSources": 11,
+    "slug": "best-games-of-the-gamecube",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 532,
+        "gameTitle": "The Legend of Zelda: The Wind Waker",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2002-12-13T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ohz.jpg",
+        "score": 153,
+        "position": 2,
+        "gameListId": 361,
+        "finalGameListId": 12
+      },
+      {
+        "gameId": 427,
+        "gameTitle": "Metroid Prime",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2002-11-17T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3w4w.jpg",
+        "score": 140,
+        "position": 3,
+        "gameListId": 361,
+        "finalGameListId": 12
+      },
+      {
+        "gameId": 426,
+        "gameTitle": "Resident Evil 4",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 91,
+        "firstReleaseDate": "2005-01-11T00:00:00Z",
+        "releaseYear": 2005,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wk8.jpg",
+        "score": 118,
+        "position": 4,
+        "gameListId": 361,
+        "finalGameListId": 12
+      },
+      {
+        "gameId": 533,
+        "gameTitle": "Super Smash Bros. Melee",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2001-11-21T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21yv.jpg",
+        "score": 115,
+        "position": 6,
+        "gameListId": 361,
+        "finalGameListId": 12
+      }
+    ]
+  }
+}

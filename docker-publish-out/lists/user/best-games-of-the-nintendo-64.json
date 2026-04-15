@@ -1,0 +1,54 @@
+{
+  "syncedAt": "2026-04-15T10:44:32.2482713Z",
+  "slug": "best-games-of-the-nintendo-64",
+  "type": 2,
+  "totalItems": 1,
+  "data": [
+    {
+      "id": 592,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-06-26T20:56:08.254498Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 9,
+        "title": "Best Games of the Nintendo 64",
+        "year": null,
+        "slug": "best-games-of-the-nintendo-64",
+        "fullName": "Best Games of the Nintendo 64"
+      },
+      "items": [
+        {
+          "id": 4723,
+          "position": 1,
+          "gameTitle": "The Legend of Zelda: Ocarina of Time",
+          "gameId": 27,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4724,
+          "position": 2,
+          "gameTitle": "Super Mario 64",
+          "gameId": 30,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4725,
+          "position": 3,
+          "gameTitle": "Mario Kart 64",
+          "gameId": 230,
+          "coverImageUrl": null,
+          "score": 13
+        }
+      ]
+    }
+  ]
+}

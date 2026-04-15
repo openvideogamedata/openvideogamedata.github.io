@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:35.4827017Z",
+  "slug": "best-games-of-the-xbox",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 13,
+    "title": "Best Games of the Xbox",
+    "year": null,
+    "numberOfGames": 18,
+    "numberOfSources": 2,
+    "slug": "best-games-of-the-xbox",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 375,
+        "gameTitle": "Halo 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2004-11-09T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x77.jpg",
+        "score": 29,
+        "position": 2,
+        "gameListId": 451,
+        "finalGameListId": 13
+      },
+      {
+        "gameId": 153,
+        "gameTitle": "Halo: Combat Evolved",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2001-11-15T00:00:00Z",
+        "releaseYear": 2001,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r2r.jpg",
+        "score": 28,
+        "position": 1,
+        "gameListId": 451,
+        "finalGameListId": 13
+      },
+      {
+        "gameId": 790,
+        "gameTitle": "Star Wars: Knights of the Old Republic",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2003-07-15T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.jpg",
+        "score": 24,
+        "position": 4,
+        "gameListId": 451,
+        "finalGameListId": 13
+      },
+      {
+        "gameId": 793,
+        "gameTitle": "Fable",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2004-09-14T00:00:00Z",
+        "releaseYear": 2004,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2q4c.jpg",
+        "score": 23,
+        "position": 7,
+        "gameListId": 451,
+        "finalGameListId": 13
+      }
+    ]
+  }
+}

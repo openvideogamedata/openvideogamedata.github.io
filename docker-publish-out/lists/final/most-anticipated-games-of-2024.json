@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:47.9232437Z",
+  "slug": "most-anticipated-games-of-2024",
+  "type": 0,
+  "totalItems": 13,
+  "data": {
+    "id": 86,
+    "title": "Most Anticipated Games of",
+    "year": 2024,
+    "numberOfGames": 53,
+    "numberOfSources": 13,
+    "slug": "most-anticipated-games-of-2024",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 1001,
+        "gameTitle": "Final Fantasy VII Rebirth",
+        "trackStatus": 0,
+        "citations": 11,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2023-12-31T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vp0.jpg",
+        "score": 136,
+        "position": 5,
+        "gameListId": 993,
+        "finalGameListId": 86
+      },
+      {
+        "gameId": 2204,
+        "gameTitle": "Star Wars Outlaws",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2024-12-31T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co77oz.jpg",
+        "score": 109,
+        "position": 1,
+        "gameListId": 994,
+        "finalGameListId": 86
+      },
+      {
+        "gameId": 2199,
+        "gameTitle": "Like a Dragon: Infinite Wealth",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2024-01-26T00:00:00Z",
+        "releaseYear": 2024,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co73u4.jpg",
+        "score": 77,
+        "position": 10,
+        "gameListId": 993,
+        "finalGameListId": 86
+      },
+      {
+        "gameId": 1520,
+        "gameTitle": "Tekken 8",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 64,
+        "firstReleaseDate": "1970-01-01T00:00:00Z",
+        "releaseYear": 1970,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6ab7.jpg",
+        "score": 71,
+        "position": 7,
+        "gameListId": 996,
+        "finalGameListId": 86
+      }
+    ]
+  }
+}

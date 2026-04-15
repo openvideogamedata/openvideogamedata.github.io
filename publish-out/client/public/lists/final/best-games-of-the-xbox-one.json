@@ -1,0 +1,291 @@
+{
+  "syncedAt": "2026-04-15T11:34:21.8869853Z",
+  "slug": "best-games-of-the-xbox-one",
+  "type": 0,
+  "totalItems": 1,
+  "data": {
+    "finalGameList": {
+      "id": 17,
+      "title": "Best Games of the Xbox One",
+      "year": null,
+      "slug": "best-games-of-the-xbox-one",
+      "fullName": "Best Games of the Xbox One",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "console, xbox",
+      "tagList": [
+        "console",
+        "xbox"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the Xbox 360",
+          "sourceUrl": "best-games-of-the-xbox-360",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Xbox",
+          "sourceUrl": "best-games-of-the-xbox",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Xbox Series X/S",
+          "sourceUrl": "best-games-of-the-xbox-series-xs",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 604,
+        "gameTitle": "Assassin\u0027s Creed Valhalla",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-11-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ed3.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 418,
+        "gameTitle": "Doom Eternal",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-03-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p5n.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 135,
+        "gameTitle": "Hitman 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2021-01-20T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29lt.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 350,
+        "gameTitle": "Control",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-08-27T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2evj.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 363,
+        "gameTitle": "It Takes Two",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2021-03-25T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t97.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 629,
+        "gameTitle": "Inside",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-06-29T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fca.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 417,
+        "gameTitle": "Sekiro: Shadows Die Twice",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-03-22T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 368,
+        "gameTitle": "Halo: The Master Chief Collection",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2014-11-11T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t95.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 365,
+        "gameTitle": "Gears 5",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2019-09-09T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2oz5.jpg",
+        "score": 4,
+        "position": 12,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 808,
+        "gameTitle": "Forza Horizon 4",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-10-02T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e1a.jpg",
+        "score": 3,
+        "position": 13,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 369,
+        "gameTitle": "Ori and the Will of the Wisps",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2020-03-10T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e1l.jpg",
+        "score": 2,
+        "position": 14,
+        "gameListId": 453,
+        "finalGameListId": 17
+      },
+      {
+        "gameId": 331,
+        "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2015-09-01T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v85.jpg",
+        "score": 1,
+        "position": 15,
+        "gameListId": 453,
+        "finalGameListId": 17
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/best-xbox-one-games-2",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

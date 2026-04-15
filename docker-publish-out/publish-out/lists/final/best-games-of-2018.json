@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:50.397229Z",
+  "slug": "best-games-of-2018",
+  "type": 0,
+  "totalItems": 2,
+  "data": {
+    "id": 27,
+    "title": "Best Games of",
+    "year": 2018,
+    "numberOfGames": 19,
+    "numberOfSources": 2,
+    "slug": "best-games-of-2018",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 345,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-04-20T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
+        "score": 30,
+        "position": 1,
+        "gameListId": 545,
+        "finalGameListId": 27
+      },
+      {
+        "gameId": 1214,
+        "gameTitle": "Florence",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-02-13T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co295l.jpg",
+        "score": 25,
+        "position": 3,
+        "gameListId": 545,
+        "finalGameListId": 27
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 24,
+        "position": 6,
+        "gameListId": 545,
+        "finalGameListId": 27
+      },
+      {
+        "gameId": 144,
+        "gameTitle": "Celeste",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2018-01-25T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3byy.jpg",
+        "score": 21,
+        "position": 5,
+        "gameListId": 545,
+        "finalGameListId": 27
+      }
+    ]
+  }
+}

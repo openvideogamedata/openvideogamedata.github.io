@@ -1,0 +1,482 @@
+{
+  "syncedAt": "2026-04-15T11:35:08.8507905Z",
+  "slug": "best-games-of-2003",
+  "type": 0,
+  "totalItems": 3,
+  "data": {
+    "finalGameList": {
+      "id": 42,
+      "title": "Best Games of",
+      "year": 2003,
+      "slug": "best-games-of-2003",
+      "fullName": "Best Games of 2003",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "year",
+      "tagList": [
+        "year"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2020",
+          "sourceDateLastUpdated": null,
+          "year": 2020
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2007",
+          "sourceDateLastUpdated": null,
+          "year": 2007
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2021",
+          "sourceDateLastUpdated": null,
+          "year": 2021
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2019",
+          "sourceDateLastUpdated": null,
+          "year": 2019
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2018",
+          "sourceDateLastUpdated": null,
+          "year": 2018
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2015",
+          "sourceDateLastUpdated": null,
+          "year": 2015
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2014",
+          "sourceDateLastUpdated": null,
+          "year": 2014
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2017",
+          "sourceDateLastUpdated": null,
+          "year": 2017
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2000",
+          "sourceDateLastUpdated": null,
+          "year": 2000
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2016",
+          "sourceDateLastUpdated": null,
+          "year": 2016
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1995",
+          "sourceDateLastUpdated": null,
+          "year": 1995
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2013",
+          "sourceDateLastUpdated": null,
+          "year": 2013
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1996",
+          "sourceDateLastUpdated": null,
+          "year": 1996
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2005",
+          "sourceDateLastUpdated": null,
+          "year": 2005
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1998",
+          "sourceDateLastUpdated": null,
+          "year": 1998
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2022",
+          "sourceDateLastUpdated": null,
+          "year": 2022
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2008",
+          "sourceDateLastUpdated": null,
+          "year": 2008
+        },
+        {
+          "sourceName": "Most Anticipated Games of",
+          "sourceUrl": "most-anticipated-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2002",
+          "sourceDateLastUpdated": null,
+          "year": 2002
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2010",
+          "sourceDateLastUpdated": null,
+          "year": 2010
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2011",
+          "sourceDateLastUpdated": null,
+          "year": 2011
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1999",
+          "sourceDateLastUpdated": null,
+          "year": 1999
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2006",
+          "sourceDateLastUpdated": null,
+          "year": 2006
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2001",
+          "sourceDateLastUpdated": null,
+          "year": 2001
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2009",
+          "sourceDateLastUpdated": null,
+          "year": 2009
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2012",
+          "sourceDateLastUpdated": null,
+          "year": 2012
+        },
+        {
+          "sourceName": "Best Indie Games of",
+          "sourceUrl": "best-indie-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2004",
+          "sourceDateLastUpdated": null,
+          "year": 2004
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-1997",
+          "sourceDateLastUpdated": null,
+          "year": 1997
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2024",
+          "sourceDateLastUpdated": null,
+          "year": 2024
+        },
+        {
+          "sourceName": "Best Games of",
+          "sourceUrl": "best-games-of-2023",
+          "sourceDateLastUpdated": null,
+          "year": 2023
+        },
+        {
+          "sourceName": "Most Anticipated Games of ",
+          "sourceUrl": "most-anticipated-games-of-2025",
+          "sourceDateLastUpdated": null,
+          "year": 2025
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 1106,
+        "gameTitle": "Call of Duty",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2003-10-29T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n19.jpg",
+        "score": 41,
+        "position": 3,
+        "gameListId": 519,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 790,
+        "gameTitle": "Star Wars: Knights of the Old Republic",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2003-07-15T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmz.jpg",
+        "score": 39,
+        "position": 1,
+        "gameListId": 519,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1107,
+        "gameTitle": "Prince of Persia: The Sands of Time",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2003-10-28T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ia6.jpg",
+        "score": 35,
+        "position": 4,
+        "gameListId": 519,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 532,
+        "gameTitle": "The Legend of Zelda: The Wind Waker",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2002-12-13T00:00:00Z",
+        "releaseYear": 2002,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ohz.jpg",
+        "score": 20,
+        "position": 5,
+        "gameListId": 519,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1419,
+        "gameTitle": "The Simpsons: Hit \u0026 Run",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-09-16T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uk7.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 607,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1105,
+        "gameTitle": "Max Payne 2: The Fall of Max Payne",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-10-14T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcl.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 519,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1420,
+        "gameTitle": "Finding Nemo",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-03-31T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1w6f.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 607,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1421,
+        "gameTitle": "True Crime: Streets of LA",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-11-03T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p3n.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 607,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1358,
+        "gameTitle": "Viewtiful Joe",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-06-26T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53ji.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 606,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1422,
+        "gameTitle": "Need for Speed: Underground",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-11-17T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co209g.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 607,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1416,
+        "gameTitle": "WarioWare, Inc.: Mega Microgames!",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-03-21T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wpz.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 606,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 794,
+        "gameTitle": "Tom Clancy\u0027s Rainbow Six 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-11-07T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1p3a.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 606,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 316,
+        "gameTitle": "Jak II",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-10-14T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2agi.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 606,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1009,
+        "gameTitle": "Manhunt",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-11-18T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcm.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 607,
+        "finalGameListId": 42
+      },
+      {
+        "gameId": 1417,
+        "gameTitle": "Castlevania: Aria of Sorrow",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2003-05-06T00:00:00Z",
+        "releaseYear": 2003,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nh5.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 606,
+        "finalGameListId": 42
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "Player",
+        "sourceUrl": "https://player.me/best-games-of-2003/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/wikis/best-of-the-decade/2003_-_Games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "CBR",
+        "sourceUrl": "https://www.cbr.com/best-nostalgic-2003-video-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 25,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

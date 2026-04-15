@@ -1,0 +1,446 @@
+{
+  "syncedAt": "2026-04-15T10:44:53.8634782Z",
+  "slug": "best-games-of-2015",
+  "type": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 552,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamespot.com/gallery/top-25-games-of-2015/2900-430/",
+      "dateAdded": "2023-06-16T01:19:19.838933Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 229,
+        "name": "GameSpot",
+        "hostUrl": "www.gamespot.com"
+      },
+      "finalGameList": {
+        "id": 30,
+        "title": "Best Games of",
+        "year": 2015,
+        "slug": "best-games-of-2015",
+        "fullName": "Best Games of 2015"
+      },
+      "items": [
+        {
+          "id": 4110,
+          "position": 1,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4111,
+          "position": 2,
+          "gameTitle": "Rocket League",
+          "gameId": 1037,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4112,
+          "position": 3,
+          "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+          "gameId": 331,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4113,
+          "position": 4,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4114,
+          "position": 5,
+          "gameTitle": "Super Mario Maker",
+          "gameId": 586,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4115,
+          "position": 6,
+          "gameTitle": "Fallout 4",
+          "gameId": 1241,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4116,
+          "position": 7,
+          "gameTitle": "Ori and the Blind Forest",
+          "gameId": 657,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4117,
+          "position": 8,
+          "gameTitle": "Rise of the Tomb Raider",
+          "gameId": 416,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4118,
+          "position": 9,
+          "gameTitle": "Tales from the Borderlands",
+          "gameId": 1242,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4119,
+          "position": 10,
+          "gameTitle": "Kerbal Space Program",
+          "gameId": 1243,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4120,
+          "position": 11,
+          "gameTitle": "Until Dawn",
+          "gameId": 1244,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4121,
+          "position": 12,
+          "gameTitle": "Splatoon",
+          "gameId": 579,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4122,
+          "position": 13,
+          "gameTitle": "Cities: Skylines",
+          "gameId": 763,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4123,
+          "position": 14,
+          "gameTitle": "Dying Light",
+          "gameId": 1245,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4124,
+          "position": 15,
+          "gameTitle": "Xenoblade Chronicles X",
+          "gameId": 583,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 553,
+      "byUser": false,
+      "sourceListUrl": "https://screenrant.com/best-video-games-of-2015-list/",
+      "dateAdded": "2023-06-16T01:22:14.132354Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 205,
+        "name": "Screenrant",
+        "hostUrl": "screenrant.com"
+      },
+      "finalGameList": {
+        "id": 30,
+        "title": "Best Games of",
+        "year": 2015,
+        "slug": "best-games-of-2015",
+        "fullName": "Best Games of 2015"
+      },
+      "items": [
+        {
+          "id": 4125,
+          "position": 1,
+          "gameTitle": "Rise of the Tomb Raider",
+          "gameId": 416,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4126,
+          "position": 2,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4127,
+          "position": 3,
+          "gameTitle": "Fallout 4",
+          "gameId": 1241,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4128,
+          "position": 4,
+          "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+          "gameId": 331,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4129,
+          "position": 5,
+          "gameTitle": "Ori and the Blind Forest",
+          "gameId": 657,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4130,
+          "position": 6,
+          "gameTitle": "Rocket League",
+          "gameId": 1037,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4131,
+          "position": 7,
+          "gameTitle": "Tales from the Borderlands",
+          "gameId": 1242,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4132,
+          "position": 8,
+          "gameTitle": "Batman: Arkham Knight",
+          "gameId": 1246,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4133,
+          "position": 9,
+          "gameTitle": "Undertale",
+          "gameId": 413,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4134,
+          "position": 10,
+          "gameTitle": "Halo 5: Guardians",
+          "gameId": 1247,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4135,
+          "position": 11,
+          "gameTitle": "Until Dawn",
+          "gameId": 1244,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4136,
+          "position": 12,
+          "gameTitle": "Assassin\u0027s Creed Syndicate",
+          "gameId": 1248,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4137,
+          "position": 13,
+          "gameTitle": "Her Story",
+          "gameId": 1249,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4138,
+          "position": 14,
+          "gameTitle": "Splatoon",
+          "gameId": 579,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4139,
+          "position": 15,
+          "gameTitle": "Game of Thrones: A Telltale Games Series",
+          "gameId": 1250,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 554,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/games/the-25-best-video-games-of-2015/",
+      "dateAdded": "2023-06-16T01:24:20.493389Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 30,
+        "title": "Best Games of",
+        "year": 2015,
+        "slug": "best-games-of-2015",
+        "fullName": "Best Games of 2015"
+      },
+      "items": [
+        {
+          "id": 4140,
+          "position": 1,
+          "gameTitle": "The Witcher 3: Wild Hunt",
+          "gameId": 347,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4141,
+          "position": 2,
+          "gameTitle": "Until Dawn",
+          "gameId": 1244,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4142,
+          "position": 3,
+          "gameTitle": "Batman: Arkham Knight",
+          "gameId": 1246,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4143,
+          "position": 4,
+          "gameTitle": "Bloodborne",
+          "gameId": 346,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4144,
+          "position": 5,
+          "gameTitle": "Metal Gear Solid V: The Phantom Pain",
+          "gameId": 331,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4145,
+          "position": 6,
+          "gameTitle": "The Talos Principle",
+          "gameId": 1251,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4146,
+          "position": 7,
+          "gameTitle": "Fallout 4",
+          "gameId": 1241,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4147,
+          "position": 8,
+          "gameTitle": "Her Story",
+          "gameId": 1249,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4148,
+          "position": 9,
+          "gameTitle": "Splatoon",
+          "gameId": 579,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4149,
+          "position": 10,
+          "gameTitle": "Sunless Sea",
+          "gameId": 1252,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4150,
+          "position": 11,
+          "gameTitle": "Off-Peak",
+          "gameId": 1253,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4151,
+          "position": 12,
+          "gameTitle": "Super Mario Maker",
+          "gameId": 586,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4152,
+          "position": 13,
+          "gameTitle": "Tearaway: Unfolded",
+          "gameId": 1254,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4153,
+          "position": 14,
+          "gameTitle": "Everybody\u0027s Gone to the Rapture",
+          "gameId": 1255,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4154,
+          "position": 15,
+          "gameTitle": "Tales from the Borderlands",
+          "gameId": 1242,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

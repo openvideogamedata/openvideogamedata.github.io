@@ -1,0 +1,406 @@
+{
+  "syncedAt": "2026-04-15T10:44:52.8817979Z",
+  "slug": "best-games-of-2016",
+  "type": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 549,
+      "byUser": false,
+      "sourceListUrl": "https://www.eurogamer.net/eurogamer-readers-top-50-games-of-2016",
+      "dateAdded": "2023-06-16T01:10:55.136269Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 146,
+        "name": "Eurogamer",
+        "hostUrl": "www.eurogamer.net"
+      },
+      "finalGameList": {
+        "id": 29,
+        "title": "Best Games of",
+        "year": 2016,
+        "slug": "best-games-of-2016",
+        "fullName": "Best Games of 2016"
+      },
+      "items": [
+        {
+          "id": 4070,
+          "position": 1,
+          "gameTitle": "Uncharted 4: A Thief\u0027s End",
+          "gameId": 355,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4071,
+          "position": 2,
+          "gameTitle": "Overwatch",
+          "gameId": 404,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4072,
+          "position": 3,
+          "gameTitle": "Doom",
+          "gameId": 1227,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4073,
+          "position": 4,
+          "gameTitle": "Dark Souls III",
+          "gameId": 529,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4074,
+          "position": 5,
+          "gameTitle": "Titanfall 2",
+          "gameId": 1228,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4075,
+          "position": 6,
+          "gameTitle": "The Witcher 3: Wild Hunt - Blood and Wine",
+          "gameId": 1229,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4076,
+          "position": 7,
+          "gameTitle": "Battlefield 1",
+          "gameId": 871,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4077,
+          "position": 8,
+          "gameTitle": "Forza Horizon 3",
+          "gameId": 1019,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4078,
+          "position": 9,
+          "gameTitle": "Dishonored 2",
+          "gameId": 1230,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4079,
+          "position": 10,
+          "gameTitle": "Final Fantasy XV",
+          "gameId": 607,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4080,
+          "position": 11,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4081,
+          "position": 12,
+          "gameTitle": "The Last Guardian",
+          "gameId": 407,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4082,
+          "position": 13,
+          "gameTitle": "XCOM 2",
+          "gameId": 961,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4083,
+          "position": 14,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4084,
+          "position": 15,
+          "gameTitle": "Deus Ex: Mankind Divided",
+          "gameId": 1231,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 550,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/games/the-25-best-video-games-of-2016/",
+      "dateAdded": "2023-06-16T01:14:25.449934Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 29,
+        "title": "Best Games of",
+        "year": 2016,
+        "slug": "best-games-of-2016",
+        "fullName": "Best Games of 2016"
+      },
+      "items": [
+        {
+          "id": 4085,
+          "position": 1,
+          "gameTitle": "Uncharted 4: A Thief\u0027s End",
+          "gameId": 355,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4086,
+          "position": 2,
+          "gameTitle": "Titanfall 2",
+          "gameId": 1228,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4087,
+          "position": 3,
+          "gameTitle": "Overwatch",
+          "gameId": 404,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4088,
+          "position": 4,
+          "gameTitle": "Severed",
+          "gameId": 1232,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4089,
+          "position": 5,
+          "gameTitle": "Assault Android Cactus",
+          "gameId": 1233,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4090,
+          "position": 6,
+          "gameTitle": "The Witness",
+          "gameId": 1234,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4091,
+          "position": 7,
+          "gameTitle": "Hyper Light Drifter",
+          "gameId": 1235,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4092,
+          "position": 8,
+          "gameTitle": "Dark Souls III",
+          "gameId": 529,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4093,
+          "position": 9,
+          "gameTitle": "SuperHot",
+          "gameId": 651,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4094,
+          "position": 10,
+          "gameTitle": "Inside",
+          "gameId": 629,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4095,
+          "position": 11,
+          "gameTitle": "That Dragon, Cancer",
+          "gameId": 1236,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4096,
+          "position": 12,
+          "gameTitle": "Doom",
+          "gameId": 1227,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4097,
+          "position": 13,
+          "gameTitle": "Pony Island",
+          "gameId": 1237,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4098,
+          "position": 14,
+          "gameTitle": "Battlefield 1",
+          "gameId": 871,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4099,
+          "position": 15,
+          "gameTitle": "Layers of Fear",
+          "gameId": 1238,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 551,
+      "byUser": false,
+      "sourceListUrl": "https://gamerant.com/top-games-2016/#overwatch",
+      "dateAdded": "2023-06-16T01:15:35.82218Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 218,
+        "name": "Gamerant",
+        "hostUrl": "gamerant.com"
+      },
+      "finalGameList": {
+        "id": 29,
+        "title": "Best Games of",
+        "year": 2016,
+        "slug": "best-games-of-2016",
+        "fullName": "Best Games of 2016"
+      },
+      "items": [
+        {
+          "id": 4100,
+          "position": 1,
+          "gameTitle": "Overwatch",
+          "gameId": 404,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4101,
+          "position": 2,
+          "gameTitle": "Uncharted 4: A Thief\u0027s End",
+          "gameId": 355,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4102,
+          "position": 3,
+          "gameTitle": "Titanfall 2",
+          "gameId": 1228,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4103,
+          "position": 4,
+          "gameTitle": "Doom",
+          "gameId": 1227,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4104,
+          "position": 5,
+          "gameTitle": "Dark Souls III",
+          "gameId": 529,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4105,
+          "position": 6,
+          "gameTitle": "Pok\u00E9mon Sun",
+          "gameId": 1239,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4106,
+          "position": 7,
+          "gameTitle": "Final Fantasy XV",
+          "gameId": 607,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4107,
+          "position": 8,
+          "gameTitle": "Firewatch",
+          "gameId": 648,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4108,
+          "position": 9,
+          "gameTitle": "Battlefield 1",
+          "gameId": 871,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4109,
+          "position": 10,
+          "gameTitle": "Gears of War 4",
+          "gameId": 1240,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "syncedAt": "2026-04-15T10:53:43.0735434Z",
+  "slug": "best-games-of-2013",
+  "type": 1,
+  "totalItems": 3,
+  "data": [
+    {
+      "id": 507,
+      "byUser": false,
+      "sourceListUrl": "https://www.slantmagazine.com/games/the-25-best-video-games-of-2013/",
+      "dateAdded": "2023-06-13T02:47:10.329868Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 153,
+        "name": "Slantmagazine",
+        "hostUrl": "www.slantmagazine.com"
+      },
+      "finalGameList": {
+        "id": 32,
+        "title": "Best Games of",
+        "year": 2013,
+        "slug": "best-games-of-2013",
+        "fullName": "Best Games of 2013"
+      },
+      "items": [
+        {
+          "id": 3605,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto V",
+          "gameId": 323,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 3606,
+          "position": 2,
+          "gameTitle": "BioShock Infinite",
+          "gameId": 333,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 3607,
+          "position": 3,
+          "gameTitle": "Super Mario 3D World",
+          "gameId": 585,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 3608,
+          "position": 4,
+          "gameTitle": "The Legend of Zelda: A Link Between Worlds",
+          "gameId": 1014,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 3609,
+          "position": 5,
+          "gameTitle": "The Last of Us",
+          "gameId": 320,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 3610,
+          "position": 6,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 3611,
+          "position": 7,
+          "gameTitle": "Antichamber",
+          "gameId": 1057,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 3612,
+          "position": 8,
+          "gameTitle": "DmC: Devil May Cry",
+          "gameId": 1058,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 3613,
+          "position": 9,
+          "gameTitle": "Final Fantasy XIV: A Realm Reborn - Collector\u0027s Edition",
+          "gameId": 1059,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 3614,
+          "position": 10,
+          "gameTitle": "Ni no Kuni: Wrath of the White Witch",
+          "gameId": 491,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 3615,
+          "position": 11,
+          "gameTitle": "Fire Emblem: Awakening",
+          "gameId": 1060,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 3616,
+          "position": 12,
+          "gameTitle": "Saints Row IV",
+          "gameId": 1061,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 3617,
+          "position": 13,
+          "gameTitle": "Dead Rising 3",
+          "gameId": 1062,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 3618,
+          "position": 14,
+          "gameTitle": "Pok\u00E9mon X",
+          "gameId": 1013,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 3619,
+          "position": 15,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 600,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-games-2013/",
+      "dateAdded": "2023-07-01T14:07:30.196236Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 32,
+        "title": "Best Games of",
+        "year": 2013,
+        "slug": "best-games-of-2013",
+        "fullName": "Best Games of 2013"
+      },
+      "items": [
+        {
+          "id": 4886,
+          "position": 1,
+          "gameTitle": "The Last of Us",
+          "gameId": 320,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4887,
+          "position": 2,
+          "gameTitle": "Tomb Raider",
+          "gameId": 1406,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4888,
+          "position": 3,
+          "gameTitle": "BioShock Infinite",
+          "gameId": 333,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4889,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto V",
+          "gameId": 323,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4890,
+          "position": 5,
+          "gameTitle": "Super Mario 3D World",
+          "gameId": 585,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4891,
+          "position": 6,
+          "gameTitle": "Battlefield 4",
+          "gameId": 872,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4892,
+          "position": 7,
+          "gameTitle": "Assassin\u0027s Creed IV Black Flag",
+          "gameId": 1401,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4893,
+          "position": 8,
+          "gameTitle": "Fire Emblem: Awakening",
+          "gameId": 1060,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4894,
+          "position": 9,
+          "gameTitle": "The Legend of Zelda: A Link Between Worlds",
+          "gameId": 1014,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4895,
+          "position": 10,
+          "gameTitle": "Gone Home",
+          "gameId": 785,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4896,
+          "position": 11,
+          "gameTitle": "Rayman Legends",
+          "gameId": 584,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4897,
+          "position": 12,
+          "gameTitle": "Pikmin 3",
+          "gameId": 581,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4898,
+          "position": 13,
+          "gameTitle": "Guacamelee!",
+          "gameId": 1407,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4899,
+          "position": 14,
+          "gameTitle": "Metro: Last Light",
+          "gameId": 1403,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4900,
+          "position": 15,
+          "gameTitle": "Brothers: A Tale of Two Sons",
+          "gameId": 1408,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 602,
+      "byUser": false,
+      "sourceListUrl": "https://techraptor.net/gaming/features/best-games-of-2013",
+      "dateAdded": "2023-07-01T14:07:32.478962Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 225,
+        "name": "Techraptor",
+        "hostUrl": "techraptor.net"
+      },
+      "finalGameList": {
+        "id": 32,
+        "title": "Best Games of",
+        "year": 2013,
+        "slug": "best-games-of-2013",
+        "fullName": "Best Games of 2013"
+      },
+      "items": [
+        {
+          "id": 4916,
+          "position": 1,
+          "gameTitle": "The Last of Us",
+          "gameId": 320,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 4917,
+          "position": 2,
+          "gameTitle": "Papers, Please",
+          "gameId": 645,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 4918,
+          "position": 3,
+          "gameTitle": "The Stanley Parable",
+          "gameId": 643,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 4919,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto V",
+          "gameId": 323,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 4920,
+          "position": 5,
+          "gameTitle": "BioShock Infinite",
+          "gameId": 333,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 4921,
+          "position": 6,
+          "gameTitle": "Fire Emblem: Awakening",
+          "gameId": 1060,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 4922,
+          "position": 7,
+          "gameTitle": "Assassin\u0027s Creed IV Black Flag",
+          "gameId": 1401,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 4923,
+          "position": 8,
+          "gameTitle": "Metro: Last Light",
+          "gameId": 1403,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 4924,
+          "position": 9,
+          "gameTitle": "Metal Gear Rising: Revengeance",
+          "gameId": 1402,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 4925,
+          "position": 10,
+          "gameTitle": "Far Cry 3: Blood Dragon",
+          "gameId": 1404,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 4926,
+          "position": 11,
+          "gameTitle": "Call of Juarez: Gunslinger",
+          "gameId": 1405,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 4927,
+          "position": 12,
+          "gameTitle": "Pok\u00E9mon X",
+          "gameId": 1013,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 4928,
+          "position": 13,
+          "gameTitle": "Tomb Raider",
+          "gameId": 1406,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 4929,
+          "position": 14,
+          "gameTitle": "Saints Row IV",
+          "gameId": 1061,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 4930,
+          "position": 15,
+          "gameTitle": "Rogue Legacy",
+          "gameId": 621,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

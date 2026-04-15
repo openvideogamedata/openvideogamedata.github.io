@@ -1,0 +1,148 @@
+{
+  "syncedAt": "2026-04-15T10:54:36.3444309Z",
+  "slug": "most-anticipated-games-of-2024",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 1004,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2024-03-30T23:43:44.823952Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 86,
+        "title": "Most Anticipated Games of",
+        "year": 2024,
+        "slug": "most-anticipated-games-of-2024",
+        "fullName": "Most Anticipated Games of 2024"
+      },
+      "items": [
+        {
+          "id": 10332,
+          "position": 1,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10333,
+          "position": 2,
+          "gameTitle": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+          "gameId": 993,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10334,
+          "position": 3,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10335,
+          "position": 4,
+          "gameTitle": "Dragon\u0027s Dogma II",
+          "gameId": 1524,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10336,
+          "position": 5,
+          "gameTitle": "Tekken 8",
+          "gameId": 1520,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 10337,
+          "position": 6,
+          "gameTitle": "Senua\u0027s Saga: Hellblade II",
+          "gameId": 1522,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 10338,
+          "position": 7,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 9
+        }
+      ]
+    },
+    {
+      "id": 1018,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2024-04-19T01:33:43.864583Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 86,
+        "title": "Most Anticipated Games of",
+        "year": 2024,
+        "slug": "most-anticipated-games-of-2024",
+        "fullName": "Most Anticipated Games of 2024"
+      },
+      "items": [
+        {
+          "id": 10580,
+          "position": 1,
+          "gameTitle": "Hollow Knight: Silksong",
+          "gameId": 988,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 10581,
+          "position": 2,
+          "gameTitle": "Senua\u0027s Saga: Hellblade II",
+          "gameId": 1522,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 10582,
+          "position": 3,
+          "gameTitle": "Silent Hill 2",
+          "gameId": 1441,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 10583,
+          "position": 4,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 10584,
+          "position": 5,
+          "gameTitle": "Microsoft Flight Simulator 2024",
+          "gameId": 2208,
+          "coverImageUrl": null,
+          "score": 11
+        }
+      ]
+    }
+  ]
+}

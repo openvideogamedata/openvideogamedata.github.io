@@ -1,0 +1,698 @@
+{
+  "syncedAt": "2026-04-15T10:54:23.108799Z",
+  "slug": "best-games-of-the-psp",
+  "type": 1,
+  "totalItems": 5,
+  "data": [
+    {
+      "id": 700,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamesradar.com/best-psp-games/",
+      "dateAdded": "2023-08-07T20:16:02.366821Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 129,
+        "name": "GamesRadar\u002B",
+        "hostUrl": "www.gamesradar.com"
+      },
+      "finalGameList": {
+        "id": 71,
+        "title": "Best Games of the PSP",
+        "year": null,
+        "slug": "best-games-of-the-psp",
+        "fullName": "Best Games of the PSP"
+      },
+      "items": [
+        {
+          "id": 6815,
+          "position": 1,
+          "gameTitle": "Lumines: Puzzle Fusion",
+          "gameId": 1614,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6816,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid: Peace Walker",
+          "gameId": 1615,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6817,
+          "position": 3,
+          "gameTitle": "God of War: Ghost of Sparta",
+          "gameId": 1616,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6818,
+          "position": 4,
+          "gameTitle": "Daxter",
+          "gameId": 1617,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6819,
+          "position": 5,
+          "gameTitle": "Patapon 3",
+          "gameId": 1618,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6820,
+          "position": 6,
+          "gameTitle": "Grand Theft Auto: Vice City Stories",
+          "gameId": 1619,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6821,
+          "position": 7,
+          "gameTitle": "Crisis Core: Final Fantasy VII",
+          "gameId": 1620,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6822,
+          "position": 8,
+          "gameTitle": "Monster Hunter Freedom",
+          "gameId": 1621,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6823,
+          "position": 9,
+          "gameTitle": "Power Stone Collection",
+          "gameId": 1622,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6824,
+          "position": 10,
+          "gameTitle": "Castlevania: The Dracula X Chronicles",
+          "gameId": 1623,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6825,
+          "position": 11,
+          "gameTitle": "Final Fantasy Tactics: The War of the Lions",
+          "gameId": 1624,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6826,
+          "position": 12,
+          "gameTitle": "Valkyria Chronicles 2",
+          "gameId": 1625,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6827,
+          "position": 13,
+          "gameTitle": "LocoRoco 2",
+          "gameId": 1626,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6828,
+          "position": 14,
+          "gameTitle": "Persona 3 Portable",
+          "gameId": 745,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6829,
+          "position": 15,
+          "gameTitle": "Dissidia 012: Duodecim Final Fantasy",
+          "gameId": 1627,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 711,
+      "byUser": false,
+      "sourceListUrl": "https://www.ign.com/articles/the-10-best-psp-games",
+      "dateAdded": "2023-08-08T02:39:31.807763Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 94,
+        "name": "IGN",
+        "hostUrl": "www.ign.com"
+      },
+      "finalGameList": {
+        "id": 71,
+        "title": "Best Games of the PSP",
+        "year": null,
+        "slug": "best-games-of-the-psp",
+        "fullName": "Best Games of the PSP"
+      },
+      "items": [
+        {
+          "id": 6965,
+          "position": 1,
+          "gameTitle": "Metal Gear Solid: Peace Walker",
+          "gameId": 1615,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6966,
+          "position": 2,
+          "gameTitle": "Final Fantasy Tactics: The War of the Lions",
+          "gameId": 1624,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6967,
+          "position": 3,
+          "gameTitle": "Monster Hunter Freedom Unite",
+          "gameId": 1676,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6968,
+          "position": 4,
+          "gameTitle": "Persona 3 Portable",
+          "gameId": 745,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6969,
+          "position": 5,
+          "gameTitle": "Lumines",
+          "gameId": 1124,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6970,
+          "position": 6,
+          "gameTitle": "Crisis Core: Final Fantasy VII",
+          "gameId": 1620,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6971,
+          "position": 7,
+          "gameTitle": "Kingdom Hearts Birth by Sleep",
+          "gameId": 1677,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6972,
+          "position": 8,
+          "gameTitle": "God of War: Ghost of Sparta",
+          "gameId": 1616,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6973,
+          "position": 9,
+          "gameTitle": "Grand Theft Auto: Liberty City Stories",
+          "gameId": 1115,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6974,
+          "position": 10,
+          "gameTitle": "Daxter",
+          "gameId": 1617,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 712,
+      "byUser": false,
+      "sourceListUrl": "https://retrododo.com/best-psp-games/",
+      "dateAdded": "2023-08-08T02:43:21.792517Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 157,
+        "name": "Retrododo",
+        "hostUrl": "retrododo.com"
+      },
+      "finalGameList": {
+        "id": 71,
+        "title": "Best Games of the PSP",
+        "year": null,
+        "slug": "best-games-of-the-psp",
+        "fullName": "Best Games of the PSP"
+      },
+      "items": [
+        {
+          "id": 6975,
+          "position": 1,
+          "gameTitle": "God of War: Ghost of Sparta",
+          "gameId": 1616,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 6976,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid: Peace Walker",
+          "gameId": 1615,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 6977,
+          "position": 3,
+          "gameTitle": "Tekken 6",
+          "gameId": 1679,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 6978,
+          "position": 4,
+          "gameTitle": "Kingdom Hearts Birth by Sleep",
+          "gameId": 1677,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 6979,
+          "position": 5,
+          "gameTitle": "Castlevania: The Dracula X Chronicles",
+          "gameId": 1623,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 6980,
+          "position": 6,
+          "gameTitle": "Secret Agent Clank",
+          "gameId": 1680,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 6981,
+          "position": 7,
+          "gameTitle": "Syphon Filter: Logan\u0027s Shadow",
+          "gameId": 1681,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 6982,
+          "position": 8,
+          "gameTitle": "Grand Theft Auto: Vice City Stories",
+          "gameId": 1619,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 6983,
+          "position": 9,
+          "gameTitle": "Crisis Core: Final Fantasy VII",
+          "gameId": 1620,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 6984,
+          "position": 10,
+          "gameTitle": "Valkyria Chronicles 2",
+          "gameId": 1625,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 6985,
+          "position": 11,
+          "gameTitle": "LocoRoco 2",
+          "gameId": 1626,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 6986,
+          "position": 12,
+          "gameTitle": "Daxter",
+          "gameId": 1617,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 6987,
+          "position": 13,
+          "gameTitle": "Patapon 3",
+          "gameId": 1618,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 6988,
+          "position": 14,
+          "gameTitle": "Gran Turismo",
+          "gameId": 1683,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 6989,
+          "position": 15,
+          "gameTitle": "Persona 3 Portable",
+          "gameId": 745,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 734,
+      "byUser": false,
+      "sourceListUrl": "https://gaminggorilla.com/best-psp-games/",
+      "dateAdded": "2023-08-08T14:45:19.642158Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 156,
+        "name": "Gaming Gorilla",
+        "hostUrl": "gaminggorilla.com"
+      },
+      "finalGameList": {
+        "id": 71,
+        "title": "Best Games of the PSP",
+        "year": null,
+        "slug": "best-games-of-the-psp",
+        "fullName": "Best Games of the PSP"
+      },
+      "items": [
+        {
+          "id": 7268,
+          "position": 1,
+          "gameTitle": "God of War: Chains of Olympus",
+          "gameId": 1706,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7269,
+          "position": 2,
+          "gameTitle": "Grand Theft Auto: Chinatown Wars",
+          "gameId": 435,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7270,
+          "position": 3,
+          "gameTitle": "Metal Gear Solid: Peace Walker",
+          "gameId": 1615,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7271,
+          "position": 4,
+          "gameTitle": "Lumines",
+          "gameId": 1124,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7272,
+          "position": 5,
+          "gameTitle": "Grand Theft Auto: Liberty City Stories",
+          "gameId": 1115,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7273,
+          "position": 6,
+          "gameTitle": "Kingdom Hearts Birth by Sleep",
+          "gameId": 1677,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7274,
+          "position": 7,
+          "gameTitle": "Final Fantasy Tactics: The War of the Lions",
+          "gameId": 1624,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7275,
+          "position": 8,
+          "gameTitle": "Persona 3 Portable",
+          "gameId": 745,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7276,
+          "position": 9,
+          "gameTitle": "God of War: Ghost of Sparta",
+          "gameId": 1616,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7277,
+          "position": 10,
+          "gameTitle": "Monster Hunter Freedom Unite",
+          "gameId": 1676,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7278,
+          "position": 11,
+          "gameTitle": "Syphon Filter: Dark Mirror",
+          "gameId": 1707,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7279,
+          "position": 12,
+          "gameTitle": "Wipeout Pure",
+          "gameId": 1708,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7280,
+          "position": 13,
+          "gameTitle": "LocoRoco 2",
+          "gameId": 1626,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7281,
+          "position": 14,
+          "gameTitle": "Daxter",
+          "gameId": 1617,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7282,
+          "position": 15,
+          "gameTitle": "Ridge Racer",
+          "gameId": 1709,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "byUser": false,
+      "sourceListUrl": "https://culturedvultures.com/best-psp-games/",
+      "dateAdded": "2023-08-08T14:49:10.617029Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": {
+        "id": 158,
+        "name": "Culturedvultures",
+        "hostUrl": "culturedvultures.com"
+      },
+      "finalGameList": {
+        "id": 71,
+        "title": "Best Games of the PSP",
+        "year": null,
+        "slug": "best-games-of-the-psp",
+        "fullName": "Best Games of the PSP"
+      },
+      "items": [
+        {
+          "id": 7283,
+          "position": 1,
+          "gameTitle": "Final Fantasy Tactics: The War of the Lions",
+          "gameId": 1624,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 7284,
+          "position": 2,
+          "gameTitle": "Metal Gear Solid: Peace Walker",
+          "gameId": 1615,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 7285,
+          "position": 3,
+          "gameTitle": "God of War: Ghost of Sparta",
+          "gameId": 1616,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 7286,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto: Vice City Stories",
+          "gameId": 1619,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 7287,
+          "position": 5,
+          "gameTitle": "Patapon",
+          "gameId": 1710,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 7288,
+          "position": 6,
+          "gameTitle": "LocoRoco 2",
+          "gameId": 1626,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 7289,
+          "position": 7,
+          "gameTitle": "Persona 3 Portable",
+          "gameId": 745,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 7290,
+          "position": 8,
+          "gameTitle": "Monster Hunter Freedom Unite",
+          "gameId": 1676,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 7291,
+          "position": 9,
+          "gameTitle": "Wipeout Pure",
+          "gameId": 1708,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 7292,
+          "position": 10,
+          "gameTitle": "Valkyria Chronicles 2",
+          "gameId": 1625,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 7293,
+          "position": 11,
+          "gameTitle": "Disgaea: Afternoon of Darkness",
+          "gameId": 1711,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 7294,
+          "position": 12,
+          "gameTitle": "MediEvil: Resurrection",
+          "gameId": 1712,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 7295,
+          "position": 13,
+          "gameTitle": "Syphon Filter: Dark Mirror",
+          "gameId": 1707,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 7296,
+          "position": 14,
+          "gameTitle": "Daxter",
+          "gameId": 1617,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 7297,
+          "position": 15,
+          "gameTitle": "Lumines: Puzzle Fusion",
+          "gameId": 1614,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

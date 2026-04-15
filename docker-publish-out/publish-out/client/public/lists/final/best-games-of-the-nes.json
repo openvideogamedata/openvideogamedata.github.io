@@ -1,0 +1,377 @@
+{
+  "syncedAt": "2026-04-15T11:33:59.0132356Z",
+  "slug": "best-games-of-the-nes",
+  "type": 0,
+  "totalItems": 5,
+  "data": {
+    "finalGameList": {
+      "id": 5,
+      "title": "Best Games of the NES",
+      "year": null,
+      "slug": "best-games-of-the-nes",
+      "fullName": "Best Games of the NES",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "console, nintendo",
+      "tagList": [
+        "console",
+        "nintendo"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the Wii U",
+          "sourceUrl": "best-games-of-the-wii-u",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy",
+          "sourceUrl": "best-games-of-the-game-boy",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Wii",
+          "sourceUrl": "best-games-of-the-wii",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the GameCube",
+          "sourceUrl": "best-games-of-the-gamecube",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Nintendo 64",
+          "sourceUrl": "best-games-of-the-nintendo-64",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Nintendo Switch",
+          "sourceUrl": "best-games-of-the-nintendo-switch",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the SNES",
+          "sourceUrl": "best-games-of-the-snes",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Game Boy Advance",
+          "sourceUrl": "best-games-of-the-game-boy-advance",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy Color",
+          "sourceUrl": "best-games-of-the-game-boy-color",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo 3DS",
+          "sourceUrl": "best-games-of-the-nintendo-3ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo DS",
+          "sourceUrl": "best-games-of-the-nintendo-ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 507,
+        "gameTitle": "Super Mario Bros. 3",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1988-10-23T00:00:00Z",
+        "releaseYear": 1988,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bpy.jpg",
+        "score": 72,
+        "position": 1,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 18,
+        "gameTitle": "The Legend of Zelda",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1986-02-21T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uii.jpg",
+        "score": 66,
+        "position": 2,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 554,
+        "gameTitle": "Mega Man 2",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "1989-06-02T00:00:00Z",
+        "releaseYear": 1989,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5x42.jpg",
+        "score": 51,
+        "position": 4,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 553,
+        "gameTitle": "Super Mario Bros.",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "1985-09-13T00:00:00Z",
+        "releaseYear": 1985,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bni.jpg",
+        "score": 48,
+        "position": 3,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 562,
+        "gameTitle": "Contra",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "1987-02-20T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ben.jpg",
+        "score": 38,
+        "position": 12,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 556,
+        "gameTitle": "Metroid",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1986-08-06T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xe8.jpg",
+        "score": 34,
+        "position": 6,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 675,
+        "gameTitle": "Kirby\u0027s Adventure",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "1993-03-23T00:00:00Z",
+        "releaseYear": 1993,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xdv.jpg",
+        "score": 31,
+        "position": 8,
+        "gameListId": 382,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 681,
+        "gameTitle": "Castlevania III: Dracula\u0027s Curse",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1990-09-01T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dbm.jpg",
+        "score": 29,
+        "position": 6,
+        "gameListId": 419,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 673,
+        "gameTitle": "Tetris",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1989-11-01T00:00:00Z",
+        "releaseYear": 1989,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufk.jpg",
+        "score": 27,
+        "position": 3,
+        "gameListId": 382,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 557,
+        "gameTitle": "Mike Tyson\u0027s Punch-Out!!",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1987-10-18T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6386.jpg",
+        "score": 21,
+        "position": 7,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 555,
+        "gameTitle": "Castlevania",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "1986-09-26T00:00:00Z",
+        "releaseYear": 1986,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6dcb.jpg",
+        "score": 17,
+        "position": 5,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 559,
+        "gameTitle": "Bionic Commando",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1987-12-31T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ih2.jpg",
+        "score": 15,
+        "position": 9,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 561,
+        "gameTitle": "Final Fantasy",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "1987-12-18T00:00:00Z",
+        "releaseYear": 1987,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2xv8.jpg",
+        "score": 15,
+        "position": 11,
+        "gameListId": 363,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 674,
+        "gameTitle": "Crystalis",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "1990-04-13T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ek8.jpg",
+        "score": 13,
+        "position": 7,
+        "gameListId": 382,
+        "finalGameListId": 5
+      },
+      {
+        "gameId": 1863,
+        "gameTitle": "Mega Man 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "1990-09-28T00:00:00Z",
+        "releaseYear": 1990,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55ce.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 798,
+        "finalGameListId": 5
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/lists/top-100-nes-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-nes-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Denofgeek",
+        "sourceUrl": "https://www.denofgeek.com/games/best-nes-games-all-time-ever/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retro-sanctuary",
+        "sourceUrl": "https://retro-sanctuary.com/Top-100-NES-Games-Page-1.html",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nintendo Life",
+        "sourceUrl": "https://www.nintendolife.com/guides/50-best-nes-games-of-all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 40
+      },
+      {
+        "userContributedId": 63,
+        "fullName": "PinballWizzrobe",
+        "nickname": "PinballWizzrobe",
+        "numberOfContributions": 30,
+        "porcentageOfContributions": 40
+      },
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 20
+      }
+    ]
+  }
+}

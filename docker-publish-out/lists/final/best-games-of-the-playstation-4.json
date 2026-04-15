@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:40.6817522Z",
+  "slug": "best-games-of-the-playstation-4",
+  "type": 0,
+  "totalItems": 13,
+  "data": {
+    "id": 18,
+    "title": "Best Games of the PlayStation 4",
+    "year": null,
+    "numberOfGames": 60,
+    "numberOfSources": 13,
+    "slug": "best-games-of-the-playstation-4",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 345,
+        "gameTitle": "God of War",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2018-04-20T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
+        "score": 123,
+        "position": 1,
+        "gameListId": 303,
+        "finalGameListId": 18
+      },
+      {
+        "gameId": 347,
+        "gameTitle": "The Witcher 3: Wild Hunt",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 82,
+        "firstReleaseDate": "2015-05-19T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
+        "score": 100,
+        "position": 4,
+        "gameListId": 303,
+        "finalGameListId": 18
+      },
+      {
+        "gameId": 352,
+        "gameTitle": "Red Dead Redemption 2",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 73,
+        "firstReleaseDate": "2018-10-26T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+        "score": 78,
+        "position": 11,
+        "gameListId": 303,
+        "finalGameListId": 18
+      },
+      {
+        "gameId": 346,
+        "gameTitle": "Bloodborne",
+        "trackStatus": 0,
+        "citations": 7,
+        "porcentageOfCitations": 64,
+        "firstReleaseDate": "2015-03-24T00:00:00Z",
+        "releaseYear": 2015,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rba.jpg",
+        "score": 71,
+        "position": 3,
+        "gameListId": 303,
+        "finalGameListId": 18
+      }
+    ]
+  }
+}

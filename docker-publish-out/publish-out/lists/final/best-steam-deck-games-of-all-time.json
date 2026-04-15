@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:45:17.1501847Z",
+  "slug": "best-steam-deck-games-of-all-time",
+  "type": 0,
+  "totalItems": 12,
+  "data": {
+    "id": 54,
+    "title": "Best Steam Deck Games",
+    "year": null,
+    "numberOfGames": 95,
+    "numberOfSources": 12,
+    "slug": "best-steam-deck-games-of-all-time",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 252,
+        "gameTitle": "Vampire Survivors",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2021-12-17T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg",
+        "score": 74,
+        "position": 1,
+        "gameListId": 407,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 10,
+        "gameTitle": "Elden Ring",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2022-02-25T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg",
+        "score": 69,
+        "position": 5,
+        "gameListId": 416,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 386,
+        "gameTitle": "Stardew Valley",
+        "trackStatus": 0,
+        "citations": 5,
+        "porcentageOfCitations": 42,
+        "firstReleaseDate": "2016-02-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.jpg",
+        "score": 56,
+        "position": 5,
+        "gameListId": 406,
+        "finalGameListId": 54
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 6,
+        "porcentageOfCitations": 50,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 51,
+        "position": 7,
+        "gameListId": 407,
+        "finalGameListId": 54
+      }
+    ]
+  }
+}

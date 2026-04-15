@@ -1,0 +1,292 @@
+{
+  "syncedAt": "2026-04-15T10:53:18.0376398Z",
+  "slug": "best-games-of-the-playstation-1",
+  "type": 2,
+  "totalItems": 2,
+  "data": [
+    {
+      "id": 439,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-05-27T21:44:37.921728Z",
+      "dateLastUpdated": "2025-04-15T13:00:35.684527Z",
+      "userContributed": {
+        "id": 2,
+        "nickname": "diguifi",
+        "fullName": "diguifi"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 8,
+        "title": "Best Games of the PlayStation 1",
+        "year": null,
+        "slug": "best-games-of-the-playstation-1",
+        "fullName": "Best Games of the PlayStation 1"
+      },
+      "items": [
+        {
+          "id": 11341,
+          "position": 1,
+          "gameTitle": "Crash Bandicoot 2: Cortex Strikes Back",
+          "gameId": 299,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 11342,
+          "position": 2,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 2",
+          "gameId": 249,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 11343,
+          "position": 3,
+          "gameTitle": "Resident Evil 2",
+          "gameId": 248,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 11344,
+          "position": 4,
+          "gameTitle": "Silent Hill",
+          "gameId": 256,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 11345,
+          "position": 5,
+          "gameTitle": "Metal Gear Solid",
+          "gameId": 237,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 11346,
+          "position": 6,
+          "gameTitle": "Gran Turismo 2",
+          "gameId": 244,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 11347,
+          "position": 7,
+          "gameTitle": "Crash Bandicoot",
+          "gameId": 24,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 11348,
+          "position": 8,
+          "gameTitle": "Resident Evil",
+          "gameId": 341,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 11349,
+          "position": 9,
+          "gameTitle": "Disney\u0027s Tarzan",
+          "gameId": 782,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 11350,
+          "position": 10,
+          "gameTitle": "Driver",
+          "gameId": 300,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 11351,
+          "position": 11,
+          "gameTitle": "Crash Bandicoot: Warped",
+          "gameId": 243,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 11352,
+          "position": 12,
+          "gameTitle": "Crash Team Racing",
+          "gameId": 344,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 11353,
+          "position": 13,
+          "gameTitle": "Stuart Little 2",
+          "gameId": 783,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 11354,
+          "position": 14,
+          "gameTitle": "Grand Theft Auto 2",
+          "gameId": 784,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 11355,
+          "position": 15,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 3",
+          "gameId": 432,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 628,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2023-07-19T22:15:42.282223Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 52,
+        "nickname": "110420072979302621163",
+        "fullName": "Furious Specter"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 8,
+        "title": "Best Games of the PlayStation 1",
+        "year": null,
+        "slug": "best-games-of-the-playstation-1",
+        "fullName": "Best Games of the PlayStation 1"
+      },
+      "items": [
+        {
+          "id": 5413,
+          "position": 1,
+          "gameTitle": "Driver 2: Back on the Streets",
+          "gameId": 396,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 5414,
+          "position": 2,
+          "gameTitle": "Final Fantasy IX",
+          "gameId": 302,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 5415,
+          "position": 3,
+          "gameTitle": "Crash Bandicoot: Warped",
+          "gameId": 243,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 5416,
+          "position": 4,
+          "gameTitle": "Crash Team Racing",
+          "gameId": 344,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 5417,
+          "position": 5,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 2",
+          "gameId": 249,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 5418,
+          "position": 6,
+          "gameTitle": "Final Fantasy VII",
+          "gameId": 247,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 5419,
+          "position": 7,
+          "gameTitle": "Toy Story 2: Buzz Lightyear to the Rescue!",
+          "gameId": 1455,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 5420,
+          "position": 8,
+          "gameTitle": "World Soccer Jikkyou Winning Eleven 3: Final Ver.",
+          "gameId": 1456,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 5421,
+          "position": 9,
+          "gameTitle": "Dragon Ball GT: Final Bout",
+          "gameId": 1459,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 5422,
+          "position": 10,
+          "gameTitle": "Yu-Gi-Oh! Forbidden Memories",
+          "gameId": 1457,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 5423,
+          "position": 11,
+          "gameTitle": "Gran Turismo 2",
+          "gameId": 244,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 5424,
+          "position": 12,
+          "gameTitle": "Disney\u0027s Tarzan",
+          "gameId": 1458,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 5425,
+          "position": 13,
+          "gameTitle": "Tony Hawk\u0027s Pro Skater 4",
+          "gameId": 1460,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 5426,
+          "position": 14,
+          "gameTitle": "Dragon Ball Z: The Legend",
+          "gameId": 1462,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 5427,
+          "position": 15,
+          "gameTitle": "Dragon Ball Z: Ultimate Battle 22",
+          "gameId": 1461,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    }
+  ]
+}

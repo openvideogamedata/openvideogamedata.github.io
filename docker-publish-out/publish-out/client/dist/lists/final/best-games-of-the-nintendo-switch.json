@@ -1,0 +1,678 @@
+{
+  "syncedAt": "2026-04-15T11:34:28.1306934Z",
+  "slug": "best-games-of-the-nintendo-switch",
+  "type": 0,
+  "totalItems": 32,
+  "data": {
+    "finalGameList": {
+      "id": 20,
+      "title": "Best Games of the Nintendo Switch",
+      "year": null,
+      "slug": "best-games-of-the-nintendo-switch",
+      "fullName": "Best Games of the Nintendo Switch",
+      "socialUrl": "https://www.reddit.com/r/Switch/comments/13r47ao/best_nintendo_switch_games_of_all_time_based_on/",
+      "socialComments": 202,
+      "tags": "console, nintendo, handheld",
+      "tagList": [
+        "console",
+        "nintendo",
+        "handheld"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": true,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of The Game Boy",
+          "sourceUrl": "best-games-of-the-game-boy",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of the Game Boy Advance",
+          "sourceUrl": "best-games-of-the-game-boy-advance",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Game Boy Color",
+          "sourceUrl": "best-games-of-the-game-boy-color",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo 3DS",
+          "sourceUrl": "best-games-of-the-nintendo-3ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        },
+        {
+          "sourceName": "Best Games of The Nintendo DS",
+          "sourceUrl": "best-games-of-the-nintendo-ds",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 90,
+        "gameTitle": "Super Mario Odyssey",
+        "trackStatus": 0,
+        "citations": 24,
+        "porcentageOfCitations": 89,
+        "firstReleaseDate": "2017-10-27T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg",
+        "score": 282,
+        "position": 11,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 23,
+        "gameTitle": "The Legend of Zelda: Breath of the Wild",
+        "trackStatus": 0,
+        "citations": 20,
+        "porcentageOfCitations": 74,
+        "firstReleaseDate": "2017-03-03T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+        "score": 266,
+        "position": 1,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 20,
+        "porcentageOfCitations": 74,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 266,
+        "position": 2,
+        "gameListId": 385,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 96,
+        "gameTitle": "Mario Kart 8 Deluxe",
+        "trackStatus": 0,
+        "citations": 19,
+        "porcentageOfCitations": 70,
+        "firstReleaseDate": "2017-04-28T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213p.jpg",
+        "score": 190,
+        "position": 4,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 92,
+        "gameTitle": "Animal Crossing: New Horizons",
+        "trackStatus": 0,
+        "citations": 18,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2020-03-19T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.jpg",
+        "score": 178,
+        "position": 3,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 91,
+        "gameTitle": "Super Smash Bros. Ultimate",
+        "trackStatus": 0,
+        "citations": 17,
+        "porcentageOfCitations": 63,
+        "firstReleaseDate": "2018-12-07T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.jpg",
+        "score": 165,
+        "position": 7,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 93,
+        "gameTitle": "Metroid Dread",
+        "trackStatus": 0,
+        "citations": 18,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2021-10-07T00:00:00Z",
+        "releaseYear": 2021,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39zx.jpg",
+        "score": 164,
+        "position": 2,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 95,
+        "gameTitle": "Hades",
+        "trackStatus": 0,
+        "citations": 17,
+        "porcentageOfCitations": 63,
+        "firstReleaseDate": "2019-12-10T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.jpg",
+        "score": 147,
+        "position": 8,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 107,
+        "gameTitle": "Metroid Prime Remastered",
+        "trackStatus": 0,
+        "citations": 13,
+        "porcentageOfCitations": 48,
+        "firstReleaseDate": "2023-02-08T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co658o.jpg",
+        "score": 126,
+        "position": 3,
+        "gameListId": 383,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 89,
+        "gameTitle": "Xenoblade Chronicles 3",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 44,
+        "firstReleaseDate": "2022-07-29T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ocq.jpg",
+        "score": 99,
+        "position": 10,
+        "gameListId": 386,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 110,
+        "gameTitle": "Pok\u00E9mon Legends: Arceus",
+        "trackStatus": 0,
+        "citations": 10,
+        "porcentageOfCitations": 37,
+        "firstReleaseDate": "2022-01-28T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.jpg",
+        "score": 93,
+        "position": 9,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 97,
+        "gameTitle": "Fire Emblem: Three Houses",
+        "trackStatus": 0,
+        "citations": 12,
+        "porcentageOfCitations": 44,
+        "firstReleaseDate": "2019-07-25T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n8t.jpg",
+        "score": 88,
+        "position": 8,
+        "gameListId": 385,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 109,
+        "gameTitle": "Splatoon 3",
+        "trackStatus": 0,
+        "citations": 8,
+        "porcentageOfCitations": 30,
+        "firstReleaseDate": "2022-09-09T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co59x3.jpg",
+        "score": 68,
+        "position": 7,
+        "gameListId": 383,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 94,
+        "gameTitle": "Luigi\u0027s Mansion 3",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2019-10-31T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.jpg",
+        "score": 62,
+        "position": 15,
+        "gameListId": 369,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 145,
+        "gameTitle": "Hollow Knight",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 33,
+        "firstReleaseDate": "2017-02-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+        "score": 61,
+        "position": 5,
+        "gameListId": 369,
+        "finalGameListId": 20
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [
+      {
+        "gameId": 21,
+        "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2023-05-12T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.jpg",
+        "score": 60,
+        "position": 1,
+        "gameListId": 496,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 23,
+        "gameTitle": "The Legend of Zelda: Breath of the Wild",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 80,
+        "firstReleaseDate": "2017-03-03T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+        "score": 53,
+        "position": 2,
+        "gameListId": 496,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 90,
+        "gameTitle": "Super Mario Odyssey",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2017-10-27T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1mxf.jpg",
+        "score": 39,
+        "position": 4,
+        "gameListId": 496,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 96,
+        "gameTitle": "Mario Kart 8 Deluxe",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 60,
+        "firstReleaseDate": "2017-04-28T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213p.jpg",
+        "score": 31,
+        "position": 2,
+        "gameListId": 626,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 91,
+        "gameTitle": "Super Smash Bros. Ultimate",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2018-12-07T00:00:00Z",
+        "releaseYear": 2018,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2255.jpg",
+        "score": 23,
+        "position": 3,
+        "gameListId": 496,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 1438,
+        "gameTitle": "Super Mario Bros. Wonder",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 40,
+        "firstReleaseDate": "2023-10-20T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nnl.jpg",
+        "score": 21,
+        "position": 4,
+        "gameListId": 560,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 386,
+        "gameTitle": "Stardew Valley",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2016-02-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/xrpmydnu9rpxvxfjkiu7.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 445,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 201,
+        "gameTitle": "Minecraft",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2011-11-18T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co49x5.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 445,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 1454,
+        "gameTitle": "New Super Mario Bros. U Deluxe",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2019-01-11T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uhl.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 626,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 1445,
+        "gameTitle": "Pikmin 4",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2023-07-21T00:00:00Z",
+        "releaseYear": 2023,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co657e.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 803,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 145,
+        "gameTitle": "Hollow Knight",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2017-02-24T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rgi.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 560,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 102,
+        "gameTitle": "Splatoon 2",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2017-07-21T00:00:00Z",
+        "releaseYear": 2017,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25zh.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 496,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 1251,
+        "gameTitle": "The Talos Principle",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2014-12-11T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rb5.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 560,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 634,
+        "gameTitle": "Hotline Miami",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2012-10-23T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 560,
+        "finalGameListId": 20
+      },
+      {
+        "gameId": 89,
+        "gameTitle": "Xenoblade Chronicles 3",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 20,
+        "firstReleaseDate": "2022-07-29T00:00:00Z",
+        "releaseYear": 2022,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ocq.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 803,
+        "finalGameListId": 20
+      }
+    ],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "sources": [
+      {
+        "sourceName": "Tom\u0027s Guide",
+        "sourceUrl": "https://www.tomsguide.com/round-up/best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "News AU",
+        "sourceUrl": "https://www.news.com.au/best-of/electronics/home-entertainment/best-nintendo-switch-games/news-story/112e1d7351316dcadfc14e2bc2620b78",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Pocket-lint",
+        "sourceUrl": "https://www.pocket-lint.com/best-nintendo-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Switchscores",
+        "sourceUrl": "https://www.switchscores.com/top-rated/all-time",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gaming Gorilla",
+        "sourceUrl": "https://gaminggorilla.com/best-nintendo-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamebyte",
+        "sourceUrl": "https://www.gamebyte.com/10-best-nintendo-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Laptopmag",
+        "sourceUrl": "https://www.laptopmag.com/best-picks/best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Retrododo",
+        "sourceUrl": "https://retrododo.com/best-nintendo-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Metacritic",
+        "sourceUrl": "https://www.metacritic.com/browse/games/score/metascore/all/switch/filtered",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Nintendo Life",
+        "sourceUrl": "https://www.nintendolife.com/guides/50-best-nintendo-switch-games-so-far",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Paste Magazine",
+        "sourceUrl": "https://www.pastemagazine.com/games/nintendo-switch/the-15-best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Pockettactics",
+        "sourceUrl": "https://www.pockettactics.com/best-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Edition",
+        "sourceUrl": "https://edition.cnn.com/cnn-underscored/electronics/best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Eurogamer",
+        "sourceUrl": "https://www.eurogamer.de/nintendo-switch-die-besten-spiele",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Techstage",
+        "sourceUrl": "https://www.techstage.de/bestenliste/top-10-die-besten-spiele-fuer-nintendo-switch/8lysqf9",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Gamestar",
+        "sourceUrl": "https://www.gamestar.de/artikel/beste-spiele-nintendo-switch-2023,3393370.html",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/best-nintendo-switch-games-2",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Stuff TV",
+        "sourceUrl": "https://www.stuff.tv/features/best-nintendo-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Theloadout",
+        "sourceUrl": "https://www.theloadout.com/nintendo-switch/best-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Creativebloq",
+        "sourceUrl": "https://www.creativebloq.com/buying-guides/best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Opencritic",
+        "sourceUrl": "https://opencritic.com/browse/switch",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Thegamer",
+        "sourceUrl": "https://www.thegamer.com/nintendo-switch-best-games-of-all-time-ranked",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Whatoplay",
+        "sourceUrl": "https://whatoplay.com/switch/best/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "Inverse",
+        "sourceUrl": "https://www.inverse.com/gaming/nintendo-switch-best-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "One37pm",
+        "sourceUrl": "https://www.one37pm.com/gaming/best-nintendo-switch-games",
+        "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "History-computer",
+        "sourceUrl": "https://history-computer.com/reddits-best-switch-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 5,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 336,
+        "porcentageOfContributions": 89
+      },
+      {
+        "userContributedId": 2,
+        "fullName": "diguifi",
+        "nickname": "diguifi",
+        "numberOfContributions": 40,
+        "porcentageOfContributions": 11
+      }
+    ]
+  }
+}

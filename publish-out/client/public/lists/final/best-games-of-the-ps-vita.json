@@ -1,0 +1,281 @@
+{
+  "syncedAt": "2026-04-15T11:36:32.7605867Z",
+  "slug": "best-games-of-the-ps-vita",
+  "type": 0,
+  "totalItems": 1,
+  "data": {
+    "finalGameList": {
+      "id": 88,
+      "title": "Best Games of The PS Vita",
+      "year": null,
+      "slug": "best-games-of-the-ps-vita",
+      "fullName": "Best Games of The PS Vita",
+      "socialUrl": "",
+      "socialComments": 0,
+      "tags": "all time, console, playstation, handheld",
+      "tagList": [
+        "all time",
+        "console",
+        "playstation",
+        "handheld"
+      ],
+      "consideredForAvgScore": true,
+      "pinned": false,
+      "similarLists": [
+        {
+          "sourceName": "Best Games of the PSP",
+          "sourceUrl": "best-games-of-the-psp",
+          "sourceDateLastUpdated": null,
+          "year": null
+        }
+      ]
+    },
+    "topWinnersByCritics": [
+      {
+        "gameId": 2281,
+        "gameTitle": "Gravity Rush",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-02-09T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5tgy.jpg",
+        "score": 15,
+        "position": 1,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 733,
+        "gameTitle": "Persona 4 Golden",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-06-15T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1x.jpg",
+        "score": 14,
+        "position": 2,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2282,
+        "gameTitle": "Tearaway",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-11-20T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h0d.jpg",
+        "score": 13,
+        "position": 3,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 634,
+        "gameTitle": "Hotline Miami",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-10-23T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vqp.jpg",
+        "score": 12,
+        "position": 4,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2283,
+        "gameTitle": "TxK",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2014-02-11T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61dt.jpg",
+        "score": 11,
+        "position": 5,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 1232,
+        "gameTitle": "Severed",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-04-26T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h32.jpg",
+        "score": 10,
+        "position": 6,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2284,
+        "gameTitle": "Dragon\u0027s Crown",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-07-25T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wc6.jpg",
+        "score": 9,
+        "position": 7,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2285,
+        "gameTitle": "Danganronpa: Trigger Happy Havoc",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2010-11-25T00:00:00Z",
+        "releaseYear": 2010,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n1w.jpg",
+        "score": 8,
+        "position": 8,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 631,
+        "gameTitle": "Spelunky",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-07-04T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co47m4.jpg",
+        "score": 7,
+        "position": 9,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2286,
+        "gameTitle": "Uncharted: Golden Abyss",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2011-12-17T00:00:00Z",
+        "releaseYear": 2011,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1un0.jpg",
+        "score": 6,
+        "position": 10,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 1407,
+        "gameTitle": "Guacamelee!",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-04-09T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g6i.jpg",
+        "score": 5,
+        "position": 11,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2287,
+        "gameTitle": "Odin Sphere: Leifthrasir",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2016-01-14T00:00:00Z",
+        "releaseYear": 2016,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25uq.jpg",
+        "score": 4,
+        "position": 12,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2288,
+        "gameTitle": "Velocity 2X",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2014-09-02T00:00:00Z",
+        "releaseYear": 2014,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wij.jpg",
+        "score": 3,
+        "position": 13,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 2289,
+        "gameTitle": "Ys: Memories of Celceta",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-09-27T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1l5r.jpg",
+        "score": 2,
+        "position": 14,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      },
+      {
+        "gameId": 1187,
+        "gameTitle": "Zero Escape: Virtue\u0027s Last Reward",
+        "trackStatus": 0,
+        "citations": 1,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2012-02-16T00:00:00Z",
+        "releaseYear": 2012,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co260l.jpg",
+        "score": 1,
+        "position": 15,
+        "gameListId": 1025,
+        "finalGameListId": 88
+      }
+    ],
+    "trackerStatsCritics": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 15
+    },
+    "topWinnersByUsers": [],
+    "trackerStatsUsers": {
+      "toPlay": 0,
+      "playing": 0,
+      "played": 0,
+      "beated": 0,
+      "abandoned": 0,
+      "none": 0
+    },
+    "sources": [
+      {
+        "sourceName": "GamesRadar\u002B",
+        "sourceUrl": "https://www.gamesradar.com/best-ps-vita-games/",
+        "sourceDateLastUpdated": null,
+        "year": null
+      }
+    ],
+    "numberOfUsersLists": 0,
+    "contributors": [
+      {
+        "userContributedId": 1,
+        "fullName": "darcie",
+        "nickname": "darcie",
+        "numberOfContributions": 15,
+        "porcentageOfContributions": 100
+      }
+    ]
+  }
+}

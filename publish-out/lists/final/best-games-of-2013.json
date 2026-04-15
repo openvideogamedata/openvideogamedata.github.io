@@ -1,0 +1,73 @@
+{
+  "syncedAt": "2026-04-15T10:44:55.2683928Z",
+  "slug": "best-games-of-2013",
+  "type": 0,
+  "totalItems": 4,
+  "data": {
+    "id": 32,
+    "title": "Best Games of",
+    "year": 2013,
+    "numberOfGames": 28,
+    "numberOfSources": 4,
+    "slug": "best-games-of-2013",
+    "pinned": false,
+    "topWinners": [
+      {
+        "gameId": 320,
+        "gameTitle": "The Last of Us",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-06-14T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg",
+        "score": 41,
+        "position": 5,
+        "gameListId": 507,
+        "finalGameListId": 32
+      },
+      {
+        "gameId": 323,
+        "gameTitle": "Grand Theft Auto V",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-09-17T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+        "score": 39,
+        "position": 1,
+        "gameListId": 507,
+        "finalGameListId": 32
+      },
+      {
+        "gameId": 333,
+        "gameTitle": "BioShock Infinite",
+        "trackStatus": 0,
+        "citations": 3,
+        "porcentageOfCitations": 100,
+        "firstReleaseDate": "2013-02-26T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.jpg",
+        "score": 38,
+        "position": 2,
+        "gameListId": 507,
+        "finalGameListId": 32
+      },
+      {
+        "gameId": 585,
+        "gameTitle": "Super Mario 3D World",
+        "trackStatus": 0,
+        "citations": 2,
+        "porcentageOfCitations": 67,
+        "firstReleaseDate": "2013-11-21T00:00:00Z",
+        "releaseYear": 2013,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21vd.jpg",
+        "score": 24,
+        "position": 3,
+        "gameListId": 507,
+        "finalGameListId": 32
+      }
+    ]
+  }
+}
