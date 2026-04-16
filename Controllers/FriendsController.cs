@@ -92,4 +92,17 @@ public class FriendsController : ControllerBase
         await _userService.RemoveFriendship(friendshipId);
         return NoContent();
     }
+
+    [HttpGet("activity")]
+    public async Task<IActionResult> GetActivity(
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 20)
+    {
+        var user = _userService.GetLoggedUser();
+        if (user is null)
+            return Unauthorized();
+
+        var items = await _userService.GetFriendActivity(user.Id, page, pageSize);
+        return Ok(items);
+    }
 }

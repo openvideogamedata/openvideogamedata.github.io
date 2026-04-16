@@ -2,6 +2,7 @@ using System.Security.Claims;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using community.Data;
+using community.Dtos.Friends;
 using community.Utils;
 using Microsoft.EntityFrameworkCore;
 
@@ -626,6 +627,45 @@ public sealed class UserService
                     .Include(x => x.User)
                     .Where(tracker => tracker.GameId == gameId && friendsIds.Contains(tracker.UserId))
                     .ToListAsync();
+    }
+
+    public async Task<List<FriendActivityItemDto>> GetFriendActivity(long userId, int page = 1, int pageSize = 20)
+    {
+        using var context = _factory.CreateDbContext();
+
+        var friendIds = await context.Friendships
+            .AsNoTracking()
+            .Where(f => (f.User1Id == userId || f.User2Id == userId)
+                     && f.Status == FriendshipStatus.ACCEPTED)
+            .Select(f => f.User1Id == userId ? f.User2Id : f.User1Id)
+            .ToListAsync();
+
+        if (!friendIds.Any())
+            return new List<FriendActivityItemDto>();
+
+        return await context.GameUserTrackers
+            .AsNoTracking()
+            .Include(t => t.User)
+            .Include(t => t.Game)
+            .Where(t => friendIds.Contains(t.UserId) && t.Status != TrackStatus.None)
+            .OrderByDescending(t => t.LastUpdateDate)
+            .Skip((page - 1) * pageSize)
+            .Take(pageSize)
+            .Select(t => new FriendActivityItemDto(
+                t.Id,
+                new FriendUserDto(
+                    t.User!.Id,
+                    t.User.Nickname,
+                    t.User.FullName,
+                    t.User.GetUserPicture()),
+                t.GameId,
+                t.Game!.Title,
+                t.Game.CoverImageUrl,
+                t.Status,
+                t.LastUpdateDate,
+                t.Platinum,
+                t.Note))
+            .ToListAsync();
     }
 
     private async Task<IList<Friendship>> GetFriendships(long userId, FriendshipStatus status)

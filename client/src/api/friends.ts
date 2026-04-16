@@ -23,6 +23,20 @@ export interface FriendsResponse {
   sentRequests: FriendRequestDto[]
 }
 
+export type TrackStatus = 'None' | 'ToPlay' | 'Playing' | 'Beaten' | 'Abandoned' | 'Played'
+
+export interface FriendActivityItemDto {
+  trackerId: number
+  user: FriendUserDto
+  gameId: number
+  gameTitle: string
+  coverImageUrl: string
+  status: TrackStatus
+  lastUpdateDate: string
+  platinum: boolean
+  note: string | null
+}
+
 export function getFriendsAndRequests(): Promise<FriendsResponse> {
   return api.get<FriendsResponse>('/api/friends/requests')
 }
@@ -37,4 +51,10 @@ export function declineRequest(friendshipId: number): Promise<void> {
 
 export function removeFriend(friendshipId: number): Promise<void> {
   return api.delete<void>(`/api/friends/${friendshipId}`)
+}
+
+export function getFriendActivity(page = 1, pageSize = 20): Promise<FriendActivityItemDto[]> {
+  return api.get<FriendActivityItemDto[]>(
+    `/api/friends/activity?page=${page}&pageSize=${pageSize}`
+  )
 }

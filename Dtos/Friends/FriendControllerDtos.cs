@@ -18,3 +18,14 @@ public sealed record FriendsResponse(
     List<FriendDto> Friends,
     List<FriendRequestDto> ReceivedRequests,
     List<FriendRequestDto> SentRequests);
+
+public sealed record FriendActivityItemDto(
+    long TrackerId,
+    FriendUserDto User,
+    long GameId,
+    string GameTitle,
+    string CoverImageUrl,
+    TrackStatus Status,
+    DateTime LastUpdateDate,
+    bool Platinum,
+    string? Note);
