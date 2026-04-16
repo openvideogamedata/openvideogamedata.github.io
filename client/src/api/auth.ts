@@ -13,7 +13,11 @@ export function getSession(): Promise<SessionDto> {
   return api.get<SessionDto>('/api/auth/session')
 }
 
+let loginInProgress = false
+
 export function login(returnUrl?: string) {
+  if (loginInProgress) return
+  loginInProgress = true
   const url = returnUrl ?? window.location.href
   window.location.href = `${BASE_URL}/api/auth/login?returnUrl=${encodeURIComponent(url)}`
 }
