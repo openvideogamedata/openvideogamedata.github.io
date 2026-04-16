@@ -643,7 +643,7 @@ public sealed class UserService
         if (!friendIds.Any())
             return new List<FriendActivityItemDto>();
 
-        return await context.GameUserTrackers
+        var trackers = await context.GameUserTrackers
             .AsNoTracking()
             .Include(t => t.User)
             .Include(t => t.Game)
@@ -651,7 +651,9 @@ public sealed class UserService
             .OrderByDescending(t => t.LastUpdateDate)
             .Skip((page - 1) * pageSize)
             .Take(pageSize)
-            .Select(t => new FriendActivityItemDto(
+            .ToListAsync();
+
+        return trackers.Select(t => new FriendActivityItemDto(
                 t.Id,
                 new FriendUserDto(
                     t.User!.Id,
@@ -665,7 +667,7 @@ public sealed class UserService
                 t.LastUpdateDate,
                 t.Platinum,
                 t.Note))
-            .ToListAsync();
+            .ToList();
     }
 
     private async Task<IList<Friendship>> GetFriendships(long userId, FriendshipStatus status)
