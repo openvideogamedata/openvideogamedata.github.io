@@ -37,6 +37,7 @@ export default function ListSuggestionForm() {
   const searchDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
   const validationRequestId = useRef(0)
   const searchRequestId = useRef(0)
+  const addingRef = useRef<Set<number>>(new Set())
 
   useEffect(() => {
     if (!slug) {
@@ -123,19 +124,20 @@ export default function ListSuggestionForm() {
   }, [gameQuery])
 
   async function addGame(game: GameSearchResult) {
-    if (games.length >= MAX_GAMES) return
-    const gameId = game.id ?? await materializeGameSearchResult(game)
-    if (games.find((g) => g.gameId === gameId)) return
+    if (addingRef.current.has(game.externalId)) return
+    if (game.id !== null && games.find((g) => g.gameId === game.id)) return
 
-    setGames((prev) => [
-      ...prev,
-      {
-        position: prev.length + 1,
-        gameTitle: game.title,
-        gameId: gameId,
-        firstReleaseDate: null,
-      },
-    ])
+    addingRef.current.add(game.externalId)
+    try {
+      const gameId = game.id ?? await materializeGameSearchResult(game)
+      setGames((prev) => {
+        if (prev.length >= MAX_GAMES) return prev
+        if (prev.find((g) => g.gameId === gameId)) return prev
+        return [...prev, { position: prev.length + 1, gameTitle: game.title, gameId, firstReleaseDate: null }]
+      })
+    } finally {
+      addingRef.current.delete(game.externalId)
+    }
     setGameQuery('')
     setGameResults([])
     setSearchOpen(false)
@@ -204,6 +206,7 @@ export default function ListSuggestionForm() {
   }
 
   const canSubmit = listIsValid && games.length > 0 && !saving
+  const addedGameIds = new Set(games.map((g) => g.gameId))
 
   return (
     <div className="list-suggestion-page">
@@ -271,18 +274,23 @@ export default function ListSuggestionForm() {
                 {searchOpen && (searchingGame || gameResults.length > 0) && (
                   <div className="game-results">
                     {searchingGame && <div className="game-result-empty">Searching...</div>}
-                    {!searchingGame && gameResults.map((g) => (
-                      <button
-                        key={g.externalId}
-                        type="button"
-                        className="game-result-item"
-                        onClick={() => addGame(g)}
-                      >
-                        {g.coverImageUrl && <img src={g.coverImageUrl} alt="" className="game-result-cover" />}
-                        <span className="game-result-title">{g.title}</span>
-                        <span className="game-result-year">{g.releaseYear}</span>
-                      </button>
-                    ))}
+                    {!searchingGame && gameResults.map((g) => {
+                      const isAdded = g.id !== null && addedGameIds.has(g.id)
+                      return (
+                        <button
+                          key={g.externalId}
+                          type="button"
+                          className={`game-result-item${isAdded ? ' game-result-item--added' : ''}`}
+                          onClick={() => addGame(g)}
+                          disabled={isAdded}
+                        >
+                          {g.coverImageUrl && <img src={g.coverImageUrl} alt="" className="game-result-cover" />}
+                          <span className="game-result-title">{g.title}</span>
+                          <span className="game-result-year">{g.releaseYear}</span>
+                          {isAdded && <span className="game-result-badge">Já adicionado</span>}
+                        </button>
+                      )
+                    })}
                   </div>
                 )}
               </div>

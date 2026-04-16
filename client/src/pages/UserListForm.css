@@ -111,6 +111,15 @@
 }
 .game-result-item:last-child { border-bottom: none; }
 .game-result-item:hover { background: var(--surface-3); }
+.game-result-item--added { opacity: 0.55; cursor: default; }
+.game-result-item--added:hover { background: transparent; }
+
+.game-result-badge {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 
 .game-result-cover {
   width: 28px;
