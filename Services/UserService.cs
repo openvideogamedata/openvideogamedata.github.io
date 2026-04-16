@@ -151,27 +151,39 @@ public sealed class UserService
     public User? CreateUserIfNotExists()
     {
         var userInput = CreateUserModelFromClaims();
-        if (userInput != null)
-        {
-            using var context = this._factory.CreateDbContext();
-            var user = context.Users.AsNoTracking().FirstOrDefault(u => u.NameIdentifier == userInput.NameIdentifier);
+        if (userInput == null)
+            return null;
 
-            if (user == null) 
+        using var context = this._factory.CreateDbContext();
+        var user = context.Users.AsNoTracking().FirstOrDefault(u => u.NameIdentifier == userInput.NameIdentifier);
+
+        if (user == null)
+        {
+            try
             {
                 context.Users.Add(userInput);
                 context.SaveChanges();
             }
-            else
+            catch (DbUpdateException)
             {
-                userInput.Nickname = user.Nickname;
-                userInput.Id = user.Id;
-                userInput.UserPixelArt = user.UserPixelArt;
+                // Another request created the user concurrently — fetch the existing record
+                user = context.Users.AsNoTracking().FirstOrDefault(u => u.NameIdentifier == userInput.NameIdentifier);
+                if (user != null)
+                {
+                    userInput.Nickname = user.Nickname;
+                    userInput.Id = user.Id;
+                    userInput.UserPixelArt = user.UserPixelArt;
+                }
             }
-
-            return userInput;
         }
         else
-            return null;
+        {
+            userInput.Nickname = user.Nickname;
+            userInput.Id = user.Id;
+            userInput.UserPixelArt = user.UserPixelArt;
+        }
+
+        return userInput;
     }
 
     public (List<User>, Pager) GetAll(int currentPage = 1, int pageSize = 10, int maxPages = 5, string search = "")

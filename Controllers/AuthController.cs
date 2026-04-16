@@ -81,15 +81,18 @@ public class AuthController : ControllerBase
                 identity.IsAuthenticated,
                 string.Join(",", identity.Claims.Select(claim => claim.Type).Distinct()));
 
-            (identity, needsFill) = AssignCustomClaims(identity);
+            bool isBanned;
+            (identity, needsFill, isBanned) = AssignCustomClaims(identity);
+
+            if (isBanned)
+            {
+                _logger.LogWarning("Google login blocked because user is banned.");
+                return RedirectToAuthError(cleanUrl, "banned");
+            }
 
             if (identity.IsAuthenticated)
             {
-                var authProperties = new AuthenticationProperties
-                {
-                    IsPersistent = true,
-                    RedirectUri = Request.Host.Value
-                };
+                var authProperties = new AuthenticationProperties { IsPersistent = true };
 
                 await HttpContext.SignInAsync(
                     CookieAuthenticationDefaults.AuthenticationScheme,
@@ -176,7 +179,7 @@ public class AuthController : ControllerBase
         });
     }
 
-    private (ClaimsIdentity user, bool needsFill) AssignCustomClaims(ClaimsIdentity user)
+    private (ClaimsIdentity user, bool needsFill, bool isBanned) AssignCustomClaims(ClaimsIdentity user)
     {
         try
         {
@@ -184,35 +187,37 @@ public class AuthController : ControllerBase
             if (nameIdClaim == null || string.IsNullOrWhiteSpace(nameIdClaim.Value))
             {
                 _logger.LogWarning("Google login custom claims skipped because NameIdentifier claim is missing.");
-                return (user, false);
+                return (user, false, false);
             }
 
             var dbUser = _userService.GetByNameIdentifier(nameIdClaim.Value);
             _logger.LogInformation(
-                "Google login user lookup completed. UserFound={UserFound} HasRole={HasRole} NeedsFill={NeedsFill}",
+                "Google login user lookup completed. UserFound={UserFound} HasRole={HasRole} NeedsFill={NeedsFill} Banned={Banned}",
                 dbUser != null,
                 !string.IsNullOrEmpty(dbUser?.Role),
-                dbUser?.NicknameIsNameIdentifier() ?? false);
+                dbUser?.NicknameIsNameIdentifier() ?? false,
+                dbUser?.Banned ?? false);
+
+            if (dbUser?.Banned == true)
+                return (user, false, true);
 
             if (dbUser != null && !string.IsNullOrEmpty(dbUser.Role))
             {
                 user.AddClaims(new[] { new Claim(ClaimTypes.Role, dbUser.Role) });
             }
 
-            return (user, dbUser?.NicknameIsNameIdentifier() ?? false);
+            return (user, dbUser?.NicknameIsNameIdentifier() ?? false, false);
         }
         catch (Exception e)
         {
             _logger.LogError(e, "Google login custom claims failed.");
         }
 
-        return (user, false);
+        return (user, false, false);
     }
 
     private static readonly HashSet<string> AllowedReturnOrigins = new(StringComparer.OrdinalIgnoreCase)
     {
-        "http://openvideogamedata.com",
-        "http://www.openvideogamedata.com",
         "https://openvideogamedata.com",
         "https://www.openvideogamedata.com",
         "https://openvideogamedata.github.io",
@@ -254,7 +259,7 @@ public class AuthController : ControllerBase
             return "(empty)";
 
         if (Uri.TryCreate(returnUrl, UriKind.Absolute, out var uri))
-            return $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}{uri.AbsolutePath}";
+            return $"{uri.Scheme}://{uri.Host}{(uri.IsDefaultPort ? "" : $":{uri.Port}")}{uri.AbsolutePath}{uri.Fragment}";
 
         var queryStart = returnUrl.IndexOf('?');
         return queryStart >= 0 ? returnUrl[..queryStart] : returnUrl;

@@ -39,8 +39,6 @@ namespace community
                             "http://localhost:5173",
                             "https://localhost:5173",
                             "http://localhost:5124",
-                            "http://www.openvideogamedata.com",
-                            "http://openvideogamedata.com",
                             "https://localhost:5124",
                             "https://openvideogamedata.herokuapp.com",
                             "https://openvideogamedata.onrender.com",
@@ -167,6 +165,8 @@ namespace community
                                 context.Request.Query["error_description"].ToString(),
                                 context.Request.Path);
 
+                            context.HandleResponse();
+                            context.Response.Redirect("/#/auth/error?reason=provider_error");
                             return Task.CompletedTask;
                         }
                     };
@@ -192,6 +192,12 @@ namespace community
                 options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
                 options.KnownNetworks.Clear();
                 options.KnownProxies.Clear();
+            });
+
+            builder.Services.Configure<CookiePolicyOptions>(options =>
+            {
+                options.MinimumSameSitePolicy = SameSiteMode.Unspecified;
+                options.Secure = CookieSecurePolicy.Always;
             });
         }
 
