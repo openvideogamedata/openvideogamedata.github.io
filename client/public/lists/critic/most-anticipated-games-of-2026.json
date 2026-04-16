@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-15T20:49:31.6513099Z",
+  "syncedAt": "2026-04-16T12:07:04.3955727Z",
   "slug": "most-anticipated-games-of-2026",
   "type": 1,
-  "totalItems": 2,
+  "totalItems": 7,
   "data": [
     {
       "id": 1224,
@@ -213,6 +213,664 @@
           "gameId": 3105,
           "coverImageUrl": null,
           "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1230,
+      "byUser": false,
+      "sourceListUrl": "https://www.gamingaustralia.com.au/post/my-top-10-most-anticipated-games-of-2026",
+      "dateAdded": "2026-04-16T11:53:16.09456Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 465,
+        "name": "Gamingaustralia",
+        "hostUrl": "www.gamingaustralia.com.au"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12522,
+          "position": 1,
+          "gameTitle": "Professor Layton and the New World of Steam",
+          "gameId": 3119,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12523,
+          "position": 2,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12524,
+          "position": 3,
+          "gameTitle": "007 First Light",
+          "gameId": 3103,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12525,
+          "position": 4,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12526,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12527,
+          "position": 6,
+          "gameTitle": "Slay the Spire II",
+          "gameId": 3121,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12528,
+          "position": 7,
+          "gameTitle": "LEGO Batman: Legacy of the Dark Knight",
+          "gameId": 3113,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12529,
+          "position": 8,
+          "gameTitle": "Mouse: P.I. For Hire",
+          "gameId": 3122,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12530,
+          "position": 9,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12531,
+          "position": 10,
+          "gameTitle": "Rhythm Heaven Groove",
+          "gameId": 3123,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1231,
+      "byUser": false,
+      "sourceListUrl": "https://www.eneba.com/hub/games/most-anticipated-games-of-2026/?srsltid=AfmBOooiewGrxrRpGOY8Lh3fD9ex5IN1B9lVkjUkotzOh8AX4J-7dzFV",
+      "dateAdded": "2026-04-16T11:56:30.332612Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 466,
+        "name": "Eneba",
+        "hostUrl": "www.eneba.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12532,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12533,
+          "position": 2,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12534,
+          "position": 3,
+          "gameTitle": "Pragmata",
+          "gameId": 1352,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12535,
+          "position": 4,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12536,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12537,
+          "position": 6,
+          "gameTitle": "Saros",
+          "gameId": 3124,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12538,
+          "position": 7,
+          "gameTitle": "Monster Hunter Stories 3: Twisted Reflection",
+          "gameId": 3125,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12539,
+          "position": 8,
+          "gameTitle": "Forza Horizon 6",
+          "gameId": 3112,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12540,
+          "position": 9,
+          "gameTitle": "Final Fantasy VII Remake Intergrade",
+          "gameId": 357,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12541,
+          "position": 10,
+          "gameTitle": "Subnautica 2",
+          "gameId": 3114,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12542,
+          "position": 11,
+          "gameTitle": "Star Wars Zero Company",
+          "gameId": 3126,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12543,
+          "position": 12,
+          "gameTitle": "Onimusha: Way of the Sword",
+          "gameId": 3127,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12544,
+          "position": 13,
+          "gameTitle": "007 First Light",
+          "gameId": 3103,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12545,
+          "position": 14,
+          "gameTitle": "Lords of the Fallen II",
+          "gameId": 3128,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12546,
+          "position": 15,
+          "gameTitle": "Super Meat Boy 3D",
+          "gameId": 3129,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1232,
+      "byUser": false,
+      "sourceListUrl": "https://www.redbull.com/int-en/the-best-video-games-of-2026",
+      "dateAdded": "2026-04-16T12:00:32.114841Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 298,
+        "name": "Redbull",
+        "hostUrl": "www.redbull.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12547,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12548,
+          "position": 2,
+          "gameTitle": "Tomb Raider: Legacy of Atlantis",
+          "gameId": 3130,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12549,
+          "position": 3,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12550,
+          "position": 4,
+          "gameTitle": "Phantom Blade 0",
+          "gameId": 3131,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12551,
+          "position": 5,
+          "gameTitle": "Screamer",
+          "gameId": 3132,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12552,
+          "position": 6,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12553,
+          "position": 7,
+          "gameTitle": "Crimson Desert",
+          "gameId": 2213,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12554,
+          "position": 8,
+          "gameTitle": "Forza Horizon 6",
+          "gameId": 3112,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12555,
+          "position": 9,
+          "gameTitle": "Formula Racing Pro 2026",
+          "gameId": 3133,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12556,
+          "position": 10,
+          "gameTitle": "Hela",
+          "gameId": 3134,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12557,
+          "position": 11,
+          "gameTitle": "007 First Light",
+          "gameId": 3103,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12558,
+          "position": 12,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12559,
+          "position": 13,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12560,
+          "position": 14,
+          "gameTitle": "Star Wars Zero Company",
+          "gameId": 3126,
+          "coverImageUrl": null,
+          "score": 2
+        }
+      ]
+    },
+    {
+      "id": 1233,
+      "byUser": false,
+      "sourceListUrl": "https://spilled.gg/most-anticipated-games/",
+      "dateAdded": "2026-04-16T12:02:52.192772Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 467,
+        "name": "Spilled",
+        "hostUrl": "spilled.gg"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12561,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12562,
+          "position": 2,
+          "gameTitle": "The Elder Scrolls VI",
+          "gameId": 2918,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12563,
+          "position": 3,
+          "gameTitle": "Saros",
+          "gameId": 3124,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12564,
+          "position": 4,
+          "gameTitle": "The Duskbloods",
+          "gameId": 3135,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12565,
+          "position": 5,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12566,
+          "position": 6,
+          "gameTitle": "Stranger Than Heaven",
+          "gameId": 3136,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12567,
+          "position": 7,
+          "gameTitle": "Pragmata",
+          "gameId": 1352,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12568,
+          "position": 8,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12569,
+          "position": 9,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12570,
+          "position": 10,
+          "gameTitle": "Onimusha: Way of the Sword",
+          "gameId": 3127,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12571,
+          "position": 11,
+          "gameTitle": "Marvel 1943: Rise of Hydra",
+          "gameId": 3106,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12572,
+          "position": 12,
+          "gameTitle": "Infinite Alliance",
+          "gameId": 3137,
+          "coverImageUrl": null,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 1234,
+      "byUser": false,
+      "sourceListUrl": "https://www.thegamer.com/most-anticipated-games-2026-definitive-list/",
+      "dateAdded": "2026-04-16T12:05:11.548705Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 193,
+        "name": "Thegamer",
+        "hostUrl": "www.thegamer.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12573,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12574,
+          "position": 2,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12575,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12576,
+          "position": 4,
+          "gameTitle": "Crimson Desert",
+          "gameId": 2213,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12577,
+          "position": 5,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12578,
+          "position": 6,
+          "gameTitle": "Tides of Annihilation",
+          "gameId": 3138,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12579,
+          "position": 7,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12580,
+          "position": 8,
+          "gameTitle": "Forza Horizon 6",
+          "gameId": 3112,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12581,
+          "position": 9,
+          "gameTitle": "Saros",
+          "gameId": 3124,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12582,
+          "position": 10,
+          "gameTitle": "Witchbrook",
+          "gameId": 3118,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12583,
+          "position": 11,
+          "gameTitle": "Pok\u00E9mon Pokopia",
+          "gameId": 3139,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12584,
+          "position": 12,
+          "gameTitle": "LEGO Batman: Legacy of the Dark Knight",
+          "gameId": 3113,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12585,
+          "position": 13,
+          "gameTitle": "Slay the Spire II",
+          "gameId": 3121,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12586,
+          "position": 14,
+          "gameTitle": "Subnautica 2",
+          "gameId": 3114,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12587,
+          "position": 15,
+          "gameTitle": "Star Wars: Galactic Racer",
+          "gameId": 3140,
+          "coverImageUrl": null,
+          "score": 1
         }
       ]
     }
