@@ -23,7 +23,8 @@ export interface FriendsResponse {
   sentRequests: FriendRequestDto[]
 }
 
-export type TrackStatus = 'None' | 'ToPlay' | 'Playing' | 'Beaten' | 'Abandoned' | 'Played'
+// TrackStatus matches the C# enum: None=0, ToPlay=1, Playing=2, Beaten=3, Abandoned=4, Played=5
+export type TrackStatus = 0 | 1 | 2 | 3 | 4 | 5
 
 export interface FriendActivityItemDto {
   trackerId: number

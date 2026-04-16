@@ -251,12 +251,21 @@ function FriendsSkeleton() {
 // ─── Activity tab components ──────────────────────────────────────────────────
 
 const STATUS_LABELS: Record<TrackStatus, string> = {
-  None:      '',
-  ToPlay:    'wants to play',
-  Playing:   'is playing',
-  Beaten:    'beat',
-  Abandoned: 'abandoned',
-  Played:    'played',
+  0: '',
+  1: 'wants to play',
+  2: 'is playing',
+  3: 'beat',
+  4: 'abandoned',
+  5: 'played',
+}
+
+const STATUS_CLASS: Record<TrackStatus, string> = {
+  0: '',
+  1: 'toplay',
+  2: 'playing',
+  3: 'beaten',
+  4: 'abandoned',
+  5: 'played',
 }
 
 function formatRelativeTime(isoDate: string): string {
@@ -302,7 +311,7 @@ function ActivityItem({ item }: { item: FriendActivityItemDto }) {
           <Link to={`/users/${item.user.nickname}`} className="activity-user">
             {item.user.fullName}
           </Link>
-          <span className={`activity-status status-${item.status.toLowerCase()}`}>
+          <span className={`activity-status status-${STATUS_CLASS[item.status]}`}>
             {STATUS_LABELS[item.status]}
           </span>
           <Link to={`/games/${item.gameId}`} className="activity-game">
