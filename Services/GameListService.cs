@@ -527,29 +527,51 @@ public class GameListService
                 (source.HostUrl ?? string.Empty).ToLower().Contains(normalized));
         }
 
-        var projectedQuery = sourceQuery
-            .Select(source => new SourceAggregateDto(
-                source.Id,
-                source.Name,
-                source.HostUrl,
-                context.GameLists.Count(gameList => !gameList.ByUser && gameList.SourceId == source.Id),
-                context.GameLists
-                    .Where(gameList => !gameList.ByUser && gameList.SourceId == source.Id && gameList.FinalGameListId.HasValue)
-                    .Select(gameList => gameList.FinalGameListId!.Value)
-                    .Distinct()
-                    .Count(),
-                context.GameLists
-                    .Where(gameList => !gameList.ByUser && gameList.SourceId == source.Id)
-                    .Max(gameList => gameList.DateLastUpdated != null ? gameList.DateLastUpdated : (DateTime?)gameList.DateAdded)));
+        var sourceIds = sourceQuery.Select(s => s.Id).ToList();
 
-        var totalItems = projectedQuery.Count();
+        var totalItems = sourceIds.Count;
         var pager = new Pager(totalItems, page, pageSize, maxPages);
 
-        var sources = projectedQuery
-            .OrderByDescending(x => x.ListsCount)
-            .ThenBy(x => x.Name)
+        var pagedIds = sourceIds
             .Skip((pager.CurrentPage - 1) * pager.PageSize)
             .Take(pager.PageSize)
+            .ToList();
+
+        var aggregates = context.GameLists
+            .AsNoTracking()
+            .Where(gl => !gl.ByUser && gl.SourceId.HasValue && pagedIds.Contains(gl.SourceId!.Value))
+            .GroupBy(gl => gl.SourceId!.Value)
+            .Select(g => new
+            {
+                SourceId = g.Key,
+                ListsCount = g.Count(),
+                CategoriesCount = g.Where(gl => gl.FinalGameListId.HasValue)
+                    .Select(gl => gl.FinalGameListId!.Value)
+                    .Distinct()
+                    .Count(),
+                LastActivity = g.Max(gl => gl.DateLastUpdated != null ? gl.DateLastUpdated : (DateTime?)gl.DateAdded)
+            })
+            .ToDictionary(x => x.SourceId);
+
+        var sourcesRaw = context.Sources
+            .AsNoTracking()
+            .Where(s => pagedIds.Contains(s.Id))
+            .ToList();
+
+        var sources = sourcesRaw
+            .Select(s =>
+            {
+                var agg = aggregates.GetValueOrDefault(s.Id);
+                return new SourceAggregateDto(
+                    s.Id,
+                    s.Name,
+                    s.HostUrl,
+                    agg?.ListsCount ?? 0,
+                    agg?.CategoriesCount ?? 0,
+                    agg?.LastActivity);
+            })
+            .OrderByDescending(x => x.ListsCount)
+            .ThenBy(x => x.Name)
             .ToList();
 
         return (sources, pager);
