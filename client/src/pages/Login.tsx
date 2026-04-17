@@ -17,20 +17,14 @@ export default function Login() {
           <span className="login-kicker">OpenVGD Account</span>
           <h1 className="login-title">Log in or create your account in one step.</h1>
           <p className="login-lead">
-            Use your Google account to unlock lists, badges, trackers, notifications, and your public profile.
+            We only use your Google account name and email to identify your account and keep your OpenVGD profile connected to you.
           </p>
 
           <div className="login-highlights">
             <div className="login-highlight-card">
-              <span className="login-highlight-label">What we use</span>
+              <span className="login-highlight-label">Why sign in</span>
               <p>
-                We only use your Google account name and email to identify your account and keep your OpenVGD profile connected to you.
-              </p>
-            </div>
-            <div className="login-highlight-card">
-              <span className="login-highlight-label">What we do not use</span>
-              <p>
-                We do not ask for your Google password, contacts, Drive files, or any data unrelated to your OpenVGD account.
+                Sign in to create lists, track games, earn badges, and keep your profile linked to your activity.
               </p>
             </div>
           </div>
@@ -42,7 +36,7 @@ export default function Login() {
             <span className="login-card-eyebrow">Secure sign-in</span>
             <h2>Continue with Google</h2>
             <p>
-              Create your OpenVGD account or sign in to an existing one using the same Google identity.
+              Use the same Google account to create or access your OpenVGD profile.
             </p>
 
             <div className="login-button-wrap">
