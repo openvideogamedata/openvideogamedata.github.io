@@ -23,7 +23,10 @@ public class AuthController : ControllerBase
     {
         _userService = userService;
         _logger = logger;
-        _googleClientId = Environment.GetEnvironmentVariable("GOOGLE_CLIENT_ID") ?? throw new InvalidOperationException("GOOGLE_CLIENT_ID is not set.");
+        _googleClientId =
+            Environment.GetEnvironmentVariable("GOOGLE_CLIENT_ID") ??
+            Environment.GetEnvironmentVariable("GOOGLEAUTH_CLIENTID") ??
+            throw new InvalidOperationException("GOOGLE_CLIENT_ID or GOOGLEAUTH_CLIENTID is not set.");
         _jwtSecret = Environment.GetEnvironmentVariable("JWT_SECRET") ?? throw new InvalidOperationException("JWT_SECRET is not set.");
     }
 
