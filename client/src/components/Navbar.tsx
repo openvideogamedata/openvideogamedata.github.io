@@ -2,7 +2,8 @@ import { useState, useRef, useEffect } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import PixelArt from './PixelArt'
 import { useAuth } from '../context/AuthContext'
-import { login, logout } from '../api/auth'
+import { logout } from '../api/auth'
+import LoginButton from './LoginButton'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
   const menuRef = useRef<HTMLDivElement>(null)
   const mobileNavRef = useRef<HTMLDivElement>(null)
   const navigate = useNavigate()
-  const { user, loading, isAdmin } = useAuth()
+  const { user, loading, isAdmin, refresh } = useAuth()
 
   useEffect(() => {
     if (searchOpen) inputRef.current?.focus()
@@ -45,6 +46,15 @@ export default function Navbar() {
       setSearchOpen(false)
       setQuery('')
     }
+  }
+
+  function handleLogout() {
+    logout()
+    refresh()
+    setMenuOpen(false)
+    setDesktopProfileOpen(false)
+    setMobileNavOpen(false)
+    setMobileProfileOpen(false)
   }
 
   return (
@@ -138,8 +148,7 @@ export default function Navbar() {
                       <button
                         className="mobile-nav-button mobile-nav-button-danger"
                         onClick={() => {
-                          setMobileNavOpen(false)
-                          logout()
+                          handleLogout()
                         }}
                       >
                         Sign out
@@ -148,15 +157,7 @@ export default function Navbar() {
                   ) : (
                     <>
                       <div className="mobile-nav-divider" />
-                      <button
-                        className="mobile-nav-button"
-                        onClick={() => {
-                          setMobileNavOpen(false)
-                          login()
-                        }}
-                      >
-                        Sign in
-                      </button>
+                      <LoginButton onSuccess={() => setMobileNavOpen(false)} text="Sign in" />
                     </>
                   )
                 )}
@@ -230,12 +231,12 @@ export default function Navbar() {
                         <Link to="/admin/list-suggestions" className="user-menu-item user-menu-admin" onClick={() => setMenuOpen(false)}>Admin: Suggestions</Link>
                       </>
                     )}
-                    <button className="user-menu-item user-menu-logout" onClick={logout}>Sign out</button>
+                    <button className="user-menu-item user-menu-logout" onClick={handleLogout}>Sign out</button>
                   </div>
                 )}
               </div>
             ) : (
-              <button className="btn-primary-sm" onClick={() => login()}>Sign in</button>
+              <LoginButton text="Sign in" />
             )
           )}
         </div>

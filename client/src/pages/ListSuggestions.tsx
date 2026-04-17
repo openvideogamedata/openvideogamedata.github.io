@@ -6,14 +6,13 @@ import type { GameListRequestDto } from '../api/listSuggestions'
 import type { Pager } from '../types'
 import { timeAgo } from '../utils/time'
 import { useAuth } from '../context/AuthContext'
-import { login } from '../api/auth'
 import { ApiError } from '../api/client'
 import './ListSuggestions.css'
 
 type Tab = 'all' | 'mine'
 
 export default function ListSuggestions() {
-  const { user, isAdmin } = useAuth()
+  const { user, isAdmin, refresh } = useAuth()
   const [tab, setTab] = useState<Tab>('all')
   const [items, setItems] = useState<GameListRequestDto[]>([])
   const [pager, setPager] = useState<Pager | null>(null)
@@ -32,7 +31,7 @@ export default function ListSuggestions() {
   useEffect(() => { load(1, tab === 'mine') }, [tab])
 
   async function handleVote(id: number, type: 'like' | 'dislike') {
-    if (!user) { login(window.location.href); return }
+    if (!user) { return }
     if (votingId !== null) return
     setVotingId(id)
     try {
@@ -41,7 +40,7 @@ export default function ListSuggestions() {
       load(pager?.currentPage ?? 1)
     } catch (err) {
       if (err instanceof ApiError && err.status === 401) {
-        login(window.location.href)
+        refresh()
       }
     } finally {
       setVotingId(null)

@@ -1,28 +1,20 @@
+import type { CredentialResponse } from '@react-oauth/google'
 import { api } from './client'
 
-const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
+export async function loginWithGoogle(credentialResponse: CredentialResponse): Promise<{ needsFill: boolean }> {
+  if (!credentialResponse.credential) throw new Error('No credential in response')
 
-export interface SessionDto {
-  isAuthenticated: boolean
-  nameIdentifier?: string
-  name?: string
-  roles?: string[]
+  const result = await api.post<{ token: string; needsFill: boolean }>('/api/auth/google', {
+    idToken: credentialResponse.credential
+  })
+  localStorage.setItem('token', result.token)
+  return { needsFill: result.needsFill }
 }
 
-export function getSession(): Promise<SessionDto> {
-  return api.get<SessionDto>('/api/auth/session')
+export function logout(): void {
+  localStorage.removeItem('token')
 }
 
-let loginInProgress = false
-
-export function login(returnUrl?: string) {
-  if (loginInProgress) return
-  loginInProgress = true
-  const url = returnUrl ?? window.location.href
-  window.location.href = `${BASE_URL}/api/auth/login?returnUrl=${encodeURIComponent(url)}`
-}
-
-export function logout() {
-  const returnUrl = `${window.location.origin}${window.location.pathname}`
-  window.location.href = `${BASE_URL}/api/auth/logout?returnUrl=${encodeURIComponent(returnUrl)}`
+export function getToken(): string | null {
+  return localStorage.getItem('token')
 }

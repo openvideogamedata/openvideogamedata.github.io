@@ -2,8 +2,8 @@ import { useState, useEffect, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import PixelArt from '../components/PixelArt'
 import Paginator from '../components/Paginator'
+import LoginButton from '../components/LoginButton'
 import { useAuth } from '../context/AuthContext'
-import { login } from '../api/auth'
 import { api } from '../api/client'
 import type { Pager } from '../types'
 import { generateDefaultPixelArt } from '../utils/pixelArt'
@@ -58,7 +58,7 @@ export default function UsersSearch() {
         <div className="gate-card">
           <h2>Sign in to search users</h2>
           <p>This page is only available to authenticated users.</p>
-          <button className="btn-primary" onClick={() => login()}>Sign in with Google</button>
+          <LoginButton text="Sign in with Google" />
         </div>
       </div>
     )

@@ -22,11 +22,29 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
     headers.set('Content-Type', 'application/json')
   }
 
+  const token = localStorage.getItem('token')
+  if (token) headers.set('Authorization', `Bearer ${token}`)
+
   const res = await fetch(`${BASE_URL}${path}`, {
-    credentials: 'include',
     headers,
     ...options,
   })
+
+  if (res.status === 401) {
+    localStorage.removeItem('token')
+    throw new ApiError(401, res.statusText, res.url)
+  }
+
+  if (res.status === 403) {
+    try {
+      const body = await res.clone().json() as { error?: string }
+      if (body?.error === 'banned') {
+        localStorage.removeItem('token')
+        window.location.href = '/#/auth/error?reason=banned'
+        return undefined as unknown as T
+      }
+    } catch { /* not JSON - fall through to generic error */ }
+  }
 
   if (!res.ok) {
     throw new ApiError(

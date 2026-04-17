@@ -148,6 +148,35 @@ public sealed class UserService
         return new List<TrackFilters>();
     }
 
+    public User GetOrCreateFromGooglePayload(string nameIdentifier, string givenName, string surname)
+    {
+        using var context = this._factory.CreateDbContext();
+        var user = context.Users.AsNoTracking().FirstOrDefault(u => u.NameIdentifier == nameIdentifier);
+
+        if (user == null)
+        {
+            var newUser = new User
+            {
+                NameIdentifier = nameIdentifier,
+                Nickname = nameIdentifier,
+                GivenName = string.IsNullOrEmpty(givenName) ? "Player" : givenName,
+                Surname = surname ?? ""
+            };
+            try
+            {
+                context.Users.Add(newUser);
+                context.SaveChanges();
+                user = newUser;
+            }
+            catch (DbUpdateException)
+            {
+                user = context.Users.AsNoTracking().FirstOrDefault(u => u.NameIdentifier == nameIdentifier) ?? newUser;
+            }
+        }
+
+        return user;
+    }
+
     public User? CreateUserIfNotExists()
     {
         var userInput = CreateUserModelFromClaims();

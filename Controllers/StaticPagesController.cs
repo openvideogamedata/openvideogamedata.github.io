@@ -31,6 +31,6 @@ public class StaticPagesController : ControllerBase
         return Ok(new StaticPageDto(
             "privacy",
             "Privacy",
-            "Privacy page content is still rendered by the Blazor page during the smooth migration."));
+            "Privacy page content is not available from the API yet."));
     }
 }

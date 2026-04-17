@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-import { login } from '../api/auth'
 import { getListBySlug } from '../api/gameLists'
 import { createListSuggestion, validateSourceUrl } from '../api/listSuggestions'
 import { getApiErrorMessage, materializeGameSearchResult, searchGames } from '../api/userListForm'
+import LoginButton from '../components/LoginButton'
 import { useAuth } from '../context/AuthContext'
 import type { GameItemInput, GameSearchResult } from '../api/userListForm'
 import './ListSuggestionForm.css'
@@ -199,7 +199,7 @@ export default function ListSuggestionForm() {
         <div className="gate-card">
           <h2>Sign in to suggest a source list</h2>
           <p>You need an account to submit a list that can be used in the master ranking.</p>
-          <button className="btn-primary" onClick={() => login(window.location.href)}>Sign in with Google</button>
+          <LoginButton text="Sign in with Google" />
         </div>
       </div>
     )

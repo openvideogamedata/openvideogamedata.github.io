@@ -235,7 +235,6 @@ let _warmedUp = false
 export function warmUpApi(baseUrl: string): void {
   if (_warmedUp) return
   _warmedUp = true
-  fetch(`${baseUrl}/api/game-lists/categories?page=1&pageSize=1`, {
-    credentials: 'include',
-  }).catch(() => { /* silent — this is best-effort */ })
+  fetch(`${baseUrl}/api/game-lists/categories?page=1&pageSize=1`)
+    .catch(() => { /* silent — this is best-effort */ })
 }

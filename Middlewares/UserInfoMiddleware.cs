@@ -1,6 +1,4 @@
 using community.Services;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace community.Middlewares;
 
@@ -8,6 +6,7 @@ public sealed class UserInfoMiddleware
 {
     private readonly UserService _userService;
     private readonly RequestDelegate _next;
+
     public UserInfoMiddleware(UserService userService, RequestDelegate next)
     {
         _userService = userService;
@@ -22,8 +21,9 @@ public sealed class UserInfoMiddleware
             {
                 if (_userService.UserIsBanned(_userService.GetLoggedUserNameIdentifier()))
                 {
-                    await context.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-                    context.Response.Redirect("/banned");
+                    context.Response.StatusCode = StatusCodes.Status403Forbidden;
+                    await context.Response.WriteAsJsonAsync(new { error = "banned" });
+                    return;
                 }
             }
         }
@@ -32,7 +32,6 @@ public sealed class UserInfoMiddleware
             Console.WriteLine($"[ERRO] - UserInfoMiddleware {e.Message}\n{e}");
         }
 
-        // Call the next delegate/middleware in the pipeline.
         await _next(context);
     }
 }

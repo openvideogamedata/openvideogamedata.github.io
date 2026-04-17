@@ -1,5 +1,5 @@
 import { useSearchParams, Link } from 'react-router-dom'
-import { login } from '../api/auth'
+import LoginButton from '../components/LoginButton'
 import './AuthError.css'
 
 interface ErrorInfo {
@@ -70,9 +70,7 @@ export default function AuthError() {
         </div>
 
         <div className="auth-error-actions">
-          <button className="btn-primary" onClick={() => login()}>
-            Try signing in again
-          </button>
+          <LoginButton text="Try signing in again" />
           <Link to="/" className="auth-error-home-link">
             Back to home
           </Link>

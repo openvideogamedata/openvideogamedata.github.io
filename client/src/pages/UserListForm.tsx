@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
-import { login } from '../api/auth'
+import LoginButton from '../components/LoginButton'
 import {
   getListOptions, getListYearOptions, searchGames, materializeGameSearchResult, getApiErrorMessage,
   getUserListById, createUserList, updateUserList, deleteUserList,
@@ -165,7 +165,7 @@ export default function UserListForm() {
         <div className="gate-card">
           <h2>Sign in to create a list</h2>
           <p>You need an account to contribute lists.</p>
-          <button className="btn-primary" onClick={() => login()}>Sign in with Google</button>
+          <LoginButton text="Sign in with Google" />
         </div>
       </div>
     )

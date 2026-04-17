@@ -1,10 +1,10 @@
 import { useEffect, useLayoutEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
 import { Link } from 'react-router-dom'
-import { login } from '../api/auth'
 import { ApiError } from '../api/client'
 import { removeTrackerStatus, updateTracker } from '../api/games'
 import type { UpdateTrackerRequest } from '../api/games'
+import LoginButton from './LoginButton'
 import { useAuth } from '../context/AuthContext'
 import type { Tracker } from '../types'
 import { TrackStatus } from '../types'
@@ -42,7 +42,7 @@ interface Props {
 }
 
 export default function GameQuickActions({ game, appearance = 'card' }: Props) {
-  const { user, loading: authLoading } = useAuth()
+  const { user, loading: authLoading, refresh } = useAuth()
   const triggerRef = useRef<HTMLButtonElement | null>(null)
   const panelRef = useRef<HTMLDivElement | null>(null)
   const closeButtonRef = useRef<HTMLButtonElement | null>(null)
@@ -200,7 +200,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       setNoteValue(next?.note ?? '')
     } catch (error) {
       if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
-        login(window.location.href)
+        refresh()
         return
       }
 
@@ -216,7 +216,6 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
 
   async function handleStatusChange(status: TrackStatus) {
     if (!user) {
-      login(window.location.href)
       return
     }
 
@@ -394,13 +393,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
                 <p className="game-quick-hint">
                   Sign in to update status, date and notes without leaving this list.
                 </p>
-                <button
-                  type="button"
-                  className="game-quick-primary-btn"
-                  onClick={() => login(window.location.href)}
-                >
-                  Sign in with Google
-                </button>
+                <LoginButton text="Sign in with Google" />
               </section>
             ) : isTracked ? (
               <>
