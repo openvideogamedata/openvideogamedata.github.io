@@ -695,36 +695,28 @@ public class GameListService
                 listItems.GetValueOrDefault(x.Id, new List<GameListItemDto>())))
             .ToList();
 
-        var masterListsBaseQuery = context.GameLists
+        var masterListCounts = context.GameLists
             .AsNoTracking()
-            .Where(x => !x.ByUser && x.SourceId == sourceId && x.FinalGameListId.HasValue);
+            .Where(x => !x.ByUser && x.SourceId == sourceId && x.FinalGameListId.HasValue)
+            .GroupBy(x => x.FinalGameListId!.Value)
+            .Select(group => new
+            {
+                FinalGameListId = group.Key,
+                ListsCount = group.Count()
+            });
 
-        var masterListsValidQuery = masterListsBaseQuery
+        var masterListsValidQuery = context.FinalGameLists
+            .AsNoTracking()
             .Join(
-                context.FinalGameLists.AsNoTracking(),
-                gameList => gameList.FinalGameListId!.Value,
+                masterListCounts,
                 finalGameList => finalGameList.Id,
-                (gameList, finalGameList) => new
-                {
+                counted => counted.FinalGameListId,
+                (finalGameList, counted) => new SourceMasterListDto(
                     finalGameList.Id,
                     finalGameList.Title,
                     finalGameList.Year,
-                    finalGameList.Slug
-                })
-            .GroupBy(x => new
-            {
-                x.Id,
-                x.Title,
-                x.Year,
-                x.Slug
-            })
-            .Select(group => new SourceMasterListDto(
-                group.Key.Id,
-                group.Key.Title,
-                group.Key.Year,
-                group.Key.Slug,
-                group.Count()))
-            .AsQueryable();
+                    finalGameList.Slug,
+                    counted.ListsCount));
 
         var categoriesCount = masterListsValidQuery.Count();
 
