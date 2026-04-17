@@ -3,7 +3,6 @@ import { Link, useNavigate } from 'react-router-dom'
 import PixelArt from './PixelArt'
 import { useAuth } from '../context/AuthContext'
 import { logout } from '../api/auth'
-import LoginButton from './LoginButton'
 import './Navbar.css'
 
 export default function Navbar() {
@@ -157,7 +156,9 @@ export default function Navbar() {
                   ) : (
                     <>
                       <div className="mobile-nav-divider" />
-                      <LoginButton onSuccess={() => setMobileNavOpen(false)} text="Sign in" />
+                      <Link to="/login" className="mobile-nav-button" onClick={() => setMobileNavOpen(false)}>
+                        Log in or create account
+                      </Link>
                     </>
                   )
                 )}
@@ -236,7 +237,7 @@ export default function Navbar() {
                 )}
               </div>
             ) : (
-              <LoginButton text="Sign in" />
+              <Link to="/login" className="btn-primary-sm">Log in / Create account</Link>
             )
           )}
         </div>

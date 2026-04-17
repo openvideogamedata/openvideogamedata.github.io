@@ -28,6 +28,7 @@ import AdminUsers from './pages/AdminUsers'
 import AdminNewMasterList from './pages/AdminNewMasterList'
 import AdminEditMasterList from './pages/AdminEditMasterList'
 import AdminListSuggestions from './pages/AdminListSuggestions'
+import Login from './pages/Login'
 import AuthError from './pages/AuthError'
 import NotFound from './pages/NotFound'
 import './App.css'
@@ -51,6 +52,7 @@ export default function App() {
             <Route path="/source-lists/:id" element={<SourceListDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<Privacy />} />
+            <Route path="/login" element={<Login />} />
 
             {/* Phase 2 — Public profiles */}
             <Route path="/users/:nickname" element={<UserProfile />} />
