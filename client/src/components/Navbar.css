@@ -179,8 +179,16 @@
 }
 
 .mobile-nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: calc(100% - 1.75rem);
   margin: 0.875rem;
+  min-height: 42px;
+  padding: 10px 14px;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
 }
 
 .mobile-nav-button-danger {

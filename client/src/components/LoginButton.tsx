@@ -13,7 +13,7 @@ export default function LoginButton({ onSuccess, text = 'Sign in with Google' }:
   const navigate = useNavigate()
 
   return (
-    <div aria-label={text}>
+    <div className="google-login-slot" aria-label={text}>
       <GoogleLogin
         onSuccess={async (credentialResponse) => {
           try {
