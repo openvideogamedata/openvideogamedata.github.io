@@ -529,10 +529,21 @@ public class GameListService
 
         var sourceIds = sourceQuery.Select(s => s.Id).ToList();
 
-        var totalItems = sourceIds.Count;
+        var listCounts = context.GameLists
+            .AsNoTracking()
+            .Where(gl => !gl.ByUser && gl.SourceId.HasValue && sourceIds.Contains(gl.SourceId!.Value))
+            .GroupBy(gl => gl.SourceId!.Value)
+            .Select(g => new { SourceId = g.Key, ListsCount = g.Count() })
+            .ToDictionary(x => x.SourceId, x => x.ListsCount);
+
+        var orderedIds = sourceIds
+            .OrderByDescending(id => listCounts.GetValueOrDefault(id, 0))
+            .ToList();
+
+        var totalItems = orderedIds.Count;
         var pager = new Pager(totalItems, page, pageSize, maxPages);
 
-        var pagedIds = sourceIds
+        var pagedIds = orderedIds
             .Skip((pager.CurrentPage - 1) * pager.PageSize)
             .Take(pager.PageSize)
             .ToList();
@@ -558,10 +569,11 @@ public class GameListService
             .Where(s => pagedIds.Contains(s.Id))
             .ToList();
 
-        var sources = sourcesRaw
-            .Select(s =>
+        var sources = pagedIds
+            .Select(id =>
             {
-                var agg = aggregates.GetValueOrDefault(s.Id);
+                var s = sourcesRaw.First(x => x.Id == id);
+                var agg = aggregates.GetValueOrDefault(id);
                 return new SourceAggregateDto(
                     s.Id,
                     s.Name,
@@ -570,8 +582,6 @@ public class GameListService
                     agg?.CategoriesCount ?? 0,
                     agg?.LastActivity);
             })
-            .OrderByDescending(x => x.ListsCount)
-            .ThenBy(x => x.Name)
             .ToList();
 
         return (sources, pager);
@@ -638,7 +648,7 @@ public class GameListService
             source.HostUrl,
             totalItems,
             categoriesCount,
-            baseQuery.Max(x => (DateTime?)(x.DateLastUpdated ?? x.DateAdded)),
+            baseQuery.Max(x => x.DateLastUpdated != null ? x.DateLastUpdated : (DateTime?)x.DateAdded),
             masterLists);
 
         return new SourceDetailsResponse(
