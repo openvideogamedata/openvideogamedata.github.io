@@ -515,36 +515,37 @@ public class GameListService
     {
         using var context = _factory.CreateDbContext();
 
-        var query = context.GameLists
+        var sourceQuery = context.Sources
             .AsNoTracking()
-            .Include(x => x.Source)
-            .Where(x => !x.ByUser && x.Source != null);
+            .Where(source => context.GameLists.Any(gameList => !gameList.ByUser && gameList.SourceId == source.Id));
 
         if (!string.IsNullOrWhiteSpace(search))
         {
             var normalized = search.Trim().ToLowerInvariant();
-            query = query.Where(x =>
-                x.Source!.Name.ToLower().Contains(normalized) ||
-                x.Source.HostUrl.ToLower().Contains(normalized));
+            sourceQuery = sourceQuery.Where(source =>
+                (source.Name ?? string.Empty).ToLower().Contains(normalized) ||
+                (source.HostUrl ?? string.Empty).ToLower().Contains(normalized));
         }
 
-        var groupedQuery = query
-            .GroupBy(x => new { x.Source!.Id, x.Source.Name, x.Source.HostUrl })
-            .Select(group => new SourceAggregateDto(
-                group.Key.Id,
-                group.Key.Name,
-                group.Key.HostUrl,
-                group.Count(),
-                group.Where(x => x.FinalGameListId.HasValue)
-                    .Select(x => x.FinalGameListId!.Value)
+        var projectedQuery = sourceQuery
+            .Select(source => new SourceAggregateDto(
+                source.Id,
+                source.Name,
+                source.HostUrl,
+                context.GameLists.Count(gameList => !gameList.ByUser && gameList.SourceId == source.Id),
+                context.GameLists
+                    .Where(gameList => !gameList.ByUser && gameList.SourceId == source.Id && gameList.FinalGameListId.HasValue)
+                    .Select(gameList => gameList.FinalGameListId!.Value)
                     .Distinct()
                     .Count(),
-                group.Max(x => x.DateLastUpdated ?? x.DateAdded)));
+                context.GameLists
+                    .Where(gameList => !gameList.ByUser && gameList.SourceId == source.Id)
+                    .Max(gameList => (DateTime?)(gameList.DateLastUpdated ?? gameList.DateAdded))));
 
-        var totalItems = groupedQuery.Count();
+        var totalItems = projectedQuery.Count();
         var pager = new Pager(totalItems, page, pageSize, maxPages);
 
-        var sources = groupedQuery
+        var sources = projectedQuery
             .OrderByDescending(x => x.ListsCount)
             .ThenBy(x => x.Name)
             .Skip((pager.CurrentPage - 1) * pager.PageSize)
