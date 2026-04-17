@@ -68,6 +68,17 @@ public class GameListsController : ControllerBase
         });
     }
 
+    [HttpGet("sources/{id:long}")]
+    public IActionResult GetSourceDetails(
+        long id,
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 15,
+        [FromQuery] int maxPages = 5)
+    {
+        var details = _gameListService.GetSourceDetails(id, page, pageSize, maxPages);
+        return details is null ? NotFound() : Ok(details);
+    }
+
     [HttpGet("{slug}")]
     public IActionResult GetBySlug(string slug)
     {

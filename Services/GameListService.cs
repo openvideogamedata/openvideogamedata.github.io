@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using community.Utils;
 using community.Dtos;
 using community.Dtos.GameLists;
+using community.Mappers.GameLists;
 
 namespace community.Data;
 
@@ -551,6 +552,76 @@ public class GameListService
             .ToList();
 
         return (sources, pager);
+    }
+
+    public SourceDetailsResponse? GetSourceDetails(long sourceId, int page = 1, int pageSize = 15, int maxPages = 5)
+    {
+        using var context = _factory.CreateDbContext();
+
+        var source = context.Sources
+            .AsNoTracking()
+            .FirstOrDefault(x => x.Id == sourceId);
+
+        if (source is null)
+            return null;
+
+        var baseQuery = context.GameLists
+            .AsNoTracking()
+            .Include(x => x.Source)
+            .Include(x => x.FinalGameList)
+            .Include(x => x.Items)
+            .ThenInclude(x => x.Game)
+            .Where(x => !x.ByUser && x.SourceId == sourceId);
+
+        var totalItems = baseQuery.Count();
+        var pager = new Pager(totalItems, page, pageSize, maxPages);
+
+        var lists = baseQuery
+            .OrderByDescending(x => x.DateLastUpdated ?? x.DateAdded)
+            .ThenByDescending(x => x.DateAdded)
+            .Skip((pager.CurrentPage - 1) * pager.PageSize)
+            .Take(pager.PageSize)
+            .ToList();
+
+        var masterListsQuery = context.GameLists
+            .AsNoTracking()
+            .Include(x => x.FinalGameList)
+            .Where(x => !x.ByUser && x.SourceId == sourceId && x.FinalGameListId.HasValue && x.FinalGameList != null)
+            .GroupBy(x => new
+            {
+                x.FinalGameList!.Id,
+                x.FinalGameList.Title,
+                x.FinalGameList.Year,
+                x.FinalGameList.Slug
+            })
+            .Select(group => new SourceMasterListDto(
+                group.Key.Id,
+                group.Key.Title,
+                group.Key.Year,
+                group.Key.Slug,
+                group.Count()));
+
+        var categoriesCount = masterListsQuery.Count();
+
+        var masterLists = masterListsQuery
+            .OrderByDescending(x => x.ListsCount)
+            .ThenBy(x => x.Title)
+            .Take(8)
+            .ToList();
+
+        var details = new SourceDetailsDto(
+            source.Id,
+            source.Name,
+            source.HostUrl,
+            totalItems,
+            categoriesCount,
+            baseQuery.Max(x => (DateTime?)(x.DateLastUpdated ?? x.DateAdded)),
+            masterLists);
+
+        return new SourceDetailsResponse(
+            details,
+            lists.Select(GameListMapper.ToGameListDto).ToList(),
+            pager);
     }
 
     public FinalGameList? GetById(long listId)

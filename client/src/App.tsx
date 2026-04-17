@@ -13,6 +13,7 @@ import Privacy from './pages/Privacy'
 import TopContributors from './pages/TopContributors'
 import SourceListDetail from './pages/SourceListDetail'
 import Sources from './pages/Sources'
+import SourceDetail from './pages/SourceDetail'
 import Badges from './pages/Badges'
 import ListDetail from './pages/ListDetail'
 import UserProfile from './pages/UserProfile'
@@ -54,6 +55,7 @@ export default function App() {
             <Route path="/list/:slug/:mode" element={<ListDetail />} />
             <Route path="/source-lists/:id" element={<SourceListDetail />} />
             <Route path="/sources" element={<Sources />} />
+            <Route path="/sources/:id" element={<SourceDetail />} />
             <Route path="/about" element={<About />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/login" element={<Login />} />

@@ -134,6 +134,10 @@
   font-size: 1.24rem;
 }
 
+.source-card-title-link:hover h2 {
+  color: var(--purple-light);
+}
+
 .source-card-head a {
   color: var(--cyan-light);
   font-size: 0.88rem;

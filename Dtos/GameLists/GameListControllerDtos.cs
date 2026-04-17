@@ -1,5 +1,6 @@
 using community.Data;
 using community.Dtos;
+using community.Utils;
 
 namespace community.Dtos.GameLists;
 
@@ -41,7 +42,7 @@ public sealed record GameListDetailsResponse(
 
 public sealed record GameListCollectionResponse(
     List<GameListDto> Lists,
-    object Pager);
+    Pager Pager);
 
 public sealed record GameListDto(
     long Id,
@@ -115,3 +116,24 @@ public sealed record SourceAggregateDto(
     int ListsCount,
     int CategoriesCount,
     DateTime? LastActivity);
+
+public sealed record SourceMasterListDto(
+    long Id,
+    string Title,
+    int? Year,
+    string Slug,
+    int ListsCount);
+
+public sealed record SourceDetailsDto(
+    long Id,
+    string Name,
+    string HostUrl,
+    int ListsCount,
+    int CategoriesCount,
+    DateTime? LastActivity,
+    List<SourceMasterListDto> MasterLists);
+
+public sealed record SourceDetailsResponse(
+    SourceDetailsDto Source,
+    List<GameListDto> Lists,
+    Pager Pager);

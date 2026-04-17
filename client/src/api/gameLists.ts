@@ -119,6 +119,36 @@ export interface SourceAggregateResponse {
   }
 }
 
+export interface SourceMasterListDto {
+  id: number
+  title: string
+  year: number | null
+  slug: string
+  listsCount: number
+}
+
+export interface SourceDetailsDto {
+  id: number
+  name: string
+  hostUrl: string
+  listsCount: number
+  categoriesCount: number
+  lastActivity: string | null
+  masterLists: SourceMasterListDto[]
+}
+
+export interface SourceDetailsResponse {
+  source: SourceDetailsDto
+  lists: SourceGameListDto[]
+  pager: {
+    currentPage: number
+    pageSize: number
+    totalItems: number
+    totalPages: number
+    maxPages: number
+  }
+}
+
 export async function getListBySlug(slug: string): Promise<GameListDetailsResponse> {
   const cached = await getListBySlugFromCache(slug)
   if (cached) return cached
@@ -152,6 +182,15 @@ export function getSources(page = 1, pageSize = 15, search?: string): Promise<So
   }
 
   return api.get<SourceAggregateResponse>(`/api/game-lists/sources?${params.toString()}`)
+}
+
+export function getSourceDetails(id: number | string, page = 1, pageSize = 15): Promise<SourceDetailsResponse> {
+  const params = new URLSearchParams({
+    page: String(page),
+    pageSize: String(pageSize),
+  })
+
+  return api.get<SourceDetailsResponse>(`/api/game-lists/sources/${id}?${params.toString()}`)
 }
 
 export interface UpdateMasterListRequest {

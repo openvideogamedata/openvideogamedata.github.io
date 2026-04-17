@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import Paginator from '../components/Paginator'
 import { getSources, type SourceAggregateDto } from '../api/gameLists'
 import type { Pager } from '../types'
@@ -108,7 +109,9 @@ export default function Sources() {
                 <article key={source.id} className="source-card">
                   <div className="source-card-main">
                     <div className="source-card-head">
-                      <h2>{source.name}</h2>
+                      <Link to={`/sources/${source.id}`} className="source-card-title-link">
+                        <h2>{source.name}</h2>
+                      </Link>
                       <a href={normalizeHost(source.hostUrl)} target="_blank" rel="noopener noreferrer">
                         {source.hostUrl}
                       </a>
