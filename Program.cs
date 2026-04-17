@@ -34,7 +34,12 @@ namespace community
             {
                 options.AddDefaultPolicy(policy =>
                 {
-                    var origins = new List<string> { "https://openvideogamedata.github.io" };
+                    var origins = new List<string>
+                    {
+                        "https://openvideogamedata.github.io",
+                        "https://openvideogamedata.com",
+                        "https://www.openvideogamedata.com",
+                    };
 
                     if (builder.Environment.IsDevelopment())
                         origins.Add("http://localhost:5173");

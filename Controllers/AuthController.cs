@@ -35,13 +35,20 @@ public class AuthController : ControllerBase
     [SwaggerOperation(Summary = "Login com Google", Description = "Valida o ID Token emitido pelo Google Identity Services e retorna um JWT proprio.")]
     public async Task<IActionResult> GoogleLogin([FromBody] GoogleLoginRequest req)
     {
-        if (string.IsNullOrEmpty(req.IdToken))
-            return BadRequest(new { error = "IdToken is required." });
+        var idToken = req.IdToken ?? req.Credential;
+        if (string.IsNullOrWhiteSpace(idToken))
+        {
+            _logger.LogWarning(
+                "Google login request rejected because no id token was provided. HasIdToken={HasIdToken} HasCredential={HasCredential}",
+                !string.IsNullOrWhiteSpace(req.IdToken),
+                !string.IsNullOrWhiteSpace(req.Credential));
+            return BadRequest(new { error = "id_token_missing" });
+        }
 
         GoogleJsonWebSignature.Payload payload;
         try
         {
-            payload = await GoogleJsonWebSignature.ValidateAsync(req.IdToken,
+            payload = await GoogleJsonWebSignature.ValidateAsync(idToken,
                 new GoogleJsonWebSignature.ValidationSettings { Audience = new[] { _googleClientId } });
         }
         catch (InvalidJwtException ex)
@@ -111,4 +118,8 @@ public class AuthController : ControllerBase
     }
 }
 
-public record GoogleLoginRequest(string IdToken);
+public sealed class GoogleLoginRequest
+{
+    public string? IdToken { get; set; }
+    public string? Credential { get; set; }
+}
