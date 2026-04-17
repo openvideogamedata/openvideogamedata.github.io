@@ -598,45 +598,137 @@ public class GameListService
         if (source is null)
             return null;
 
-        var baseQuery = context.GameLists
+        var sourceListsQuery = context.GameLists
             .AsNoTracking()
-            .Include(x => x.Source)
-            .Include(x => x.FinalGameList)
-            .Include(x => x.Items)
-            .ThenInclude(x => x.Game)
             .Where(x => !x.ByUser && x.SourceId == sourceId);
 
-        var totalItems = baseQuery.Count();
+        var totalItems = sourceListsQuery.Count();
+
+        // Source details pages are only valid for indexed critic sources.
+        if (totalItems <= 0)
+            return null;
+
         var pager = new Pager(totalItems, page, pageSize, maxPages);
 
-        var lists = baseQuery
+        var lastActivity = sourceListsQuery
+            .Select(x => x.DateLastUpdated != null ? x.DateLastUpdated : (DateTime?)x.DateAdded)
+            .OrderByDescending(x => x)
+            .FirstOrDefault();
+
+        var pagedLists = context.GameLists
+            .AsNoTracking()
+            .Where(x => !x.ByUser && x.SourceId == sourceId)
             .OrderByDescending(x => x.DateLastUpdated ?? x.DateAdded)
             .ThenByDescending(x => x.DateAdded)
             .Skip((pager.CurrentPage - 1) * pager.PageSize)
             .Take(pager.PageSize)
+            .Select(x => new
+            {
+                x.Id,
+                x.ByUser,
+                x.SourceListUrl,
+                x.DateAdded,
+                x.DateLastUpdated,
+                UserContributed = x.UserContributed == null
+                    ? null
+                    : new UserSummaryDto(
+                        x.UserContributed.Id,
+                        x.UserContributed.Nickname,
+                        x.UserContributed.FullName),
+                FinalGameList = x.FinalGameList == null
+                    ? null
+                    : new FinalGameListSummaryDto(
+                        x.FinalGameList.Id,
+                        x.FinalGameList.Title,
+                        x.FinalGameList.Year,
+                        x.FinalGameList.Slug,
+                        x.FinalGameList.Year == null
+                            ? x.FinalGameList.Title
+                            : $"{x.FinalGameList.Title} {x.FinalGameList.Year}")
+            })
             .ToList();
 
-        var masterListsQuery = context.GameLists
+        var pagedListIds = pagedLists
+            .Select(x => x.Id)
+            .ToList();
+
+        var listItems = context.Items
             .AsNoTracking()
-            .Include(x => x.FinalGameList)
-            .Where(x => !x.ByUser && x.SourceId == sourceId && x.FinalGameListId.HasValue && x.FinalGameList != null)
+            .Where(x => pagedListIds.Contains(x.GameListId))
+            .OrderBy(x => x.GameListId)
+            .ThenBy(x => x.Position)
+            .Select(x => new
+            {
+                x.GameListId,
+                x.Id,
+                x.Position,
+                x.GameTitle,
+                x.GameId,
+                x.Score,
+                ExternalCoverImageId = x.Game != null ? x.Game.ExternalCoverImageId : null
+            })
+            .ToList()
+            .GroupBy(x => x.GameListId)
+            .ToDictionary(
+                group => group.Key,
+                group => group.Select(x => new GameListItemDto(
+                    x.Id,
+                    x.Position,
+                    x.GameTitle,
+                    x.GameId,
+                    string.IsNullOrWhiteSpace(x.ExternalCoverImageId)
+                        ? null
+                        : $"https://images.igdb.com/igdb/image/upload/t_cover_small/{x.ExternalCoverImageId}.jpg",
+                    x.Score))
+                .ToList());
+
+        var lists = pagedLists
+            .Select(x => new GameListDto(
+                x.Id,
+                x.ByUser,
+                x.SourceListUrl,
+                x.DateAdded,
+                x.DateLastUpdated,
+                x.UserContributed,
+                new SourceDto(source.Id, source.Name, source.HostUrl),
+                x.FinalGameList,
+                listItems.GetValueOrDefault(x.Id, new List<GameListItemDto>())))
+            .ToList();
+
+        var masterListsBaseQuery = context.GameLists
+            .AsNoTracking()
+            .Where(x => !x.ByUser && x.SourceId == sourceId && x.FinalGameListId.HasValue);
+
+        var masterListsValidQuery = masterListsBaseQuery
+            .Join(
+                context.FinalGameLists.AsNoTracking(),
+                gameList => gameList.FinalGameListId!.Value,
+                finalGameList => finalGameList.Id,
+                (gameList, finalGameList) => new
+                {
+                    finalGameList.Id,
+                    finalGameList.Title,
+                    finalGameList.Year,
+                    finalGameList.Slug
+                })
             .GroupBy(x => new
             {
-                x.FinalGameList!.Id,
-                x.FinalGameList.Title,
-                x.FinalGameList.Year,
-                x.FinalGameList.Slug
+                x.Id,
+                x.Title,
+                x.Year,
+                x.Slug
             })
             .Select(group => new SourceMasterListDto(
                 group.Key.Id,
                 group.Key.Title,
                 group.Key.Year,
                 group.Key.Slug,
-                group.Count()));
+                group.Count()))
+            .AsQueryable();
 
-        var categoriesCount = masterListsQuery.Count();
+        var categoriesCount = masterListsValidQuery.Count();
 
-        var masterLists = masterListsQuery
+        var masterLists = masterListsValidQuery
             .OrderByDescending(x => x.ListsCount)
             .ThenBy(x => x.Title)
             .Take(8)
@@ -648,12 +740,12 @@ public class GameListService
             source.HostUrl,
             totalItems,
             categoriesCount,
-            baseQuery.Max(x => x.DateLastUpdated != null ? x.DateLastUpdated : (DateTime?)x.DateAdded),
+            lastActivity,
             masterLists);
 
         return new SourceDetailsResponse(
             details,
-            lists.Select(GameListMapper.ToGameListDto).ToList(),
+            lists,
             pager);
     }
 
