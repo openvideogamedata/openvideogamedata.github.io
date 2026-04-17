@@ -170,12 +170,14 @@
   align-items: center;
   justify-content: center;
   min-height: 46px;
+  width: 100%;
   overflow: visible;
 }
 
 .google-login-slot iframe,
 .google-login-slot > div {
   display: block;
+  width: 100% !important;
   max-width: 100%;
 }
 

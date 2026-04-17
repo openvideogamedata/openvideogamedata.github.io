@@ -27,6 +27,7 @@ export default function LoginButton({ onSuccess, text = 'Sign in with Google' }:
         }}
         onError={() => navigate('/auth/error?reason=auth_failed')}
         text="signin_with"
+        width="100%"
       />
     </div>
   )
