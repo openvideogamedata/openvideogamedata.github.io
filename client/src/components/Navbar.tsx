@@ -66,6 +66,7 @@ export default function Navbar() {
         </Link>
 
         <nav className="navbar-links">
+          {user && <Link to="/dashboard" className="nav-link">Dashboard</Link>}
           <Link to="/lists" className="nav-link">Lists</Link>
           <Link to="/games" className="nav-link">Games</Link>
           <Link to="/badges" className="nav-link">Badges</Link>
@@ -112,6 +113,7 @@ export default function Navbar() {
                   user ? (
                     <>
                       <div className="mobile-nav-divider" />
+                      <Link to="/dashboard" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Dashboard</Link>
                       <button
                         className="mobile-nav-link mobile-nav-link-toggle"
                         onClick={() => setMobileProfileOpen(v => !v)}

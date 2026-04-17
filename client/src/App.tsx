@@ -2,6 +2,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Home from './pages/Home'
+import Dashboard from './pages/Dashboard'
 import Search from './pages/Search'
 import Lists from './pages/Lists'
 import Games from './pages/Games'
@@ -42,6 +43,7 @@ export default function App() {
           <Routes>
             {/* Phase 1 — Public */}
             <Route path="/" element={<Home />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/search" element={<Search />} />
             <Route path="/lists" element={<Lists />} />
             <Route path="/games" element={<Games />} />

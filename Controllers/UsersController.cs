@@ -56,6 +56,20 @@ public class UsersController : ControllerBase
             gamification));
     }
 
+    [Authorize]
+    [HttpGet("me/dashboard")]
+    public async Task<IActionResult> GetMyDashboard()
+    {
+        var user = _userService.GetLoggedUser();
+        if (user is null)
+        {
+            return Unauthorized();
+        }
+
+        var dashboard = await _userService.GetDashboard(user.Id);
+        return dashboard is null ? NotFound() : Ok(dashboard);
+    }
+
     [HttpGet("{nickname}")]
     public async Task<IActionResult> GetByNickname(string nickname)
     {

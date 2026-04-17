@@ -27,7 +27,8 @@ export default function LoginButton({ onSuccess, text = 'Sign in with Google' }:
               refresh()
               showToast('Signed in successfully.', 'success')
               if (needsFill) navigate('/users/fill')
-              else onSuccess?.()
+              else if (onSuccess) onSuccess()
+              else navigate('/dashboard')
             } catch {
               navigate('/auth/error?reason=auth_failed')
             } finally {

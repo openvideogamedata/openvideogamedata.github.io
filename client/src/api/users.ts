@@ -39,8 +39,64 @@ export interface UserProfileDto {
   gamification: GamificationDto | null
 }
 
+export interface UserDashboardProfileDto {
+  id: number
+  nickname: string
+  fullName: string
+  userPicture: string[] | null
+  needsNickname: boolean
+  unreadNotifications: number
+  friendsCount: number
+  pendingFriendRequests: number
+  badgesCount: number
+  totalTrackers: number
+  listsCreated: number
+}
+
+export interface UserDashboardStatDto {
+  label: string
+  value: string
+  hint: string
+  href: string
+}
+
+export interface UserDashboardChecklistItemDto {
+  key: string
+  title: string
+  description: string
+  href: string
+  completed: boolean
+}
+
+export interface UserDashboardActionDto {
+  title: string
+  description: string
+  href: string
+  tone: 'primary' | 'accent' | 'neutral'
+}
+
+export interface UserDashboardActivityDto {
+  type: string
+  title: string
+  description: string
+  href: string
+  date: string
+}
+
+export interface UserDashboardDto {
+  profile: UserDashboardProfileDto
+  stats: UserDashboardStatDto[]
+  checklist: UserDashboardChecklistItemDto[]
+  actions: UserDashboardActionDto[]
+  recentActivity: UserDashboardActivityDto[]
+}
+
 export function getMe(): Promise<UserProfileDto> {
   return api.get<UserProfileDto>('/api/users/me')
+}
+
+export function getDashboard(): Promise<UserDashboardDto> {
+  return api.get<UserDashboardDto>('/api/users/me/dashboard')
 }
 
 export function getTopContributors(): Promise<TopContributorDto[]> {

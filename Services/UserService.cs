@@ -2,6 +2,7 @@ using System.Security.Claims;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using community.Data;
+using community.Dtos.Users;
 using community.Dtos.Friends;
 using community.Utils;
 using Microsoft.EntityFrameworkCore;
@@ -711,6 +712,116 @@ public sealed class UserService
             .ToList();
     }
 
+    public async Task<UserDashboardDto?> GetDashboard(long userId)
+    {
+        using var context = _factory.CreateDbContext();
+
+        var user = await context.Users
+            .AsNoTracking()
+            .FirstOrDefaultAsync(x => x.Id == userId);
+
+        if (user is null)
+            return null;
+
+        var listsCreated = await context.GameLists
+            .AsNoTracking()
+            .Where(x => x.UserContributedId == userId && x.ByUser)
+            .CountAsync();
+
+        var trackerGroups = await context.GameUserTrackers
+            .AsNoTracking()
+            .Where(x => x.UserId == userId && x.Status != TrackStatus.None)
+            .GroupBy(x => x.Status)
+            .Select(x => new { Status = x.Key, Count = x.Count() })
+            .ToListAsync();
+
+        var totalTrackers = trackerGroups.Sum(x => x.Count);
+
+        var unreadNotifications = await context.Notifications
+            .AsNoTracking()
+            .CountAsync(x => x.UserId == userId && !x.Read);
+
+        var friendsCount = await context.Friendships
+            .AsNoTracking()
+            .CountAsync(x => (x.User1Id == userId || x.User2Id == userId) && x.Status == FriendshipStatus.ACCEPTED);
+
+        var pendingFriendRequests = await context.Friendships
+            .AsNoTracking()
+            .CountAsync(x => x.User2Id == userId && x.Status == FriendshipStatus.WAITING);
+
+        var badgesCount = await context.Badges
+            .AsNoTracking()
+            .CountAsync(x => x.Users.Any(y => y.Id == userId));
+
+        var profile = new UserDashboardProfileDto(
+            user.Id,
+            user.Nickname,
+            user.FullName,
+            user.GetUserPicture(),
+            user.NicknameIsNameIdentifier(),
+            unreadNotifications,
+            friendsCount,
+            pendingFriendRequests,
+            badgesCount,
+            totalTrackers,
+            listsCreated);
+
+        var checklist = new List<UserDashboardChecklistItemDto>
+        {
+            new("nickname", "Choose your nickname", "Pick the public name that will represent you across OpenVGD.", "/users/fill", !user.NicknameIsNameIdentifier()),
+            new("avatar", "Set your pixel avatar", "Customize your profile so people can recognize you faster.", $"/users/{user.Nickname}", user.GetUserPicture() is not null),
+            new("list", "Create your first list", "Start contributing with your own ranked list.", "/lists/new", listsCreated > 0),
+            new("tracker", "Track your first game", "Mark a game as playing, beaten, or to-play.", "/games", totalTrackers > 0),
+            new("friend", "Connect with a friend", "Follow other contributors and compare your activity.", "/users", friendsCount > 0),
+        };
+
+        var stats = new List<UserDashboardStatDto>
+        {
+            new("Lists", listsCreated.ToString(), listsCreated == 0 ? "Create your first community list." : "Lists created by you.", listsCreated == 0 ? "/lists/new" : $"/users/{user.Nickname}/lists"),
+            new("Tracked games", totalTrackers.ToString(), totalTrackers == 0 ? "No tracker activity yet." : "Games already tracked by you.", $"/users/{user.Nickname}/trackers"),
+            new("Badges", badgesCount.ToString(), badgesCount == 0 ? "Your first badge is still waiting." : "Badges currently visible on your profile.", "/badges"),
+            new("Notifications", unreadNotifications.ToString(), unreadNotifications == 0 ? "No unread items right now." : "Unread updates waiting for you.", "/notifications"),
+        };
+
+        var actions = BuildDashboardActions(profile, checklist);
+
+        var recentLists = await context.GameLists
+            .AsNoTracking()
+            .Include(x => x.FinalGameList)
+            .Where(x => x.UserContributedId == userId && x.ByUser && x.FinalGameList != null)
+            .OrderByDescending(x => x.DateAdded)
+            .Take(3)
+            .Select(x => new UserDashboardActivityDto(
+                "list",
+                $"You created \"{x.FinalGameList!.GetFullName()}\"",
+                "Your own list is now part of your public profile.",
+                $"/users/{user.Nickname}/lists",
+                x.DateAdded))
+            .ToListAsync();
+
+        var recentTrackers = await context.GameUserTrackers
+            .AsNoTracking()
+            .Include(x => x.Game)
+            .Where(x => x.UserId == userId && x.Status != TrackStatus.None && x.Game != null)
+            .OrderByDescending(x => x.LastUpdateDate)
+            .Take(3)
+            .Select(x => new UserDashboardActivityDto(
+                "tracker",
+                $"{GetTrackStatusLabel(x.Status)}: {x.Game!.Title}",
+                "Your tracker history is helping build your profile activity.",
+                $"/users/{user.Nickname}/trackers",
+                x.LastUpdateDate))
+            .ToListAsync();
+
+        var recentActivity = recentLists
+            .Concat(recentTrackers)
+            .OrderByDescending(x => x.Date)
+            .Take(5)
+            .ToList();
+
+        return new UserDashboardDto(profile, stats, checklist, actions, recentActivity);
+    }
+
     private async Task<IList<Friendship>> GetFriendships(long userId, FriendshipStatus status)
     {
         using var context = this._factory.CreateDbContext();
@@ -755,5 +866,73 @@ public sealed class UserService
                 userClaimsString = JsonSerializer.Serialize(userClaims?.Claims.Select(x => x.Value).ToList(), new JsonSerializerOptions() { ReferenceHandler = ReferenceHandler.IgnoreCycles });
         } catch { }
         Console.WriteLine($"CreateUserModelFromClaims - User Claims: {userClaimsString}");
+    }
+
+    private static string GetTrackStatusLabel(TrackStatus status)
+    {
+        return status switch
+        {
+            TrackStatus.ToPlay => "To Play",
+            TrackStatus.Playing => "Playing",
+            TrackStatus.Beaten => "Beaten",
+            TrackStatus.Abandoned => "Abandoned",
+            TrackStatus.Played => "Played",
+            _ => "Tracked",
+        };
+    }
+
+    private static List<UserDashboardActionDto> BuildDashboardActions(
+        UserDashboardProfileDto profile,
+        List<UserDashboardChecklistItemDto> checklist)
+    {
+        var actions = new List<UserDashboardActionDto>();
+
+        var nextChecklist = checklist.FirstOrDefault(x => !x.Completed);
+        if (nextChecklist is not null)
+        {
+            actions.Add(new UserDashboardActionDto(
+                "Finish your setup",
+                nextChecklist.Title,
+                nextChecklist.Href,
+                "primary"));
+        }
+
+        if (profile.UnreadNotifications > 0)
+        {
+            actions.Add(new UserDashboardActionDto(
+                "Review notifications",
+                $"{profile.UnreadNotifications} unread update{(profile.UnreadNotifications == 1 ? "" : "s")} waiting for you.",
+                "/notifications",
+                "accent"));
+        }
+
+        if (profile.TotalTrackers == 0)
+        {
+            actions.Add(new UserDashboardActionDto(
+                "Start tracking games",
+                "Add statuses to games you want to play or already finished.",
+                "/games",
+                "neutral"));
+        }
+
+        if (profile.ListsCreated == 0)
+        {
+            actions.Add(new UserDashboardActionDto(
+                "Create your first list",
+                "Publish a personal list and start showing your taste.",
+                "/lists/new",
+                "neutral"));
+        }
+
+        if (profile.FriendsCount == 0)
+        {
+            actions.Add(new UserDashboardActionDto(
+                "Find people to follow",
+                "Connect with other contributors and compare activity.",
+                "/users",
+                "neutral"));
+        }
+
+        return actions.Take(4).ToList();
     }
 }
