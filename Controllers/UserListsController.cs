@@ -82,7 +82,7 @@ public class UserListsController : ControllerBase
         return Ok(GameListMapper.ToGameListDto(list));
     }
 
-    [Authorize]
+    [Authorize(Roles = "member,admin")]
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] UserListWriteRequest request)
     {

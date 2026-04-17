@@ -93,6 +93,30 @@ public class AuthController : ControllerBase
         });
     }
 
+    [Authorize]
+    [HttpPost("refresh")]
+    [SwaggerOperation(Summary = "Reemite o JWT do usuario autenticado com os dados atuais.")]
+    public IActionResult Refresh()
+    {
+        var user = _userService.GetLoggedUser();
+        if (user is null)
+        {
+            return Unauthorized();
+        }
+
+        if (user.Banned)
+        {
+            _logger.LogWarning("Banned user attempted token refresh. NameIdentifier={NameIdentifier}", user.NameIdentifier);
+            return StatusCode(403, new { error = "banned" });
+        }
+
+        return Ok(new
+        {
+            token = GenerateJwt(user),
+            needsFill = user.NicknameIsNameIdentifier()
+        });
+    }
+
     private string GenerateJwt(User user)
     {
         var claims = new List<Claim>
@@ -104,6 +128,9 @@ public class AuthController : ControllerBase
 
         if (!string.IsNullOrEmpty(user.Role))
             claims.Add(new Claim(ClaimTypes.Role, user.Role));
+
+        if (user.IsMember)
+            claims.Add(new Claim(ClaimTypes.Role, "member"));
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSecret));
         var token = new JwtSecurityToken(

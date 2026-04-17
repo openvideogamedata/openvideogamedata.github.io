@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from 'react'
+import { createContext, useCallback, useContext, useEffect, useState } from 'react'
 import { jwtDecode } from 'jwt-decode'
 import { getMe } from '../api/users'
 import type { UserProfileDto } from '../api/users'
@@ -7,14 +7,20 @@ interface AuthState {
   user: UserProfileDto | null
   loading: boolean
   isAdmin: boolean
-  refresh: () => void
+  refresh: () => Promise<UserProfileDto | null>
 }
 
-const AuthContext = createContext<AuthState>({ user: null, loading: true, isAdmin: false, refresh: () => {} })
+const AuthContext = createContext<AuthState>({
+  user: null,
+  loading: true,
+  isAdmin: false,
+  refresh: async () => null,
+})
 
 interface JwtPayload {
   exp: number
-  role?: string
+  role?: string | string[]
+  'http://schemas.microsoft.com/ws/2008/06/identity/claims/role'?: string | string[]
 }
 
 function getTokenPayload(): JwtPayload | null {
@@ -32,33 +38,46 @@ function getTokenPayload(): JwtPayload | null {
   }
 }
 
+function hasRole(payload: JwtPayload, role: string): boolean {
+  const values = [
+    payload.role,
+    payload['http://schemas.microsoft.com/ws/2008/06/identity/claims/role'],
+  ]
+
+  return values.some(value => Array.isArray(value) ? value.includes(role) : value === role)
+}
+
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<UserProfileDto | null>(null)
   const [loading, setLoading] = useState(true)
   const [isAdmin, setIsAdmin] = useState(false)
 
-  function load() {
+  const load = useCallback(async (): Promise<UserProfileDto | null> => {
     const payload = getTokenPayload()
     if (!payload) {
       setUser(null)
       setIsAdmin(false)
       setLoading(false)
-      return
+      return null
     }
 
-    setIsAdmin(payload.role === 'admin')
+    setIsAdmin(hasRole(payload, 'admin'))
     setLoading(true)
-    getMe()
-      .then(profile => { setUser(profile) })
-      .catch(() => {
-        localStorage.removeItem('token')
-        setUser(null)
-        setIsAdmin(false)
-      })
-      .finally(() => setLoading(false))
-  }
+    try {
+      const profile = await getMe()
+      setUser(profile)
+      return profile
+    } catch {
+      localStorage.removeItem('token')
+      setUser(null)
+      setIsAdmin(false)
+      return null
+    } finally {
+      setLoading(false)
+    }
+  }, [])
 
-  useEffect(() => { load() }, [])
+  useEffect(() => { load() }, [load])
 
   return (
     <AuthContext.Provider value={{ user, loading, isAdmin, refresh: load }}>

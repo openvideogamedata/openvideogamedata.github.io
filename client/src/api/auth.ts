@@ -11,6 +11,12 @@ export async function loginWithGoogle(credentialResponse: CredentialResponse): P
   return { needsFill: result.needsFill }
 }
 
+export async function refreshAuthToken(): Promise<{ needsFill: boolean }> {
+  const result = await api.post<{ token: string; needsFill: boolean }>('/api/auth/refresh', {})
+  localStorage.setItem('token', result.token)
+  return { needsFill: result.needsFill }
+}
+
 export function logout(): void {
   localStorage.removeItem('token')
 }

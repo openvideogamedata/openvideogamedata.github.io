@@ -1,0 +1,122 @@
+.membership-return-page {
+  min-height: 60vh;
+}
+
+.membership-return-header {
+  border-bottom: 1px solid var(--border);
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.membership-return-header-success {
+  background:
+    linear-gradient(135deg, rgba(34, 197, 94, 0.18) 0%, transparent 42%),
+    var(--surface);
+}
+
+.membership-return-header-cancel {
+  background:
+    linear-gradient(135deg, rgba(239, 68, 68, 0.16) 0%, transparent 42%),
+    var(--surface);
+}
+
+.membership-return-container {
+  max-width: 640px;
+}
+
+.membership-return-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-bottom: 1.5rem;
+}
+
+.membership-return-title {
+  color: var(--text);
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0 0 0.85rem;
+}
+
+.membership-return-text {
+  color: var(--text-muted);
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 520px;
+}
+
+.membership-return-status {
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 1.25rem auto 0;
+  max-width: 520px;
+}
+
+.membership-return-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.membership-return-primary,
+.membership-return-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+
+.membership-return-primary {
+  background: var(--purple);
+  color: #fff;
+  padding: 0 1.35rem;
+}
+
+.membership-return-primary:hover {
+  background: #6d28d9;
+}
+
+.membership-return-secondary {
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0 1.2rem;
+}
+
+.membership-return-secondary:hover {
+  border-color: var(--text-muted);
+}
+
+@media (max-width: 520px) {
+  .membership-return-header {
+    padding: 4rem 1rem;
+  }
+
+  .membership-return-title {
+    font-size: 1.6rem;
+  }
+
+  .membership-return-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

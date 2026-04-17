@@ -27,6 +27,8 @@ import FillUserInfo from './pages/FillUserInfo'
 import BadgesPromo from './pages/BadgesPromo'
 import UsersSearch from './pages/UsersSearch'
 import UserListForm from './pages/UserListForm'
+import MembershipSuccess from './pages/MembershipSuccess'
+import MembershipCancel from './pages/MembershipCancel'
 import AdminUsers from './pages/AdminUsers'
 import AdminNewMasterList from './pages/AdminNewMasterList'
 import AdminEditMasterList from './pages/AdminEditMasterList'
@@ -77,6 +79,8 @@ export default function App() {
             <Route path="/users/fill" element={<FillUserInfo />} />
             <Route path="/lists/new" element={<UserListForm />} />
             <Route path="/lists/:id/edit" element={<UserListForm />} />
+            <Route path="/membership/success" element={<MembershipSuccess />} />
+            <Route path="/membership/cancel" element={<MembershipCancel />} />
 
             {/* Phase 4 — Admin */}
             <Route path="/admin/users" element={<AdminUsers />} />

@@ -16,6 +16,12 @@ public class User
     public string? UserPixelArt { get; set; }
     public bool Banned { get; set; }
     public string? BanReason { get; set; }
+    public bool IsMember { get; set; }
+    public string? MembershipStatus { get; set; }
+    public DateTime? MemberSince { get; set; }
+    public DateTime? MemberUntil { get; set; }
+    public string? StripeCustomerId { get; set; }
+    public string? StripeSubscriptionId { get; set; }
 
     public string FullName => GetNickname();
 

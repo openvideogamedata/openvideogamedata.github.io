@@ -7,6 +7,7 @@ public sealed record UserSummaryDto(
     string Nickname,
     string FullName,
     string[]? UserPicture,
+    bool IsMember,
     int Contributions);
 
 public sealed record UserAdminDto(
@@ -19,6 +20,8 @@ public sealed record UserAdminDto(
     string? Role,
     bool Banned,
     string? BanReason,
+    bool IsMember,
+    string? MembershipStatus,
     int Contributions);
 
 public sealed record UserProfileDto(
@@ -31,6 +34,8 @@ public sealed record UserProfileDto(
     bool AlreadyFriend,
     bool AlreadyRequestedFriend,
     bool LoadedFriendship,
+    bool IsMember,
+    string? MembershipStatus,
     GamificationDto? Gamification);
 
 public sealed record GamificationDto(
