@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using community.Utils;
 using community.Dtos;
+using community.Dtos.GameLists;
 
 namespace community.Data;
 
@@ -503,6 +504,53 @@ public class GameListService
             context.Update(gameList);
             context.SaveChanges();
         }
+    }
+
+    public (List<SourceAggregateDto> Sources, Pager Pager) GetSourceAggregates(
+        int page = 1,
+        int pageSize = 15,
+        int maxPages = 5,
+        string? search = null)
+    {
+        using var context = _factory.CreateDbContext();
+
+        var query = context.GameLists
+            .AsNoTracking()
+            .Include(x => x.Source)
+            .Where(x => !x.ByUser && x.Source != null);
+
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            var normalized = search.Trim().ToLowerInvariant();
+            query = query.Where(x =>
+                x.Source!.Name.ToLower().Contains(normalized) ||
+                x.Source.HostUrl.ToLower().Contains(normalized));
+        }
+
+        var groupedQuery = query
+            .GroupBy(x => new { x.Source!.Id, x.Source.Name, x.Source.HostUrl })
+            .Select(group => new SourceAggregateDto(
+                group.Key.Id,
+                group.Key.Name,
+                group.Key.HostUrl,
+                group.Count(),
+                group.Where(x => x.FinalGameListId.HasValue)
+                    .Select(x => x.FinalGameListId!.Value)
+                    .Distinct()
+                    .Count(),
+                group.Max(x => x.DateLastUpdated ?? x.DateAdded)));
+
+        var totalItems = groupedQuery.Count();
+        var pager = new Pager(totalItems, page, pageSize, maxPages);
+
+        var sources = groupedQuery
+            .OrderByDescending(x => x.ListsCount)
+            .ThenBy(x => x.Name)
+            .Skip((pager.CurrentPage - 1) * pager.PageSize)
+            .Take(pager.PageSize)
+            .ToList();
+
+        return (sources, pager);
     }
 
     public FinalGameList? GetById(long listId)

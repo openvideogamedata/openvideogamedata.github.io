@@ -107,3 +107,11 @@ public sealed record ContributorDto(
     int PorcentageOfContributions);
 
 public sealed record UpdateAvgConsiderationRequest(bool ConsideredForAvgScore);
+
+public sealed record SourceAggregateDto(
+    long Id,
+    string Name,
+    string HostUrl,
+    int ListsCount,
+    int CategoriesCount,
+    DateTime? LastActivity);

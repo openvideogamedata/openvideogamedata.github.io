@@ -53,6 +53,21 @@ public class GameListsController : ControllerBase
         return Ok(lists.Select(GameListMapper.ToCategoryDto).ToList());
     }
 
+    [HttpGet("sources")]
+    public IActionResult GetSources(
+        [FromQuery] int page = 1,
+        [FromQuery] int pageSize = 15,
+        [FromQuery] int maxPages = 5,
+        [FromQuery] string? search = null)
+    {
+        var (sources, pager) = _gameListService.GetSourceAggregates(page, pageSize, maxPages, search);
+        return Ok(new
+        {
+            sources,
+            pager
+        });
+    }
+
     [HttpGet("{slug}")]
     public IActionResult GetBySlug(string slug)
     {

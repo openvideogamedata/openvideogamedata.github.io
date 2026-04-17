@@ -68,6 +68,7 @@ export default function Navbar() {
         <nav className="navbar-links">
           {user && <Link to="/dashboard" className="nav-link">Dashboard</Link>}
           <Link to="/lists" className="nav-link">Lists</Link>
+          <Link to="/sources" className="nav-link">Sources</Link>
           <Link to="/games" className="nav-link">Games</Link>
           <Link to="/badges" className="nav-link">Badges</Link>
           <Link to="/top-contributors" className="nav-link">Rankings</Link>
@@ -107,6 +108,7 @@ export default function Navbar() {
                   </button>
                 </form>
                 <Link to="/lists" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Lists</Link>
+                <Link to="/sources" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Sources</Link>
                 <Link to="/games" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Games</Link>
                 <Link to="/top-contributors" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Rankings</Link>
                 {!loading && (
