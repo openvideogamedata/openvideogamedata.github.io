@@ -540,7 +540,7 @@ public class GameListService
                     .Count(),
                 context.GameLists
                     .Where(gameList => !gameList.ByUser && gameList.SourceId == source.Id)
-                    .Max(gameList => (DateTime?)(gameList.DateLastUpdated ?? gameList.DateAdded))));
+                    .Max(gameList => gameList.DateLastUpdated != null ? gameList.DateLastUpdated : (DateTime?)gameList.DateAdded)));
 
         var totalItems = projectedQuery.Count();
         var pager = new Pager(totalItems, page, pageSize, maxPages);

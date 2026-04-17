@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Serilog;
+using Serilog.Sinks.Grafana.Loki;
 
 namespace community
 {
@@ -15,11 +17,42 @@ namespace community
     {
         public static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
-            ConfigureServices(builder);
-            var app = builder.Build();
-            Configure(app);
-            app.Run();
+            var lokiUrl  = Environment.GetEnvironmentVariable("LOKI_URL") ?? "";
+            var lokiUser = Environment.GetEnvironmentVariable("LOKI_USER") ?? "";
+            var lokiPass = Environment.GetEnvironmentVariable("LOKI_PASSWORD") ?? "";
+
+            var loggerConfig = new LoggerConfiguration()
+                .MinimumLevel.Information()
+                .Enrich.FromLogContext()
+                .WriteTo.Console();
+
+            if (!string.IsNullOrEmpty(lokiUrl))
+            {
+                loggerConfig.WriteTo.GrafanaLoki(
+                    lokiUrl,
+                    credentials: new LokiCredentials { Login = lokiUser, Password = lokiPass },
+                    labels: [new LokiLabel { Key = "app", Value = "openvgd-api" }]);
+            }
+
+            Log.Logger = loggerConfig.CreateLogger();
+
+            try
+            {
+                var builder = WebApplication.CreateBuilder(args);
+                builder.Host.UseSerilog();
+                ConfigureServices(builder);
+                var app = builder.Build();
+                Configure(app);
+                app.Run();
+            }
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Application failed to start");
+            }
+            finally
+            {
+                Log.CloseAndFlush();
+            }
         }
 
         private static void ConfigureServices(WebApplicationBuilder builder)
@@ -119,6 +152,7 @@ namespace community
         private static void Configure(WebApplication app)
         {
             app.UseForwardedHeaders();
+            app.UseMiddleware<ExceptionLoggingMiddleware>();
 
             if (app.Environment.IsDevelopment())
                 app.UseHttpsRedirection();

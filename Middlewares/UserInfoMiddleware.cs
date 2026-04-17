@@ -6,11 +6,13 @@ public sealed class UserInfoMiddleware
 {
     private readonly UserService _userService;
     private readonly RequestDelegate _next;
+    private readonly ILogger<UserInfoMiddleware> _logger;
 
-    public UserInfoMiddleware(UserService userService, RequestDelegate next)
+    public UserInfoMiddleware(UserService userService, RequestDelegate next, ILogger<UserInfoMiddleware> logger)
     {
         _userService = userService;
         _next = next;
+        _logger = logger;
     }
 
     public async Task InvokeAsync(HttpContext context)
@@ -27,9 +29,9 @@ public sealed class UserInfoMiddleware
                 }
             }
         }
-        catch (Exception e)
+        catch (Exception ex)
         {
-            Console.WriteLine($"[ERRO] - UserInfoMiddleware {e.Message}\n{e}");
+            _logger.LogError(ex, "Error in UserInfoMiddleware");
         }
 
         await _next(context);
