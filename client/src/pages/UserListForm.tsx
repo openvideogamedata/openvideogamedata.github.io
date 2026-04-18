@@ -16,7 +16,7 @@ export default function UserListForm() {
   const [searchParams] = useSearchParams()
   const slugParam = searchParams.get('slug') ?? ''    // pre-select list
   const navigate = useNavigate()
-  const { user, loading: authLoading } = useAuth()
+  const { user, loading: authLoading, isAdmin } = useAuth()
   const isEdit = Boolean(id)
 
   // Form state
@@ -190,7 +190,7 @@ export default function UserListForm() {
     )
   }
 
-  if (!isEdit && !user.isMember) {
+  if (!isEdit && !user.isMember && !isAdmin) {
     return (
       <div className="list-form-gate">
         <div className="gate-card">
