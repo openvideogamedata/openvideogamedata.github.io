@@ -1,5 +1,41 @@
 const BASE_URL = import.meta.env.VITE_API_BASE_URL as string
 
+let refreshPromise: Promise<boolean> | null = null
+
+async function attemptTokenRefresh(): Promise<boolean> {
+  if (refreshPromise) return refreshPromise
+
+  refreshPromise = (async () => {
+    try {
+      const refreshToken = localStorage.getItem('refreshToken')
+      if (!refreshToken) return false
+
+      const res = await fetch(`${BASE_URL}/api/auth/refresh`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ refreshToken }),
+      })
+
+      if (!res.ok) {
+        localStorage.removeItem('token')
+        localStorage.removeItem('refreshToken')
+        return false
+      }
+
+      const data = await res.json() as { token: string; refreshToken: string }
+      localStorage.setItem('token', data.token)
+      localStorage.setItem('refreshToken', data.refreshToken)
+      return true
+    } catch {
+      return false
+    } finally {
+      refreshPromise = null
+    }
+  })()
+
+  return refreshPromise
+}
+
 export class ApiError extends Error {
   status: number
   responseUrl: string
@@ -14,7 +50,7 @@ export class ApiError extends Error {
   }
 }
 
-async function request<T>(path: string, options?: RequestInit): Promise<T> {
+async function request<T>(path: string, options?: RequestInit, isRetry = false): Promise<T> {
   const headers = new Headers(options?.headers)
   const hasBody = options?.body !== undefined
 
@@ -31,7 +67,12 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
   })
 
   if (res.status === 401) {
+    if (!isRetry) {
+      const refreshed = await attemptTokenRefresh()
+      if (refreshed) return request<T>(path, options, true)
+    }
     localStorage.removeItem('token')
+    localStorage.removeItem('refreshToken')
     throw new ApiError(401, res.statusText, res.url)
   }
 
@@ -40,6 +81,7 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
       const body = await res.clone().json() as { error?: string }
       if (body?.error === 'banned') {
         localStorage.removeItem('token')
+        localStorage.removeItem('refreshToken')
         window.location.href = '/#/auth/error?reason=banned'
         return undefined as unknown as T
       }
