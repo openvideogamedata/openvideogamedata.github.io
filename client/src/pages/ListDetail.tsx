@@ -13,13 +13,30 @@ import type {
   SourceListDto,
 } from '../api/gameLists'
 import type { Pager } from '../types'
+import { TrackStatus } from '../types'
 import { useAuth } from '../context/AuthContext'
 import './ListDetail.css'
+
+function computeTrackerStats(winners: TopWinnerDto[]): TrackerStats {
+  return winners.reduce<TrackerStats>(
+    (acc, w) => {
+      switch (w.trackStatus) {
+        case TrackStatus.ToPlay:    return { ...acc, toPlay:    acc.toPlay    + 1 }
+        case TrackStatus.Playing:   return { ...acc, playing:   acc.playing   + 1 }
+        case TrackStatus.Played:    return { ...acc, played:    acc.played    + 1 }
+        case TrackStatus.Beaten:    return { ...acc, beated:    acc.beated    + 1 }
+        case TrackStatus.Abandoned: return { ...acc, abandoned: acc.abandoned + 1 }
+        default:                    return { ...acc, none:      acc.none      + 1 }
+      }
+    },
+    { toPlay: 0, playing: 0, played: 0, beated: 0, abandoned: 0, none: 0 },
+  )
+}
 
 export default function ListDetail() {
   const { slug, mode } = useParams<{ slug: string; mode?: string }>()
   const navigate = useNavigate()
-  const { isAdmin } = useAuth()
+  const { isAdmin, loading: authLoading } = useAuth()
   const [data, setData] = useState<GameListDetailsResponse | null>(null)
   const [avgScore, setAvgScore] = useState(true)
   const [loading, setLoading] = useState(true)
@@ -38,7 +55,7 @@ export default function ListDetail() {
   const [copyDone, setCopyDone] = useState(false)
 
   useEffect(() => {
-    if (!slug) return
+    if (!slug || authLoading) return
     setLoading(true)
     Promise.all([
       getListBySlug(slug),
@@ -64,7 +81,7 @@ export default function ListDetail() {
         }
       })
       .catch(() => { setNotFound(true); setLoading(false) })
-  }, [slug]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [slug, authLoading]) // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleTabChange(tab: string) {
     setActiveTab(tab)
@@ -118,6 +135,23 @@ export default function ListDetail() {
   const detail = data
   const winners = activeTab === 'critics' ? topWinnersByCritics : topWinnersByUsers
   const trackerStats = activeTab === 'critics' ? trackerStatsCritics : trackerStatsUsers
+
+  function handleTrackerChange(gameId: number, newStatus: number) {
+    setData(prev => {
+      if (!prev) return prev
+      const updateWinners = (ws: TopWinnerDto[]) =>
+        ws.map(w => w.gameId === gameId ? { ...w, trackStatus: newStatus } : w)
+      const nextCritics = updateWinners(prev.topWinnersByCritics)
+      const nextUsers   = updateWinners(prev.topWinnersByUsers)
+      return {
+        ...prev,
+        topWinnersByCritics: nextCritics,
+        trackerStatsCritics: computeTrackerStats(nextCritics),
+        topWinnersByUsers: nextUsers,
+        trackerStatsUsers: computeTrackerStats(nextUsers),
+      }
+    })
+  }
 
   function formatSharePosition(position: number): string {
     if (position === 1) return '1st'
@@ -287,7 +321,7 @@ export default function ListDetail() {
               </div>
               <div className="winners-grid">
                 {winners.map((w, i) => (
-                  <WinnerCard key={w.gameId} winner={w} rank={i + 1} />
+                  <WinnerCard key={w.gameId} winner={w} rank={i + 1} onTrackerChange={handleTrackerChange} />
                 ))}
               </div>
               <WinnersLegend />
@@ -426,7 +460,11 @@ function sanitizeFileName(value: string): string {
     .replace(/^-+|-+$/g, '') || 'list'
 }
 
-function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
+function WinnerCard({ winner, rank, onTrackerChange }: {
+  winner: TopWinnerDto
+  rank: number
+  onTrackerChange?: (gameId: number, newStatus: number) => void
+}) {
   const medal = formatMedal(rank)
   const trackerMeta = winner.trackStatus !== 0 ? TRACKER_STATUS_META[winner.trackStatus] : null
 
@@ -446,6 +484,7 @@ function WinnerCard({ winner, rank }: { winner: TopWinnerDto; rank: number }) {
               : null,
           }}
           appearance="fill"
+          onTrackerChange={onTrackerChange}
         />
         {trackerMeta && (
           <span

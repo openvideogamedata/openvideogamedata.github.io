@@ -39,9 +39,10 @@ interface Props {
     tracker?: QuickTracker | null
   }
   appearance?: Appearance
+  onTrackerChange?: (gameId: number, newStatus: number) => void
 }
 
-export default function GameQuickActions({ game, appearance = 'card' }: Props) {
+export default function GameQuickActions({ game, appearance = 'card', onTrackerChange }: Props) {
   const { user, loading: authLoading, refresh } = useAuth()
   const triggerRef = useRef<HTMLButtonElement | null>(null)
   const panelRef = useRef<HTMLDivElement | null>(null)
@@ -198,6 +199,7 @@ export default function GameQuickActions({ game, appearance = 'card' }: Props) {
       const next = toQuickTracker(await task())
       setTracker(next)
       setNoteValue(next?.note ?? '')
+      onTrackerChange?.(game.id, next?.status ?? 0)
     } catch (error) {
       if (error instanceof ApiError && (error.status === 401 || error.status === 403)) {
         refresh()
