@@ -15,6 +15,7 @@ public class ApplicationDbContext : DbContext {
     public DbSet<GameUserTracker> GameUserTrackers { get; set; }
     public DbSet<Badge> Badges { get; set; }
     public DbSet<TopWinner> TopWinners { get; set; }
+    public DbSet<RefreshToken> RefreshTokens { get; set; }
 
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {
         
@@ -61,6 +62,10 @@ public class ApplicationDbContext : DbContext {
             .Entity<GameList>()
             .HasOne(p => p.UserContributed)
             .WithMany(p => p.GameListsContributed);
+
+        modelBuilder.Entity<RefreshToken>()
+            .HasIndex(r => r.Token)
+            .IsUnique();
 
         AppContext.SetSwitch("Npgsql.DisableDateTimeInfinityConversions", true);
             

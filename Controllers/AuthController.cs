@@ -1,10 +1,13 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
+using community.Data;
 using community.Services;
 using Google.Apis.Auth;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.Annotations;
 
@@ -16,13 +19,15 @@ public class AuthController : ControllerBase
 {
     private readonly UserService _userService;
     private readonly ILogger<AuthController> _logger;
+    private readonly IDbContextFactory<ApplicationDbContext> _dbFactory;
     private readonly string _googleClientId;
     private readonly string _jwtSecret;
 
-    public AuthController(UserService userService, ILogger<AuthController> logger)
+    public AuthController(UserService userService, ILogger<AuthController> logger, IDbContextFactory<ApplicationDbContext> dbFactory)
     {
         _userService = userService;
         _logger = logger;
+        _dbFactory = dbFactory;
         _googleClientId =
             Environment.GetEnvironmentVariable("GOOGLE_CLIENT_ID") ??
             Environment.GetEnvironmentVariable("GOOGLEAUTH_CLIENTID") ??
@@ -32,7 +37,7 @@ public class AuthController : ControllerBase
 
     [AllowAnonymous]
     [HttpPost("google")]
-    [SwaggerOperation(Summary = "Login com Google", Description = "Valida o ID Token emitido pelo Google Identity Services e retorna um JWT proprio.")]
+    [SwaggerOperation(Summary = "Login with Google", Description = "Validates the ID Token issued by Google Identity Services and returns a signed JWT.")]
     public async Task<IActionResult> GoogleLogin([FromBody] GoogleLoginRequest req)
     {
         var idToken = req.IdToken ?? req.Credential;
@@ -69,18 +74,88 @@ public class AuthController : ControllerBase
         }
 
         var token = GenerateJwt(user);
+        var refreshToken = await CreateRefreshTokenAsync(user.Id);
+
         _logger.LogInformation("Login successful. NameIdentifier={NameIdentifier} NeedsFill={NeedsFill}", payload.Subject, user.NicknameIsNameIdentifier());
 
         return Ok(new
         {
             token,
+            refreshToken = refreshToken.Token,
             needsFill = user.NicknameIsNameIdentifier()
         });
     }
 
+    [AllowAnonymous]
+    [HttpPost("refresh")]
+    [SwaggerOperation(Summary = "Renews the JWT using a valid refresh token.")]
+    public async Task<IActionResult> Refresh([FromBody] RefreshRequest req)
+    {
+        if (string.IsNullOrWhiteSpace(req.RefreshToken))
+            return BadRequest(new { error = "refresh_token_missing" });
+
+        using var context = _dbFactory.CreateDbContext();
+
+        var stored = await context.RefreshTokens
+            .Include(r => r.User)
+            .FirstOrDefaultAsync(r => r.Token == req.RefreshToken);
+
+        if (stored is null || !stored.IsActive)
+        {
+            _logger.LogWarning("Refresh token invalid or expired.");
+            return Unauthorized(new { error = "invalid_refresh_token" });
+        }
+
+        if (stored.User.Banned)
+            return StatusCode(403, new { error = "banned" });
+
+        stored.RevokedAt = DateTime.UtcNow;
+
+        var newRefreshToken = new RefreshToken
+        {
+            Token = GenerateSecureToken(),
+            UserId = stored.UserId,
+            CreatedAt = DateTime.UtcNow,
+            ExpiresAt = DateTime.UtcNow.AddDays(30),
+        };
+
+        context.RefreshTokens.Add(newRefreshToken);
+        await context.SaveChangesAsync();
+
+        var jwt = GenerateJwt(stored.User);
+
+        return Ok(new
+        {
+            token = jwt,
+            refreshToken = newRefreshToken.Token,
+        });
+    }
+
+    [Authorize]
+    [HttpPost("logout")]
+    [SwaggerOperation(Summary = "Revokes the refresh token, ending the session.")]
+    public async Task<IActionResult> Logout([FromBody] RefreshRequest req)
+    {
+        if (string.IsNullOrWhiteSpace(req.RefreshToken))
+            return BadRequest(new { error = "refresh_token_missing" });
+
+        using var context = _dbFactory.CreateDbContext();
+
+        var stored = await context.RefreshTokens
+            .FirstOrDefaultAsync(r => r.Token == req.RefreshToken);
+
+        if (stored is not null && stored.IsActive)
+        {
+            stored.RevokedAt = DateTime.UtcNow;
+            await context.SaveChangesAsync();
+        }
+
+        return NoContent();
+    }
+
     [Authorize]
     [HttpGet("me")]
-    [SwaggerOperation(Summary = "Retorna dados basicos do usuario autenticado a partir do JWT.")]
+    [SwaggerOperation(Summary = "Returns basic data of the authenticated user from the JWT.")]
     public IActionResult Me()
     {
         var nameIdentifier = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)?.Value;
@@ -93,11 +168,31 @@ public class AuthController : ControllerBase
         });
     }
 
+    private async Task<RefreshToken> CreateRefreshTokenAsync(long userId)
+    {
+        using var context = _dbFactory.CreateDbContext();
+
+        var refreshToken = new RefreshToken
+        {
+            Token = GenerateSecureToken(),
+            UserId = userId,
+            CreatedAt = DateTime.UtcNow,
+            ExpiresAt = DateTime.UtcNow.AddDays(30),
+        };
+
+        context.RefreshTokens.Add(refreshToken);
+        await context.SaveChangesAsync();
+
+        return refreshToken;
+    }
+
+    private static string GenerateSecureToken()
+        => Convert.ToBase64String(RandomNumberGenerator.GetBytes(64));
+
     private string GenerateJwt(User user)
     {
         var claims = new List<Claim>
         {
-            // "sub" mapeia para ClaimTypes.NameIdentifier via MapInboundClaims=true no JWT Bearer
             new Claim("sub", user.NameIdentifier),
             new Claim(ClaimTypes.Name, user.GivenName ?? ""),
         };
@@ -122,4 +217,9 @@ public sealed class GoogleLoginRequest
 {
     public string? IdToken { get; set; }
     public string? Credential { get; set; }
+}
+
+public sealed class RefreshRequest
+{
+    public string? RefreshToken { get; set; }
 }
