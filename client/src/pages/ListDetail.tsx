@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from 'react-router-dom'
 import TabBar from '../components/TabBar'
 import Paginator from '../components/Paginator'
 import GameQuickActions from '../components/GameQuickActions'
-import { getListBySlug, getCriticLists, getUserLists, updateAvgConsideration } from '../api/gameLists'
+import { getListBySlug, getListBySlugLive, getCriticLists, getUserLists, updateAvgConsideration } from '../api/gameLists'
 import type {
   GameListDetailsResponse,
   TopWinnerDto,
@@ -36,7 +36,7 @@ function computeTrackerStats(winners: TopWinnerDto[]): TrackerStats {
 export default function ListDetail() {
   const { slug, mode } = useParams<{ slug: string; mode?: string }>()
   const navigate = useNavigate()
-  const { isAdmin, loading: authLoading } = useAuth()
+  const { user, isAdmin, loading: authLoading } = useAuth()
   const [data, setData] = useState<GameListDetailsResponse | null>(null)
   const [avgScore, setAvgScore] = useState(true)
   const [loading, setLoading] = useState(true)
@@ -54,8 +54,9 @@ export default function ListDetail() {
   const [listsExpanded, setListsExpanded] = useState(false)
   const [copyDone, setCopyDone] = useState(false)
 
+  // Load list from cache immediately — no auth needed
   useEffect(() => {
-    if (!slug || authLoading) return
+    if (!slug) return
     setLoading(true)
     Promise.all([
       getListBySlug(slug),
@@ -67,7 +68,6 @@ export default function ListDetail() {
         setCriticLists(critics.lists)
         setCriticPager(critics.pager as Pager)
         setLoading(false)
-        // If mode is users, load user lists immediately
         if (mode === 'users') {
           setUserListsLoading(true)
           getUserLists(slug, 1, 5)
@@ -81,7 +81,32 @@ export default function ListDetail() {
         }
       })
       .catch(() => { setNotFound(true); setLoading(false) })
-  }, [slug, authLoading]) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [slug]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // After auth resolves, patch tracker data from the live API (user-specific)
+  useEffect(() => {
+    if (!slug || authLoading || !user) return
+    getListBySlugLive(slug)
+      .then(live => {
+        setData(prev => {
+          if (!prev) return prev
+          const applyStatus = (cached: TopWinnerDto[], live: TopWinnerDto[]) => {
+            const byId = new Map(live.map(w => [w.gameId, w.trackStatus]))
+            return cached.map(w => ({ ...w, trackStatus: byId.get(w.gameId) ?? w.trackStatus }))
+          }
+          const nextCritics = applyStatus(prev.topWinnersByCritics, live.topWinnersByCritics)
+          const nextUsers   = applyStatus(prev.topWinnersByUsers,   live.topWinnersByUsers)
+          return {
+            ...prev,
+            topWinnersByCritics: nextCritics,
+            trackerStatsCritics: computeTrackerStats(nextCritics),
+            topWinnersByUsers:   nextUsers,
+            trackerStatsUsers:   computeTrackerStats(nextUsers),
+          }
+        })
+      })
+      .catch(() => {})
+  }, [slug, authLoading, user]) // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleTabChange(tab: string) {
     setActiveTab(tab)
