@@ -36,6 +36,8 @@ export interface UserProfileDto {
   alreadyFriend: boolean
   alreadyRequestedFriend: boolean
   loadedFriendship: boolean
+  isMember: boolean
+  membershipStatus: string | null
   gamification: GamificationDto | null
 }
 

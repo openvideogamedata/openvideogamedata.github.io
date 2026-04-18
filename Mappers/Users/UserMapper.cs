@@ -11,6 +11,7 @@ public static class UserMapper
             user.Nickname,
             user.FullName,
             user.GetUserPicture(),
+            user.IsMember,
             user.GameListsContributed?.Count ?? 0);
     }
 
@@ -26,6 +27,8 @@ public static class UserMapper
             user.Role,
             user.Banned,
             user.BanReason,
+            user.IsMember,
+            user.MembershipStatus,
             user.GameListsContributed?.Count ?? 0);
     }
 
@@ -48,6 +51,8 @@ public static class UserMapper
             alreadyFriend,
             alreadyRequestedFriend,
             loadedFriendship,
+            user.IsMember,
+            user.MembershipStatus,
             gamification is null ? null : ToGamificationDto(gamification));
     }
 

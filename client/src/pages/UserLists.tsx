@@ -44,9 +44,14 @@ export default function UserLists() {
           <h1 className="page-title">
             {isOwn ? 'My Lists' : `Lists by ${nickname}`}
           </h1>
-          {isOwn && (
+          {isOwn && user?.isMember && (
             <Link to="/lists/new" className="btn-primary-sm" style={{ marginTop: '0.75rem', display: 'inline-block' }}>
               + New list
+            </Link>
+          )}
+          {isOwn && !user?.isMember && (
+            <Link to="/lists/new" className="btn-primary-sm" style={{ marginTop: '0.75rem', display: 'inline-block' }}>
+              Become a member to create lists
             </Link>
           )}
         </div>

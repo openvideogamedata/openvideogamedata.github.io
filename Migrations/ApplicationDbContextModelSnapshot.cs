@@ -249,6 +249,18 @@ namespace community.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<bool>("IsMember")
+                        .HasColumnType("boolean");
+
+                    b.Property<DateTime?>("MemberSince")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime?>("MemberUntil")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("MembershipStatus")
+                        .HasColumnType("text");
+
                     b.Property<string>("NameIdentifier")
                         .IsRequired()
                         .HasColumnType("text");
@@ -262,6 +274,12 @@ namespace community.Migrations
 
                     b.Property<string>("Surname")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("StripeCustomerId")
+                        .HasColumnType("text");
+
+                    b.Property<string>("StripeSubscriptionId")
                         .HasColumnType("text");
 
                     b.Property<string>("UserPixelArt")

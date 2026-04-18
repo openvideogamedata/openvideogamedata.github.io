@@ -89,6 +89,7 @@ public static class ApplicationSetupExtensions
         builder.Services.AddSingleton<GameListService>();
         builder.Services.AddSingleton<TrackerService>();
         builder.Services.AddSingleton<IgdbSearchService>();
+        builder.Services.AddSingleton<MembershipService>();
 
         builder.Services.AddHttpContextAccessor();
         builder.Services.AddHttpClient();

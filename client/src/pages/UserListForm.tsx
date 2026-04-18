@@ -2,10 +2,12 @@ import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import LoginButton from '../components/LoginButton'
+import { ApiError } from '../api/client'
 import {
   getListOptions, getListYearOptions, searchGames, materializeGameSearchResult, getApiErrorMessage,
   getUserListById, createUserList, updateUserList, deleteUserList,
 } from '../api/userListForm'
+import { createMembershipCheckoutSession } from '../api/membership'
 import type { ListOptionDto, ListYearOptionDto, GameItemInput, GameSearchResult } from '../api/userListForm'
 import './UserListForm.css'
 
@@ -14,7 +16,7 @@ export default function UserListForm() {
   const [searchParams] = useSearchParams()
   const slugParam = searchParams.get('slug') ?? ''    // pre-select list
   const navigate = useNavigate()
-  const { user, loading: authLoading } = useAuth()
+  const { user, loading: authLoading, isAdmin } = useAuth()
   const isEdit = Boolean(id)
 
   // Form state
@@ -36,6 +38,7 @@ export default function UserListForm() {
   const [loadingForm, setLoadingForm] = useState(true)
   const [saving, setSaving] = useState(false)
   const [deleting, setDeleting] = useState(false)
+  const [startingMembership, setStartingMembership] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   // Load list options + pre-populate if editing
@@ -140,7 +143,11 @@ export default function UserListForm() {
       }
       navigate(user ? `/users/${user.nickname}/lists` : '/')
     } catch (err) {
-      setError(getApiErrorMessage(err, 'Could not save the list. Please try again.'))
+      if (!isEdit && err instanceof ApiError && err.status === 403) {
+        setError('Creating personal lists is a member-only feature. Become a member to publish your own rankings.')
+      } else {
+        setError(getApiErrorMessage(err, 'Could not save the list. Please try again.'))
+      }
       setSaving(false)
     }
   }
@@ -157,6 +164,18 @@ export default function UserListForm() {
     }
   }
 
+  async function handleBecomeMember() {
+    setStartingMembership(true)
+    setError(null)
+    try {
+      const session = await createMembershipCheckoutSession()
+      window.location.href = session.url
+    } catch (err) {
+      setError(getApiErrorMessage(err, 'Could not start membership checkout. Please try again.'))
+      setStartingMembership(false)
+    }
+  }
+
   if (authLoading || loadingForm) return <FormSkeleton />
 
   if (!user) {
@@ -166,6 +185,27 @@ export default function UserListForm() {
           <h2>Sign in to create a list</h2>
           <p>You need an account to contribute lists.</p>
           <LoginButton text="Sign in with Google" />
+        </div>
+      </div>
+    )
+  }
+
+  if (!isEdit && !user.isMember && !isAdmin) {
+    return (
+      <div className="list-form-gate">
+        <div className="gate-card">
+          <span className="gate-eyebrow">Members only</span>
+          <h2>Create personal lists</h2>
+          <p>Personal rankings are available to members. Membership is R$ 10 per month and helps keep OpenVGD running.</p>
+          {error && <p className="form-error">{error}</p>}
+          <button
+            type="button"
+            className="btn-primary gate-action"
+            onClick={handleBecomeMember}
+            disabled={startingMembership}
+          >
+            {startingMembership ? 'Starting checkout...' : 'Become a member'}
+          </button>
         </div>
       </div>
     )
