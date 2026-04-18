@@ -31,7 +31,7 @@ public class TrackerService
                 UserId = gameUserTracker.UserId,
                 Status = gameUserTracker.Status,
                 Note = gameUserTracker.Note,
-                StatusDate = gameUserTracker.StatusDate,
+                StatusDate = DateTime.SpecifyKind(gameUserTracker.StatusDate, DateTimeKind.Utc),
                 LastUpdateDate = DateTime.UtcNow
             };
             context.GameUserTrackers.Add(newGameUserTracker);
