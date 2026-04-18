@@ -711,19 +711,23 @@ public class GameListService
                 masterListCounts,
                 finalGameList => finalGameList.Id,
                 counted => counted.FinalGameListId,
-                (finalGameList, counted) => new SourceMasterListDto(
+                (finalGameList, counted) => new
+                {
                     finalGameList.Id,
                     finalGameList.Title,
                     finalGameList.Year,
                     finalGameList.Slug,
-                    counted.ListsCount));
+                    counted.ListsCount
+                });
 
-        var categoriesCount = masterListsValidQuery.Count();
+        var allMasterLists = masterListsValidQuery.ToList();
+        var categoriesCount = allMasterLists.Count;
 
-        var masterLists = masterListsValidQuery
+        var masterLists = allMasterLists
             .OrderByDescending(x => x.ListsCount)
             .ThenBy(x => x.Title)
             .Take(8)
+            .Select(x => new SourceMasterListDto(x.Id, x.Title, x.Year, x.Slug, x.ListsCount))
             .ToList();
 
         var details = new SourceDetailsDto(
