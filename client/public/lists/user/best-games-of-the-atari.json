@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-15T10:53:13.5997919Z",
+  "syncedAt": "2026-04-18T20:12:50.3074752Z",
   "slug": "best-games-of-the-atari",
   "type": 2,
-  "totalItems": 1,
+  "totalItems": 2,
   "data": [
     {
       "id": 475,
@@ -103,6 +103,36 @@
           "gameId": 928,
           "coverImageUrl": null,
           "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1235,
+      "byUser": true,
+      "sourceListUrl": null,
+      "dateAdded": "2026-04-17T23:17:05.669676Z",
+      "dateLastUpdated": "2026-04-17T23:17:05.670317Z",
+      "userContributed": {
+        "id": 163,
+        "nickname": "penha",
+        "fullName": "penha"
+      },
+      "source": null,
+      "finalGameList": {
+        "id": 4,
+        "title": "Best Games of the Atari",
+        "year": null,
+        "slug": "best-games-of-the-atari",
+        "fullName": "Best Games of the Atari"
+      },
+      "items": [
+        {
+          "id": 12602,
+          "position": 1,
+          "gameTitle": "Pitfall!",
+          "gameId": 809,
+          "coverImageUrl": null,
+          "score": 15
         }
       ]
     }

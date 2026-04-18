@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-16T12:07:04.3955727Z",
+  "syncedAt": "2026-04-18T20:14:15.928668Z",
   "slug": "most-anticipated-games-of-2026",
   "type": 1,
-  "totalItems": 7,
+  "totalItems": 10,
   "data": [
     {
       "id": 1224,
@@ -871,6 +871,324 @@
           "gameId": 3140,
           "coverImageUrl": null,
           "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1236,
+      "byUser": false,
+      "sourceListUrl": "https://www.instant-gaming.com/en/blog/17196-the-most-anticipated-games-of-2026-part-2/?srsltid=AfmBOop9xrnleWM1AFMdNlSwU1xTuw2bNCrwhJZkUzvwZ94vUNjSqX0c",
+      "dateAdded": "2026-04-18T20:05:29.017497Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 468,
+        "name": "Instant-gaming",
+        "hostUrl": "www.instant-gaming.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12603,
+          "position": 1,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12604,
+          "position": 2,
+          "gameTitle": "Forza Horizon 6",
+          "gameId": 3112,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12605,
+          "position": 3,
+          "gameTitle": "Control Resonant",
+          "gameId": 3104,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12606,
+          "position": 4,
+          "gameTitle": "Tomb Raider: Legacy of Atlantis",
+          "gameId": 3130,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12607,
+          "position": 5,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12608,
+          "position": 6,
+          "gameTitle": "Phantom Blade 0",
+          "gameId": 3131,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12609,
+          "position": 7,
+          "gameTitle": "Onimusha: Way of the Sword",
+          "gameId": 3127,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12610,
+          "position": 8,
+          "gameTitle": "Yoshi and the Mysterious Book",
+          "gameId": 3143,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12611,
+          "position": 9,
+          "gameTitle": "Halo: Campaign Evolved",
+          "gameId": 3144,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12612,
+          "position": 10,
+          "gameTitle": "Fire Emblem: Fortune\u0027s Weave",
+          "gameId": 3145,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12613,
+          "position": 11,
+          "gameTitle": "Star Wars: Galactic Racer",
+          "gameId": 3140,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12614,
+          "position": 12,
+          "gameTitle": "The Duskbloods",
+          "gameId": 3135,
+          "coverImageUrl": null,
+          "score": 4
+        }
+      ]
+    },
+    {
+      "id": 1237,
+      "byUser": false,
+      "sourceListUrl": "https://gamecritix.co.uk/top-10-most-anticipated-games-of-2026/",
+      "dateAdded": "2026-04-18T20:08:24.467295Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 469,
+        "name": "Gamecritix",
+        "hostUrl": "gamecritix.co.uk"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12615,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12616,
+          "position": 2,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12617,
+          "position": 3,
+          "gameTitle": "The Blood of Dawnwalker",
+          "gameId": 3105,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12618,
+          "position": 4,
+          "gameTitle": "Crimson Desert",
+          "gameId": 2213,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12619,
+          "position": 5,
+          "gameTitle": "Stranger Than Heaven",
+          "gameId": 3136,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12620,
+          "position": 6,
+          "gameTitle": "Onimusha: Way of the Sword",
+          "gameId": 3127,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12621,
+          "position": 7,
+          "gameTitle": "Judas",
+          "gameId": 3146,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12622,
+          "position": 8,
+          "gameTitle": "Metroid Prime 4: Beyond",
+          "gameId": 2886,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12623,
+          "position": 9,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12624,
+          "position": 10,
+          "gameTitle": "The Twilight Project",
+          "gameId": 3148,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1238,
+      "byUser": false,
+      "sourceListUrl": "https://screenrant.com/2026-video-games-releasing-most-anticipated/",
+      "dateAdded": "2026-04-18T20:11:21.753528Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 205,
+        "name": "Screenrant",
+        "hostUrl": "screenrant.com"
+      },
+      "finalGameList": {
+        "id": 103,
+        "title": "Most Anticipated Games of 2026",
+        "year": null,
+        "slug": "most-anticipated-games-of-2026",
+        "fullName": "Most Anticipated Games of 2026"
+      },
+      "items": [
+        {
+          "id": 12625,
+          "position": 1,
+          "gameTitle": "Grand Theft Auto VI",
+          "gameId": 2074,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12626,
+          "position": 2,
+          "gameTitle": "Resident Evil Requiem",
+          "gameId": 3120,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12627,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Wolverine",
+          "gameId": 1521,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12628,
+          "position": 4,
+          "gameTitle": "007 First Light",
+          "gameId": 3103,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12629,
+          "position": 5,
+          "gameTitle": "Gears of War: E-Day",
+          "gameId": 3107,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12630,
+          "position": 6,
+          "gameTitle": "The Duskbloods",
+          "gameId": 3135,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12631,
+          "position": 7,
+          "gameTitle": "LEGO Batman: Legacy of the Dark Knight",
+          "gameId": 3113,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12632,
+          "position": 8,
+          "gameTitle": "Fable",
+          "gameId": 1525,
+          "coverImageUrl": null,
+          "score": 8
         }
       ]
     }

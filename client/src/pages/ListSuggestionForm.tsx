@@ -227,6 +227,10 @@ export default function ListSuggestionForm() {
     setParsing(false)
   }
 
+  function dismissParseResult(idx: number) {
+    setParseResults(prev => prev.filter((_, i) => i !== idx))
+  }
+
   async function addFromParse(idx: number) {
     const result = parseResults[idx]
     if (!result?.match) return
@@ -411,13 +415,33 @@ export default function ListSuggestionForm() {
                             <div className="parse-action">
                               {done && <span className="parse-badge parse-badge--ok">Added</span>}
                               {!done && result.status === 'matched' && (
+                                <>
+                                  <button
+                                    type="button"
+                                    className="parse-btn-add"
+                                    onClick={() => addFromParse(i)}
+                                    disabled={games.length >= MAX_GAMES}
+                                  >
+                                    Add
+                                  </button>
+                                  <button
+                                    type="button"
+                                    className="parse-btn-remove"
+                                    onClick={() => dismissParseResult(i)}
+                                    title="Remove this suggestion"
+                                  >
+                                    ×
+                                  </button>
+                                </>
+                              )}
+                              {!done && result.status === 'not-found' && (
                                 <button
                                   type="button"
-                                  className="parse-btn-add"
-                                  onClick={() => addFromParse(i)}
-                                  disabled={games.length >= MAX_GAMES}
+                                  className="parse-btn-remove"
+                                  onClick={() => dismissParseResult(i)}
+                                  title="Dismiss"
                                 >
-                                  Add
+                                  ×
                                 </button>
                               )}
                             </div>
