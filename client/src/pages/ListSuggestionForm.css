@@ -164,6 +164,237 @@
   color: var(--cyan);
 }
 
+/* ── AI prompt section ───────────────────────────────────────────────────── */
+
+.ai-prompt-section {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.ai-prompt-label {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.ai-prompt-box {
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  font-family: inherit;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  margin: 0;
+  user-select: all;
+}
+
+.btn-copy-prompt {
+  align-self: flex-start;
+  padding: 0.45rem 1.1rem;
+  border-radius: 7px;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--surface-3);
+  color: var(--text);
+  border: 1px solid var(--border);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.btn-copy-prompt:hover { background: var(--surface); }
+
+.btn-copy-prompt--copied {
+  background: rgba(16, 185, 129, 0.15);
+  color: #6ee7b7;
+  border-color: rgba(16, 185, 129, 0.35);
+}
+
+/* ── Paste panel ─────────────────────────────────────────────────────────── */
+
+.paste-panel-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.paste-panel-chevron {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+.paste-panel-body {
+  margin-top: 0.85rem;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.paste-textarea {
+  width: 100%;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.8rem 0.95rem;
+  font: inherit;
+  font-size: 0.875rem;
+  color: var(--text);
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.paste-textarea:focus {
+  outline: none;
+  border-color: var(--purple);
+}
+
+.paste-textarea:disabled {
+  opacity: 0.6;
+}
+
+.btn-detect {
+  align-self: flex-start;
+  padding: 0.55rem 1.25rem;
+  border-radius: 8px;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  background: var(--purple);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-detect:hover:not(:disabled) { background: #6d28d9; }
+.btn-detect:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.btn-detect--secondary {
+  background: var(--surface-3);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+.btn-detect--secondary:hover:not(:disabled) { background: var(--surface); }
+
+/* ── Parse results ───────────────────────────────────────────────────────── */
+
+.parse-results {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.parse-results-summary {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.parse-row {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr auto;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 8px;
+  background: var(--surface-3);
+  border: 1px solid var(--border);
+  font-size: 0.82rem;
+}
+
+.parse-row--loading { opacity: 0.6; }
+.parse-row--not-found { opacity: 0.5; }
+.parse-row--added { border-color: rgba(16, 185, 129, 0.3); background: rgba(16, 185, 129, 0.05); }
+
+.parse-raw {
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.parse-match {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  overflow: hidden;
+}
+
+.parse-cover {
+  width: 28px;
+  height: 36px;
+  object-fit: cover;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.parse-game-title {
+  font-weight: 600;
+  color: var(--text);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.parse-game-year {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.parse-state {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.parse-state--miss { color: rgba(245, 158, 11, 0.8); }
+
+.parse-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.parse-btn-add {
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: var(--purple);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.parse-btn-add:hover:not(:disabled) { background: #6d28d9; }
+.parse-btn-add:disabled { opacity: 0.4; cursor: not-allowed; }
+
+.parse-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.parse-badge--ok {
+  background: rgba(16, 185, 129, 0.15);
+  color: #6ee7b7;
+}
+
 @media (max-width: 720px) {
   .list-suggestion-header {
     padding-top: 1.5rem;

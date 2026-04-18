@@ -10,6 +10,43 @@ import './ListSuggestionForm.css'
 
 const MAX_GAMES = 15
 
+const AI_PROMPT = `Extract the ranked list of games from the text above. Return ONLY the game titles in this exact format, one per line, with no extra text:
+
+1. [Game Title]
+2. [Game Title]
+3. [Game Title]
+
+Rules:
+- Keep the original ranking order
+- Include only the game titles — no descriptions, platforms, scores, or years
+- If the list has more than 15 games, include only the top 15
+- Do not write anything before or after the numbered list`
+
+interface ParseResult {
+  rawName: string
+  match: GameSearchResult | null
+  status: 'loading' | 'matched' | 'not-found'
+  added: boolean
+}
+
+function extractGameNames(text: string): string[] {
+  return text
+    .split('\n')
+    .map(line => {
+      let s = line.trim()
+      if (!s) return ''
+      // strip leading numbering: "1.", "1)", "1-", "#1", "No. 1", bullets
+      s = s.replace(/^(?:no\.?\s*)?\d+[\s.):–-]+/i, '')
+      s = s.replace(/^[#•\-*]+\s*/, '')
+      // strip trailing description after em/en dash
+      s = s.replace(/\s[–—].*$/, '')
+      // strip trailing parenthetical notes like "(2022)" or "(PS5)"
+      s = s.replace(/\s*\([^)]{1,30}\)\s*$/, '')
+      return s.trim()
+    })
+    .filter(s => s.length >= 2 && s.length <= 80)
+}
+
 export default function ListSuggestionForm() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
@@ -32,6 +69,12 @@ export default function ListSuggestionForm() {
   const [searchingGame, setSearchingGame] = useState(false)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState<string | null>(null)
+
+  const [pasteText, setPasteText] = useState('')
+  const [parseResults, setParseResults] = useState<ParseResult[]>([])
+  const [parsing, setParsing] = useState(false)
+  const [showPastePanel, setShowPastePanel] = useState(false)
+  const [promptCopied, setPromptCopied] = useState(false)
 
   const validationDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
   const searchDebounce = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -149,6 +192,58 @@ export default function ListSuggestionForm() {
       .map((g, index) => ({ ...g, position: index + 1 })))
   }
 
+  function copyPrompt() {
+    navigator.clipboard.writeText(AI_PROMPT).then(() => {
+      setPromptCopied(true)
+      setTimeout(() => setPromptCopied(false), 2000)
+    })
+  }
+
+  async function handleParseText() {
+    const names = extractGameNames(pasteText)
+    if (!names.length) return
+
+    const limited = names.slice(0, MAX_GAMES)
+    setParseResults(limited.map(rawName => ({ rawName, match: null, status: 'loading', added: false })))
+    setParsing(true)
+
+    for (let i = 0; i < limited.length; i++) {
+      try {
+        const { games: found } = await searchGames(limited[i], slug)
+        setParseResults(prev => {
+          const next = [...prev]
+          next[i] = { rawName: limited[i], match: found[0] ?? null, status: found.length > 0 ? 'matched' : 'not-found', added: false }
+          return next
+        })
+      } catch {
+        setParseResults(prev => {
+          const next = [...prev]
+          next[i] = { rawName: limited[i], match: null, status: 'not-found', added: false }
+          return next
+        })
+      }
+    }
+
+    setParsing(false)
+  }
+
+  async function addFromParse(idx: number) {
+    const result = parseResults[idx]
+    if (!result?.match) return
+    await addGame(result.match)
+    setParseResults(prev => prev.map((r, i) => i === idx ? { ...r, added: true } : r))
+  }
+
+  async function addAllMatched() {
+    for (let i = 0; i < parseResults.length; i++) {
+      const r = parseResults[i]
+      if (r.status !== 'matched' || r.added || !r.match) continue
+      if (r.match.id != null && addedGameIds.has(r.match.id)) continue
+      if (games.length >= MAX_GAMES) break
+      await addFromParse(i)
+    }
+  }
+
   function moveGame(index: number, direction: -1 | 1) {
     setGames((prev) => {
       const next = [...prev]
@@ -234,6 +329,121 @@ export default function ListSuggestionForm() {
               <p>{validatingUrl ? 'Validating URL...' : validationMessage}</p>
             </div>
           </div>
+
+          {listIsValid && (
+            <div className="form-section ai-prompt-section">
+              <p className="ai-prompt-label">
+                <strong>Use an AI to extract the list</strong>
+              </p>
+              <p className="helper-text helper-text-muted">
+                Go to any AI (ChatGPT, Claude, Gemini…), paste the full text of the source page, then paste this prompt below it. The AI will return a clean numbered list ready for the next step.
+              </p>
+              <pre className="ai-prompt-box">{AI_PROMPT}</pre>
+              <button
+                type="button"
+                className={`btn-copy-prompt${promptCopied ? ' btn-copy-prompt--copied' : ''}`}
+                onClick={copyPrompt}
+              >
+                {promptCopied ? 'Copied!' : 'Copy prompt'}
+              </button>
+            </div>
+          )}
+
+          {listIsValid && (
+            <div className="form-section">
+              <button
+                type="button"
+                className="paste-panel-toggle"
+                onClick={() => setShowPastePanel(v => !v)}
+              >
+                <span>Auto-detect games from pasted text</span>
+                <span className="paste-panel-chevron">{showPastePanel ? '▲' : '▼'}</span>
+              </button>
+
+              {showPastePanel && (
+                <div className="paste-panel-body">
+                  <p className="helper-text helper-text-muted">
+                    Paste the raw text of the list. The system will try to identify each game automatically.
+                  </p>
+                  <textarea
+                    className="paste-textarea"
+                    placeholder={"1. Elden Ring\n2. God of War Ragnarök\n3. The Last of Us Part I\n..."}
+                    value={pasteText}
+                    onChange={e => setPasteText(e.target.value)}
+                    rows={7}
+                    disabled={parsing}
+                  />
+                  <button
+                    type="button"
+                    className="btn-detect"
+                    onClick={handleParseText}
+                    disabled={!pasteText.trim() || parsing}
+                  >
+                    {parsing ? 'Detecting…' : 'Detect games'}
+                  </button>
+
+                  {parseResults.length > 0 && (
+                    <div className="parse-results">
+                      <p className="parse-results-summary">
+                        {parseResults.filter(r => r.status === 'matched').length} of{' '}
+                        {parseResults.filter(r => r.status !== 'loading').length} matched
+                        {parsing && ' — searching…'}
+                      </p>
+                      {parseResults.map((result, i) => {
+                        const alreadyInList = result.match?.id != null && addedGameIds.has(result.match.id)
+                        const done = result.added || alreadyInList
+                        return (
+                          <div key={i} className={`parse-row parse-row--${done ? 'added' : result.status}`}>
+                            <span className="parse-raw">{result.rawName}</span>
+                            <div className="parse-match">
+                              {result.status === 'loading' && <span className="parse-state">Searching…</span>}
+                              {result.status === 'not-found' && <span className="parse-state parse-state--miss">No match</span>}
+                              {result.status === 'matched' && result.match && (
+                                <>
+                                  {result.match.coverImageUrl && (
+                                    <img src={result.match.coverImageUrl} alt="" className="parse-cover" />
+                                  )}
+                                  <span className="parse-game-title">{result.match.title}</span>
+                                  <span className="parse-game-year">{result.match.releaseYear}</span>
+                                </>
+                              )}
+                            </div>
+                            <div className="parse-action">
+                              {done && <span className="parse-badge parse-badge--ok">Added</span>}
+                              {!done && result.status === 'matched' && (
+                                <button
+                                  type="button"
+                                  className="parse-btn-add"
+                                  onClick={() => addFromParse(i)}
+                                  disabled={games.length >= MAX_GAMES}
+                                >
+                                  Add
+                                </button>
+                              )}
+                            </div>
+                          </div>
+                        )
+                      })}
+
+                      {!parsing && parseResults.some(r => {
+                        if (r.status !== 'matched' || r.added || !r.match) return false
+                        return r.match.id == null || !addedGameIds.has(r.match.id)
+                      }) && (
+                        <button
+                          type="button"
+                          className="btn-detect btn-detect--secondary"
+                          onClick={addAllMatched}
+                          disabled={games.length >= MAX_GAMES}
+                        >
+                          Add all matched
+                        </button>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+          )}
 
           {!listIsValid && (
             <div className="form-section rules-card">

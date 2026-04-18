@@ -1,33 +1,68 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 import ListCard, { fromHomeList } from '../components/ListCard'
-import Paginator from '../components/Paginator'
 import { getTags, getLists } from '../api/home'
-import { type HomeList, type Pager } from '../types'
-import { ListsSkeleton } from './Home'
+import { type HomeList } from '../types'
 import './Home.css'
 
 export default function Lists() {
   const [tags, setTags] = useState<string[]>([])
   const [lists, setLists] = useState<HomeList[]>([])
-  const [pager, setPager] = useState<Pager | null>(null)
-  const [listsLoading, setListsLoading] = useState(true)
+  const [listsLoading, setListsLoading] = useState(false)
+  const [hasMore, setHasMore] = useState(true)
   const [activeTags, setActiveTags] = useState<string[]>(['all'])
-  const [search, setSearch] = useState('')
   const [searchInput, setSearchInput] = useState('')
-  const pageRef = useRef<HTMLElement>(null)
+  const sentinelRef = useRef<HTMLDivElement>(null)
+  const nextPageRef = useRef(1)
+  const loadingRef = useRef(false)
+  const hasMoreRef = useRef(true)
+  const activeTagsRef = useRef<string[]>(['all'])
+  const searchRef = useRef('')
 
-  const fetchLists = useCallback((page: number, tags: string[], searchText: string) => {
+  const loadPage = useCallback((page: number, tags: string[], searchText: string, append: boolean) => {
+    if (loadingRef.current) return
+    loadingRef.current = true
     setListsLoading(true)
-    getLists({ page, pageSize: 6, tags: tags.join(','), search: searchText || undefined })
-      .then(res => { setLists(res.lists); setPager(res.pager) })
+    getLists({ page, pageSize: 9, tags: tags.join(','), search: searchText || undefined })
+      .then(res => {
+        setLists(prev => append ? [...prev, ...res.lists] : res.lists)
+        nextPageRef.current = page + 1
+        const more = page < res.pager.totalPages
+        hasMoreRef.current = more
+        setHasMore(more)
+      })
       .catch(() => {})
-      .finally(() => setListsLoading(false))
+      .finally(() => {
+        loadingRef.current = false
+        setListsLoading(false)
+      })
   }, [])
 
   useEffect(() => {
     getTags().then(setTags).catch(() => {})
-    fetchLists(1, activeTags, search)
+    loadPage(1, ['all'], '', false)
   }, []) // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    const el = sentinelRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting && !loadingRef.current && hasMoreRef.current) {
+          loadPage(nextPageRef.current, activeTagsRef.current, searchRef.current, true)
+        }
+      },
+      { rootMargin: '400px' }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [loadPage])
+
+  function reset(tags: string[], searchText: string) {
+    nextPageRef.current = 1
+    hasMoreRef.current = true
+    setHasMore(true)
+    loadPage(1, tags, searchText, false)
+  }
 
   function toggleTag(tag: string) {
     let next: string[]
@@ -40,24 +75,20 @@ export default function Lists() {
         : [...without, tag]
       if (next.length === 0) next = ['all']
     }
+    activeTagsRef.current = next
     setActiveTags(next)
-    fetchLists(1, next, search)
+    reset(next, searchRef.current)
   }
 
   function handleSearch(e: React.FormEvent) {
     e.preventDefault()
-    setSearch(searchInput)
-    fetchLists(1, activeTags, searchInput)
-  }
-
-  function handlePageChange(page: number) {
-    fetchLists(page, activeTags, search)
-    pageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    searchRef.current = searchInput
+    reset(activeTagsRef.current, searchInput)
   }
 
   return (
     <div className="home">
-      <section className="section" ref={pageRef}>
+      <section className="section">
         <div className="container">
           <div className="section-header">
             <div>
@@ -91,17 +122,23 @@ export default function Lists() {
             )}
           </div>
 
-          {listsLoading ? (
-            <ListsSkeleton count={6} />
-          ) : lists.length > 0 ? (
-            <div className="lists-grid mt-4">
-              {lists.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
-            </div>
-          ) : (
-            <p className="no-results">No lists found.</p>
-          )}
+          <div className="lists-grid mt-4">
+            {lists.map(list => <ListCard key={list.id} list={fromHomeList(list)} />)}
+            {listsLoading && (
+              Array.from({ length: lists.length === 0 ? 9 : 3 }).map((_, i) => (
+                <div key={i} className="list-card-skeleton">
+                  <div className="skeleton covers-skeleton" />
+                  <div className="skeleton title-skeleton" />
+                  <div className="skeleton meta-skeleton" />
+                </div>
+              ))
+            )}
+          </div>
 
-          {pager && <Paginator pager={pager} onPageChange={handlePageChange} />}
+          <div ref={sentinelRef} className="scroll-sentinel" />
+          {!hasMore && lists.length > 0 && (
+            <p className="lists-end">All lists loaded</p>
+          )}
         </div>
       </section>
     </div>
