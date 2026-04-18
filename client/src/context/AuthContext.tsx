@@ -1,6 +1,7 @@
 import { createContext, useCallback, useContext, useEffect, useState } from 'react'
 import { jwtDecode } from 'jwt-decode'
 import { getMe } from '../api/users'
+import { refreshAuthToken } from '../api/auth'
 import type { UserProfileDto } from '../api/users'
 
 interface AuthState {
@@ -53,12 +54,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isAdmin, setIsAdmin] = useState(false)
 
   const load = useCallback(async (): Promise<UserProfileDto | null> => {
-    const payload = getTokenPayload()
+    let payload = getTokenPayload()
     if (!payload) {
-      setUser(null)
-      setIsAdmin(false)
-      setLoading(false)
-      return null
+      try {
+        await refreshAuthToken()
+        payload = getTokenPayload()
+      } catch { /* */ }
+      if (!payload) {
+        setUser(null)
+        setIsAdmin(false)
+        setLoading(false)
+        return null
+      }
     }
 
     setIsAdmin(hasRole(payload, 'admin'))
