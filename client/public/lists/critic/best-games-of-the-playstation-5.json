@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-04-15T10:53:33.9910498Z",
+  "syncedAt": "2026-05-04T14:11:55.0271206Z",
   "slug": "best-games-of-the-playstation-5",
   "type": 1,
-  "totalItems": 11,
+  "totalItems": 16,
   "data": [
     {
       "id": 304,
@@ -1607,6 +1607,664 @@
           "gameId": 1441,
           "coverImageUrl": null,
           "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1239,
+      "byUser": false,
+      "sourceListUrl": "https://www.psu.com/news/best-ps5-games/",
+      "dateAdded": "2026-05-04T14:08:24.30997Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 178,
+        "name": "PlayStation Universe",
+        "hostUrl": "www.psu.com"
+      },
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12633,
+          "position": 1,
+          "gameTitle": "Baldur\u0027s Gate III",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12634,
+          "position": 2,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12635,
+          "position": 3,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12636,
+          "position": 4,
+          "gameTitle": "The Last of Us Part II Remastered",
+          "gameId": 2172,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12637,
+          "position": 5,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12638,
+          "position": 6,
+          "gameTitle": "The Talos Principle II",
+          "gameId": 2114,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12639,
+          "position": 7,
+          "gameTitle": "Demon\u0027s Souls",
+          "gameId": 356,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12640,
+          "position": 8,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12641,
+          "position": 9,
+          "gameTitle": "Deathloop",
+          "gameId": 161,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12642,
+          "position": 10,
+          "gameTitle": "Hades",
+          "gameId": 95,
+          "coverImageUrl": null,
+          "score": 6
+        }
+      ]
+    },
+    {
+      "id": 1240,
+      "byUser": false,
+      "sourceListUrl": "https://gamingbolt.com/top-30-best-ps5-games-of-all-time-2025-edition",
+      "dateAdded": "2026-05-04T14:08:28.374854Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 189,
+        "name": "Gamingbolt",
+        "hostUrl": "gamingbolt.com"
+      },
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12643,
+          "position": 1,
+          "gameTitle": "Death Stranding 2: On the Beach",
+          "gameId": 2452,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12644,
+          "position": 2,
+          "gameTitle": "Ghost of Yotei",
+          "gameId": 2486,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12645,
+          "position": 3,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12646,
+          "position": 4,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12647,
+          "position": 5,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12648,
+          "position": 6,
+          "gameTitle": "Black Myth: Wukong",
+          "gameId": 2222,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12649,
+          "position": 7,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12650,
+          "position": 8,
+          "gameTitle": "Clair Obscur: Expedition 33",
+          "gameId": 2985,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12651,
+          "position": 9,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12652,
+          "position": 10,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12653,
+          "position": 11,
+          "gameTitle": "Days Gone Remastered",
+          "gameId": 3150,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12654,
+          "position": 12,
+          "gameTitle": "Silent Hill f",
+          "gameId": 1003,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12655,
+          "position": 13,
+          "gameTitle": "Gran Turismo 7",
+          "gameId": 359,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12656,
+          "position": 14,
+          "gameTitle": "Forza Horizon 5",
+          "gameId": 360,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12657,
+          "position": 15,
+          "gameTitle": "Borderlands 4",
+          "gameId": 2883,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1241,
+      "byUser": false,
+      "sourceListUrl": "https://fandomwire.com/best-ps5-games-of-all-time-ranked/",
+      "dateAdded": "2026-05-04T14:08:31.150293Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 470,
+        "name": "Fandomwire",
+        "hostUrl": "fandomwire.com"
+      },
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12658,
+          "position": 1,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12659,
+          "position": 2,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12660,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate III",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12661,
+          "position": 4,
+          "gameTitle": "The Last of Us Part II Remastered",
+          "gameId": 2172,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12662,
+          "position": 5,
+          "gameTitle": "Metaphor: ReFantazio",
+          "gameId": 2202,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12663,
+          "position": 6,
+          "gameTitle": "The Witcher 3: Wild Hunt - Complete Edition",
+          "gameId": 843,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12664,
+          "position": 7,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12665,
+          "position": 8,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12666,
+          "position": 9,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12667,
+          "position": 10,
+          "gameTitle": "Cyberpunk 2077: Ultimate Edition",
+          "gameId": 2987,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12668,
+          "position": 11,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12669,
+          "position": 12,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12670,
+          "position": 13,
+          "gameTitle": "Death Stranding 2: On the Beach",
+          "gameId": 2452,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12671,
+          "position": 14,
+          "gameTitle": "Clair Obscur: Expedition 33",
+          "gameId": 2985,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12672,
+          "position": 15,
+          "gameTitle": "Hollow Knight Silksong",
+          "gameId": 3149,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1242,
+      "byUser": false,
+      "sourceListUrl": "https://www.dexerto.com/gaming/best-playstation-5-games-3262506/",
+      "dateAdded": "2026-05-04T14:08:34.42553Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 175,
+        "name": "Dexerto",
+        "hostUrl": "www.dexerto.com"
+      },
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12673,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12674,
+          "position": 2,
+          "gameTitle": "The Witcher 3: Wild Hunt - Complete Edition",
+          "gameId": 843,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12675,
+          "position": 3,
+          "gameTitle": "Baldur\u0027s Gate III",
+          "gameId": 989,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12676,
+          "position": 4,
+          "gameTitle": "Resident Evil 4",
+          "gameId": 212,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12677,
+          "position": 5,
+          "gameTitle": "Clair Obscur: Expedition 33",
+          "gameId": 2985,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12678,
+          "position": 6,
+          "gameTitle": "The Last of Us Part I",
+          "gameId": 163,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12679,
+          "position": 7,
+          "gameTitle": "Astro Bot",
+          "gameId": 2352,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12680,
+          "position": 8,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12681,
+          "position": 9,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12682,
+          "position": 10,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12683,
+          "position": 11,
+          "gameTitle": "Cyberpunk 2077",
+          "gameId": 736,
+          "coverImageUrl": null,
+          "score": 5
+        },
+        {
+          "id": 12684,
+          "position": 12,
+          "gameTitle": "Demon\u0027s Souls",
+          "gameId": 356,
+          "coverImageUrl": null,
+          "score": 4
+        },
+        {
+          "id": 12685,
+          "position": 13,
+          "gameTitle": "Persona 5 Royal",
+          "gameId": 108,
+          "coverImageUrl": null,
+          "score": 3
+        },
+        {
+          "id": 12686,
+          "position": 14,
+          "gameTitle": "Ghost of Yotei",
+          "gameId": 2486,
+          "coverImageUrl": null,
+          "score": 2
+        },
+        {
+          "id": 12687,
+          "position": 15,
+          "gameTitle": "Grand Theft Auto V",
+          "gameId": 323,
+          "coverImageUrl": null,
+          "score": 1
+        }
+      ]
+    },
+    {
+      "id": 1243,
+      "byUser": false,
+      "sourceListUrl": "https://www.destructoid.com/top-best-ps5-games-so-far/",
+      "dateAdded": "2026-05-04T14:08:37.365641Z",
+      "dateLastUpdated": null,
+      "userContributed": {
+        "id": 1,
+        "nickname": "darcie",
+        "fullName": "darcie"
+      },
+      "source": {
+        "id": 176,
+        "name": "Destructoid",
+        "hostUrl": "www.destructoid.com"
+      },
+      "finalGameList": {
+        "id": 23,
+        "title": "Best Games of the Playstation 5",
+        "year": null,
+        "slug": "best-games-of-the-playstation-5",
+        "fullName": "Best Games of the Playstation 5"
+      },
+      "items": [
+        {
+          "id": 12688,
+          "position": 1,
+          "gameTitle": "Elden Ring",
+          "gameId": 10,
+          "coverImageUrl": null,
+          "score": 15
+        },
+        {
+          "id": 12689,
+          "position": 2,
+          "gameTitle": "Returnal",
+          "gameId": 164,
+          "coverImageUrl": null,
+          "score": 14
+        },
+        {
+          "id": 12690,
+          "position": 3,
+          "gameTitle": "Horizon Forbidden West",
+          "gameId": 17,
+          "coverImageUrl": null,
+          "score": 13
+        },
+        {
+          "id": 12691,
+          "position": 4,
+          "gameTitle": "Marvel\u0027s Spider-Man 2",
+          "gameId": 991,
+          "coverImageUrl": null,
+          "score": 12
+        },
+        {
+          "id": 12692,
+          "position": 5,
+          "gameTitle": "Ratchet \u0026 Clank: Rift Apart",
+          "gameId": 162,
+          "coverImageUrl": null,
+          "score": 11
+        },
+        {
+          "id": 12693,
+          "position": 6,
+          "gameTitle": "Demon\u0027s Souls",
+          "gameId": 356,
+          "coverImageUrl": null,
+          "score": 10
+        },
+        {
+          "id": 12694,
+          "position": 7,
+          "gameTitle": "Final Fantasy VII Rebirth",
+          "gameId": 1001,
+          "coverImageUrl": null,
+          "score": 9
+        },
+        {
+          "id": 12695,
+          "position": 8,
+          "gameTitle": "Dead Space",
+          "gameId": 88,
+          "coverImageUrl": null,
+          "score": 8
+        },
+        {
+          "id": 12696,
+          "position": 9,
+          "gameTitle": "Astro\u0027s Playroom",
+          "gameId": 156,
+          "coverImageUrl": null,
+          "score": 7
+        },
+        {
+          "id": 12697,
+          "position": 10,
+          "gameTitle": "God of War Ragnar\u00F6k",
+          "gameId": 143,
+          "coverImageUrl": null,
+          "score": 6
+        },
+        {
+          "id": 12698,
+          "position": 11,
+          "gameTitle": "Gran Turismo 7",
+          "gameId": 359,
+          "coverImageUrl": null,
+          "score": 5
         }
       ]
     }
