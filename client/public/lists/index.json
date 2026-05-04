@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-04T14:12:56.6305266Z",
+  "syncedAt": "2026-05-04T14:52:32.7870426Z",
   "data": [
     {
       "id": 1,
@@ -94,29 +94,15 @@
           "finalGameListId": 4
         },
         {
-          "gameId": 1360,
-          "gameTitle": "Adventure",
-          "trackStatus": 0,
-          "citations": 3,
-          "porcentageOfCitations": 75,
-          "firstReleaseDate": "1979-12-01T00:00:00Z",
-          "releaseYear": 1979,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69tb.jpg",
-          "score": 36,
-          "position": 2,
-          "gameListId": 584,
-          "finalGameListId": 4
-        },
-        {
           "gameId": 899,
           "gameTitle": "Space Invaders",
           "trackStatus": 0,
-          "citations": 3,
-          "porcentageOfCitations": 75,
+          "citations": 2,
+          "porcentageOfCitations": 50,
           "firstReleaseDate": "1978-06-01T00:00:00Z",
           "releaseYear": 1978,
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25xd.jpg",
-          "score": 35,
+          "score": 25,
           "position": 4,
           "gameListId": 473,
           "finalGameListId": 4
@@ -125,14 +111,28 @@
           "gameId": 511,
           "gameTitle": "Ms. Pac-Man",
           "trackStatus": 0,
-          "citations": 3,
-          "porcentageOfCitations": 75,
+          "citations": 2,
+          "porcentageOfCitations": 50,
           "firstReleaseDate": "1982-01-13T00:00:00Z",
           "releaseYear": 1982,
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53rj.jpg",
-          "score": 27,
+          "score": 24,
           "position": 3,
           "gameListId": 473,
+          "finalGameListId": 4
+        },
+        {
+          "gameId": 2329,
+          "gameTitle": "Adventure",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 50,
+          "firstReleaseDate": "1983-12-31T00:00:00Z",
+          "releaseYear": 1983,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qzcqrjruhpuge5egkzgj.jpg",
+          "score": 22,
+          "position": 4,
+          "gameListId": 1029,
           "finalGameListId": 4
         }
       ]
@@ -190,16 +190,16 @@
           "finalGameListId": 5
         },
         {
-          "gameId": 553,
-          "gameTitle": "Super Mario Bros.",
+          "gameId": 562,
+          "gameTitle": "Contra",
           "trackStatus": 0,
-          "citations": 4,
-          "porcentageOfCitations": 80,
-          "firstReleaseDate": "1985-09-13T00:00:00Z",
-          "releaseYear": 1985,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bni.jpg",
-          "score": 48,
-          "position": 3,
+          "citations": 5,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "1987-02-20T00:00:00Z",
+          "releaseYear": 1987,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ben.jpg",
+          "score": 38,
+          "position": 12,
           "gameListId": 363,
           "finalGameListId": 5
         }
@@ -284,20 +284,6 @@
       "tagList": [],
       "topWinners": [
         {
-          "gameId": 2310,
-          "gameTitle": "Phantasy Star IV: The End of the Millennium",
-          "trackStatus": 0,
-          "citations": 3,
-          "porcentageOfCitations": 75,
-          "firstReleaseDate": "1993-12-17T00:00:00Z",
-          "releaseYear": 1993,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g92.jpg",
-          "score": 41,
-          "position": 2,
-          "gameListId": 1028,
-          "finalGameListId": 7
-        },
-        {
           "gameId": 846,
           "gameTitle": "Sonic the Hedgehog 2",
           "trackStatus": 0,
@@ -309,6 +295,20 @@
           "score": 41,
           "position": 1,
           "gameListId": 462,
+          "finalGameListId": 7
+        },
+        {
+          "gameId": 2310,
+          "gameTitle": "Phantasy Star IV: The End of the Millennium",
+          "trackStatus": 0,
+          "citations": 3,
+          "porcentageOfCitations": 75,
+          "firstReleaseDate": "1993-12-17T00:00:00Z",
+          "releaseYear": 1993,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g92.jpg",
+          "score": 41,
+          "position": 2,
+          "gameListId": 1028,
           "finalGameListId": 7
         },
         {
@@ -462,16 +462,16 @@
           "finalGameListId": 9
         },
         {
-          "gameId": 171,
-          "gameTitle": "Paper Mario",
+          "gameId": 167,
+          "gameTitle": "The Legend of Zelda: Majora\u0027s Mask",
           "trackStatus": 0,
-          "citations": 4,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2000-08-11T00:00:00Z",
+          "citations": 3,
+          "porcentageOfCitations": 75,
+          "firstReleaseDate": "2000-04-27T00:00:00Z",
           "releaseYear": 2000,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qda.jpg",
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3pah.jpg",
           "score": 39,
-          "position": 6,
+          "position": 4,
           "gameListId": 282,
           "finalGameListId": 9
         }
@@ -598,17 +598,17 @@
           "finalGameListId": 11
         },
         {
-          "gameId": 307,
+          "gameId": 426,
           "gameTitle": "Resident Evil 4",
           "trackStatus": 0,
-          "citations": 10,
-          "porcentageOfCitations": 83,
-          "firstReleaseDate": "2005-10-25T00:00:00Z",
+          "citations": 9,
+          "porcentageOfCitations": 75,
+          "firstReleaseDate": "2005-01-11T00:00:00Z",
           "releaseYear": 2005,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wki.jpg",
-          "score": 115,
-          "position": 4,
-          "gameListId": 299,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2wk8.jpg",
+          "score": 103,
+          "position": 10,
+          "gameListId": 328,
           "finalGameListId": 11
         }
       ]
@@ -1114,16 +1114,16 @@
           "finalGameListId": 19
         },
         {
-          "gameId": 577,
-          "gameTitle": "Bayonetta 2",
+          "gameId": 575,
+          "gameTitle": "The Legend of Zelda: The Wind Waker HD",
           "trackStatus": 0,
           "citations": 2,
           "porcentageOfCitations": 100,
-          "firstReleaseDate": "2014-09-20T00:00:00Z",
-          "releaseYear": 2014,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qocwccspgmgamvhaplgp.jpg",
+          "firstReleaseDate": "2013-09-26T00:00:00Z",
+          "releaseYear": 2013,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ozi.jpg",
           "score": 24,
-          "position": 4,
+          "position": 2,
           "gameListId": 365,
           "finalGameListId": 19
         },
@@ -1142,16 +1142,16 @@
           "finalGameListId": 19
         },
         {
-          "gameId": 575,
-          "gameTitle": "The Legend of Zelda: The Wind Waker HD",
+          "gameId": 577,
+          "gameTitle": "Bayonetta 2",
           "trackStatus": 0,
           "citations": 2,
           "porcentageOfCitations": 100,
-          "firstReleaseDate": "2013-09-26T00:00:00Z",
-          "releaseYear": 2013,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ozi.jpg",
+          "firstReleaseDate": "2014-09-20T00:00:00Z",
+          "releaseYear": 2014,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/qocwccspgmgamvhaplgp.jpg",
           "score": 24,
-          "position": 2,
+          "position": 4,
           "gameListId": 365,
           "finalGameListId": 19
         }
@@ -1182,20 +1182,6 @@
           "finalGameListId": 20
         },
         {
-          "gameId": 23,
-          "gameTitle": "The Legend of Zelda: Breath of the Wild",
-          "trackStatus": 0,
-          "citations": 20,
-          "porcentageOfCitations": 74,
-          "firstReleaseDate": "2017-03-03T00:00:00Z",
-          "releaseYear": 2017,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
-          "score": 266,
-          "position": 1,
-          "gameListId": 369,
-          "finalGameListId": 20
-        },
-        {
           "gameId": 21,
           "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
           "trackStatus": 0,
@@ -1207,6 +1193,20 @@
           "score": 266,
           "position": 2,
           "gameListId": 385,
+          "finalGameListId": 20
+        },
+        {
+          "gameId": 23,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "trackStatus": 0,
+          "citations": 20,
+          "porcentageOfCitations": 74,
+          "firstReleaseDate": "2017-03-03T00:00:00Z",
+          "releaseYear": 2017,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+          "score": 266,
+          "position": 1,
+          "gameListId": 369,
           "finalGameListId": 20
         },
         {
@@ -1604,20 +1604,6 @@
           "finalGameListId": 26
         },
         {
-          "gameId": 370,
-          "gameTitle": "Outer Wilds",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2019-05-28T00:00:00Z",
-          "releaseYear": 2019,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg",
-          "score": 20,
-          "position": 11,
-          "gameListId": 505,
-          "finalGameListId": 26
-        },
-        {
           "gameId": 354,
           "gameTitle": "Resident Evil 2",
           "trackStatus": 0,
@@ -1628,6 +1614,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg",
           "score": 20,
           "position": 3,
+          "gameListId": 505,
+          "finalGameListId": 26
+        },
+        {
+          "gameId": 370,
+          "gameTitle": "Outer Wilds",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "2019-05-28T00:00:00Z",
+          "releaseYear": 2019,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ac.jpg",
+          "score": 20,
+          "position": 11,
           "gameListId": 505,
           "finalGameListId": 26
         }
@@ -2066,20 +2066,6 @@
           "finalGameListId": 33
         },
         {
-          "gameId": 868,
-          "gameTitle": "Far Cry 3",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2012-11-28T00:00:00Z",
-          "releaseYear": 2012,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.jpg",
-          "score": 24,
-          "position": 3,
-          "gameListId": 537,
-          "finalGameListId": 33
-        },
-        {
           "gameId": 332,
           "gameTitle": "Journey",
           "trackStatus": 0,
@@ -2090,6 +2076,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q8q.jpg",
           "score": 24,
           "position": 6,
+          "gameListId": 537,
+          "finalGameListId": 33
+        },
+        {
+          "gameId": 868,
+          "gameTitle": "Far Cry 3",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "2012-11-28T00:00:00Z",
+          "releaseYear": 2012,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vpd.jpg",
+          "score": 24,
+          "position": 3,
           "gameListId": 537,
           "finalGameListId": 33
         },
@@ -2270,20 +2270,6 @@
           "finalGameListId": 36
         },
         {
-          "gameId": 500,
-          "gameTitle": "Assassin\u0027s Creed II",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2009-11-17T00:00:00Z",
-          "releaseYear": 2009,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.jpg",
-          "score": 25,
-          "position": 2,
-          "gameListId": 532,
-          "finalGameListId": 36
-        },
-        {
           "gameId": 321,
           "gameTitle": "Uncharted 2: Among Thieves",
           "trackStatus": 0,
@@ -2294,6 +2280,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnb.jpg",
           "score": 25,
           "position": 6,
+          "gameListId": 532,
+          "finalGameListId": 36
+        },
+        {
+          "gameId": 500,
+          "gameTitle": "Assassin\u0027s Creed II",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "2009-11-17T00:00:00Z",
+          "releaseYear": 2009,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.jpg",
+          "score": 25,
+          "position": 2,
           "gameListId": 532,
           "finalGameListId": 36
         },
@@ -2695,12 +2695,12 @@
           "gameId": 1107,
           "gameTitle": "Prince of Persia: The Sands of Time",
           "trackStatus": 0,
-          "citations": 3,
-          "porcentageOfCitations": 100,
+          "citations": 2,
+          "porcentageOfCitations": 67,
           "firstReleaseDate": "2003-10-28T00:00:00Z",
           "releaseYear": 2003,
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ia6.jpg",
-          "score": 35,
+          "score": 22,
           "position": 4,
           "gameListId": 519,
           "finalGameListId": 42
@@ -2978,16 +2978,16 @@
           "finalGameListId": 46
         },
         {
-          "gameId": 343,
-          "gameTitle": "Legacy of Kain: Soul Reaver",
+          "gameId": 1079,
+          "gameTitle": "Age of Empires II: The Age of Kings",
           "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "1999-08-16T00:00:00Z",
+          "citations": 1,
+          "porcentageOfCitations": 50,
+          "firstReleaseDate": "1999-09-30T00:00:00Z",
           "releaseYear": 1999,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yal.jpg",
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55xo.jpg",
           "score": 14,
-          "position": 7,
+          "position": 2,
           "gameListId": 513,
           "finalGameListId": 46
         }
@@ -3004,20 +3004,6 @@
       "tagList": [],
       "topWinners": [
         {
-          "gameId": 1066,
-          "gameTitle": "Grim Fandango",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "1998-10-28T00:00:00Z",
-          "releaseYear": 1998,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25r3.jpg",
-          "score": 27,
-          "position": 2,
-          "gameListId": 508,
-          "finalGameListId": 47
-        },
-        {
           "gameId": 1065,
           "gameTitle": "Half-Life",
           "trackStatus": 0,
@@ -3028,6 +3014,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tnt.jpg",
           "score": 27,
           "position": 1,
+          "gameListId": 508,
+          "finalGameListId": 47
+        },
+        {
+          "gameId": 1066,
+          "gameTitle": "Grim Fandango",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "1998-10-28T00:00:00Z",
+          "releaseYear": 1998,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co25r3.jpg",
+          "score": 27,
+          "position": 2,
           "gameListId": 508,
           "finalGameListId": 47
         },
@@ -3562,20 +3562,6 @@
           "finalGameListId": 55
         },
         {
-          "gameId": 832,
-          "gameTitle": "SoulCalibur II",
-          "trackStatus": 0,
-          "citations": 5,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2003-03-27T00:00:00Z",
-          "releaseYear": 2003,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61yo.jpg",
-          "score": 30,
-          "position": 13,
-          "gameListId": 457,
-          "finalGameListId": 55
-        },
-        {
           "gameId": 533,
           "gameTitle": "Super Smash Bros. Melee",
           "trackStatus": 0,
@@ -3601,6 +3587,20 @@
           "score": 30,
           "position": 3,
           "gameListId": 454,
+          "finalGameListId": 55
+        },
+        {
+          "gameId": 832,
+          "gameTitle": "SoulCalibur II",
+          "trackStatus": 0,
+          "citations": 5,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "2003-03-27T00:00:00Z",
+          "releaseYear": 2003,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co61yo.jpg",
+          "score": 30,
+          "position": 13,
+          "gameListId": 457,
           "finalGameListId": 55
         }
       ]
@@ -3631,7 +3631,7 @@
         },
         {
           "gameId": 32,
-          "gameTitle": "Astro Bot: Rescue Mission",
+          "gameTitle": "ASTRO BOT: Rescue Mission",
           "trackStatus": 0,
           "citations": 1,
           "porcentageOfCitations": 100,
@@ -3712,20 +3712,6 @@
           "finalGameListId": 57
         },
         {
-          "gameId": 945,
-          "gameTitle": "Asterix",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "1993-12-31T00:00:00Z",
-          "releaseYear": 1993,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20g5.jpg",
-          "score": 19,
-          "position": 10,
-          "gameListId": 477,
-          "finalGameListId": 57
-        },
-        {
           "gameId": 944,
           "gameTitle": "Land of Illusion Starring Mickey Mouse",
           "trackStatus": 0,
@@ -3736,6 +3722,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4zmt.jpg",
           "score": 18,
           "position": 9,
+          "gameListId": 477,
+          "finalGameListId": 57
+        },
+        {
+          "gameId": 939,
+          "gameTitle": "Golden Axe Warrior",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "1991-07-01T00:00:00Z",
+          "releaseYear": 1991,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2b8f.jpg",
+          "score": 17,
+          "position": 4,
           "gameListId": 477,
           "finalGameListId": 57
         }
@@ -4120,20 +4120,6 @@
           "finalGameListId": 63
         },
         {
-          "gameId": 963,
-          "gameTitle": "Final Fantasy XIV Online",
-          "trackStatus": 0,
-          "citations": 8,
-          "porcentageOfCitations": 80,
-          "firstReleaseDate": "2010-09-30T00:00:00Z",
-          "releaseYear": 2010,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1trg.jpg",
-          "score": 84,
-          "position": 1,
-          "gameListId": 1008,
-          "finalGameListId": 63
-        },
-        {
           "gameId": 2234,
           "gameTitle": "Guild Wars 2",
           "trackStatus": 0,
@@ -4144,6 +4130,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54tr.jpg",
           "score": 76,
           "position": 6,
+          "gameListId": 1008,
+          "finalGameListId": 63
+        },
+        {
+          "gameId": 2233,
+          "gameTitle": "Eve Online",
+          "trackStatus": 0,
+          "citations": 7,
+          "porcentageOfCitations": 70,
+          "firstReleaseDate": "2003-05-06T00:00:00Z",
+          "releaseYear": 2003,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7avk.jpg",
+          "score": 67,
+          "position": 5,
           "gameListId": 1008,
           "finalGameListId": 63
         }
@@ -4186,7 +4186,7 @@
         },
         {
           "gameId": 1509,
-          "gameTitle": "Pok\u00E9mon Gold Version",
+          "gameTitle": "Pok\u00E9mon Gold",
           "trackStatus": 0,
           "citations": 3,
           "porcentageOfCitations": 100,
@@ -4417,17 +4417,17 @@
           "finalGameListId": 68
         },
         {
-          "gameId": 345,
-          "gameTitle": "God of War",
+          "gameId": 352,
+          "gameTitle": "Red Dead Redemption 2",
           "trackStatus": 0,
-          "citations": 9,
-          "porcentageOfCitations": 43,
-          "firstReleaseDate": "2018-04-20T00:00:00Z",
+          "citations": 6,
+          "porcentageOfCitations": 29,
+          "firstReleaseDate": "2018-10-26T00:00:00Z",
           "releaseYear": 2018,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tmu.jpg",
-          "score": 97,
-          "position": 8,
-          "gameListId": 670,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg",
+          "score": 82,
+          "position": 3,
+          "gameListId": 672,
           "finalGameListId": 68
         }
       ]
@@ -4458,7 +4458,7 @@
         },
         {
           "gameId": 513,
-          "gameTitle": "Pok\u00E9mon Red Version",
+          "gameTitle": "Pok\u00E9mon Red",
           "trackStatus": 0,
           "citations": 5,
           "porcentageOfCitations": 100,
@@ -4485,17 +4485,17 @@
           "finalGameListId": 69
         },
         {
-          "gameId": 1641,
-          "gameTitle": "Tetris",
+          "gameId": 1496,
+          "gameTitle": "Pok\u00E9mon Yellow",
           "trackStatus": 0,
           "citations": 4,
           "porcentageOfCitations": 80,
-          "firstReleaseDate": "1989-12-31T00:00:00Z",
-          "releaseYear": 1989,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ufl.jpg",
-          "score": 52,
-          "position": 1,
-          "gameListId": 705,
+          "firstReleaseDate": "1998-09-12T00:00:00Z",
+          "releaseYear": 1998,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pih.jpg",
+          "score": 49,
+          "position": 4,
+          "gameListId": 704,
           "finalGameListId": 69
         }
       ]
@@ -4526,7 +4526,7 @@
         },
         {
           "gameId": 510,
-          "gameTitle": "Pok\u00E9mon HeartGold Version",
+          "gameTitle": "Pok\u00E9mon HeartGold",
           "trackStatus": 0,
           "citations": 9,
           "porcentageOfCitations": 69,
@@ -4919,20 +4919,6 @@
       "tagList": [],
       "topWinners": [
         {
-          "gameId": 2051,
-          "gameTitle": "BattleBit Remastered",
-          "trackStatus": 0,
-          "citations": 1,
-          "porcentageOfCitations": 50,
-          "firstReleaseDate": "2023-06-15T00:00:00Z",
-          "releaseYear": 2023,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m2s.jpg",
-          "score": 15,
-          "position": 1,
-          "gameListId": 866,
-          "finalGameListId": 76
-        },
-        {
           "gameId": 2038,
           "gameTitle": "Misericorde: Volume One",
           "trackStatus": 0,
@@ -4944,6 +4930,20 @@
           "score": 15,
           "position": 1,
           "gameListId": 865,
+          "finalGameListId": 76
+        },
+        {
+          "gameId": 2051,
+          "gameTitle": "BattleBit Remastered",
+          "trackStatus": 0,
+          "citations": 1,
+          "porcentageOfCitations": 50,
+          "firstReleaseDate": "2023-06-15T00:00:00Z",
+          "releaseYear": 2023,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m2s.jpg",
+          "score": 15,
+          "position": 1,
+          "gameListId": 866,
           "finalGameListId": 76
         },
         {
@@ -5097,16 +5097,16 @@
           "finalGameListId": 81
         },
         {
-          "gameId": 2886,
-          "gameTitle": "Metroid Prime 4: Beyond",
+          "gameId": 2884,
+          "gameTitle": "Monster Hunter Wilds",
           "trackStatus": 0,
           "citations": 3,
           "porcentageOfCitations": 75,
-          "firstReleaseDate": "2025-12-31T00:00:00Z",
+          "firstReleaseDate": "2025-02-28T00:00:00Z",
           "releaseYear": 2025,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d8c.jpg",
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co904o.jpg",
           "score": 34,
-          "position": 9,
+          "position": 7,
           "gameListId": 1132,
           "finalGameListId": 81
         }
@@ -5259,20 +5259,6 @@
       "tagList": [],
       "topWinners": [
         {
-          "gameId": 354,
-          "gameTitle": "Resident Evil 2",
-          "trackStatus": 0,
-          "citations": 11,
-          "porcentageOfCitations": 92,
-          "firstReleaseDate": "2019-01-25T00:00:00Z",
-          "releaseYear": 2019,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg",
-          "score": 126,
-          "position": 5,
-          "gameListId": 976,
-          "finalGameListId": 84
-        },
-        {
           "gameId": 311,
           "gameTitle": "Silent Hill 2",
           "trackStatus": 0,
@@ -5287,16 +5273,16 @@
           "finalGameListId": 84
         },
         {
-          "gameId": 212,
-          "gameTitle": "Resident Evil 4",
+          "gameId": 354,
+          "gameTitle": "Resident Evil 2",
           "trackStatus": 0,
           "citations": 8,
           "porcentageOfCitations": 67,
-          "firstReleaseDate": "2023-03-24T00:00:00Z",
-          "releaseYear": 2023,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4tg4.jpg",
-          "score": 87,
-          "position": 2,
+          "firstReleaseDate": "2019-01-25T00:00:00Z",
+          "releaseYear": 2019,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ir3.jpg",
+          "score": 85,
+          "position": 5,
           "gameListId": 976,
           "finalGameListId": 84
         },
@@ -5313,6 +5299,20 @@
           "position": 14,
           "gameListId": 976,
           "finalGameListId": 84
+        },
+        {
+          "gameId": 1822,
+          "gameTitle": "Outlast",
+          "trackStatus": 0,
+          "citations": 7,
+          "porcentageOfCitations": 58,
+          "firstReleaseDate": "2013-09-04T00:00:00Z",
+          "releaseYear": 2013,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1yat.jpg",
+          "score": 51,
+          "position": 13,
+          "gameListId": 976,
+          "finalGameListId": 84
         }
       ]
     },
@@ -5326,20 +5326,6 @@
       "pinned": false,
       "tagList": [],
       "topWinners": [
-        {
-          "gameId": 314,
-          "gameTitle": "God of War",
-          "trackStatus": 0,
-          "citations": 4,
-          "porcentageOfCitations": 80,
-          "firstReleaseDate": "2005-03-22T00:00:00Z",
-          "releaseYear": 2005,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ddc.jpg",
-          "score": 35,
-          "position": 9,
-          "gameListId": 988,
-          "finalGameListId": 85
-        },
         {
           "gameId": 352,
           "gameTitle": "Red Dead Redemption 2",
@@ -5379,6 +5365,20 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wyy.jpg",
           "score": 24,
           "position": 7,
+          "gameListId": 989,
+          "finalGameListId": 85
+        },
+        {
+          "gameId": 323,
+          "gameTitle": "Grand Theft Auto V",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 40,
+          "firstReleaseDate": "2013-09-17T00:00:00Z",
+          "releaseYear": 2013,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lbd.jpg",
+          "score": 19,
+          "position": 1,
           "gameListId": 989,
           "finalGameListId": 85
         }
@@ -5477,6 +5477,20 @@
           "finalGameListId": 87
         },
         {
+          "gameId": 1060,
+          "gameTitle": "Fire Emblem: Awakening",
+          "trackStatus": 0,
+          "citations": 2,
+          "porcentageOfCitations": 100,
+          "firstReleaseDate": "2012-04-19T00:00:00Z",
+          "releaseYear": 2012,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co668y.jpg",
+          "score": 27,
+          "position": 2,
+          "gameListId": 1026,
+          "finalGameListId": 87
+        },
+        {
           "gameId": 1012,
           "gameTitle": "The Legend of Zelda: Ocarina of Time 3D",
           "trackStatus": 0,
@@ -5501,20 +5515,6 @@
           "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3whp.jpg",
           "score": 23,
           "position": 4,
-          "gameListId": 1026,
-          "finalGameListId": 87
-        },
-        {
-          "gameId": 2298,
-          "gameTitle": "The Legend of Zelda: Majora\u0027s Mask 3D",
-          "trackStatus": 0,
-          "citations": 2,
-          "porcentageOfCitations": 100,
-          "firstReleaseDate": "2015-02-12T00:00:00Z",
-          "releaseYear": 2015,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1ujb.jpg",
-          "score": 15,
-          "position": 13,
           "gameListId": 1026,
           "finalGameListId": 87
         }

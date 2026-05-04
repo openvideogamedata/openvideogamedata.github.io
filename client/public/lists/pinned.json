@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-04T14:12:56.6405473Z",
+  "syncedAt": "2026-05-04T14:52:32.7984565Z",
   "data": [
     {
       "id": 20,
@@ -26,20 +26,6 @@
           "finalGameListId": 20
         },
         {
-          "gameId": 23,
-          "gameTitle": "The Legend of Zelda: Breath of the Wild",
-          "trackStatus": 0,
-          "citations": 20,
-          "porcentageOfCitations": 74,
-          "firstReleaseDate": "2017-03-03T00:00:00Z",
-          "releaseYear": 2017,
-          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
-          "score": 266,
-          "position": 1,
-          "gameListId": 369,
-          "finalGameListId": 20
-        },
-        {
           "gameId": 21,
           "gameTitle": "The Legend of Zelda: Tears of the Kingdom",
           "trackStatus": 0,
@@ -51,6 +37,20 @@
           "score": 266,
           "position": 2,
           "gameListId": 385,
+          "finalGameListId": 20
+        },
+        {
+          "gameId": 23,
+          "gameTitle": "The Legend of Zelda: Breath of the Wild",
+          "trackStatus": 0,
+          "citations": 20,
+          "porcentageOfCitations": 74,
+          "firstReleaseDate": "2017-03-03T00:00:00Z",
+          "releaseYear": 2017,
+          "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg",
+          "score": 266,
+          "position": 1,
+          "gameListId": 369,
           "finalGameListId": 20
         },
         {

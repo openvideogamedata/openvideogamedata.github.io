@@ -1,5 +1,5 @@
 {
-  "syncedAt": "2026-05-04T14:11:53.8277861Z",
+  "syncedAt": "2026-05-04T14:51:24.4421706Z",
   "slug": "best-games-of-the-playstation-5",
   "type": 0,
   "totalItems": 18,
@@ -117,6 +117,20 @@
         "finalGameListId": 23
       },
       {
+        "gameId": 989,
+        "gameTitle": "Baldur\u0027s Gate 3",
+        "trackStatus": 0,
+        "citations": 9,
+        "porcentageOfCitations": 56,
+        "firstReleaseDate": "2020-10-06T00:00:00Z",
+        "releaseYear": 2020,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
+        "score": 110,
+        "position": 2,
+        "gameListId": 460,
+        "finalGameListId": 23
+      },
+      {
         "gameId": 1001,
         "gameTitle": "Final Fantasy VII Rebirth",
         "trackStatus": 0,
@@ -128,20 +142,6 @@
         "score": 106,
         "position": 8,
         "gameListId": 958,
-        "finalGameListId": 23
-      },
-      {
-        "gameId": 989,
-        "gameTitle": "Baldur\u0027s Gate 3",
-        "trackStatus": 0,
-        "citations": 6,
-        "porcentageOfCitations": 38,
-        "firstReleaseDate": "2020-10-06T00:00:00Z",
-        "releaseYear": 2020,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
-        "score": 69,
-        "position": 2,
-        "gameListId": 460,
         "finalGameListId": 23
       },
       {
@@ -224,8 +224,8 @@
         "releaseYear": 2023,
         "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6jar.jpg",
         "score": 46,
-        "position": 14,
-        "gameListId": 304,
+        "position": 9,
+        "gameListId": 461,
         "finalGameListId": 23
       },
       {
@@ -243,20 +243,6 @@
         "finalGameListId": 23
       },
       {
-        "gameId": 989,
-        "gameTitle": "Baldur\u0027s Gate III",
-        "trackStatus": 0,
-        "citations": 3,
-        "porcentageOfCitations": 19,
-        "firstReleaseDate": "2020-10-06T00:00:00Z",
-        "releaseYear": 2020,
-        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg",
-        "score": 41,
-        "position": 1,
-        "gameListId": 1239,
-        "finalGameListId": 23
-      },
-      {
         "gameId": 843,
         "gameTitle": "The Witcher 3: Wild Hunt - Complete Edition",
         "trackStatus": 0,
@@ -268,6 +254,20 @@
         "score": 41,
         "position": 5,
         "gameListId": 460,
+        "finalGameListId": 23
+      },
+      {
+        "gameId": 108,
+        "gameTitle": "Persona 5 Royal",
+        "trackStatus": 0,
+        "citations": 4,
+        "porcentageOfCitations": 25,
+        "firstReleaseDate": "2019-10-31T00:00:00Z",
+        "releaseYear": 2019,
+        "coverImageUrl": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1nic.jpg",
+        "score": 39,
+        "position": 2,
+        "gameListId": 490,
         "finalGameListId": 23
       }
     ],
@@ -366,7 +366,7 @@
       },
       {
         "gameId": 36,
-        "gameTitle": "Dirt Rally 2.0",
+        "gameTitle": "DiRT Rally 2.0",
         "trackStatus": 0,
         "citations": 1,
         "porcentageOfCitations": 50,
@@ -513,12 +513,6 @@
         "year": null
       },
       {
-        "sourceName": "IGN",
-        "sourceUrl": "https://www.ign.com/articles/the-best-ps5-games",
-        "sourceDateLastUpdated": "2025-04-23T19:08:53.478392Z",
-        "year": null
-      },
-      {
         "sourceName": "GamesRadar\u002B",
         "sourceUrl": "https://www.gamesradar.com/best-ps5-games/",
         "sourceDateLastUpdated": "2025-04-23T19:18:18.246848Z",
@@ -594,6 +588,12 @@
         "sourceName": "Destructoid",
         "sourceUrl": "https://www.destructoid.com/top-best-ps5-games-so-far/",
         "sourceDateLastUpdated": null,
+        "year": null
+      },
+      {
+        "sourceName": "IGN",
+        "sourceUrl": "https://www.ign.com/articles/the-best-ps5-games",
+        "sourceDateLastUpdated": "2026-05-04T14:31:28.147691Z",
         "year": null
       }
     ],
