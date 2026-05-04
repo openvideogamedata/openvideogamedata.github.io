@@ -327,8 +327,8 @@ public class GameListService
                 .Where(item => !item.GameList.ByUser)
                 .Include(item => item.Game)
                 .ThenInclude(game => game.GameUserTrackers)
-                .GroupBy(item => item.GameTitle)
-                .Select((group) => new TopWinner() { GameTitle = group.Key,
+                .GroupBy(item => item.GameId)
+                .Select((group) => new TopWinner() { GameTitle = group.First().Game.Title,
                                                     GameId = group.First().Game.Id,
                                                     TrackStatus = TrackStatus.None,
                                                     FirstReleaseDate = group.First().Game.FirstReleaseDate,
@@ -414,8 +414,8 @@ public class GameListService
         var topWinners = query
             .Include(item => item.Game)
             .ThenInclude(game => game.GameUserTrackers)
-            .GroupBy(item => item.GameTitle)
-            .Select((group) => new GroupItem() { GameTitle = group.Key,
+            .GroupBy(item => item.GameId)
+            .Select((group) => new GroupItem() { GameTitle = group.First().Game.Title,
                                                 GameId = group.First().Game.Id,
                                                 TrackStatus = group.First().Game.GameUserTrackers
                                                     .FirstOrDefault(track => track.UserId == userId) != null ? group.First().Game.GameUserTrackers
