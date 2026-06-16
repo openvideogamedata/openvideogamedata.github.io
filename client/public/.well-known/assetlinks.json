@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.openvideogamedata.www.twa",
+      "sha256_cert_fingerprints": [
+        "F6:87:45:CB:56:E6:DC:74:2E:41:29:06:E6:FA:5B:22:DD:A2:DB:B5:49:6C:F4:B0:2B:C0:97:E8:49:C0:83:B3"
+      ]
+    }
+  }
+]
