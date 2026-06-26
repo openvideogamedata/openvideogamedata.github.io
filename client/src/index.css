@@ -114,20 +114,25 @@ img {
 }
 
 .google-login-slot.is-pending {
-  opacity: 0.72;
   pointer-events: none;
 }
 
-.google-login-feedback {
+.google-login-loading {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 10px;
-  color: var(--text-muted);
-  font-size: 0.88rem;
-  line-height: 1.4;
-  text-align: center;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 14px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.94);
+  color: #3c4043;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.2;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.16);
 }
 
 .google-login-spinner {

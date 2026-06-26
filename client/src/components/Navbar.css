@@ -117,6 +117,10 @@
   animation: submenu-in 0.15s ease both;
 }
 
+.mobile-submenu-admin {
+  border-left-color: rgba(167, 139, 250, 0.55);
+}
+
 .mobile-submenu-link {
   display: flex;
   align-items: center;
@@ -430,7 +434,7 @@
   .navbar-search-form,
   .icon-btn:not(.mobile-nav-toggle),
   .user-menu-wrap,
-  .btn-primary-sm {
+  .navbar-actions > .btn-primary-sm {
     display: none;
   }
 }

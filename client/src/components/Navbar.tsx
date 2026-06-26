@@ -11,6 +11,7 @@ export default function Navbar() {
   const [desktopProfileOpen, setDesktopProfileOpen] = useState(false)
   const [mobileNavOpen, setMobileNavOpen] = useState(false)
   const [mobileProfileOpen, setMobileProfileOpen] = useState(false)
+  const [mobileAdminOpen, setMobileAdminOpen] = useState(false)
   const [query, setQuery] = useState('')
   const inputRef = useRef<HTMLInputElement>(null)
   const menuRef = useRef<HTMLDivElement>(null)
@@ -32,6 +33,7 @@ export default function Navbar() {
       if (mobileNavRef.current && !mobileNavRef.current.contains(e.target as Node)) {
         setMobileNavOpen(false)
         setMobileProfileOpen(false)
+        setMobileAdminOpen(false)
       }
     }
     if (menuOpen || mobileNavOpen) document.addEventListener('mousedown', handleClick)
@@ -54,6 +56,7 @@ export default function Navbar() {
     setDesktopProfileOpen(false)
     setMobileNavOpen(false)
     setMobileProfileOpen(false)
+    setMobileAdminOpen(false)
   }
 
   return (
@@ -81,7 +84,10 @@ export default function Navbar() {
               onClick={() => {
                 setMobileNavOpen(v => {
                   const next = !v
-                  if (!next) setMobileProfileOpen(false)
+                  if (!next) {
+                    setMobileProfileOpen(false)
+                    setMobileAdminOpen(false)
+                  }
                   return next
                 })
               }}
@@ -115,7 +121,6 @@ export default function Navbar() {
                   user ? (
                     <>
                       <div className="mobile-nav-divider" />
-                      <Link to="/dashboard" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Dashboard</Link>
                       <button
                         className="mobile-nav-link mobile-nav-link-toggle"
                         onClick={() => setMobileProfileOpen(v => !v)}
@@ -126,7 +131,9 @@ export default function Navbar() {
                       </button>
                       {mobileProfileOpen && (
                         <div className="mobile-submenu">
+                          <Link to="/dashboard" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Dashboard</Link>
                           <Link to={`/users/${user.nickname}`} className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Overview</Link>
+                          <Link to={`/users/${user.nickname}/trackers`} className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Trackers</Link>
                           <Link to="/badges" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Badges</Link>
                           <Link to={`/users/${user.nickname}/lists`} className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>My Lists</Link>
                           <Link to="/notifications" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>
@@ -139,13 +146,24 @@ export default function Navbar() {
                           </Link>
                         </div>
                       )}
-                      <Link to={`/users/${user.nickname}/trackers`} className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Trackers</Link>
                       <Link to="/timeline" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Timeline</Link>
                       {isAdmin && (
                         <>
-                          <Link to="/admin/users" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Users</Link>
-                          <Link to="/admin/lists/new" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: New List</Link>
-                          <Link to="/admin/list-suggestions" className="mobile-nav-link" onClick={() => setMobileNavOpen(false)}>Admin: Suggestions</Link>
+                          <button
+                            className="mobile-nav-link mobile-nav-link-toggle"
+                            onClick={() => setMobileAdminOpen(v => !v)}
+                            aria-expanded={mobileAdminOpen}
+                          >
+                            <span>Admin</span>
+                            <span className={`mobile-nav-chevron ${mobileAdminOpen ? 'open' : ''}`}><ChevronIcon /></span>
+                          </button>
+                          {mobileAdminOpen && (
+                            <div className="mobile-submenu mobile-submenu-admin">
+                              <Link to="/admin/users" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Users</Link>
+                              <Link to="/admin/lists/new" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>New List</Link>
+                              <Link to="/admin/list-suggestions" className="mobile-submenu-link" onClick={() => setMobileNavOpen(false)}>Suggestions</Link>
+                            </div>
+                          )}
                         </>
                       )}
                       <button

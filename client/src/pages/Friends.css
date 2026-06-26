@@ -242,3 +242,22 @@
   border-bottom: 1px solid var(--border);
 }
 .activity-skeleton-item:last-child { border-bottom: none; }
+
+@media (max-width: 480px) {
+  .friend-row {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.875rem;
+  }
+
+  .request-actions {
+    width: 100%;
+  }
+
+  .request-actions .btn-primary-sm,
+  .request-actions .btn-outline-sm {
+    flex: 1;
+    justify-content: center;
+  }
+}
